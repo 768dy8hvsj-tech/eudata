@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poland — EU membership impact</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --series-1: #2a78d6;
+    --series-2: #eb6834;
+    --neg: #e34948;
+    --band: rgba(42,120,214,0.06);
+    --tooltip-bg: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1: #1a1a19; --page: #0d0d0d;
+      --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #898781;
+      --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+      --series-1: #3987e5; --series-2: #d95926; --neg: #e66767;
+      --band: rgba(57,135,229,0.10); --tooltip-bg: #242423;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1: #1a1a19; --page: #0d0d0d;
+    --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #898781;
+    --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+    --series-1: #3987e5; --series-2: #d95926; --neg: #e66767;
+    --band: rgba(57,135,229,0.10); --tooltip-bg: #242423;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .viz-root { background: var(--page); color: var(--text-primary); min-height: 100vh; padding: 24px 20px 48px; }
+  .wrap { max-width: 1060px; margin: 0 auto; }
+
+  header.top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+  h1 { font-size: 26px; font-weight: 650; letter-spacing: -0.02em; }
+  .subtitle { color: var(--text-secondary); font-size: 14px; margin-top: 4px; max-width: 660px; line-height: 1.5; }
+  .theme-btn { border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+    border-radius: 8px; padding: 6px 12px; font-size: 12.5px; cursor: pointer; white-space: nowrap; font-family: inherit; }
+  .theme-btn:hover { color: var(--text-primary); }
+
+  nav.tabs { display: flex; gap: 4px; margin: 20px 0 16px; flex-wrap: wrap; border-bottom: 1px solid var(--border); }
+  nav.tabs button { background: none; border: none; border-bottom: 2px solid transparent; color: var(--text-secondary);
+    font-size: 14px; font-weight: 500; padding: 8px 14px 10px; cursor: pointer; font-family: inherit; }
+  nav.tabs button:hover { color: var(--text-primary); }
+  nav.tabs button[aria-selected="true"] { color: var(--text-primary); border-bottom-color: var(--series-1); font-weight: 600; }
+
+  section.panel { display: none; }
+  section.panel.active { display: block; }
+
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-bottom: 16px; }
+  .tile { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+  .tile .label { font-size: 12.5px; color: var(--text-secondary); margin-bottom: 6px; }
+  .tile .value { font-size: 30px; font-weight: 600; letter-spacing: -0.01em; }
+  .tile .delta { font-size: 12.5px; margin-top: 6px; color: var(--text-secondary); }
+  .tile .delta strong { color: var(--text-primary); font-weight: 600; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 780px) { .grid2 { grid-template-columns: 1fr; } }
+
+  .card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 18px 18px 12px; margin-bottom: 14px; }
+  .card h3 { font-size: 15px; font-weight: 600; }
+  .card .sub { font-size: 12.5px; color: var(--text-secondary); margin-top: 3px; margin-bottom: 10px; line-height: 1.45; }
+  .card.prose { padding-bottom: 18px; }
+  .card.prose p { font-size: 13.5px; color: var(--text-secondary); line-height: 1.6; margin-top: 8px; }
+  .card.prose p strong { color: var(--text-primary); font-weight: 600; }
+
+  .legend { display: flex; gap: 16px; margin-bottom: 8px; flex-wrap: wrap; }
+  .legend .key { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--text-secondary); }
+  .legend .key .swatch-line { width: 16px; height: 2px; border-radius: 1px; }
+
+  .chart-box { position: relative; }
+  .chart-box svg { display: block; width: 100%; height: auto; }
+  .tooltip { position: absolute; pointer-events: none; display: none; z-index: 5; background: var(--tooltip-bg);
+    border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12); min-width: 120px; }
+  .tooltip .tt-title { color: var(--text-muted); font-size: 11px; margin-bottom: 4px; }
+  .tooltip .tt-row { display: flex; align-items: center; gap: 6px; margin-top: 2px; }
+  .tooltip .tt-key { width: 10px; height: 2px; border-radius: 1px; flex: none; }
+  .tooltip .tt-val { font-weight: 600; color: var(--text-primary); }
+  .tooltip .tt-name { color: var(--text-secondary); }
+
+  details.data-table { margin-top: 4px; }
+  details.data-table summary { font-size: 12px; color: var(--text-muted); cursor: pointer; padding: 6px 0; }
+  details.data-table summary:hover { color: var(--text-primary); }
+  details.data-table table { width: 100%; border-collapse: collapse; font-size: 12px; margin: 6px 0 10px; }
+  details.data-table th, details.data-table td { text-align: right; padding: 4px 8px; border-bottom: 1px solid var(--grid);
+    font-variant-numeric: tabular-nums; color: var(--text-secondary); }
+  details.data-table th { color: var(--text-muted); font-weight: 500; }
+  details.data-table th:first-child, details.data-table td:first-child { text-align: left; }
+
+  .timeline { list-style: none; margin-top: 6px; }
+  .timeline li { display: flex; gap: 14px; padding: 9px 0; border-bottom: 1px solid var(--grid); }
+  .timeline li:last-child { border-bottom: none; }
+  .timeline .tdate { flex: none; width: 96px; font-size: 12.5px; color: var(--text-muted);
+    font-variant-numeric: tabular-nums; padding-top: 1px; }
+  .timeline .tbody { font-size: 13.5px; color: var(--text-secondary); line-height: 1.5; }
+  .timeline .tbody strong { color: var(--text-primary); font-weight: 600; }
+  .timeline li.era .tbody strong { color: var(--series-1); }
+  .tl-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--series-1); margin-top: 6px; }
+  .tl-dot.warn { background: var(--neg); }
+
+  .note { font-size: 12px; color: var(--text-muted); line-height: 1.5; margin-top: 10px; }
+  .flag { color: var(--text-muted); font-size: 11.5px; }
+  .src-list { font-size: 13px; color: var(--text-secondary); line-height: 1.65; }
+  .src-list a { color: var(--series-1); text-decoration: none; }
+  .src-list a:hover { text-decoration: underline; }
+  .src-list p { margin-top: 10px; }
+  code.ind { font-size: 11.5px; color: var(--text-muted); background: var(--page); padding: 1px 5px; border-radius: 4px; }
+  .stamp { font-size: 11.5px; color: var(--text-muted); margin-top: 14px; }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <h1 id="hTitle"></h1>
+        <p class="subtitle" id="hSub"></p>
+      </div>
+      <button class="theme-btn" id="themeBtn" type="button">Theme: auto</button>
+    </header>
+    <nav class="tabs" role="tablist" id="tabs"></nav>
+    <div id="panels"></div>
+    <p class="stamp" id="stamp"></p>
+  </div>
+</div>
+
+<script id="payload" type="application/json">{"iso3": "POL", "name": "Poland", "subtitle": "Pilot country for the EU membership-impact project. Annual view from 1996 (two years before accession negotiations opened) through negotiations (1998–2002), entry (1 May 2004) and today. Five lenses: legal, financial, commercial, political, social.", "window": {"start": 1996, "end": 2025, "negotiationsOpen": 1998.25, "negotiationsClose": 2002.95, "accession": 2004.33, "accessionLabel": "EU entry"}, "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "series": {"POL|DERIVED.PPP.PCT.EU": [45.27, 47.01, 47.67, 48.54, 48.49, 48.15, 48.88, 49.82, 51.77, 51.83, 52.05, 54.08, 56.39, 60.41, 63.62, 65.79, 67.58, 67.33, 68.14, 70.0, 69.35, 70.11, 71.79, 73.85, 77.97, 79.01, 79.86, 78.76, 80.34, 82.84], "POL|NY.GDP.MKTP.KD.ZG": [6.09, 6.36, 4.62, 4.7, 4.66, 1.23, 1.9, 3.52, 5.09, 3.26, 6.2, 6.76, 4.38, 2.62, 3.17, 5.26, 1.51, 0.68, 3.92, 4.43, 3.03, 5.15, 6.25, 4.58, -2.04, 6.93, 5.26, 0.25, 3.03, 3.57], "POL|FP.CPI.TOTL.ZG": [19.79, 14.91, 11.6, 7.15, 9.9, 5.41, 1.91, 0.68, 3.38, 2.18, 1.28, 2.46, 4.16, 3.8, 2.58, 4.24, 3.56, 0.99, 0.05, -0.87, -0.66, 2.08, 1.81, 2.23, 3.37, 5.06, 14.43, 11.53, 3.79, 3.81], "POL|SL.UEM.TOTL.ZS": [12.684, 10.964, 9.935, 12.29, 14.928, 18.435, 20.211, 19.899, 18.822, 17.592, 13.794, 9.551, 7.069, 8.131, 9.578, 9.576, 10.031, 10.293, 8.971, 7.475, 6.141, 4.867, 3.835, 3.267, 3.155, 3.268, 2.811, 2.743, 2.807, 2.976], "EUU|NY.GDP.PCAP.PP.CD": [18358.26, 19075.9, 19970.41, 20769.05, 22111.55, 23208.69, 24225.43, 24749.1, 25910.57, 26886.78, 29209.47, 31125.35, 32579.99, 31950.76, 32995.33, 34666.61, 35110.66, 36288.95, 37363.36, 38551.99, 40893.58, 43031.12, 45055.2, 48588.12, 47566.44, 51968.44, 58573.21, 61545.82, 63808.07, 65503.07], "POL|NY.GDP.PCAP.PP.CD": [8310.3, 8967.12, 9520.71, 10080.69, 10721.2, 11175.29, 11841.27, 12328.9, 13413.05, 13935.56, 15204.88, 16833.23, 18372.38, 19300.17, 20990.91, 22808.51, 23728.15, 24433.89, 25459.74, 26988.11, 28359.69, 30170.28, 32345.11, 35882.37, 37089.3, 41059.58, 46777.55, 48473.09, 51262.51, 54262.4], "POL|NE.EXP.GNFS.ZS": [21.98, 23.26, 25.86, 24.0, 27.07, 27.06, 28.62, 33.24, 34.06, 34.53, 37.66, 38.47, 37.67, 37.0, 39.89, 42.32, 44.02, 45.77, 46.22, 47.16, 49.91, 51.69, 52.23, 52.61, 52.43, 57.04, 62.35, 57.88, 52.18, 49.95], "POL|NE.IMP.GNFS.ZS": [23.39, 27.12, 30.69, 29.9, 33.54, 30.82, 32.17, 35.97, 36.92, 35.79, 40.04, 42.27, 42.91, 37.96, 42.33, 44.61, 44.81, 44.65, 45.81, 45.09, 46.96, 48.87, 50.21, 48.97, 46.83, 53.84, 60.67, 52.14, 48.18, 47.08], "POL|BX.KLT.DINV.WD.GD.ZS": [2.8, 3.07, 3.64, 4.34, 5.4, 2.96, 2.05, 2.46, 5.41, 3.6, 6.21, 5.83, 2.72, 3.18, 3.94, 3.57, 1.53, 0.26, 3.85, 3.3, 3.82, 2.38, 3.35, 3.15, 3.31, 5.44, 6.01, 4.39, 2.25, 1.93], "POL|ST.INT.ARVL": [87439000.0, 87817000.0, 88592000.0, 89118000.0, 84515000.0, 61431000.0, 50735000.0, 52130000.0, 61918000.0, 64605999.99999999, 65114999.99999999, 66208000.0, 59935000.0, 53840000.0, 58340000.0, 60745000.0, 67390000.0, 72310000.0, 73750000.0, 77743000.0, 80476000.0, 83804000.0, 85946000.0, 88515000.0, null, null, null, null, null, null], "POL|SM.POP.NETM": [-45349.0, -44230.0, -39509.0, -53035.0, -15921.0, -16648.0, -16462.0, -19039.0, -38216.0, -41942.0, -68882.0, -51235.0, -42288.0, -8283.0, 119623.0, 45951.0, 4635.0, 12402.0, 5525.0, 3887.0, -5675.0, -21535.0, -223.0, 7696.0, 3920.0, 2251.0, 967744.0, -7824.0, -238062.0, -330820.0], "POL|SI.POV.GINI": [32.6, null, 32.3, 32.3, 33.0, 32.8, 34.1, 34.9, 38.0, 35.8, 34.7, 34.0, 33.5, 33.4, 33.2, 33.2, 33.0, 33.1, 32.8, 31.8, 31.2, 29.7, 30.2, 28.8, 28.5, 28.5, 28.9, 28.5, null, null]}, "kpis": [{"label": "GDP per capita (PPP), vs EU average", "delta": "up from <strong>45%<\/strong> in 1996 · World Bank", "value": "83%"}, {"label": "Net EU budget transfers, 2004–2023", "value": "€161.8bn", "delta": "€245.5bn received − €83.7bn paid in · Ministry of Finance (PL)"}, {"label": "Unemployment (ILO), 2025", "delta": "peak <strong>20.2%<\/strong> in 2002, on the eve of entry · World Bank", "value": "3.0%"}, {"label": "Exports of goods &amp; services, % of GDP", "delta": "<strong>22%<\/strong> in 1996 · World Bank", "value": "50%"}], "heroChart": {"title": "Convergence with the EU: GDP per capita (PPP) as % of EU average", "sub": "Poland's income level relative to the EU-wide average, current international $ at purchasing power parity. Shaded band = accession negotiations (Mar 1998 – Dec 2002) and ratification; vertical line = EU entry.", "series": [{"code": "DERIVED.PPP.PCT.EU", "name": "Poland, % of EU average"}], "opts": {"unit": "%", "dp": 1, "area": true}}, "tabs": {"legal": [{"type": "prose", "title": "Adopting the acquis (1994–2004)", "paras": ["Membership required Poland to absorb the entire body of EU law — the <strong>acquis communautaire<\/strong>, negotiated across ~30 chapters between 1998 and 2002. This drove a wholesale harmonisation of Polish legislation before entry: competition and state-aid rules, environmental standards, food safety, public procurement, consumer protection, border and customs law. Pre-accession restructuring of coal and steel had to conform to EU state-aid discipline before day one.", "The 1997 Constitution was written with membership in view: <strong>Articles 90–91<\/strong> permit the transfer of competences to an international organisation and give ratified treaties precedence over national statutes — the domestic legal basis for EU law's direct effect in Poland."]}, {"type": "prose", "title": "Inside the Union: supremacy and its limits (2004–2015)", "paras": ["From 1 May 2004 EU regulations applied directly and Polish courts began referring questions to the Court of Justice of the EU. Poland's Constitutional Tribunal accepted membership but — like Germany's — reserved the Constitution's position as supreme domestic law, a tension that stayed theoretical for a decade."]}, {"type": "prose", "title": "The rule-of-law conflict (2015–2023)", "paras": ["Judicial overhauls from late 2015 (Constitutional Tribunal appointments, court restructuring, a Disciplinary Chamber for judges) triggered the Commission's rule-of-law framework in <strong>January 2016<\/strong> and, on <strong>20 December 2017<\/strong>, the first-ever activation of <strong>Article 7(1) TEU<\/strong> against a member state. The CJEU ruled repeatedly against the disciplinary regime; in <strong>October 2021<\/strong> Poland's Constitutional Tribunal ruled parts of the EU treaties unconstitutional — a direct challenge to the primacy of EU law — and the CJEU imposed a €1m-per-day penalty (later halved) for keeping the Disciplinary Chamber running. Recovery-fund and cohesion money was withheld."]}, {"type": "prose", "title": "Resolution (2022–2024)", "paras": ["A June 2022 law abolished the Disciplinary Chamber; after the 2023 change of government, Poland met the Commission's \"super milestones\" on judicial independence. On <strong>29 February 2024<\/strong> the Commission unblocked up to <strong>€137bn<\/strong> (€59.8bn recovery funds + €76.5bn cohesion), and on <strong>29 May 2024<\/strong> the Article 7 procedure was closed."], "note": "Net effect over the window: Polish law was first massively harmonised toward EU norms (1994–2004), then became the EU's main testing ground for what happens when a member state contests EU law's primacy — ending with EU financial leverage proving decisive."}], "financial": [{"type": "prose", "title": "The headline", "paras": ["Poland went from <strong>45% of average EU income in 1996 to ~83% in 2025<\/strong> (PPP), was the only EU economy to avoid recession in 2009, and received net EU transfers averaging roughly <strong>2–3.5% of GDP per year<\/strong> after entry (€161.8bn net, 2004–2023). Unemployment peaked at 20.2% in 2002 just before entry and sits near 3% today — among the EU's lowest."]}, {"type": "chartRow", "charts": [{"title": "Real GDP growth, %", "sub": "Annual change. Note 2009: +2.6% while the rest of the EU contracted.", "series": [{"code": "NY.GDP.MKTP.KD.ZG", "name": "Real GDP growth"}], "opts": {"unit": "%", "dp": 1, "zero": true}}, {"title": "Inflation (CPI), %", "sub": "Disinflation through the 1990s accession run-up; 2022–23 energy-shock spike.", "series": [{"code": "FP.CPI.TOTL.ZG", "name": "CPI inflation"}], "opts": {"unit": "%", "dp": 1, "zero": true}}]}, {"type": "chartRow", "charts": [{"title": "Unemployment, % of labour force", "sub": "ILO-modelled estimate. The 2002 peak preceded entry; the post-2004 fall reflects growth plus emigration.", "series": [{"code": "SL.UEM.TOTL.ZS", "name": "Unemployment"}], "opts": {"unit": "%", "dp": 1}}, {"title": "GDP per capita, PPP (current intl $)", "sub": "Poland vs the EU average. The gap closes steadily after 2004.", "series": [{"iso3": "EUU", "code": "NY.GDP.PCAP.PP.CD", "name": "EU average", "colorVar": "--series-2"}, {"code": "NY.GDP.PCAP.PP.CD", "name": "Poland"}], "opts": {"unit": " $", "dp": 0, "endLabelBelow": 2}}]}], "commercial": [{"type": "prose", "title": "Single-market integration", "paras": ["Trade openness transformed: exports rose from <strong>22% of GDP (1996) to a peak of 62% (2022)<\/strong>. The large majority of Poland's goods exports go to other EU states, with Germany by far the largest single partner <span class=\"flag\">(≈ share varies by year — see method note)<\/span>. Inside the single market Poland became one of Europe's leading production bases for automotive components, home appliances and furniture, and after 2004 a major nearshoring destination for services.", "EU competition and state-aid rules have applied in full since 2004, ending the discretionary industrial subsidies of the transition era; accession itself was conditional on restructuring coal and steel under state-aid discipline."]}, {"type": "chart", "title": "Trade in goods &amp; services, % of GDP", "sub": "Exports and imports of goods and services. Poland ran persistent deficits before accession; exports overtook imports for most years after 2013.", "series": [{"code": "NE.EXP.GNFS.ZS", "name": "Exports"}, {"code": "NE.IMP.GNFS.ZS", "name": "Imports", "colorVar": "--series-2"}], "opts": {"unit": "%", "dp": 1, "endLabelBelow": 2}}, {"type": "chartRow", "charts": [{"title": "FDI net inflows, % of GDP", "sub": "Foreign direct investment. Pre-accession privatisation wave (1998–2000), then post-entry surges 2004–07 and 2021–22.", "series": [{"code": "BX.KLT.DINV.WD.GD.ZS", "name": "FDI net inflows"}], "opts": {"unit": "%", "dp": 1, "zero": true}}, {"title": "International arrivals, millions", "sub": "World Bank / UNWTO border arrivals incl. same-day visitors. Counting methodology changed around 2000–01; series ends 2019.", "series": [{"code": "ST.INT.ARVL", "name": "Arrivals"}], "opts": {"unit": "m", "dp": 1, "scale": 1e-06}}]}], "political": [{"type": "kpis", "items": [{"label": "2003 accession referendum — yes vote", "value": "77.45%", "delta": "turnout <strong>58.85%<\/strong> · 7–8 June 2003"}, {"label": "Public support for membership", "value": "~80–90%", "delta": "range across two decades of CBOS polling — consistently among the EU's highest <span class=\"flag\">(≈)<\/span>"}, {"label": "Article 7 procedure", "value": "2017–2024", "delta": "first ever triggered; closed <strong>29 May 2024<\/strong>"}]}, {"type": "prose", "title": "How membership reshaped the political landscape", "paras": ["<strong>1991–2004:<\/strong> EU entry was the consensus goal of every government, left and right — the SLD-PSL and AWS-UW governments negotiated and closed the deal; the referendum passed 3-to-1.", "<strong>2004–2015:<\/strong> Politics reorganised around the pace and terms of integration rather than membership itself. Civic Platform (PO) under Donald Tusk (PM 2007–2014) positioned Poland as a core EU player; Tusk became <strong>President of the European Council (2014–2019)<\/strong>. Law and Justice (PiS) built a sovereigntist counter-pole while never advocating exit.", "<strong>2015–2023:<\/strong> The PiS governments' judicial overhaul turned relations with Brussels into the central axis of Polish politics — Article 7, CJEU fines and frozen funds became domestic campaign issues. Membership support stayed high throughout; the dispute was about EU authority, not EU membership.", "<strong>2023–today:<\/strong> The October 2023 election returned a pro-EU coalition under Tusk; funds were unblocked within months and Poland held the Council presidency in the first half of 2025. The presidency remains a counterweight: Karol Nawrocki, backed by PiS, won the June 2025 presidential election."], "note": "Structural change: EU accession created a durable pro-integration vs sovereigntist cleavage that has organised Polish party competition since 2004 — while support for membership itself has never been seriously contested."}], "social": [{"type": "prose", "title": "Migration: out, then in", "paras": ["<strong>The post-2004 exodus:<\/strong> free movement opened the UK, Irish and Swedish labour markets on day one. GUS estimates put Poles living temporarily abroad at over <strong>2 million<\/strong> at the peak — one of the largest intra-EU migrations ever — easing unemployment at home and generating substantial remittances.", "<strong>The reversal:<\/strong> from the mid-2010s Poland itself became a major immigration destination, first for Ukrainian workers, then — after Russia's February 2022 invasion — as the EU's principal first-arrival refugee host, with around <strong>1 million Ukrainians under temporary protection<\/strong>. The 2022 spike dominates the chart below."]}, {"type": "chart", "title": "Net migration, thousands of people", "sub": "UN World Population Prospects estimates via World Bank. Blue = net inflow, red = net outflow. Post-2022 values are heavily model-revised (refugee movements and returns) — treat recent years as indicative.", "series": [{"code": "SM.POP.NETM", "name": "Net migration"}], "opts": {"type": "bar", "unit": "k", "dp": 1, "zero": true, "peakLabel": "2022, Ukrainian refugees", "scale": 0.001}}, {"type": "chartRow", "charts": [{"title": "Income inequality (Gini index)", "sub": "World Bank estimate (0 = perfect equality). Inequality rose through transition, peaked around accession, then fell to below the EU norm.", "series": [{"code": "SI.POV.GINI", "name": "Gini index"}], "opts": {"unit": "", "dp": 1}}], "prose": {"title": "Welfare &amp; living standards", "paras": ["The Gini decline from ~38 (2004) to ~28.5 (2023) reflects tight labour markets, EU-supported rural incomes (CAP direct payments), minimum-wage growth and the <strong>\"500+\" child benefit<\/strong> (2016; raised to 800 PLN in 2024), which sharply cut child poverty.", "EU cohesion money — €161bn of the €245.5bn received through 2023 — rebuilt infrastructure: the motorway/expressway network expanded several-fold after 2004, and EU co-financing touched rail, water, broadband and universities in every region."]}}]}, "sources": [{"label": "Time series", "text": "World Bank Open Data (api.worldbank.org), retrieved 27 Jul 2026. Indicator codes are carried in <code class=\"ind\">data/indicators.csv<\/code> alongside every value."}, {"label": "EU budget flows", "text": "Polish Ministry of Finance figures compiled by Prof. E. Kawecka-Wyrzykowska, <a href=\"https://gazeta.sgh.waw.pl/en/people-events/financial-flows-between-poland-and-eu-2004-2023-and-prospects-their-changes\">SGH Warsaw School of Economics<\/a> (€245.5bn received, €83.7bn contributed, €161.8bn net, 2004–2023)."}, {"label": "Funds unblocking", "text": "<a href=\"https://ec.europa.eu/regional_policy/whats-new/newsroom/29-02-2024-poland-s-efforts-to-restore-rule-of-law-pave-the-way-for-accessing-up-to-eur137-billion-in-eu-funds_en\">European Commission, 29 Feb 2024<\/a> (up to €137bn: €59.8bn RRF + €76.5bn cohesion)."}, {"label": "Article 7 closure", "text": "<a href=\"https://www.consilium.europa.eu/en/policies/article-7-procedures/timeline-the-story-of-article-7/\">Council of the EU Article 7 timeline<\/a>; <a href=\"https://www.euronews.com/my-europe/2024/05/29/poland-exits-article-7-the-eus-special-procedure-on-rule-of-law\">Euronews, 29 May 2024<\/a>."}, {"label": "Accession timeline", "text": "<a href=\"https://eur-lex.europa.eu/EN/legal-content/summary/the-2004-enlargement-the-challenge-of-a-25-member-eu.html\">EUR-Lex: The 2004 enlargement<\/a>; dates and referendum figures cross-checked against <a href=\"https://en.wikipedia.org/wiki/Poland_and_the_European_Union\">Wikipedia: Poland and the European Union<\/a>."}, {"label": "2025 presidential election", "text": "Karol Nawrocki won the 1 June 2025 run-off — <a href=\"https://en.wikipedia.org/wiki/2025_Polish_presidential_election\">2025 Polish presidential election<\/a>, reported by <a href=\"https://www.npr.org/2025/06/02/nx-s1-5420566/poland-presidential-election-nawrocki-trump-conservative\">NPR<\/a> and <a href=\"https://www.cnn.com/2025/06/01/europe/poland-presidential-election-result-trzaskowski-nawrocki-latam-intl\">CNN<\/a>."}], "method": [{"title": "Window", "text": "Negotiations opened 31 March 1998, so the observation window starts in 1996 (−2 years per project rule) and runs to the latest available year (2025 for most series)."}, {"title": "Data pipeline", "text": "This page is generated by <code class=\"ind\">build_dashboard.py<\/code> from <code class=\"ind\">data/indicators.csv<\/code> (tidy long format: iso3, indicator, year, value, source, retrieved), <code class=\"ind\">data/milestones.csv<\/code> and <code class=\"ind\">data/narrative/&lt;ISO3&gt;.json<\/code>. Nothing is hard-coded in the HTML — adding a country means appending rows and one narrative file."}, {"title": "Confidence rule", "text": "Per project instructions everything shown is held at ≥95% confidence and traceable to the sources above. Items marked <span class=\"flag\">(≈)<\/span> are range or order-of-magnitude statements (EU share of exports, polling ranges) that are well documented directionally but vary by year and survey — verify before quoting precisely."}, {"title": "Known data caveats", "text": "Tourism arrivals: counting methodology changed around 2000–01 (same-day border traffic) and the series is discontinued after 2019 — levels are not comparable across the break. Net migration: UN model estimates with major post-2022 revisions. Gini: World Bank income-survey estimate; Eurostat's EU-SILC Gini differs slightly in level. 2025 values are the World Bank's current published figures and may be revised."}, {"title": "Attribution caution", "text": "Charts show what happened around membership, not what membership alone caused. Poland's trajectory mixes EU effects with transition reforms begun in 1990, global cycles and domestic policy. Where causal claims are established in the literature (cohesion funding scale, trade integration, post-2004 emigration), the text says so; otherwise read the series as context."}], "milestones": [{"date": "5 Apr 1994", "sort": 1994.25, "label": "Membership application", "description": "Poland applied for membership of the European Union", "kind": "political"}, {"date": "31 Mar 1998", "sort": 1998.17, "label": "Accession negotiations opened", "description": "Accession negotiations formally opened as part of the Luxembourg group", "kind": "era"}, {"date": "16 Apr 2003", "sort": 2003.25, "label": "Accession treaty signed", "description": "Signed the 2003 Treaty of Accession in Athens", "kind": "legal"}, {"date": "8 Jun 2003", "sort": 2003.42, "label": "Accession referendum", "description": "77.5% voted yes on a turnout of 58.9% in a two day vote", "kind": "political"}, {"date": "1 May 2004", "sort": 2004.33, "label": "EU accession", "description": "Became a member state of the European Union in the largest single enlargement", "kind": "era"}, {"date": "21 Dec 2007", "sort": 2007.92, "label": "Schengen entry", "description": "Land and sea border checks lifted; air borders followed on 30 March 2008", "kind": "legal"}], "generated": "2026-08-01", "rowCount": 9915}</script>
+<script>
+(function () {
+  "use strict";
+  var P = JSON.parse(document.getElementById("payload").textContent);
+  var years = P.years, Y0 = years[0], Y1 = years[years.length - 1];
+  var W_ = P.window;
+  var NS = "http://www.w3.org/2000/svg";
+
+  document.title = P.name + " — EU membership impact";
+  document.getElementById("hTitle").textContent = P.name + " — EU membership impact";
+  document.getElementById("hSub").innerHTML = P.subtitle;
+  document.getElementById("stamp").textContent =
+    "Generated " + P.generated + " from data/indicators.csv · " + P.rowCount + " data points · sources on the Sources & method tab.";
+
+  function el(tag, attrs, style) {
+    var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (style) e.setAttribute("style", style);
+    return e;
+  }
+  function h(tag, cls, html) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (html !== undefined) e.innerHTML = html;
+    return e;
+  }
+  function fmt(v, dp) {
+    if (v === null || v === undefined) return "–";
+    return v.toLocaleString("en-US", { minimumFractionDigits: dp, maximumFractionDigits: dp });
+  }
+  function niceTicks(lo, hi, n) {
+    var span = hi - lo, step = Math.pow(10, Math.floor(Math.log10(span / n)));
+    var err = span / n / step;
+    if (err >= 7.5) step *= 10; else if (err >= 3.5) step *= 5; else if (err >= 1.5) step *= 2;
+    var t = [], v = Math.ceil(lo / step) * step;
+    for (; v <= hi + 1e-9; v += step) t.push(Math.round(v * 1000) / 1000);
+    return t;
+  }
+  function seriesValues(s) { return P.series[(s.iso3 || P.iso3) + "|" + s.code] || []; }
+
+  // ---------------- chart renderer ----------------
+  function renderChart(host, spec) {
+    var opts = spec.opts || {};
+    var sc = opts.scale || 1;
+    var series = spec.series.map(function (s, i) {
+      var vals = seriesValues(s);
+      if (sc !== 1) vals = vals.map(function (v) { return v === null ? null : v * sc; });
+      return { name: s.name, colorVar: s.colorVar || (i === 0 ? "--series-1" : "--series-2"), values: vals };
+    });
+    var wrapBox = h("div");
+    if (series.length >= 2) {
+      var lg = h("div", "legend");
+      series.forEach(function (s) {
+        var k = h("span", "key");
+        var sw = h("span", "swatch-line");
+        sw.style.background = "var(" + s.colorVar + ")";
+        k.appendChild(sw); k.appendChild(document.createTextNode(s.name));
+        lg.appendChild(k);
+      });
+      wrapBox.appendChild(lg);
+    }
+    var root = h("div", "chart-box");
+    wrapBox.appendChild(root);
+
+    var W = 760, H = 268, L = 48, R = 14, T = 14, B = 30;
+    var pw = W - L - R, ph = H - T - B;
+    var xspan = (Y1 + 0.6) - Y0;
+    var xs = function (yr) { return L + (yr - Y0) / xspan * pw; };
+
+    var all = [];
+    series.forEach(function (s) { s.values.forEach(function (v) { if (v !== null) all.push(v); }); });
+    if (!all.length) { host.appendChild(wrapBox); return; }
+    var lo = Math.min.apply(null, all), hi = Math.max.apply(null, all);
+    if (opts.zero) { lo = Math.min(lo, 0); hi = Math.max(hi, 0); }
+    var pad = (hi - lo) * 0.10 || 1;
+    lo -= pad; hi += pad;
+    var ys = function (v) { return T + (hi - v) / (hi - lo) * ph; };
+
+    var svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": spec.title.replace(/&amp;/g, "&") });
+    if (W_.accession && W_.negotiationsOpen && W_.accession > W_.negotiationsOpen)
+      svg.appendChild(el("rect", { x: xs(W_.negotiationsOpen), y: T,
+        width: xs(W_.accession) - xs(W_.negotiationsOpen), height: ph }, "fill:var(--band)"));
+
+    niceTicks(lo, hi, 5).forEach(function (tv) {
+      svg.appendChild(el("line", { x1: L, x2: W - R, y1: ys(tv), y2: ys(tv) }, "stroke:var(--grid);stroke-width:1"));
+      var lab = el("text", { x: L - 7, y: ys(tv) + 3.5, "text-anchor": "end" }, "fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+      lab.textContent = fmt(tv, tv % 1 ? 1 : 0);
+      svg.appendChild(lab);
+    });
+    if (opts.zero && lo < 0 && hi > 0)
+      svg.appendChild(el("line", { x1: L, x2: W - R, y1: ys(0), y2: ys(0) }, "stroke:var(--baseline);stroke-width:1"));
+
+    years.forEach(function (yr) {
+      if (yr % 4 !== 0) return;
+      var lab = el("text", { x: xs(yr), y: H - 10, "text-anchor": "middle" }, "fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+      lab.textContent = yr;
+      svg.appendChild(lab);
+    });
+
+    if (W_.accession && W_.accession >= Y0) {
+      svg.appendChild(el("line", { x1: xs(W_.accession), x2: xs(W_.accession), y1: T, y2: T + ph }, "stroke:var(--baseline);stroke-width:1"));
+      var al = el("text", { x: xs(W_.accession) + 5, y: T + 11 }, "fill:var(--text-muted);font-size:10px");
+      al.textContent = W_.accessionLabel || "EU entry";
+      svg.appendChild(al);
+    }
+    if (W_.exit && W_.exit >= Y0) {
+      svg.appendChild(el("line", { x1: xs(W_.exit), x2: xs(W_.exit), y1: T, y2: T + ph }, "stroke:var(--neg);stroke-width:1"));
+      var xl = el("text", { x: xs(W_.exit) - 5, y: T + 11, "text-anchor": "end" }, "fill:var(--neg);font-size:10px;font-weight:600");
+      xl.textContent = W_.exitLabel || "Exit";
+      svg.appendChild(xl);
+    }
+
+    if (opts.type === "bar") {
+      var s0 = series[0], bw = Math.min(14, pw / years.length * 0.62);
+      s0.values.forEach(function (v, i) {
+        if (v === null) return;
+        var x = xs(Y0 + i) - bw / 2, y0 = ys(0), y1 = ys(v);
+        var top = Math.min(y0, y1), hh = Math.abs(y0 - y1), r = Math.min(4, hh / 2, bw / 2), up = v >= 0, d;
+        if (up) d = "M" + x + "," + (top + hh) + " L" + x + "," + (top + r) + " Q" + x + "," + top + " " + (x + r) + "," + top +
+          " L" + (x + bw - r) + "," + top + " Q" + (x + bw) + "," + top + " " + (x + bw) + "," + (top + r) + " L" + (x + bw) + "," + (top + hh) + " Z";
+        else d = "M" + x + "," + top + " L" + (x + bw) + "," + top + " L" + (x + bw) + "," + (top + hh - r) +
+          " Q" + (x + bw) + "," + (top + hh) + " " + (x + bw - r) + "," + (top + hh) + " L" + (x + r) + "," + (top + hh) +
+          " Q" + x + "," + (top + hh) + " " + x + "," + (top + hh - r) + " Z";
+        svg.appendChild(el("path", { d: d }, "fill:var(" + (up ? s0.colorVar : "--neg") + ")"));
+      });
+      var vals = s0.values.filter(function (v) { return v !== null; });
+      var mx = s0.values.indexOf(Math.max.apply(null, vals));
+      var lbl = el("text", { x: Math.min(xs(Y0 + mx) + 6, W - R), y: ys(s0.values[mx]) + 2, "text-anchor": "end" },
+        "fill:var(--text-primary);font-size:11px;font-weight:600");
+      lbl.textContent = "+" + fmt(s0.values[mx], 0) + (opts.unit || "") + (opts.peakLabel ? " (" + opts.peakLabel + ")" : "");
+      svg.appendChild(lbl);
+    } else {
+      series.forEach(function (s, si) {
+        var d = "", pen = false;
+        s.values.forEach(function (v, i) {
+          if (v === null) { pen = false; return; }
+          d += (pen ? " L" : " M") + xs(Y0 + i).toFixed(1) + "," + ys(v).toFixed(1);
+          pen = true;
+        });
+        if (opts.area) {
+          var li0 = 0; while (s.values[li0] === null) li0++;
+          var li1 = s.values.length - 1; while (s.values[li1] === null) li1--;
+          svg.appendChild(el("path", { d: d + " L" + xs(Y0 + li1).toFixed(1) + "," + (T + ph) + " L" + xs(Y0 + li0).toFixed(1) + "," + (T + ph) + " Z" },
+            "fill:var(" + s.colorVar + ");opacity:0.10"));
+        }
+        svg.appendChild(el("path", { d: d, fill: "none" }, "stroke:var(" + s.colorVar + ");stroke-width:2;stroke-linejoin:round;stroke-linecap:round"));
+        var li = s.values.length - 1; while (s.values[li] === null) li--;
+        svg.appendChild(el("circle", { cx: xs(Y0 + li), cy: ys(s.values[li]), r: 4 }, "fill:var(" + s.colorVar + ");stroke:var(--surface-1);stroke-width:2"));
+        var below = opts.endLabelBelow && si === (opts.endLabelBelow - 1);
+        var elab = el("text", { x: xs(Y0 + li) - 8, y: ys(s.values[li]) + (below ? 16 : -9), "text-anchor": "end" },
+          "fill:var(--text-primary);font-size:11px;font-weight:600");
+        elab.textContent = fmt(s.values[li], opts.dp) + (opts.unit === "%" ? "%" : "");
+        svg.appendChild(elab);
+      });
+    }
+
+    var cross = el("line", { x1: 0, x2: 0, y1: T, y2: T + ph }, "stroke:var(--baseline);stroke-width:1;display:none");
+    svg.appendChild(cross);
+    var hitDots = series.map(function (s) {
+      var c = el("circle", { r: 5 }, "fill:var(" + s.colorVar + ");stroke:var(--surface-1);stroke-width:2;display:none");
+      svg.appendChild(c); return c;
+    });
+    root.appendChild(svg);
+    var tt = h("div", "tooltip");
+    root.appendChild(tt);
+
+    function showAt(i) {
+      var yr = Y0 + i;
+      cross.setAttribute("x1", xs(yr)); cross.setAttribute("x2", xs(yr));
+      cross.style.display = "";
+      while (tt.firstChild) tt.removeChild(tt.firstChild);
+      var t1 = h("div", "tt-title"); t1.textContent = yr; tt.appendChild(t1);
+      series.forEach(function (s, si) {
+        var v = s.values[i];
+        if (opts.type !== "bar") {
+          if (v === null) hitDots[si].style.display = "none";
+          else { hitDots[si].setAttribute("cx", xs(yr)); hitDots[si].setAttribute("cy", ys(v)); hitDots[si].style.display = ""; }
+        }
+        var row = h("div", "tt-row");
+        var key = h("span", "tt-key");
+        key.style.background = (opts.type === "bar" && v !== null && v < 0) ? "var(--neg)" : "var(" + s.colorVar + ")";
+        var val = h("span", "tt-val");
+        val.textContent = v === null ? "no data" : fmt(v, opts.dp) + (opts.unit || "");
+        var nm = h("span", "tt-name"); nm.textContent = s.name;
+        row.appendChild(key); row.appendChild(val); row.appendChild(nm);
+        tt.appendChild(row);
+      });
+      tt.style.display = "block";
+      var rect = root.getBoundingClientRect();
+      var px = (xs(yr) / W) * rect.width;
+      var left = px + 12;
+      if (left + tt.offsetWidth > rect.width - 4) left = px - tt.offsetWidth - 12;
+      tt.style.left = Math.max(2, left) + "px";
+      tt.style.top = "14px";
+    }
+    function hide() {
+      cross.style.display = "none"; tt.style.display = "none";
+      hitDots.forEach(function (c) { c.style.display = "none"; });
+    }
+    svg.addEventListener("pointermove", function (ev) {
+      var pt = svg.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
+      var m = svg.getScreenCTM(); if (!m) return;
+      var loc = pt.matrixTransform(m.inverse());
+      var i = Math.round((loc.x - L) / pw * xspan);
+      showAt(Math.max(0, Math.min(years.length - 1, i)));
+    });
+    svg.addEventListener("pointerleave", hide);
+
+    var det = h("details", "data-table");
+    var sum = document.createElement("summary"); sum.textContent = "View data table"; det.appendChild(sum);
+    var tbl = document.createElement("table");
+    var thr = document.createElement("tr");
+    var th0 = document.createElement("th"); th0.textContent = "Year"; thr.appendChild(th0);
+    series.forEach(function (s) {
+      var th = document.createElement("th");
+      th.textContent = s.name + (opts.unit ? " (" + opts.unit.trim() + ")" : "");
+      thr.appendChild(th);
+    });
+    tbl.appendChild(thr);
+    years.forEach(function (yr, i) {
+      var tr = document.createElement("tr");
+      var td0 = document.createElement("td"); td0.textContent = yr; tr.appendChild(td0);
+      series.forEach(function (s) {
+        var td = document.createElement("td");
+        td.textContent = s.values[i] === null || s.values[i] === undefined ? "–" : fmt(s.values[i], opts.dp);
+        tr.appendChild(td);
+      });
+      tbl.appendChild(tr);
+    });
+    det.appendChild(tbl);
+    wrapBox.appendChild(det);
+    host.appendChild(wrapBox);
+  }
+
+  // ---------------- card builders ----------------
+  function chartCard(spec) {
+    var card = h("div", "card");
+    card.appendChild(h("h3", null, spec.title));
+    if (spec.sub) card.appendChild(h("p", "sub", spec.sub));
+    renderChart(card, spec);
+    return card;
+  }
+  function proseCard(spec) {
+    var card = h("div", "card prose");
+    card.appendChild(h("h3", null, spec.title));
+    (spec.paras || []).forEach(function (t) { card.appendChild(h("p", null, t)); });
+    if (spec.note) card.appendChild(h("p", "note", spec.note));
+    return card;
+  }
+  function kpiRow(items) {
+    var row = h("div", "kpis");
+    items.forEach(function (k) {
+      var t = h("div", "tile");
+      t.appendChild(h("div", "label", k.label));
+      t.appendChild(h("div", "value", k.value));
+      if (k.delta) t.appendChild(h("div", "delta", k.delta));
+      row.appendChild(t);
+    });
+    return row;
+  }
+  function buildBlocks(host, blocks) {
+    blocks.forEach(function (b) {
+      if (b.type === "prose") host.appendChild(proseCard(b));
+      else if (b.type === "kpis") host.appendChild(kpiRow(b.items));
+      else if (b.type === "chart") host.appendChild(chartCard(b));
+      else if (b.type === "chartRow") {
+        var g = h("div", "grid2");
+        b.charts.forEach(function (c) { g.appendChild(chartCard(c)); });
+        if (b.prose) g.appendChild(proseCard(b.prose));
+        host.appendChild(g);
+      }
+    });
+  }
+
+  // ---------------- panels ----------------
+  var TABS = [
+    { id: "overview", label: "Overview" },
+    { id: "legal", label: "Legal" },
+    { id: "financial", label: "Financial" },
+    { id: "commercial", label: "Commercial" },
+    { id: "political", label: "Political" },
+    { id: "social", label: "Social" },
+    { id: "sources", label: "Sources & method" }
+  ];
+  var tabsEl = document.getElementById("tabs"), panelsEl = document.getElementById("panels");
+
+  TABS.forEach(function (t, i) {
+    var b = document.createElement("button");
+    b.setAttribute("role", "tab");
+    b.setAttribute("aria-selected", i === 0 ? "true" : "false");
+    b.dataset.tab = t.id;
+    b.textContent = t.label;
+    tabsEl.appendChild(b);
+
+    var sec = h("section", "panel" + (i === 0 ? " active" : ""));
+    sec.id = "panel-" + t.id;
+    panelsEl.appendChild(sec);
+
+    if (t.id === "overview") {
+      sec.appendChild(kpiRow(P.kpis));
+      sec.appendChild(chartCard(P.heroChart));
+      var mc = h("div", "card");
+      mc.appendChild(h("h3", null, "Milestones at a glance"));
+      var ul = h("ul", "timeline");
+      P.milestones.forEach(function (m) {
+        var li = document.createElement("li");
+        if (m.kind === "era") li.className = "era";
+        li.appendChild(h("span", "tdate", m.date));
+        li.appendChild(h("span", "tl-dot" + (m.kind === "warn" ? " warn" : "")));
+        li.appendChild(h("span", "tbody", "<strong>" + m.label + "</strong> — " + m.description));
+        ul.appendChild(li);
+      });
+      mc.appendChild(ul);
+      sec.appendChild(mc);
+    } else if (t.id === "sources") {
+      var sc = h("div", "card prose");
+      sc.appendChild(h("h3", null, "Sources"));
+      var sl = h("div", "src-list");
+      P.sources.forEach(function (s) { sl.appendChild(h("p", null, "<strong>" + s.label + "</strong> — " + s.text)); });
+      sc.appendChild(sl);
+      sec.appendChild(sc);
+      var mcd = h("div", "card prose");
+      mcd.appendChild(h("h3", null, "Method &amp; confidence notes"));
+      P.method.forEach(function (m) { mcd.appendChild(h("p", null, "<strong>" + m.title + ".</strong> " + m.text)); });
+      sec.appendChild(mcd);
+    } else {
+      buildBlocks(sec, P.tabs[t.id] || []);
+    }
+  });
+
+  tabsEl.addEventListener("click", function (ev) {
+    var b = ev.target.closest("button"); if (!b) return;
+    tabsEl.querySelectorAll("button").forEach(function (x) { x.setAttribute("aria-selected", x === b ? "true" : "false"); });
+    panelsEl.querySelectorAll("section.panel").forEach(function (p) { p.classList.remove("active"); });
+    document.getElementById("panel-" + b.dataset.tab).classList.add("active");
+  });
+
+  var modes = ["auto", "light", "dark"], mi = 0, btn = document.getElementById("themeBtn");
+  btn.addEventListener("click", function () {
+    mi = (mi + 1) % 3;
+    var m = modes[mi];
+    if (m === "auto") document.documentElement.removeAttribute("data-theme");
+    else document.documentElement.setAttribute("data-theme", m);
+    btn.textContent = "Theme: " + m;
+  });
+})();
+</script>
+</body>
+</html>

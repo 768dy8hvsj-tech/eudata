@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Greece — EU membership impact</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --series-1: #2a78d6;
+    --series-2: #eb6834;
+    --neg: #e34948;
+    --band: rgba(42,120,214,0.06);
+    --tooltip-bg: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1: #1a1a19; --page: #0d0d0d;
+      --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #898781;
+      --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+      --series-1: #3987e5; --series-2: #d95926; --neg: #e66767;
+      --band: rgba(57,135,229,0.10); --tooltip-bg: #242423;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1: #1a1a19; --page: #0d0d0d;
+    --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #898781;
+    --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+    --series-1: #3987e5; --series-2: #d95926; --neg: #e66767;
+    --band: rgba(57,135,229,0.10); --tooltip-bg: #242423;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .viz-root { background: var(--page); color: var(--text-primary); min-height: 100vh; padding: 24px 20px 48px; }
+  .wrap { max-width: 1060px; margin: 0 auto; }
+
+  header.top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+  h1 { font-size: 26px; font-weight: 650; letter-spacing: -0.02em; }
+  .subtitle { color: var(--text-secondary); font-size: 14px; margin-top: 4px; max-width: 660px; line-height: 1.5; }
+  .theme-btn { border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+    border-radius: 8px; padding: 6px 12px; font-size: 12.5px; cursor: pointer; white-space: nowrap; font-family: inherit; }
+  .theme-btn:hover { color: var(--text-primary); }
+
+  nav.tabs { display: flex; gap: 4px; margin: 20px 0 16px; flex-wrap: wrap; border-bottom: 1px solid var(--border); }
+  nav.tabs button { background: none; border: none; border-bottom: 2px solid transparent; color: var(--text-secondary);
+    font-size: 14px; font-weight: 500; padding: 8px 14px 10px; cursor: pointer; font-family: inherit; }
+  nav.tabs button:hover { color: var(--text-primary); }
+  nav.tabs button[aria-selected="true"] { color: var(--text-primary); border-bottom-color: var(--series-1); font-weight: 600; }
+
+  section.panel { display: none; }
+  section.panel.active { display: block; }
+
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-bottom: 16px; }
+  .tile { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+  .tile .label { font-size: 12.5px; color: var(--text-secondary); margin-bottom: 6px; }
+  .tile .value { font-size: 30px; font-weight: 600; letter-spacing: -0.01em; }
+  .tile .delta { font-size: 12.5px; margin-top: 6px; color: var(--text-secondary); }
+  .tile .delta strong { color: var(--text-primary); font-weight: 600; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 780px) { .grid2 { grid-template-columns: 1fr; } }
+
+  .card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 18px 18px 12px; margin-bottom: 14px; }
+  .card h3 { font-size: 15px; font-weight: 600; }
+  .card .sub { font-size: 12.5px; color: var(--text-secondary); margin-top: 3px; margin-bottom: 10px; line-height: 1.45; }
+  .card.prose { padding-bottom: 18px; }
+  .card.prose p { font-size: 13.5px; color: var(--text-secondary); line-height: 1.6; margin-top: 8px; }
+  .card.prose p strong { color: var(--text-primary); font-weight: 600; }
+
+  .legend { display: flex; gap: 16px; margin-bottom: 8px; flex-wrap: wrap; }
+  .legend .key { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--text-secondary); }
+  .legend .key .swatch-line { width: 16px; height: 2px; border-radius: 1px; }
+
+  .chart-box { position: relative; }
+  .chart-box svg { display: block; width: 100%; height: auto; }
+  .tooltip { position: absolute; pointer-events: none; display: none; z-index: 5; background: var(--tooltip-bg);
+    border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12); min-width: 120px; }
+  .tooltip .tt-title { color: var(--text-muted); font-size: 11px; margin-bottom: 4px; }
+  .tooltip .tt-row { display: flex; align-items: center; gap: 6px; margin-top: 2px; }
+  .tooltip .tt-key { width: 10px; height: 2px; border-radius: 1px; flex: none; }
+  .tooltip .tt-val { font-weight: 600; color: var(--text-primary); }
+  .tooltip .tt-name { color: var(--text-secondary); }
+
+  details.data-table { margin-top: 4px; }
+  details.data-table summary { font-size: 12px; color: var(--text-muted); cursor: pointer; padding: 6px 0; }
+  details.data-table summary:hover { color: var(--text-primary); }
+  details.data-table table { width: 100%; border-collapse: collapse; font-size: 12px; margin: 6px 0 10px; }
+  details.data-table th, details.data-table td { text-align: right; padding: 4px 8px; border-bottom: 1px solid var(--grid);
+    font-variant-numeric: tabular-nums; color: var(--text-secondary); }
+  details.data-table th { color: var(--text-muted); font-weight: 500; }
+  details.data-table th:first-child, details.data-table td:first-child { text-align: left; }
+
+  .timeline { list-style: none; margin-top: 6px; }
+  .timeline li { display: flex; gap: 14px; padding: 9px 0; border-bottom: 1px solid var(--grid); }
+  .timeline li:last-child { border-bottom: none; }
+  .timeline .tdate { flex: none; width: 96px; font-size: 12.5px; color: var(--text-muted);
+    font-variant-numeric: tabular-nums; padding-top: 1px; }
+  .timeline .tbody { font-size: 13.5px; color: var(--text-secondary); line-height: 1.5; }
+  .timeline .tbody strong { color: var(--text-primary); font-weight: 600; }
+  .timeline li.era .tbody strong { color: var(--series-1); }
+  .tl-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--series-1); margin-top: 6px; }
+  .tl-dot.warn { background: var(--neg); }
+
+  .note { font-size: 12px; color: var(--text-muted); line-height: 1.5; margin-top: 10px; }
+  .flag { color: var(--text-muted); font-size: 11.5px; }
+  .src-list { font-size: 13px; color: var(--text-secondary); line-height: 1.65; }
+  .src-list a { color: var(--series-1); text-decoration: none; }
+  .src-list a:hover { text-decoration: underline; }
+  .src-list p { margin-top: 10px; }
+  code.ind { font-size: 11.5px; color: var(--text-muted); background: var(--page); padding: 1px 5px; border-radius: 4px; }
+  .stamp { font-size: 11.5px; color: var(--text-muted); margin-top: 14px; }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <h1 id="hTitle"></h1>
+        <p class="subtitle" id="hSub"></p>
+      </div>
+      <button class="theme-btn" id="themeBtn" type="button">Theme: auto</button>
+    </header>
+    <nav class="tabs" role="tablist" id="tabs"></nav>
+    <div id="panels"></div>
+    <p class="stamp" id="stamp"></p>
+  </div>
+</div>
+
+<script id="payload" type="application/json">{"iso3": "GRC", "name": "Greece", "subtitle": "Annual view from 1974 — two years before accession negotiations opened (27 July 1976) — through negotiations, entry on 1 January 1981, and up to today. Shaded band = negotiation period; vertical line = EU entry.", "window": {"start": 1974, "end": 2025, "negotiationsOpen": 1976.57, "negotiationsClose": 1981.0, "accession": 1981.0, "accessionLabel": "EU entry"}, "years": [1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "series": {"GRC|DERIVED.PPP.PCT.EU": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 85.95, 87.18, 87.3, 85.5, 85.11, 87.48, 90.75, 93.95, 95.81, 93.0, 96.12, 92.84, 93.43, 93.78, 84.37, 74.11, 70.02, 70.91, 70.79, 69.02, 67.26, 66.65, 66.12, 65.71, 62.09, 64.52, 67.35, 69.24, 69.22, 69.1], "GRC|NY.GDP.MKTP.KD.ZG": [-6.43824057014004, 6.36680794602181, 6.85189869571943, 2.94100090620763, 7.24686397906468, 3.28207958853159, 0.67713140669585, -1.55372126905196, -1.13264739051145, -1.07862273931177, 2.01058093704644, 2.50955640237393, 0.517660006338886, -2.25886322369171, 4.28786172851761, 3.79999995287797, 0.0, 3.09999970633838, 0.700000337119789, -1.60000002186294, 1.99999984724822, 2.09971953235275, 1.38247057325857, 3.60288326516122, 3.43693579661333, 2.65878562321184, 4.13782699405849, 4.65041459442163, 4.68313727063017, 5.79682274294369, 5.37786634595851, 1.18350635493289, 6.44339762487436, 3.50686976639459, 0.0574740238200775, -4.11927606715011, -5.6937412158003, -9.87677875300243, -8.33113421099992, -2.27211699888024, 0.792225060962835, -0.228301892172851, -0.0317947678412054, 1.47312472702352, 2.06467207892409, 2.27718065334808, -9.19623149726978, 8.65449786002131, 5.52198580589408, 2.13591131996631, 2.0865743380603, 2.07306882481713], "GRC|FP.CPI.TOTL.ZG": [26.5608465867349, 13.6287617821755, 13.0242794587955, 12.3697970875078, 12.5724256724441, 19.0941746808767, 24.6758939736232, 24.5060675977966, 20.9910886220016, 20.1794812892138, 18.4568132050187, 19.3146929406642, 23.0154508205013, 16.3968631635363, 13.5288583215049, 13.6555638723612, 20.433499109463, 19.4558456445745, 15.8770737923919, 14.4112644439348, 10.8740756809132, 8.93451415961517, 8.19455217632728, 5.5360026677348, 4.76622572397641, 2.6366330602198, 3.1511816249383, 3.37396832213867, 3.62935871878874, 3.53065027765552, 2.8988481075817, 3.54507273335078, 3.19594684144545, 2.89500321516578, 4.15279708110293, 1.21007269197809, 4.71298907760388, 3.3298532335065, 1.50152696177758, -0.921269454256994, -1.31226096405506, -1.73588804765284, -0.825653978390973, 1.12125452031419, 0.62562141345364, 0.253007522038157, -1.24798355581405, 1.22382501019854, 9.64525981280632, 3.46480128513405, 2.74101875679486, 2.48209745378857], "GRC|SL.UEM.TOTL.ZS": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 7.572, 8.927, 10.177, 9.808, 10.116, 10.402, 10.472, 12.227, 12.138, 11.345, 10.764, 10.346, 9.839, 10.628, 10.074, 8.906, 8.351, 7.664, 9.546, 12.719, 17.973, 24.731, 27.686, 26.708, 24.981, 23.514, 21.413, 19.179, 17.045, 15.899, 14.656, 12.426, 11.023, 10.02, 8.54], "EUU|NY.GDP.PCAP.PP.CD": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 18358.26, 19075.9, 19970.41, 20769.05, 22111.55, 23208.69, 24225.43, 24749.1, 25910.57, 26886.78, 29209.47, 31125.35, 32579.99, 31950.76, 32995.33, 34666.61, 35110.66, 36288.95, 37363.36, 38551.99, 40893.58, 43031.12, 45055.2, 48588.12, 47566.44, 51968.44, 58573.21, 61545.82, 63808.07, 65503.07], "GRC|NY.GDP.PCAP.PP.CD": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 13126.2744827516, 13823.9094383428, 14129.567617274, 14149.5782711785, 14667.1010047956, 15217.8019629681, 15778.4020297225, 16630.4781484617, 17433.5829767675, 17758.0055742801, 18819.8544320117, 20303.9312433429, 21985.2345411071, 23252.6111362028, 24825.5735347512, 25003.8297466933, 28076.1241416392, 28895.874926558, 30440.9709059081, 29963.3968875108, 27838.73639086, 25692.5740851321, 24582.9741957507, 25730.8809006664, 26450.181326726, 26607.7256796976, 27504.5497984948, 28681.6815585005, 29792.0592519585, 31927.3792151369, 29533.087740299, 33528.2271202515, 39447.813910406, 42613.6574438075, 44170.9556658376, 45263.6498511586], "GRC|NE.EXP.GNFS.ZS": [14.1610455446121, 14.0872649323694, 13.9946543355634, 13.9264728000705, 13.6002420763658, 15.1154352229147, 19.2497665291446, 21.3072166731938, 17.1429285968976, 16.4127796784334, 16.7363568518822, 16.0717576428319, 17.6264806670144, 18.0543844688699, 16.2518454121946, 15.8844354141675, 14.7217614280493, 14.1450368627979, 14.8216253119647, 13.993749701303, 14.3900606608583, 14.3698138940673, 14.3133826805479, 16.3703291341876, 16.4859160819922, 19.4159179149726, 24.0112579525333, 23.1597595757815, 20.3831024226226, 18.8734923843085, 20.6093109136223, 20.9925302883149, 20.7749728037536, 21.7481874684459, 22.7847919983615, 18.7298820095072, 21.7288294018439, 25.3075993531569, 28.9658220302701, 30.3271984442629, 32.5150455771625, 32.1863593046186, 31.179360220916, 34.7793593671863, 38.6308100555801, 39.5602885530263, 31.4504324884115, 40.260408549747, 49.2316205589503, 43.8388384656123, 42.1116783220502, 39.4617692969977], "GRC|NE.IMP.GNFS.ZS": [20.3925019785107, 20.3159030900081, 19.9789197895259, 19.8363440224466, 18.6877769497485, 19.5266217474124, 24.229588970048, 24.6987279286076, 23.6355742709807, 23.6902249241888, 23.1129353827768, 23.2631925267507, 23.9377976128056, 23.2057419894464, 22.3467094852765, 23.82325592721, 24.3139691998969, 23.3964817257264, 22.9654502840077, 22.0392804676088, 20.8301695683564, 21.7558214495402, 22.5075465825416, 23.0682195187208, 26.0039798757566, 28.7601191111593, 35.1013997962753, 33.6978743793252, 29.6702347678407, 29.0208197707737, 29.2160067589458, 29.3630031508258, 30.329773779727, 32.7774943504585, 34.3204916281311, 27.6480773891011, 29.1936887978789, 30.9853964410338, 33.4283897048617, 32.6275287772745, 33.9184908742053, 33.0852861573132, 32.4781888673706, 36.103137372539, 40.6071808082905, 41.0298063980194, 38.843313969663, 47.7522568992909, 58.8902226709721, 48.6322498290894, 47.6648496225666, 43.9898535848415], "GRC|BX.KLT.DINV.WD.GD.ZS": [0.268013766161626, 0.0853208087342758, 0.992853013055033, 1.0848516438207, 0.980426281350451, 1.14101447101379, 1.19915937654188, 1.00739161324321, 0.809530972971806, 0.900671762588572, 1.02424079534783, 0.947922748071888, 0.847191700685449, 1.05499521543635, 1.20610723549795, 0.963263619811844, 1.0411315622269, 1.09470538665989, 0.998183564137125, 0.910567673128218, 0.853191390471272, 0.780146702751379, 0.742440592629103, 0.709107072596583, 0.050998184830191, 0.0603079297166702, -0.00651674495547754, 0.00151553151660002, 0.0227485404811931, 0.71501703822218, 0.914091172780157, 0.284127006962334, 2.01112523714783, 0.622837777539062, 1.6328960526629, 0.846404808815716, 0.179789223267027, 0.38562256563474, 0.695897838082299, 1.24506178790059, 1.15314480305525, 0.652184629866422, 1.3975055397238, 1.7162955046024, 1.88723349665643, 2.41172201156202, 1.72637818314203, 3.0165221032062, 3.69648293387112, 1.94366777616511, 2.6312519942121, null], "GRC|ST.INT.ARVL": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 10712000.0, 9782000.0, 10588000.0, 11364000.0, 12606000.0, 13567000.0, 14678000.0, 14918000.0, 14785000.0, 14268000.0, 15938000.0, 17284000.0, null, null, null, null, null, null, 20112000.0, 24272000.0, 26114000.0, 28071000.0, 30161000.0, 33072000.0, 34005000.0, 7406000.0, null, null, null, null, null], "GRC|SM.POP.NETM": [-22590.0, 61265.0, 89601.0, 19193.0, 60775.0, 72184.0, 47460.0, 25061.0, 19675.0, 18655.0, 19767.0, 16093.0, 19064.0, 19005.0, 20557.0, 18862.0, 26294.0, 37917.0, 41000.0, 39829.0, 42897.0, 42674.0, 43444.0, 45671.0, 47856.0, 49930.0, 54661.0, 60387.0, 25692.0, 25323.0, 29039.0, 33297.0, 27621.0, 25400.0, 27081.0, 18182.0, 2001.0, -31786.0, -65364.0, -59323.0, -46678.0, -43462.0, 10484.0, 10483.0, 17938.0, 36762.0, 6353.0, -160277.0, -53997.0, -159430.0, -122772.0, 16636.0], "GRC|SI.POV.GINI": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 36.5, null, null, null, null, 34.4, null, 35.5, 32.8, 33.6, 34.6, 35.1, 34.0, 33.6, 33.6, 34.1, 34.8, 36.3, 36.1, 35.8, 36.0, 35.0, 34.4, 32.9, 33.1, 33.6, 32.9, 33.4, 33.4, null, null]}, "kpis": [{"label": "GDP per capita (PPP), vs EU average", "delta": "World Bank, latest available year", "value": "69%"}, {"label": "GDP per capita, PPP", "delta": "current international $ · World Bank", "value": "45,264"}, {"label": "Unemployment (ILO)", "delta": "% of labour force · World Bank", "value": "8.5%"}, {"label": "Exports, % of GDP", "delta": "goods and services · World Bank", "value": "39%"}], "heroChart": {"title": "Convergence with the EU: GDP per capita (PPP) as % of EU average", "sub": "Income level relative to the EU-wide average, current international $ at purchasing power parity. The EU aggregate series begins in 1996, so this chart starts there regardless of the window above.", "series": [{"code": "DERIVED.PPP.PCT.EU", "name": "Greece, % of EU average"}], "opts": {"unit": "%", "dp": 1, "area": true}}, "tabs": {"legal": [{"type": "prose", "title": "Legal", "paras": ["Greece adopted the acquis communautaire during accession negotiations that opened on 27 July 1976, and EU law has applied directly since 1 January 1981.", "Euro adopted in <strong>2001<\/strong>, transferring monetary policy to the ECB.", "Joined the Schengen area in <strong>2000<\/strong>.", "<em>Detailed legal analysis — acquis chapters, constitutional accommodation, infringement and Article 7 history — is pending for this country.<\/em>"]}], "financial": [{"type": "prose", "title": "Financial", "paras": ["Charts below are the collected World Bank series for this country across the whole observation window. Written analysis of what membership did to these numbers is pending — this page is currently data-first."]}, {"type": "chartRow", "charts": [{"title": "Real GDP growth, %", "sub": "Annual change in real GDP.", "series": [{"code": "NY.GDP.MKTP.KD.ZG", "name": "Real GDP growth"}], "opts": {"unit": "%", "dp": 1, "zero": true}}, {"title": "Inflation (CPI), %", "sub": "Annual consumer-price inflation.", "series": [{"code": "FP.CPI.TOTL.ZG", "name": "CPI inflation"}], "opts": {"unit": "%", "dp": 1, "zero": true}}]}, {"type": "chartRow", "charts": [{"title": "Unemployment, % of labour force", "sub": "ILO-modelled estimate.", "series": [{"code": "SL.UEM.TOTL.ZS", "name": "Unemployment"}], "opts": {"unit": "%", "dp": 1}}, {"title": "GDP per capita, PPP vs EU average", "sub": "Current international $. EU aggregate available from 1996.", "series": [{"iso3": "EUU", "code": "NY.GDP.PCAP.PP.CD", "name": "EU average", "colorVar": "--series-2"}, {"code": "NY.GDP.PCAP.PP.CD", "name": "Greece"}], "opts": {"unit": " $", "dp": 0, "endLabelBelow": 2}}]}], "commercial": [{"type": "prose", "title": "Commercial", "paras": ["Trade openness, investment and tourism. Written analysis pending."]}, {"title": "Trade in goods &amp; services, % of GDP", "sub": "Exports and imports of goods and services.", "series": [{"code": "NE.EXP.GNFS.ZS", "name": "Exports"}, {"code": "NE.IMP.GNFS.ZS", "name": "Imports", "colorVar": "--series-2"}], "opts": {"unit": "%", "dp": 1, "endLabelBelow": 2}, "type": "chart"}, {"type": "chartRow", "charts": [{"title": "FDI net inflows, % of GDP", "sub": "Foreign direct investment, net inflows.", "series": [{"code": "BX.KLT.DINV.WD.GD.ZS", "name": "FDI net inflows"}], "opts": {"unit": "%", "dp": 1, "zero": true}}, {"title": "International arrivals, millions", "sub": "World Bank / UNWTO border arrivals. Series generally ends 2019–2020.", "series": [{"code": "ST.INT.ARVL", "name": "Arrivals"}], "opts": {"unit": "m", "dp": 1, "scale": 1e-06}}]}], "political": [{"type": "prose", "title": "Political", "paras": ["Verified milestones for Greece are listed on the Overview tab. Written analysis of how membership reshaped the domestic political landscape is pending for this country."]}], "social": [{"type": "prose", "title": "Social", "paras": ["Migration and income distribution. Written analysis pending."]}, {"title": "Net migration, thousands of people", "sub": "UN World Population Prospects estimates via World Bank. Blue = net inflow, red = net outflow.", "series": [{"code": "SM.POP.NETM", "name": "Net migration"}], "opts": {"type": "bar", "unit": "k", "dp": 1, "zero": true, "scale": 0.001}, "type": "chart"}, {"type": "chartRow", "charts": [{"title": "Income inequality (Gini index)", "sub": "World Bank estimate (0 = perfect equality). Sparse in early years.", "series": [{"code": "SI.POV.GINI", "name": "Gini index"}], "opts": {"unit": "", "dp": 1}}]}]}, "sources": [{"label": "Time series", "text": "World Bank Open Data (api.worldbank.org), retrieved 27 Jul 2026. Indicator codes travel with every value in <code class=\"ind\">data/indicators.csv<\/code>."}, {"label": "Milestones", "text": "European Commission, Council of the EU, EUR-Lex, ECB and national electoral commissions — the source for each row is recorded in <code class=\"ind\">data/milestones.csv<\/code>."}, {"label": "Country metadata", "text": "Accession, euro and Schengen dates in <code class=\"ind\">data/countries.csv<\/code>, each verified against a credited source."}], "method": [{"title": "Window", "text": "Negotiations opened 27 July 1976, so the window starts 1974 (−2 years) and runs to the latest available year."}, {"title": "Status", "text": "This is a <strong>data-first<\/strong> page: the series, milestones and metadata are collected and verified, but the written five-lens analysis is still pending. Poland is the completed reference page."}, {"title": "Convergence series", "text": "The EU aggregate used as the comparison denominator is only available from 1996, so convergence charts start there even where the country window opens earlier."}, {"title": "Attribution caution", "text": "The charts show what happened around membership, not what membership alone caused. Read them as context, not proof."}], "milestones": [{"date": "12 Jun 1975", "sort": 1975.42, "label": "Membership application", "description": "Greece applied for accession to the European Communities", "kind": "political"}, {"date": "27 Jul 1976", "sort": 1976.5, "label": "Accession negotiations opened", "description": "Accession negotiations with the European Communities formally opened", "kind": "era"}, {"date": "28 May 1979", "sort": 1979.33, "label": "Accession treaty signed", "description": "Signed the Treaty of Accession in Athens", "kind": "legal"}, {"date": "1 Jan 1981", "sort": 1981.0, "label": "EC accession", "description": "Became the tenth member of the European Communities", "kind": "era"}, {"date": "26 Mar 2000", "sort": 2000.17, "label": "Schengen entry", "description": "Internal border checks lifted under the Schengen acquis", "kind": "legal"}, {"date": "1 Jan 2001", "sort": 2001.0, "label": "Euro adopted", "description": "Replaced the drachma with the euro two years after the euro area was created", "kind": "economic"}], "generated": "2026-08-01", "rowCount": 9915}</script>
+<script>
+(function () {
+  "use strict";
+  var P = JSON.parse(document.getElementById("payload").textContent);
+  var years = P.years, Y0 = years[0], Y1 = years[years.length - 1];
+  var W_ = P.window;
+  var NS = "http://www.w3.org/2000/svg";
+
+  document.title = P.name + " — EU membership impact";
+  document.getElementById("hTitle").textContent = P.name + " — EU membership impact";
+  document.getElementById("hSub").innerHTML = P.subtitle;
+  document.getElementById("stamp").textContent =
+    "Generated " + P.generated + " from data/indicators.csv · " + P.rowCount + " data points · sources on the Sources & method tab.";
+
+  function el(tag, attrs, style) {
+    var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (style) e.setAttribute("style", style);
+    return e;
+  }
+  function h(tag, cls, html) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (html !== undefined) e.innerHTML = html;
+    return e;
+  }
+  function fmt(v, dp) {
+    if (v === null || v === undefined) return "–";
+    return v.toLocaleString("en-US", { minimumFractionDigits: dp, maximumFractionDigits: dp });
+  }
+  function niceTicks(lo, hi, n) {
+    var span = hi - lo, step = Math.pow(10, Math.floor(Math.log10(span / n)));
+    var err = span / n / step;
+    if (err >= 7.5) step *= 10; else if (err >= 3.5) step *= 5; else if (err >= 1.5) step *= 2;
+    var t = [], v = Math.ceil(lo / step) * step;
+    for (; v <= hi + 1e-9; v += step) t.push(Math.round(v * 1000) / 1000);
+    return t;
+  }
+  function seriesValues(s) { return P.series[(s.iso3 || P.iso3) + "|" + s.code] || []; }
+
+  // ---------------- chart renderer ----------------
+  function renderChart(host, spec) {
+    var opts = spec.opts || {};
+    var sc = opts.scale || 1;
+    var series = spec.series.map(function (s, i) {
+      var vals = seriesValues(s);
+      if (sc !== 1) vals = vals.map(function (v) { return v === null ? null : v * sc; });
+      return { name: s.name, colorVar: s.colorVar || (i === 0 ? "--series-1" : "--series-2"), values: vals };
+    });
+    var wrapBox = h("div");
+    if (series.length >= 2) {
+      var lg = h("div", "legend");
+      series.forEach(function (s) {
+        var k = h("span", "key");
+        var sw = h("span", "swatch-line");
+        sw.style.background = "var(" + s.colorVar + ")";
+        k.appendChild(sw); k.appendChild(document.createTextNode(s.name));
+        lg.appendChild(k);
+      });
+      wrapBox.appendChild(lg);
+    }
+    var root = h("div", "chart-box");
+    wrapBox.appendChild(root);
+
+    var W = 760, H = 268, L = 48, R = 14, T = 14, B = 30;
+    var pw = W - L - R, ph = H - T - B;
+    var xspan = (Y1 + 0.6) - Y0;
+    var xs = function (yr) { return L + (yr - Y0) / xspan * pw; };
+
+    var all = [];
+    series.forEach(function (s) { s.values.forEach(function (v) { if (v !== null) all.push(v); }); });
+    if (!all.length) { host.appendChild(wrapBox); return; }
+    var lo = Math.min.apply(null, all), hi = Math.max.apply(null, all);
+    if (opts.zero) { lo = Math.min(lo, 0); hi = Math.max(hi, 0); }
+    var pad = (hi - lo) * 0.10 || 1;
+    lo -= pad; hi += pad;
+    var ys = function (v) { return T + (hi - v) / (hi - lo) * ph; };
+
+    var svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": spec.title.replace(/&amp;/g, "&") });
+    if (W_.accession && W_.negotiationsOpen && W_.accession > W_.negotiationsOpen)
+      svg.appendChild(el("rect", { x: xs(W_.negotiationsOpen), y: T,
+        width: xs(W_.accession) - xs(W_.negotiationsOpen), height: ph }, "fill:var(--band)"));
+
+    niceTicks(lo, hi, 5).forEach(function (tv) {
+      svg.appendChild(el("line", { x1: L, x2: W - R, y1: ys(tv), y2: ys(tv) }, "stroke:var(--grid);stroke-width:1"));
+      var lab = el("text", { x: L - 7, y: ys(tv) + 3.5, "text-anchor": "end" }, "fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+      lab.textContent = fmt(tv, tv % 1 ? 1 : 0);
+      svg.appendChild(lab);
+    });
+    if (opts.zero && lo < 0 && hi > 0)
+      svg.appendChild(el("line", { x1: L, x2: W - R, y1: ys(0), y2: ys(0) }, "stroke:var(--baseline);stroke-width:1"));
+
+    years.forEach(function (yr) {
+      if (yr % 4 !== 0) return;
+      var lab = el("text", { x: xs(yr), y: H - 10, "text-anchor": "middle" }, "fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+      lab.textContent = yr;
+      svg.appendChild(lab);
+    });
+
+    if (W_.accession && W_.accession >= Y0) {
+      svg.appendChild(el("line", { x1: xs(W_.accession), x2: xs(W_.accession), y1: T, y2: T + ph }, "stroke:var(--baseline);stroke-width:1"));
+      var al = el("text", { x: xs(W_.accession) + 5, y: T + 11 }, "fill:var(--text-muted);font-size:10px");
+      al.textContent = W_.accessionLabel || "EU entry";
+      svg.appendChild(al);
+    }
+    if (W_.exit && W_.exit >= Y0) {
+      svg.appendChild(el("line", { x1: xs(W_.exit), x2: xs(W_.exit), y1: T, y2: T + ph }, "stroke:var(--neg);stroke-width:1"));
+      var xl = el("text", { x: xs(W_.exit) - 5, y: T + 11, "text-anchor": "end" }, "fill:var(--neg);font-size:10px;font-weight:600");
+      xl.textContent = W_.exitLabel || "Exit";
+      svg.appendChild(xl);
+    }
+
+    if (opts.type === "bar") {
+      var s0 = series[0], bw = Math.min(14, pw / years.length * 0.62);
+      s0.values.forEach(function (v, i) {
+        if (v === null) return;
+        var x = xs(Y0 + i) - bw / 2, y0 = ys(0), y1 = ys(v);
+        var top = Math.min(y0, y1), hh = Math.abs(y0 - y1), r = Math.min(4, hh / 2, bw / 2), up = v >= 0, d;
+        if (up) d = "M" + x + "," + (top + hh) + " L" + x + "," + (top + r) + " Q" + x + "," + top + " " + (x + r) + "," + top +
+          " L" + (x + bw - r) + "," + top + " Q" + (x + bw) + "," + top + " " + (x + bw) + "," + (top + r) + " L" + (x + bw) + "," + (top + hh) + " Z";
+        else d = "M" + x + "," + top + " L" + (x + bw) + "," + top + " L" + (x + bw) + "," + (top + hh - r) +
+          " Q" + (x + bw) + "," + (top + hh) + " " + (x + bw - r) + "," + (top + hh) + " L" + (x + r) + "," + (top + hh) +
+          " Q" + x + "," + (top + hh) + " " + x + "," + (top + hh - r) + " Z";
+        svg.appendChild(el("path", { d: d }, "fill:var(" + (up ? s0.colorVar : "--neg") + ")"));
+      });
+      var vals = s0.values.filter(function (v) { return v !== null; });
+      var mx = s0.values.indexOf(Math.max.apply(null, vals));
+      var lbl = el("text", { x: Math.min(xs(Y0 + mx) + 6, W - R), y: ys(s0.values[mx]) + 2, "text-anchor": "end" },
+        "fill:var(--text-primary);font-size:11px;font-weight:600");
+      lbl.textContent = "+" + fmt(s0.values[mx], 0) + (opts.unit || "") + (opts.peakLabel ? " (" + opts.peakLabel + ")" : "");
+      svg.appendChild(lbl);
+    } else {
+      series.forEach(function (s, si) {
+        var d = "", pen = false;
+        s.values.forEach(function (v, i) {
+          if (v === null) { pen = false; return; }
+          d += (pen ? " L" : " M") + xs(Y0 + i).toFixed(1) + "," + ys(v).toFixed(1);
+          pen = true;
+        });
+        if (opts.area) {
+          var li0 = 0; while (s.values[li0] === null) li0++;
+          var li1 = s.values.length - 1; while (s.values[li1] === null) li1--;
+          svg.appendChild(el("path", { d: d + " L" + xs(Y0 + li1).toFixed(1) + "," + (T + ph) + " L" + xs(Y0 + li0).toFixed(1) + "," + (T + ph) + " Z" },
+            "fill:var(" + s.colorVar + ");opacity:0.10"));
+        }
+        svg.appendChild(el("path", { d: d, fill: "none" }, "stroke:var(" + s.colorVar + ");stroke-width:2;stroke-linejoin:round;stroke-linecap:round"));
+        var li = s.values.length - 1; while (s.values[li] === null) li--;
+        svg.appendChild(el("circle", { cx: xs(Y0 + li), cy: ys(s.values[li]), r: 4 }, "fill:var(" + s.colorVar + ");stroke:var(--surface-1);stroke-width:2"));
+        var below = opts.endLabelBelow && si === (opts.endLabelBelow - 1);
+        var elab = el("text", { x: xs(Y0 + li) - 8, y: ys(s.values[li]) + (below ? 16 : -9), "text-anchor": "end" },
+          "fill:var(--text-primary);font-size:11px;font-weight:600");
+        elab.textContent = fmt(s.values[li], opts.dp) + (opts.unit === "%" ? "%" : "");
+        svg.appendChild(elab);
+      });
+    }
+
+    var cross = el("line", { x1: 0, x2: 0, y1: T, y2: T + ph }, "stroke:var(--baseline);stroke-width:1;display:none");
+    svg.appendChild(cross);
+    var hitDots = series.map(function (s) {
+      var c = el("circle", { r: 5 }, "fill:var(" + s.colorVar + ");stroke:var(--surface-1);stroke-width:2;display:none");
+      svg.appendChild(c); return c;
+    });
+    root.appendChild(svg);
+    var tt = h("div", "tooltip");
+    root.appendChild(tt);
+
+    function showAt(i) {
+      var yr = Y0 + i;
+      cross.setAttribute("x1", xs(yr)); cross.setAttribute("x2", xs(yr));
+      cross.style.display = "";
+      while (tt.firstChild) tt.removeChild(tt.firstChild);
+      var t1 = h("div", "tt-title"); t1.textContent = yr; tt.appendChild(t1);
+      series.forEach(function (s, si) {
+        var v = s.values[i];
+        if (opts.type !== "bar") {
+          if (v === null) hitDots[si].style.display = "none";
+          else { hitDots[si].setAttribute("cx", xs(yr)); hitDots[si].setAttribute("cy", ys(v)); hitDots[si].style.display = ""; }
+        }
+        var row = h("div", "tt-row");
+        var key = h("span", "tt-key");
+        key.style.background = (opts.type === "bar" && v !== null && v < 0) ? "var(--neg)" : "var(" + s.colorVar + ")";
+        var val = h("span", "tt-val");
+        val.textContent = v === null ? "no data" : fmt(v, opts.dp) + (opts.unit || "");
+        var nm = h("span", "tt-name"); nm.textContent = s.name;
+        row.appendChild(key); row.appendChild(val); row.appendChild(nm);
+        tt.appendChild(row);
+      });
+      tt.style.display = "block";
+      var rect = root.getBoundingClientRect();
+      var px = (xs(yr) / W) * rect.width;
+      var left = px + 12;
+      if (left + tt.offsetWidth > rect.width - 4) left = px - tt.offsetWidth - 12;
+      tt.style.left = Math.max(2, left) + "px";
+      tt.style.top = "14px";
+    }
+    function hide() {
+      cross.style.display = "none"; tt.style.display = "none";
+      hitDots.forEach(function (c) { c.style.display = "none"; });
+    }
+    svg.addEventListener("pointermove", function (ev) {
+      var pt = svg.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
+      var m = svg.getScreenCTM(); if (!m) return;
+      var loc = pt.matrixTransform(m.inverse());
+      var i = Math.round((loc.x - L) / pw * xspan);
+      showAt(Math.max(0, Math.min(years.length - 1, i)));
+    });
+    svg.addEventListener("pointerleave", hide);
+
+    var det = h("details", "data-table");
+    var sum = document.createElement("summary"); sum.textContent = "View data table"; det.appendChild(sum);
+    var tbl = document.createElement("table");
+    var thr = document.createElement("tr");
+    var th0 = document.createElement("th"); th0.textContent = "Year"; thr.appendChild(th0);
+    series.forEach(function (s) {
+      var th = document.createElement("th");
+      th.textContent = s.name + (opts.unit ? " (" + opts.unit.trim() + ")" : "");
+      thr.appendChild(th);
+    });
+    tbl.appendChild(thr);
+    years.forEach(function (yr, i) {
+      var tr = document.createElement("tr");
+      var td0 = document.createElement("td"); td0.textContent = yr; tr.appendChild(td0);
+      series.forEach(function (s) {
+        var td = document.createElement("td");
+        td.textContent = s.values[i] === null || s.values[i] === undefined ? "–" : fmt(s.values[i], opts.dp);
+        tr.appendChild(td);
+      });
+      tbl.appendChild(tr);
+    });
+    det.appendChild(tbl);
+    wrapBox.appendChild(det);
+    host.appendChild(wrapBox);
+  }
+
+  // ---------------- card builders ----------------
+  function chartCard(spec) {
+    var card = h("div", "card");
+    card.appendChild(h("h3", null, spec.title));
+    if (spec.sub) card.appendChild(h("p", "sub", spec.sub));
+    renderChart(card, spec);
+    return card;
+  }
+  function proseCard(spec) {
+    var card = h("div", "card prose");
+    card.appendChild(h("h3", null, spec.title));
+    (spec.paras || []).forEach(function (t) { card.appendChild(h("p", null, t)); });
+    if (spec.note) card.appendChild(h("p", "note", spec.note));
+    return card;
+  }
+  function kpiRow(items) {
+    var row = h("div", "kpis");
+    items.forEach(function (k) {
+      var t = h("div", "tile");
+      t.appendChild(h("div", "label", k.label));
+      t.appendChild(h("div", "value", k.value));
+      if (k.delta) t.appendChild(h("div", "delta", k.delta));
+      row.appendChild(t);
+    });
+    return row;
+  }
+  function buildBlocks(host, blocks) {
+    blocks.forEach(function (b) {
+      if (b.type === "prose") host.appendChild(proseCard(b));
+      else if (b.type === "kpis") host.appendChild(kpiRow(b.items));
+      else if (b.type === "chart") host.appendChild(chartCard(b));
+      else if (b.type === "chartRow") {
+        var g = h("div", "grid2");
+        b.charts.forEach(function (c) { g.appendChild(chartCard(c)); });
+        if (b.prose) g.appendChild(proseCard(b.prose));
+        host.appendChild(g);
+      }
+    });
+  }
+
+  // ---------------- panels ----------------
+  var TABS = [
+    { id: "overview", label: "Overview" },
+    { id: "legal", label: "Legal" },
+    { id: "financial", label: "Financial" },
+    { id: "commercial", label: "Commercial" },
+    { id: "political", label: "Political" },
+    { id: "social", label: "Social" },
+    { id: "sources", label: "Sources & method" }
+  ];
+  var tabsEl = document.getElementById("tabs"), panelsEl = document.getElementById("panels");
+
+  TABS.forEach(function (t, i) {
+    var b = document.createElement("button");
+    b.setAttribute("role", "tab");
+    b.setAttribute("aria-selected", i === 0 ? "true" : "false");
+    b.dataset.tab = t.id;
+    b.textContent = t.label;
+    tabsEl.appendChild(b);
+
+    var sec = h("section", "panel" + (i === 0 ? " active" : ""));
+    sec.id = "panel-" + t.id;
+    panelsEl.appendChild(sec);
+
+    if (t.id === "overview") {
+      sec.appendChild(kpiRow(P.kpis));
+      sec.appendChild(chartCard(P.heroChart));
+      var mc = h("div", "card");
+      mc.appendChild(h("h3", null, "Milestones at a glance"));
+      var ul = h("ul", "timeline");
+      P.milestones.forEach(function (m) {
+        var li = document.createElement("li");
+        if (m.kind === "era") li.className = "era";
+        li.appendChild(h("span", "tdate", m.date));
+        li.appendChild(h("span", "tl-dot" + (m.kind === "warn" ? " warn" : "")));
+        li.appendChild(h("span", "tbody", "<strong>" + m.label + "</strong> — " + m.description));
+        ul.appendChild(li);
+      });
+      mc.appendChild(ul);
+      sec.appendChild(mc);
+    } else if (t.id === "sources") {
+      var sc = h("div", "card prose");
+      sc.appendChild(h("h3", null, "Sources"));
+      var sl = h("div", "src-list");
+      P.sources.forEach(function (s) { sl.appendChild(h("p", null, "<strong>" + s.label + "</strong> — " + s.text)); });
+      sc.appendChild(sl);
+      sec.appendChild(sc);
+      var mcd = h("div", "card prose");
+      mcd.appendChild(h("h3", null, "Method &amp; confidence notes"));
+      P.method.forEach(function (m) { mcd.appendChild(h("p", null, "<strong>" + m.title + ".</strong> " + m.text)); });
+      sec.appendChild(mcd);
+    } else {
+      buildBlocks(sec, P.tabs[t.id] || []);
+    }
+  });
+
+  tabsEl.addEventListener("click", function (ev) {
+    var b = ev.target.closest("button"); if (!b) return;
+    tabsEl.querySelectorAll("button").forEach(function (x) { x.setAttribute("aria-selected", x === b ? "true" : "false"); });
+    panelsEl.querySelectorAll("section.panel").forEach(function (p) { p.classList.remove("active"); });
+    document.getElementById("panel-" + b.dataset.tab).classList.add("active");
+  });
+
+  var modes = ["auto", "light", "dark"], mi = 0, btn = document.getElementById("themeBtn");
+  btn.addEventListener("click", function () {
+    mi = (mi + 1) % 3;
+    var m = modes[mi];
+    if (m === "auto") document.documentElement.removeAttribute("data-theme");
+    else document.documentElement.setAttribute("data-theme", m);
+    btn.textContent = "Theme: " + m;
+  });
+})();
+</script>
+</body>
+</html>

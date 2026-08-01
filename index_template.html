@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EU membership impact — country comparison</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1: #fcfcfb; --page: #f9f9f7;
+    --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #898781;
+    --grid: #e1e0d9; --baseline: #c3c2b7; --border: rgba(11,11,11,0.10);
+    --series-1: #2a78d6; --series-2: #eb6834; --neg: #e34948;
+    --tooltip-bg: #ffffff; --deemph: #c3c2b7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1: #1a1a19; --page: #0d0d0d;
+      --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #898781;
+      --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+      --series-1: #3987e5; --series-2: #d95926; --neg: #e66767;
+      --tooltip-bg: #242423; --deemph: #52514e;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1: #1a1a19; --page: #0d0d0d;
+    --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #898781;
+    --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+    --series-1: #3987e5; --series-2: #d95926; --neg: #e66767;
+    --tooltip-bg: #242423; --deemph: #52514e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .viz-root { background: var(--page); color: var(--text-primary); min-height: 100vh; padding: 24px 20px 48px; }
+  .wrap { max-width: 1060px; margin: 0 auto; }
+  header.top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+  h1 { font-size: 26px; font-weight: 650; letter-spacing: -0.02em; }
+  .subtitle { color: var(--text-secondary); font-size: 14px; margin-top: 4px; max-width: 680px; line-height: 1.55; }
+  .theme-btn { border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+    border-radius: 8px; padding: 6px 12px; font-size: 12.5px; cursor: pointer; white-space: nowrap; font-family: inherit; }
+  nav.tabs { display: flex; gap: 4px; margin: 20px 0 16px; flex-wrap: wrap; border-bottom: 1px solid var(--border); }
+  nav.tabs button { background: none; border: none; border-bottom: 2px solid transparent; color: var(--text-secondary);
+    font-size: 14px; font-weight: 500; padding: 8px 14px 10px; cursor: pointer; font-family: inherit; }
+  nav.tabs button:hover { color: var(--text-primary); }
+  nav.tabs button[aria-selected="true"] { color: var(--text-primary); border-bottom-color: var(--series-1); font-weight: 600; }
+  section.panel { display: none; }
+  section.panel.active { display: block; }
+  .card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 18px 18px 14px; margin-bottom: 14px; }
+  .card h3 { font-size: 15px; font-weight: 600; }
+  .card .sub { font-size: 12.5px; color: var(--text-secondary); margin-top: 3px; margin-bottom: 12px; line-height: 1.5; }
+  .card p { font-size: 13.5px; color: var(--text-secondary); line-height: 1.6; margin-top: 8px; }
+  .card p strong { color: var(--text-primary); font-weight: 600; }
+  .chart-box { position: relative; }
+  .chart-box svg { display: block; width: 100%; height: auto; }
+  .tooltip { position: absolute; pointer-events: none; display: none; z-index: 5; background: var(--tooltip-bg);
+    border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12); }
+  .tooltip .tt-title { color: var(--text-muted); font-size: 11px; margin-bottom: 3px; }
+  .tooltip .tt-val { font-weight: 600; color: var(--text-primary); }
+  .sm-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+  .sm { border: 1px solid var(--border); border-radius: 10px; padding: 8px 10px 6px; }
+  .sm .nm { font-size: 12px; font-weight: 600; color: var(--text-primary); }
+  .sm .vl { font-size: 11.5px; color: var(--text-secondary); font-variant-numeric: tabular-nums; margin-bottom: 2px; }
+  table.rank { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  table.rank th, table.rank td { padding: 5px 8px; border-bottom: 1px solid var(--grid); color: var(--text-secondary); }
+  table.rank th { color: var(--text-muted); font-weight: 500; text-align: left; }
+  table.rank td.num, table.rank th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  table.rank td.nm { color: var(--text-primary); font-weight: 500; }
+  details.data-table summary { font-size: 12px; color: var(--text-muted); cursor: pointer; padding: 6px 0; }
+  details.data-table summary:hover { color: var(--text-primary); }
+  .note { font-size: 12px; color: var(--text-muted); line-height: 1.55; margin-top: 12px; }
+  .clist { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 8px; margin-top: 10px; }
+  .clist a { display: block; border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px;
+    text-decoration: none; background: var(--surface-1); }
+  .clist a .n { font-size: 13.5px; font-weight: 600; color: var(--text-primary); }
+  .clist a .d { font-size: 11.5px; color: var(--text-muted); margin-top: 2px; }
+  .clist a:hover { border-color: var(--series-1); }
+  .pill { display: inline-block; font-size: 11px; color: var(--text-muted); border: 1px solid var(--border);
+    border-radius: 20px; padding: 2px 9px; margin: 3px 4px 0 0; }
+  .stamp { font-size: 11.5px; color: var(--text-muted); margin-top: 14px; }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <h1>EU membership impact — country comparison</h1>
+        <p class="subtitle">Cross-country view of the member states collected so far. Each country also has its own page with the full annual timeline across five lenses. Rankings show the latest available year; the small multiples show every country's full path on the same scale, so trajectories can be compared directly.</p>
+      </div>
+      <button class="theme-btn" id="themeBtn" type="button">Theme: auto</button>
+    </header>
+    <nav class="tabs" role="tablist" id="tabs"></nav>
+    <div id="panels"></div>
+    <p class="stamp" id="stamp"></p>
+  </div>
+</div>
+
+<script id="payload" type="application/json">__PAYLOAD__</script>
+<script>
+(function () {
+  "use strict";
+  var P = JSON.parse(document.getElementById("payload").textContent);
+  var NS = "http://www.w3.org/2000/svg", years = P.years;
+  var Y0 = years[0], Y1 = years[years.length - 1];
+
+  document.getElementById("stamp").textContent =
+    "Generated " + P.generated + " from data/indicators.csv · " + P.countries.length +
+    " countries · World Bank Open Data, retrieved 27 Jul 2026.";
+
+  function el(t, a, s) { var e = document.createElementNS(NS, t); for (var k in a) e.setAttribute(k, a[k]); if (s) e.setAttribute("style", s); return e; }
+  function h(t, c, html) { var e = document.createElement(t); if (c) e.className = c; if (html !== undefined) e.innerHTML = html; return e; }
+  function fmt(v, dp) { return v === null || v === undefined ? "–" : v.toLocaleString("en-US", { minimumFractionDigits: dp, maximumFractionDigits: dp }); }
+  function lab(m, v) { return v === null || v === undefined ? "–" : m.prefix + fmt(v, m.dp) + m.suffix; }
+  function ticks(lo, hi, n) {
+    var span = hi - lo, step = Math.pow(10, Math.floor(Math.log10(span / n))), err = span / n / step;
+    if (err >= 7.5) step *= 10; else if (err >= 3.5) step *= 5; else if (err >= 1.5) step *= 2;
+    var t = [], v = Math.ceil(lo / step) * step;
+    for (; v <= hi + 1e-9; v += step) t.push(Math.round(v * 1000) / 1000);
+    return t;
+  }
+
+  // ---------- ranked bar chart (one hue: magnitude, not identity) ----------
+  function rankedBars(host, m) {
+    var rows = m.ranked, n = rows.length;
+    var rowH = 22, L = 132, R = 78, T = 6, B = 24, W = 760;
+    var H = T + B + n * rowH, pw = W - L - R;
+    var max = Math.max.apply(null, rows.map(function (r) { return r.value; }));
+    var xs = function (v) { return v / max * pw; };
+    var box = h("div", "chart-box");
+    var svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": m.label + " ranked by country" });
+
+    ticks(0, max, 4).forEach(function (tv) {
+      svg.appendChild(el("line", { x1: L + xs(tv), x2: L + xs(tv), y1: T, y2: T + n * rowH }, "stroke:var(--grid);stroke-width:1"));
+      var tl = el("text", { x: L + xs(tv), y: H - 8, "text-anchor": "middle" }, "fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+      tl.textContent = fmt(tv, 0);
+      svg.appendChild(tl);
+    });
+
+    rows.forEach(function (r, i) {
+      var y = T + i * rowH, bh = 14, bw = Math.max(2, xs(r.value)), rr = Math.min(4, bh / 2, bw / 2);
+      var d = "M" + L + "," + y + " L" + (L + bw - rr) + "," + y + " Q" + (L + bw) + "," + y + " " + (L + bw) + "," + (y + rr) +
+              " L" + (L + bw) + "," + (y + bh - rr) + " Q" + (L + bw) + "," + (y + bh) + " " + (L + bw - rr) + "," + (y + bh) +
+              " L" + L + "," + (y + bh) + " Z";
+      var g = el("g", { tabindex: "0", role: "listitem" });
+      g.appendChild(el("path", { d: d }, "fill:var(--series-1)"));
+      var nm = el("text", { x: L - 8, y: y + bh - 3, "text-anchor": "end" }, "fill:var(--text-primary);font-size:11.5px");
+      nm.textContent = r.name;
+      g.appendChild(nm);
+      var vl = el("text", { x: L + bw + 7, y: y + bh - 3 }, "fill:var(--text-secondary);font-size:11.5px;font-variant-numeric:tabular-nums");
+      vl.textContent = lab(m, r.value);
+      g.appendChild(vl);
+      var hit = el("rect", { x: 0, y: y - 3, width: W, height: rowH }, "fill:transparent");
+      g.appendChild(hit);
+      g.addEventListener("pointerenter", function () { show(r, y); });
+      g.addEventListener("focus", function () { show(r, y); });
+      g.addEventListener("pointerleave", hide);
+      g.addEventListener("blur", hide);
+      svg.appendChild(g);
+    });
+    box.appendChild(svg);
+    var tt = h("div", "tooltip");
+    box.appendChild(tt);
+    function show(r, y) {
+      while (tt.firstChild) tt.removeChild(tt.firstChild);
+      var a = h("div", "tt-title"); a.textContent = r.name + " · " + r.year; tt.appendChild(a);
+      var b = h("div", "tt-val"); b.textContent = lab(m, r.value); tt.appendChild(b);
+      tt.style.display = "block";
+      tt.style.left = "150px";
+      tt.style.top = (y / H * box.getBoundingClientRect().height) + "px";
+    }
+    function hide() { tt.style.display = "none"; }
+    host.appendChild(box);
+
+    var det = h("details", "data-table");
+    var s = document.createElement("summary"); s.textContent = "View data table"; det.appendChild(s);
+    var tbl = h("table", "rank");
+    var tr = document.createElement("tr");
+    ["#", "Country", "Year", m.label].forEach(function (t, i) {
+      var th = document.createElement("th"); if (i > 1) th.className = "num"; th.textContent = t; tr.appendChild(th);
+    });
+    tbl.appendChild(tr);
+    rows.forEach(function (r, i) {
+      var t = document.createElement("tr");
+      var c0 = document.createElement("td"); c0.className = "num"; c0.textContent = i + 1;
+      var c1 = document.createElement("td"); c1.className = "nm"; c1.textContent = r.name;
+      var c2 = document.createElement("td"); c2.className = "num"; c2.textContent = r.year;
+      var c3 = document.createElement("td"); c3.className = "num"; c3.textContent = lab(m, r.value);
+      [c0, c1, c2, c3].forEach(function (c) { t.appendChild(c); });
+      tbl.appendChild(t);
+    });
+    det.appendChild(tbl);
+    host.appendChild(det);
+  }
+
+  // ---------- small multiples ----------
+  function smallMultiples(host, m) {
+    var all = [];
+    Object.keys(m.lines).forEach(function (k) {
+      m.lines[k].forEach(function (v) { if (v !== null && v !== undefined) all.push(v); });
+    });
+    if (m.euLine) m.euLine.forEach(function (v) { if (v !== null && v !== undefined) all.push(v); });
+    var lo = Math.min.apply(null, all), hi = Math.max.apply(null, all);
+    var pad = (hi - lo) * 0.08;
+    lo = (lo >= 0) ? Math.max(0, lo - pad) : lo - pad;
+    hi += pad;
+
+    var grid = h("div", "sm-grid");
+    var order = m.ranked.map(function (r) { return r.iso3; });
+    order.forEach(function (iso) {
+      var vals = m.lines[iso];
+      if (!vals) return;
+      var c = P.countries.filter(function (x) { return x.iso3 === iso; })[0];
+      var cell = h("div", "sm");
+      cell.appendChild(h("div", "nm", "")).textContent = c ? c.name : iso;
+      var last = null;
+      for (var i = vals.length - 1; i >= 0; i--) { if (vals[i] !== null && vals[i] !== undefined) { last = vals[i]; break; } }
+      var v = h("div", "vl"); v.textContent = lab(m, last); cell.appendChild(v);
+
+      var W = 160, H = 56, T = 4, B = 4;
+      var svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": (c ? c.name : iso) + " " + m.label + " over time" });
+      var xs = function (i) { return i / (years.length - 1) * W; };
+      var ys = function (val) { return T + (hi - val) / (hi - lo) * (H - T - B); };
+      if (m.euLine) {
+        var de = "", p2 = false;
+        m.euLine.forEach(function (val, i) {
+          if (val === null || val === undefined) { p2 = false; return; }
+          de += (p2 ? " L" : " M") + xs(i).toFixed(1) + "," + ys(val).toFixed(1); p2 = true;
+        });
+        if (de) svg.appendChild(el("path", { d: de, fill: "none" }, "stroke:var(--deemph);stroke-width:1.5;stroke-linecap:round"));
+      }
+      var d = "", pen = false;
+      vals.forEach(function (val, i) {
+        if (val === null || val === undefined) { pen = false; return; }
+        d += (pen ? " L" : " M") + xs(i).toFixed(1) + "," + ys(val).toFixed(1); pen = true;
+      });
+      svg.appendChild(el("path", { d: d, fill: "none" }, "stroke:var(--series-1);stroke-width:2;stroke-linejoin:round;stroke-linecap:round"));
+      cell.appendChild(svg);
+      grid.appendChild(cell);
+    });
+    host.appendChild(grid);
+    var lg = h("p", "note", "Blue line = the country. Grey line = the EU aggregate where available. "
+      + "All panels share one y-scale (" + lab(m, lo) + " to " + lab(m, hi) + ") and one x-scale ("
+      + Y0 + "–" + Y1 + "), so panels are directly comparable. Ordered by the ranking above.");
+    host.appendChild(lg);
+  }
+
+  // ---------- panels ----------
+  var TABS = P.metrics.map(function (m) { return { id: m.id, label: m.label, metric: m }; });
+  TABS.push({ id: "bli", label: "Better Life Index" });
+  TABS.push({ id: "countries", label: "Countries" });
+
+  var tabsEl = document.getElementById("tabs"), panelsEl = document.getElementById("panels");
+  TABS.forEach(function (t, i) {
+    var b = document.createElement("button");
+    b.setAttribute("role", "tab");
+    b.setAttribute("aria-selected", i === 0 ? "true" : "false");
+    b.dataset.tab = t.id; b.textContent = t.label;
+    tabsEl.appendChild(b);
+
+    var sec = h("section", "panel" + (i === 0 ? " active" : ""));
+    sec.id = "panel-" + t.id;
+    panelsEl.appendChild(sec);
+
+    if (t.metric) {
+      var m = t.metric;
+      var c1 = h("div", "card");
+      c1.appendChild(h("h3", null, m.label + " — ranked, latest available year"));
+      c1.appendChild(h("p", "sub", m.blurb));
+      rankedBars(c1, m);
+      sec.appendChild(c1);
+      var c2 = h("div", "card");
+      c2.appendChild(h("h3", null, m.label + " — trajectory, " + Y0 + "–" + Y1));
+      c2.appendChild(h("p", "sub", "One panel per country on a shared scale. Small multiples rather than "
+        + "one chart with a line per country: past about eight series, colour stops telling countries apart."));
+      smallMultiples(c2, m);
+      sec.appendChild(c2);
+    } else if (t.id === "bli") {
+      var cb = h("div", "card");
+      cb.appendChild(h("h3", null, "OECD Better Life Index — not yet collected"));
+      cb.appendChild(h("p", "sub", "This tab is deliberately empty rather than filled with an approximation."));
+      cb.appendChild(h("p", null, "Collection of the OECD Better Life Index topic scores was interrupted before it ran and <strong>no BLI data is in the dataset yet</strong>. Three things about this indicator shaped the agreed approach, and they still apply:"));
+      cb.appendChild(h("p", null, "<strong>There is no official composite score.</strong> The OECD publishes eleven topic scores — housing, income, jobs, community, education, environment, civic engagement, health, life satisfaction, safety, work-life balance — and deliberately declines to weight them into a single ranking; the weighting is left to each user. Any single \"BLI score\" per country is therefore somebody's construct, not an OECD figure."));
+      cb.appendChild(h("p", null, "<strong>It is not an annual time series.</strong> The OECD's own guidance is to use the underlying well-being database for longitudinal comparison rather than the index, so BLI cannot be plotted year by year the way the economic series above are."));
+      cb.appendChild(h("p", null, "<strong>It does not cover the whole EU.</strong> The index covers OECD members, which excludes Bulgaria, Croatia, Cyprus, Malta and Romania — five member states that would show as blanks in any EU-wide comparison."));
+      cb.appendChild(h("p", "note", "Agreed plan: store all eleven topic scores per country and compare them as a heatmap or small multiples across the covered members, with the five non-OECD states shown explicitly as no-data rather than silently dropped."));
+      sec.appendChild(cb);
+    } else {
+      var cc = h("div", "card");
+      cc.appendChild(h("h3", null, "Country pages"));
+      cc.appendChild(h("p", "sub", "Each page carries the full annual timeline and the five-lens structure. Poland is the completed reference page; the rest are data-first with written analysis pending."));
+      var list = h("div", "clist");
+      P.countries.forEach(function (c) {
+        var a = document.createElement("a");
+        a.href = c.slug;
+        var n = h("div", "n"); n.textContent = c.name; a.appendChild(n);
+        var d = h("div", "d");
+        d.textContent = "Joined " + (c.accession || "—") + (c.euro ? " · euro " + c.euro : "");
+        a.appendChild(d);
+        list.appendChild(a);
+      });
+      cc.appendChild(list);
+      sec.appendChild(cc);
+
+      if (P.missing.length) {
+        var cm = h("div", "card");
+        cm.appendChild(h("h3", null, "Not yet collected"));
+        cm.appendChild(h("p", "sub", "Data collection for these was cut off partway through. Their accession dates, "
+          + "euro and Schengen status and full milestone timelines are already verified and stored — only the "
+          + "World Bank series are outstanding."));
+        var pl = h("p", null, "");
+        P.missing.forEach(function (x) {
+          var s = h("span", "pill"); s.textContent = x.name; pl.appendChild(s);
+        });
+        cm.appendChild(pl);
+        sec.appendChild(cm);
+      }
+    }
+  });
+
+  tabsEl.addEventListener("click", function (ev) {
+    var b = ev.target.closest("button"); if (!b) return;
+    tabsEl.querySelectorAll("button").forEach(function (x) { x.setAttribute("aria-selected", x === b ? "true" : "false"); });
+    panelsEl.querySelectorAll("section.panel").forEach(function (p) { p.classList.remove("active"); });
+    document.getElementById("panel-" + b.dataset.tab).classList.add("active");
+  });
+
+  var modes = ["auto", "light", "dark"], mi = 0, btn = document.getElementById("themeBtn");
+  btn.addEventListener("click", function () {
+    mi = (mi + 1) % 3;
+    var m = modes[mi];
+    if (m === "auto") document.documentElement.removeAttribute("data-theme");
+    else document.documentElement.setAttribute("data-theme", m);
+    btn.textContent = "Theme: " + m;
+  });
+})();
+</script>
+</body>
+</html>
