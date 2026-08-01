@@ -1,0 +1,589 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1970,1.65510739110216,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1971,1.68642015700182,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1972,1.37724732487183,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1973,1.55531301334105,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1974,1.26255189571856,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1975,1.22750341157278,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1976,0.531511533494826,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1977,0.475848095529174,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1978,0.693287090917096,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1979,0.953214414860188,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1980,1.16577263139696,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1981,1.09447901539568,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1982,0.773407868992447,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1983,0.883701761973259,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1984,1.19128858664823,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1985,1.04446219147523,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1986,1.55552990021535,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1987,1.23429151964321,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1988,1.82288468502433,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1989,3.3083685937133,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1990,3.348708621698,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1991,1.71467155334591,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1992,1.70194435164588,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1993,1.80198693110724,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1994,1.87693869608483,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1995,2.69471320466118,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1996,3.67863987970945,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1997,2.64268189930439,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1998,8.57679525462927,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1999,9.19246841685971,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2000,15.1107005401962,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2001,12.0218639579935,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2002,5.359292335364,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2003,3.5122237802764,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2004,21.160832133529,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2005,30.5011693880359,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2006,50.9095810861305,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2007,85.9785548363802,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2008,20.4123384575226,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2009,23.1185529746283,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2010,6.47724170250418,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2011,39.0408469194559,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2012,30.9042384931276,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2013,36.6955717929323,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2014,15.9879956344505,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2015,48.4706196279081,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2016,34.7918547450687,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2017,23.7131758376085,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2018,-30.6576768564655,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2019,-13.7565327156949,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2020,-23.6860117625863,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2021,-10.9725941589172,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2022,1.47701805979237,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2023,-30.2430732965592,World Bank Open Data,2026-07-27
+NLD,Netherlands,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2024,-1.40518243891316,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1960,2.32394366197217,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1961,1.30763936682729,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1962,2.43114520046464,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1963,3.24365932762645,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1964,5.82376646876146,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1965,3.90802639393659,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1966,5.7621465538999,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1967,3.45532005294176,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1968,3.72079177074764,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1969,7.4217973638689,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1970,3.66891820184056,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1971,7.47769255204135,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1972,7.80279143456221,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1973,8.02220374966094,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1974,9.591424843251,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1975,10.2174805273043,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1976,8.83064355905726,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1977,6.39930319039242,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1978,4.11201316875867,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1979,4.19929296222732,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1980,6.51345686297215,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1981,6.73892955078451,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1982,5.91109323984916,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1983,2.74084282543433,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1984,3.30163841997983,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1985,2.25858401255268,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1986,0.0833479494867508,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1987,-0.691203091336868,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1988,0.737943045747553,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1989,1.08216015577775,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1990,2.45408985919675,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1991,3.15819751859096,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1992,3.18358569499581,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1993,2.58418115634715,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1994,2.80152693672192,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1995,1.92322457166359,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1996,2.11378787066774,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1997,2.10924562739483,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1998,1.95913632274257,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1999,2.1571791805505,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2000,2.36052233801958,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2001,4.15584127195612,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2002,3.28753104712766,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2003,2.09199838997655,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2004,1.26364739183177,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2005,1.6881301786962,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2006,1.10150106517709,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2007,1.61385859802102,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2008,2.48650198289457,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2009,1.18977687021548,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2010,1.27530569556679,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2011,2.34107017751373,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2012,2.45554765291614,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2013,2.50689852657875,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2014,0.976035079699679,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2015,0.600248147278776,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2016,0.316666666666652,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2017,1.38145871407216,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2018,1.70349794744479,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2019,2.63369910249591,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2020,1.27246037789161,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2021,2.67572008805385,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2022,10.0012078753473,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2023,3.83839354342808,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2024,3.34754304219953,World Bank Open Data,2026-07-27
+NLD,Netherlands,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2025,3.2595766451366,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1969,41.3888702902014,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1970,43.497589497133,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1971,43.7636918815617,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1972,43.7206242855085,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1973,45.7882096764328,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1974,50.7963315844673,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1975,47.8803039183872,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1976,48.9559354100136,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1977,46.3227225590489,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1978,44.2261444071507,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1979,48.2552043205699,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1980,50.8356365663113,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1981,55.345283504417,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1982,55.3559825604044,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1983,55.041396833026,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1984,58.8791115554513,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1985,60.3977513276902,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1986,51.2038991421934,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1987,49.8578141914045,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1988,52.1631522441186,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1989,55.4850095421904,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1990,54.8626549304423,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1991,55.5626380153824,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1992,53.8154295005776,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1993,53.0451530789049,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1994,55.1862017827787,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1995,57.6919813836234,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1996,57.7981465392412,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1997,60.7658388789699,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1998,59.6772355314445,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1999,60.2958992533494,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2000,66.4429411465509,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2001,63.3725444723061,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2002,60.1048715353519,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2003,59.2393489233853,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2004,62.5959181523516,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2005,65.5858924432585,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2006,68.1457296355057,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2007,68.7100477700614,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2008,69.6056649864348,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2009,61.6018141050156,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2010,69.2873649735157,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2011,75.1751870770854,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2012,79.5755903693531,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2013,80.3711722486241,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2014,81.3822615368973,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2015,83.9918475345943,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2016,80.9095011629118,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2017,85.1795472131327,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2018,87.0564594492635,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2019,85.3209394926528,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2020,81.2415259478997,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2021,86.4500028041052,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2022,96.4436215813729,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2023,87.4860612893795,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2024,82.4976839942829,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2025,80.6693413415314,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1969,39.5940045721398,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1970,42.9851586467163,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1971,41.6572090518587,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1972,39.0386421356687,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1973,40.4454053771677,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1974,45.3182708705603,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1975,42.6416092991797,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1976,43.8943664476848,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1977,43.4075646828432,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1978,42.2557735338926,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1979,46.3435533867062,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1980,49.0444890002139,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1981,49.6126632942353,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1982,49.2392622211321,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1983,49.8571756916538,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1984,51.7606405498361,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1985,54.1763349161944,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1986,46.00514632112,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1987,45.8830745017286,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1988,47.8948928620974,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1989,50.6316467709412,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1990,49.2530257831818,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1991,49.6319788057938,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1992,48.2653411955376,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1993,45.987680585651,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1994,47.8598271711194,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1995,50.2248266834731,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1996,50.8664929047205,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1997,53.5291889844722,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1998,52.7308599201193,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1999,54.0318415396663,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2000,59.22408893587,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2001,56.1029194042336,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2002,52.6451528233191,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2003,52.0651542723747,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2004,54.3622418745873,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2005,56.6699570799932,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2006,59.0498839038274,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2007,61.0881939705351,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2008,60.5463849936819,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2009,53.507846258091,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2010,60.7943429618271,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2011,66.5819122486902,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2012,69.8176326887784,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2013,70.2806779783252,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2014,70.3336295196036,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2015,76.3339650302142,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2016,70.0560280487382,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2017,74.4665124437146,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2018,76.5026871237804,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2019,75.3557323923463,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2020,70.9917044618066,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2021,76.7048398855925,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2022,87.6638626713087,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2023,77.5443681895531,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2024,71.4586065803986,World Bank Open Data,2026-07-27
+NLD,Netherlands,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2025,69.4506290177353,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1960,13282979014.563,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1961,14599836396.388,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1962,15847582341.1664,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1963,17193744109.0367,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1964,20232048552.8327,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1965,22721869808.1438,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1966,24741480717.0389,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1967,27143828098.7481,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1968,30097635750.982,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1969,34086038090.3986,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1970,38220884519.3888,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1971,44644730576.4411,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1972,54787070173.0294,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1973,71946639602.7117,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1974,87371810804.1643,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1975,100397061693.97,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1976,109329386564.427,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1977,127203923857.412,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1978,156089077205.133,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1979,179933827309.678,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1980,195439301706.939,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1981,164375775854.456,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1982,158712765536.024,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1983,153671294108.563,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1984,144124462912.088,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1985,144057523221.868,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1986,201157708220.903,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1987,245406949521.323,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1988,262295966105.474,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1989,258716904291.801,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1990,318799003993.707,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1991,327982316124.47,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1992,363497050125.313,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1993,354070495965.828,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1994,379688232231.505,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1995,452967334614.329,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1996,451372549019.608,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1997,417506211881.635,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1998,438612530548.767,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,1999,447778514140.155,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2000,417649282153.726,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2001,432536219668.898,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2002,475529972122.746,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2003,582435617081.96,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2004,661224886143.245,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2005,688133699635.797,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2006,737593995289.411,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2007,853499460872.552,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2008,957901566041.406,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2009,878954223140.234,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2010,852464982433.335,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2011,913140741332.687,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2012,845689017065.625,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2013,883951539006.669,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2014,901556501756.467,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2015,775743675302.734,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2016,797163949289.885,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2017,848233537845.884,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2018,929733599796.862,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2019,928903005576.469,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2020,932560861701.17,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2021,1054472123449.6,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2022,1046540797548.64,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2023,1135475867551,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2024,1213936238063.28,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.CD,GDP (current US$),$,2025,1332767651100.39,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1961,0.295546504846172,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1962,6.84350722750473,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1963,3.62462159639203,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1964,8.27490413848105,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1965,8.64309474781801,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1966,2.74110435359816,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1967,5.28001495109744,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1968,6.41613410796171,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1969,6.4294490946164,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1970,6.14018151825016,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1971,4.31698034729853,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1972,3.53387449555808,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1973,5.44422319799096,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1974,3.4387177026689,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1975,0.00202875594803231,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1976,4.45630944629636,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1977,2.52044058142084,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1978,2.6962468211259,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1979,2.01416625857843,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1980,1.34191409240884,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1981,-0.78361166175803,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1982,-1.24075669199284,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1983,2.06995815677583,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1984,3.06167877138195,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1985,2.58018000128781,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1986,2.78697583712109,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1987,1.9312485744144,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1988,3.44121890433911,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1989,4.42011793059889,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1990,4.18322289611109,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1991,2.4391343395225,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1992,1.70607100505794,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1993,1.25755214528137,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1994,2.96109252246121,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1995,3.11603593857495,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1996,3.42063535269868,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1997,4.24847396941847,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1998,4.64770326997895,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1999,5.04334216651563,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2000,4.21970034558892,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2001,2.32358454925847,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2002,0.24582951723049,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2003,0.0978549395212411,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2004,2.01628331561487,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2005,2.03401576512488,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2006,3.53729585853395,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2007,3.88542348324803,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2008,2.11674514240192,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2009,-3.66528147002826,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2010,1.31935287897116,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2011,1.77330320575034,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2012,-0.977826121310997,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2013,-0.0302410184270769,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2014,1.61255885112396,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2015,2.12064007193544,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2016,2.42428065449427,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2017,2.78150834679987,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2018,2.25873158164956,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2019,2.3001616053659,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2020,-3.86799714191608,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2021,6.27683593745216,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2022,5.00723453395074,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2023,-0.598061017580278,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2024,1.07383137319854,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2025,1.78463214703797,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1990,19202.99,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1991,20176.98,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1992,20830.76,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1993,21442.73,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1994,22413.53,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1995,23480.25,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1996,24564.12,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1997,26061.63,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1998,27748.82,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1999,29316.26,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2000,31894.66,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2001,33259.45,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2002,34568.46,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2003,34286.38,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2004,35960.71,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2005,37778.49,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2006,41208.05,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2007,44203.40,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2008,46714.35,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2009,44959.17,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2010,45301.27,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2011,47004.14,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2012,47653.34,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2013,49622.05,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2014,49751.31,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2015,50956.69,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2016,53162.28,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2017,56037.57,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2018,58819.26,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2019,62345.25,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2020,62596.63,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2021,68573.56,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2022,78630.36,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2023,80391.60,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2024,85218.37,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2025,87320.15,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1990,18650,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1991,19680,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1992,20240,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1993,20990,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1994,22080,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1995,23320,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1996,24540,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1997,25950,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1998,27230,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1999,29130,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2000,31640,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2001,32430,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2002,33580,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2003,33870,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2004,35450,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2005,37250,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2006,40920,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2007,43650,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2008,44420,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2009,43360,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2010,45070,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2011,46960,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2012,47240,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2013,49350,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2014,49320,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2015,50200,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2016,51600,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2017,55070,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2018,58530,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2019,61020,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2020,60800,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2021,69670,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2022,77730,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2023,80530,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2024,84460,World Bank Open Data,2026-07-27
+NLD,Netherlands,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2025,85480,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,1983,28.4,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,1987,26.8,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,1990,31.1,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,1993,30.4,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,1999,28.1,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2004,29.8,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2005,29,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2006,30,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2007,29.6,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2008,29.3,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2009,27.9,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2010,27.8,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2011,27.8,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2012,27.6,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2013,28.1,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2014,28.6,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2015,28.2,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2016,28.2,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2017,28.5,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2018,28.1,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2019,29.2,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2020,26,World Bank Open Data,2026-07-27
+NLD,Netherlands,SI.POV.GINI,Gini index,index,2021,25.7,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1991,7.285,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1992,5.555,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1993,6.287,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1994,7.159,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1995,7.157,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1996,6.421,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1997,5.511,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1998,4.394,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1999,3.622,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2000,2.725,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2001,2.119,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2002,2.554,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2003,3.593,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2004,4.646,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2005,5.872,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2006,5.007,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2007,4.153,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2008,3.658,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2009,4.352,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2010,4.991,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2011,4.977,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2012,5.821,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2013,7.241,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2014,7.419,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2015,6.872,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2016,6.007,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2017,4.837,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2018,3.832,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2019,3.379,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2020,3.82,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2021,4.209,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2022,3.526,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2023,3.535,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2024,3.7,World Bank Open Data,2026-07-27
+NLD,Netherlands,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2025,3.874,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1960,-13235,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1961,8258,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1962,18024,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1963,-21,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1964,15014,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1965,19444,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1966,20740,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1967,-10673,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1968,7243,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1969,21850,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1970,32438,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1971,32756,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1972,17470,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1973,18705,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1974,31645,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1975,68569,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1976,18774,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1977,19809,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1978,26639,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1979,42772,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1980,54010,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1981,17643,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1982,7644,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1983,11007,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1984,12902,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1985,27356,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1986,30380,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1987,39559,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1988,31026,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1989,31165,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1990,53564,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1991,51670,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1992,50148,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1993,44514,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1994,20193,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1995,15056,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1996,21792,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1997,31302,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1998,52058,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,1999,47179,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2000,59308,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2001,56096,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2002,28824,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2003,7937,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2004,-9230,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2005,-22496,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2006,-25401,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2007,-304,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2008,32406,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2009,39832,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2010,33703,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2011,31224,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2012,14861,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2013,19973,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2014,36591,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2015,55585,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2016,88743,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2017,86332,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2018,87197,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2019,109003,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2020,67598,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2021,106416,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2022,224472,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2023,144558,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2024,121628,World Bank Open Data,2026-07-27
+NLD,Netherlands,SM.POP.NETM,Net migration,count,2025,104681,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,6574000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,6580000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,7841000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,9312000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,9874000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,10003000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,9500000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,9595000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,9181000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,9646000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,10012000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,10739000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,11008000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,10104000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,9921000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,10883000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,11300000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,11680000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,12783000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,13925000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,15007000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,15828000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,17924000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,18780000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,20129000,World Bank Open Data,2026-07-27
+NLD,Netherlands,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,7265000,World Bank Open Data,2026-07-27

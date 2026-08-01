@@ -1,0 +1,572 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2002,17.9416677912933,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2003,14.4641078649714,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2004,14.7716141859696,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2005,12.32939877922,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2006,75.0860385350828,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2007,-57.5323140834096,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2008,12.0948257128755,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2009,50.0394903092505,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2010,69.6063943388728,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2011,14.3333707152268,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2012,4.7244838569188,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2013,35.7329034711934,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2014,29.1553925693205,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2015,75.6300240002581,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2016,28.257554145971,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2017,-41.6509945601316,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2018,-117.233947530512,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2019,234.310617307358,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2020,-4.55819523596748,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2021,28.7187121123012,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2022,-391.555119009248,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2023,-10.4511316835125,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2024,113.622225285264,World Bank Open Data,2026-07-27
+LUX,Luxembourg,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2025,-92.8195151180004,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1960,0.45,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1961,0.48,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1962,0.90,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1963,2.88,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1964,3.10,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1965,3.33,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1966,3.33,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1967,2.17,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1968,2.63,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1969,2.29,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1970,4.64,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1971,4.67,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1972,5.23,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1973,6.07,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1974,9.54,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1975,10.72,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1976,9.80,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1977,6.71,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1978,3.09,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1979,4.55,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1980,6.30,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1981,8.07,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1982,9.36,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1983,8.67,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1984,6.44,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1985,4.09,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1986,0.29,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1987,-0.06,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1988,1.44,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1989,3.37,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1990,3.25,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1991,3.12,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1992,3.15,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1993,3.59,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1994,2.19,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1995,1.87,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1996,1.18,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1997,1.37,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1998,0.96,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1999,1.03,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2000,3.15,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2001,2.66,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2002,2.07,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2003,2.05,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2004,2.23,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2005,2.49,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2006,2.67,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2007,2.31,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2008,3.40,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2009,0.37,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2010,2.27,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2011,3.41,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2012,2.66,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2013,1.73,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2014,0.63,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2015,0.47,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2016,0.29,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2017,1.73,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2018,1.53,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2019,1.74,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2020,0.82,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2021,2.53,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2022,6.34,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2023,3.74,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2024,2.05,World Bank Open Data,2026-07-27
+LUX,Luxembourg,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2025,2.26,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1970,89.7888321681727,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1971,89.0428990529317,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1972,83.7267740495879,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1973,90.2413963489159,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1974,103.680272728456,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1975,93.4161485884498,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1976,89.0221256926869,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1977,87.7438954120396,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1978,84.6292813546145,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1979,91.8497769059015,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1980,89.4220278535216,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1981,87.5293514159411,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1982,89.9102057635906,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1983,91.1567394653293,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1984,102.120779569068,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1985,109.56099256694,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1986,100.263370877089,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1987,97.4720279652175,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1988,99.0372478350919,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1989,101.813958469321,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1990,99.7128836405077,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1991,99.6055988954344,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1992,98.5986148902292,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1993,98.8648330721503,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1994,102.139638596495,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1995,104.478825699709,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1996,107.981098142476,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1997,116.220951847375,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1998,127.697112462509,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1999,129.936451950794,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2000,147.644762391931,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2001,146.200789383276,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2002,136.361725575128,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2003,132.848052488235,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2004,143.73436357449,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2005,153.824282815392,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2006,167.740282231035,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2007,169.576705513534,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2008,161.494761789301,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2009,147.925083013145,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2010,162.709857140044,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2011,169.489123436331,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2012,171.211788066768,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2013,176.383330927429,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2014,182.782585361208,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2015,191.835428725013,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2016,191.098633740622,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2017,192.747503540731,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2018,197.218199953374,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2019,206.580145839872,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2020,204.436962289215,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2021,215.618162988769,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2022,222.308456163103,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2023,217.379822583978,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2024,191.532970187611,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2025,190.522135684017,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1970,71.0491536905115,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1971,79.1791168884246,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1972,72.003265633449,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1973,71.8585599497474,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1974,76.3857949592078,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1975,82.6693749664184,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1976,77.1785682456082,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1977,77.6280350670011,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1978,77.2482710618813,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1979,81.4698847282731,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1980,83.6966861353645,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1981,83.976997003479,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1982,85.0261789546221,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1983,84.4713682891076,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1984,93.22986686045,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1985,97.0091126904686,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1986,88.2698050199173,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1987,89.9589338780249,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1988,89.8833267712408,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1989,89.1978520724543,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1990,88.098283460949,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1991,89.0583089759106,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1992,83.948659188581,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1993,82.5378337112757,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1994,83.6466085523699,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1995,85.065620189087,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1996,87.6558085056738,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1997,95.8678060845422,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1998,108.872876429456,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1999,109.986047626897,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2000,124.767265322622,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2001,124.564554436307,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2002,114.327466616513,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2003,112.129893572294,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2004,121.492521281147,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2005,130.252959519747,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2006,138.139211555237,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2007,137.908314571662,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2008,130.718718994128,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2009,115.607618528539,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2010,130.962019766895,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2011,139.225330437832,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2012,140.575047137918,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2013,144.15017538934,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2014,150.646251097964,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2015,159.296525319647,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2016,157.338775636266,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2017,161.046488439573,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2018,164.647245245294,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2019,176.080634744548,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2020,171.144432536811,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2021,181.888017879203,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2022,189.868713761072,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2023,185.187145613366,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2024,159.734950965581,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2025,159.364743494859,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1960,709941874.044355,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1961,710163719.406917,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1962,747846862.209673,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1963,797902154.238122,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1964,910877686.268584,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1965,929477284.788002,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1966,976717015.461454,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1967,983052314.930267,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1968,1075561622.81321,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1969,1245432991.34271,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1970,1457768455.02219,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1971,1518773421.37846,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1972,1901697369.62698,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1973,2609875802.11136,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1974,3183637116.81856,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1975,3123333333.33333,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1976,3423586206.89655,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1977,3789321328.08104,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1978,4718539771.99949,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1979,5516982663.73143,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1980,6019805490.41247,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1981,5053665797.47936,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1982,4602316793.21914,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1983,4524217751.47929,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1984,4438435492.87908,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1985,4577211767.10374,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1986,6685595087.59256,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1987,8320902215.01891,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1988,9418167855.18376,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1989,10037674037.674,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1990,12778792853.6939,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1991,13834219728.293,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1992,15518702634.8808,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1993,15925521222.0149,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1994,17701798890.7644,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1995,20853093869.7318,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1996,20895314657.9805,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1997,19563836265.2233,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1998,20150055567.904,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,1999,21899317598.8414,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2000,21230200537.942,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2001,21387550720.1937,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2002,23649832386.5918,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2003,29667268248.1305,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2004,35064843792.8993,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2005,37672311222.7362,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2006,42910153829.6576,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2007,51587401415.7872,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2008,58844277701.5258,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2009,54467289897.5582,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2010,56213985987.4168,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2011,61696281326.2453,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2012,59776383527.3602,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2013,65203276466.9763,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2014,68804814554.646,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2015,60071584216.1375,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2016,62216885435.9488,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2017,65712180342.9836,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2018,71085623495.1145,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2019,69872035113.6469,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2020,73670782100.3909,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2021,86386759695.1653,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2022,80801680397.0139,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2023,88788881539.3937,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2024,93279851863.4062,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.CD,GDP (current US$),$,2025,101157829491.107,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1961,3.82998138409332,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1962,1.35867628948618,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1963,3.43911198594992,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1964,7.86582544744337,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1965,-0.73492975300033,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1966,1.10589941514236,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1967,0.216730539713424,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1968,4.18387723458528,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1969,9.97285677756084,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1970,1.75993591351104,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1971,2.66723351069847,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1972,6.5981982956401,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1973,8.31267077441045,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1974,4.21247361331076,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1975,-6.57137080362814,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1976,2.53433057787748,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1977,1.56977197000445,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1978,4.07497535070786,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1979,2.34561008805581,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1980,0.840881769623977,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1981,-0.550953306090335,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1982,1.13129633110074,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1983,2.98908218676767,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1984,6.18693947396744,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1985,2.79170151318351,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1986,9.9839386111551,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1987,3.95097758570968,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1988,8.46328242722446,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1989,9.79806159175014,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1990,5.31993003333675,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1991,8.64419104734844,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1992,1.81965480509376,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1993,4.20064571003755,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1994,3.82092143373001,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1995,1.43220024272964,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1996,1.39807630241253,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1997,5.41972646151088,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1998,6.67419503775402,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1999,8.17613777063244,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2000,6.93809504692074,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2001,3.07427520210337,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2002,3.22528846998354,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2003,2.6192502126754,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2004,4.23067892192488,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2005,2.48250499371829,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2006,6.01662739677904,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2007,8.09852098069817,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2008,-0.302272983306707,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2009,-3.23895268839308,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2010,3.76040578658925,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2011,1.0442860057217,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2012,1.64971134354685,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2013,3.17168513780955,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2014,2.62308838097542,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2015,2.26836572735107,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2016,4.97819047122638,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2017,1.31711942298405,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2018,1.61129891211624,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2019,2.74932091920692,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2020,-0.510051634039826,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2021,6.92973270801744,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2022,-1.09741256293819,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2023,0.0994370594039111,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2024,0.358614003982225,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2025,0.63787818818335,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1990,29948.94,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1991,33190.51,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1992,34108.50,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1993,35898.54,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1994,37551.13,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1995,38345.10,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1996,39722.25,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1997,42487.69,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1998,44270.07,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1999,49844.68,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2000,55136.11,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2001,56135.88,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2002,58575.68,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2003,60192.18,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2004,64685.73,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2005,68787.91,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2006,78861.18,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2007,85126.14,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2008,90970.72,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2009,86918.59,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2010,90336.02,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2011,94475.03,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2012,96636.43,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2013,100925.01,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2014,105296.29,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2015,107859.69,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2016,113365.18,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2017,114985.84,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2018,116638.41,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2019,121371.74,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2020,122066.74,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2021,136772.44,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2022,146919.15,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2023,152596.13,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2024,156079.37,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2025,156542.08,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1990,29870,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1991,33340,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1992,34090,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1993,35200,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1994,35470,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1995,37350,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1996,38640,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1997,41060,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1998,41490,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1999,45980,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2000,48780,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2001,50000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2002,49410,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2003,48730,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2004,58370,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2005,62650,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2006,63150,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2007,72370,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2008,71210,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2009,55430,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2010,61390,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2011,65490,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2012,74230,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2013,72410,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2014,76490,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2015,69410,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2016,75120,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2017,82300,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2018,83480,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2019,83210,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2020,84630,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2021,92640,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2022,95070,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2023,103490,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2024,102080,World Bank Open Data,2026-07-27
+LUX,Luxembourg,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2025,106640,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1985,26.3,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1986,28.1,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1987,29.5,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1988,28.8,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1989,30.8,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1990,27.7,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1991,27.2,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1992,27.3,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1993,27,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1994,28.2,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1995,28.3,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1996,29.1,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1997,29.6,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1998,30.6,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,1999,30.1,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2000,30.1,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2001,30.9,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2002,31.1,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2003,30.2,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2004,30.2,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2005,30.8,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2006,30.9,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2007,31.1,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2008,32.6,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2009,31.2,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2010,30.5,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2011,32.1,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2012,34.3,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2013,32,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2014,31.2,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2015,32.9,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2016,31.7,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2017,34.5,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2018,35.4,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2019,34.2,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2020,33.4,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2021,32.7,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2022,34.1,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SI.POV.GINI,Gini index,index,2023,33.6,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1991,1.482,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1992,2.029,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1993,2.33,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1994,3.479,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1995,2.918,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1996,3.286,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1997,2.527,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1998,2.763,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1999,2.39,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2000,2.345,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2001,1.805,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2002,2.621,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2003,3.675,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2004,5.113,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2005,4.488,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2006,4.731,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2007,4.065,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2008,5.06,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2009,5.194,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2010,4.423,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2011,5.122,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2012,5.03,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2013,6.045,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2014,6.044,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2015,6.796,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2016,6.669,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2017,5.523,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2018,5.589,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2019,5.592,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2020,6.766,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2021,5.571,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2022,4.588,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2023,5.184,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2024,6.4,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2025,6.343,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1960,61,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1961,1969,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1962,2014,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1963,2080,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1964,2178,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1965,2203,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1966,2222,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1967,752,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1968,850,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1969,833,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1970,853,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1971,4274,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1972,4143,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1973,2673,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1974,2728,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1975,2794,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1976,2802,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1977,2830,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1978,3155,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1979,670,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1980,840,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1981,443,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1982,334,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1983,376,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1984,346,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1985,1067,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1986,2121,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1987,2200,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1988,2909,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1989,2999,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1990,3992,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1991,4067,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1992,4101,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1993,4055,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1994,3900,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1995,4385,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1996,3603,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1997,3711,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1998,3874,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,1999,4666,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2000,4516,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2001,3427,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2002,2759,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2003,5581,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2004,4566,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2005,6310,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2006,5557,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2007,6244,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2008,7969,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2009,6855,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2010,7909,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2011,10918,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2012,10273,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2013,10535,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2014,11217,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2015,11377,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2016,12760,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2017,9643,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2018,10145,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2019,10503,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2020,6967,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2021,8724,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2022,13194,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2023,5905,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2024,5677,World Bank Open Data,2026-07-27
+LUX,Luxembourg,SM.POP.NETM,Net migration,count,2025,5237,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,768000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,724000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,778000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,789000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,863000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,852000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,836000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,885000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,867000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,878000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,913000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,908000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,914000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,877000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,847000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,805000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,874000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,950000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,945000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,1038000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,1090000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,1054000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,1046000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,1018000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,1041000,World Bank Open Data,2026-07-27
+LUX,Luxembourg,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,525000,World Bank Open Data,2026-07-27

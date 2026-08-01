@@ -1,0 +1,603 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1970,0.549162667416517,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1971,0.439413593455755,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1972,0.462366084010996,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1973,0.382669860166223,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1974,0.297638851948152,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1975,0.282408969633418,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1976,0.04849843416309,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1977,0.437288015996005,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1978,0.151264767878804,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1979,0.105268596579242,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1980,0.120862983162359,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1981,0.260463577703247,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1982,0.143648074746814,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1983,0.269084823048681,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1984,0.299200696000769,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1985,0.235365520148509,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1986,-0.0238376159388179,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1987,0.518607364007332,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1988,0.759731631080557,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1989,0.235438192947237,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1990,0.544008814945352,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1991,0.192407628781535,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1992,0.235681738352231,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1993,0.350277871082829,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1994,0.200458861133579,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1995,0.41141570812074,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1996,0.269927027891048,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1997,0.296168797044085,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1998,0.207433276751061,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1999,0.553126854699131,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2000,1.14581409094162,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2001,1.26941636801649,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2002,1.34499006490549,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2003,1.23649728851371,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2004,1.10881762156492,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2005,1.9711754818286,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2006,2.91006549515942,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2007,2.9684958153757,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2008,-0.393031898243063,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2009,0.751632233908177,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2010,0.462974196548407,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2011,1.49396922230512,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2012,0.00166359418160293,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2013,0.907076904789878,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2014,0.783743281747353,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2015,0.720886367724088,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2016,1.35957350873308,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2017,0.44334154868577,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2018,2.10769610409512,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2019,1.77066894209208,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2020,-0.893869914296462,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2021,1.20474315612308,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2022,2.94181405797187,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2023,1.81363348239025,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2024,1.19623307999136,World Bank Open Data,2026-07-27
+ITA,Italy,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2025,0.034602983660439,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1960,2.3501614137705,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1961,2.05069731278698,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1962,4.69114360740471,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1963,7.45471822539103,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1964,5.91232253218587,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1965,4.51926830743458,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1966,2.34658893413318,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1967,3.73333832073822,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1968,1.27731335390797,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1969,2.65725273386972,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1970,4.96831987329335,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1971,4.79166438333786,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1972,5.74950393730007,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1973,10.7986174547602,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1974,19.1597695854699,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1975,16.9505025668306,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1976,16.6141664725788,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1977,17.13004878665,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1978,12.0940138425074,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1979,14.7985735661484,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1980,21.0641682770745,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1981,17.9692987519672,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1982,16.4804146202214,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1983,14.646576674877,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1984,10.7944960076811,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1985,9.20599144253118,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1986,5.82354691862017,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1987,4.74728490389789,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1988,5.05824747667119,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1989,6.25983137956977,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1990,6.456609061464,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1991,6.24999929790291,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1992,5.2705899859293,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1993,4.62673468331298,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1994,4.05184218065716,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1995,5.23542258044301,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1996,4.0069766898104,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1997,2.04310779750136,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1998,1.95508557719381,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1999,1.66345995007714,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2000,2.53768532095002,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2001,2.78516542713554,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2002,2.46532319171165,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2003,2.6725555277285,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2004,2.20673661423657,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2005,1.9852929852798,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2006,2.09084391012754,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2007,1.82974112202403,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2008,3.34783258401022,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2009,0.774768131387381,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2010,1.52551602118248,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2011,2.78063272879323,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2012,3.04136333226775,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2013,1.21999342274306,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2014,0.241047429826756,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2015,0.0387903996579733,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2016,-0.09401665691575,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2017,1.22653316645812,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2018,1.13748763600391,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2019,0.611246943765304,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2020,-0.13770757391651,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2021,1.87378325762481,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2022,8.20128991161718,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2023,5.62219442195901,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2024,0.982373023061417,World Bank Open Data,2026-07-27
+ITA,Italy,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2025,1.5316682765282,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1970,15.1286676026762,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1971,15.544228337063,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1972,16.2760137444131,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1973,16.0684122494722,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1974,18.4814222840373,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1975,18.6891805877491,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1976,19.9986109478071,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1977,21.3305124603008,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1978,21.6289065485674,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1979,22.3337544310287,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1980,20.1396815960216,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1981,21.6155310605808,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1982,21.0714065903986,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1983,20.286159523009,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1984,20.9563159992374,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1985,21.0640445770549,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1986,18.6609114788167,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1987,17.9426964793308,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1988,17.5375675336295,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1989,18.4740794990323,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1990,18.2174499918647,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1991,16.9968351087223,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1992,17.4389965997097,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1993,20.352188422684,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1994,21.8207959673733,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1995,24.6157552051653,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1996,23.662303838318,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1997,24.0894916918366,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1998,24.0123257096913,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1999,23.1534516122759,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2000,25.5611956255751,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2001,25.5610801918444,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2002,24.3126948188163,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2003,23.2240496903642,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2004,23.9268409466402,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2005,24.5118533579183,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2006,26.0530628243151,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2007,27.2450545395013,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2008,26.7427615964483,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2009,22.2771595955525,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2010,24.9186514223879,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2011,26.5629866543354,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2012,27.9851870768453,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2013,28.177442406394,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2014,28.6224027363532,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2015,29.144111052532,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2016,28.7987488919157,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2017,30.1398859152774,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2018,30.8135072735991,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2019,30.9498739181942,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2020,28.7258551870199,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2021,31.1716088630092,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2022,35.0991400412578,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2023,33.3293695692309,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2024,32.3350686402627,World Bank Open Data,2026-07-27
+ITA,Italy,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2025,32.2270197272539,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1970,14.9009660362971,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1971,14.7819651836852,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1972,15.47361782151,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1973,17.9179227847204,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1974,22.2276464542269,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1975,18.6252648445181,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1976,21.098819806521,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1977,20.3829035797489,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1978,19.5443853803224,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1979,21.2761528116398,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1980,22.7341592531668,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1981,23.5623810172237,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1982,22.3368353948196,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1983,19.8111182347272,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1984,21.3817707156651,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1985,21.4750664261041,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1986,17.4192779224801,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1987,17.5381360316009,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1988,17.492796159545,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1989,18.4934871068137,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1990,18.020777681444,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1991,16.8036988468653,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1992,17.3944310239602,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1993,17.3202135397634,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1994,18.5412066407533,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1995,20.9637474585342,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1996,19.1397452090937,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1997,20.3876735060337,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1998,20.9855485636537,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1999,21.3763886144254,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2000,24.7135355199888,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2001,24.3021921285051,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2002,23.5586238603378,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2003,22.7700362873432,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2004,23.3395514425368,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2005,24.6103208709435,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2006,26.8704801353861,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2007,27.5829870177519,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2008,27.4714932992188,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2009,22.8643169766079,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2010,26.743460391446,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2011,27.9092282905933,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2012,26.8993081933752,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2013,25.8567422253559,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2014,25.83212719685,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2015,26.2915747622901,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2016,25.6333978099156,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2017,27.4431081122137,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2018,28.4614762392164,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2019,27.7443163412796,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2020,25.2136287172564,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2021,29.1303687572707,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2022,36.9173622620119,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2023,31.7734723749599,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2024,30.2575458513031,World Bank Open Data,2026-07-27
+ITA,Italy,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2025,30.2962066318587,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1960,42012422612.3955,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1961,46649487320.4225,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1962,52413872628.0045,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1963,60035924617.9277,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1964,65720771779.4768,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1965,70717012186.1774,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1966,76622444787.3696,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1967,84401995573.2456,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1968,91485448147.84,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1969,100996667239.335,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1970,113656669764.56,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1971,124959712858.926,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1972,145594833997.344,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1973,175896529392.229,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1974,200024444775.231,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1975,228220643534.994,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1976,225235205861.828,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1977,258190019749.835,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1978,315784469541.41,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1979,394584507107.9,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1980,478356755595.749,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1981,431695533980.583,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1982,428257421617.752,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1983,444063496940.337,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1984,438896930791.272,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1985,453259761687.456,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1986,641862313287.44,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1987,807570134448.76,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1988,893663934840.821,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1989,930801709003.669,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1990,1183945130898.51,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1991,1249092439519.28,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1992,1323204350353.5,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1993,1067412587670.73,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1994,1101750159702.21,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1995,1177369428265.78,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1996,1314776508972.27,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1997,1244988176443.84,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1998,1272729786996.77,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,1999,1255004736463.98,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2000,1149661363439.38,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2001,1172041488805.87,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2002,1281746271196.04,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2003,1582930016538.82,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2004,1812808753294.75,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2005,1864982261286.85,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2006,1958563654385.64,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2007,2222524108127.65,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2008,2417508414187.19,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2009,2209484319012.65,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2010,2144936254535,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2011,2306974020278.21,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2012,2097929495121.68,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2013,2153225581941.46,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2014,2173255507985.84,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2015,1845428048839.1,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2016,1887111188176.93,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2017,1970720904584.71,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2018,2099435266458.67,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2019,2019606796583.53,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2020,1907481094079.23,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2021,2179207773596.09,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2022,2104067630319.46,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2023,2316882296366.32,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2024,2383435562458.12,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.CD,GDP (current US$),$,2025,2551556954100.35,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1961,8.20724597589673,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1962,6.20365038538202,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1963,5.60972790418452,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1964,2.79770230068472,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1965,3.26802365121867,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1966,5.98479421486059,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1967,7.17861243185169,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1968,6.5445545873539,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1969,6.09805993564241,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1970,5.31050247643583,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1971,1.81810794624113,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1972,3.69048578366487,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1973,7.12586233109471,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1974,5.50014109691006,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1975,-2.09016289171086,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1976,7.12538510094043,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1977,2.56050082604729,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1978,3.24013978059317,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1979,5.95915952688955,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1980,3.43001634618649,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1981,0.844227628121416,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1982,0.413585694308892,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1983,1.16920342741862,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1984,3.22585239030356,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1985,2.79808575480784,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1986,2.85997186889063,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1987,3.19196062140115,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1988,4.19437725054567,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1989,3.38838350504491,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1990,1.98577491758405,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1991,1.53844759206665,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1992,0.834275417393798,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1993,-0.852805731913904,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1994,2.15102367074849,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1995,2.88683671925843,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1996,1.34558477192847,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1997,1.92572122608527,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1998,1.8043732818638,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1999,1.67799157943422,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2000,3.88209885062652,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2001,2.00643329837733,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2002,0.26992966378873,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2003,0.0665538088732092,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2004,1.4740217064723,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2005,0.762410677306491,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2006,1.79947992234244,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2007,1.46229205289291,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2008,-1.02313851177097,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2009,-5.30515401233991,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2010,1.52910573247101,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2011,0.695463154440176,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2012,-3.12523877282996,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2013,-1.81802510749792,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2014,-0.00138761730454462,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2015,0.885667635240807,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2016,1.23622108511661,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2017,1.60369995294101,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2018,0.826646712344115,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2019,0.429162533780342,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2020,-8.86822122185345,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2021,8.93106210800055,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2022,4.82117669913565,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2023,0.922796543670316,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2024,0.783039135276795,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2025,0.539583636778445,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1990,18680.30,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1991,19595.54,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1992,20195.59,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1993,20485.44,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1994,21368.57,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1995,22446.05,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1996,23100.79,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1997,23936.79,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1998,25075.31,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1999,25654.68,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2000,27152.15,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2001,28134.06,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2002,28833.02,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2003,29249.18,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2004,29580.84,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2005,30137.82,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2006,32453.65,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2007,34107.51,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2008,35422.34,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2009,34501.71,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2010,34974.10,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2011,36392.28,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2012,36281.10,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2013,36459.30,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2014,36665.69,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2015,37384.38,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2016,40482.56,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2017,42142.34,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2018,43583.38,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2019,46661.91,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2020,44435.64,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2021,49825.39,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2022,57260.89,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2023,60349.66,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2024,62292.90,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2025,62802.51,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1990,18450,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1991,19320,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1992,19870,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1993,20200,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1994,21040,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1995,22170,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1996,22880,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1997,23830,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1998,24940,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1999,25600,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2000,27050,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2001,28050,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2002,28700,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2003,29110,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2004,29530,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2005,30180,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2006,32580,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2007,34130,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2008,35100,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2009,34480,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2010,34900,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2011,36300,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2012,36240,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2013,36400,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2014,36670,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2015,37130,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2016,40590,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2017,42370,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2018,44050,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2019,47030,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2020,45000,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2021,50380,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2022,57790,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2023,60050,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2024,62160,World Bank Open Data,2026-07-27
+ITA,Italy,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2025,62870,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1977,34,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1978,33.3,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1979,33.3,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1980,32.9,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1981,31.6,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1982,29.2,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1983,29.8,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1984,31.3,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1986,31.2,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1987,34.2,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1989,32.1,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1991,31.1,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1993,35.1,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1995,35.2,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,1998,36.7,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2000,35.2,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2002,34.7,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2003,34.9,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2004,34.3,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2005,33.8,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2006,33.7,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2007,32.9,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2008,33.8,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2009,33.8,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2010,34.7,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2011,35.1,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2012,35.2,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2013,34.9,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2014,34.7,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2015,35.4,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2016,35.2,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2017,35.9,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2018,35.2,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2019,34.6,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2020,35.2,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2021,34.8,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2022,33.7,World Bank Open Data,2026-07-27
+ITA,Italy,SI.POV.GINI,Gini index,index,2023,34.3,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1991,10.097,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1992,9.321,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1993,10.212,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1994,11.086,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1995,11.661,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1996,11.864,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1997,11.985,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1998,12.117,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1999,11.681,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2000,10.834,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2001,9.599,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2002,9.211,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2003,8.869,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2004,7.866,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2005,7.73,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2006,6.777,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2007,6.076,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2008,6.723,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2009,7.749,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2010,8.363,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2011,8.359,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2012,10.655,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2013,12.149,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2014,12.683,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2015,11.896,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2016,11.688,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2017,11.211,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2018,10.538,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2019,9.884,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2020,9.192,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2021,9.497,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2022,8.069,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2023,7.627,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2024,6.5,World Bank Open Data,2026-07-27
+ITA,Italy,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2025,6.391,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1960,-140765,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1961,-129761,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1962,-25840,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1963,-28198,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1964,-27368,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1965,-36267,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1966,-35352,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1967,-37992,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1968,-50149,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1969,-45346,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1970,-62216,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1971,-58627,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1972,43182,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1973,41631,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1974,42487,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1975,43051,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1976,40885,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1977,42246,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1978,43932,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1979,42637,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1980,295642,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1981,7182,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1982,-24223,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1983,-3733,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1984,203,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1985,6911,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1986,-6206,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1987,7825,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1988,18553,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1989,19540,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1990,35317,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1991,19721,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1992,51747,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1993,24321,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1994,502750,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1995,-460287,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1996,53450,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1997,50539,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1998,67985,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,1999,54405,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2000,56065,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2001,48903,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2002,223861,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2003,478578,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2004,417970,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2005,258702,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2006,215995,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2007,495092,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2008,422534,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2009,283676,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2010,274387,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2011,198544,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2012,252524,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2013,158090,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2014,52679,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2015,39389,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2016,84568,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2017,95147,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2018,83686,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2019,46634,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2020,85281,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2021,157327,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2022,231228,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2023,150189,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2024,95246,World Bank Open Data,2026-07-27
+ITA,Italy,SM.POP.NETM,Net migration,count,2025,75448,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,55706000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,59805000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,57998000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,58499000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,59521000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,62702000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,60960000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,63561000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,63026000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,58480000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,59230000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,66353000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,70271000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,70719000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,71692000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,73225000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,75866000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,76293000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,76762000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,77694000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,81068000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,84925000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,89931000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,93228601.5625,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,95399000,World Bank Open Data,2026-07-27
+ITA,Italy,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,38419000,World Bank Open Data,2026-07-27

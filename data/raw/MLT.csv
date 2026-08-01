@@ -1,0 +1,403 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1990,1.1784825355471,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1991,3.27383888278581,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1992,2.80264528188354,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1993,2.08333375238422,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1994,5.05895516610732,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1995,10.572840908647,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1996,8.18815660340072,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1997,3.6174571280456,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1998,8.06173977609875,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1999,16.2221760728818,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2000,18.410214195279,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2001,10.2407951566631,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2002,-11.1735639287223,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2003,16.8221034288909,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2004,122.360207462303,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2005,341.007652103804,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2006,370.903560623921,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2007,450.045795914123,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2008,161.765413580926,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2009,16.4753471685722,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2010,101.626394392913,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2011,79.748918912388,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2012,34.5864948714194,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2013,4.72416532328184,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2014,1.31122424310897,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2015,32.1027480550593,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2016,23.0840309905395,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2017,299.824774271215,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2018,452.220863014151,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2019,198.199646841408,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2020,191.921868144409,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2021,433.606839879867,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2022,114.989519881534,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2023,108.735270770721,World Bank Open Data,2026-07-27
+MLT,Malta,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2024,170.053519530959,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1990,2.9834058606356,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1991,2.54219284786975,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1992,1.63321209889045,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1993,4.14481954180488,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1994,4.12992181638259,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1995,4.42664550286654,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1996,2.05400000000009,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1997,3.11207791953272,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1998,2.38525135417661,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1999,2.13476888806386,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2000,2.36959287531806,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2001,2.92949244324104,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2002,2.18849048060549,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2003,1.30383777442602,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2004,2.79082848067754,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2005,3.00796652450313,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2006,2.77378006481472,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2007,1.24921923797629,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2008,4.25862171897073,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2009,2.08432746082343,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2010,1.51563513618532,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2011,2.9629852819288,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2012,2.37582057760386,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2013,1.1802843636655,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2014,0.310306472181665,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2015,1.10054826378929,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2016,0.642702771527304,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2017,1.36435448150708,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2018,1.15782362451517,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2019,1.6420600176894,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2020,0.638544956776712,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2021,1.49789217934724,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2022,6.15375621933037,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2023,5.09396758978883,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2024,1.65079469283109,World Bank Open Data,2026-07-27
+MLT,Malta,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2025,2.36351752252186,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1990,75.8336262449983,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1991,77.3719647445128,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1992,81.7595778593911,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1993,84.8121839900987,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1994,85.9618426185406,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1995,85.3207449373729,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1996,77.1133395036722,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1997,74.7808368272432,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1998,75.3105376738916,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1999,80.2753047084641,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2000,90.2692253155718,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2001,78.4583106690861,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2002,82.5178193655691,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2003,75.4562627383458,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2004,75.0974303915811,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2005,74.2235628621221,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2006,89.1792181327592,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2007,90.8534937241383,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2008,91.4724030900233,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2009,81.0328794776996,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2010,89.6241280016126,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2011,97.441170956521,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2012,100.799142826277,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2013,97.6696264852064,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2014,96.9298164447423,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2015,108.732584061859,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2016,113.166261070801,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2017,116.626497475998,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2018,123.349303772613,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2019,124.520039315181,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2020,129.954117426949,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2021,118.784056780784,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2022,128.299452871314,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2023,119.748336901667,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2024,118.481460190952,World Bank Open Data,2026-07-27
+MLT,Malta,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2025,119.109581237895,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1990,88.6501113771416,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1991,87.8658450250562,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1992,88.7058179791678,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1993,94.0932508299505,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1994,95.7401068092093,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1995,91.7416260564704,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1996,86.9852585482281,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1997,80.8783573644609,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1998,81.7359734534724,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1999,84.8956716578701,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2000,99.3319949283847,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2001,82.8670475673976,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2002,80.0062569392225,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2003,79.1178996353771,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2004,80.7924877893561,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2005,83.3249350443162,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2006,93.254835874088,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2007,93.9778389988305,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2008,94.2771199815282,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2009,82.5239702206494,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2010,88.6088266359999,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2011,94.5861703020889,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2012,98.4147219640338,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2013,89.7626259113007,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2014,84.3713102569927,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2015,98.4634365431974,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2016,100.193210915029,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2017,96.4210938291986,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2018,104.749247332562,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2019,108.550401626777,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2020,112.407072946978,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2021,101.288238009316,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2022,116.282082647569,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2023,101.384959473926,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2024,99.2488124927064,World Bank Open Data,2026-07-27
+MLT,Malta,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2025,99.9047898051853,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,1990,2547328747.50761,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,1991,2750216746.88426,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,1992,3021942758.83978,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,1993,2709193538.42526,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,1994,2998505428.14593,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,1995,3709396089.03632,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,1996,3822547151.38465,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,1997,3787023654.73234,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,1998,4010111651.76761,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,1999,4111857836.40036,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2000,4036809766.6603,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2001,4070867153.47963,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2002,4455127397.86786,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2003,5418315225.49353,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2004,6104141501.07928,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2005,6393234964.93061,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2006,6749838861.63176,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2007,7908412373.84313,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2008,9172399572.85742,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2009,8769897418.38144,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2010,9097044301.48168,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2011,9789363086.07492,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2012,9609530618.89688,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2013,10796780874.0524,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2014,11888029751.5962,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2015,11340789705.8045,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2016,12025777078.0922,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2017,14161374599.3379,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2018,16153785816.8181,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2019,16337788880.578,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2020,16404655807.6687,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2021,19730119030.6198,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2022,18938869147.0818,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2023,22625329775.6867,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2024,25042712191.3281,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.CD,GDP (current US$),$,2025,27771821560.9411,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1990,6.29139095831148,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1991,6.25649385366269,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1992,4.69093194898397,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1993,4.48074837088026,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1994,5.6511051827337,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1995,6.34249103035094,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1996,3.77733599690488,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1997,5.25698063086301,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1998,5.12560250721334,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1999,4.71997491081015,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2000,19.6812693530689,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2001,-0.757203651807174,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2002,2.74113503379645,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2003,3.69331066307235,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2004,0.407354423655889,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2005,2.88123652429068,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2006,2.33618870316785,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2007,5.03640177981643,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2008,4.41059689827608,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2009,-1.39524956144803,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2010,6.19734978656928,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2011,0.992201768011597,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2012,4.10167460261891,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2013,6.29233378116625,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2014,7.6313628225042,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2015,9.62070302842181,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2016,4.07800422216982,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2017,12.9713425287845,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2018,7.18921425536917,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2019,4.0850557312243,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2020,-3.45728232537419,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2021,13.3509818925498,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2022,2.59276776884379,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2023,10.6340558017004,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2024,6.21275996991034,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2025,3.96156139018959,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1990,10085.5115651246,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1991,10784.3235848919,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1992,11428.9800411306,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1993,12102.6449263857,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1994,12938.0246341531,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1995,13949.505270067,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1996,14661.0136325375,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1997,15465.2687009188,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1998,16219.0141036579,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1999,16898.390066763,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2000,18214.5762868266,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2001,18435.0509882135,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2002,19532.070987512,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2003,20812.6755173777,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2004,21565.8706313912,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2005,22227.3733711361,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2006,23219.0628242456,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2007,25011.6064200546,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2008,26654.0006455469,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2009,26781.9306229244,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2010,28909.2634787626,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2011,29425.9283203838,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2012,30716.0924476439,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2013,33138.0865932239,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2014,35205.746954765,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2015,38368.726998344,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2016,41000.1176833537,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2017,45763.6968096243,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2018,48178.5049931669,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2019,51392.5014263659,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2020,49971.8904481582,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2021,56823.9958525022,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2022,60623.0076694404,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2023,67101.1037962636,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2024,70062.9017440762,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2025,72210.3392223985,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1990,10790,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1991,11400,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1992,11940,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1993,12530,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1994,13170,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1995,14270,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1996,14900,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1997,15740,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1998,16210,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1999,17300,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2000,17720,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2001,18720,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2002,19860,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2003,20920,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2004,21680,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2005,21270,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2006,22360,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2007,24370,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2008,25980,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2009,24990,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2010,27210,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2011,28210,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2012,29230,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2013,30650,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2014,32580,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2015,35710,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2016,36440,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2017,42380,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2018,43750,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2019,46550,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2020,42430,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2021,49500,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2022,55320,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2023,58950,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2024,61340,World Bank Open Data,2026-07-27
+MLT,Malta,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2025,64900,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2006,28,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2007,29.2,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2008,29,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2009,30.2,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2010,29,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2011,29.1,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2012,29.4,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2013,28.8,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2014,29,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2015,29.4,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2016,29.1,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2017,29.2,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2018,28.7,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2019,31,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2020,31.4,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2021,31.6,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2022,34.6,World Bank Open Data,2026-07-27
+MLT,Malta,SI.POV.GINI,Gini index,index,2023,31.8,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1991,6.335,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1992,6.333,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1993,6.332,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1994,6.331,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1995,6.33,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1996,6.329,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1997,6.328,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1998,6.326,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1999,6.325,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2000,6.324,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2001,7.107,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2002,6.902,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2003,7.488,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2004,7.317,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2005,6.923,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2006,6.798,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2007,6.472,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2008,5.977,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2009,6.896,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2010,6.861,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2011,6.388,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2012,6.203,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2013,6.115,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2014,5.737,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2015,5.389,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2016,4.694,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2017,4.008,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2018,3.956,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2019,4.08,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2020,4.856,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2021,3.754,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2022,3.471,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2023,3.479,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2024,3.1,World Bank Open Data,2026-07-27
+MLT,Malta,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2025,2.896,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,1990,568,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,1991,763,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,1992,737,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,1993,1006,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,1994,1136,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,1995,1306,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,1996,1142,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,1997,1003,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,1998,1260,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,1999,1463,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2000,1591,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2001,1678,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2002,1821,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2003,1626,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2004,1662,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2005,1626,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2006,997,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2007,926,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2008,869,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2009,836,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2010,741,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2011,999,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2012,911,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2013,861,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2014,9192,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2015,9588,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2016,8624,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2017,14372,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2018,16961,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2019,20302,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2020,6904,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2021,4638,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2022,2480,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2023,6591,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2024,6323,World Bank Open Data,2026-07-27
+MLT,Malta,SM.POP.NETM,Net migration,count,2025,5161,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,1193000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,1123000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,1238000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,1326000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,1402000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,1387000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,1439000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,1483000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,1512000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,1428000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,1484000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,1521000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,1723000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,1832000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,1608000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,1815000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,1916000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,2007000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,2013000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,2162000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,2383000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,2592000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,2944000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,3232000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,3519000,World Bank Open Data,2026-07-27
+MLT,Malta,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,718000,World Bank Open Data,2026-07-27

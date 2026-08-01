@@ -1,0 +1,590 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1970,0.158471222315488,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1971,0.199544682017979,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1972,0.250941036179396,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1973,0.0667553371471707,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1974,0.140839194791235,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1975,0.231618396886986,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1976,0.182040464985192,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1977,0.143451447498171,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1978,0.0932093808374662,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1979,0.0619035159936946,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1980,0.0520964204753317,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1981,0.190020169829983,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1982,0.00172509452582769,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1983,0.165770301930961,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1984,0.257579189728463,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1985,0.201429071257034,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1986,0.551352730210367,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1987,0.298579238008356,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1988,0.487661235656788,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1989,0.411942681381493,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1990,0.574192375289952,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1991,-0.182249085539416,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1992,0.352210202524281,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1993,0.969033403026305,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1994,0.269269994893292,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1995,1.08213150468094,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1996,0.570466106660747,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1997,1.93443153560282,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1998,9.34012543041459,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1999,5.76613954282465,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2000,10.7186649142355,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2001,2.48974555634762,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2002,5.76697056308707,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2003,3.47606211936874,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2004,3.43216639798219,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2005,5.30500837470056,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2006,2.1374386449528,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2007,8.57406338234925,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2008,6.7927004343529,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2009,-3.48204515637954,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2010,4.89959763196754,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2011,-2.18405747554129,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2012,1.91512248449208,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2013,-1.83489440736896,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2014,6.41537482088507,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2015,7.53800542922806,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2016,2.18951964860612,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2017,6.66136555422276,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2018,-3.84456657280518,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2019,6.09707710249334,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2020,-0.939114055968044,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2021,8.01406291677223,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2022,4.66691154081507,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2023,-0.0388895700301826,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2024,2.9263489451501,World Bank Open Data,2026-07-27
+FIN,Finland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2025,-0.090167862928476,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1960,3.41812725350788,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1961,1.69100191533957,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1962,4.38398278172671,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1963,4.99638188645285,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1964,10.2758607417486,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1965,4.94058806755298,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1966,3.87365401861325,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1967,5.37778183372858,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1968,9.19166799519522,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1969,2.20561093521246,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1970,2.74042043051228,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1971,6.47576543061841,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1972,6.66249783515336,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1973,10.7544718831368,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1974,16.9363999989275,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1975,17.8113972340212,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1976,14.3426930852258,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1977,11.7933469184053,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1978,7.79935074552142,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1979,7.46696151310748,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1980,11.5946192492107,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1981,11.3057566509548,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1982,9.58492764677448,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1983,8.36629260645639,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1984,7.06765638328179,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1985,5.19562195429426,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1986,2.93357920442334,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1987,4.11302886205063,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1988,5.08592861394877,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1989,6.59290980189123,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1990,6.14956531179858,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1991,4.31021289843461,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1992,2.91932319285019,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1993,2.19065319556431,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1994,1.08855677589402,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1995,0.79123940693846,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1996,0.629194238121054,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1997,1.19255883425843,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1998,1.39947378579837,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1999,1.16223155669441,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2000,3.04210080667792,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2001,2.57844080098903,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2002,1.5712201278938,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2003,0.877440386254729,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2004,0.187120559084474,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2005,0.623874450025224,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2006,1.56666380704379,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2007,2.5106656524034,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2008,4.06595355358383,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2009,-0.000000917360424903996,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2010,1.18413523154651,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2011,3.4168075425521,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2012,2.80833622561574,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2013,1.4782861568881,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2014,1.0411962117843,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2015,-0.207928839905177,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2016,0.356684500891695,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2017,0.754015047084438,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2018,1.08382098409296,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2019,1.02409392963431,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2020,0.290554555653239,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2021,2.19457432339998,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2022,7.12350773301412,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2023,6.25064322154763,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2024,1.56568906231616,World Bank Open Data,2026-07-27
+FIN,Finland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2025,0.337874659400574,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1970,23.8679331701909,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1971,22.5660822353178,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1972,23.6510258767688,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1973,23.6021435916882,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1974,25.6786157924898,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1975,22.131636296717,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1976,23.5449337234752,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1977,26.84890448674,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1978,27.8578389190856,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1979,29.5759425658263,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1980,30.8199643493761,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1981,31.2918735713723,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1982,28.8815666479716,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1983,28.7141779788839,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1984,29.4955278619812,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1985,27.9982825246887,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1986,25.6541578913779,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1987,25.0066475610837,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1988,23.9098410877472,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1989,23.0273883273557,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1990,22.1450244052592,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1991,21.2660936798868,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1992,25.543132120869,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1993,31.4168905501694,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1994,34.0743110561966,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1995,35.7994596461292,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1996,36.3572178040146,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1997,37.7920624029468,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1998,37.4521510242379,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1999,37.6126978122439,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2000,42.0483040781312,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2001,39.7682089438709,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2002,39.1471301535974,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2003,37.3294488313537,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2004,38.6195122873108,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2005,40.2785031518346,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2006,43.0831708713938,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2007,43.8289523626236,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2008,44.9027814242251,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2009,36.0833081134619,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2010,38.4130493709706,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2011,38.9673926791632,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2012,38.9349130144028,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2013,38.250195334575,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2014,36.8060042262758,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2015,35.7815711349623,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2016,35.3333302428645,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2017,38.1663150961701,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2018,39.1492205860158,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2019,40.6183181143561,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2020,36.2143434283611,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2021,39.9217732469328,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2022,46.2847802806846,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2023,42.7684474643322,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2024,41.9032366762925,World Bank Open Data,2026-07-27
+FIN,Finland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2025,42.3266920911003,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1970,25.5490352600713,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1971,24.8721360319743,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1972,24.1350470795251,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1973,24.9012644052578,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1974,29.5313756403129,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1975,28.1964504057777,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1976,25.7187581337263,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1977,25.5364088277753,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1978,24.7634084916189,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1979,28.5324088448408,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1980,32.1212121212121,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1981,30.3144951525183,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1982,28.7086371284352,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1983,28.724652254064,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1984,27.122862168332,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1985,27.3284671532847,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1986,24.3426510945178,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1987,24.4881377965551,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1988,24.2566061348734,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1989,24.8556057571382,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1990,23.6939888307462,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1991,22.2153187670429,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1992,24.6962941995141,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1993,26.8146244597594,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1994,28.4248615493237,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1995,28.3360757307981,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1996,29.4331074654089,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1997,30.4557437434546,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1998,29.5389060956066,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1999,28.6417943383141,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2000,32.8772747936005,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2001,30.5159287201012,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2002,30.1738075990299,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2003,30.7420541281622,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2004,32.3482906117512,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2005,36.3104708925947,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2006,38.9173960581045,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2007,39.0342084582939,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2008,41.2868784523276,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2009,34.0446254161279,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2010,37.0481591521523,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2011,39.7485517694974,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2012,40.4954635738454,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2013,39.2349764369991,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2014,37.8217677491438,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2015,36.1802542437391,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2016,36.3888798750214,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2017,37.772467134834,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2018,39.9943942562687,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2019,39.9458321803805,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2020,35.9702521712277,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2021,39.8675049444453,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2022,48.2777537715821,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2023,42.7457372575594,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2024,41.5477928788049,World Bank Open Data,2026-07-27
+FIN,Finland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2025,41.0692518801012,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1960,5279481824.12983,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1961,5984433774.41601,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1962,6407796042.70357,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1963,6958916548.12933,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1964,7848987792.54261,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1965,8680393838.88018,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1966,9306142171.60056,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1967,9468272357.09549,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1968,8916565040.54632,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1969,10177524838.9004,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1970,11358529161.9479,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1971,12528522307.4737,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1972,14744499569.8308,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1973,19474098335.1486,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1974,24851036710.2568,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1975,29475251333.4411,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1976,31852352669.6415,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1977,33502784417.884,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1978,36259392057.7617,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1979,44469218439.9328,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1980,53649984061.205,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1981,52440066133.9212,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1982,52784013815.2214,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1983,50956447480.7857,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1984,52870993272.6553,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1985,55856676899.4628,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1986,73511611541.1682,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1987,91564993913.1611,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1988,109039090262.971,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1989,118991270611.057,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1990,141446120354.533,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1991,127794441993.824,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1992,112537828510.751,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1993,89112105756.2194,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1994,103182697780.307,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1995,134060457516.34,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1996,131991975148.848,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1997,126862902302.142,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1998,133990876724.522,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,1999,135234241918.147,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2000,125967821110.589,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2001,129519672868.898,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2002,140360963811.765,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2003,171612867735.686,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2004,197458297639.769,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2005,204859368790.661,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2006,217044068234.117,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2007,256360251537.648,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2008,285698662071.094,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2009,253480783439.453,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2010,249429613683.334,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2011,275126915515.565,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2012,257443384492.969,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2013,270268036626.275,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2014,273478528954.901,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2015,233210733506.25,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2016,238777818792.608,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2017,253846138440,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2018,273869255596.078,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2019,267014821129.411,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2020,270000311606.226,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2021,294223210496.119,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2022,280253099309.34,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2023,295191741637.26,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2024,298729432711.719,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.CD,GDP (current US$),$,2025,317039368819.607,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1961,7.60467026250204,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1962,2.98194619587649,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1963,3.28509957241208,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1964,5.23868649547225,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1965,5.30285837553808,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1966,2.37282236922805,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1967,2.16882897910781,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1968,2.30328981591643,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1969,9.59328847858328,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1970,7.47043267144105,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1971,2.35692123166586,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1972,7.7354848193458,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1973,6.98382835563822,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1974,3.23653343563224,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1975,1.80489795187316,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1976,0.344383187103318,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1977,0.239510630103453,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1978,2.91970756437469,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1979,7.12192593764533,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1980,5.38904748575388,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1981,1.28938426892493,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1982,3.08671541654802,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1983,3.10384880639285,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1984,3.22653291609758,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1985,3.54005438717211,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1986,2.75509931172768,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1987,3.56103297195551,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1988,5.23111280719965,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1989,5.08392955255206,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1990,0.691649917806032,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1991,-5.88059618513641,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1992,-3.31137361706595,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1993,-0.779815061561479,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1994,3.96437283726799,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1995,4.23436710187066,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1996,3.66265716987186,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1997,6.39770068404337,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1998,5.45427021765444,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1999,4.38928070374669,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2000,5.75373770498848,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2001,2.64026205699308,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2002,1.68732644358099,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2003,2.01179992738312,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2004,4.00537952277651,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2005,2.77730918518017,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2006,4.01957326515895,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2007,5.31280176694145,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2008,0.784431235717051,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2009,-8.07603116552393,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2010,3.1682879121621,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2011,2.39039455396828,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2012,-1.52284013040689,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2013,-0.979741024949618,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2014,-0.4780684247837,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2015,0.466503766322674,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2016,2.57193414898754,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2017,3.30337003591039,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2018,1.19297759742292,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2019,1.34973845741737,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2020,-2.49103605535707,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2021,2.67634641498897,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2022,0.763041912763526,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2023,-1.28973484453397,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2024,0.374566568538427,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2025,0.173444509584499,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1990,18148.6227791552,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1991,17562.8413872459,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1992,17270.9411369567,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1993,17457.7676292369,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1994,18457.6541464548,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1995,19567.7826444216,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1996,20067.4533767509,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1997,21787.1082900179,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1998,23569.9333806125,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1999,24761.8165565638,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2000,26782.8574259016,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2001,27798.0582735421,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2002,28596.2606345457,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2003,29042.698985165,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2004,31195.1243346394,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2005,32047.7069315564,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2006,34440.3771039162,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2007,37842.9164695203,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2008,40081.2212482066,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2009,37988.4498659536,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2010,38946.228265358,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2011,40845.9566729849,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2012,40739.1131809421,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2013,41325.8052072321,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2014,41547.0984485393,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2015,42257.8593791297,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2016,44562.4011072067,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2017,47234.8528600939,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2018,49248.6775395866,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2019,52276.1115723992,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2020,53296.5792798852,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2021,56790.3766177692,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2022,62133.1375219912,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2023,63466.8356113767,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2024,65137.1816928289,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2025,65884.4876972259,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1990,17820,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1991,17060,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1992,16560,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1993,16640,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1994,17730,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1995,19000,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1996,19610,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1997,21460,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1998,23120,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1999,24510,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2000,26620,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2001,27790,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2002,28680,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2003,28870,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2004,31410,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2005,32180,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2006,34750,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2007,37950,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2008,40150,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2009,38460,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2010,39460,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2011,41020,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2012,40920,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2013,41560,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2014,42000,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2015,42630,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2016,44760,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2017,47250,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2018,49450,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2019,52460,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2020,54110,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2021,57710,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2022,62690,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2023,63600,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2024,65090,World Bank Open Data,2026-07-27
+FIN,Finland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2025,66300,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,1987,22.2,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,1991,22.9,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,1995,23.5,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2000,27.2,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2003,27.7,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2004,27.9,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2005,27.6,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2006,28,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2007,28.3,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2008,27.8,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2009,27.5,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2010,27.7,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2011,27.6,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2012,27.1,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2013,27.2,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2014,26.8,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2015,27.1,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2016,27.1,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2017,27.4,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2018,27.3,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2019,27.7,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2020,27.1,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2021,27.7,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2022,27.9,World Bank Open Data,2026-07-27
+FIN,Finland,SI.POV.GINI,Gini index,index,2023,27.4,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1991,6.503,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1992,11.595,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1993,16.201,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1994,16.426,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1995,17.005,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1996,15.572,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1997,14.967,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1998,13.214,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1999,11.693,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2000,11.134,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2001,10.29,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2002,10.423,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2003,10.469,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2004,10.358,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2005,9.602,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2006,8.935,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2007,6.854,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2008,6.369,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2009,8.249,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2010,8.394,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2011,7.781,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2012,7.689,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2013,8.193,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2014,8.663,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2015,9.376,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2016,8.818,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2017,8.64,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2018,7.361,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2019,6.695,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2020,7.759,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2021,7.617,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2022,6.719,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2023,7.149,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2024,8.4,World Bank Open Data,2026-07-27
+FIN,Finland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2025,9.461,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1960,-9489,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1961,-11828,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1962,-6852,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1963,-7624,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1964,-20414,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1965,-21731,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1966,-12059,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1967,-5353,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1968,-15561,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1969,-42207,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1970,-36579,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1971,12286,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1972,12613,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1973,11558,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1974,5891,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1975,-3807,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1976,-11843,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1977,-5697,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1978,-9348,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1979,-6612,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1980,-2212,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1981,5287,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1982,7109,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1983,6925,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1984,3972,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1985,2416,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1986,1491,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1987,831,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1988,1765,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1989,5775,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1990,8920,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1991,14515,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1992,9356,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1993,9036,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1994,3834,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1995,4325,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1996,3757,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1997,4925,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1998,4417,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,1999,3604,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2000,2497,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2001,6241,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2002,5255,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2003,5929,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2004,6956,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2005,9251,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2006,10820,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2007,14027,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2008,15626,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2009,14877,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2010,14080,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2011,16798,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2012,17894,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2013,18164,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2014,15915,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2015,12655,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2016,17321,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2017,13356,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2018,11822,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2019,15671,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2020,17504,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2021,22484,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2022,60353,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2023,38156,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2024,26894,World Bank Open Data,2026-07-27
+FIN,Finland,SM.POP.NETM,Net migration,count,2025,18246,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,1779000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,1724000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,1832000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,2644000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,2454000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,2714000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,2826000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,2875000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,2601000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,2840000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,3140000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,3375000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,3519000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,3583000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,3423000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,3670000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,4192000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,4226000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,2797000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,2731000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,2622000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,2789000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,3180000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,3224000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,3290000,World Bank Open Data,2026-07-27
+FIN,Finland,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,896000,World Bank Open Data,2026-07-27

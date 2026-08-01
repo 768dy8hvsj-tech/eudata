@@ -1,4 +1,59 @@
 iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1970,0.609061271587347,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1971,0.654923702336718,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1972,0.705963354915721,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1973,0.690145024121502,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1974,0.703282019779482,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1975,0.660437489852973,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1976,-0.427596039261636,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1977,0.152478619479977,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1978,0.148316881784516,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1979,0.318061665289188,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1980,0.147038281949019,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1981,0.161819630047819,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1982,0.222770818542788,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1983,0.0996679021941877,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1984,-0.0260865149259739,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1985,0.177900897607028,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1986,0.186061275024497,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1987,0.0775399751158817,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1988,0.435638987784019,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1989,0.970121903558007,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1990,0.819103498829799,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1991,1.1154689515624,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1992,0.66510339678141,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1993,1.19680703488165,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1994,3.20872011819629,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1995,2.23936020307567,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1996,0.412544985702368,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1997,1.61143462898396,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1998,3.77361587089095,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1999,9.4710973726909,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2000,21.9534625057579,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2001,5.63216582111414,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2002,2.47818532882922,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2003,0.542449723524164,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2004,-3.49390841296768,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2005,4.8451921902896,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2006,0.841695783435792,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2007,3.68799602330786,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2008,0.617279543987987,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2009,1.17142791849018,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2010,-3.56794135328115,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2011,3.93792637361731,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2012,-5.00312031968255,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2013,0.197410828523168,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2014,1.86415567840611,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2015,0.61075067778712,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2016,2.49983169836595,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2017,1.08780490285886,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2018,2.46670057625106,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2019,-1.10067098319484,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2020,0.363874538682217,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2021,4.18538817542322,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2022,6.9048667972729,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2023,2.0346382929142,World Bank Open Data,2026-07-27
+DNK,Denmark,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2024,4.29658848924698,World Bank Open Data,2026-07-27
 DNK,Denmark,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1968,8.00520710366459,World Bank Open Data,2026-07-27
 DNK,Denmark,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1969,3.48791924395193,World Bank Open Data,2026-07-27
 DNK,Denmark,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1970,6.51484141652988,World Bank Open Data,2026-07-27
@@ -173,6 +228,64 @@ DNK,Denmark,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2022,61.24
 DNK,Denmark,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2023,60.3109753721333,World Bank Open Data,2026-07-27
 DNK,Denmark,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2024,60.7630177709021,World Bank Open Data,2026-07-27
 DNK,Denmark,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2025,59.1052317850969,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1968,13505574133.3333,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1969,15414902666.6667,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1970,17075457733.3333,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1971,19086192720.4664,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1972,23230667549.2496,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1973,30718181337.3006,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1974,34125712480.9267,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1975,40418967665.5877,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1976,44503607444.1687,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1977,49711709588.2196,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1978,60320089217.713,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1979,70393030602.547,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1980,70811287815.6106,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1981,61459941460.5385,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1982,60084214872.0657,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1983,60331158447.2389,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1984,58868891334.9941,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1985,62452421010.9094,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1986,87748695216.9077,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1987,109183446340.073,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1988,115540189705.118,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1989,112312200760.581,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1990,138217740684.484,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1991,139180507777.691,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1992,152966494259.538,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1993,143111306004.102,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1994,156017919221.457,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1995,184848481008.139,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1996,187481157845.724,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1997,173241365735.483,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1998,176877077513.133,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,1999,177887720535.535,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2000,164043817223.59,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2001,164881594415.341,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2002,178788209558.311,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2003,218421193436.252,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2004,251986155630.852,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2005,265150087711.985,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2006,283386151543.687,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2007,320213157595.018,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2008,354979471960.142,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2009,322619152194.594,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2010,322345594075.47,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2011,344315595263.175,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2012,326792574244.963,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2013,344631016965.12,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2014,352832602064.452,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2015,301758922337.637,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2016,312181849372.233,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2017,331610593961.988,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2018,355293374912.393,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2019,345401473012.615,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2020,355631021931.621,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2021,406110162088.054,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2022,400114306337.077,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2023,404651706117.557,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2024,424524722037.047,World Bank Open Data,2026-07-27
+DNK,Denmark,NY.GDP.MKTP.CD,GDP (current US$),$,2025,462526660468.393,World Bank Open Data,2026-07-27
 DNK,Denmark,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1968,5.85299737649714,World Bank Open Data,2026-07-27
 DNK,Denmark,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1969,6.79912047392293,World Bank Open Data,2026-07-27
 DNK,Denmark,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1970,1.85600172758038,World Bank Open Data,2026-07-27
@@ -303,6 +416,31 @@ DNK,Denmark,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,
 DNK,Denmark,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2023,79920,World Bank Open Data,2026-07-27
 DNK,Denmark,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2024,83530,World Bank Open Data,2026-07-27
 DNK,Denmark,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2025,85460,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,1987,26.2,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,1992,24.7,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,1995,23,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2000,23.8,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2003,25.6,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2004,24.9,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2005,25.2,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2006,25.9,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2007,26.2,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2008,25.2,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2009,26.7,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2010,27.2,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2011,27.3,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2012,27.8,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2013,28.5,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2014,28.4,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2015,28.2,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2016,28.2,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2017,28.7,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2018,28.2,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2019,27.7,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2020,27.5,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2021,28.3,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2022,29.3,World Bank Open Data,2026-07-27
+DNK,Denmark,SI.POV.GINI,Gini index,index,2023,29.9,World Bank Open Data,2026-07-27
 DNK,Denmark,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1991,9.099,World Bank Open Data,2026-07-27
 DNK,Denmark,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1992,9.027,World Bank Open Data,2026-07-27
 DNK,Denmark,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1993,10.719,World Bank Open Data,2026-07-27
@@ -396,3 +534,21 @@ DNK,Denmark,SM.POP.NETM,Net migration,count,2022,60219,World Bank Open Data,2026
 DNK,Denmark,SM.POP.NETM,Net migration,count,2023,31006,World Bank Open Data,2026-07-27
 DNK,Denmark,SM.POP.NETM,Net migration,count,2024,25639,World Bank Open Data,2026-07-27
 DNK,Denmark,SM.POP.NETM,Net migration,count,2025,22103,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,21119000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,22054000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,26927000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,26936000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,27138000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,26870000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,26571000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,26730000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,25811000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,26402000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,26516000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,28070000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,28209000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,28692000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,30736000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,30801000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,33093000,World Bank Open Data,2026-07-27
+DNK,Denmark,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,15595000,World Bank Open Data,2026-07-27

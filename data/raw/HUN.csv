@@ -1,0 +1,407 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1990,1.60625096175536,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1991,4.19344457967971,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1992,3.80665641868209,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1993,5.83689757941666,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1994,2.64174100369922,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1995,10.3142923372639,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1996,7.02257505750731,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1997,8.78533630127407,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1998,6.68585430137196,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1999,6.88558157302498,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2000,5.81207210516034,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2001,7.54426473166249,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2002,5.38678090915431,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2003,4.88025299452782,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2004,4.36291277823616,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2005,24.3060288068427,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2006,16.1574876503265,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2007,50.4065230275136,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2008,47.2364211896638,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2009,-2.28280495631194,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2010,-15.8854380283338,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2011,7.45442145492381,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2012,8.30549850772091,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2013,-2.74986395257086,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2014,9.1265022330579,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2015,-4.3672559097876,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2016,53.8467636785015,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2017,-8.6313549623639,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2018,-40.1082460169744,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2019,59.5775493833952,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2020,105.635755544096,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2021,18.2639108972104,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2022,-1.05246677407293,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2023,-33.2799471781632,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2024,-27.5090725956422,World Bank Open Data,2026-07-27
+HUN,Hungary,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2025,-28.3736403614031,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1990,28.3695996532777,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1991,34.8175429072704,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1992,23.6557207806552,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1993,22.4642346133809,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1994,18.8680749869283,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1995,28.3054683706654,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1996,23.4690301919185,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1997,18.3050744143799,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1998,14.153789654534,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1999,9.99774409303368,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2000,9.80361016908125,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2001,9.11680911680911,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2002,5.26544821583985,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2003,4.66101694915254,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2004,6.74434679569469,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2005,3.56151711378352,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2006,3.93032603841001,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2007,7.9587451654491,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2008,6.0425125388106,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2009,4.21171171171171,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2010,4.85555795691956,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2011,3.9299209893507,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2012,5.65214517088646,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2013,1.73319984983101,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2014,-0.227566270988219,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2015,-0.0616446800641672,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2016,0.394769306686392,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2017,2.34824281150154,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2018,2.85024792594646,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2019,3.33858635382008,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2020,3.32674385766738,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2021,5.11096534382855,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2022,14.6081439492433,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2023,17.1249659678737,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2024,3.70370370370369,World Bank Open Data,2026-07-27
+HUN,Hungary,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2025,4.41198445905562,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1991,28.710600330961,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1992,27.5595708401719,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1993,23.1454729965833,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1994,25.350032297858,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1995,39.1102749102395,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1996,41.7711238743212,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1997,47.8429419192775,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1998,52.884895311527,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1999,55.5729749592902,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2000,66.7818415655251,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2001,64.7946703854209,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2002,58.0673383688733,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2003,56.3436633595853,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2004,59.5641177697341,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2005,62.5215212771297,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2006,73.8064864785301,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2007,77.8221656386034,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2008,79.2039448630126,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2009,74.3529496218046,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2010,81.2535035455015,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2011,86.1931503181868,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2012,86.0876097061215,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2013,85.3937852070622,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2014,87.0271641102673,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2015,87.4348841373907,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2016,86.1114634598119,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2017,85.7461533449483,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2018,83.3967795001256,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2019,81.065700696964,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2020,78.0879317443048,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2021,79.4114343821378,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2022,89.810135261602,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2023,81.3874893501556,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2024,76.1979120113902,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2025,72.6304321068483,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1991,29.4946638273608,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1992,27.7339527616677,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1993,30.2680630747212,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1994,30.9559622936573,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1995,39.0656166831524,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1996,41.2508567607868,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1997,46.8449682273983,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1998,54.4344397861419,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1999,58.2965578716872,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2000,70.4804715279449,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2001,66.109043850966,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2002,60.2019968736818,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2003,60.4434251812765,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2004,64.0515683344399,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2005,65.4832893704085,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2006,75.4250450899309,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2007,77.7792667294669,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2008,79.2492792526061,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2009,70.9529277083853,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2010,76.5854565403946,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2011,80.5611968917104,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2012,80.088088903449,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2013,79.0822395844044,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2014,81.3311909761454,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2015,79.8558543571336,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2016,77.8604810403383,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2017,79.2867024953192,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2018,79.3040792777992,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2019,78.8598557678669,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2020,76.4390711920722,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2021,79.7760929506963,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2022,95.1598173197492,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2023,77.2313362577572,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2024,71.7287545266774,World Bank Open Data,2026-07-27
+HUN,Hungary,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2025,68.1488717964849,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,1990,34478360678.756,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,1991,34867307352.646,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,1992,38857339124.9084,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,1993,40256233360.3817,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,1994,43307949890.4603,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,1995,46577614588.9926,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,1996,46833767123.6915,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,1997,47398564799.2496,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,1998,48784412623.5939,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,1999,49160204397.4635,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2000,47275954428.9586,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2001,53800068065.7969,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2002,67636468625.0428,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2003,85190469121.074,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2004,104015363080.271,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2005,113098237570.929,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2006,115604111412.139,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2007,140123326896.329,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2008,158228265915.534,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2009,130807441076.16,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2010,131898737241.166,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2011,141712804953.868,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2012,128470269689.958,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2013,135646053778.582,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2014,141128696412.321,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2015,125244126623.289,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2016,128983560865.293,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2017,143335098991.862,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2018,161184691013.835,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2019,164936682033.992,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2020,158468487754.196,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2021,183282685440.486,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2022,177002580544.155,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2023,213029511028.874,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2024,222848211034.367,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.CD,GDP (current US$),$,2025,246490213513.054,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1990,-3.49665976104178,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1991,-11.8920408609388,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1992,-3.06418034558638,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1993,-0.576108518425613,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1994,2.94715455541068,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1995,1.48952547593046,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1996,0.101234227633242,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1997,2.97787906543104,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1998,3.84810814449837,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1999,3.08605811588221,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2000,4.40937501806403,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2001,4.06202617226026,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2002,4.73006530805553,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2003,3.93877761242727,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2004,4.96312536156307,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2005,4.30028318461673,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2006,3.93393162712054,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2007,0.332354337878925,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2008,0.993437085479655,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2009,-6.7401660845502,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2010,1.06795068152046,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2011,1.91670916599742,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2012,-1.33948446518181,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2013,2.03216990678146,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2014,4.33435364113967,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2015,3.65981615406955,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2016,2.43864141309342,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2017,4.12418389451805,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2018,5.60613813768876,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2019,5.07718495088933,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2020,-4.33872540024058,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2021,7.22291580811137,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2022,4.15238057779229,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2023,-0.817107370513455,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2024,0.709070599066038,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2025,0.509542309726868,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1990,9169.12684131118,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1991,8352.41137095729,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1992,8284.22702640089,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1993,8441.35306660172,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1994,8887.84236113025,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1995,9222.18538242597,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1996,9387.57595434634,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1997,9846.43441638411,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1998,10415.2905886577,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1999,10892.4856104468,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2000,11871.6712053699,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2001,13222.7298612624,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2002,14532.3075182088,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2003,15459.9630651172,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2004,16250.6523854316,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2005,17091.2761318193,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2006,18361.9963871537,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2007,19089.2936988152,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2008,20708.7615120316,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2009,20691.4485224486,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2010,21690.9866477738,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2011,22992.2184657584,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2012,23205.310668404,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2013,24591.6380503055,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2014,25796.2100959256,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2015,26937.7320818864,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2016,28178.9450366919,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2017,29728.0121568801,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2018,32258.2577892511,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2019,35627.2315520858,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2020,35583.5855675637,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2021,38887.1909527154,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2022,44232.4363539167,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2023,46376.1979062264,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2024,48540.1614792293,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2025,49837.6008411067,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1990,8820,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1991,8070,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1992,8060,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1993,8240,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1994,8640,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1995,8820,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1996,8950,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1997,9250,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1998,9780,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1999,10190,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2000,11190,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2001,12460,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2002,13720,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2003,14610,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2004,15270,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2005,16030,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2006,17230,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2007,17650,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2008,19360,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2009,19810,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2010,20690,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2011,21920,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2012,22270,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2013,23910,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2014,24670,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2015,25670,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2016,27460,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2017,28570,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2018,31050,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2019,34780,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2020,34810,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2021,37740,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2022,43020,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2023,44980,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2024,47600,World Bank Open Data,2026-07-27
+HUN,Hungary,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2025,48630,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,1991,29.6,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,1993,27.9,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,1994,33.3,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,1998,26.4,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,1999,30.2,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2000,27.2,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2001,26.9,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2002,26.8,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2003,30.9,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2004,29.9,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2005,34.7,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2006,28.3,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2007,27.9,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2008,27.5,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2009,27,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2010,29.4,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2011,29.2,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2012,30.8,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2013,31.5,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2014,30.9,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2015,30.4,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2016,30.3,World Bank Open Data,2026-07-27
+HUN,Hungary,SI.POV.GINI,Gini index,index,2017,30.6,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1991,8.5,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1992,9.942,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1993,12.098,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1994,10.847,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1995,10.168,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1996,10.022,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1997,8.991,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1998,8.925,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1999,6.929,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2000,6.563,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2001,5.671,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2002,5.608,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2003,5.79,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2004,5.832,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2005,7.189,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2006,7.494,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2007,7.406,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2008,7.817,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2009,10.03,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2010,11.172,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2011,11.029,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2012,11.003,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2013,10.177,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2014,7.725,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2015,6.813,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2016,5.115,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2017,4.156,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2018,3.667,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2019,3.411,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2020,4.248,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2021,4.021,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2022,3.583,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2023,4.096,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2024,4.5,World Bank Open Data,2026-07-27
+HUN,Hungary,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2025,4.521,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,1990,16991,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,1991,16873,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,1992,16238,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,1993,15540,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,1994,15159,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,1995,14927,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,1996,14605,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,1997,14186,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,1998,13568,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,1999,12819,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2000,13414,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2001,10386,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2002,2822,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2003,13879,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2004,16637,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2005,16925,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2006,19890,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2007,13697,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2008,16166,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2009,17281,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2010,10592,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2011,1859,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2012,15286,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2013,5635,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2014,11581,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2015,13856,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2016,68,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2017,20200,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2018,34190,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2019,34339,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2020,9147,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2021,20372,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2022,41871,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2023,49213,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2024,16223,World Bank Open Data,2026-07-27
+HUN,Hungary,SM.POP.NETM,Net migration,count,2025,-16331,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,39240000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,39833000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,37315000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,33624000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,28803000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,31141000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,30679000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,31739000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,31412000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,33934000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,36173000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,38318000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,39379000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,39554000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,40624000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,39904000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,41304000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,43565000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,43611000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,45984000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,48345000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,52890000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,54962000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,57667000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,61397000,World Bank Open Data,2026-07-27
+HUN,Hungary,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,31641000,World Bank Open Data,2026-07-27

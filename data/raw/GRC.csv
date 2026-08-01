@@ -1,0 +1,602 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1970,0.385888411595596,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1971,0.291893556781431,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1972,0.330317254708727,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1973,0.281344760908128,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1974,0.268013766161626,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1975,0.0853208087342758,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1976,0.992853013055033,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1977,1.0848516438207,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1978,0.980426281350451,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1979,1.14101447101379,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1980,1.19915937654188,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1981,1.00739161324321,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1982,0.809530972971806,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1983,0.900671762588572,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1984,1.02424079534783,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1985,0.947922748071888,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1986,0.847191700685449,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1987,1.05499521543635,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1988,1.20610723549795,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1989,0.963263619811844,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1990,1.0411315622269,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1991,1.09470538665989,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1992,0.998183564137125,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1993,0.910567673128218,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1994,0.853191390471272,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1995,0.780146702751379,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1996,0.742440592629103,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1997,0.709107072596583,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1998,0.050998184830191,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1999,0.0603079297166702,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2000,-0.00651674495547754,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2001,0.00151553151660002,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2002,0.0227485404811931,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2003,0.71501703822218,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2004,0.914091172780157,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2005,0.284127006962334,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2006,2.01112523714783,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2007,0.622837777539062,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2008,1.6328960526629,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2009,0.846404808815716,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2010,0.179789223267027,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2011,0.38562256563474,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2012,0.695897838082299,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2013,1.24506178790059,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2014,1.15314480305525,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2015,0.652184629866422,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2016,1.3975055397238,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2017,1.7162955046024,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2018,1.88723349665643,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2019,2.41172201156202,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2020,1.72637818314203,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2021,3.0165221032062,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2022,3.69648293387112,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2023,1.94366777616511,World Bank Open Data,2026-07-27
+GRC,Greece,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2024,2.6312519942121,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1960,1.47784758493376,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1961,2.10357934997025,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1962,-0.475428291049914,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1963,3.18466272791608,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1964,0.617302978512524,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1965,3.22087246997095,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1966,4.90341596130601,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1967,1.84135702750597,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1968,0.139060583507755,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1969,2.63891868835485,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1970,2.84167067884117,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1971,3.28947072230333,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1972,4.33120123203348,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1973,15.3846240702128,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1974,26.5608465867349,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1975,13.6287617821755,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1976,13.0242794587955,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1977,12.3697970875078,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1978,12.5724256724441,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1979,19.0941746808767,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1980,24.6758939736232,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1981,24.5060675977966,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1982,20.9910886220016,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1983,20.1794812892138,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1984,18.4568132050187,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1985,19.3146929406642,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1986,23.0154508205013,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1987,16.3968631635363,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1988,13.5288583215049,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1989,13.6555638723612,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1990,20.433499109463,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1991,19.4558456445745,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1992,15.8770737923919,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1993,14.4112644439348,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1994,10.8740756809132,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1995,8.93451415961517,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1996,8.19455217632728,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1997,5.5360026677348,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1998,4.76622572397641,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1999,2.6366330602198,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2000,3.1511816249383,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2001,3.37396832213867,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2002,3.62935871878874,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2003,3.53065027765552,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2004,2.8988481075817,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2005,3.54507273335078,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2006,3.19594684144545,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2007,2.89500321516578,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2008,4.15279708110293,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2009,1.21007269197809,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2010,4.71298907760388,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2011,3.3298532335065,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2012,1.50152696177758,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2013,-0.921269454256994,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2014,-1.31226096405506,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2015,-1.73588804765284,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2016,-0.825653978390973,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2017,1.12125452031419,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2018,0.62562141345364,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2019,0.253007522038157,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2020,-1.24798355581405,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2021,1.22382501019854,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2022,9.64525981280632,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2023,3.46480128513405,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2024,2.74101875679486,World Bank Open Data,2026-07-27
+GRC,Greece,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2025,2.48209745378857,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1960,9.86566267941313,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1961,9.44717364857963,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1962,8.31788483336611,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1963,9.03639646117294,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1964,7.61728936615559,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1965,7.62209645477615,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1966,9.31214689644262,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1967,8.96040612162786,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1968,7.95718907170694,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1969,7.66605978390214,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1970,7.8525660702352,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1971,8.12547632116189,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1972,9.0947805778914,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1973,11.5927430409234,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1974,14.1610455446121,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1975,14.0872649323694,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1976,13.9946543355634,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1977,13.9264728000705,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1978,13.6002420763658,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1979,15.1154352229147,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1980,19.2497665291446,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1981,21.3072166731938,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1982,17.1429285968976,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1983,16.4127796784334,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1984,16.7363568518822,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1985,16.0717576428319,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1986,17.6264806670144,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1987,18.0543844688699,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1988,16.2518454121946,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1989,15.8844354141675,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1990,14.7217614280493,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1991,14.1450368627979,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1992,14.8216253119647,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1993,13.993749701303,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1994,14.3900606608583,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1995,14.3698138940673,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1996,14.3133826805479,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1997,16.3703291341876,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1998,16.4859160819922,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1999,19.4159179149726,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2000,24.0112579525333,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2001,23.1597595757815,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2002,20.3831024226226,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2003,18.8734923843085,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2004,20.6093109136223,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2005,20.9925302883149,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2006,20.7749728037536,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2007,21.7481874684459,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2008,22.7847919983615,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2009,18.7298820095072,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2010,21.7288294018439,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2011,25.3075993531569,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2012,28.9658220302701,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2013,30.3271984442629,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2014,32.5150455771625,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2015,32.1863593046186,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2016,31.179360220916,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2017,34.7793593671863,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2018,38.6308100555801,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2019,39.5602885530263,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2020,31.4504324884115,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2021,40.260408549747,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2022,49.2316205589503,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2023,43.8388384656123,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2024,42.1116783220502,World Bank Open Data,2026-07-27
+GRC,Greece,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2025,39.4617692969977,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1960,13.9746948449116,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1961,13.5441527446301,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1962,14.1555396958321,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1963,14.6484619232212,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1964,16.0350443321509,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1965,16.3236690804828,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1966,14.9824504012678,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1967,14.6060481126968,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1968,15.0098511708396,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1969,14.9615442588097,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1970,14.6048239559526,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1971,14.542869891764,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1972,15.5263441660104,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1973,19.2718915811191,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1974,20.3925019785107,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1975,20.3159030900081,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1976,19.9789197895259,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1977,19.8363440224466,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1978,18.6877769497485,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1979,19.5266217474124,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1980,24.229588970048,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1981,24.6987279286076,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1982,23.6355742709807,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1983,23.6902249241888,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1984,23.1129353827768,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1985,23.2631925267507,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1986,23.9377976128056,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1987,23.2057419894464,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1988,22.3467094852765,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1989,23.82325592721,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1990,24.3139691998969,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1991,23.3964817257264,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1992,22.9654502840077,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1993,22.0392804676088,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1994,20.8301695683564,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1995,21.7558214495402,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1996,22.5075465825416,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1997,23.0682195187208,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1998,26.0039798757566,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1999,28.7601191111593,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2000,35.1013997962753,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2001,33.6978743793252,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2002,29.6702347678407,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2003,29.0208197707737,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2004,29.2160067589458,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2005,29.3630031508258,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2006,30.329773779727,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2007,32.7774943504585,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2008,34.3204916281311,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2009,27.6480773891011,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2010,29.1936887978789,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2011,30.9853964410338,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2012,33.4283897048617,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2013,32.6275287772745,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2014,33.9184908742053,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2015,33.0852861573132,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2016,32.4781888673706,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2017,36.103137372539,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2018,40.6071808082905,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2019,41.0298063980194,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2020,38.843313969663,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2021,47.7522568992909,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2022,58.8902226709721,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2023,48.6322498290894,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2024,47.6648496225666,World Bank Open Data,2026-07-27
+GRC,Greece,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2025,43.9898535848415,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1960,4274890306.82895,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1961,4892397431.33292,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1962,5140542929.42067,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1963,5813285626.64404,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1964,6576906345.11518,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1965,7582209670.27425,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1966,8472021466.86847,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1967,9146592855.683,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1968,9950331205.83108,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1969,11454106327.0756,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1970,12957113636.3636,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1971,14388806818.1818,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1972,16650659090.9091,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1973,22037019562.7158,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1974,24998715909.0909,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1975,28129128586.61,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1976,30719552238.806,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1977,35673080481.0361,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1978,43654480519.4805,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1979,53724121435.1426,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1980,56039256594.7242,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1981,51618456334.5633,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1982,53858346938.7755,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1983,48741397058.8235,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1984,47352146311.971,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1985,47155741426.1041,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1986,55595445472.2493,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1987,64739630095.6215,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1988,75200610136.9205,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1989,78067933277.3815,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1990,96529587274.2906,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1991,103680863712.844,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1992,114608178405.434,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1993,107295704518.43,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1994,114980063202.247,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1995,134974613913.811,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1996,142502984144.96,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1997,138766067640.085,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1998,139612812175.718,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,1999,137131371955.307,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2000,125760166224.805,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2001,132050474720.03,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2002,150253800085.865,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2003,196930509813.384,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2004,234979615898.225,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2005,242315668619.405,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2006,269073415333.676,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2007,314226996944.108,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2008,351121399546.485,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2009,326829054686.306,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2010,296417644404.034,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2011,283228079776.041,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2012,238841140018.233,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2013,236556279640.705,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2014,233911581521.062,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2015,194567373678.099,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2016,193097239005.87,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2017,200381103984.298,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2018,213298873494.394,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2019,207305649887.019,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2020,191362985554.861,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2021,218303801895.326,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2022,217990189600.69,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2023,242946187738.269,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2024,256238371778.118,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.CD,GDP (current US$),$,2025,280635521324.441,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1961,13.2038386052462,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1962,0.364812289877747,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1963,11.8448666655957,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1964,9.40967732368279,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1965,10.7680109720411,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1966,6.49450138060494,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1967,5.66948643356486,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1968,7.20371768036424,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1969,11.5636684082563,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1970,8.93058020025967,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1971,7.84117657760304,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1972,10.1601515908652,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1973,8.09237907118801,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1974,-6.43824057014004,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1975,6.36680794602181,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1976,6.85189869571943,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1977,2.94100090620763,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1978,7.24686397906468,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1979,3.28207958853159,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1980,0.67713140669585,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1981,-1.55372126905196,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1982,-1.13264739051145,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1983,-1.07862273931177,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1984,2.01058093704644,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1985,2.50955640237393,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1986,0.517660006338886,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1987,-2.25886322369171,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1988,4.28786172851761,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1989,3.79999995287797,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1990,0,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1991,3.09999970633838,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1992,0.700000337119789,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1993,-1.60000002186294,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1994,1.99999984724822,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1995,2.09971953235275,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1996,1.38247057325857,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1997,3.60288326516122,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1998,3.43693579661333,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1999,2.65878562321184,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2000,4.13782699405849,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2001,4.65041459442163,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2002,4.68313727063017,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2003,5.79682274294369,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2004,5.37786634595851,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2005,1.18350635493289,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2006,6.44339762487436,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2007,3.50686976639459,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2008,0.0574740238200775,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2009,-4.11927606715011,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2010,-5.6937412158003,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2011,-9.87677875300243,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2012,-8.33113421099992,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2013,-2.27211699888024,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2014,0.792225060962835,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2015,-0.228301892172851,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2016,-0.0317947678412054,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2017,1.47312472702352,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2018,2.06467207892409,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2019,2.27718065334808,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2020,-9.19623149726978,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2021,8.65449786002131,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2022,5.52198580589408,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2023,2.13591131996631,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2024,2.0865743380603,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2025,2.07306882481713,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1990,13126.2744827516,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1991,13823.9094383428,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1992,14129.567617274,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1993,14149.5782711785,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1994,14667.1010047956,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1995,15217.8019629681,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1996,15778.4020297225,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1997,16630.4781484617,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1998,17433.5829767675,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1999,17758.0055742801,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2000,18819.8544320117,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2001,20303.9312433429,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2002,21985.2345411071,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2003,23252.6111362028,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2004,24825.5735347512,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2005,25003.8297466933,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2006,28076.1241416392,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2007,28895.874926558,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2008,30440.9709059081,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2009,29963.3968875108,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2010,27838.73639086,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2011,25692.5740851321,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2012,24582.9741957507,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2013,25730.8809006664,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2014,26450.181326726,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2015,26607.7256796976,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2016,27504.5497984948,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2017,28681.6815585005,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2018,29792.0592519585,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2019,31927.3792151369,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2020,29533.087740299,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2021,33528.2271202515,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2022,39447.813910406,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2023,42613.6574438075,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2024,44170.9556658376,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2025,45263.6498511586,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1990,13350,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1991,14120,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1992,14470,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1993,14450,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1994,14980,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1995,15550,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1996,16090,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1997,17000,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1998,17790,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1999,17920,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2000,19290,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2001,20730,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2002,22190,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2003,23390,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2004,24700,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2005,25150,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2006,27500,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2007,28100,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2008,29480,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2009,29240,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2010,27220,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2011,24980,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2012,24640,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2013,25540,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2014,26400,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2015,26400,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2016,27190,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2017,28350,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2018,29240,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2019,31460,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2020,29230,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2021,33290,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2022,38930,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2023,41410,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2024,42910,World Bank Open Data,2026-07-27
+GRC,Greece,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2025,44310,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,1995,36.5,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2000,34.4,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2002,35.5,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2003,32.8,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2004,33.6,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2005,34.6,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2006,35.1,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2007,34,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2008,33.6,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2009,33.6,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2010,34.1,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2011,34.8,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2012,36.3,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2013,36.1,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2014,35.8,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2015,36,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2016,35,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2017,34.4,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2018,32.9,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2019,33.1,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2020,33.6,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2021,32.9,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2022,33.4,World Bank Open Data,2026-07-27
+GRC,Greece,SI.POV.GINI,Gini index,index,2023,33.4,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1991,7.572,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1992,8.927,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1993,10.177,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1994,9.808,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1995,10.116,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1996,10.402,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1997,10.472,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1998,12.227,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1999,12.138,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2000,11.345,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2001,10.764,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2002,10.346,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2003,9.839,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2004,10.628,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2005,10.074,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2006,8.906,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2007,8.351,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2008,7.664,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2009,9.546,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2010,12.719,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2011,17.973,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2012,24.731,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2013,27.686,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2014,26.708,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2015,24.981,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2016,23.514,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2017,21.413,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2018,19.179,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2019,17.045,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2020,15.899,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2021,14.656,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2022,12.426,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2023,11.023,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2024,10.02,World Bank Open Data,2026-07-27
+GRC,Greece,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2025,8.54,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1960,-15996,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1961,-61102,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1962,-74972,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1963,-77345,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1964,-76678,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1965,-81576,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1966,21206,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1967,-55853,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1968,-429,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1969,-118544,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1970,-54166,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1971,-12747,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1972,-3589,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1973,-42387,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1974,-22590,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1975,61265,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1976,89601,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1977,19193,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1978,60775,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1979,72184,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1980,47460,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1981,25061,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1982,19675,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1983,18655,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1984,19767,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1985,16093,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1986,19064,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1987,19005,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1988,20557,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1989,18862,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1990,26294,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1991,37917,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1992,41000,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1993,39829,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1994,42897,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1995,42674,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1996,43444,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1997,45671,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1998,47856,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,1999,49930,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2000,54661,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2001,60387,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2002,25692,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2003,25323,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2004,29039,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2005,33297,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2006,27621,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2007,25400,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2008,27081,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2009,18182,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2010,2001,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2011,-31786,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2012,-65364,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2013,-59323,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2014,-46678,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2015,-43462,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2016,10484,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2017,10483,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2018,17938,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2019,36762,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2020,6353,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2021,-160277,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2022,-53997,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2023,-159430,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2024,-122772,World Bank Open Data,2026-07-27
+GRC,Greece,SM.POP.NETM,Net migration,count,2025,16636,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,10712000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,9782000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,10588000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,11364000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,12606000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,13567000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,14678000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,14918000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,14785000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,14268000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,15938000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,17284000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,20112000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,24272000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,26114000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,28071000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,30161000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,33072000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,34005000,World Bank Open Data,2026-07-27
+GRC,Greece,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,7406000,World Bank Open Data,2026-07-27

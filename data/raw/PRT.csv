@@ -1,0 +1,585 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1970,0.356427723044479,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1971,0.608589530017427,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1972,0.649517167417358,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1973,0.629532460326749,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1974,0.605285692395057,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1975,0.596204406499003,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1976,0.309839291173725,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1977,0.270130809871779,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1978,0.280971823329404,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1979,0.294123807244313,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1980,0.477104383867876,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1981,0.545658052239058,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1982,0.471810169311415,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1983,0.539059396254523,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1984,0.786032725358159,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1985,1.01061383736377,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1986,0.614648795347915,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1987,0.966875348980073,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1988,1.635542856077,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1989,2.86643686551845,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1990,3.31579014605628,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1991,2.74387019076576,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1992,1.74123247233614,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1993,1.6144453804152,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1994,1.27368069158282,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1995,0.579546715045669,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1996,1.28145373512428,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1997,2.31647209170026,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1998,4.89835270210409,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1999,0.581077558591109,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2000,6.14861920837231,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2001,5.02761444190448,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2002,0.436137292252839,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2003,6.26697257909762,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2004,1.312247289237,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2005,1.70741232717781,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2006,6.41633004151996,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2007,2.50093088549298,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2008,2.96892594201258,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2009,2.35133912553896,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2010,3.77376819569615,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2011,4.23648756430888,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2012,7.21535195239496,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2013,6.43654323197598,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2014,5.43851031792652,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2015,0.63522205292535,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2016,3.56282992803299,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2017,5.02041551787587,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2018,3.46584287446499,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2019,4.5038935303436,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2020,1.8141455418251,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2021,3.60836004516304,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2022,5.08368921917484,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2023,3.96325428743124,World Bank Open Data,2026-07-27
+PRT,Portugal,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2024,4.29974090969256,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1960,3.04659277832691,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1961,1.5489969698988,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1962,2.66206417934772,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1963,2.02158272759781,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1964,3.44489848222768,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1965,3.42492777745566,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1966,5.03926721858183,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1967,5.52647600753099,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1968,6.08136171148615,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1969,8.78277105554107,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1970,6.38014449001685,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1971,11.9468983654056,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1972,10.6633559759477,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1973,12.9746085239333,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1974,25.0827778589527,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1975,15.2716857518485,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1976,21.1419048031955,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1977,31.0167490988806,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1978,21.0387723599383,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1979,21.8992248062015,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1980,15.8674803836094,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1981,19.0404107466915,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1982,21.6792837277094,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1983,24.0027623802918,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1984,28.3846388897103,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1985,19.4614100078696,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1986,12.3313334897217,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1987,9.6348318624577,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1988,10.1016321152264,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1989,12.686303645615,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1990,13.6305705693074,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1991,11.8494841773674,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1992,9.55926033177516,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1993,6.78377994665408,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1994,5.42044019241626,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1995,4.22281614099488,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1996,3.06897732509786,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1997,2.33686298314114,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1998,2.57275225909131,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1999,2.34009490312169,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2000,2.85303039287156,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2001,4.36990330551792,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2002,3.60034658290915,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2003,3.21899090682895,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2004,2.365362040973,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2005,2.27716394887838,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2006,3.1076654587105,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2007,2.45396528138746,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2008,2.58850657657956,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2009,-0.835530021504157,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2010,1.40257289895372,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2011,3.6530110043073,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2012,2.77333854051576,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2013,0.274416666666663,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2014,-0.278153367467428,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2015,0.48793862390472,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2016,0.607397074641719,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2017,1.36861411643482,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2018,0.993715683468233,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2019,0.338178410046124,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2020,-0.0124383299576209,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2021,1.26565719069044,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2022,7.83269124233323,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2023,4.31128191898681,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2024,2.41613187791876,World Bank Open Data,2026-07-27
+PRT,Portugal,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2025,2.33601620316701,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1970,19.1102594689526,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1971,19.6502837498762,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1972,21.337763833165,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1973,20.9404001785892,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1974,21.0507837499211,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1975,15.9828848476987,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1976,13.6592925881003,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1977,14.434696986541,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1978,15.7615104249114,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1979,21.1966869294923,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1980,21.4552593349542,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1981,20.330652140608,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1982,20.6836477896989,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1983,24.5513956995292,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1984,29.1795537141225,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1985,29.2423128367626,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1986,25.9948858316449,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1987,27.3385645319817,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1988,27.6366707972741,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1989,29.4651906048673,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1990,29.1691775307804,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1991,26.547558876519,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1992,24.4586706502227,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1993,23.6001482902129,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1994,25.1335659295225,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1995,26.7697318737852,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1996,26.5484648796224,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1997,27.1541447475915,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1998,27.3316272273762,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1999,26.4819747246951,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2000,28.2046205938904,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2001,27.4373261135265,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2002,27.0733622325977,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2003,27.3671918978917,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2004,27.6670515552519,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2005,27.0841675459537,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2006,30.3574044411002,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2007,31.1941845713373,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2008,31.2610790783868,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2009,27.2937427180784,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2010,30.0275851235273,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2011,34.4115130933228,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2012,37.7235057219779,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2013,39.5639503324812,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2014,40.1850905816292,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2015,40.6876664090066,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2016,40.3550889260564,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2017,42.9426786480198,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2018,43.677580570852,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2019,43.6531259432991,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2020,37.2560151344529,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2021,41.5484271843512,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2022,49.4816822004506,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2023,47.1554769314882,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2024,45.8196856112127,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2025,43.6580888492067,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1970,24.1032027459726,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1971,25.0239050342274,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1972,24.8947173676605,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1973,26.2967225408219,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1974,32.8905904940464,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1975,25.5501820157125,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1976,24.0551876905255,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1977,26.0933760587177,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1978,25.3688997831401,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1979,29.5365987024567,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1980,32.7799907989288,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1981,35.2454878382695,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1982,35.0785566590823,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1983,34.3762429305548,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1984,35.2325419550747,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1985,32.2740855408107,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1986,28.0251804350976,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1987,32.2372887443144,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1988,35.5627111885744,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1989,35.4037057738293,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1990,35.8864150999083,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1991,33.8190413392617,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1992,31.8486069476756,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1993,30.5750843731262,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1994,32.043794086164,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1995,33.1447402882201,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1996,33.6613401675442,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1997,35.1508067548668,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1998,36.4992716296598,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1999,36.8323550925286,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2000,39.2483773924343,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2001,37.6546290635856,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2002,35.2348971843795,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2003,33.7717555904736,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2004,35.5375421117759,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2005,35.8603370144983,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2006,38.1896486771007,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2007,38.7519330104618,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2008,40.8146638437736,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2009,34.1989508086976,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2010,37.6616550692709,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2011,38.5960625767303,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2012,38.2176009968034,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2013,38.466555354947,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2014,40.0355784904498,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2015,39.9470092176377,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2016,39.1672575583436,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2017,41.8651136589341,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2018,43.0581149209879,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2019,43.1178629650595,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2020,39.2526255864686,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2021,44.3251180305463,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2022,51.8824642789839,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2023,45.9803767757157,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2024,43.8418780958391,World Bank Open Data,2026-07-27
+PRT,Portugal,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2025,42.7407881300597,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1960,3339150157.85605,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1961,3573719084.53354,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1962,3835883663.25123,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1963,4084251592.81599,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1964,4429202656.90741,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1965,4901711247.81592,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1966,5370108031.12859,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1967,6002607029.64663,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1968,6644693214.18343,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1969,7287555035.34403,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1970,8108235704.32357,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1971,9201604240.28269,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1972,11239117865.0852,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1973,15090564186.4268,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1974,17512391475.9274,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1975,19347607843.1373,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1976,20332831564.9867,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1977,21439523310.6338,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1978,23487614051.0949,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1979,26622819672.1311,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1980,32896519823.7885,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1981,31977276872.9642,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1982,30527754793.1382,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1983,27239650741.9472,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1984,25217969049.5755,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1985,27115807742.0873,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1986,38745901353.7059,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1987,48182925857.4071,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1988,56347250696.3788,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1989,60594092182.3275,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1990,78713860216.5659,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1991,89233599278.4792,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1992,107592098307.098,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1993,95009751901.2592,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1994,99688641304.3478,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1995,118122007430.012,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1996,122630089680.27,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1997,117016535162.95,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1998,123946327916.296,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,1999,127470385557.184,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2000,118605192877.388,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2001,121604107164.997,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2002,134795565549.419,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2003,165226175536.793,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2004,189382122532.169,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2005,197253876704.921,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2006,208756449275.848,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2007,240496147317.381,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2008,263416394624.084,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2009,244667762835.543,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2010,238443864993.217,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2011,245426767676.002,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2012,216536676771.973,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2013,226677408291.745,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2014,230078616299.675,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2015,199038523119.639,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2016,206305431241.638,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2017,220862990767.229,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2018,242092894542.888,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2019,240115970063.019,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2020,229618773422.577,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2021,256055879091.139,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2022,256898677175.024,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2023,292323800948.839,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2024,313656884870.859,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.CD,GDP (current US$),$,2025,346639825141.821,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1961,5.53490446482866,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1962,6.61444657322659,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1963,5.87370138713079,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1964,6.31074750083511,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1965,7.46898966740095,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1966,4.07790851389984,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1967,7.54448267869383,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1968,8.87550967399879,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1969,2.12074172405788,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1970,9.11384270152895,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1971,6.63165162093394,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1972,8.01569616394021,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1973,11.2006718999033,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1974,1.14285965477239,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1975,-4.34763043220784,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1976,6.90023019372026,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1977,5.60259779264088,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1978,2.81596606697316,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1979,5.63893733004393,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1980,4.58934022380851,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1981,1.61810337594387,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1982,2.1353747657862,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1983,-0.173112539564684,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1984,-1.87997986277209,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1985,2.80743961484895,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1986,4.14095608461172,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1987,6.38139391332237,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1988,7.4891073628233,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1989,6.44063956353789,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1990,3.95052317228428,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1991,4.36820616663232,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1992,1.08947689832507,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1993,-2.04327729359404,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1994,0.964838285067799,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1995,4.28278017236022,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1996,3.50424653058748,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1997,4.40086766458026,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1998,4.80796318953165,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1999,3.90657779623113,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2000,3.81617714108242,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2001,1.94367213427915,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2002,0.770924781247714,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2003,-0.930521045062918,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2004,1.78873552917291,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2005,0.781847569123585,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2006,1.62503532956156,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2007,2.50657937751231,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2008,0.319247344434558,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2009,-3.12207827545093,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2010,1.73762453640036,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2011,-1.71352745905065,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2012,-4.05090267621935,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2013,-0.984106574148328,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2014,0.741391420706506,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2015,1.58979803702681,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2016,2.00414129666575,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2017,3.31472008175986,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2018,2.94628343449202,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2019,2.74568432648596,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2020,-8.20463159324387,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2021,5.55875672070374,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2022,6.98584137580278,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2023,3.09998745904281,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2024,2.21459232301109,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2025,1.86448007464475,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1990,11779.7566017591,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1991,12739.4101586145,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1992,13181.922768958,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1993,13202.4801547967,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1994,13577.9092201084,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1995,14406.3254746951,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1996,14922.0003851427,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1997,15789.4850482915,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1998,16688.0352409852,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1999,17718.1515724418,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2000,18883.1145969452,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2001,19528.5826120827,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2002,20356.647299736,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2003,20849.5943833375,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2004,21475.5711021267,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2005,22725.2774946084,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2006,24677.2834629922,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2007,25738.0214895961,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2008,26665.8372952939,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2009,26471.9079607159,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2010,27292.0819531528,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2011,26803.2336904645,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2012,26476.2182777269,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2013,27966.0874254705,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2014,28764.5254955042,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2015,29608.0071513956,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2016,31589.2695609552,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2017,32970.8395386562,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2018,34896.7993382974,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2019,37865.5603564295,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2020,35966.712796561,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2021,38657.6677223429,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2022,45250.0152469537,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2023,49800.3476220918,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2024,52512.5651003677,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2025,53145.7317498942,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1990,11770,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1991,12760,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1992,13270,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1993,13300,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1994,13620,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1995,14520,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1996,15010,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1997,15770,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1998,16640,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1999,17660,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2000,18580,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2001,19190,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2002,20050,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2003,20640,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2004,21210,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2005,22420,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2006,23980,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2007,25000,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2008,25770,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2009,25570,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2010,26420,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2011,26330,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2012,25880,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2013,27560,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2014,28170,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2015,28840,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2016,30870,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2017,32230,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2018,34070,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2019,36970,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2020,35450,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2021,38270,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2022,44430,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2023,48510,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2024,51540,World Bank Open Data,2026-07-27
+PRT,Portugal,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2025,52240,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2003,38.8,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2004,38.9,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2005,38.5,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2006,38.1,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2007,36.8,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2008,36.6,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2009,34.9,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2010,35.8,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2011,36.3,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2012,36,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2013,36.2,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2014,35.6,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2015,35.5,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2016,35.2,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2017,33.8,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2018,33.5,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2019,32.8,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2020,34.7,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2021,34.6,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2022,36.3,World Bank Open Data,2026-07-27
+PRT,Portugal,SI.POV.GINI,Gini index,index,2023,33.9,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1991,3.919,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1992,3.985,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1993,5.301,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1994,6.709,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1995,7.064,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1996,7.298,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1997,6.571,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1998,4.64,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1999,4.579,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2000,3.806,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2001,3.829,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2002,4.497,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2003,6.132,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2004,6.319,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2005,7.582,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2006,7.649,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2007,7.965,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2008,7.553,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2009,9.432,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2010,10.771,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2011,12.715,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2012,15.509,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2013,16.237,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2014,13.88,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2015,12.405,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2016,11.058,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2017,8.878,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2018,6.966,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2019,6.422,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2020,6.85,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2021,6.712,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2022,6.138,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2023,6.498,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2024,6.5,World Bank Open Data,2026-07-27
+PRT,Portugal,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2025,6.164,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1960,-95886,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1961,-112768,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1962,-113947,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1963,-116874,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1964,-118763,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1965,-123855,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1966,-129233,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1967,-136232,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1968,-145200,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1969,-161114,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1970,-191862,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1971,48944,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1972,39058,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1973,39748,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1974,41254,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1975,42262,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1976,40490,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1977,37779,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1978,34345,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1979,32434,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1980,29881,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1981,-7938,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1982,-15006,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1983,-16568,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1984,-16658,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1985,-19183,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1986,-20000,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1987,-23142,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1988,-26595,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1989,-30615,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1990,-34855,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1991,-37914,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1992,-11847,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1993,8561,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1994,20761,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1995,26971,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1996,32640,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1997,36922,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1998,40931,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,1999,49572,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2000,60586,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2001,55565,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2002,42169,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2003,24740,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2004,13928,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2005,15537,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2006,16754,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2007,21064,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2008,9478,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2009,14532,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2010,-5627,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2011,-31513,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2012,-37083,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2013,-36342,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2014,-26447,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2015,-3209,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2016,-775,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2017,13979,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2018,22495,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2019,63031,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2020,54076,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2021,69606,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2022,68696,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2023,29102,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2024,20648,World Bank Open Data,2026-07-27
+PRT,Portugal,SM.POP.NETM,Net migration,count,2025,16472,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,9511000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,9730000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,10172000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,11295000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,11632000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,12097000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,12167000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,11644000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,11707000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,10639000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,10612000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,11282000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,6788000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,6962000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,6439000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,6756000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,7264000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,7503000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,9177000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,10497000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,11723000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,13359000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,15432000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,16186000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,17283000,World Bank Open Data,2026-07-27
+PRT,Portugal,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,4208000,World Bank Open Data,2026-07-27

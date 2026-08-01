@@ -1,0 +1,590 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1970,0.727935299608198,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1971,0.490364313055795,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1972,0.490656896947855,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1973,0.695078158768606,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1974,0.648358917502276,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1975,1.66778992000303,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1976,1.82657559314158,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1977,1.21120089520006,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1978,2.56185213330257,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1979,1.83783970791835,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1980,1.31714135242008,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1981,0.984267675043462,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1982,1.12695126377373,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1983,0.816958536991972,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1984,0.603581448557054,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1985,0.76944004451248,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1986,0.871659712656952,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1987,0.950683051826617,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1988,0.681543405079274,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1989,0.491251864680183,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1990,1.26133865366034,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1991,2.73495949116743,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1992,2.60767725514267,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1993,2.05635610310019,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1994,1.50090049057357,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1995,2.08696657373782,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1996,3.45356359013551,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1997,2.44856369452834,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1998,9.82513843344542,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,1999,18.4143116828593,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2000,25.7260262363322,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2001,8.82598474922644,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2002,22.8030331294708,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2003,13.8344483636902,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2004,-5.4573737070047,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2005,22.1832694953892,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2006,9.50555829114517,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2007,22.1915415030247,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2008,8.45449268903961,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2009,22.827608853053,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2010,17.0242973051905,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2011,9.83474085171317,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2012,25.5993064499855,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2013,29.8612971089447,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2014,39.3649751606697,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2015,74.8169261487244,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2016,26.1253590357369,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2017,20.4170966260237,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2018,20.3601504375203,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2019,7.67467578422042,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2020,8.0934578228257,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2021,14.6537815105934,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2022,-6.48790793588936,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2023,-24.6702589530642,World Bank Open Data,2026-07-27
+IRL,Ireland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",%,2024,0.791076186083952,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1960,0.450837269431776,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1961,2.7569993586355,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1962,4.26372712149085,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1963,2.45362058668928,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1964,6.71728971926295,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1965,4.98812351543946,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1966,3.05429864140273,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1967,3.1833150395518,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1968,4.6808510638299,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1969,7.41869918597554,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1970,8.20719016091027,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1971,8.96174863417669,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1972,8.60581745301066,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1973,11.4148503873296,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1974,16.9761273212048,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1975,20.8758503401952,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1976,17.9856958613386,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1977,13.4722552937948,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1978,7.71111214621869,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1979,13.2954688248281,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1980,18.1544622557972,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1981,20.3735110701934,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1982,17.1471262037092,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1983,10.4476255348594,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1984,8.65111053796386,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1985,5.39548620170352,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1986,3.82704166542659,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1987,3.15941034835014,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1988,2.13456989107103,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1989,4.08905388153544,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1990,3.31732886680118,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1991,3.21081037142378,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1992,3.06999853835904,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1993,1.46941522411422,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1994,2.30920192610951,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1995,2.52486446780802,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1996,1.75574469607419,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1997,1.5418020226137,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1998,2.40768094534715,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,1999,1.62988605221407,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2000,5.57763269940387,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2001,4.85280279607477,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2002,4.62820512820515,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2003,3.49221909079765,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2004,2.17854605730523,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2005,2.45654692931639,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2006,3.93576114001354,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2007,4.88574537540802,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2008,4.03568834941391,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2009,-4.44754686876746,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2010,-0.918388645376774,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2011,2.5489783020855,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2012,1.69474116680366,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2013,0.515099484900573,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2014,0.190916398713745,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2015,-0.330959783371788,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2016,0.0201247735963237,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2017,0.362173038229378,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2018,0.471130713712916,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2019,0.937842961189274,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2020,-0.326183651280033,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2021,2.34034113447044,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2022,7.82945736434105,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2023,6.29942487419125,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2024,2.11344999577317,World Bank Open Data,2026-07-27
+IRL,Ireland,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",%,2025,2.21044788475857,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1970,33.0917946052338,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1971,32.3241238567407,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1972,30.9359416357264,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1973,34.0193867582448,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1974,38.107552605225,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1975,38.2219576149043,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1976,41.4100458321707,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1977,44.2168080357933,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1978,44.7005294795216,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1979,44.511014432948,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1980,44.3621967554696,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1981,43.3751670247707,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1982,43.0365512739004,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1983,46.9542417846796,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1984,53.310212641078,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1985,54.0378493126467,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1986,49.0991239365685,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1987,52.4398145021973,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1988,55.5924081244684,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1989,58.9282298670557,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1990,54.7062192383618,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1991,55.5818364574401,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1992,58.4054636243813,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1993,63.366966997161,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1994,67.9600321066691,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1995,73.5199805547023,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1996,74.9070020586701,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1997,77.1247806345089,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1998,84.3240502327877,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,1999,86.4600758221796,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2000,94.3894347338897,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2001,95.2243726376591,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2002,90.449466813067,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2003,80.8405847264703,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2004,80.4755660009134,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2005,79.5276864075247,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2006,79.0346632772547,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2007,80.8367880723601,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2008,84.3332733545791,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2009,93.5561576841509,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2010,103.327078355769,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2011,102.41088550995,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2012,103.821695189581,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2013,109.746480737327,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2014,115.097265448513,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2015,126.687521960845,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2016,129.178433843871,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2017,128.496270792904,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2018,125.968715436882,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2019,131.224509342169,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2020,139.811889906845,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2021,136.397670222851,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2022,139.505980538698,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2023,136.52636667411,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2024,143.984601661031,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),%,2025,140.066665278394,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1970,41.3342499594784,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1971,39.8797188402517,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1972,36.6932307878143,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1973,41.2162552495273,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1974,52.569107567761,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1975,44.8247205120923,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1976,49.8283838501179,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1977,53.7830373414063,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1978,55.0116428999342,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1979,60.7881259780305,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1980,57.9409063848787,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1981,57.59940706628,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1982,50.9330959870834,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1983,50.7822174364678,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1984,54.9952388085252,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1985,53.7235053734684,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1986,48.0263457521977,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1987,48.3043863796629,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1988,49.6260049919785,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1989,53.5370867046735,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1990,50.3232067349584,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1991,50.8583774469567,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1992,51.139984767087,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1993,53.23571311034,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1994,58.5288692878587,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1995,62.5831438049889,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1996,63.9611164328373,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1997,65.1446615207745,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1998,73.4483179543601,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,1999,73.4108989379918,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2000,80.5650833373973,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2001,79.6163384642114,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2002,73.269862546548,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2003,65.6908892948051,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2004,66.1119303691577,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2005,68.6478778456041,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2006,70.9871225320103,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2007,72.5600589956647,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2008,75.7061467778949,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2009,80.0353171905146,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2010,86.7531944309513,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2011,83.8939936690886,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2012,86.5339871284032,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2013,89.996105487119,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2014,96.0843365535719,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2015,97.0154163297974,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2016,110.530093954898,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2017,104.807812553807,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2018,96.4850005635176,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2019,126.428263568252,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2020,118.968547119407,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2021,94.6346806407347,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2022,98.24943902068,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2023,103.123260911001,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2024,102.18527319637,World Bank Open Data,2026-07-27
+IRL,Ireland,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),%,2025,99.892247065173,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1960,1998550221.80554,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1961,2151772979.96956,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1962,2329372971.89171,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1963,2505073357.88508,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1964,2851091646.43165,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1965,3035655793.5247,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1966,3198820903.82796,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1967,3445739914.73101,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1968,3378701146.84197,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1969,3902721631.54663,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1970,4395995085.99509,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1971,5098250287.46646,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1972,6318060582.21873,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1973,7481173065.79201,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1974,7896860614.98803,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1975,9483808362.36934,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1976,9453756014.71837,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1977,11248340431.3779,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1978,14647996073.6937,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1979,18319334300.4513,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1980,21747855640.0712,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1981,20670190138.1671,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1982,21474752962.2178,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1983,20766047763.5314,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1984,20106648454.8404,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1985,21270013325.5601,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1986,28714571852.4799,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1987,33920518492.5094,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1988,37772896220.7559,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1989,39238392677.7542,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1990,49305632408.4929,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1991,49787501584.4847,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1992,55918538121.3989,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1993,52417477613.676,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1994,57097656065.96,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1995,69139823232.3232,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1996,75790786290.3226,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1997,82856648758.3572,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1998,90199410115.5097,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,1999,98893958262.6438,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2000,100207610429.909,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2001,109346669229.695,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2002,128596035288.401,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2003,164670771259.602,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2004,194372115041.065,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2005,211876989655.907,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2006,232180617162.279,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2007,270079279419.5,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2008,275447471451.063,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2009,236443115853.695,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2010,221732824603.484,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2011,240975871046.644,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2012,226921827888.137,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2013,242924245718.756,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2014,266490442124.309,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2015,302101388556.271,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2016,305431252708.748,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2017,348355212568.515,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2018,395780319816.603,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2019,407211793800.713,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2020,436009027818.948,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2021,530394123829.763,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2022,548341794599.09,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2023,567372737459.116,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2024,609157459747.205,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.CD,GDP (current US$),$,2025,721701359046.313,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1961,5.01616916866978,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1962,3.21644390828419,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1963,4.74463396242706,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1964,3.78596297345371,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1965,1.93344870050223,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1966,0.893092672389145,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1967,5.78570381955785,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1968,8.24392804095207,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1969,5.86385531503191,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1970,2.66052933421503,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1971,3.46988866612384,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1972,6.48980775082018,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1973,4.72142803863792,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1974,4.26023030161873,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1975,5.65664652614466,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1976,1.39480668315268,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1977,8.21130051013432,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1978,7.18672760788444,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1979,3.07303639266831,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1980,3.07932918345945,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1981,3.32521731639946,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1982,2.28346843284601,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1983,-0.244301213870017,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1984,4.35437267775501,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1985,3.08561465915007,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1986,-0.428330204205935,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1987,4.66309058769842,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1988,5.21741342322537,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1989,5.81391994557339,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1990,8.46652776398362,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1991,1.9296401741083,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1992,3.34327412603812,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1993,2.69260841466448,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1994,5.75582797061618,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1995,9.63442136559036,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1996,7.37962465765875,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1997,11.0217650823433,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1998,8.7661226571214,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,1999,10.5298856427062,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2000,9.40352476399653,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2001,5.30582133514299,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2002,5.89936506079005,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2003,3.01383869396012,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2004,6.78813990621356,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2005,5.73978202625278,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2006,4.98785364537615,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2007,5.31011830898613,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2008,-4.48407081043062,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2009,-5.09578277913846,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2010,1.68297175486512,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2011,1.60886648916944,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2012,-0.40502941658977,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2013,2.1929375750029,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2014,9.38579335130922,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2015,24.6239856364006,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2016,1.22271661130947,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2017,10.1088576065965,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2018,7.68865937437435,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2019,4.97288003766816,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2020,7.15369505735335,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2021,16.2581881158197,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2022,7.51113888415304,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2023,-2.53637409313261,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2024,2.59946721553708,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),%,2025,12.3375990291434,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1990,13742.8758185709,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1991,14398.7639103425,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1992,15115.7694903972,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1993,15811.4896948976,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1994,17011.4382733955,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1995,18944.0443391881,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1996,20481.5737141909,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1997,22637.382448244,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1998,25093.995962126,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,1999,27041.3474221597,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2000,30215.9324896691,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2001,32573.4634024331,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2002,35222.028724352,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2003,36280.4827472575,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2004,38729.2468204554,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2005,40466.2343515711,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2006,44222.6536034198,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2007,46782.3762067243,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2008,44169.0943411644,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2009,41491.4739085241,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2010,43162.9939992062,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2011,45457.5262213217,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2012,46654.4428740181,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2013,48763.0331535881,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2014,52582.2223929461,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2015,71519.6014840656,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2016,72940.7263991139,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2017,80409.4548397032,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2018,86368.9782047908,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2019,92042.2566065385,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2020,97677.4943055886,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2021,116702.85817485,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2022,138464.829172919,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2023,133440.438499393,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2024,140779.203379453,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)",$,2025,155089.413131749,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1990,12780,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1991,13440,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1992,13930,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1993,14640,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1994,15820,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1995,17320,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1996,18830,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1997,20450,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1998,22480,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,1999,23590,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2000,26340,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2001,27830,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2002,29530,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2003,31280,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2004,33430,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2005,35050,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2006,38780,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2007,40450,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2008,38230,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2009,34660,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2010,36280,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2011,37070,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2012,37780,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2013,41080,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2014,44390,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2015,55560,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2016,59410,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2017,63080,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2018,65440,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2019,69360,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2020,71320,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2021,83260,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2022,94640,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2023,99430,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2024,105770,World Bank Open Data,2026-07-27
+IRL,Ireland,NY.GNP.PCAP.PP.CD,"GNI per capita, PPP (current international $)",$,2025,106310,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,1987,35.5,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,1994,36.9,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,1995,37,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,1996,35.6,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2000,33,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2002,32.3,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2003,32.9,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2004,33.6,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2005,33.8,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2006,32.7,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2007,31.9,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2008,30.9,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2009,32.7,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2010,32.3,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2011,32.9,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2012,33.2,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2013,33.5,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2014,31.9,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2015,31.8,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2016,32.8,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2017,31.4,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2018,30.6,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2019,30.3,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2020,29.2,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2021,29.4,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2022,29.9,World Bank Open Data,2026-07-27
+IRL,Ireland,SI.POV.GINI,Gini index,index,2023,29,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1991,15.771,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1992,15.021,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1993,15.571,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1994,14.544,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1995,11.97,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1996,11.692,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1997,10.191,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1998,7.699,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,1999,5.804,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2000,4.318,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2001,3.684,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2002,4.216,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2003,4.478,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2004,4.491,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2005,4.237,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2006,4.355,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2007,4.98,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2008,6.774,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2009,12.609,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2010,14.534,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2011,15.354,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2012,15.451,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2013,13.735,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2014,11.858,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2015,9.908,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2016,8.374,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2017,6.713,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2018,5.741,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2019,4.95,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2020,5.623,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2021,6.357,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2022,4.465,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2023,4.243,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2024,4.3,World Bank Open Data,2026-07-27
+IRL,Ireland,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",%,2025,4.632,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1960,-38492,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1961,-22237,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1962,-17438,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1963,-16615,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1964,-15640,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1965,-14016,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1966,-11858,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1967,-11708,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1968,-11132,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1969,-10250,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1970,-8892,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1971,5851,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1972,12858,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1973,13164,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1974,13482,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1975,13828,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1976,14200,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1977,14505,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1978,15543,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1979,1486,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1980,-2876,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1981,-10834,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1982,-14464,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1983,-15043,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1984,-15549,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1985,-16178,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1986,-21139,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1987,-38426,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1988,-44020,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1989,-28752,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1990,-8203,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1991,4944,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1992,1335,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1993,-3762,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1994,-3118,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1995,10019,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1996,9959,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1997,17425,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1998,16615,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,1999,23592,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2000,31298,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2001,39220,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2002,34286,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2003,32220,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2004,49102,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2005,63983,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2006,94513,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2007,76465,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2008,18979,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2009,-18524,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2010,-26974,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2011,-26529,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2012,-22411,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2013,-12309,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2014,448,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2015,13376,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2016,18967,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2017,28883,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2018,33387,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2019,29663,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2020,15746,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2021,27419,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2022,93535,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2023,43873,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2024,39059,World Bank Open Data,2026-07-27
+IRL,Ireland,SM.POP.NETM,Net migration,count,2025,35417,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,4818000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,5289000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,5587000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,6064000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,6403000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,6646000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,6353000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,6476000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,6764000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,6953000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,7333000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,8001000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,8332000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,8026000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,7189000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,7134000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,7630000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,7550000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,8260000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,8813000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,9528000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,10100000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,10338000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,10926000,World Bank Open Data,2026-07-27
+IRL,Ireland,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,10951000,World Bank Open Data,2026-07-27
