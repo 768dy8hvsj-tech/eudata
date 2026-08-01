@@ -40,6 +40,13 @@ for r in csv.DictReader(open(os.path.join(DATA, "milestones.csv"), encoding="utf
     milestones[r["iso3"]].append(r)
 
 
+STANDARD = {
+    "NY.GDP.MKTP.KD.ZG", "NY.GDP.MKTP.CD", "NY.GDP.PCAP.PP.CD", "NY.GNP.PCAP.PP.CD",
+    "FP.CPI.TOTL.ZG", "SL.UEM.TOTL.ZS", "NE.EXP.GNFS.ZS", "NE.IMP.GNFS.ZS",
+    "BX.KLT.DINV.WD.GD.ZS", "ST.INT.ARVL", "SI.POV.GINI", "SM.POP.NETM",
+}
+
+
 def chart(title, sub, series, opts):
     return {"title": title, "sub": sub, "series": series, "opts": opts}
 
@@ -236,7 +243,12 @@ def build(c):
              "where the country window opens earlier."},
             {"title": "Attribution caution", "text": "The charts show what happened around "
              "membership, not what membership alone caused. Read them as context, not proof."},
-        ],
+        ] + ([{"title": "Incomplete collection", "text":
+              "These standard indicators are <strong>not yet collected</strong> for this country "
+              "and their charts are absent rather than estimated: "
+              + ", ".join(f"<code class=\"ind\">{c}</code>" for c in sorted(STANDARD - hv))
+              + ". Every other country in the set carries them, so this page is thinner than the "
+                "rest until collection is re-run."}] if (STANDARD - hv) else []),
     }
 
 
