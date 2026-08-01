@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Did EU membership change member states' trajectories?</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:#fcfcfb; --page:#f9f9f7;
+    --text-primary:#0b0b0b; --text-secondary:#52514e; --text-muted:#898781;
+    --grid:#e1e0d9; --baseline:#c3c2b7; --border:rgba(11,11,11,0.10);
+    --series-1:#2a78d6; --series-2:#eb6834; --neg:#e34948; --deemph:#c3c2b7;
+    --tooltip-bg:#ffffff; --wash:rgba(42,120,214,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:#1a1a19; --page:#0d0d0d;
+      --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#898781;
+      --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+      --series-1:#3987e5; --series-2:#d95926; --neg:#e66767; --deemph:#52514e;
+      --tooltip-bg:#242423; --wash:rgba(57,135,229,0.10);
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:#1a1a19; --page:#0d0d0d;
+    --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+    --series-1:#3987e5; --series-2:#d95926; --neg:#e66767; --deemph:#52514e;
+    --tooltip-bg:#242423; --wash:rgba(57,135,229,0.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+  .viz-root{background:var(--page);color:var(--text-primary);min-height:100vh;padding:24px 20px 48px}
+  .wrap{max-width:1060px;margin:0 auto}
+  header.top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+  h1{font-size:26px;font-weight:650;letter-spacing:-0.02em}
+  .subtitle{color:var(--text-secondary);font-size:14px;margin-top:5px;max-width:700px;line-height:1.55}
+  .theme-btn{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);
+    border-radius:8px;padding:6px 12px;font-size:12.5px;cursor:pointer;white-space:nowrap;font-family:inherit}
+  nav.tabs{display:flex;gap:4px;margin:20px 0 16px;flex-wrap:wrap;border-bottom:1px solid var(--border)}
+  nav.tabs button{background:none;border:none;border-bottom:2px solid transparent;color:var(--text-secondary);
+    font-size:14px;font-weight:500;padding:8px 14px 10px;cursor:pointer;font-family:inherit}
+  nav.tabs button:hover{color:var(--text-primary)}
+  nav.tabs button[aria-selected="true"]{color:var(--text-primary);border-bottom-color:var(--series-1);font-weight:600}
+  section.panel{display:none}section.panel.active{display:block}
+  .card{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;padding:18px 18px 14px;margin-bottom:14px}
+  .card h3{font-size:15px;font-weight:600}
+  .card h4{font-size:13.5px;font-weight:600;margin-top:14px}
+  .card .sub{font-size:12.5px;color:var(--text-secondary);margin-top:4px;margin-bottom:12px;line-height:1.5}
+  .card p{font-size:13.5px;color:var(--text-secondary);line-height:1.62;margin-top:9px}
+  .card p strong{color:var(--text-primary);font-weight:600}
+  .estimates{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-bottom:14px}
+  .est{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;padding:15px 17px}
+  .est .lbl{font-size:12.5px;color:var(--text-secondary)}
+  .est .val{font-size:29px;font-weight:600;letter-spacing:-0.01em;margin-top:5px}
+  .est .ci{font-size:12px;color:var(--text-secondary);margin-top:5px;font-variant-numeric:tabular-nums}
+  .est .verdict{font-size:11.5px;margin-top:8px;padding-top:8px;border-top:1px solid var(--grid);line-height:1.45}
+  .est .verdict.zero{color:var(--text-muted)}
+  .est .verdict.sig{color:var(--text-primary);font-weight:500}
+  .chart-box{position:relative}.chart-box svg{display:block;width:100%;height:auto}
+  .tooltip{position:absolute;pointer-events:none;display:none;z-index:5;background:var(--tooltip-bg);
+    border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+  .tooltip .tt-title{color:var(--text-muted);font-size:11px;margin-bottom:3px}
+  .tooltip .tt-val{font-weight:600;color:var(--text-primary)}
+  .tooltip .tt-row{display:flex;align-items:center;gap:6px;margin-top:2px}
+  .tooltip .tt-key{width:10px;height:2px;border-radius:1px;flex:none}
+  .tooltip .tt-name{color:var(--text-secondary)}
+  .legend{display:flex;gap:16px;margin-bottom:9px;flex-wrap:wrap}
+  .legend .key{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--text-secondary)}
+  .legend .key i{width:16px;height:2px;border-radius:1px;display:block}
+  .legend .key i.dot{width:9px;height:9px;border-radius:50%}
+  table.t{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:4px}
+  table.t th,table.t td{padding:5px 8px;border-bottom:1px solid var(--grid);color:var(--text-secondary)}
+  table.t th{color:var(--text-muted);font-weight:500;text-align:left}
+  table.t td.num,table.t th.num{text-align:right;font-variant-numeric:tabular-nums}
+  table.t td.nm{color:var(--text-primary);font-weight:500}
+  details summary{font-size:12px;color:var(--text-muted);cursor:pointer;padding:6px 0}
+  details summary:hover{color:var(--text-primary)}
+  .note{font-size:12px;color:var(--text-muted);line-height:1.55;margin-top:12px}
+  .warn{border-left:2px solid var(--neg);padding-left:12px;margin-top:12px}
+  .warn p{margin-top:6px}
+  .stamp{font-size:11.5px;color:var(--text-muted);margin-top:14px}
+  .pill{display:inline-block;font-size:11px;color:var(--text-muted);border:1px solid var(--border);
+    border-radius:20px;padding:2px 9px;margin:3px 4px 0 0}
+</style>
+</head>
+<body>
+<div class="viz-root"><div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Did EU membership change member states' trajectories?</h1>
+      <p class="subtitle">Members compared against comparable non-members, aligned on years since accession and split by bloc. The question is not "did members grow" — they did — but whether they grew <em>differently from countries that did not join</em>.</p>
+    </div>
+    <button class="theme-btn" id="themeBtn" type="button">Theme: auto</button>
+  </header>
+  <nav class="tabs" role="tablist" id="tabs"></nav>
+  <div id="panels"></div>
+  <p class="stamp" id="stamp"></p>
+</div></div>
+
+<script id="payload" type="application/json">{"generated": "2026-08-01", "pre": [-5, -1], "post": [6, 10], "blocs": {"West": ["Austria", "Belgium", "Denmark", "Finland", "France", "Germany", "Ireland", "Italy", "Luxembourg", "Netherlands", "Sweden", "United Kingdom"], "South": ["Greece", "Portugal", "Spain", "Cyprus", "Malta"], "East": ["Bulgaria", "Croatia", "Czechia", "Estonia", "Hungary", "Latvia", "Lithuania", "Poland", "Romania", "Slovakia", "Slovenia"]}, "controlsByBloc": {"West": ["Norway", "Switzerland", "Iceland"], "South": [], "East": ["Serbia", "Albania", "North Macedonia", "Bosnia and Herzegovina", "Montenegro"]}, "measures": [{"id": "income", "label": "Income per head", "unit": "%", "dp": 1, "desc": "Log GDP per capita (PPP), so a difference-in-differences result reads as an approximate percentage gap in income per head.", "did": {"West": {"rows": [{"iso3": "FIN", "name": "Finland", "accession": 1995, "treated": 51.32, "control": 45.98, "did": 5.33, "nControls": 3}, {"iso3": "SWE", "name": "Sweden", "accession": 1995, "treated": 43.12, "control": 45.98, "did": -2.86, "nControls": 3}, {"iso3": "AUT", "name": "Austria", "accession": 1995, "treated": 42.24, "control": 45.98, "did": -3.75, "nControls": 3}], "skipped": [{"iso3": "BEL", "name": "Belgium", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "DNK", "name": "Denmark", "accession": 1973, "why": "no pre-accession data"}, {"iso3": "FRA", "name": "France", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "DEU", "name": "Germany", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "IRL", "name": "Ireland", "accession": 1973, "why": "no pre-accession data"}, {"iso3": "ITA", "name": "Italy", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "LUX", "name": "Luxembourg", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "NLD", "name": "Netherlands", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "GBR", "name": "United Kingdom", "accession": 1973, "why": "no pre-accession data"}], "controls": ["Norway", "Switzerland", "Iceland"], "mean": -0.43, "median": -2.86, "min": -3.75, "max": 5.33, "n": 3, "positive": 1, "ci": {"lo": -6.1, "hi": 5.2, "sd": 5.0, "se": 2.9, "crossesZero": true}}, "South": {"rows": [], "skipped": [{"iso3": "GRC", "name": "Greece", "accession": 1981, "why": "no pre-accession data"}, {"iso3": "PRT", "name": "Portugal", "accession": 1986, "why": "no pre-accession data"}, {"iso3": "ESP", "name": "Spain", "accession": 1986, "why": "no pre-accession data"}, {"iso3": "CYP", "name": "Cyprus", "accession": 2004, "why": "no control country has data for this window"}, {"iso3": "MLT", "name": "Malta", "accession": 2004, "why": "no control country has data for this window"}], "controls": [], "mean": null, "median": null, "min": null, "max": null, "n": 0, "positive": 0, "ci": null}, "East": {"rows": [{"iso3": "ROU", "name": "Romania", "accession": 2007, "treated": 93.03, "control": 72.24, "did": 20.79, "nControls": 5}, {"iso3": "EST", "name": "Estonia", "accession": 2004, "treated": 90.3, "control": 80.2, "did": 10.09, "nControls": 5}, {"iso3": "LTU", "name": "Lithuania", "accession": 2004, "treated": 87.92, "control": 80.2, "did": 7.72, "nControls": 5}, {"iso3": "BGR", "name": "Bulgaria", "accession": 2007, "treated": 72.52, "control": 72.24, "did": 0.28, "nControls": 5}, {"iso3": "SVK", "name": "Slovakia", "accession": 2004, "treated": 79.03, "control": 80.2, "did": -1.18, "nControls": 5}, {"iso3": "LVA", "name": "Latvia", "accession": 2004, "treated": 78.52, "control": 80.2, "did": -1.69, "nControls": 5}, {"iso3": "HRV", "name": "Croatia", "accession": 2013, "treated": 59.57, "control": 64.5, "did": -4.93, "nControls": 5}, {"iso3": "POL", "name": "Poland", "accession": 2004, "treated": 73.82, "control": 80.2, "did": -6.39, "nControls": 5}, {"iso3": "HUN", "name": "Hungary", "accession": 2004, "treated": 59.01, "control": 80.2, "did": -21.2, "nControls": 5}, {"iso3": "CZE", "name": "Czechia", "accession": 2004, "treated": 54.53, "control": 80.2, "did": -25.67, "nControls": 5}, {"iso3": "SVN", "name": "Slovenia", "accession": 2004, "treated": 43.14, "control": 80.2, "did": -37.06, "nControls": 5}], "skipped": [], "controls": ["Serbia", "Albania", "North Macedonia", "Bosnia and Herzegovina", "Montenegro"], "mean": -5.39, "median": -1.69, "min": -37.06, "max": 20.79, "n": 11, "positive": 4, "ci": {"lo": -15.3, "hi": 4.5, "sd": 16.8, "se": 5.1, "crossesZero": true}}}, "paths": {"West": {"es": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "treated": [null, null, null, -13.245, -11.938, -11.254, -10.323, -5.32, 0.0, 3.212, 8.308, 13.932, 18.77, 25.907, 27.87, 31.495, 33.928, 39.951, 42.464, 50.502, 57.883, 62.221, 58.666, 61.853, 67.172], "control": [null, null, null, -14.697, -11.776, -10.505, -7.665, -3.059, 0.0, 5.065, 10.58, 13.248, 17.825, 26.199, 30.234, 32.055, 32.742, 40.101, 47.09, 56.867, 62.905, 69.639, 64.142, 65.178, 70.251], "treatedN": [0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], "controlN": [0, 0, 0, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9], "countries": [{"iso3": "AUT", "name": "Austria", "accession": 1995, "path": [null, null, null, -19.636, -13.925, -10.7, -8.657, -4.555, 0.0, 3.426, 6.941, 11.689, 15.277, 21.347, 22.478, 27.103, 30.303, 35.068, 38.753, 45.993, 50.706, 55.33, 54.448, 56.993, 62.666]}, {"iso3": "FIN", "name": "Finland", "accession": 1995, "path": [null, null, null, -7.529, -10.81, -12.486, -11.41, -5.841, 0.0, 2.521, 10.743, 18.609, 23.542, 31.388, 35.108, 37.939, 39.488, 46.638, 49.334, 56.535, 65.956, 71.702, 66.34, 68.83, 73.592]}, {"iso3": "SWE", "name": "Sweden", "accession": 1995, "path": [null, null, null, -12.57, -11.078, -10.577, -10.902, -5.563, 0.0, 3.69, 7.238, 11.499, 17.491, 24.986, 26.026, 29.444, 31.993, 38.147, 39.304, 48.977, 56.986, 59.631, 55.209, 59.737, 65.258]}], "controlNames": ["Norway", "Switzerland", "Iceland"]}, "South": {"es": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "treated": [-39.496, -35.511, -30.454, -26.052, -18.312, -14.153, -9.776, -5.093, 0.0, 4.903, 10.974, 19.273, 25.322, 24.21, 27.44, 28.182, 28.058, 29.433, 31.592, 38.322, 47.449, 56.399, 62.168, 70.281, 66.78], "control": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], "treatedN": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], "controlN": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "countries": [{"iso3": "CYP", "name": "Cyprus", "accession": 2004, "path": [-40.401, -37.771, -32.414, -27.714, -19.735, -12.621, -9.647, -6.63, 0.0, 6.784, 14.562, 23.723, 29.462, 26.759, 25.574, 25.287, 20.749, 15.91, 14.175, 19.031, 30.651, 37.56, 43.955, 53.723, 49.526]}, {"iso3": "MLT", "name": "Malta", "accession": 2004, "path": [-38.592, -33.252, -28.493, -24.389, -16.889, -15.686, -9.905, -3.555, 0.0, 3.021, 7.386, 14.823, 21.183, 21.662, 29.305, 31.076, 35.367, 42.957, 49.01, 57.613, 64.246, 75.238, 80.38, 86.838, 84.035]}], "controlNames": []}, "East": {"es": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "treated": [-58.766, -50.581, -43.772, -38.987, -32.902, -24.521, -16.792, -8.742, 0.0, 8.778, 16.312, 25.582, 32.817, 30.424, 35.745, 41.795, 47.021, 53.474, 59.74, 64.091, 70.341, 74.731, 83.767, 93.83, 96.158], "control": [-59.846, -47.924, -39.455, -35.456, -28.734, -22.28, -14.892, -8.673, 0.0, 8.27, 19.106, 29.337, 39.12, 40.967, 46.219, 50.835, 53.636, 60.422, 65.497, 70.653, 78.639, 82.195, 90.502, 101.521, 101.189], "treatedN": [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 10, 10, 10, 10], "controlN": [47, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 50, 50, 50, 50], "countries": [{"iso3": "BGR", "name": "Bulgaria", "accession": 2007, "path": [-79.194, -69.108, -61.093, -49.876, -42.097, -33.189, -21.984, -11.704, 0.0, 11.239, 10.126, 15.385, 20.552, 24.169, 27.58, 33.871, 38.781, 48.12, 55.421, 62.681, 73.597, 75.764, 88.152, 104.123, 110.803]}, {"iso3": "HRV", "name": "Croatia", "accession": 2013, "path": [-37.275, -24.087, -13.653, -6.502, -9.692, -10.773, -5.684, -3.686, 0.0, 1.224, 5.717, 14.008, 21.777, 28.375, 38.804, 34.256, 49.862, 63.024, 75.578, 79.259, 82.037, null, null, null, null]}, {"iso3": "CZE", "name": "Czechia", "accession": 2004, "path": [-35.063, -34.185, -33.166, -30.351, -25.081, -16.986, -13.465, -6.822, 0.0, 5.229, 13.052, 22.438, 28.603, 27.795, 29.373, 33.148, 33.927, 39.045, 44.475, 48.514, 55.185, 62.844, 68.506, 77.626, 75.913]}, {"iso3": "EST", "name": "Estonia", "accession": 2004, "path": [-74.643, -59.986, -54.247, -54.71, -43.345, -34.376, -22.003, -10.148, 0.0, 13.493, 28.563, 42.335, 45.015, 34.312, 39.659, 52.81, 59.061, 64.939, 70.435, 71.48, 78.733, 86.438, 93.741, 102.666, 102.878]}, {"iso3": "HUN", "name": "Hungary", "accession": 2004, "path": [-54.875, -50.102, -44.486, -40.006, -31.398, -20.62, -11.176, -4.988, 0.0, 5.044, 12.215, 16.099, 24.242, 24.159, 28.876, 34.702, 35.625, 41.427, 46.209, 50.539, 55.044, 60.396, 68.564, 78.498, 78.375]}, {"iso3": "LVA", "name": "Latvia", "accession": 2004, "path": [-68.808, -57.557, -49.174, -44.462, -36.612, -25.086, -16.799, -10.477, 0.0, 12.497, 22.534, 36.132, 43.247, 31.725, 36.916, 44.597, 53.963, 59.264, 64.405, 68.897, 75.42, 82.248, 96.861, 104.544, 106.215]}, {"iso3": "LTU", "name": "Lithuania", "accession": 2004, "path": [-66.55, -56.463, -47.405, -46.491, -39.702, -29.346, -20.239, -7.794, 0.0, 10.148, 20.819, 35.453, 43.169, 30.233, 39.544, 53.664, 61.33, 68.037, 73.451, 75.984, 82.277, 90.968, 106.3, 116.878, 118.586]}, {"iso3": "POL", "name": "Poland", "accession": 2004, "path": [-47.873, -40.266, -34.276, -28.561, -22.401, -18.252, -12.464, -8.428, 0.0, 3.822, 12.539, 22.713, 31.462, 36.389, 44.786, 53.091, 57.043, 59.974, 64.087, 69.917, 74.874, 81.063, 88.023, 98.402, 101.71]}, {"iso3": "ROU", "name": "Romania", "accession": 2007, "path": [-89.546, -85.113, -74.274, -64.876, -59.481, -42.155, -35.561, -17.055, 0.0, 20.272, 19.426, 23.627, 31.647, 36.846, 36.191, 40.93, 45.624, 55.65, 67.614, 76.282, 89.171, 91.445, 100.765, 111.958, 121.065]}, {"iso3": "SVK", "name": "Slovakia", "accession": 2004, "path": [-46.78, -40.285, -35.195, -34.641, -28.807, -20.399, -13.19, -7.371, 0.0, 8.856, 22.042, 33.647, 44.702, 41.98, 51.498, 54.677, 57.763, 61.585, 65.197, 68.707, 67.774, 69.031, 73.125, 80.689, 84.563]}, {"iso3": "SVN", "name": "Slovenia", "accession": 2004, "path": [-45.825, -39.238, -34.523, -28.38, -23.308, -18.55, -12.146, -7.692, 0.0, 4.732, 12.405, 19.561, 26.566, 18.686, 19.966, 24.003, 24.25, 27.152, 30.267, 32.736, 39.638, 47.11, 53.637, 62.911, 61.47]}], "controlNames": ["Serbia", "Albania", "North Macedonia", "Bosnia and Herzegovina", "Montenegro"]}}, "pathLabel": "Cumulative income growth since accession year, % (log points)"}, {"id": "convergence", "label": "Convergence with the EU average", "unit": "pp", "dp": 1, "desc": "GDP per capita (PPP) as a percentage of the EU-wide average. A positive result means closing the gap on the Union faster than comparable non-members did.", "did": {"West": {"rows": [], "skipped": [{"iso3": "AUT", "name": "Austria", "accession": 1995, "why": "no pre-accession data"}, {"iso3": "BEL", "name": "Belgium", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "DNK", "name": "Denmark", "accession": 1973, "why": "no pre-accession data"}, {"iso3": "FIN", "name": "Finland", "accession": 1995, "why": "no pre-accession data"}, {"iso3": "FRA", "name": "France", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "DEU", "name": "Germany", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "IRL", "name": "Ireland", "accession": 1973, "why": "no pre-accession data"}, {"iso3": "ITA", "name": "Italy", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "LUX", "name": "Luxembourg", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "NLD", "name": "Netherlands", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "SWE", "name": "Sweden", "accession": 1995, "why": "no pre-accession data"}, {"iso3": "GBR", "name": "United Kingdom", "accession": 1973, "why": "no pre-accession data"}], "controls": ["Norway", "Switzerland", "Iceland"], "mean": null, "median": null, "min": null, "max": null, "n": 0, "positive": 0, "ci": null}, "South": {"rows": [], "skipped": [{"iso3": "GRC", "name": "Greece", "accession": 1981, "why": "no pre-accession data"}, {"iso3": "PRT", "name": "Portugal", "accession": 1986, "why": "no pre-accession data"}, {"iso3": "ESP", "name": "Spain", "accession": 1986, "why": "no pre-accession data"}, {"iso3": "CYP", "name": "Cyprus", "accession": 2004, "why": "no control country has data for this window"}, {"iso3": "MLT", "name": "Malta", "accession": 2004, "why": "no control country has data for this window"}], "controls": [], "mean": null, "median": null, "min": null, "max": null, "n": 0, "positive": 0, "ci": null}, "East": {"rows": [{"iso3": "EST", "name": "Estonia", "accession": 2004, "treated": 27.6, "control": 10.86, "did": 16.74, "nControls": 5}, {"iso3": "ROU", "name": "Romania", "accession": 2007, "treated": 23.31, "control": 9.79, "did": 13.52, "nControls": 5}, {"iso3": "LTU", "name": "Lithuania", "accession": 2004, "treated": 23.51, "control": 10.86, "did": 12.65, "nControls": 5}, {"iso3": "SVK", "name": "Slovakia", "accession": 2004, "treated": 23.32, "control": 10.86, "did": 12.47, "nControls": 5}, {"iso3": "POL", "name": "Poland", "accession": 2004, "treated": 17.72, "control": 10.86, "did": 6.86, "nControls": 5}, {"iso3": "LVA", "name": "Latvia", "accession": 2004, "treated": 16.19, "control": 10.86, "did": 5.33, "nControls": 5}, {"iso3": "BGR", "name": "Bulgaria", "accession": 2007, "treated": 13.46, "control": 9.79, "did": 3.67, "nControls": 5}, {"iso3": "HRV", "name": "Croatia", "accession": 2013, "treated": 8.62, "control": 6.47, "did": 2.15, "nControls": 5}, {"iso3": "HUN", "name": "Hungary", "accession": 2004, "treated": 9.88, "control": 10.86, "did": -0.98, "nControls": 5}, {"iso3": "CZE", "name": "Czechia", "accession": 2004, "treated": 9.4, "control": 10.86, "did": -1.46, "nControls": 5}, {"iso3": "SVN", "name": "Slovenia", "accession": 2004, "treated": 0.23, "control": 10.86, "did": -10.63, "nControls": 5}], "skipped": [], "controls": ["Serbia", "Albania", "North Macedonia", "Bosnia and Herzegovina", "Montenegro"], "mean": 5.48, "median": 5.33, "min": -10.63, "max": 16.74, "n": 11, "positive": 8, "ci": {"lo": 0.7, "hi": 10.3, "sd": 8.1, "se": 2.4, "crossesZero": false}}}, "paths": {"West": {"es": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "treated": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], "control": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], "treatedN": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "controlN": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "countries": [], "controlNames": ["Norway", "Switzerland", "Iceland"]}, "South": {"es": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "treated": [-4.575, -4.535, -4.095, -3.66, -2.33, -2.7, -2.74, -0.58, 0.0, 1.29, -0.56, 1.335, 2.685, 3.29, 2.905, -1.055, -2.475, -4.105, -4.555, -1.215, 1.55, 5.385, 6.47, 6.895, 5.6], "control": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], "treatedN": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], "controlN": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "countries": [{"iso3": "CYP", "name": "Cyprus", "accession": 2004, "path": [-5.78, -6.91, -6.18, -5.45, -3.81, -1.6, -2.88, -2.02, 0.0, 3.14, 2.62, 5.54, 6.79, 5.99, 1.42, -3.76, -9.2, -16.3, -20.11, -18.72, -13.93, -12.35, -10.76, -8.75, -10.63]}, {"iso3": "MLT", "name": "Malta", "accession": 2004, "path": [-3.37, -2.16, -2.01, -1.87, -0.85, -3.8, -2.6, 0.86, 0.0, -0.56, -3.74, -2.87, -1.42, 0.59, 4.39, 1.65, 4.25, 8.09, 11.0, 16.29, 17.03, 23.12, 23.7, 22.54, 21.83]}], "controlNames": []}, "East": {"es": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "treated": [-10.363, -8.92, -8.245, -7.978, -7.597, -6.09, -4.486, -2.017, 0.0, 2.589, 3.489, 5.625, 7.258, 6.171, 7.203, 8.389, 10.215, 11.43, 13.333, 13.882, 14.059, 15.234, 17.796, 19.032, 21.316], "control": [-5.555, -4.001, -3.237, -3.559, -3.111, -2.676, -1.881, -1.085, 0.0, 1.277, 2.723, 4.176, 5.838, 6.577, 7.123, 7.33, 7.443, 8.273, 8.833, 9.473, 10.313, 10.46, 11.58, 12.629, 12.709], "treatedN": [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 10, 10, 10, 10], "controlN": [47, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 50, 50, 50, 50], "countries": [{"iso3": "BGR", "name": "Bulgaria", "accession": 2007, "path": [-13.23, -12.14, -11.2, -9.05, -7.18, -5.68, -2.91, -2.14, 0.0, 2.85, 3.22, 4.13, 4.24, 5.31, 5.36, 6.96, 7.82, 9.54, 10.67, 12.07, 13.9, 16.31, 18.38, 20.82, 21.9]}, {"iso3": "HRV", "name": "Croatia", "accession": 2013, "path": [-4.34, -1.46, 1.06, 2.7, 1.91, -0.77, -0.68, -0.24, 0.0, -1.04, -0.21, 1.29, 3.0, 4.31, 6.24, 4.61, 9.25, 10.11, 15.79, 15.85, 15.97, null, null, null, null]}, {"iso3": "CZE", "name": "Czechia", "accession": 2004, "path": [-0.49, -2.83, -5.57, -6.4, -7.14, -4.69, -5.28, -1.79, 0.0, 1.25, 0.87, 3.39, 4.75, 5.74, 4.33, 3.34, 2.92, 4.46, 6.64, 7.43, 8.12, 10.44, 11.42, 12.88, 13.27]}, {"iso3": "EST", "name": "Estonia", "accession": 2004, "path": [-18.57, -14.28, -13.79, -15.61, -13.49, -11.69, -7.95, -3.04, 0.0, 5.77, 10.12, 15.22, 13.88, 8.02, 9.4, 15.0, 18.63, 20.58, 22.59, 20.96, 22.01, 24.08, 26.28, 27.42, 29.4]}, {"iso3": "HUN", "name": "Hungary", "accession": 2004, "path": [-11.58, -11.1, -10.57, -10.27, -9.03, -5.75, -2.73, -0.25, 0.0, 0.85, 0.14, -1.39, 0.84, 2.04, 3.02, 3.6, 3.37, 5.05, 6.32, 7.15, 6.19, 6.36, 8.88, 10.6, 12.09]}, {"iso3": "LVA", "name": "Latvia", "accession": 2004, "path": [-12.7, -10.32, -9.03, -8.75, -8.19, -5.74, -4.19, -2.5, 0.0, 4.01, 4.86, 8.5, 9.85, 4.96, 5.93, 7.31, 11.61, 12.73, 14.0, 14.79, 15.15, 16.18, 22.49, 22.58, 25.14]}, {"iso3": "LTU", "name": "Lithuania", "accession": 2004, "path": [-13.36, -11.08, -9.36, -10.52, -10.32, -8.15, -6.15, -1.54, 0.0, 3.24, 4.49, 9.08, 10.93, 4.73, 8.08, 13.54, 17.64, 19.94, 21.67, 21.25, 21.53, 24.1, 32.34, 34.84, 38.1]}, {"iso3": "POL", "name": "Poland", "accession": 2004, "path": [-6.5, -4.76, -4.1, -3.23, -3.28, -3.62, -2.89, -1.95, 0.0, 0.06, 0.28, 2.31, 4.62, 8.64, 11.85, 14.02, 15.81, 15.56, 16.37, 18.23, 17.58, 18.34, 20.02, 22.08, 26.2]}, {"iso3": "ROU", "name": "Romania", "accession": 2007, "path": [-17.07, -17.56, -15.93, -14.45, -13.48, -9.33, -8.31, -4.46, 0.0, 7.49, 8.06, 8.58, 10.22, 12.39, 10.21, 11.2, 12.07, 14.44, 18.59, 21.2, 24.77, 27.87, 28.2, 27.65, 30.69]}, {"iso3": "SVK", "name": "Slovakia", "accession": 2004, "path": [-6.78, -5.39, -5.12, -6.89, -7.11, -5.24, -3.66, -1.61, 0.0, 3.1, 6.19, 9.69, 14.26, 13.7, 18.4, 17.05, 18.43, 18.84, 19.38, 19.67, 14.51, 11.76, 11.41, 11.42, 15.74]}, {"iso3": "SVN", "name": "Slovenia", "accession": 2004, "path": [-9.37, -7.2, -7.09, -5.29, -6.26, -6.33, -4.6, -2.67, 0.0, 0.9, 0.36, 1.07, 3.25, -1.96, -3.59, -4.35, -5.19, -5.52, -5.36, -5.9, -5.08, -3.1, -1.46, 0.03, 0.63]}], "controlNames": ["Serbia", "Albania", "North Macedonia", "Bosnia and Herzegovina", "Montenegro"]}}, "pathLabel": "Change in % of EU average since accession year (pp)"}, {"id": "unemployment", "label": "Unemployment", "unit": "pp", "dp": 1, "lowerIsBetter": true, "desc": "Unemployment rate, ILO-modelled. A negative result means unemployment fell further than in comparable non-members.", "did": {"West": {"rows": [{"iso3": "AUT", "name": "Austria", "accession": 1995, "treated": 1.36, "control": -0.66, "did": 2.02, "nControls": 3}, {"iso3": "SWE", "name": "Sweden", "accession": 1995, "treated": -1.02, "control": -0.66, "did": -0.36, "nControls": 3}, {"iso3": "FIN", "name": "Finland", "accession": 1995, "treated": -2.45, "control": -0.66, "did": -1.8, "nControls": 3}], "skipped": [{"iso3": "BEL", "name": "Belgium", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "DNK", "name": "Denmark", "accession": 1973, "why": "no pre-accession data"}, {"iso3": "FRA", "name": "France", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "DEU", "name": "Germany", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "IRL", "name": "Ireland", "accession": 1973, "why": "no pre-accession data"}, {"iso3": "ITA", "name": "Italy", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "LUX", "name": "Luxembourg", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "NLD", "name": "Netherlands", "accession": 1958, "why": "no pre-accession data"}, {"iso3": "GBR", "name": "United Kingdom", "accession": 1973, "why": "no pre-accession data"}], "controls": ["Norway", "Switzerland", "Iceland"], "mean": -0.05, "median": -0.36, "min": -1.8, "max": 2.02, "n": 3, "positive": 1, "ci": {"lo": -2.2, "hi": 2.1, "sd": 1.9, "se": 1.1, "crossesZero": true}}, "South": {"rows": [], "skipped": [{"iso3": "GRC", "name": "Greece", "accession": 1981, "why": "no pre-accession data"}, {"iso3": "PRT", "name": "Portugal", "accession": 1986, "why": "no pre-accession data"}, {"iso3": "ESP", "name": "Spain", "accession": 1986, "why": "no pre-accession data"}, {"iso3": "CYP", "name": "Cyprus", "accession": 2004, "why": "no control country has data for this window"}, {"iso3": "MLT", "name": "Malta", "accession": 2004, "why": "no control country has data for this window"}], "controls": [], "mean": null, "median": null, "min": null, "max": null, "n": 0, "positive": 0, "ci": null}, "East": {"rows": [{"iso3": "HUN", "name": "Hungary", "accession": 2004, "treated": 4.11, "control": -1.58, "did": 5.69, "nControls": 5}, {"iso3": "HRV", "name": "Croatia", "accession": 2013, "treated": -4.94, "control": -8.99, "did": 4.04, "nControls": 5}, {"iso3": "ROU", "name": "Romania", "accession": 2007, "treated": -1.14, "control": -5.11, "did": 3.98, "nControls": 5}, {"iso3": "SVN", "name": "Slovenia", "accession": 2004, "treated": 2.34, "control": -1.58, "did": 3.92, "nControls": 5}, {"iso3": "LVA", "name": "Latvia", "accession": 2004, "treated": 1.15, "control": -1.58, "did": 2.73, "nControls": 5}, {"iso3": "BGR", "name": "Bulgaria", "accession": 2007, "treated": -3.13, "control": -5.11, "did": 1.98, "nControls": 5}, {"iso3": "LTU", "name": "Lithuania", "accession": 2004, "treated": -0.6, "control": -1.58, "did": 0.98, "nControls": 5}, {"iso3": "EST", "name": "Estonia", "accession": 2004, "treated": -0.87, "control": -1.58, "did": 0.71, "nControls": 5}, {"iso3": "CZE", "name": "Czechia", "accession": 2004, "treated": -1.32, "control": -1.58, "did": 0.26, "nControls": 5}, {"iso3": "SVK", "name": "Slovakia", "accession": 2004, "treated": -4.43, "control": -1.58, "did": -2.85, "nControls": 5}, {"iso3": "POL", "name": "Poland", "accession": 2004, "treated": -7.46, "control": -1.58, "did": -5.88, "nControls": 5}], "skipped": [], "controls": ["Serbia", "Albania", "North Macedonia", "Bosnia and Herzegovina", "Montenegro"], "mean": 1.41, "median": 1.98, "min": -5.88, "max": 5.69, "n": 11, "positive": 9, "ci": {"lo": -0.6, "hi": 3.4, "sd": 3.4, "se": 1.0, "crossesZero": true}}}, "paths": {"West": {"es": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "treated": [null, null, null, null, -5.694, -3.113, -0.155, -0.235, 0.0, 0.051, 0.076, -0.87, -2.083, -2.987, -3.74, -3.336, -3.148, -2.409, -2.384, -2.975, -4.108, -4.482, -2.759, -2.787, -3.342], "control": [null, null, null, null, -1.608, -0.679, 0.059, -0.114, 0.0, -0.759, -0.688, -1.408, -2.04, -2.182, -2.165, -1.554, -0.754, -0.665, -1.077, -1.458, -2.071, -1.927, -0.056, 0.434, 0.012], "treatedN": [0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], "controlN": [0, 0, 0, 0, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9], "countries": [{"iso3": "AUT", "name": "Austria", "accession": 1995, "path": [null, null, null, null, -0.925, -0.755, -0.095, -0.81, 0.0, 0.937, 0.805, 1.138, 0.354, 0.342, -0.338, 0.507, 0.434, 1.624, 1.337, 0.975, 0.564, -0.147, 1.026, 0.538, 0.292]}, {"iso3": "FIN", "name": "Finland", "accession": 1995, "path": [null, null, null, null, -10.502, -5.41, -0.804, -0.579, 0.0, -1.433, -2.038, -3.791, -5.312, -5.871, -6.715, -6.582, -6.536, -6.647, -7.403, -8.07, -10.151, -10.636, -8.756, -8.611, -9.224]}, {"iso3": "SWE", "name": "Sweden", "accession": 1995, "path": [null, null, null, null, -5.654, -3.175, 0.433, 0.683, 0.0, 0.65, 1.462, 0.044, -1.29, -3.431, -4.167, -3.932, -3.342, -2.204, -1.087, -1.831, -2.736, -2.662, -0.546, -0.287, -1.093]}], "controlNames": ["Norway", "Switzerland", "Iceland"]}, "South": {"es": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "treated": [-1.329, -1.179, -1.231, -0.115, -0.498, -0.468, -0.924, -0.223, 0.0, 0.159, -0.348, -0.834, -1.177, 0.202, 0.567, 1.122, 3.107, 5.08, 4.964, 4.164, 2.807, 1.538, 0.186, -0.426, 0.262], "control": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], "treatedN": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], "controlN": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "countries": [{"iso3": "CYP", "name": "Cyprus", "accession": 2004, "path": [-1.67, -1.37, -1.47, 0.762, -0.004, -0.727, -1.434, -0.617, 0.0, 0.711, -0.177, -0.824, -1.014, 0.824, 1.589, 3.172, 7.327, 11.361, 11.507, 10.256, 8.236, 6.385, 3.734, 2.385, 2.985]}, {"iso3": "MLT", "name": "Malta", "accession": 2004, "path": [-0.988, -0.989, -0.991, -0.992, -0.993, -0.21, -0.415, 0.171, 0.0, -0.394, -0.519, -0.845, -1.34, -0.421, -0.456, -0.929, -1.114, -1.202, -1.58, -1.928, -2.623, -3.309, -3.361, -3.237, -2.461]}], "controlNames": []}, "East": {"es": [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "treated": [0.4, -0.313, -0.104, 0.41, 0.798, 1.082, 0.457, 0.514, 0.0, -0.895, -2.182, -3.358, -3.512, -0.49, 0.901, -0.152, -0.695, -1.457, -2.747, -3.704, -4.545, -4.481, -5.197, -5.736, -4.801], "control": [-1.481, -1.419, -1.292, -1.512, -1.522, -1.349, -0.832, -0.122, 0.0, -0.205, -0.994, -2.474, -5.005, -4.496, -3.576, -3.395, -3.459, -4.213, -5.174, -6.116, -7.672, -9.071, -10.244, -12.096, -12.167], "treatedN": [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 10, 10, 10, 10], "controlN": [55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 50, 50, 50, 50], "countries": [{"iso3": "BGR", "name": "Bulgaria", "accession": 2007, "path": [7.222, 9.34, 13.043, 11.232, 6.855, 5.159, 3.205, 2.073, 0.0, -1.269, -0.061, 3.401, 4.382, 5.392, 6.063, 4.546, 2.265, 0.697, -0.714, -1.667, -2.73, -1.841, -1.712, -2.73, -2.559]}, {"iso3": "HRV", "name": "Croatia", "accession": 2013, "path": [-4.633, -6.101, -7.322, -8.701, -8.029, -5.611, -3.553, -1.185, 0.0, -0.022, -1.081, -4.216, -6.153, -8.909, -10.68, -9.842, -9.748, -10.42, -11.11, -12.231, -12.229, null, null, null, null]}, {"iso3": "CZE", "name": "Czechia", "accession": 2004, "path": [-4.446, -3.624, -1.843, 0.404, 0.466, -0.17, -1.018, -0.521, 0.0, -0.371, -1.157, -2.982, -3.906, -1.636, -1.017, -1.586, -1.319, -1.345, -2.19, -3.25, -4.346, -5.405, -6.052, -6.283, -5.748]}, {"iso3": "EST", "name": "Estonia", "accession": 2004, "path": [-0.333, 0.121, -0.738, 1.325, 3.112, 2.886, -0.222, 1.04, 0.0, -2.215, -4.333, -5.656, -4.793, 3.3, 6.459, 2.08, -0.227, -1.617, -2.896, -3.836, -3.366, -4.441, -4.836, -5.734, -3.292]}, {"iso3": "HUN", "name": "Hungary", "accession": 2004, "path": [4.19, 3.159, 3.093, 1.097, 0.731, -0.161, -0.224, -0.042, 0.0, 1.357, 1.662, 1.574, 1.985, 4.198, 5.34, 5.197, 5.171, 4.345, 1.893, 0.981, -0.717, -1.676, -2.165, -2.421, -1.584]}, {"iso3": "LVA", "name": "Latvia", "accession": 2004, "path": [8.992, 3.192, 2.746, 2.082, 2.503, 2.113, 2.121, 0.353, 0.0, -1.675, -4.678, -5.656, -3.969, 5.807, 7.774, 4.498, 3.339, 0.159, -0.862, -1.835, -2.065, -2.993, -4.296, -5.396, -3.61]}, {"iso3": "LTU", "name": "Lithuania", "accession": 2004, "path": [5.716, 3.446, 3.027, 2.704, 5.247, 6.156, 2.324, 2.19, 0.0, -2.359, -4.904, -6.434, -4.858, 3.101, 7.13, 4.706, 2.681, 1.086, 0.014, -1.564, -2.822, -3.611, -4.537, -4.429, -2.197]}, {"iso3": "POL", "name": "Poland", "accession": 2004, "path": [-6.138, -7.858, -8.887, -6.532, -3.894, -0.387, 1.389, 1.077, 0.0, -1.23, -5.028, -9.271, -11.753, -10.691, -9.244, -9.246, -8.791, -8.529, -9.851, -11.347, -12.681, -13.955, -14.987, -15.555, -15.667]}, {"iso3": "ROU", "name": "Romania", "accession": 2007, "path": [-0.174, 0.556, 0.148, 1.699, 0.537, 1.306, 0.761, 0.857, 0.0, -0.626, 0.446, 0.546, 0.764, 0.381, 0.683, 0.389, 0.399, -0.512, -1.486, -2.226, -2.501, -1.378, -0.823, -0.799, -0.824]}, {"iso3": "SVK", "name": "Slovakia", "accession": 2004, "path": [-6.865, -6.312, -5.785, -2.107, 0.34, 0.942, 0.335, -0.657, 0.0, -1.93, -4.811, -7.046, -8.692, -6.183, -3.819, -4.572, -4.24, -3.98, -6.67, -6.714, -8.527, -10.064, -11.662, -12.445, -11.487]}, {"iso3": "SVN", "name": "Slovenia", "accession": 2004, "path": [0.867, 0.636, 1.378, 1.312, 0.906, -0.33, -0.09, 0.467, 0.0, 0.494, -0.062, -1.194, -1.641, -0.154, 1.224, 2.154, 2.829, 4.091, 3.656, 2.95, 1.988, 0.552, -0.904, -1.566, -1.041]}], "controlNames": ["Serbia", "Albania", "North Macedonia", "Bosnia and Herzegovina", "Montenegro"]}}, "pathLabel": "Change in unemployment rate since accession year (pp)"}], "adjusted": {"West": {"rows": [], "n": 0, "mean": null, "median": null, "min": null, "max": null, "positive": 0, "fits": {}, "ci": null}, "South": {"rows": [{"iso3": "MLT", "name": "Malta", "accession": 2004, "level": 81.6, "actual": 51.6, "predicted": 65.0, "excess": -13.4}, {"iso3": "CYP", "name": "Cyprus", "accession": 2004, "level": 97.0, "actual": 35.6, "predicted": 61.0, "excess": -25.4}], "n": 2, "mean": -19.4, "median": -19.4, "min": -25.4, "max": -13.4, "positive": 0, "fits": {"2004": {"a": 86.13812713848881, "b": -0.25923005179852576, "n": 8, "r2": 0.749, "points": [{"level": 157.6, "growth": 59.4, "name": "Norway"}, {"level": 164.6, "growth": 46.7, "name": "Switzerland"}, {"level": 137.9, "growth": 30.7, "name": "Iceland"}, {"level": 30.1, "growth": 74.4, "name": "Serbia"}, {"level": 19.0, "growth": 89.3, "name": "Albania"}, {"level": 26.9, "growth": 74.6, "name": "North Macedonia"}, {"level": 19.0, "growth": 84.5, "name": "Bosnia and Herzegovina"}, {"level": 28.5, "growth": 78.3, "name": "Montenegro"}]}}, "ci": null}, "East": {"rows": [{"iso3": "ROU", "name": "Romania", "accession": 2007, "level": 34.0, "actual": 93.0, "predicted": 70.3, "excess": 22.7}, {"iso3": "EST", "name": "Estonia", "accession": 2004, "level": 45.8, "actual": 90.3, "predicted": 74.3, "excess": 16.0}, {"iso3": "LTU", "name": "Lithuania", "accession": 2004, "level": 41.3, "actual": 87.9, "predicted": 75.4, "excess": 12.5}, {"iso3": "SVK", "name": "Slovakia", "accession": 2004, "level": 53.6, "actual": 79.0, "predicted": 72.2, "excess": 6.8}, {"iso3": "BGR", "name": "Bulgaria", "accession": 2007, "level": 35.8, "actual": 72.5, "predicted": 69.9, "excess": 2.7}, {"iso3": "LVA", "name": "Latvia", "accession": 2004, "level": 37.8, "actual": 78.5, "predicted": 76.3, "excess": 2.2}, {"iso3": "POL", "name": "Poland", "accession": 2004, "level": 48.8, "actual": 73.8, "predicted": 73.5, "excess": 0.3}, {"iso3": "HRV", "name": "Croatia", "accession": 2013, "level": 62.4, "actual": 59.6, "predicted": 59.6, "excess": -0.0}, {"iso3": "CZE", "name": "Czechia", "accession": 2004, "level": 75.9, "actual": 54.5, "predicted": 66.5, "excess": -11.9}, {"iso3": "HUN", "name": "Hungary", "accession": 2004, "level": 57.1, "actual": 59.0, "predicted": 71.3, "excess": -12.3}, {"iso3": "SVN", "name": "Slovenia", "accession": 2004, "level": 82.2, "actual": 43.1, "predicted": 64.8, "excess": -21.7}], "n": 11, "mean": 1.6, "median": 2.2, "min": -21.7, "max": 22.7, "positive": 7, "fits": {"2007": {"a": 78.73956062596564, "b": -0.24779754256000644, "n": 8, "r2": 0.843, "points": [{"level": 168.9, "growth": 39.8, "name": "Norway"}, {"level": 159.0, "growth": 46.6, "name": "Switzerland"}, {"level": 137.4, "growth": 33.3, "name": "Iceland"}, {"level": 33.6, "growth": 59.7, "name": "Serbia"}, {"level": 21.6, "growth": 78.8, "name": "Albania"}, {"level": 28.2, "growth": 73.2, "name": "North Macedonia"}, {"level": 21.1, "growth": 78.1, "name": "Bosnia and Herzegovina"}, {"level": 31.2, "growth": 71.4, "name": "Montenegro"}]}, "2013": {"a": 70.83653745629103, "b": -0.18050592350505001, "n": 8, "r2": 0.891, "points": [{"level": 185.5, "growth": 39.6, "name": "Norway"}, {"level": 168.9, "growth": 39.6, "name": "Switzerland"}, {"level": 126.0, "growth": 46.9, "name": "Iceland"}, {"level": 40.8, "growth": 56.3, "name": "Serbia"}, {"level": 28.7, "growth": 69.9, "name": "Albania"}, {"level": 35.6, "growth": 62.7, "name": "North Macedonia"}, {"level": 27.6, "growth": 72.3, "name": "Bosnia and Herzegovina"}, {"level": 41.0, "growth": 61.3, "name": "Montenegro"}]}, "2004": {"a": 86.13812713848881, "b": -0.25923005179852576, "n": 8, "r2": 0.749, "points": [{"level": 157.6, "growth": 59.4, "name": "Norway"}, {"level": 164.6, "growth": 46.7, "name": "Switzerland"}, {"level": 137.9, "growth": 30.7, "name": "Iceland"}, {"level": 30.1, "growth": 74.4, "name": "Serbia"}, {"level": 19.0, "growth": 89.3, "name": "Albania"}, {"level": 26.9, "growth": 74.6, "name": "North Macedonia"}, {"level": 19.0, "growth": 84.5, "name": "Bosnia and Herzegovina"}, {"level": 28.5, "growth": 78.3, "name": "Montenegro"}]}}, "ci": {"lo": -6.2, "hi": 9.3, "sd": 13.1, "se": 4.0, "crossesZero": true}}}}</script>
+<script>
+(function(){
+"use strict";
+var P=JSON.parse(document.getElementById("payload").textContent);
+var NS="http://www.w3.org/2000/svg";
+document.getElementById("stamp").textContent="Generated "+P.generated+
+  " · pre-accession window t"+P.pre[0]+" to t"+P.pre[1]+", post-accession window t+"+P.post[0]+" to t+"+P.post[1]+
+  " · World Bank Open Data";
+
+function el(t,a,s){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);if(s)e.setAttribute("style",s);return e}
+function h(t,c,html){var e=document.createElement(t);if(c)e.className=c;if(html!==undefined)e.innerHTML=html;return e}
+function fmt(v,dp){return v===null||v===undefined?"–":(v>0?"+":"")+v.toLocaleString("en-US",{minimumFractionDigits:dp,maximumFractionDigits:dp})}
+function ticks(lo,hi,n){var sp=hi-lo,st=Math.pow(10,Math.floor(Math.log10(sp/n))),er=sp/n/st;
+  if(er>=7.5)st*=10;else if(er>=3.5)st*=5;else if(er>=1.5)st*=2;
+  var t=[],v=Math.ceil(lo/st)*st;for(;v<=hi+1e-9;v+=st)t.push(Math.round(v*1000)/1000);return t}
+
+/* ---------- event-time path chart: treated vs control, countries behind ---------- */
+function pathChart(host,pd,label,dp){
+  var box=h("div");
+  var lg=h("div","legend");
+  [["Members (mean)","var(--series-1)",0],["Non-members (mean)","var(--series-2)",0],["Individual members","var(--deemph)",1]]
+    .forEach(function(k){var e=h("span","key");var i=document.createElement("i");i.style.background=k[1];
+      if(k[2])i.style.opacity="1";e.appendChild(i);e.appendChild(document.createTextNode(k[0]));lg.appendChild(e)});
+  box.appendChild(lg);
+  var root=h("div","chart-box");box.appendChild(root);
+  var W=760,H=300,L=52,R=16,T=14,B=34,pw=W-L-R,ph=H-T-B;
+  var es=pd.es, all=[];
+  pd.treated.concat(pd.control).forEach(function(v){if(v!==null)all.push(v)});
+  pd.countries.forEach(function(c){c.path.forEach(function(v){if(v!==null)all.push(v)})});
+  if(!all.length){host.appendChild(h("p","note","No data available for this bloc."));return}
+  var lo=Math.min.apply(null,all),hi=Math.max.apply(null,all);
+  var pad=(hi-lo)*0.08||1;lo-=pad;hi+=pad;
+  var xs=function(e){return L+(e-es[0])/(es[es.length-1]-es[0])*pw};
+  var ys=function(v){return T+(hi-v)/(hi-lo)*ph};
+  var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":label});
+  svg.appendChild(el("rect",{x:xs(0),y:T,width:pw-(xs(0)-L),height:ph},"fill:var(--wash)"));
+  ticks(lo,hi,5).forEach(function(tv){
+    svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(tv),y2:ys(tv)},"stroke:var(--grid);stroke-width:1"));
+    var t=el("text",{x:L-7,y:ys(tv)+3.5,"text-anchor":"end"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t.textContent=fmt(tv,0);svg.appendChild(t)});
+  if(lo<0&&hi>0)svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(0),y2:ys(0)},"stroke:var(--baseline);stroke-width:1"));
+  es.forEach(function(e){if(e%4!==0)return;
+    var t=el("text",{x:xs(e),y:H-12,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t.textContent=(e>0?"+":"")+e;svg.appendChild(t)});
+  var ax=el("text",{x:L+pw/2,y:H-1,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px");
+  ax.textContent="years since accession";svg.appendChild(ax);
+  svg.appendChild(el("line",{x1:xs(0),x2:xs(0),y1:T,y2:T+ph},"stroke:var(--baseline);stroke-width:1"));
+  var al=el("text",{x:xs(0)+5,y:T+11},"fill:var(--text-muted);font-size:10px");al.textContent="accession";svg.appendChild(al);
+
+  function draw(vals,stroke,width,op){
+    var d="",pen=false;
+    vals.forEach(function(v,i){if(v===null){pen=false;return}
+      d+=(pen?" L":" M")+xs(es[i]).toFixed(1)+","+ys(v).toFixed(1);pen=true});
+    if(d)svg.appendChild(el("path",{d:d,fill:"none"},"stroke:"+stroke+";stroke-width:"+width+";stroke-linejoin:round;stroke-linecap:round"+(op?";opacity:"+op:"")));
+  }
+  pd.countries.forEach(function(c){draw(c.path,"var(--deemph)",1,0.55)});
+  draw(pd.control,"var(--series-2)",2);
+  draw(pd.treated,"var(--series-1)",2);
+
+  var cross=el("line",{x1:0,x2:0,y1:T,y2:T+ph},"stroke:var(--baseline);stroke-width:1;display:none");svg.appendChild(cross);
+  root.appendChild(svg);
+  var tt=h("div","tooltip");root.appendChild(tt);
+  svg.addEventListener("pointermove",function(ev){
+    var pt=svg.createSVGPoint();pt.x=ev.clientX;pt.y=ev.clientY;
+    var m=svg.getScreenCTM();if(!m)return;
+    var loc=pt.matrixTransform(m.inverse());
+    var i=Math.round((loc.x-L)/pw*(es[es.length-1]-es[0]));
+    i=Math.max(0,Math.min(es.length-1,i));
+    cross.setAttribute("x1",xs(es[i]));cross.setAttribute("x2",xs(es[i]));cross.style.display="";
+    while(tt.firstChild)tt.removeChild(tt.firstChild);
+    var a=h("div","tt-title");a.textContent=(es[i]>0?"+":"")+es[i]+" years";tt.appendChild(a);
+    [["Members",pd.treated[i],"var(--series-1)",pd.treatedN[i]],["Non-members",pd.control[i],"var(--series-2)",pd.controlN[i]]]
+      .forEach(function(r){var row=h("div","tt-row");
+        var k=h("span","tt-key");k.style.background=r[2];
+        var v=h("span","tt-val");v.textContent=r[1]===null?"–":fmt(r[1],dp);
+        var n=h("span","tt-name");n.textContent=r[0]+(r[3]?" (n="+r[3]+")":"");
+        row.appendChild(k);row.appendChild(v);row.appendChild(n);tt.appendChild(row)});
+    tt.style.display="block";
+    var rect=root.getBoundingClientRect(),px=(xs(es[i])/W)*rect.width,left=px+12;
+    if(left+tt.offsetWidth>rect.width-4)left=px-tt.offsetWidth-12;
+    tt.style.left=Math.max(2,left)+"px";tt.style.top="12px";
+  });
+  svg.addEventListener("pointerleave",function(){cross.style.display="none";tt.style.display="none"});
+  host.appendChild(box);
+}
+
+/* ---------- diverging ranked bars ---------- */
+function divergingBars(host,rows,key,unit,dp,goodIsPositive){
+  var W=760,rowH=23,L=124,R=56,T=6,B=24,n=rows.length,H=T+B+n*rowH,pw=W-L-R;
+  var vals=rows.map(function(r){return r[key]});
+  var mx=Math.max(Math.abs(Math.min.apply(null,vals)),Math.abs(Math.max.apply(null,vals)))*1.12;
+  var x0=L+pw/2,xs=function(v){return x0+v/mx*(pw/2)};
+  var box=h("div","chart-box");
+  var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":"per-country estimates"});
+  ticks(-mx,mx,4).forEach(function(tv){
+    svg.appendChild(el("line",{x1:xs(tv),x2:xs(tv),y1:T,y2:T+n*rowH},"stroke:var(--grid);stroke-width:1"));
+    var t=el("text",{x:xs(tv),y:H-8,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t.textContent=fmt(tv,0);svg.appendChild(t)});
+  svg.appendChild(el("line",{x1:x0,x2:x0,y1:T,y2:T+n*rowH},"stroke:var(--baseline);stroke-width:1"));
+  rows.forEach(function(r,i){
+    var v=r[key],y=T+i*rowH,bh=14,good=goodIsPositive?v>0:v<0;
+    var xa=Math.min(x0,xs(v)),bw=Math.max(2,Math.abs(xs(v)-x0)),rr=Math.min(4,bh/2,bw/2);
+    var d=v>=0
+      ? "M"+xa+","+y+" L"+(xa+bw-rr)+","+y+" Q"+(xa+bw)+","+y+" "+(xa+bw)+","+(y+rr)+" L"+(xa+bw)+","+(y+bh-rr)+" Q"+(xa+bw)+","+(y+bh)+" "+(xa+bw-rr)+","+(y+bh)+" L"+xa+","+(y+bh)+" Z"
+      : "M"+(xa+bw)+","+y+" L"+(xa+rr)+","+y+" Q"+xa+","+y+" "+xa+","+(y+rr)+" L"+xa+","+(y+bh-rr)+" Q"+xa+","+(y+bh)+" "+(xa+rr)+","+(y+bh)+" L"+(xa+bw)+","+(y+bh)+" Z";
+    svg.appendChild(el("path",{d:d},"fill:var("+(good?"--series-1":"--neg")+")"));
+    var nm=el("text",{x:L-10,y:y+bh-3,"text-anchor":"end"},"fill:var(--text-primary);font-size:11.5px");
+    nm.textContent=r.name;svg.appendChild(nm);
+    var vl=el("text",{x:v>=0?xs(v)+6:xs(v)-6,y:y+bh-3,"text-anchor":v>=0?"start":"end"},
+      "fill:var(--text-secondary);font-size:11.5px;font-variant-numeric:tabular-nums");
+    vl.textContent=fmt(v,dp)+unit;svg.appendChild(vl);
+  });
+  box.appendChild(svg);host.appendChild(box);
+}
+
+/* ---------- convergence scatter with fitted line ---------- */
+function convScatter(host,fit,treated){
+  var W=760,H=330,L=54,R=18,T=14,B=42,pw=W-L-R,ph=H-T-B;
+  var pts=fit.points.slice();
+  var xsAll=pts.map(function(p){return p.level}).concat(treated.map(function(t){return t.level}));
+  var ysAll=pts.map(function(p){return p.growth}).concat(treated.map(function(t){return t.actual}));
+  var xlo=Math.min.apply(null,xsAll)*0.9,xhi=Math.max.apply(null,xsAll)*1.05;
+  var ylo=Math.min.apply(null,ysAll)-8,yhi=Math.max.apply(null,ysAll)+8;
+  var xs=function(v){return L+(v-xlo)/(xhi-xlo)*pw},ys=function(v){return T+(yhi-v)/(yhi-ylo)*ph};
+  var box=h("div");
+  var lg=h("div","legend");
+  [["Non-members (fit the line)","var(--series-2)"],["EU members","var(--series-1)"]].forEach(function(k){
+    var e=h("span","key");var i=document.createElement("i");i.className="dot";i.style.background=k[1];
+    e.appendChild(i);e.appendChild(document.createTextNode(k[0]));lg.appendChild(e)});
+  box.appendChild(lg);
+  var root=h("div","chart-box");box.appendChild(root);
+  var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":"growth against starting income"});
+  ticks(ylo,yhi,5).forEach(function(tv){
+    svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(tv),y2:ys(tv)},"stroke:var(--grid);stroke-width:1"));
+    var t=el("text",{x:L-7,y:ys(tv)+3.5,"text-anchor":"end"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t.textContent=fmt(tv,0);svg.appendChild(t)});
+  ticks(xlo,xhi,5).forEach(function(tv){
+    var t=el("text",{x:xs(tv),y:H-22,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t.textContent=Math.round(tv)+"%";svg.appendChild(t)});
+  var ax=el("text",{x:L+pw/2,y:H-6,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px");
+  ax.textContent="income before accession, % of EU average";svg.appendChild(ax);
+  // fitted line
+  svg.appendChild(el("line",{x1:xs(xlo),y1:ys(fit.a+fit.b*xlo),x2:xs(xhi),y2:ys(fit.a+fit.b*xhi)},
+    "stroke:var(--series-2);stroke-width:2;opacity:0.55"));
+  var root2=root;
+  var tt=h("div","tooltip");
+  function mark(x,y,color,name,sub){
+    var g=el("g",{tabindex:"0"});
+    g.appendChild(el("circle",{cx:xs(x),cy:ys(y),r:5},"fill:var("+color+");stroke:var(--surface-1);stroke-width:2"));
+    g.appendChild(el("circle",{cx:xs(x),cy:ys(y),r:14},"fill:transparent"));
+    function show(){while(tt.firstChild)tt.removeChild(tt.firstChild);
+      var a=h("div","tt-title");a.textContent=name;tt.appendChild(a);
+      var b=h("div","tt-val");b.textContent=sub;tt.appendChild(b);
+      tt.style.display="block";
+      var rect=root2.getBoundingClientRect();
+      var px=(xs(x)/W)*rect.width,py=(ys(y)/H)*rect.height;
+      var left=px+14;if(left+tt.offsetWidth>rect.width-4)left=px-tt.offsetWidth-14;
+      tt.style.left=Math.max(2,left)+"px";tt.style.top=Math.max(2,py-10)+"px"}
+    g.addEventListener("pointerenter",show);g.addEventListener("focus",show);
+    g.addEventListener("pointerleave",function(){tt.style.display="none"});
+    g.addEventListener("blur",function(){tt.style.display="none"});
+    svg.appendChild(g);
+  }
+  pts.forEach(function(p){mark(p.level,p.growth,"--series-2",p.name,
+    "started at "+p.level+"% of EU · grew "+fmt(p.growth,0)+"%")});
+  treated.forEach(function(t){mark(t.level,t.actual,"--series-1",t.name,
+    "started at "+t.level+"% of EU · grew "+fmt(t.actual,0)+"% · "+fmt(t.excess,1)+"% vs the line")});
+  root.appendChild(svg);root.appendChild(tt);
+  host.appendChild(box);
+  host.appendChild(h("p","note","The orange line is fitted through non-members only — it is what "
+    +"catch-up growth looked like <em>without</em> EU membership. A member above the line grew faster than its "
+    +"starting position predicted; below it, slower. Fit: slope "+fit.b.toFixed(3)
+    +" growth points per point of starting income, r² = "+fit.r2+", from "+fit.n+" non-members."));
+}
+
+/* ---------- estimate cards ---------- */
+function estCard(label,val,unit,dp,ci,goodIsPositive,n){
+  var e=h("div","est");
+  e.appendChild(h("div","lbl",label));
+  e.appendChild(h("div","val",val===null?"–":fmt(val,dp)+unit));
+  if(ci){
+    e.appendChild(h("div","ci","95% interval "+fmt(ci.lo,1)+unit+" to "+fmt(ci.hi,1)+unit+" · n="+n));
+    var v=h("div","verdict "+(ci.crossesZero?"zero":"sig"));
+    v.textContent=ci.crossesZero
+      ? "Interval spans zero — not distinguishable from no effect at this confidence level."
+      : "Interval excludes zero — a difference this size is unlikely to be chance alone.";
+    e.appendChild(v);
+  } else if(n!==undefined){
+    e.appendChild(h("div","ci","n="+n+" — too few countries for an interval"));
+  }
+  return e;
+}
+
+/* ---------- panels ---------- */
+var TABS=[{id:"findings",label:"Findings"},{id:"paths",label:"Trajectories"},
+          {id:"adjust",label:"The convergence problem"},{id:"method",label:"Method & limits"},
+          {id:"coverage",label:"Coverage"}];
+var tabsEl=document.getElementById("tabs"),panelsEl=document.getElementById("panels");
+var inc=P.measures.filter(function(m){return m.id==="income"})[0];
+var conv=P.measures.filter(function(m){return m.id==="convergence"})[0];
+var unem=P.measures.filter(function(m){return m.id==="unemployment"})[0];
+var adjE=P.adjusted.East;
+
+TABS.forEach(function(t,i){
+  var b=document.createElement("button");
+  b.setAttribute("role","tab");b.setAttribute("aria-selected",i===0?"true":"false");
+  b.dataset.tab=t.id;b.textContent=t.label;tabsEl.appendChild(b);
+  var sec=h("section","panel"+(i===0?" active":""));sec.id="panel-"+t.id;panelsEl.appendChild(sec);
+
+  if(t.id==="findings"){
+    var head=h("div","card");
+    head.appendChild(h("h3","","The headline, stated carefully"));
+    head.appendChild(h("p","","Eastern members grew enormously after joining — roughly <strong>55% to 93% higher income per head</strong> within a decade. But so did the Western Balkan countries that did not join. Once you account for the fact that poorer economies grow faster mechanically, the <strong>average difference attributable to membership is not statistically distinguishable from zero</strong> in this data."));
+    head.appendChild(h("p","","That is not the same as saying membership did nothing. It means this method, with these controls, cannot prove an average income effect at the confidence level this project requires. The country-level spread is large and systematic, and three specific biases all push the estimate toward zero — see <em>Method &amp; limits</em>."));
+    sec.appendChild(head);
+
+    var g=h("div","estimates");
+    g.appendChild(estCard("Eastern members, income per head<br>vs non-members (raw)",
+      inc.did.East.mean,"%",1,inc.did.East.ci,true,inc.did.East.n));
+    g.appendChild(estCard("Eastern members, income per head<br>adjusted for catch-up growth",
+      adjE.mean,"%",1,adjE.ci,true,adjE.n));
+    g.appendChild(estCard("Eastern members, gap closed<br>on the EU average",
+      conv.did.East.mean,"pp",1,conv.did.East.ci,true,conv.did.East.n));
+    g.appendChild(estCard("Eastern members, unemployment<br>vs non-members",
+      unem.did.East.mean,"pp",1,unem.did.East.ci,false,unem.did.East.n));
+    sec.appendChild(g);
+
+    var c1=h("div","card");
+    c1.appendChild(h("h3","","Per country: growth above or below what catch-up predicted"));
+    c1.appendChild(h("p","sub","Eastern members only. Positive means the country grew faster than its starting income level predicted, judged against the non-member benchmark. This is the adjusted estimate — the one that removes the mechanical advantage of starting poor."));
+    divergingBars(c1,adjE.rows,"excess","%",1,true);
+    var det=h("details");var s=document.createElement("summary");s.textContent="View the numbers";det.appendChild(s);
+    var tb=h("table","t");
+    var tr=document.createElement("tr");
+    ["Country","Joined","Start (% of EU)","Actual growth","Predicted","Difference"].forEach(function(x,j){
+      var th=document.createElement("th");if(j>1)th.className="num";th.textContent=x;tr.appendChild(th)});
+    tb.appendChild(tr);
+    adjE.rows.forEach(function(r){
+      var t2=document.createElement("tr");
+      [[r.name,"nm"],[r.accession,"num"],[r.level+"%","num"],[fmt(r.actual,1)+"%","num"],
+       [fmt(r.predicted,1)+"%","num"],[fmt(r.excess,1)+"%","num"]].forEach(function(c){
+        var td=document.createElement("td");td.className=c[1];td.textContent=c[0];t2.appendChild(td)});
+      tb.appendChild(t2)});
+    det.appendChild(tb);c1.appendChild(det);
+    c1.appendChild(h("p","note","The pattern is not random: the four countries below the line — Slovenia, Hungary, Czechia and Croatia — were the richest Eastern members at accession. The ones furthest above — Romania, Estonia, Lithuania — were among the poorest. Even after adjusting for catch-up, some of that residual gradient probably remains."));
+    sec.appendChild(c1);
+
+    var c2=h("div","card");
+    c2.appendChild(h("h3","","Unemployment: no membership dividend visible"));
+    c2.appendChild(h("p","sub","Difference-in-differences against Western Balkan non-members, percentage points. Negative is good — it means unemployment fell further than in comparable non-members."));
+    divergingBars(c2,unem.did.East.rows,"did","pp",1,false);
+    c2.appendChild(h("p","note","Only Poland and Slovakia improved relative to the control group, and the average is not distinguishable from zero. Read with care: Balkan unemployment started catastrophically high — above 30% in Bosnia and North Macedonia — so it had far more room to fall, which flatters the control group here."));
+    sec.appendChild(c2);
+  }
+
+  else if(t.id==="paths"){
+    ["East","West","South"].forEach(function(bloc){
+      var pd=inc.paths[bloc];
+      var card=h("div","card");
+      card.appendChild(h("h3","",bloc+" bloc — income per head, aligned on accession"));
+      var members=P.blocs[bloc].length, ctrls=P.controlsByBloc[bloc];
+      card.appendChild(h("p","sub","Cumulative growth in log points (≈ %) since each country's accession year. "
+        +"Members: "+P.blocs[bloc].join(", ")+". Non-member comparators: "+(ctrls.length?ctrls.join(", "):"none available")+"."));
+      if(pd.treated.filter(function(v){return v!==null}).length<2){
+        card.appendChild(h("p","note","Not enough pre-accession data to place this bloc on an event-time axis. "
+          +"World Bank PPP income series begin in 1990, so any country that joined before about 1995 has no measurable "
+          +"pre-accession baseline — that covers every founding member and the 1973, 1981 and 1986 waves."));
+      } else {
+        pathChart(card,pd,bloc+" income paths",1);
+      }
+      sec.appendChild(card);
+    });
+    var cc=h("div","card");
+    cc.appendChild(h("h3","","Reading these charts"));
+    cc.appendChild(h("p","","The blue and orange lines start together at zero by construction — both are rebased to the accession year, so the chart shows <em>divergence after joining</em>, not level differences. If membership raised growth, blue should pull above orange after t=0 and stay there."));
+    cc.appendChild(h("p","","The stretch to the <em>left</em> of the accession line matters just as much. If blue and orange move together before t=0, the comparison is credible. If they were already diverging, the post-accession gap may be a continuation of a pre-existing trend rather than an effect of joining."));
+    sec.appendChild(cc);
+  }
+
+  else if(t.id==="adjust"){
+    var ca=h("div","card");
+    ca.appendChild(h("h3","","Why the raw comparison is misleading"));
+    ca.appendChild(h("p","","Poor economies grow faster than rich ones. It is one of the most robust regularities in growth economics, and it wrecks a naive comparison here: <strong>every available post-communist control is poorer than most Eastern members</strong>. Serbia and Bosnia sat near 30–40% of EU income; Slovenia and Czechia were at 76–82%. The controls were always going to grow faster, membership or not."));
+    ca.appendChild(h("p","","That is exactly what the raw numbers show. Slovenia scores −37% and Czechia −26% on the unadjusted comparison, while Romania scores +21%. Ranking members by that measure produces a near-perfect ordering by <em>how rich they already were</em> — which is a measure of the confound, not of membership."));
+    ca.appendChild(h("p","","The fix below uses all eight non-members — spanning Bosnia at roughly 30% of EU income to Norway at over 150% — to estimate how much growth a given starting position bought you <em>outside</em> the Union. Each member is then judged against that line."));
+    sec.appendChild(ca);
+    var fitKeys=Object.keys(adjE.fits);
+    if(fitKeys.length){
+      var cs=h("div","card");
+      var fk=fitKeys.indexOf("2004")>=0?"2004":fitKeys[0];
+      cs.appendChild(h("h3","","Growth against starting income — the "+fk+" accession window"));
+      cs.appendChild(h("p","sub","Each point is a country: horizontal position is income before accession as a share of the EU average, vertical position is income growth over the following decade."));
+      convScatter(cs,adjE.fits[fk],adjE.rows.filter(function(r){return String(r.accession)===fk}));
+      sec.appendChild(cs);
+    }
+    var cw=h("div","card");
+    cw.appendChild(h("h3","","What the adjustment does and does not fix"));
+    cw.appendChild(h("p","","It removes the mechanical advantage of starting poor. It does <strong>not</strong> remove selection: countries that joined were already more stable, better governed and more reform-committed than those that did not, and some of the remaining spread reflects that rather than membership."));
+    cw.appendChild(h("p","","It also cannot separate membership from the <em>process</em> of joining. The pre-accession window used here, "+(2004+P.pre[0])+"–"+(2004+P.pre[1])+" for the 2004 wave, is precisely when accession conditionality was biting hardest — legal harmonisation, competition rules, institutional reform. Much of the benefit may already be inside the pre-accession baseline, which would make this method systematically understate the effect."));
+    sec.appendChild(cw);
+  }
+
+  else if(t.id==="method"){
+    var m1=h("div","card");
+    m1.appendChild(h("h3","","How the comparison is built"));
+    m1.appendChild(h("p","","<strong>Event time.</strong> Every country's series is re-indexed so t=0 is its accession year, letting Spain's 1986 and Croatia's 2013 sit on the same axis. Non-members have no accession, so each is aligned to the accession year of the member it is being compared against."));
+    m1.appendChild(h("p","","<strong>Blocs.</strong> West, South and East. Post-war starting points differ so much that pooling them would be meaningless — and the right control for Poland is Serbia, not Norway. South is kept separate from West because Greece, Portugal and Spain were poor and under authoritarian rule until the mid-1970s, and joined as democratic consolidation projects."));
+    m1.appendChild(h("p","","<strong>Difference-in-differences.</strong> For each member, average outcome over the five years before accession is compared with years +"+P.post[0]+" to +"+P.post[1]+" after, and the same calendar windows are applied to the non-member controls, so shared shocks like 2008 and 2020 hit both sides and difference out."));
+    m1.appendChild(h("p","","<strong>Intervals.</strong> The 95% ranges shown are the spread of country-level estimates around their mean, not model standard errors. With around ten countries per bloc they are wide by construction. That width is the honest situation, not a defect of presentation."));
+    sec.appendChild(m1);
+
+    var m2=h("div","card");
+    m2.appendChild(h("h3","","Four limits that materially affect the answer"));
+    var w=h("div","warn");
+    w.appendChild(h("p","","<strong>1. Accession was never random.</strong> Countries joined because they qualified — they had already met the Copenhagen criteria on democracy, rule of law and market economy. Any measured gap therefore mixes the effect of membership with the characteristics that made membership possible. No method here removes this, and it biases estimates <em>upward</em>."));
+    w.appendChild(h("p","","<strong>2. The control group is contaminated.</strong> All five Western Balkan comparators are EU candidates. They receive pre-accession funds, hold trade agreements with the Union, and reform in anticipation of joining. They are partially treated, which biases estimates <em>toward zero</em>."));
+    w.appendChild(h("p","","<strong>3. Anticipation.</strong> The heaviest reform effort happens before accession, not after. The pre-accession baseline used here already contains much of the treatment, again biasing <em>toward zero</em>."));
+    w.appendChild(h("p","","<strong>4. Data coverage rules out most of the West.</strong> World Bank PPP income series begin in 1990, so no country that joined before roughly 1995 has a measurable pre-accession baseline. Founding members and the 1973, 1981 and 1986 waves cannot be tested at all — only described."));
+    m2.appendChild(w);
+    m2.appendChild(h("p","note","Directions two and three push the estimate down; direction one pushes it up. They do not cancel in any quantifiable way, which is why the result is reported as an interval spanning zero rather than as a point estimate with a sign."));
+    sec.appendChild(m2);
+
+    var m3=h("div","card");
+    m3.appendChild(h("h3","","What would strengthen this"));
+    m3.appendChild(h("p","","<strong>Synthetic control</strong> would build a weighted blend of non-members reproducing each member's pre-accession path, rather than relying on a simple average of five imperfect comparators. It is the method the published literature uses for this exact question."));
+    m3.appendChild(h("p","","<strong>Longer pre-periods</strong> from Maddison or Penn World Table income series, which reach back decades further than the World Bank PPP series, would bring the founding members and the 1973–1986 waves into scope."));
+    m3.appendChild(h("p","","<strong>Non-European controls</strong> — comparable middle-income countries outside Europe entirely — would break the contamination problem, at the cost of comparability."));
+    sec.appendChild(m3);
+  }
+
+  else {
+    var cv=h("div","card");
+    cv.appendChild(h("h3","","Which countries the analysis can and cannot cover"));
+    cv.appendChild(h("p","sub","A country needs both a pre-accession and a post-accession window with data to enter the comparison."));
+    ["East","South","West"].forEach(function(bloc){
+      var d=inc.did[bloc];
+      cv.appendChild(h("h4","",bloc+" — "+d.n+" of "+P.blocs[bloc].length+" members testable"));
+      var inc2=h("p","");
+      inc2.innerHTML="<strong>In:</strong> "+(d.rows.length?d.rows.map(function(r){return r.name}).join(", "):"none");
+      cv.appendChild(inc2);
+      if(d.skipped.length){
+        var out2=h("p","");
+        out2.innerHTML="<strong>Excluded:</strong> "+d.skipped.map(function(s){return s.name+" ("+s.why+")"}).join(", ");
+        cv.appendChild(out2);
+      }
+      var cn=h("p","");
+      cn.innerHTML="<strong>Controls:</strong> "+(P.controlsByBloc[bloc].length?P.controlsByBloc[bloc].join(", "):"none available");
+      cv.appendChild(cn);
+    });
+    cv.appendChild(h("p","note","The South bloc has no non-member control group at all — there is no comparable Mediterranean or post-authoritarian European country that stayed outside the Union. Greece, Portugal and Spain can be described but not tested by this method."));
+    sec.appendChild(cv);
+  }
+});
+
+tabsEl.addEventListener("click",function(ev){
+  var b=ev.target.closest("button");if(!b)return;
+  tabsEl.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-selected",x===b?"true":"false")});
+  panelsEl.querySelectorAll("section.panel").forEach(function(p){p.classList.remove("active")});
+  document.getElementById("panel-"+b.dataset.tab).classList.add("active");
+});
+var modes=["auto","light","dark"],mi=0,btn=document.getElementById("themeBtn");
+btn.addEventListener("click",function(){mi=(mi+1)%3;var m=modes[mi];
+  if(m==="auto")document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.setAttribute("data-theme",m);
+  btn.textContent="Theme: "+m});
+})();
+</script>
+</body>
+</html>

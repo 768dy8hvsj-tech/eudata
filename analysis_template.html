@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Did EU membership change member states' trajectories?</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:#fcfcfb; --page:#f9f9f7;
+    --text-primary:#0b0b0b; --text-secondary:#52514e; --text-muted:#898781;
+    --grid:#e1e0d9; --baseline:#c3c2b7; --border:rgba(11,11,11,0.10);
+    --series-1:#2a78d6; --series-2:#eb6834; --neg:#e34948; --deemph:#c3c2b7;
+    --tooltip-bg:#ffffff; --wash:rgba(42,120,214,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:#1a1a19; --page:#0d0d0d;
+      --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#898781;
+      --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+      --series-1:#3987e5; --series-2:#d95926; --neg:#e66767; --deemph:#52514e;
+      --tooltip-bg:#242423; --wash:rgba(57,135,229,0.10);
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:#1a1a19; --page:#0d0d0d;
+    --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+    --series-1:#3987e5; --series-2:#d95926; --neg:#e66767; --deemph:#52514e;
+    --tooltip-bg:#242423; --wash:rgba(57,135,229,0.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+  .viz-root{background:var(--page);color:var(--text-primary);min-height:100vh;padding:24px 20px 48px}
+  .wrap{max-width:1060px;margin:0 auto}
+  header.top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+  h1{font-size:26px;font-weight:650;letter-spacing:-0.02em}
+  .subtitle{color:var(--text-secondary);font-size:14px;margin-top:5px;max-width:700px;line-height:1.55}
+  .theme-btn{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);
+    border-radius:8px;padding:6px 12px;font-size:12.5px;cursor:pointer;white-space:nowrap;font-family:inherit}
+  nav.tabs{display:flex;gap:4px;margin:20px 0 16px;flex-wrap:wrap;border-bottom:1px solid var(--border)}
+  nav.tabs button{background:none;border:none;border-bottom:2px solid transparent;color:var(--text-secondary);
+    font-size:14px;font-weight:500;padding:8px 14px 10px;cursor:pointer;font-family:inherit}
+  nav.tabs button:hover{color:var(--text-primary)}
+  nav.tabs button[aria-selected="true"]{color:var(--text-primary);border-bottom-color:var(--series-1);font-weight:600}
+  section.panel{display:none}section.panel.active{display:block}
+  .card{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;padding:18px 18px 14px;margin-bottom:14px}
+  .card h3{font-size:15px;font-weight:600}
+  .card h4{font-size:13.5px;font-weight:600;margin-top:14px}
+  .card .sub{font-size:12.5px;color:var(--text-secondary);margin-top:4px;margin-bottom:12px;line-height:1.5}
+  .card p{font-size:13.5px;color:var(--text-secondary);line-height:1.62;margin-top:9px}
+  .card p strong{color:var(--text-primary);font-weight:600}
+  .estimates{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-bottom:14px}
+  .est{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;padding:15px 17px}
+  .est .lbl{font-size:12.5px;color:var(--text-secondary)}
+  .est .val{font-size:29px;font-weight:600;letter-spacing:-0.01em;margin-top:5px}
+  .est .ci{font-size:12px;color:var(--text-secondary);margin-top:5px;font-variant-numeric:tabular-nums}
+  .est .verdict{font-size:11.5px;margin-top:8px;padding-top:8px;border-top:1px solid var(--grid);line-height:1.45}
+  .est .verdict.zero{color:var(--text-muted)}
+  .est .verdict.sig{color:var(--text-primary);font-weight:500}
+  .chart-box{position:relative}.chart-box svg{display:block;width:100%;height:auto}
+  .tooltip{position:absolute;pointer-events:none;display:none;z-index:5;background:var(--tooltip-bg);
+    border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+  .tooltip .tt-title{color:var(--text-muted);font-size:11px;margin-bottom:3px}
+  .tooltip .tt-val{font-weight:600;color:var(--text-primary)}
+  .tooltip .tt-row{display:flex;align-items:center;gap:6px;margin-top:2px}
+  .tooltip .tt-key{width:10px;height:2px;border-radius:1px;flex:none}
+  .tooltip .tt-name{color:var(--text-secondary)}
+  .legend{display:flex;gap:16px;margin-bottom:9px;flex-wrap:wrap}
+  .legend .key{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--text-secondary)}
+  .legend .key i{width:16px;height:2px;border-radius:1px;display:block}
+  .legend .key i.dot{width:9px;height:9px;border-radius:50%}
+  table.t{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:4px}
+  table.t th,table.t td{padding:5px 8px;border-bottom:1px solid var(--grid);color:var(--text-secondary)}
+  table.t th{color:var(--text-muted);font-weight:500;text-align:left}
+  table.t td.num,table.t th.num{text-align:right;font-variant-numeric:tabular-nums}
+  table.t td.nm{color:var(--text-primary);font-weight:500}
+  details summary{font-size:12px;color:var(--text-muted);cursor:pointer;padding:6px 0}
+  details summary:hover{color:var(--text-primary)}
+  .note{font-size:12px;color:var(--text-muted);line-height:1.55;margin-top:12px}
+  .warn{border-left:2px solid var(--neg);padding-left:12px;margin-top:12px}
+  .warn p{margin-top:6px}
+  .stamp{font-size:11.5px;color:var(--text-muted);margin-top:14px}
+  .pill{display:inline-block;font-size:11px;color:var(--text-muted);border:1px solid var(--border);
+    border-radius:20px;padding:2px 9px;margin:3px 4px 0 0}
+</style>
+</head>
+<body>
+<div class="viz-root"><div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Did EU membership change member states' trajectories?</h1>
+      <p class="subtitle">Members compared against comparable non-members, aligned on years since accession and split by bloc. The question is not "did members grow" — they did — but whether they grew <em>differently from countries that did not join</em>.</p>
+    </div>
+    <button class="theme-btn" id="themeBtn" type="button">Theme: auto</button>
+  </header>
+  <nav class="tabs" role="tablist" id="tabs"></nav>
+  <div id="panels"></div>
+  <p class="stamp" id="stamp"></p>
+</div></div>
+
+<script id="payload" type="application/json">__PAYLOAD__</script>
+<script>
+(function(){
+"use strict";
+var P=JSON.parse(document.getElementById("payload").textContent);
+var NS="http://www.w3.org/2000/svg";
+document.getElementById("stamp").textContent="Generated "+P.generated+
+  " · pre-accession window t"+P.pre[0]+" to t"+P.pre[1]+", post-accession window t+"+P.post[0]+" to t+"+P.post[1]+
+  " · World Bank Open Data";
+
+function el(t,a,s){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);if(s)e.setAttribute("style",s);return e}
+function h(t,c,html){var e=document.createElement(t);if(c)e.className=c;if(html!==undefined)e.innerHTML=html;return e}
+function fmt(v,dp){return v===null||v===undefined?"–":(v>0?"+":"")+v.toLocaleString("en-US",{minimumFractionDigits:dp,maximumFractionDigits:dp})}
+function ticks(lo,hi,n){var sp=hi-lo,st=Math.pow(10,Math.floor(Math.log10(sp/n))),er=sp/n/st;
+  if(er>=7.5)st*=10;else if(er>=3.5)st*=5;else if(er>=1.5)st*=2;
+  var t=[],v=Math.ceil(lo/st)*st;for(;v<=hi+1e-9;v+=st)t.push(Math.round(v*1000)/1000);return t}
+
+/* ---------- event-time path chart: treated vs control, countries behind ---------- */
+function pathChart(host,pd,label,dp){
+  var box=h("div");
+  var lg=h("div","legend");
+  [["Members (mean)","var(--series-1)",0],["Non-members (mean)","var(--series-2)",0],["Individual members","var(--deemph)",1]]
+    .forEach(function(k){var e=h("span","key");var i=document.createElement("i");i.style.background=k[1];
+      if(k[2])i.style.opacity="1";e.appendChild(i);e.appendChild(document.createTextNode(k[0]));lg.appendChild(e)});
+  box.appendChild(lg);
+  var root=h("div","chart-box");box.appendChild(root);
+  var W=760,H=300,L=52,R=16,T=14,B=34,pw=W-L-R,ph=H-T-B;
+  var es=pd.es, all=[];
+  pd.treated.concat(pd.control).forEach(function(v){if(v!==null)all.push(v)});
+  pd.countries.forEach(function(c){c.path.forEach(function(v){if(v!==null)all.push(v)})});
+  if(!all.length){host.appendChild(h("p","note","No data available for this bloc."));return}
+  var lo=Math.min.apply(null,all),hi=Math.max.apply(null,all);
+  var pad=(hi-lo)*0.08||1;lo-=pad;hi+=pad;
+  var xs=function(e){return L+(e-es[0])/(es[es.length-1]-es[0])*pw};
+  var ys=function(v){return T+(hi-v)/(hi-lo)*ph};
+  var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":label});
+  svg.appendChild(el("rect",{x:xs(0),y:T,width:pw-(xs(0)-L),height:ph},"fill:var(--wash)"));
+  ticks(lo,hi,5).forEach(function(tv){
+    svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(tv),y2:ys(tv)},"stroke:var(--grid);stroke-width:1"));
+    var t=el("text",{x:L-7,y:ys(tv)+3.5,"text-anchor":"end"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t.textContent=fmt(tv,0);svg.appendChild(t)});
+  if(lo<0&&hi>0)svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(0),y2:ys(0)},"stroke:var(--baseline);stroke-width:1"));
+  es.forEach(function(e){if(e%4!==0)return;
+    var t=el("text",{x:xs(e),y:H-12,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t.textContent=(e>0?"+":"")+e;svg.appendChild(t)});
+  var ax=el("text",{x:L+pw/2,y:H-1,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px");
+  ax.textContent="years since accession";svg.appendChild(ax);
+  svg.appendChild(el("line",{x1:xs(0),x2:xs(0),y1:T,y2:T+ph},"stroke:var(--baseline);stroke-width:1"));
+  var al=el("text",{x:xs(0)+5,y:T+11},"fill:var(--text-muted);font-size:10px");al.textContent="accession";svg.appendChild(al);
+
+  function draw(vals,stroke,width,op){
+    var d="",pen=false;
+    vals.forEach(function(v,i){if(v===null){pen=false;return}
+      d+=(pen?" L":" M")+xs(es[i]).toFixed(1)+","+ys(v).toFixed(1);pen=true});
+    if(d)svg.appendChild(el("path",{d:d,fill:"none"},"stroke:"+stroke+";stroke-width:"+width+";stroke-linejoin:round;stroke-linecap:round"+(op?";opacity:"+op:"")));
+  }
+  pd.countries.forEach(function(c){draw(c.path,"var(--deemph)",1,0.55)});
+  draw(pd.control,"var(--series-2)",2);
+  draw(pd.treated,"var(--series-1)",2);
+
+  var cross=el("line",{x1:0,x2:0,y1:T,y2:T+ph},"stroke:var(--baseline);stroke-width:1;display:none");svg.appendChild(cross);
+  root.appendChild(svg);
+  var tt=h("div","tooltip");root.appendChild(tt);
+  svg.addEventListener("pointermove",function(ev){
+    var pt=svg.createSVGPoint();pt.x=ev.clientX;pt.y=ev.clientY;
+    var m=svg.getScreenCTM();if(!m)return;
+    var loc=pt.matrixTransform(m.inverse());
+    var i=Math.round((loc.x-L)/pw*(es[es.length-1]-es[0]));
+    i=Math.max(0,Math.min(es.length-1,i));
+    cross.setAttribute("x1",xs(es[i]));cross.setAttribute("x2",xs(es[i]));cross.style.display="";
+    while(tt.firstChild)tt.removeChild(tt.firstChild);
+    var a=h("div","tt-title");a.textContent=(es[i]>0?"+":"")+es[i]+" years";tt.appendChild(a);
+    [["Members",pd.treated[i],"var(--series-1)",pd.treatedN[i]],["Non-members",pd.control[i],"var(--series-2)",pd.controlN[i]]]
+      .forEach(function(r){var row=h("div","tt-row");
+        var k=h("span","tt-key");k.style.background=r[2];
+        var v=h("span","tt-val");v.textContent=r[1]===null?"–":fmt(r[1],dp);
+        var n=h("span","tt-name");n.textContent=r[0]+(r[3]?" (n="+r[3]+")":"");
+        row.appendChild(k);row.appendChild(v);row.appendChild(n);tt.appendChild(row)});
+    tt.style.display="block";
+    var rect=root.getBoundingClientRect(),px=(xs(es[i])/W)*rect.width,left=px+12;
+    if(left+tt.offsetWidth>rect.width-4)left=px-tt.offsetWidth-12;
+    tt.style.left=Math.max(2,left)+"px";tt.style.top="12px";
+  });
+  svg.addEventListener("pointerleave",function(){cross.style.display="none";tt.style.display="none"});
+  host.appendChild(box);
+}
+
+/* ---------- diverging ranked bars ---------- */
+function divergingBars(host,rows,key,unit,dp,goodIsPositive){
+  var W=760,rowH=23,L=124,R=56,T=6,B=24,n=rows.length,H=T+B+n*rowH,pw=W-L-R;
+  var vals=rows.map(function(r){return r[key]});
+  var mx=Math.max(Math.abs(Math.min.apply(null,vals)),Math.abs(Math.max.apply(null,vals)))*1.12;
+  var x0=L+pw/2,xs=function(v){return x0+v/mx*(pw/2)};
+  var box=h("div","chart-box");
+  var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":"per-country estimates"});
+  ticks(-mx,mx,4).forEach(function(tv){
+    svg.appendChild(el("line",{x1:xs(tv),x2:xs(tv),y1:T,y2:T+n*rowH},"stroke:var(--grid);stroke-width:1"));
+    var t=el("text",{x:xs(tv),y:H-8,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t.textContent=fmt(tv,0);svg.appendChild(t)});
+  svg.appendChild(el("line",{x1:x0,x2:x0,y1:T,y2:T+n*rowH},"stroke:var(--baseline);stroke-width:1"));
+  rows.forEach(function(r,i){
+    var v=r[key],y=T+i*rowH,bh=14,good=goodIsPositive?v>0:v<0;
+    var xa=Math.min(x0,xs(v)),bw=Math.max(2,Math.abs(xs(v)-x0)),rr=Math.min(4,bh/2,bw/2);
+    var d=v>=0
+      ? "M"+xa+","+y+" L"+(xa+bw-rr)+","+y+" Q"+(xa+bw)+","+y+" "+(xa+bw)+","+(y+rr)+" L"+(xa+bw)+","+(y+bh-rr)+" Q"+(xa+bw)+","+(y+bh)+" "+(xa+bw-rr)+","+(y+bh)+" L"+xa+","+(y+bh)+" Z"
+      : "M"+(xa+bw)+","+y+" L"+(xa+rr)+","+y+" Q"+xa+","+y+" "+xa+","+(y+rr)+" L"+xa+","+(y+bh-rr)+" Q"+xa+","+(y+bh)+" "+(xa+rr)+","+(y+bh)+" L"+(xa+bw)+","+(y+bh)+" Z";
+    svg.appendChild(el("path",{d:d},"fill:var("+(good?"--series-1":"--neg")+")"));
+    var nm=el("text",{x:L-10,y:y+bh-3,"text-anchor":"end"},"fill:var(--text-primary);font-size:11.5px");
+    nm.textContent=r.name;svg.appendChild(nm);
+    var vl=el("text",{x:v>=0?xs(v)+6:xs(v)-6,y:y+bh-3,"text-anchor":v>=0?"start":"end"},
+      "fill:var(--text-secondary);font-size:11.5px;font-variant-numeric:tabular-nums");
+    vl.textContent=fmt(v,dp)+unit;svg.appendChild(vl);
+  });
+  box.appendChild(svg);host.appendChild(box);
+}
+
+/* ---------- convergence scatter with fitted line ---------- */
+function convScatter(host,fit,treated){
+  var W=760,H=330,L=54,R=18,T=14,B=42,pw=W-L-R,ph=H-T-B;
+  var pts=fit.points.slice();
+  var xsAll=pts.map(function(p){return p.level}).concat(treated.map(function(t){return t.level}));
+  var ysAll=pts.map(function(p){return p.growth}).concat(treated.map(function(t){return t.actual}));
+  var xlo=Math.min.apply(null,xsAll)*0.9,xhi=Math.max.apply(null,xsAll)*1.05;
+  var ylo=Math.min.apply(null,ysAll)-8,yhi=Math.max.apply(null,ysAll)+8;
+  var xs=function(v){return L+(v-xlo)/(xhi-xlo)*pw},ys=function(v){return T+(yhi-v)/(yhi-ylo)*ph};
+  var box=h("div");
+  var lg=h("div","legend");
+  [["Non-members (fit the line)","var(--series-2)"],["EU members","var(--series-1)"]].forEach(function(k){
+    var e=h("span","key");var i=document.createElement("i");i.className="dot";i.style.background=k[1];
+    e.appendChild(i);e.appendChild(document.createTextNode(k[0]));lg.appendChild(e)});
+  box.appendChild(lg);
+  var root=h("div","chart-box");box.appendChild(root);
+  var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":"growth against starting income"});
+  ticks(ylo,yhi,5).forEach(function(tv){
+    svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(tv),y2:ys(tv)},"stroke:var(--grid);stroke-width:1"));
+    var t=el("text",{x:L-7,y:ys(tv)+3.5,"text-anchor":"end"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t.textContent=fmt(tv,0);svg.appendChild(t)});
+  ticks(xlo,xhi,5).forEach(function(tv){
+    var t=el("text",{x:xs(tv),y:H-22,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t.textContent=Math.round(tv)+"%";svg.appendChild(t)});
+  var ax=el("text",{x:L+pw/2,y:H-6,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px");
+  ax.textContent="income before accession, % of EU average";svg.appendChild(ax);
+  // fitted line
+  svg.appendChild(el("line",{x1:xs(xlo),y1:ys(fit.a+fit.b*xlo),x2:xs(xhi),y2:ys(fit.a+fit.b*xhi)},
+    "stroke:var(--series-2);stroke-width:2;opacity:0.55"));
+  var root2=root;
+  var tt=h("div","tooltip");
+  function mark(x,y,color,name,sub){
+    var g=el("g",{tabindex:"0"});
+    g.appendChild(el("circle",{cx:xs(x),cy:ys(y),r:5},"fill:var("+color+");stroke:var(--surface-1);stroke-width:2"));
+    g.appendChild(el("circle",{cx:xs(x),cy:ys(y),r:14},"fill:transparent"));
+    function show(){while(tt.firstChild)tt.removeChild(tt.firstChild);
+      var a=h("div","tt-title");a.textContent=name;tt.appendChild(a);
+      var b=h("div","tt-val");b.textContent=sub;tt.appendChild(b);
+      tt.style.display="block";
+      var rect=root2.getBoundingClientRect();
+      var px=(xs(x)/W)*rect.width,py=(ys(y)/H)*rect.height;
+      var left=px+14;if(left+tt.offsetWidth>rect.width-4)left=px-tt.offsetWidth-14;
+      tt.style.left=Math.max(2,left)+"px";tt.style.top=Math.max(2,py-10)+"px"}
+    g.addEventListener("pointerenter",show);g.addEventListener("focus",show);
+    g.addEventListener("pointerleave",function(){tt.style.display="none"});
+    g.addEventListener("blur",function(){tt.style.display="none"});
+    svg.appendChild(g);
+  }
+  pts.forEach(function(p){mark(p.level,p.growth,"--series-2",p.name,
+    "started at "+p.level+"% of EU · grew "+fmt(p.growth,0)+"%")});
+  treated.forEach(function(t){mark(t.level,t.actual,"--series-1",t.name,
+    "started at "+t.level+"% of EU · grew "+fmt(t.actual,0)+"% · "+fmt(t.excess,1)+"% vs the line")});
+  root.appendChild(svg);root.appendChild(tt);
+  host.appendChild(box);
+  host.appendChild(h("p","note","The orange line is fitted through non-members only — it is what "
+    +"catch-up growth looked like <em>without</em> EU membership. A member above the line grew faster than its "
+    +"starting position predicted; below it, slower. Fit: slope "+fit.b.toFixed(3)
+    +" growth points per point of starting income, r² = "+fit.r2+", from "+fit.n+" non-members."));
+}
+
+/* ---------- estimate cards ---------- */
+function estCard(label,val,unit,dp,ci,goodIsPositive,n){
+  var e=h("div","est");
+  e.appendChild(h("div","lbl",label));
+  e.appendChild(h("div","val",val===null?"–":fmt(val,dp)+unit));
+  if(ci){
+    e.appendChild(h("div","ci","95% interval "+fmt(ci.lo,1)+unit+" to "+fmt(ci.hi,1)+unit+" · n="+n));
+    var v=h("div","verdict "+(ci.crossesZero?"zero":"sig"));
+    v.textContent=ci.crossesZero
+      ? "Interval spans zero — not distinguishable from no effect at this confidence level."
+      : "Interval excludes zero — a difference this size is unlikely to be chance alone.";
+    e.appendChild(v);
+  } else if(n!==undefined){
+    e.appendChild(h("div","ci","n="+n+" — too few countries for an interval"));
+  }
+  return e;
+}
+
+/* ---------- panels ---------- */
+var TABS=[{id:"findings",label:"Findings"},{id:"paths",label:"Trajectories"},
+          {id:"adjust",label:"The convergence problem"},{id:"method",label:"Method & limits"},
+          {id:"coverage",label:"Coverage"}];
+var tabsEl=document.getElementById("tabs"),panelsEl=document.getElementById("panels");
+var inc=P.measures.filter(function(m){return m.id==="income"})[0];
+var conv=P.measures.filter(function(m){return m.id==="convergence"})[0];
+var unem=P.measures.filter(function(m){return m.id==="unemployment"})[0];
+var adjE=P.adjusted.East;
+
+TABS.forEach(function(t,i){
+  var b=document.createElement("button");
+  b.setAttribute("role","tab");b.setAttribute("aria-selected",i===0?"true":"false");
+  b.dataset.tab=t.id;b.textContent=t.label;tabsEl.appendChild(b);
+  var sec=h("section","panel"+(i===0?" active":""));sec.id="panel-"+t.id;panelsEl.appendChild(sec);
+
+  if(t.id==="findings"){
+    var head=h("div","card");
+    head.appendChild(h("h3","","The headline, stated carefully"));
+    head.appendChild(h("p","","Eastern members grew enormously after joining — roughly <strong>55% to 93% higher income per head</strong> within a decade. But so did the Western Balkan countries that did not join. Once you account for the fact that poorer economies grow faster mechanically, the <strong>average difference attributable to membership is not statistically distinguishable from zero</strong> in this data."));
+    head.appendChild(h("p","","That is not the same as saying membership did nothing. It means this method, with these controls, cannot prove an average income effect at the confidence level this project requires. The country-level spread is large and systematic, and three specific biases all push the estimate toward zero — see <em>Method &amp; limits</em>."));
+    sec.appendChild(head);
+
+    var g=h("div","estimates");
+    g.appendChild(estCard("Eastern members, income per head<br>vs non-members (raw)",
+      inc.did.East.mean,"%",1,inc.did.East.ci,true,inc.did.East.n));
+    g.appendChild(estCard("Eastern members, income per head<br>adjusted for catch-up growth",
+      adjE.mean,"%",1,adjE.ci,true,adjE.n));
+    g.appendChild(estCard("Eastern members, gap closed<br>on the EU average",
+      conv.did.East.mean,"pp",1,conv.did.East.ci,true,conv.did.East.n));
+    g.appendChild(estCard("Eastern members, unemployment<br>vs non-members",
+      unem.did.East.mean,"pp",1,unem.did.East.ci,false,unem.did.East.n));
+    sec.appendChild(g);
+
+    var c1=h("div","card");
+    c1.appendChild(h("h3","","Per country: growth above or below what catch-up predicted"));
+    c1.appendChild(h("p","sub","Eastern members only. Positive means the country grew faster than its starting income level predicted, judged against the non-member benchmark. This is the adjusted estimate — the one that removes the mechanical advantage of starting poor."));
+    divergingBars(c1,adjE.rows,"excess","%",1,true);
+    var det=h("details");var s=document.createElement("summary");s.textContent="View the numbers";det.appendChild(s);
+    var tb=h("table","t");
+    var tr=document.createElement("tr");
+    ["Country","Joined","Start (% of EU)","Actual growth","Predicted","Difference"].forEach(function(x,j){
+      var th=document.createElement("th");if(j>1)th.className="num";th.textContent=x;tr.appendChild(th)});
+    tb.appendChild(tr);
+    adjE.rows.forEach(function(r){
+      var t2=document.createElement("tr");
+      [[r.name,"nm"],[r.accession,"num"],[r.level+"%","num"],[fmt(r.actual,1)+"%","num"],
+       [fmt(r.predicted,1)+"%","num"],[fmt(r.excess,1)+"%","num"]].forEach(function(c){
+        var td=document.createElement("td");td.className=c[1];td.textContent=c[0];t2.appendChild(td)});
+      tb.appendChild(t2)});
+    det.appendChild(tb);c1.appendChild(det);
+    c1.appendChild(h("p","note","The pattern is not random: the four countries below the line — Slovenia, Hungary, Czechia and Croatia — were the richest Eastern members at accession. The ones furthest above — Romania, Estonia, Lithuania — were among the poorest. Even after adjusting for catch-up, some of that residual gradient probably remains."));
+    sec.appendChild(c1);
+
+    var c2=h("div","card");
+    c2.appendChild(h("h3","","Unemployment: no membership dividend visible"));
+    c2.appendChild(h("p","sub","Difference-in-differences against Western Balkan non-members, percentage points. Negative is good — it means unemployment fell further than in comparable non-members."));
+    divergingBars(c2,unem.did.East.rows,"did","pp",1,false);
+    c2.appendChild(h("p","note","Only Poland and Slovakia improved relative to the control group, and the average is not distinguishable from zero. Read with care: Balkan unemployment started catastrophically high — above 30% in Bosnia and North Macedonia — so it had far more room to fall, which flatters the control group here."));
+    sec.appendChild(c2);
+  }
+
+  else if(t.id==="paths"){
+    ["East","West","South"].forEach(function(bloc){
+      var pd=inc.paths[bloc];
+      var card=h("div","card");
+      card.appendChild(h("h3","",bloc+" bloc — income per head, aligned on accession"));
+      var members=P.blocs[bloc].length, ctrls=P.controlsByBloc[bloc];
+      card.appendChild(h("p","sub","Cumulative growth in log points (≈ %) since each country's accession year. "
+        +"Members: "+P.blocs[bloc].join(", ")+". Non-member comparators: "+(ctrls.length?ctrls.join(", "):"none available")+"."));
+      if(pd.treated.filter(function(v){return v!==null}).length<2){
+        card.appendChild(h("p","note","Not enough pre-accession data to place this bloc on an event-time axis. "
+          +"World Bank PPP income series begin in 1990, so any country that joined before about 1995 has no measurable "
+          +"pre-accession baseline — that covers every founding member and the 1973, 1981 and 1986 waves."));
+      } else {
+        pathChart(card,pd,bloc+" income paths",1);
+      }
+      sec.appendChild(card);
+    });
+    var cc=h("div","card");
+    cc.appendChild(h("h3","","Reading these charts"));
+    cc.appendChild(h("p","","The blue and orange lines start together at zero by construction — both are rebased to the accession year, so the chart shows <em>divergence after joining</em>, not level differences. If membership raised growth, blue should pull above orange after t=0 and stay there."));
+    cc.appendChild(h("p","","The stretch to the <em>left</em> of the accession line matters just as much. If blue and orange move together before t=0, the comparison is credible. If they were already diverging, the post-accession gap may be a continuation of a pre-existing trend rather than an effect of joining."));
+    sec.appendChild(cc);
+  }
+
+  else if(t.id==="adjust"){
+    var ca=h("div","card");
+    ca.appendChild(h("h3","","Why the raw comparison is misleading"));
+    ca.appendChild(h("p","","Poor economies grow faster than rich ones. It is one of the most robust regularities in growth economics, and it wrecks a naive comparison here: <strong>every available post-communist control is poorer than most Eastern members</strong>. Serbia and Bosnia sat near 30–40% of EU income; Slovenia and Czechia were at 76–82%. The controls were always going to grow faster, membership or not."));
+    ca.appendChild(h("p","","That is exactly what the raw numbers show. Slovenia scores −37% and Czechia −26% on the unadjusted comparison, while Romania scores +21%. Ranking members by that measure produces a near-perfect ordering by <em>how rich they already were</em> — which is a measure of the confound, not of membership."));
+    ca.appendChild(h("p","","The fix below uses all eight non-members — spanning Bosnia at roughly 30% of EU income to Norway at over 150% — to estimate how much growth a given starting position bought you <em>outside</em> the Union. Each member is then judged against that line."));
+    sec.appendChild(ca);
+    var fitKeys=Object.keys(adjE.fits);
+    if(fitKeys.length){
+      var cs=h("div","card");
+      var fk=fitKeys.indexOf("2004")>=0?"2004":fitKeys[0];
+      cs.appendChild(h("h3","","Growth against starting income — the "+fk+" accession window"));
+      cs.appendChild(h("p","sub","Each point is a country: horizontal position is income before accession as a share of the EU average, vertical position is income growth over the following decade."));
+      convScatter(cs,adjE.fits[fk],adjE.rows.filter(function(r){return String(r.accession)===fk}));
+      sec.appendChild(cs);
+    }
+    var cw=h("div","card");
+    cw.appendChild(h("h3","","What the adjustment does and does not fix"));
+    cw.appendChild(h("p","","It removes the mechanical advantage of starting poor. It does <strong>not</strong> remove selection: countries that joined were already more stable, better governed and more reform-committed than those that did not, and some of the remaining spread reflects that rather than membership."));
+    cw.appendChild(h("p","","It also cannot separate membership from the <em>process</em> of joining. The pre-accession window used here, "+(2004+P.pre[0])+"–"+(2004+P.pre[1])+" for the 2004 wave, is precisely when accession conditionality was biting hardest — legal harmonisation, competition rules, institutional reform. Much of the benefit may already be inside the pre-accession baseline, which would make this method systematically understate the effect."));
+    sec.appendChild(cw);
+  }
+
+  else if(t.id==="method"){
+    var m1=h("div","card");
+    m1.appendChild(h("h3","","How the comparison is built"));
+    m1.appendChild(h("p","","<strong>Event time.</strong> Every country's series is re-indexed so t=0 is its accession year, letting Spain's 1986 and Croatia's 2013 sit on the same axis. Non-members have no accession, so each is aligned to the accession year of the member it is being compared against."));
+    m1.appendChild(h("p","","<strong>Blocs.</strong> West, South and East. Post-war starting points differ so much that pooling them would be meaningless — and the right control for Poland is Serbia, not Norway. South is kept separate from West because Greece, Portugal and Spain were poor and under authoritarian rule until the mid-1970s, and joined as democratic consolidation projects."));
+    m1.appendChild(h("p","","<strong>Difference-in-differences.</strong> For each member, average outcome over the five years before accession is compared with years +"+P.post[0]+" to +"+P.post[1]+" after, and the same calendar windows are applied to the non-member controls, so shared shocks like 2008 and 2020 hit both sides and difference out."));
+    m1.appendChild(h("p","","<strong>Intervals.</strong> The 95% ranges shown are the spread of country-level estimates around their mean, not model standard errors. With around ten countries per bloc they are wide by construction. That width is the honest situation, not a defect of presentation."));
+    sec.appendChild(m1);
+
+    var m2=h("div","card");
+    m2.appendChild(h("h3","","Four limits that materially affect the answer"));
+    var w=h("div","warn");
+    w.appendChild(h("p","","<strong>1. Accession was never random.</strong> Countries joined because they qualified — they had already met the Copenhagen criteria on democracy, rule of law and market economy. Any measured gap therefore mixes the effect of membership with the characteristics that made membership possible. No method here removes this, and it biases estimates <em>upward</em>."));
+    w.appendChild(h("p","","<strong>2. The control group is contaminated.</strong> All five Western Balkan comparators are EU candidates. They receive pre-accession funds, hold trade agreements with the Union, and reform in anticipation of joining. They are partially treated, which biases estimates <em>toward zero</em>."));
+    w.appendChild(h("p","","<strong>3. Anticipation.</strong> The heaviest reform effort happens before accession, not after. The pre-accession baseline used here already contains much of the treatment, again biasing <em>toward zero</em>."));
+    w.appendChild(h("p","","<strong>4. Data coverage rules out most of the West.</strong> World Bank PPP income series begin in 1990, so no country that joined before roughly 1995 has a measurable pre-accession baseline. Founding members and the 1973, 1981 and 1986 waves cannot be tested at all — only described."));
+    m2.appendChild(w);
+    m2.appendChild(h("p","note","Directions two and three push the estimate down; direction one pushes it up. They do not cancel in any quantifiable way, which is why the result is reported as an interval spanning zero rather than as a point estimate with a sign."));
+    sec.appendChild(m2);
+
+    var m3=h("div","card");
+    m3.appendChild(h("h3","","What would strengthen this"));
+    m3.appendChild(h("p","","<strong>Synthetic control</strong> would build a weighted blend of non-members reproducing each member's pre-accession path, rather than relying on a simple average of five imperfect comparators. It is the method the published literature uses for this exact question."));
+    m3.appendChild(h("p","","<strong>Longer pre-periods</strong> from Maddison or Penn World Table income series, which reach back decades further than the World Bank PPP series, would bring the founding members and the 1973–1986 waves into scope."));
+    m3.appendChild(h("p","","<strong>Non-European controls</strong> — comparable middle-income countries outside Europe entirely — would break the contamination problem, at the cost of comparability."));
+    sec.appendChild(m3);
+  }
+
+  else {
+    var cv=h("div","card");
+    cv.appendChild(h("h3","","Which countries the analysis can and cannot cover"));
+    cv.appendChild(h("p","sub","A country needs both a pre-accession and a post-accession window with data to enter the comparison."));
+    ["East","South","West"].forEach(function(bloc){
+      var d=inc.did[bloc];
+      cv.appendChild(h("h4","",bloc+" — "+d.n+" of "+P.blocs[bloc].length+" members testable"));
+      var inc2=h("p","");
+      inc2.innerHTML="<strong>In:</strong> "+(d.rows.length?d.rows.map(function(r){return r.name}).join(", "):"none");
+      cv.appendChild(inc2);
+      if(d.skipped.length){
+        var out2=h("p","");
+        out2.innerHTML="<strong>Excluded:</strong> "+d.skipped.map(function(s){return s.name+" ("+s.why+")"}).join(", ");
+        cv.appendChild(out2);
+      }
+      var cn=h("p","");
+      cn.innerHTML="<strong>Controls:</strong> "+(P.controlsByBloc[bloc].length?P.controlsByBloc[bloc].join(", "):"none available");
+      cv.appendChild(cn);
+    });
+    cv.appendChild(h("p","note","The South bloc has no non-member control group at all — there is no comparable Mediterranean or post-authoritarian European country that stayed outside the Union. Greece, Portugal and Spain can be described but not tested by this method."));
+    sec.appendChild(cv);
+  }
+});
+
+tabsEl.addEventListener("click",function(ev){
+  var b=ev.target.closest("button");if(!b)return;
+  tabsEl.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-selected",x===b?"true":"false")});
+  panelsEl.querySelectorAll("section.panel").forEach(function(p){p.classList.remove("active")});
+  document.getElementById("panel-"+b.dataset.tab).classList.add("active");
+});
+var modes=["auto","light","dark"],mi=0,btn=document.getElementById("themeBtn");
+btn.addEventListener("click",function(){mi=(mi+1)%3;var m=modes[mi];
+  if(m==="auto")document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.setAttribute("data-theme",m);
+  btn.textContent="Theme: "+m});
+})();
+</script>
+</body>
+</html>

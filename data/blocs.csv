@@ -1,0 +1,37 @@
+iso3,name,group,bloc,accession_year,control_for,notes
+AUT,Austria,member,West,1995,,1995 wave
+BEL,Belgium,member,West,1958,,founding member
+DNK,Denmark,member,West,1973,,1973 wave
+FIN,Finland,member,West,1995,,1995 wave
+FRA,France,member,West,1958,,founding member
+DEU,Germany,member,West,1958,,founding member
+IRL,Ireland,member,West,1973,,1973 wave
+ITA,Italy,member,West,1958,,founding member
+LUX,Luxembourg,member,West,1958,,founding member
+NLD,Netherlands,member,West,1958,,founding member
+SWE,Sweden,member,West,1995,,1995 wave
+GBR,United Kingdom,member,West,1973,,joined 1973; left 2020
+GRC,Greece,member,South,1981,,authoritarian rule until 1974
+PRT,Portugal,member,South,1986,,authoritarian rule until 1974
+ESP,Spain,member,South,1986,,authoritarian rule until 1975
+CYP,Cyprus,member,South,2004,,Mediterranean; not post-communist
+MLT,Malta,member,South,2004,,Mediterranean; not post-communist
+BGR,Bulgaria,member,East,2007,,post-communist
+HRV,Croatia,member,East,2013,,post-communist; former Yugoslavia
+CZE,Czechia,member,East,2004,,post-communist
+EST,Estonia,member,East,2004,,post-communist; former USSR
+HUN,Hungary,member,East,2004,,post-communist
+LVA,Latvia,member,East,2004,,post-communist; former USSR
+LTU,Lithuania,member,East,2004,,post-communist; former USSR
+POL,Poland,member,East,2004,,post-communist
+ROU,Romania,member,East,2007,,post-communist
+SVK,Slovakia,member,East,2004,,post-communist
+SVN,Slovenia,member,East,2004,,post-communist; former Yugoslavia
+NOR,Norway,control,West,,West,EEA member; single-market access without EU membership
+CHE,Switzerland,control,West,,West,EFTA; bilateral treaties give partial single-market access
+ISL,Iceland,control,West,,West,EEA member; single-market access without EU membership
+SRB,Serbia,control,East,,East,EU candidate; negotiations opened 2014
+ALB,Albania,control,East,,East,EU candidate; negotiations opened 2022
+MKD,North Macedonia,control,East,,East,EU candidate since 2005
+BIH,Bosnia and Herzegovina,control,East,,East,EU candidate since 2022
+MNE,Montenegro,control,East,,East,EU candidate; negotiations opened 2012
