@@ -1,0 +1,43 @@
+iso3,name,region,region_order,accession_year,group,note
+BEL,Belgium,Continental core,1,1958,member,
+FRA,France,Continental core,1,1958,member,
+DEU,Germany,Continental core,1,1958,member,
+ITA,Italy,Continental core,1,1958,member,
+LUX,Luxembourg,Continental core,1,1958,member,
+NLD,Netherlands,Continental core,1,1958,member,
+AUT,Austria,Continental core,1,1995,member,
+CHE,Switzerland,Continental core,1,,neighbour,EFTA; bilateral single-market treaties; never joined
+DNK,Denmark,Nordic,2,1973,member,
+FIN,Finland,Nordic,2,1995,member,
+SWE,Sweden,Nordic,2,1995,member,
+NOR,Norway,Nordic,2,,neighbour,EEA member; rejected accession in 1972 and 1994 referendums
+ISL,Iceland,Nordic,2,,neighbour,EEA member; application withdrawn 2015
+IRL,Ireland,British Isles,3,1973,member,
+GBR,United Kingdom,British Isles,3,1973,member,left the EU 31 January 2020
+GRC,Greece,Mediterranean,4,1981,member,
+ESP,Spain,Mediterranean,4,1986,member,
+PRT,Portugal,Mediterranean,4,1986,member,
+CYP,Cyprus,Mediterranean,4,2004,member,
+MLT,Malta,Mediterranean,4,2004,member,
+TUR,Turkey,Mediterranean,4,,neighbour,candidate since 1999; negotiations opened 2005 and stalled
+POL,Poland,Visegrad,5,2004,member,
+CZE,Czechia,Visegrad,5,2004,member,
+SVK,Slovakia,Visegrad,5,2004,member,
+HUN,Hungary,Visegrad,5,2004,member,
+UKR,Ukraine,Visegrad,5,,neighbour,candidate since 2022; at war since 2022
+BLR,Belarus,Visegrad,5,,neighbour,never a candidate
+EST,Estonia,Baltic,6,2004,member,
+LVA,Latvia,Baltic,6,2004,member,
+LTU,Lithuania,Baltic,6,2004,member,
+BLR,Belarus,Baltic,6,,neighbour,never a candidate; borders all three Baltic states
+RUS,Russian Federation,Baltic,6,,neighbour,never a candidate; shared Soviet starting point in 1991
+SVN,Slovenia,South-East,7,2004,member,
+BGR,Bulgaria,South-East,7,2007,member,
+ROU,Romania,South-East,7,2007,member,
+HRV,Croatia,South-East,7,2013,member,
+SRB,Serbia,South-East,7,,neighbour,candidate; negotiations opened 2014
+ALB,Albania,South-East,7,,neighbour,candidate; negotiations opened 2022
+MKD,North Macedonia,South-East,7,,neighbour,candidate since 2005
+BIH,Bosnia and Herzegovina,South-East,7,,neighbour,candidate since 2022
+MNE,Montenegro,South-East,7,,neighbour,candidate; negotiations opened 2012
+MDA,Moldova,South-East,7,,neighbour,candidate since 2022; borders Romania

@@ -41,7 +41,7 @@ if os.path.exists(old):
             r["value"] = str(float(r["value"]) * 1e3)
             r["unit"] = "count"
             r["indicator_name"] = "Net migration"
-        if r["indicator_code"] == "DERIVED.PPP.PCT.EU":
+        if r["indicator_code"].startswith("DERIVED."):
             continue  # recomputed below
         add(r)
 
@@ -57,23 +57,74 @@ by = collections.defaultdict(dict)
 for r in rows:
     by[(r["iso3"], r["indicator_code"])][int(r["year"])] = float(r["value"])
 
-eu = by.get(("EUU", "NY.GDP.PCAP.PP.CD"), {})
 countries = sorted({r["iso3"] for r in rows} - {"EUU"})
 derived = 0
-for iso in countries:
-    pc = by.get((iso, "NY.GDP.PCAP.PP.CD"), {})
+for src_code, out_code, out_name in [
+    ("NY.GDP.PCAP.PP.CD", "DERIVED.PPP.PCT.EU", "GDP per capita PPP as % of EU average"),
+    ("NY.GDP.PCAP.KD", "DERIVED.KD.PCT.EU", "GDP per capita (constant 2015 US$) as % of EU average"),
+    ("NY.GNP.PCAP.PP.CD", "DERIVED.GNI.PCT.EU", "GNI per capita PPP as % of EU average"),
+]:
+    eu = by.get(("EUU", src_code), {})
+    for iso in countries:
+        pc = by.get((iso, src_code), {})
+        if not pc:
+            continue
+        name = next(r["country"] for r in rows if r["iso3"] == iso)
+        for y, v in sorted(pc.items()):
+            if y in eu and eu[y]:
+                rows.append({
+                    "iso3": iso, "country": name,
+                    "indicator_code": out_code, "indicator_name": out_name,
+                    "unit": "%", "year": y, "value": round(v / eu[y] * 100, 2),
+                    "source": "Derived from World Bank " + src_code + " (country / EUU)",
+                    "retrieved": "2026-08-01",
+                })
+                derived += 1
+
+# 4. derived: trade openness = exports + imports, both already % of GDP.
+#    This is the standard openness measure. It exceeds 100% wherever goods cross
+#    a border more than once (re-exports, cross-border supply chains), which is
+#    why small single-market economies sit so far above the rest.
+for iso in countries + ["EUU"]:
+    ex = by.get((iso, "NE.EXP.GNFS.ZS"), {})
+    im = by.get((iso, "NE.IMP.GNFS.ZS"), {})
+    if not ex or not im:
+        continue
     name = next(r["country"] for r in rows if r["iso3"] == iso)
-    for y, v in sorted(pc.items()):
-        if y in eu and eu[y]:
-            rows.append({
-                "iso3": iso, "country": name,
-                "indicator_code": "DERIVED.PPP.PCT.EU",
-                "indicator_name": "GDP per capita PPP as % of EU average",
-                "unit": "%", "year": y, "value": round(v / eu[y] * 100, 2),
-                "source": "Derived from World Bank NY.GDP.PCAP.PP.CD (country / EUU)",
-                "retrieved": "2026-07-27",
-            })
-            derived += 1
+    for y in sorted(set(ex) & set(im)):
+        rows.append({
+            "iso3": iso, "country": name,
+            "indicator_code": "DERIVED.TRADE.OPEN",
+            "indicator_name": "Trade openness (exports + imports, % of GDP)",
+            "unit": "%", "year": y, "value": round(ex[y] + im[y], 3),
+            "source": "Derived from World Bank NE.EXP.GNFS.ZS + NE.IMP.GNFS.ZS",
+            "retrieved": "2026-08-02",
+        })
+        derived += 1
+
+# 5. derived: net migration per 1,000 population.
+#    Raw net migration is a headcount, so on any chart it simply ranks countries
+#    by size — Germany dwarfs Estonia for reasons that have nothing to do with
+#    migration behaviour. Scaling by population makes the series comparable.
+for iso in countries + ["EUU"]:
+    nm = by.get((iso, "SM.POP.NETM"), {})
+    pop = by.get((iso, "SP.POP.TOTL"), {})
+    if not nm or not pop:
+        continue
+    name = next(r["country"] for r in rows if r["iso3"] == iso)
+    for y in sorted(set(nm) & set(pop)):
+        if not pop[y]:
+            continue
+        rows.append({
+            "iso3": iso, "country": name,
+            "indicator_code": "DERIVED.NETM.P1000",
+            "indicator_name": "Net migration per 1,000 population",
+            "unit": "per 1,000", "year": y,
+            "value": round(nm[y] / pop[y] * 1000, 3),
+            "source": "Derived from World Bank SM.POP.NETM / SP.POP.TOTL",
+            "retrieved": "2026-08-02",
+        })
+        derived += 1
 
 rows.sort(key=lambda r: (r["iso3"], r["indicator_code"], int(r["year"])))
 with open(os.path.join(DATA, "indicators.csv"), "w", newline="", encoding="utf-8") as f:

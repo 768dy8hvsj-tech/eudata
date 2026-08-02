@@ -1,0 +1,924 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1960,3581239,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1961,3609800,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1962,3638918,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1963,3666537,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1964,3694339,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1965,3723168,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1966,3753012,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1967,3784539,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1968,3816486,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1969,3847707,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1970,3875763,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1971,3903039,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1972,3933004,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1973,3960612,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1974,3985258,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1975,4007313,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1976,4026152,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1977,4043205,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1978,4058671,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1979,4072517,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1980,4085620,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1981,4099702,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1982,4114787,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1983,4128432,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1984,4140099,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1985,4152516,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1986,4167354,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1987,4186905,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1988,4209488,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1989,4226901,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1990,4241473,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1991,4261732,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1992,4286401,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1993,4311991,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1994,4336613,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1995,4359184,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1996,4381336,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1997,4405157,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1998,4431464,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,1999,4461913,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2000,4490967,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2001,4513751,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2002,4538159,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2003,4564855,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2004,4591910,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2005,4623291,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2006,4660677,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2007,4709153,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2008,4768212,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2009,4828726,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2010,4889252,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2011,4953088,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2012,5018573,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2013,5079623,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2014,5137232,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2015,5188607,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2016,5234519,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2017,5276968,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2018,5311916,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2019,5347896,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2020,5379475,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2021,5408320,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2022,5457127,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2023,5519601,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2024,5572279,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+NOR,Norway,SP.POP.TOTL,"Population, total",count,2025,5610870,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1960,5327827,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1961,5434294,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1962,5573815,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1963,5694247,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1964,5789228,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1965,5856472,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1966,5918002,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1967,5991785,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1968,6067714,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1969,6136387,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1970,6180877,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1971,6213399,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1972,6260956,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1973,6307347,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1974,6341405,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1975,6338632,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1976,6302504,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1977,6281174,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1978,6281738,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1979,6294365,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1980,6319408,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1981,6354074,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1982,6391309,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1983,6418773,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1984,6441865,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1985,6470365,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1986,6504124,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1987,6545106,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1988,6593386,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1989,6646912,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1990,6715519,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1991,6799978,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1992,6875364,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1993,6938265,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1994,6993795,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1995,7040687,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1996,7071850,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1997,7088906,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1998,7110001,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,1999,7143991,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2000,7184250,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2001,7229854,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2002,7284753,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2003,7339001,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2004,7389625,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2005,7437115,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2006,7483934,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2007,7551117,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2008,7647675,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2009,7743831,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2010,7824909,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2011,7912398,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2012,7996861,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2013,8089346,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2014,8188649,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2015,8282396,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2016,8373338,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2017,8451840,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2018,8514329,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2019,8575280,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2020,8638167,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2021,8704546,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2022,8777088,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2023,8888822,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2024,9005582,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+CHE,Switzerland,SP.POP.TOTL,"Population, total",count,2025,9092436,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1960,175574,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1961,179029,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1962,182378,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1963,185653,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1964,188983,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1965,192286,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1966,195570,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1967,198751,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1968,201488,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1969,203369,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1970,204438,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1971,206098,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1972,209137,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1973,212317,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1974,215209,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1975,217979,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1976,220154,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1977,221799,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1978,223537,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1979,225735,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1980,228138,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1981,230755,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1982,233860,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1983,236977,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1984,239511,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1985,241405,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1986,243180,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1987,245859,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1988,249740,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1989,252852,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1990,254826,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1991,257797,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1992,261057,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1993,263725,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1994,266021,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1995,267468,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1996,268916,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1997,271128,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1998,274047,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,1999,277381,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2000,281205,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2001,284968,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2002,287523,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2003,289521,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2004,292074,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2005,296734,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2006,303782,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2007,311566,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2008,317414,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2009,318499,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2010,318041,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2011,319014,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2012,320716,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2013,323764,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2014,327386,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2015,330815,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2016,335439,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2017,343400,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2018,352721,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2019,360563,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2020,366463,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2021,372520,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2022,382003,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2023,385663,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2024,386506,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ISL,Iceland,SP.POP.TOTL,"Population, total",count,2025,392404,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1960,6638992,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1961,6689077,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1962,6740264,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1963,6787950,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1964,6832855,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1965,6876624,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1966,6927969,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1967,6966522,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1968,7007586,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1969,7123249,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1970,7164993,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1971,7211716,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1972,7252012,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1973,7283902,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1974,7326043,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1975,7368717,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1976,7418973,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1977,7462783,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1978,7504017,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1979,7541997,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1980,7709544,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1981,7736787,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1982,7763335,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1983,7788100,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1984,7813549,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1985,7835902,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1986,7853824,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1987,7868027,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1988,7884218,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1989,7893787,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1990,7897937,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1991,7595636,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1992,7604063,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1993,7614328,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1994,7622711,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1995,7628264,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1996,7622185,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1997,7598538,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1998,7567745,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,1999,7540401,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2000,7516346,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2001,7503433,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2002,7500031,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2003,7480591,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2004,7463157,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2005,7440769,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2006,7411569,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2007,7381579,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2008,7350222,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2009,7320807,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2010,7291436,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2011,7236519,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2012,7201497,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2013,7166553,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2014,7131787,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2015,7095383,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2016,7058322,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2017,7020858,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2018,6982604,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2019,6945235,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2020,6899126,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2021,6834326,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2022,6664449,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2023,6623183,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2024,6586476,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+SRB,Serbia,SP.POP.TOTL,"Population, total",count,2025,6549143,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1960,1608800,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1961,1659800,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1962,1711319,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1963,1762621,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1964,1814135,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1965,1864791,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1966,1914573,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1967,1965598,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1968,2022272,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1969,2081695,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1970,2135479,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1971,2187853,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1972,2243126,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1973,2296752,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1974,2350124,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1975,2404831,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1976,2458526,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1977,2513546,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1978,2566266,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1979,2617832,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1980,2671997,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1981,2726056,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1982,2784278,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1983,2843960,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1984,2904429,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1985,2964762,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1986,3022635,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1987,3083605,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1988,3142336,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1989,3227943,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1990,3286542,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1991,3266790,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1992,3247039,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1993,3227287,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1994,3207536,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1995,3187784,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1996,3168033,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1997,3148281,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1998,3128530,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,1999,3108778,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2000,3089027,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2001,3060173,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2002,3051010,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2003,3039616,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2004,3026939,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2005,3011487,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2006,2992547,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2007,2970017,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2008,2947314,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2009,2927519,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2010,2913021,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2011,2905195,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2012,2860708,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2013,2816902,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2014,2773767,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2015,2731293,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2016,2689469,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2017,2648285,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2018,2607733,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2019,2567801,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2020,2528480,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2021,2489762,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2022,2451636,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2023,2411658,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2024,2377128,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+ALB,Albania,SP.POP.TOTL,"Population, total",count,2025,2349580,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1960,1435059,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1961,1455171,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1962,1471745,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1963,1488737,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1964,1510900,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1965,1533466,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1966,1557349,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1967,1582492,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1968,1608930,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1969,1636345,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1970,1664208,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1971,1691216,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1972,1717395,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1973,1743816,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1974,1770545,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1975,1797972,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1976,1825830,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1977,1853138,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1978,1879847,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1979,1906523,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1980,1933038,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1981,1959065,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1982,1978956,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1983,1991901,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1984,2003399,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1985,2014331,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1986,2024732,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1987,2035157,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1988,2045737,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1989,2055649,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1990,2063689,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1991,2055994,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1992,2032523,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1993,2006854,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1994,1992666,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1995,1998534,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1996,2012553,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1997,1996869,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1998,2007523,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,1999,2017142,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2000,2026350,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2001,2034882,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2002,2020157,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2003,2022725,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2004,2016186,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2005,2005330,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2006,1994287,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2007,1982933,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2008,1971493,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2009,1958782,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2010,1946298,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2011,1937398,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2012,1929821,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2013,1922716,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2014,1917557,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2015,1912430,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2016,1906313,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2017,1898657,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2018,1889051,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2019,1876262,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2020,1856124,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2021,1837114,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2022,1831712,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2023,1827816,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2024,1824359,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MKD,North Macedonia,SP.POP.TOTL,"Population, total",count,2025,1820909,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1960,3281381,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1961,3348035,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1962,3407532,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1963,3461942,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1964,3513441,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1965,3562834,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1966,3610562,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1967,3656223,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1968,3698794,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1969,3737765,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1970,3773247,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1971,3809376,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1972,3848271,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1973,3887376,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1974,3926472,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1975,3965743,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1976,4004552,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1977,4042124,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1978,4078240,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1979,4113300,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1980,4148426,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1981,4184217,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1982,4221100,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1983,4258728,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1984,4295536,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1985,4330364,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1986,4362115,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1987,4390246,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1988,4414404,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1989,4433983,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1990,4448652,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1991,4458343,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1992,4234616,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1993,3904482,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1994,3725412,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1995,3715564,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1996,3875246,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1997,4018227,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1998,4089356,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,1999,4130305,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2000,4159771,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2001,4179438,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2002,4188002,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2003,4178523,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2004,4140987,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2005,4096493,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2006,4063272,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2007,4013424,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2008,3947544,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2009,3879794,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2010,3811472,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2011,3741798,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2012,3670113,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2013,3610859,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2014,3564829,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2015,3518541,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2016,3473003,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2017,3428682,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2018,3387000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2019,3345533,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2020,3299349,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2021,3244907,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2022,3204802,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2023,3185073,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2024,3164253,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BIH,Bosnia and Herzegovina,SP.POP.TOTL,"Population, total",count,2025,3140095,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1960,480579,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1961,491140,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1962,502558,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1963,513409,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1964,521753,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1965,526327,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1966,526419,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1967,522796,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1968,517481,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1969,513340,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1970,512407,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1971,515449,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1972,521785,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1973,530220,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1974,538902,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1975,546487,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1976,552562,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1977,557576,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1978,562065,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1979,566888,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1980,572608,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1981,579445,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1982,587001,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1983,594506,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1984,600884,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1985,605398,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1986,607711,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1987,608144,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1988,607413,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1989,606571,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1990,606372,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1991,607105,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1992,608516,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1993,610170,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1994,611389,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1995,611712,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1996,611003,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1997,609520,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1998,607662,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,1999,606001,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2000,604950,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2001,607389,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2002,609828,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2003,612267,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2004,613353,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2005,614261,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2006,615025,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2007,615875,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2008,616969,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2009,618294,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2010,619428,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2011,620345,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2012,621418,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2013,622587,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2014,623744,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2015,624651,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2016,625353,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2017,625982,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2018,626438,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2019,626753,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2020,626590,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2021,625053,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2022,623591,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2023,623529,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2024,623525,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MNE,Montenegro,SP.POP.TOTL,"Population, total",count,2025,623129,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1960,28329898,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1961,29119238,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1962,29916147,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1963,30726841,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1964,31543072,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1965,32345220,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1966,33177672,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1967,34050421,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1968,34921684,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1969,35787774,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1970,36638465,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1971,37518611,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1972,38430221,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1973,39329533,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1974,40210234,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1975,41053126,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1976,41899984,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1977,42773298,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1978,43645306,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1979,44510429,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1980,45408815,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1981,46321190,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1982,47322096,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1983,48447410,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1984,49574069,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1985,50687115,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1986,51777772,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1987,52843670,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1988,53909626,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1989,54976723,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1990,56015628,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1991,57009887,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1992,57990118,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1993,58999167,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1994,60033836,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1995,61024503,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1996,61951134,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1997,62852966,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1998,63734383,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,1999,64591923,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2000,65425961,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2001,66245128,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2002,67048795,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2003,67831730,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2004,68592617,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2005,69329557,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2006,70045349,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2007,70158112,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2008,71051678,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2009,72039206,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2010,73142150,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2011,74223629,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2012,75175827,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2013,76147624,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2014,77181884,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2015,78218479,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2016,79277962,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2017,80312698,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2018,81407204,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2019,82579440,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2020,83384680,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2021,84147318,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2022,84979913,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2023,85325965,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2024,85518661,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+TUR,Turkey,SP.POP.TOTL,"Population, total",count,2025,85878556,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1960,8198000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1961,8271216,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1962,8351928,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1963,8437232,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1964,8524224,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1965,8610000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1966,8696496,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1967,8785648,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1968,8874552,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1969,8960304,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1970,9040000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1971,9115576,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1972,9188968,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1973,9257272,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1974,9317584,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1975,9367000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1976,9411000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1977,9463000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1978,9525000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1979,9584000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1980,9643000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1981,9710000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1982,9776000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1983,9843000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1984,9910000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1985,9975000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1986,10043000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1987,10111000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1988,10140000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1989,10170000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1990,10189348,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1991,10194050,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1992,10216470,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1993,10239050,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1994,10226955,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1995,10193831,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1996,10159569,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1997,10117433,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1998,10071963,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,1999,10026738,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2000,9979610,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2001,9928549,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2002,9865548,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2003,9796749,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2004,9730146,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2005,9663915,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2006,9604924,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2007,9560953,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2008,9527985,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2009,9504583,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2010,9483836,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2011,9461643,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2012,9446836,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2013,9443211,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2014,9448515,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2015,9461076,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2016,9469379,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2017,9458989,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2018,9438785,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2019,9419758,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2020,9379952,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2021,9302585,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2022,9228071,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2023,9178298,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2024,9132629,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+BLR,Belarus,SP.POP.TOTL,"Population, total",count,2025,9085991,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1960,119897000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1961,121236000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1962,122591000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1963,123960000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1964,125345000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1965,126745000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1966,127468000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1967,128196000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1968,128928000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1969,129664000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1970,130404000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1971,131155000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1972,131909000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1973,132669000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1974,133432000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1975,134200000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1976,135147000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1977,136100000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1978,137060000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1979,138027000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1980,139010000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1981,139941000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1982,140823000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1983,141668000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1984,142745000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1985,143858000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1986,144894000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1987,145908000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1988,146857000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1989,147721000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1990,147969406,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1991,148394216,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1992,148538197,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1993,148458777,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1994,148407912,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1995,148375787,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1996,148160129,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1997,147915361,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1998,147670784,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,1999,147214776,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2000,146596869,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2001,145976482,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2002,145306497,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2003,144648618,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2004,144067316,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2005,143518814,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2006,143049637,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2007,142805114,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2008,142742366,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2009,142785348,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2010,142849468,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2011,143018195,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2012,143378447,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2013,143805638,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2014,144237223,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2015,144640716,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2016,145015460,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2017,145293260,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2018,145398106,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2019,145453291,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2020,145245148,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2021,144746762,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2022,144236933,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2023,143826130,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2024,143669648,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+RUS,Russian Federation,SP.POP.TOTL,"Population, total",count,2025,143513328,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1960,2058020,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1961,2103327,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1962,2147227,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1963,2188895,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1964,2228000,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1965,2265287,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1966,2301871,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1967,2337695,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1968,2373073,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1969,2408469,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1970,2437590,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1971,2460611,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1972,2484742,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1973,2510584,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1974,2538164,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1975,2566998,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1976,2596491,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1977,2626298,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1978,2656211,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1979,2683035,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1980,2708675,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1981,2735987,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1982,2763101,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1983,2791207,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1984,2820518,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1985,2850787,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1986,2883057,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1987,2916306,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1988,2948891,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1989,2970039,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1990,2977912,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1991,2981566,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1992,2980965,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1993,2975966,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1994,2966745,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1995,2953200,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1996,2947293,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1997,2936413,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1998,2935227,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,1999,2930622,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2000,2924668,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2001,2918135,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2002,2911385,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2003,2903198,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2004,2896023,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2005,2888985,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2006,2880967,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2007,2874299,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2008,2868833,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2009,2865213,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2010,2862354,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2011,2860699,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2012,2860324,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2013,2859558,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2014,2857815,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2015,2835978,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2016,2803186,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2017,2755189,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2018,2707203,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2019,2664224,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2020,2635130,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2021,2595809,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2022,2528654,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2023,2457783,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2024,2402306,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+MDA,Moldova,SP.POP.TOTL,"Population, total",count,2025,2360527,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1960,357710476,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1961,360681613,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1962,363707978,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1963,366840786,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1964,370055037,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1965,373129199,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1966,376058575,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1967,378902917,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1968,381579577,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1969,384226226,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1970,386406167,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1971,388553371,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1972,391197266,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1973,393739994,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1974,396124649,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1975,398397694,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1976,400490355,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1977,402445831,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1978,404312949,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1979,406112162,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1980,407986180,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1981,409724709,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1982,410988238,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1983,412072128,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1984,412998350,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1985,413962998,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1986,415087013,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1987,416296769,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1988,417653885,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1989,419102379,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1990,420525030,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1991,421741276,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1992,422968989,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1993,424344744,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1994,425404352,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1995,426210050,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1996,426905134,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1997,427547651,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1998,428120105,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,1999,428825949,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2000,429339162,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2001,429909307,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2002,430924112,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2003,432512916,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2004,434193248,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2005,435789139,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2006,437263803,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2007,438796003,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2008,440270719,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2009,441388573,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2010,442088310,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2011,441414078,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2012,442069839,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2013,442425741,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2014,442920819,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2015,443793218,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2016,444676652,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2017,445321060,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2018,446329890,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2019,446910453,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2020,446870959,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2021,446227358,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2022,447202673,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2023,448897545,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+EUU,European Union,SP.POP.TOTL,"Population, total",count,2024,450228188,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1960,42824093,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1961,43399766,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1962,43943674,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1963,44462372,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1964,44951156,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1965,45386892,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1966,45802519,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1967,46215988,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1968,46614325,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1969,46976256,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1970,47261306,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1971,47573287,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1972,47946893,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1973,48277121,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1974,48576570,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1975,48865229,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1976,49120842,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1977,49336481,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1978,49521243,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1979,49721381,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1980,49955152,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1981,50189281,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1982,50402724,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1983,50637029,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1984,50887599,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1985,51108770,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1986,51318745,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1987,51515732,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1988,51724853,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1989,51917817,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1990,52054092,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1991,52170961,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1992,52323671,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1993,52350126,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1994,52075998,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1995,51665539,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1996,51226109,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1997,50786885,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1998,50379731,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,1999,49976446,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2000,49556660,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2001,49106855,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2002,48677281,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2003,48315136,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2004,47979507,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2005,47585556,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2006,47278694,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2007,47062798,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2008,46819175,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2009,46623731,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2010,46456003,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2011,46307853,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2012,46210056,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2013,46126770,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2014,45972380,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2015,45784896,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2016,45616832,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2017,45436041,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2018,45208907,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2019,44957458,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2020,44680014,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2021,44298640,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2022,41048766,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2023,37732836,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2024,37860221,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02
+UKR,Ukraine,SP.POP.TOTL,"Population, total",count,2025,38980376,"World Bank World Development Indicators, SP.POP.TOTL",2026-08-02

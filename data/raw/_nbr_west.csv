@@ -1,0 +1,495 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2022,33.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2021,33.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2020,33.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2019,34,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2018,33.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2017,32.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2016,33,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2015,32.3,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2014,32.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2013,32.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2012,31.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2011,31.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2010,32.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2009,32.9,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2008,33.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2007,34.3,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2006,33.9,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2004,31.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2002,31.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,2000,33.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,1992,33.9,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,SI.POV.GINI,Gini index,index,1982,36,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2025,-1.4735026863079,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2024,2.42254685844836,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2023,2.74499093797298,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2022,2.31291587479113,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2021,3.51903435020736,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2020,-0.858417094148667,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2019,3.84915053606091,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2018,-1.24603124120942,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2017,1.41952980990481,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2016,-4.87068870473279,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2015,1.81548452900569,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2014,0.628548707490107,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2013,-0.253383714333266,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2012,5.31305937295199,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2011,2.00759481951861,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2010,4.91540239256035,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2009,2.18259741615123,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2008,4.3592355460088,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2007,6.08270065269797,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2006,3.39589223808001,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2005,3.22999383954281,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2004,1.85140399656979,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2003,1.82352266071092,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2002,1.54164273891433,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2001,1.8377775731117,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2000,4.88339361449756,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1999,3.60939042539353,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1998,3.69117384399436,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1997,2.82139153819221,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1996,2.35643292384557,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1995,1.58373677689258,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1994,2.16616440055592,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1993,0.82736151054052,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1992,-0.513938916920335,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1991,-0.291933715229675,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1990,0.839576268585927,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1989,1.47738880415491,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1988,0.276765684143757,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1987,0.202364802031281,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1986,1.29875244113846,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1985,-0.650537849189846,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1984,-0.286748376470102,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1983,0.541206991819157,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1982,0.720579490535108,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1981,1.05375755007931,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1980,0.0932050323371181,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1979,0.758194935774459,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1978,1.05663621990102,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1977,1.85746426904784,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1976,1.03695828989876,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1975,0.670923169267413,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1974,1.27989756739251,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1973,0.931635742338498,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1972,0.700072187582331,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1971,0.647235520858746,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1970,0.501822892082066,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2025,29798,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2024,44356,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2023,53806,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2022,58040,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2021,19804,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2020,11277,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2019,25707,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2018,18473,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2017,21657,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2016,26417,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2015,30242,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2014,38522,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2013,40690,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2012,47883,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2011,47454,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2010,42865,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2009,39316,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2008,44002,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2007,40111,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2006,24054,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2005,18588,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2004,13412,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2003,11389,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2002,17279,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2001,7906,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,2000,9805,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1999,19147,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1998,13519,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1997,9744,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1996,5671,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1995,6343,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1994,7580,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1993,12567,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1992,10218,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1991,7949,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1990,1818,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1989,-1730,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1988,10380,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1987,13907,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1986,7616,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1985,6725,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1984,3856,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1983,4120,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1982,5749,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1981,6010,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1980,3763,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1979,2839,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1978,3823,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1977,4845,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1976,4779,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1975,3312,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1974,4425,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1973,3414,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1972,5603,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1971,3031,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1970,-1034,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1969,2230,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1968,1761,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1967,2460,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1966,-888,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1965,-1525,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1964,-1571,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1963,1061,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1962,655,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1961,1437,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SM.POP.NETM,Net migration,count,1960,-1427,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2023,26.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2022,26.9,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2021,29.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2020,28.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2019,27.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2018,27.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2017,27,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2016,28.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2015,27.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2014,26.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2013,26.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2012,25.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2011,25.3,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2010,25.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2009,26.2,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2008,27,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2007,27.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2006,26.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2005,30.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2004,31.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2003,27.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,2000,27.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,1995,26,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,1991,25.2,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,1986,24.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+NOR,Norway,SI.POV.GINI,Gini index,index,1979,26.9,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2025,-1.17732336606846,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2024,-11.1757250603926,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2023,-12.43582733744,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2022,-1.44605128264693,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2021,-14.366241892487,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2020,-31.5520454460584,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2019,3.03579308743079,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2018,-21.8417322340093,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2017,20.7708262545671,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2016,24.4555901017489,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2015,17.0946761521558,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2014,2.83378237216102,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2013,-3.46803774147053,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2012,5.72352684333341,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2011,2.85527784754459,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2010,2.8968438323572,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2009,8.45520486310627,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2008,0.5204308601517,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2007,9.75729400131519,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2006,11.9904120847301,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2005,0.627760062642509,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2004,1.73644742922473,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2003,5.37997633214374,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2002,2.63053078099282,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2001,3.36538740800036,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2000,8.17521915675575,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1999,4.8164248381677,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1998,3.69672322229526,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1997,2.80789983241821,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1996,1.41302599505497,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1995,1.16102713977051,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1994,1.20382560914079,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1993,0.617695431219082,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1992,0.397159817297002,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1991,1.04002610151336,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1990,2.05539256186174,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1989,1.18214375261557,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1988,0.185223813680361,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1987,1.14730437626866,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1986,1.31427683137618,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1985,1.12499358934276,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1984,0.699454120721599,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+CHE,Switzerland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1983,0.55228091479742,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2025,-0.52278219243446,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2024,8.53649263499069,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2023,5.96234250051157,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2022,4.73857488658574,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2021,1.52832650765088,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2020,-3.98671122506617,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2019,-2.22712995709055,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2018,-2.33423231382448,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2017,-27.9324374411863,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2016,-5.05739639771987,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2015,6.47308431453939,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2014,4.24755010057716,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2013,2.90937107233191,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2012,6.85345908435807,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2011,7.19083904863249,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2010,1.84577695426496,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2009,0.48127099169328,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2008,6.59629631732958,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2007,31.2938758397836,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2006,21.9365764797895,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2005,18.042727115684,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2004,5.40905235148605,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2003,2.8998206651811,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2002,0.976035937953064,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2001,1.9636895563517,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2000,1.69756965570434,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1999,0.73168547029209,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1998,1.78383147690664,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1997,1.9180642114198,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1996,1.08476897200301,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1995,-0.126264174306966,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1994,0.0362054951846309,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1993,-0.0000182562799974633,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1992,0.118006165457839,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1991,-0.257802106442804,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1990,-0.0717445050848385,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1989,-0.466712320074277,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1988,-0.234173754033336,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1987,0.0420073842174201,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1986,0.20585699009184,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1985,0.764159626875952,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1984,0.462124666190405,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1983,-0.817428936514967,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1982,1.07873099282527,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1981,1.46607496168657,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1980,0.637212644063248,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1979,0.10497169761129,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1978,0.311583151114617,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1977,0.183750525509687,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1976,0.260439964722507,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1975,2.91198250572286,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1974,0.841754014690214,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1973,-0.125544634997047,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1972,0.322208332365036,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1971,2.85434393009609,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1970,0.82551250568061,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2019,26.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2018,26.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2017,26.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2016,27.2,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2015,26.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2014,27.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2013,25.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2012,26.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2011,26.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2010,26.2,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2009,28.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2008,31.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2007,29.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2006,30.2,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2005,29,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2004,28,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ISL,Iceland,SI.POV.GINI,Gini index,index,2003,26.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,11818000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,11715000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,11133000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,10402000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,9305000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,9158000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,8967000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,8566000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,8534000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,8628000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,8294000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,8608000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,8448000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,7863000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,7229000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,6530000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,6868000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,7455000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,7821000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,7154000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,7185000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,7039000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,6730000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,6946000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,488000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,2202000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,2488000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,2353000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,1891000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,1389000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,1102000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,900000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,765000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,628000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,559000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,563000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,561000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,539000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,477000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,429000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,405000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,348000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,315000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,329000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,328000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,281000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,255000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,223000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,223000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ISL,Iceland,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,211000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2024,40099,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2023,45098,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2022,96424,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2021,50665,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2020,55523,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2019,44517,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2018,41253,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2017,45658,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2016,71009,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2015,71876,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2014,78122,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2013,83823,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2012,67840,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2011,67194,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2010,76388,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2009,69324,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2008,94430,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2007,72475,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2006,37308,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2005,33203,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2004,39484,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2003,42567,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2002,49650,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2001,35420,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2000,24463,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1999,25599,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1998,11325,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1997,-1939,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1996,-131,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1995,25343,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1994,30274,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1993,40267,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1992,42014,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1991,69738,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1990,58428,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1989,34432,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1988,34602,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1987,27081,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1986,23242,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1985,14402,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1984,12532,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1983,5663,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1982,21929,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1981,24229,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1980,17841,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1979,4262,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1978,-6552,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1977,-22516,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1976,-54255,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1975,-58187,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1974,2008,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1973,8158,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1972,19991,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1971,2636,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1970,-18326,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1969,20754,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1968,25828,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1967,27697,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1966,14979,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1965,-1351,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1964,21455,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1963,58415,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1962,82798,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1961,101278,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,1960,22313,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2023,4630,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2022,6535,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2021,4911,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2020,2498,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2019,5030,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2018,6638,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2017,8348,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2016,4128,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2015,1499,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2014,1139,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2013,1666,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2012,-277,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2011,-1393,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2010,-2055,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2009,-4785,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2008,1138,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2007,5254,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2006,5300,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2005,3925,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2004,610,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2003,-204,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2002,-333,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2001,867,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2000,1877,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1999,1165,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1998,1014,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1997,225,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1996,-511,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1995,-1354,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1994,-804,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1993,-194,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1992,-225,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1991,1145,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1990,-971,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1989,-994,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1988,1572,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1987,944,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1986,-335,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1985,-628,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1984,-328,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1983,170,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1982,616,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1981,157,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1980,-629,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1979,-572,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1978,-781,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1977,-1079,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1976,-1181,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1975,-388,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1974,209,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1973,-310,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1972,362,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1971,-231,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1970,-1754,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1969,-1414,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1968,-448,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1967,47,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1966,39,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1965,-194,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1964,-67,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1963,-113,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1962,-228,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1961,164,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,1960,-269,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,1397000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,5879000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,5688000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,6252000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,5960000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,5361000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,4855000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,4778000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,4538000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,4963000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,4767000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,4346000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,4347000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,4377000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,4070000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,3824000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,3628000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,3269000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,3111000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,3073000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,3104000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,3223000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,3256000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,2702000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,2746000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+NOR,Norway,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,2880000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+CHE,Switzerland,SM.POP.NETM,Net migration,count,2025,37253,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2025,2709,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ISL,Iceland,SM.POP.NETM,Net migration,count,2024,3543,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02

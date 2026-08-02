@@ -121,12 +121,17 @@
   .src-list a:hover { text-decoration: underline; }
   .src-list p { margin-top: 10px; }
   code.ind { font-size: 11.5px; color: var(--text-muted); background: var(--page); padding: 1px 5px; border-radius: 4px; }
+  .sitenav{display:flex;gap:14px;margin-bottom:16px;font-size:12.5px;flex-wrap:wrap}
+  .sitenav a{color:var(--text-secondary);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px}
+  .sitenav a:hover{color:var(--text-primary);border-bottom-color:var(--border)}
+  .sitenav a.here{color:var(--text-primary);font-weight:600;border-bottom-color:var(--series-1)}
   .stamp { font-size: 11.5px; color: var(--text-muted); margin-top: 14px; }
 </style>
 </head>
 <body>
 <div class="viz-root">
   <div class="wrap">
+    <nav class="sitenav"><a href="start-here.html">← Overview</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a></nav>
     <header class="top">
       <div>
         <h1 id="hTitle"></h1>
@@ -185,10 +190,18 @@
   function renderChart(host, spec) {
     var opts = spec.opts || {};
     var sc = opts.scale || 1;
+    /* Default colours are assigned from whatever the explicitly-set series have
+       not already claimed. Falling back to position alone silently painted two
+       lines the same hue whenever the first series carried an explicit colour —
+       which is exactly the case where a second colour matters most. */
+    var PALETTE = ["--series-1", "--series-2"];
+    var taken = spec.series.map(function (s) { return s.colorVar; }).filter(Boolean);
+    var free = PALETTE.filter(function (c) { return taken.indexOf(c) === -1; });
     var series = spec.series.map(function (s, i) {
       var vals = seriesValues(s);
       if (sc !== 1) vals = vals.map(function (v) { return v === null ? null : v * sc; });
-      return { name: s.name, colorVar: s.colorVar || (i === 0 ? "--series-1" : "--series-2"), values: vals };
+      var cv = s.colorVar || free.shift() || PALETTE[i % PALETTE.length];
+      return { name: s.name, colorVar: cv, values: vals };
     });
     var wrapBox = h("div");
     if (series.length >= 2) {

@@ -134,6 +134,20 @@ def build(c):
                                {"code": "NY.GDP.PCAP.PP.CD", "name": name}],
                               {"unit": " $", "dp": 0, "endLabelBelow": 2}))
 
+    fin_row3 = []
+    if "EUROSTAT.IRT_LT_MCBY" in hv:
+        fin_row3.append(chart("Long-term government bond yield, %",
+                              "Eurostat EMU convergence-criterion series: yield on ten-year "
+                              "government bonds. What this government pays to borrow.",
+                              [{"code": "EUROSTAT.IRT_LT_MCBY", "name": "10-year yield"}],
+                              {"unit": "%", "dp": 2}))
+    if "EUROSTAT.EARN_NT_NET" in hv:
+        fin_row3.append(chart("Net annual earnings, €",
+                              "Single person, no children, on 100% of the average wage. "
+                              "Eurostat flags 2024 as a break in series.",
+                              [{"code": "EUROSTAT.EARN_NT_NET", "name": "Net annual earnings"}],
+                              {"unit": " €", "dp": 0}))
+
     financial = [{"type": "prose", "title": "Financial", "paras": [
         "Charts below are the collected World Bank series for this country across the whole "
         "observation window. Written analysis of what membership did to these numbers is "
@@ -142,6 +156,8 @@ def build(c):
         financial.append({"type": "chartRow", "charts": fin_row1})
     if fin_row2:
         financial.append({"type": "chartRow", "charts": fin_row2})
+    if fin_row3:
+        financial.append({"type": "chartRow", "charts": fin_row3})
 
     commercial = [{"type": "prose", "title": "Commercial", "paras": [
         "Trade openness, investment and tourism. Written analysis pending."]}]
@@ -172,11 +188,20 @@ def build(c):
                             "inflow, red = net outflow.",
                             [{"code": "SM.POP.NETM", "name": "Net migration"}],
                             {"type": "bar", "unit": "k", "dp": 1, "zero": True, "scale": 1e-3}) | {"type": "chart"})
+    srow = []
     if "SI.POV.GINI" in hv:
-        social.append({"type": "chartRow", "charts": [
-            chart("Income inequality (Gini index)",
-                  "World Bank estimate (0 = perfect equality). Sparse in early years.",
-                  [{"code": "SI.POV.GINI", "name": "Gini index"}], {"unit": "", "dp": 1})]})
+        srow.append(chart("Income inequality (Gini index)",
+                          "World Bank estimate (0 = perfect equality). Survey-based, so points "
+                          "are irregular and gaps mean no survey rather than no change.",
+                          [{"code": "SI.POV.GINI", "name": "Gini index"}], {"unit": "", "dp": 1}))
+    if "DERIVED.NETM.P1000" in hv:
+        srow.append(chart("Net migration per 1,000 residents",
+                          "The same flow scaled by population, which is the comparable form — the "
+                          "chart above is a headcount and so partly tracks country size.",
+                          [{"code": "DERIVED.NETM.P1000", "name": "Net migration per 1,000"}],
+                          {"unit": "", "dp": 1, "zero": True}))
+    if srow:
+        social.append({"type": "chartRow", "charts": srow})
 
     # legal / political prose from verified metadata
     legal_paras = []

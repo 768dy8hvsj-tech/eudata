@@ -77,18 +77,30 @@
   table.t th{color:var(--text-muted);font-weight:500;text-align:left}
   table.t td.num,table.t th.num{text-align:right;font-variant-numeric:tabular-nums}
   table.t td.nm{color:var(--text-primary);font-weight:500}
+  .badge{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:0.04em;
+  text-transform:uppercase;padding:2px 7px;border-radius:20px;border:1px solid var(--border)}
+  .badge.good{color:var(--series-1);border-color:var(--series-1)}
+  .badge.warn{color:var(--series-2);border-color:var(--series-2)}
+  .badge.bad{color:var(--text-muted)}
+  table.t td.warnrow{color:var(--text-muted);font-size:11.5px;line-height:1.5;
+  padding:2px 8px 8px;border-bottom:1px solid var(--grid)}
   details summary{font-size:12px;color:var(--text-muted);cursor:pointer;padding:6px 0}
   details summary:hover{color:var(--text-primary)}
   .note{font-size:12px;color:var(--text-muted);line-height:1.55;margin-top:12px}
   .warn{border-left:2px solid var(--neg);padding-left:12px;margin-top:12px}
   .warn p{margin-top:6px}
   .stamp{font-size:11.5px;color:var(--text-muted);margin-top:14px}
+  .sitenav{display:flex;gap:14px;margin-bottom:16px;font-size:12.5px;flex-wrap:wrap}
+  .sitenav a{color:var(--text-secondary);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px}
+  .sitenav a:hover{color:var(--text-primary);border-bottom-color:var(--border)}
+  .sitenav a.here{color:var(--text-primary);font-weight:600;border-bottom-color:var(--series-1)}
   .pill{display:inline-block;font-size:11px;color:var(--text-muted);border:1px solid var(--border);
     border-radius:20px;padding:2px 9px;margin:3px 4px 0 0}
 </style>
 </head>
 <body>
 <div class="viz-root"><div class="wrap">
+  <nav class="sitenav"><a href="start-here.html">← Overview</a><a href="index.html">Country comparison</a><a class="here">The argument</a></nav>
   <header class="top">
     <div>
       <h1>Did EU membership change member states' trajectories?</h1>
@@ -278,7 +290,7 @@ function convScatter(host,fit,treated){
 }
 
 /* ---------- estimate cards ---------- */
-function estCard(label,val,unit,dp,ci,goodIsPositive,n){
+function estCard(label,val,unit,dp,ci,goodIsPositive,n,pl){
   var e=h("div","est");
   e.appendChild(h("div","lbl",label));
   e.appendChild(h("div","val",val===null?"–":fmt(val,dp)+unit));
@@ -291,6 +303,27 @@ function estCard(label,val,unit,dp,ci,goodIsPositive,n){
     e.appendChild(v);
   } else if(n!==undefined){
     e.appendChild(h("div","ci","n="+n+" — too few countries for an interval"));
+  }
+  /* A confidence interval says the estimate is precise. The placebo says whether
+     it is measuring the right thing. A card that shows the first without the
+     second overstates its case, so both travel together. */
+  if(pl&&pl.verdict){
+    var b=h("div","verdict");
+    if(pl.verdict==="passes"){
+      b.innerHTML="<span class='badge good'>finding</span> Pre-accession placebo reports "
+        +fmt(pl.mean,1)+unit+" — the groups were moving in parallel before accession.";
+    } else if(pl.verdict==="adjusted"){
+      b.innerHTML="<span class='badge warn'>indicative</span> The groups were already diverging: a "
+        +"placebo run on pre-accession years alone reports "+fmt(pl.mean,1)+unit
+        +". Net of that, "+fmt(pl.adjusted,1)+unit+" remains.";
+    } else if(pl.verdict==="untestable"){
+      b.innerHTML="<span class='badge bad'>not identified</span> The series does not reach far enough "
+        +"back to test whether the groups were moving in parallel before accession.";
+    } else {
+      b.innerHTML="<span class='badge bad'>not identified</span> A placebo run on pre-accession years "
+        +"alone already reports "+fmt(pl.mean,1)+unit+" — most of this gap predates accession.";
+    }
+    e.appendChild(b);
   }
   return e;
 }
@@ -314,19 +347,27 @@ TABS.forEach(function(t,i){
   if(t.id==="findings"){
     var head=h("div","card");
     head.appendChild(h("h3","","The headline, stated carefully"));
-    head.appendChild(h("p","","Eastern members grew enormously after joining — roughly <strong>55% to 93% higher income per head</strong> within a decade. But so did the Western Balkan countries that did not join. Once you account for the fact that poorer economies grow faster mechanically, the <strong>average difference attributable to membership is not statistically distinguishable from zero</strong> in this data."));
+    head.appendChild(h("p","","Eastern members grew enormously after joining. But so did the Western Balkan countries that did not join. Once you account for the fact that poorer economies grow faster mechanically, the <strong>average difference attributable to membership is not statistically distinguishable from zero</strong> in this data."));
     head.appendChild(h("p","","That is not the same as saying membership did nothing. It means this method, with these controls, cannot prove an average income effect at the confidence level this project requires. The country-level spread is large and systematic, and three specific biases all push the estimate toward zero — see <em>Method &amp; limits</em>."));
     sec.appendChild(head);
 
     var g=h("div","estimates");
     g.appendChild(estCard("Eastern members, income per head<br>vs non-members (raw)",
-      inc.did.East.mean,"%",1,inc.did.East.ci,true,inc.did.East.n));
-    g.appendChild(estCard("Eastern members, income per head<br>adjusted for catch-up growth",
-      adjE.mean,"%",1,adjE.ci,true,adjE.n));
+      inc.did.East.mean,"%",1,inc.did.East.ci,true,inc.did.East.n,inc.did.East.placebo));
+    if(adjE.mean===null||adjE.mean===undefined){
+      var ne=h("div","est");
+      ne.appendChild(h("div","lbl","Eastern members, income per head<br>adjusted for catch-up growth"));
+      ne.appendChild(h("div","val","not identified"));
+      ne.appendChild(h("div","ci","the catch-up line could not be estimated for these accession windows"));
+      g.appendChild(ne);
+    } else {
+      g.appendChild(estCard("Eastern members, income per head<br>adjusted for catch-up growth",
+        adjE.mean,"%",1,adjE.ci,true,adjE.n));
+    }
     g.appendChild(estCard("Eastern members, gap closed<br>on the EU average",
-      conv.did.East.mean,"pp",1,conv.did.East.ci,true,conv.did.East.n));
+      conv.did.East.mean,"pp",1,conv.did.East.ci,true,conv.did.East.n,conv.did.East.placebo));
     g.appendChild(estCard("Eastern members, unemployment<br>vs non-members",
-      unem.did.East.mean,"pp",1,unem.did.East.ci,false,unem.did.East.n));
+      unem.did.East.mean,"pp",1,unem.did.East.ci,false,unem.did.East.n,unem.did.East.placebo));
     sec.appendChild(g);
 
     var c1=h("div","card");
@@ -348,6 +389,73 @@ TABS.forEach(function(t,i){
     det.appendChild(tb);c1.appendChild(det);
     c1.appendChild(h("p","note","The pattern is not random: the four countries below the line — Slovenia, Hungary, Czechia and Croatia — were the richest Eastern members at accession. The ones furthest above — Romania, Estonia, Lithuania — were among the poorest. Even after adjusting for catch-up, some of that residual gradient probably remains."));
     sec.appendChild(c1);
+
+    /* ---- the scoreboard: every estimate, with what the checks did to it ---- */
+    var sb=h("div","card");
+    sb.appendChild(h("h3","","Every estimate, and whether it survived"));
+    sb.appendChild(h("p","sub","Nine outcomes across three blocs. Each one is run twice: once over the real "
+      +"accession windows, and once entirely over pre-accession years as a placebo. If the placebo already "
+      +"reports an effect, the groups were drifting apart before anyone joined and the headline number is "
+      +"not an effect of membership. Only rows marked <strong>finding</strong> are carried into the "
+      +"conclusions of this study."));
+    var st=h("table","t");
+    var sh=document.createElement("tr");
+    ["Outcome","Bloc","n","Raw estimate","Placebo","Status"].forEach(function(x,j){
+      var th=document.createElement("th");if(j>1)th.className="num";th.textContent=x;sh.appendChild(th)});
+    st.appendChild(sh);
+    var nFind=0, findings=[];
+    P.measures.forEach(function(m){
+      ["West","South","East"].forEach(function(bloc){
+        var d=m.did[bloc];
+        if(!d||!d.rows||!d.rows.length)return;
+        var pl=d.placebo||{}, ok=d.identified&&pl.verdict==="passes";
+        if(ok){nFind++;findings.push({m:m,bloc:bloc,d:d})}
+        var tr2=document.createElement("tr");
+        var cells=[[m.label,"nm"],[bloc,""],[String(d.n),"num"],
+          [fmt(d.mean,1)+" "+m.unit,"num"],
+          [pl.verdict==="untestable"?"not testable":(pl.mean===null||pl.mean===undefined?"—":fmt(pl.mean,1)),"num"],
+          [null,"num"]];
+        cells.forEach(function(c,ci){
+          var td=document.createElement("td");td.className=c[1];
+          if(ci===5){
+            var badge=h("span","badge "+(ok?"good":(pl.verdict==="adjusted"?"warn":"bad")));
+            badge.textContent=ok?"finding":(pl.verdict==="adjusted"?"indicative":"not identified");
+            td.appendChild(badge);
+          } else td.textContent=c[0];
+          tr2.appendChild(td)});
+        st.appendChild(tr2);
+        if(d.warnings&&d.warnings.length){
+          var wr=document.createElement("tr");
+          var wtd=document.createElement("td");wtd.colSpan=6;wtd.className="warnrow";
+          wtd.textContent="⚠ "+d.warnings.join(" · ");
+          wr.appendChild(wtd);st.appendChild(wr);
+        }
+      })});
+    sb.appendChild(st);
+    sb.appendChild(h("p","note","Of "+st.rows.length+" estimates attempted, "+nFind+" clear every check. "
+      +"That is a low strike rate and it is the correct one: most of these comparisons are defeated either by "
+      +"a control group too small to be a counterfactual, or by series that do not reach far enough back "
+      +"before accession to test the assumption the method rests on."));
+    sec.appendChild(sb);
+
+    /* ---- the commercial result, which is the strongest thing here ---- */
+    var tm=P.measures.filter(function(m){return m.id==="trade"})[0];
+    if(tm&&tm.did.East.rows.length){
+      var ct=h("div","card");
+      ct.appendChild(h("h3","","Trade openness: the one large, clean effect"));
+      ct.appendChild(h("p","sub","Exports plus imports as a share of GDP, difference-in-differences against "
+        +"Western Balkan non-members, percentage points. Every one of the "+tm.did.East.n+" Eastern members is "
+        +"above its control group, and the pre-accession placebo reports "+fmt(tm.did.East.placebo.mean,1)
+        +" — essentially nothing — so the gap opens at accession rather than before it."));
+      divergingBars(ct,tm.did.East.rows,"did","pp",1,true);
+      ct.appendChild(h("p","note","This is the result the study is most confident in, and it is worth being "
+        +"clear about why it is more credible than the income estimates. Trade is the channel the single "
+        +"market acts on most directly, the effect is unanimous across eleven countries rather than an "
+        +"average over a wide spread, and it survives a placebo test that the income comparisons fail. "
+        +"What it does not tell you is whether more trade made people better off — that is the income "
+        +"question, and the income question remains unresolved here."));
+      sec.appendChild(ct);
+    }
 
     var c2=h("div","card");
     c2.appendChild(h("h3","","Unemployment: no membership dividend visible"));
@@ -451,7 +559,26 @@ TABS.forEach(function(t,i){
       cn.innerHTML="<strong>Controls:</strong> "+(P.controlsByBloc[bloc].length?P.controlsByBloc[bloc].join(", "):"none available");
       cv.appendChild(cn);
     });
-    cv.appendChild(h("p","note","The South bloc has no non-member control group at all — there is no comparable Mediterranean or post-authoritarian European country that stayed outside the Union. Greece, Portugal and Spain can be described but not tested by this method."));
+    var ident=h("div","warn");
+    ident.appendChild(h("p","","<strong>Descriptive coverage is not the same as a credible estimate.</strong> "
+      +"Adding the long-run income series (World Bank constant 2015 US$, available from 1960) raised the number of "
+      +"members with a measurable pre-accession baseline from 11 to 22. But the <em>convergence-adjusted</em> estimate "
+      +"— the one that removes the mechanical advantage of starting poor — additionally needs a control group spanning "
+      +"a wide enough income range to fit the catch-up line."));
+    ["East","South","West"].forEach(function(b){
+      var a=P.adjusted[b];
+      var p=h("p","");
+      p.innerHTML="<strong>"+b+":</strong> "+(a.identifiedWindows.length
+        ? "catch-up line identified for the "+a.identifiedWindows.join(", ")+" window(s) — "+a.n+" of "+a.nShown+" members carry an adjusted estimate."
+        : "catch-up line <em>not identified</em> for any window; no adjusted estimate is reported.")
+        +(a.unidentifiedWindows.length?" Rejected: "+a.unidentifiedWindows.join(", ")+" (fit explains too little variance).":"");
+      ident.appendChild(p);
+    });
+    cv.appendChild(ident);
+    cv.appendChild(h("p","note","The South bloc rests on a single comparator, Turkey — the only European country with a "
+      +"comparable Mediterranean, later-industrialising, post-authoritarian profile that never joined. One control is "
+      +"thin, and the South result should be read as indicative at best. The six founding members remain untestable "
+      +"by any method here: they joined in 1958 and the earliest income data is 1960, so no pre-accession baseline exists."));
     sec.appendChild(cv);
   }
 });

@@ -52,7 +52,11 @@ def load():
 def main():
     series, names = load()
     meta = {r["iso3"]: r for r in csv.DictReader(open(os.path.join(DATA, "countries.csv"), encoding="utf-8"))}
-    have = sorted({iso for (iso, _) in series} - {"EUU"})
+    # the index is a comparison of MEMBER states; non-member controls live in
+    # analysis.html and must not appear in these rankings
+    member_iso = {b["iso3"] for b in csv.DictReader(open(os.path.join(DATA, "blocs.csv"), encoding="utf-8"))
+                  if b["group"] == "member"}
+    have = sorted(({iso for (iso, _) in series} - {"EUU"}) & member_iso)
 
     years = list(range(1996, 2026))
     payload = {"generated": datetime.date.today().isoformat(), "years": years,

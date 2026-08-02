@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EU membership impact — regional comparison</title>
+<style>
+  .viz-root{color-scheme:light;--surface-1:#fcfcfb;--page:#f9f9f7;--text-primary:#0b0b0b;
+  --text-secondary:#52514e;--text-muted:#898781;--grid:#e1e0d9;--baseline:#c3c2b7;
+  --border:rgba(11,11,11,0.10);--series-1:#2a78d6;--series-2:#eb6834;--neg:#e34948;
+  --deemph:#c3c2b7;--tooltip-bg:#fff;--wash:rgba(42,120,214,0.07)}
+  @media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])) .viz-root{color-scheme:dark;
+  --surface-1:#1a1a19;--page:#0d0d0d;--text-primary:#fff;--text-secondary:#c3c2b7;--text-muted:#898781;
+  --grid:#2c2c2a;--baseline:#383835;--border:rgba(255,255,255,0.10);--series-1:#3987e5;--series-2:#d95926;
+  --neg:#e66767;--deemph:#52514e;--tooltip-bg:#242423;--wash:rgba(57,135,229,0.12)}}
+  :root[data-theme="dark"] .viz-root{color-scheme:dark;--surface-1:#1a1a19;--page:#0d0d0d;--text-primary:#fff;
+  --text-secondary:#c3c2b7;--text-muted:#898781;--grid:#2c2c2a;--baseline:#383835;
+  --border:rgba(255,255,255,0.10);--series-1:#3987e5;--series-2:#d95926;--neg:#e66767;
+  --deemph:#52514e;--tooltip-bg:#242423;--wash:rgba(57,135,229,0.12)}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+  .viz-root{background:var(--page);color:var(--text-primary);min-height:100vh;padding:24px 20px 48px}
+  .wrap{max-width:1060px;margin:0 auto}
+  .sitenav{display:flex;gap:14px;margin-bottom:16px;font-size:12.5px;flex-wrap:wrap}
+  .sitenav a{color:var(--text-secondary);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px}
+  .sitenav a:hover{color:var(--text-primary);border-bottom-color:var(--border)}
+  .sitenav a.here{color:var(--text-primary);font-weight:600;border-bottom-color:var(--series-1)}
+  header.top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+  h1{font-size:26px;font-weight:650;letter-spacing:-0.02em}
+  .subtitle{color:var(--text-secondary);font-size:14px;margin-top:5px;max-width:700px;line-height:1.55}
+  .theme-btn{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);
+  border-radius:8px;padding:6px 12px;font-size:12.5px;cursor:pointer;white-space:nowrap;font-family:inherit}
+  nav.tabs{display:flex;gap:3px;margin:20px 0 10px;flex-wrap:wrap;border-bottom:1px solid var(--border)}
+  nav.tabs button{background:none;border:none;border-bottom:2px solid transparent;color:var(--text-secondary);
+  font-size:13.5px;font-weight:500;padding:8px 12px 10px;cursor:pointer;font-family:inherit}
+  nav.tabs button:hover{color:var(--text-primary)}
+  nav.tabs button[aria-selected="true"]{color:var(--text-primary);border-bottom-color:var(--series-1);font-weight:600}
+  .mrow{display:flex;gap:6px 18px;flex-wrap:wrap;margin:12px 0 16px;align-items:center}
+  .mgroup{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+  .mlab{font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-muted);
+  font-weight:600;margin-right:2px}
+  .mrow button{background:var(--surface-1);border:1px solid var(--border);border-radius:20px;
+  color:var(--text-secondary);font-size:12.5px;padding:5px 13px;cursor:pointer;font-family:inherit}
+  .mrow button:hover{color:var(--text-primary)}
+  .mrow button[aria-pressed="true"]{color:var(--text-primary);border-color:var(--series-1);font-weight:600}
+  .card{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;padding:18px 18px 14px;margin-bottom:14px}
+  .card h3{font-size:15px;font-weight:600}
+  .card .sub{font-size:12.5px;color:var(--text-secondary);margin-top:4px;margin-bottom:12px;line-height:1.5}
+  .card p{font-size:13.5px;color:var(--text-secondary);line-height:1.6;margin-top:9px}
+  .card p strong{color:var(--text-primary);font-weight:600}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:11px;margin-bottom:14px}
+  .tile{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+  .tile .k{font-size:12px;color:var(--text-secondary)}
+  .tile .v{font-size:25px;font-weight:600;margin-top:4px;letter-spacing:-0.01em}
+  .tile .d{font-size:11.5px;color:var(--text-muted);margin-top:4px;line-height:1.4}
+  .chart-box{position:relative}.chart-box svg{display:block;width:100%;height:auto}
+  .tooltip{position:absolute;pointer-events:none;display:none;z-index:5;background:var(--tooltip-bg);
+  border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+  .tooltip .tt-title{color:var(--text-muted);font-size:11px;margin-bottom:3px}
+  .tooltip .tt-row{display:flex;align-items:center;gap:6px;margin-top:2px}
+  .tooltip .tt-key{width:10px;height:2px;border-radius:1px;flex:none}
+  .tooltip .tt-val{font-weight:600;color:var(--text-primary)}
+  .tooltip .tt-name{color:var(--text-secondary)}
+  .legend{display:flex;gap:16px;margin-bottom:9px;flex-wrap:wrap}
+  .legend .key{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--text-secondary)}
+  .legend .key i{width:16px;height:2px;border-radius:1px;display:block}
+  .sm-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+  .sm{border:1px solid var(--border);border-radius:10px;padding:9px 11px 7px}
+  .sm .nm{font-size:12.5px;font-weight:600;color:var(--text-primary)}
+  .sm .vl{font-size:11.5px;color:var(--text-secondary);font-variant-numeric:tabular-nums;margin-bottom:3px}
+  table.t{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:4px}
+  table.t th,table.t td{padding:5px 8px;border-bottom:1px solid var(--grid);color:var(--text-secondary)}
+  table.t th{color:var(--text-muted);font-weight:500;text-align:left}
+  table.t td.num,table.t th.num{text-align:right;font-variant-numeric:tabular-nums}
+  table.t td.nm{color:var(--text-primary);font-weight:500}
+  details summary{font-size:12px;color:var(--text-muted);cursor:pointer;padding:6px 0}
+  details summary:hover{color:var(--text-primary)}
+  .clist{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px;margin-top:10px}
+  .clist a{display:block;border:1px solid var(--border);border-radius:10px;padding:9px 12px;
+  text-decoration:none;background:var(--surface-1)}
+  .clist a:hover{border-color:var(--series-1)}
+  .clist .n{display:block;font-size:13px;font-weight:600;color:var(--text-primary)}
+  .clist .d{display:block;font-size:11.5px;color:var(--text-muted);margin-top:2px}
+  .note{font-size:12px;color:var(--text-muted);line-height:1.55;margin-top:12px}
+  .warn{border-left:2px solid var(--series-2);padding-left:12px;margin-top:12px}
+  .stamp{font-size:11.5px;color:var(--text-muted);margin-top:14px}
+</style>
+</head>
+<body>
+<div class="viz-root"><div class="wrap">
+  <nav class="sitenav"><a href="start-here.html">← Overview</a><a class="here">Regional comparison</a><a href="analysis.html">The argument</a></nav>
+  <header class="top">
+    <div><h1>EU membership impact — regional comparison</h1>
+    <p class="subtitle">Twenty-eight member states grouped into seven regions, plus their non-EU neighbours. <strong>All regions</strong> compares the seven against each other; each <strong>region tab</strong> compares the countries inside it — EU members against the neighbours that never joined, which is the closest thing to a like-for-like test the data allows.</p></div>
+    <button class="theme-btn" id="themeBtn" type="button">Theme: auto</button>
+  </header>
+  <nav class="tabs" role="tablist" id="tabs"></nav>
+  <div class="mrow" id="mrow"></div>
+  <div id="panel"></div>
+  <p class="stamp" id="stamp"></p>
+</div></div>
+
+<script id="payload" type="application/json">__PAYLOAD__</script>
+<script>
+(function(){
+"use strict";
+var P=JSON.parse(document.getElementById("payload").textContent);
+var NS="http://www.w3.org/2000/svg",Y=P.years,Y0=Y[0],Y1=Y[Y.length-1];
+var curTab="all",curM=P.measures[0].id;
+
+document.getElementById("stamp").textContent="Generated "+P.generated+
+  " · region aggregates are medians · World Bank Open Data";
+
+function el(t,a,s){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);if(s)e.setAttribute("style",s);return e}
+function h(t,c,html){var e=document.createElement(t);if(c)e.className=c;if(html!==undefined)e.innerHTML=html;return e}
+function M(){return P.measures.filter(function(m){return m.id===curM})[0]}
+function lab(m,v){return v===null||v===undefined?"–":m.prefix+v.toLocaleString("en-US",{minimumFractionDigits:m.dp,maximumFractionDigits:m.dp})+m.suffix}
+function sgn(v,dp){return (v>0?"+":"")+v.toLocaleString("en-US",{minimumFractionDigits:dp,maximumFractionDigits:dp})}
+function ticks(lo,hi,n){var sp=hi-lo,st=Math.pow(10,Math.floor(Math.log10(sp/n))),er=sp/n/st;
+  if(er>=7.5)st*=10;else if(er>=3.5)st*=5;else if(er>=1.5)st*=2;
+  var t=[],v=Math.ceil(lo/st)*st;for(;v<=hi+1e-9;v+=st)t.push(Math.round(v*1000)/1000);return t}
+
+/* ---------- emphasis line chart: one region lit, the rest grey ---------- */
+function emphasisChart(host,m,focus,extra){
+  var W=790,H=310,L=54,R=118,T=14,B=30,pw=W-L-R,ph=H-T-B;
+  var all=[];
+  P.regionOrder.forEach(function(r){(m.regionPaths[r]||[]).forEach(function(v){if(v!==null)all.push(v)})});
+  if(extra)extra.forEach(function(s){s.path.forEach(function(v){if(v!==null&&v!==undefined)all.push(v)})});
+  if(!all.length){host.appendChild(h("p","note","No data for this measure."));return}
+  var lo=Math.min.apply(null,all),hi=Math.max.apply(null,all),pad=(hi-lo)*0.08||1;
+  lo=(lo>=0)?Math.max(0,lo-pad):lo-pad;hi+=pad;
+  var xs=function(y){return L+(y-Y0)/(Y1-Y0)*pw},ys=function(v){return T+(hi-v)/(hi-lo)*ph};
+  var box=h("div","chart-box");
+  var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":m.label+(focus?" — "+focus+" highlighted":"")});
+  ticks(lo,hi,5).forEach(function(t){
+    svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(t),y2:ys(t)},"stroke:var(--grid);stroke-width:1"));
+    var q=el("text",{x:L-7,y:ys(t)+3.5,"text-anchor":"end"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    q.textContent=t.toLocaleString("en-US");svg.appendChild(q)});
+  if(m.ref!==null&&m.ref!==undefined&&m.ref>lo&&m.ref<hi){
+    svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(m.ref),y2:ys(m.ref)},"stroke:var(--baseline);stroke-width:1"));
+    var rl=el("text",{x:L+4,y:ys(m.ref)-4},"fill:var(--text-muted);font-size:10px");
+    rl.textContent="EU average";svg.appendChild(rl)}
+  Y.forEach(function(y){if(y%5!==0)return;
+    var q=el("text",{x:xs(y),y:H-10,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    q.textContent=y;svg.appendChild(q)});
+  function draw(path,stroke,width,op,dash){
+    var d="",pen=false;
+    path.forEach(function(v,i){if(v===null||v===undefined){pen=false;return}
+      d+=(pen?" L":" M")+xs(Y[i]).toFixed(1)+","+ys(v).toFixed(1);pen=true});
+    if(d)svg.appendChild(el("path",{d:d,fill:"none"},"stroke:"+stroke+";stroke-width:"+width
+      +";stroke-linejoin:round;stroke-linecap:round"+(op?";opacity:"+op:"")+(dash?";stroke-dasharray:"+dash:"")));
+  }
+  function endLabel(path,text,color,dy){
+    var li=path.length-1;while(li>=0&&(path[li]===null||path[li]===undefined))li--;
+    if(li<0)return;
+    svg.appendChild(el("circle",{cx:xs(Y[li]),cy:ys(path[li]),r:3.5},"fill:"+color+";stroke:var(--surface-1);stroke-width:2"));
+    var t=el("text",{x:xs(Y[li])+7,y:ys(path[li])+3.5+(dy||0)},"fill:"+color+";font-size:11px;font-weight:600");
+    t.textContent=text;svg.appendChild(t);
+  }
+  // context first, focus last so it sits on top
+  P.regionOrder.forEach(function(r){if(r!==focus)draw(m.regionPaths[r]||[],"var(--deemph)",1.5,0.9)});
+  if(!focus){
+    // Seven series converge at the right edge, so end labels collide. Stacking
+    // them without a connector detaches a label from its line, so each label is
+    // pushed to a free slot and joined back with a leader line.
+    var lbls=[];
+    P.regionOrder.forEach(function(r){
+      var p=m.regionPaths[r]||[],li=p.length-1;while(li>=0&&p[li]===null)li--;
+      if(li>=0)lbls.push({r:r,x:xs(Y[li]),y:ys(p[li]),ty:ys(p[li])})});
+    lbls.sort(function(a,b){return a.ty-b.ty});
+    var MIN=13;
+    for(var i=1;i<lbls.length;i++)
+      if(lbls[i].ty-lbls[i-1].ty<MIN)lbls[i].ty=lbls[i-1].ty+MIN;
+    var over=lbls.length?lbls[lbls.length-1].ty-(T+ph):0;
+    if(over>0)lbls.forEach(function(l){l.ty-=over});
+    lbls.forEach(function(l){
+      if(Math.abs(l.ty-l.y)>1.5)
+        svg.appendChild(el("path",{d:"M"+(l.x+2)+","+l.y+" L"+(l.x+5)+","+l.ty+" L"+(l.x+8)+","+l.ty,fill:"none"},
+          "stroke:var(--baseline);stroke-width:1"));
+      svg.appendChild(el("circle",{cx:l.x,cy:l.y,r:2.5},"fill:var(--deemph)"));
+      var t=el("text",{x:l.x+11,y:l.ty+3.5},"fill:var(--text-secondary);font-size:10.5px");
+      t.textContent=l.r;svg.appendChild(t)});
+  }
+  if(extra)extra.forEach(function(s){draw(s.path,"var(--deemph)",1,0.55)});
+  if(focus){draw(m.regionPaths[focus]||[],"var(--series-1)",2.5);
+    endLabel(m.regionPaths[focus]||[],focus,"var(--series-1)")}
+  box.appendChild(svg);
+  var tt=h("div","tooltip");box.appendChild(tt);
+  svg.addEventListener("pointermove",function(ev){
+    var pt=svg.createSVGPoint();pt.x=ev.clientX;pt.y=ev.clientY;
+    var mm=svg.getScreenCTM();if(!mm)return;
+    var loc=pt.matrixTransform(mm.inverse());
+    var i=Math.max(0,Math.min(Y.length-1,Math.round((loc.x-L)/pw*(Y1-Y0))));
+    while(tt.firstChild)tt.removeChild(tt.firstChild);
+    var a=h("div","tt-title");a.textContent=Y[i];tt.appendChild(a);
+    P.regionOrder.forEach(function(r){
+      var v=(m.regionPaths[r]||[])[i];if(v===null||v===undefined)return;
+      var row=h("div","tt-row");
+      var k=h("span","tt-key");k.style.background=(r===focus)?"var(--series-1)":"var(--deemph)";
+      var val=h("span","tt-val");val.textContent=lab(m,v);
+      var nm=h("span","tt-name");nm.textContent=r;
+      row.appendChild(k);row.appendChild(val);row.appendChild(nm);tt.appendChild(row)});
+    tt.style.display="block";
+    var rect=box.getBoundingClientRect(),px=(xs(Y[i])/W)*rect.width,left=px+12;
+    if(left+tt.offsetWidth>rect.width-4)left=px-tt.offsetWidth-12;
+    tt.style.left=Math.max(2,left)+"px";tt.style.top="10px";
+  });
+  svg.addEventListener("pointerleave",function(){tt.style.display="none"});
+  host.appendChild(box);
+}
+
+/* ---------- diverging change bars ---------- */
+function changeBars(host,m){
+  var rows=m.changes,n=rows.length,W=760,rowH=26,L=132,R=64,T=6,B=24,H=T+B+n*rowH,pw=W-L-R;
+  var mx=Math.max.apply(null,rows.map(function(r){return Math.abs(r.change)}))*1.15||1;
+  var x0=L+pw/2,xs=function(v){return x0+v/mx*(pw/2)};
+  var box=h("div","chart-box");
+  var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":"change by region"});
+  ticks(-mx,mx,4).forEach(function(t){
+    svg.appendChild(el("line",{x1:xs(t),x2:xs(t),y1:T,y2:T+n*rowH},"stroke:var(--grid);stroke-width:1"));
+    var q=el("text",{x:xs(t),y:H-8,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    q.textContent=Math.round(t);svg.appendChild(q)});
+  svg.appendChild(el("line",{x1:x0,x2:x0,y1:T,y2:T+n*rowH},"stroke:var(--baseline);stroke-width:1"));
+  rows.forEach(function(r,i){
+    var v=r.change,y=T+i*rowH+4,bh=15,good=m.lowerIsBetter?v<0:v>0;
+    var xa=Math.min(x0,xs(v)),bw=Math.max(2,Math.abs(xs(v)-x0)),rr=Math.min(4,bh/2,bw/2);
+    var d=v>=0?"M"+xa+","+y+" L"+(xa+bw-rr)+","+y+" Q"+(xa+bw)+","+y+" "+(xa+bw)+","+(y+rr)+" L"+(xa+bw)+","+(y+bh-rr)+" Q"+(xa+bw)+","+(y+bh)+" "+(xa+bw-rr)+","+(y+bh)+" L"+xa+","+(y+bh)+" Z"
+      :"M"+(xa+bw)+","+y+" L"+(xa+rr)+","+y+" Q"+xa+","+y+" "+xa+","+(y+rr)+" L"+xa+","+(y+bh-rr)+" Q"+xa+","+(y+bh)+" "+(xa+rr)+","+(y+bh)+" L"+(xa+bw)+","+(y+bh)+" Z";
+    svg.appendChild(el("path",{d:d},"fill:var("+(good?"--series-1":"--neg")+")"));
+    var nm=el("text",{x:L-10,y:y+bh-3,"text-anchor":"end"},"fill:var(--text-primary);font-size:11.5px");
+    nm.textContent=r.region;svg.appendChild(nm);
+    var vl=el("text",{x:v>=0?xs(v)+6:xs(v)-6,y:y+bh-3,"text-anchor":v>=0?"start":"end"},
+      "fill:var(--text-secondary);font-size:11.5px;font-variant-numeric:tabular-nums");
+    vl.textContent=sgn(v,1)+m.suffix;svg.appendChild(vl)});
+  box.appendChild(svg);host.appendChild(box);
+}
+
+/* ---------- small multiples, one per region ---------- */
+function smallMultiples(host,m){
+  var all=[];P.regionOrder.forEach(function(r){(m.regionPaths[r]||[]).forEach(function(v){if(v!==null)all.push(v)})});
+  var lo=Math.min.apply(null,all),hi=Math.max.apply(null,all),pad=(hi-lo)*0.08;
+  lo=(lo>=0)?Math.max(0,lo-pad):lo-pad;hi+=pad;
+  var grid=h("div","sm-grid");
+  P.regionOrder.forEach(function(r){
+    var p=m.regionPaths[r]||[],cell=h("div","sm");
+    cell.appendChild(h("div","nm",r));
+    var li=p.length-1;while(li>=0&&p[li]===null)li--;
+    cell.appendChild(h("div","vl",li>=0?lab(m,p[li]):"–"));
+    var W=200,H=64,T=4,B=4;
+    var xs=function(i){return i/(Y.length-1)*W},ys=function(v){return T+(hi-v)/(hi-lo)*(H-T-B)};
+    var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":r+" "+m.label});
+    if(m.ref!==null&&m.ref!==undefined&&m.ref>lo&&m.ref<hi)
+      svg.appendChild(el("line",{x1:0,x2:W,y1:ys(m.ref),y2:ys(m.ref)},"stroke:var(--baseline);stroke-width:1"));
+    var d="",pen=false;
+    p.forEach(function(v,i){if(v===null){pen=false;return}
+      d+=(pen?" L":" M")+xs(i).toFixed(1)+","+ys(v).toFixed(1);pen=true});
+    svg.appendChild(el("path",{d:d,fill:"none"},"stroke:var(--series-1);stroke-width:2;stroke-linejoin:round;stroke-linecap:round"));
+    cell.appendChild(svg);grid.appendChild(cell)});
+  host.appendChild(grid);
+  host.appendChild(h("p","note","All panels share one scale ("+lab(m,lo)+" to "+lab(m,hi)+") and one time axis ("+Y0+"–"+Y1+"), so shapes are directly comparable. The grey line marks the EU average where relevant."));
+}
+
+/* ---------- within-region: every country, members vs non-EU neighbours ---------- */
+function countryChart(host,m,reg){
+  var W=790,H=330,L=54,R=132,T=14,B=30,pw=W-L-R,ph=H-T-B;
+  var cs=reg.countries.map(function(c){return {c:c,path:m.countryPaths[c.iso3]||[]}})
+                      .filter(function(s){return s.path.some(function(v){return v!==null&&v!==undefined})});
+  if(!cs.length){host.appendChild(h("p","note","No data for this measure in this region."));return}
+  var all=[];cs.forEach(function(s){s.path.forEach(function(v){if(v!==null&&v!==undefined)all.push(v)})});
+  var lo=Math.min.apply(null,all),hi=Math.max.apply(null,all),pad=(hi-lo)*0.08||1;
+  lo=(lo>=0)?Math.max(0,lo-pad):lo-pad;hi+=pad;
+  var xs=function(y){return L+(y-Y0)/(Y1-Y0)*pw},ys=function(v){return T+(hi-v)/(hi-lo)*ph};
+  var box=h("div","chart-box");
+  var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":reg.name+" countries, "+m.label});
+  ticks(lo,hi,5).forEach(function(t){
+    svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(t),y2:ys(t)},"stroke:var(--grid);stroke-width:1"));
+    var q=el("text",{x:L-7,y:ys(t)+3.5,"text-anchor":"end"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    q.textContent=t.toLocaleString("en-US");svg.appendChild(q)});
+  if(m.ref!==null&&m.ref!==undefined&&m.ref>lo&&m.ref<hi){
+    svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(m.ref),y2:ys(m.ref)},"stroke:var(--baseline);stroke-width:1"));
+    var rl=el("text",{x:L+4,y:ys(m.ref)-4},"fill:var(--text-muted);font-size:10px");
+    rl.textContent="EU average";svg.appendChild(rl)}
+  Y.forEach(function(y){if(y%5!==0)return;
+    var q=el("text",{x:xs(y),y:H-10,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    q.textContent=y;svg.appendChild(q)});
+  // accession markers for this region's waves
+  reg.waves.forEach(function(w){
+    if(w<Y0||w>Y1)return;
+    svg.appendChild(el("line",{x1:xs(w),x2:xs(w),y1:T,y2:T+ph},"stroke:var(--baseline);stroke-width:1;opacity:0.7"));
+    var t=el("text",{x:xs(w)+4,y:T+11},"fill:var(--text-muted);font-size:9.5px");
+    t.textContent="joined "+w;svg.appendChild(t)});
+  var lbls=[];
+  cs.forEach(function(s){
+    var col=s.c.member?"var(--series-1)":"var(--series-2)";
+    var d="",pen=false;
+    s.path.forEach(function(v,i){if(v===null||v===undefined){pen=false;return}
+      d+=(pen?" L":" M")+xs(Y[i]).toFixed(1)+","+ys(v).toFixed(1);pen=true});
+    if(d)svg.appendChild(el("path",{d:d,fill:"none"},"stroke:"+col+";stroke-width:2;stroke-linejoin:round;stroke-linecap:round"
+      +(s.c.member?"":";stroke-dasharray:5 3")));
+    var li=s.path.length-1;while(li>=0&&(s.path[li]===null||s.path[li]===undefined))li--;
+    if(li>=0)lbls.push({name:s.c.name,x:xs(Y[li]),y:ys(s.path[li]),ty:ys(s.path[li]),col:col,mem:s.c.member});
+  });
+  lbls.sort(function(a,b){return a.ty-b.ty});
+  var MIN=13;
+  for(var i=1;i<lbls.length;i++)if(lbls[i].ty-lbls[i-1].ty<MIN)lbls[i].ty=lbls[i-1].ty+MIN;
+  var over=lbls.length?lbls[lbls.length-1].ty-(T+ph):0;
+  if(over>0)lbls.forEach(function(l){l.ty-=over});
+  lbls.forEach(function(l){
+    if(Math.abs(l.ty-l.y)>1.5)
+      svg.appendChild(el("path",{d:"M"+(l.x+2)+","+l.y+" L"+(l.x+5)+","+l.ty+" L"+(l.x+8)+","+l.ty,fill:"none"},
+        "stroke:var(--baseline);stroke-width:1"));
+    svg.appendChild(el("circle",{cx:l.x,cy:l.y,r:3},"fill:"+l.col+";stroke:var(--surface-1);stroke-width:1.5"));
+    var t=el("text",{x:l.x+11,y:l.ty+3.5},"fill:var(--text-primary);font-size:10.5px"+(l.mem?";font-weight:600":""));
+    t.textContent=l.name;svg.appendChild(t)});
+  var cross=el("line",{x1:0,x2:0,y1:T,y2:T+ph},"stroke:var(--baseline);stroke-width:1;display:none");
+  svg.appendChild(cross);
+  box.appendChild(svg);
+  var tt=h("div","tooltip");box.appendChild(tt);
+  svg.addEventListener("pointermove",function(ev){
+    var pt=svg.createSVGPoint();pt.x=ev.clientX;pt.y=ev.clientY;
+    var mm=svg.getScreenCTM();if(!mm)return;
+    var loc=pt.matrixTransform(mm.inverse());
+    var i=Math.max(0,Math.min(Y.length-1,Math.round((loc.x-L)/pw*(Y1-Y0))));
+    cross.setAttribute("x1",xs(Y[i]));cross.setAttribute("x2",xs(Y[i]));cross.style.display="";
+    while(tt.firstChild)tt.removeChild(tt.firstChild);
+    var a=h("div","tt-title");a.textContent=Y[i];tt.appendChild(a);
+    cs.slice().sort(function(p,q){
+      var pv=p.path[i],qv=q.path[i];
+      if(pv===null||pv===undefined)return 1;if(qv===null||qv===undefined)return -1;
+      return m.lowerIsBetter?pv-qv:qv-pv
+    }).forEach(function(s){
+      var v=s.path[i];if(v===null||v===undefined)return;
+      var row=h("div","tt-row");
+      var k=h("span","tt-key");k.style.background=s.c.member?"var(--series-1)":"var(--series-2)";
+      var val=h("span","tt-val");val.textContent=lab(m,v);
+      var nm=h("span","tt-name");nm.textContent=s.c.name+(s.c.member?"":" (non-EU)");
+      row.appendChild(k);row.appendChild(val);row.appendChild(nm);tt.appendChild(row)});
+    tt.style.display="block";
+    var rect=box.getBoundingClientRect(),px=(xs(Y[i])/W)*rect.width,left=px+12;
+    if(left+tt.offsetWidth>rect.width-4)left=px-tt.offsetWidth-12;
+    tt.style.left=Math.max(2,left)+"px";tt.style.top="10px";
+  });
+  svg.addEventListener("pointerleave",function(){cross.style.display="none";tt.style.display="none"});
+  host.appendChild(box);
+}
+
+/* ---------- render ---------- */
+function render(){
+  var m=M(),panel=document.getElementById("panel");
+  panel.innerHTML="";
+  if(curTab==="all"){
+    var c0=h("div","card");
+    c0.appendChild(h("h3","",m.label+" — all seven regions"));
+    c0.appendChild(h("p","sub",m.blurb));
+    emphasisChart(c0,m,null);
+    panel.appendChild(c0);
+
+    var c1=h("div","card");
+    c1.appendChild(h("h3","","Change since "+(m.changes.length?m.changes[0].fromYear:1996)));
+    c1.appendChild(h("p","sub","Region medians, first to latest available year. "
+      +(m.lowerIsBetter?"Blue means the rate fell — an improvement.":"Blue means the region gained ground.")));
+    changeBars(c1,m);
+    panel.appendChild(c1);
+
+    var c2=h("div","card");
+    c2.appendChild(h("h3","","Region by region"));
+    c2.appendChild(h("p","sub","The same series as small multiples, so each region's shape can be read on its own."));
+    smallMultiples(c2,m);
+    panel.appendChild(c2);
+    return;
+  }
+  var reg=P.regions[curTab];
+  var ch=m.changes.filter(function(x){return x.region===curTab})[0];
+  var rk=m.ranked.filter(function(x){return x.region===curTab})[0];
+  var pos=m.ranked.map(function(x){return x.region}).indexOf(curTab)+1;
+
+  var tiles=h("div","tiles");
+  function tile(k,v,d){var t=h("div","tile");t.appendChild(h("div","k",k));
+    t.appendChild(h("div","v",v));if(d)t.appendChild(h("div","d",d));return t}
+  tiles.appendChild(tile("EU members",String(reg.n),
+    reg.countries.filter(function(c){return c.member}).map(function(c){return c.name}).join(", ")));
+  if(reg.nNeighbours)tiles.appendChild(tile("Non-EU neighbours",String(reg.nNeighbours),
+    reg.countries.filter(function(c){return !c.member}).map(function(c){return c.name}).join(", ")));
+  if(rk)tiles.appendChild(tile(m.label+", latest",lab(m,rk.value),
+    "rank "+pos+" of "+m.ranked.length+" regions · "+rk.year));
+  if(ch)tiles.appendChild(tile("Change since "+ch.fromYear,sgn(ch.change,1)+m.suffix,
+    lab(m,ch.from)+" → "+lab(m,ch.to)));
+  tiles.appendChild(tile("Accession waves",reg.waves.join(", "),
+    reg.waves.length>1?"the region did not join together":"joined as one wave"));
+  panel.appendChild(tiles);
+
+  var nbrs=reg.countries.filter(function(c){return !c.member});
+  var c1=h("div","card");
+  c1.appendChild(h("h3","","Countries within "+curTab
+    +(nbrs.length?" — EU members against their non-EU neighbours":"")));
+  c1.appendChild(h("p","sub",m.blurb));
+  var lg=h("div","legend");
+  var keys=[["EU member","var(--series-1)",false]];
+  if(nbrs.length)keys.push(["Non-EU neighbour","var(--series-2)",true]);
+  keys.forEach(function(k){var e=h("span","key");var i=document.createElement("i");
+    i.style.background=k[1];if(k[2])i.style.background=
+      "repeating-linear-gradient(90deg,"+k[1]+" 0 5px,transparent 5px 8px)";
+    e.appendChild(i);e.appendChild(document.createTextNode(k[0]));lg.appendChild(e)});
+  c1.appendChild(lg);
+  countryChart(c1,m,reg);
+  if(nbrs.length){
+    var nn=h("p","note","");
+    nn.innerHTML="<strong>Why these comparators:</strong> "+nbrs.map(function(c){
+      return c.name+" — "+(c.note||"never joined")}).join("; ")+".";
+    c1.appendChild(nn);
+    var shared=nbrs.filter(function(c){return (P.sharedNeighbours||{})[c.iso3]});
+    if(shared.length){
+      var sn=h("p","note","");
+      sn.innerHTML=shared.map(function(c){
+        return "<strong>"+c.name+"</strong> also appears under "
+          +P.sharedNeighbours[c.iso3].filter(function(r){return r!==curTab}).join(" and ")
+          +", because it borders EU states in both regions."}).join(" ")
+        +" Comparators are reference lines, not group members: no neighbour is counted in any "
+        +"regional median, so appearing twice double-counts nothing.";
+      c1.appendChild(sn);
+    }
+  } else {
+    c1.appendChild(h("p","note","No non-EU comparator exists for this region. Ireland and the "
+      +"United Kingdom are shown together because the UK's departure in 2020 makes the pair its "
+      +"own member-versus-non-member contrast from that point on."));
+  }
+  panel.appendChild(c1);
+
+  var c1b=h("div","card");
+  c1b.appendChild(h("h3","","Where "+curTab+" sits among the seven regions"));
+  c1b.appendChild(h("p","sub","Region medians, "+curTab+" highlighted. Members only — neighbours "
+    +"are excluded from every regional median so a non-member can never move the member line."));
+  emphasisChart(c1b,m,curTab);
+  panel.appendChild(c1b);
+
+  var c2=h("div","card");
+  c2.appendChild(h("h3","","Countries in "+curTab));
+  c2.appendChild(h("p","sub","Latest available value for every country in the region, EU member or not."));
+  var tbl=h("table","t");
+  var tr=document.createElement("tr");
+  ["Country","Status","Joined","Euro",m.label].forEach(function(x,i){
+    var th=document.createElement("th");if(i>=1)th.className="num";th.textContent=x;tr.appendChild(th)});
+  tbl.appendChild(tr);
+  reg.countries.map(function(c){
+    var p=m.countryPaths[c.iso3]||[],li=p.length-1;
+    while(li>=0&&(p[li]===null||p[li]===undefined))li--;
+    return {c:c,v:li>=0?p[li]:null}
+  }).sort(function(a,b){
+    if(a.v===null)return 1;if(b.v===null)return -1;
+    return m.lowerIsBetter?a.v-b.v:b.v-a.v
+  }).forEach(function(r){
+    var t=document.createElement("tr");
+    var c0=document.createElement("td");c0.className="nm";
+    if(r.c.member){var a=document.createElement("a");a.href=r.c.slug;a.textContent=r.c.name;
+      a.style.color="inherit";a.style.textDecoration="none";a.style.borderBottom="1px solid var(--border)";
+      c0.appendChild(a)}else{c0.textContent=r.c.name;c0.style.color="var(--text-secondary)";c0.style.fontWeight="400"}
+    var cs2=document.createElement("td");cs2.className="num";
+    cs2.textContent=r.c.member?"member":"non-EU";
+    if(!r.c.member)cs2.style.color="var(--series-2)";
+    var c1b=document.createElement("td");c1b.className="num";c1b.textContent=r.c.accession||"—";
+    var c2b=document.createElement("td");c2b.className="num";c2b.textContent=r.c.euro||"—";
+    var c3=document.createElement("td");c3.className="num";c3.textContent=lab(m,r.v);
+    [c0,cs2,c1b,c2b,c3].forEach(function(x){t.appendChild(x)});tbl.appendChild(t)});
+  c2.appendChild(tbl);
+  var cl=h("div","clist");
+  reg.countries.filter(function(c){return c.member}).forEach(function(c){
+    var a=document.createElement("a");a.href=c.slug;
+    var n=h("span","n");n.textContent=c.name;a.appendChild(n);
+    var d=h("span","d");d.textContent="joined "+c.accession+(c.euro?" · euro "+c.euro:"");
+    a.appendChild(d);cl.appendChild(a)});
+  c2.appendChild(cl);
+  panel.appendChild(c2);
+}
+
+/* ---------- chrome ---------- */
+var tabsEl=document.getElementById("tabs");
+[{id:"all",label:"All regions"}].concat(P.regionOrder.map(function(r){return {id:r,label:r}}))
+ .forEach(function(t,i){
+  var b=document.createElement("button");
+  b.setAttribute("role","tab");b.setAttribute("aria-selected",i===0?"true":"false");
+  b.dataset.tab=t.id;b.textContent=t.label;tabsEl.appendChild(b)});
+tabsEl.addEventListener("click",function(ev){
+  var b=ev.target.closest("button");if(!b)return;
+  curTab=b.dataset.tab;
+  tabsEl.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-selected",x===b?"true":"false")});
+  render()});
+
+/* The measures are grouped by the five lenses the study is organised around, so
+   the control row reads as "which question am I asking" rather than as eleven
+   undifferentiated buttons. */
+var mrow=document.getElementById("mrow");
+(P.lenses||[]).forEach(function(L){
+  var ms=P.measures.filter(function(m){return m.lens===L.id});
+  if(!ms.length)return;
+  var g=h("div","mgroup");
+  var lab=h("span","mlab");lab.textContent=L.label;lab.title=L.note||"";
+  g.appendChild(lab);
+  ms.forEach(function(m){
+    var b=document.createElement("button");
+    b.setAttribute("aria-pressed",m.id===curM?"true":"false");
+    b.dataset.m=m.id;b.textContent=m.label;g.appendChild(b)});
+  mrow.appendChild(g)});
+mrow.addEventListener("click",function(ev){
+  var b=ev.target.closest("button");if(!b)return;
+  curM=b.dataset.m;
+  mrow.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});
+  render()});
+
+var modes=["auto","light","dark"],mi=0,btn=document.getElementById("themeBtn");
+btn.addEventListener("click",function(){mi=(mi+1)%3;var v=modes[mi];
+  if(v==="auto")document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.setAttribute("data-theme",v);
+  btn.textContent="Theme: "+v});
+
+render();
+})();
+</script>
+</body>
+</html>

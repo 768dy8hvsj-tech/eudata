@@ -1,0 +1,662 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,2658000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,6406000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,5927000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,5118000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,4736000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,4131000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,3673000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,3256000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,3514000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,2932000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,2417000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,1856000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,1420000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,1127000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,937000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,748000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,645000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,557000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,470000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,354000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,317000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,371000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,184000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,119000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,287000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,304000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2025,-24230,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2024,-24472,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2023,-25357,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2022,-16426,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2021,-32848,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2020,-16680,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2019,-23094,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2018,-15032,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2017,-14901,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2016,-9347,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2015,-20500,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2014,-21706,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2013,-20681,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2012,-19845,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2011,-18630,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2010,-51907,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2009,-51657,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2008,-50619,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2007,-49770,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2006,-48882,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2005,-48893,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2004,-48654,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2003,-48517,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2002,-45178,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2001,-48070,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,2000,-60531,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1999,-63093,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1998,-66087,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1997,-66188,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1996,-68076,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1995,-69785,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1994,-70165,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1993,-68445,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1992,-66538,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1991,-63689,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1990,-60173,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1989,-38835,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1988,658,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1987,-3250,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1986,-2309,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1985,-183,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1984,64,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1983,66,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1982,-225,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1981,-374,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1980,-601,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1979,-1871,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1978,3230,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1977,-1417,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1976,-1684,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1975,-2610,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1974,-1880,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1973,-1419,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1972,-1588,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1971,-911,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1970,92,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1969,2665,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1968,10490,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1967,12252,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1966,11858,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1965,9617,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1964,6604,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1963,4091,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1962,2325,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1961,829,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SM.POP.NETM,Net migration,count,1960,13734,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2020,29.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2019,30.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2018,30.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2017,33.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2016,33.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2015,32.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2014,34.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2012,29,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2008,30,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2005,30.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,2002,31.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,SI.POV.GINI,Gini index,index,1996,27,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2025,6.0631729079562,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2024,6.32558905401363,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2023,6.90036950940795,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2022,7.57934042905775,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2021,6.75791457973236,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2020,7.01865154497786,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2019,7.70621465029911,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2018,7.83109146132114,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2017,7.71411336285186,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2016,8.71147225448456,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2015,8.62740636982337,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2014,8.64846635716115,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2013,9.80035898039468,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2012,7.49597513325321,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2011,8.08329285826067,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2010,9.01744998049889,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2009,10.9068201480963,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2008,9.40665320050491,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2007,5.86740351847628,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2006,3.55321913781567,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2005,3.17899814544722,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2004,4.60782278585291,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2003,3.06868730168473,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2002,2.99003115858884,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2001,5.10708868615592,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2000,3.9893207113692,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1999,1.25458994529204,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1998,1.73091617857629,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1997,2.07092049927343,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1996,2.78560468452093,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1995,2.40956158210409,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1994,2.81772379080922,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1993,4.89321210624299,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1992,3.06666159864896,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1989,0,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1988,0,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1987,0,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1986,0,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1985,0,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1984,0,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1983,0,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1982,0,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1981,0,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+ALB,Albania,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1980,0,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2025,3.93697525829801,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2024,6.20235039860679,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2023,6.06995232091603,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2022,6.90354140371273,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2021,6.95312089132574,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2020,6.23865408002072,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2019,7.92487427143519,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2018,7.71374568954873,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2017,6.29636171721257,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2016,5.57770746372387,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2015,5.67381755834409,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2014,4.07119376860245,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2013,4.08141056622247,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2012,2.82759932149649,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2011,9.6203440965999,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2010,3.88925451665989,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2009,6.23823937763422,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2008,7.48017377130846,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2007,9.85383583099953,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,446000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,1847000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,1711000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,1497000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,1281000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,1132000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,1029000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,922000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,810000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,764000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,683000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,645000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,646000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,696000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,469000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,453000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,392000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,339000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,312000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2025,-13086,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2024,-8132,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2023,4348,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2022,40118,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2021,-8974,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2020,-10220,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2019,-18891,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2018,-18883,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2017,-18651,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2016,-18322,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2015,-18789,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2014,-18846,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2013,-17866,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2012,-18513,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2011,611,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2010,3632,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2009,6043,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2008,7070,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2007,7045,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2006,8018,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2005,7945,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2004,7300,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2003,6854,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2002,1562,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2001,-12007,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,2000,-14368,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1999,-4073,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1998,-5665,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1997,-5817,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1996,-5598,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1995,-6019,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1994,-5934,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1993,-5972,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1992,-4415,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1991,-8483,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1990,-16260,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1989,-16360,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1988,-15715,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1987,-16686,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1986,-17990,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1985,-17646,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1984,-15567,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1983,-15301,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1982,-13550,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1981,-8531,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1980,287,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1979,-960,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1978,-1481,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1977,-1953,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1976,-2744,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1975,-3490,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1974,-3525,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1973,-2396,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1972,-348,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1971,1655,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1970,1861,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1969,4112,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1968,5430,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1967,6114,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1966,7037,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1965,7957,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1964,8045,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1963,8276,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1962,6064,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1961,6422,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SM.POP.NETM,Net migration,count,1960,4377,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2023,32.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2022,32.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2021,33.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2020,35,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2019,34.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2018,35,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2017,36.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2016,38.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2015,40.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2014,40.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2013,39.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2012,39.9,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2010,29,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2009,28,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2008,27.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2007,28.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2006,29.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2005,36.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2004,35.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2003,32.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+SRB,Serbia,SI.POV.GINI,Gini index,index,2002,32.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2025,3.53789593592464,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2024,6.23445071550033,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2023,4.04601094449743,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2022,6.13067578989693,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2021,4.97315294989199,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2020,0.0622421869397704,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2019,4.35892493383855,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2018,5.11494867914756,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2017,3.36726558000357,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2016,5.14755489783813,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2015,2.94702779153329,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2014,0.535807905351314,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2013,3.72036775399161,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2012,3.46744163927686,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2011,4.83981702288781,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2010,3.20438209801498,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2009,2.76045082206623,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2008,6.17271448582765,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2007,8.79828562205673,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2006,6.22985642423446,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2005,2.32207737874559,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2004,5.4398972911896,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2003,2.40668449308174,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2002,2.8417888915258,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2001,12.6581341812696,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2000,5.76504706871211,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1999,2.36373528779129,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1998,4.01398371553196,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1997,0.402250343703204,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1996,0.241489630939744,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1995,0.201612846891106,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1994,0.674231423376623,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,118000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,758000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,707000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,631000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,510000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,486000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,425000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,400000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,351000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,327000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,262000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,259000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,255000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,230000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,202000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,197000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,165000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,158000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,123000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,99000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,224000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,181000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,157000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,121000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,1996,136000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,ST.INT.ARVL,"International tourism, number of arrivals",count,1995,147000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2025,-5645,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2024,-5728,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2023,-5597,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2022,-5296,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2021,-5483,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2020,-23458,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2019,-24204,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2018,-24878,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2017,-24227,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2016,-24144,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2015,-23010,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2014,-22132,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2013,-20297,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2012,-19083,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2011,-17871,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2010,-16668,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2009,-15455,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2008,-17645,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2007,-15705,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2006,-9632,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2005,-2244,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2004,-2640,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2003,-2880,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2002,-2858,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2001,-922,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,2000,-2824,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1999,-1261,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1998,-589,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1997,-477,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1996,-397,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1995,-3603,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1994,-21006,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1993,-47273,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1992,-46509,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1991,-45484,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1990,-16174,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1989,-13528,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1988,-13621,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1987,-13635,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1986,-13589,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1985,-13492,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1984,-13251,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1983,-12884,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1982,-11716,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1981,0,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1980,-189,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1979,-426,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1978,-462,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1977,-683,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1976,-911,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1975,-1147,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1974,-1376,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1973,-1600,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1972,-1834,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1971,-2064,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1970,60,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1969,181,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1968,-1201,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1967,-2696,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1966,-4176,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1965,-5385,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1964,-5938,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1963,-5759,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1962,-13702,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1961,-6309,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SM.POP.NETM,Net migration,count,1960,-10126,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2019,33.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2018,33,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2017,34.2,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2016,34.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2015,35.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2014,35.2,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2013,36.2,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2012,38.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2011,39.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2010,40.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2009,42.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2008,46.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2006,42.6,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2005,39.3,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2004,38.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2003,38.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2002,38.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,2000,34.3,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MKD,North Macedonia,SI.POV.GINI,Gini index,index,1998,28.1,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2025,2.19810904099247,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2024,3.3761353835982,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2023,4.0920266922729,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2022,3.78827280691079,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2021,3.24230818475028,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2020,2.38939027026416,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2019,2.18661375097898,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2018,2.93781298692857,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2017,2.77975922538249,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2016,1.82975695066218,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2015,2.33529310215055,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2014,2.93590253684149,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2013,1.72337931811156,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2012,2.27539881306156,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2011,2.52952738058176,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2010,2.58402449142469,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2009,0.786371182353603,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2008,5.25748627826673,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2007,11.6737641903938,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2006,6.57577358932059,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2005,5.55844401745043,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2004,8.75886067110945,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2003,4.49216828974651,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2002,3.97979747748747,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2001,2.04280429156892,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2000,2.62359146003392,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1999,3.7723201862043,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,1998,1.62108640132628,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,197000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,1198000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,1053000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,923000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,778000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,678000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,536000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,529000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,439000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,392000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,365000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,311000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,322000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,306000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,256000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,217000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,190000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,165000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,160000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2001,139000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,2000,171000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,1999,147000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,1998,148000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,ST.INT.ARVL,"International tourism, number of arrivals",count,1997,115000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2025,-6994,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2024,-4497,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2023,-485,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2022,-485,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2021,-25865,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2020,-26840,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2019,-27841,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2018,-29147,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2017,-30650,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2016,-32173,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2015,-33948,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2014,-35683,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2013,-37002,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2012,-66378,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2011,-64875,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2010,-67228,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2009,-68182,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2008,-68140,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2007,-65335,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2006,-38622,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2005,-37086,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2004,-68008,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2003,-27396,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2002,-13312,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2001,9055,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,2000,8138,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1999,25495,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1998,24335,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1997,80133,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1996,173193,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1995,126914,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1994,-157427,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1993,-178416,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1992,-436814,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1991,-26483,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1990,-22829,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1989,-19634,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1988,-17058,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1987,-14853,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1986,-12941,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1985,-11429,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1984,-10321,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1983,-9599,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1982,-9298,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1981,-9384,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1980,-7368,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1979,-7454,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1978,-9382,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1977,-11834,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1976,-13778,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1975,-14348,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1974,-14345,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1973,-14043,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1972,-14807,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1971,-15829,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1970,-20714,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1969,-21229,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1968,-20704,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1967,-21195,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1966,-23196,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1965,-24330,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1964,-23922,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1963,-22611,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1962,-21531,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1961,-14655,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,count,1960,-6481,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+BIH,Bosnia and Herzegovina,SI.POV.GINI,Gini index,index,2021,30.3,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+BIH,Bosnia and Herzegovina,SI.POV.GINI,Gini index,index,2015,32.9,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+BIH,Bosnia and Herzegovina,SI.POV.GINI,Gini index,index,2011,33.3,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+BIH,Bosnia and Herzegovina,SI.POV.GINI,Gini index,index,2007,34.3,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+BIH,Bosnia and Herzegovina,SI.POV.GINI,Gini index,index,2004,34,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+BIH,Bosnia and Herzegovina,SI.POV.GINI,Gini index,index,2001,30,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2025,7.32378193243735,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2024,7.24450579243955,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2023,6.88011329539607,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2022,13.93925448378,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2021,11.9139900701323,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2020,11.2142250451191,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2019,7.61521877220221,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2018,8.93817743395497,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2017,11.6708896898026,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2016,5.2026187262712,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2015,17.4489134239704,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2014,10.8522505113394,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2013,10.0960470508044,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2012,15.1805619585204,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2011,12.3507044573445,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2010,18.3288877062171,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2009,37.2748764793099,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2008,21.3903064495909,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",% of GDP,2007,25.453787034117,"World Bank World Development Indicators, BX.KLT.DINV.WD.GD.ZS",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2020,351000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2019,2510000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2018,2077000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2017,1877000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2016,1662000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2015,1560000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2014,1350000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2013,1324000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2012,1264000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2011,1201000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2010,1088000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2009,1044000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2008,1031000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2007,984000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2006,378000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2005,272000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2004,188000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2003,142000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,ST.INT.ARVL,"International tourism, number of arrivals",count,2002,136000,"World Bank World Development Indicators, ST.INT.ARVL",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2025,-9279,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2024,-1686,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2023,12000,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2022,26332,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2021,-2344,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2020,-3310,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2019,-4083,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2018,-5058,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2017,-4948,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2016,-5274,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2015,-4863,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2014,-4357,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2013,-2478,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2012,-1583,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2011,0,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2010,-2276,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2009,-3456,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2008,-3326,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2007,-3056,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2006,-2735,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2005,-2247,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2004,-1997,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2003,-3178,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2002,-3357,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2001,-3511,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,2000,-3734,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1999,-3487,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1998,-3326,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1997,-3077,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1996,-3051,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1995,-3082,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1994,-2889,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1993,-2835,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1992,-2942,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1991,-2630,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1990,-1705,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1989,-1730,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1988,-2165,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1987,-2569,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1986,-2747,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1985,-3013,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1984,-3074,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1983,-3190,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1982,-3151,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1981,-2287,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1980,-450,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1979,-718,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1978,-1103,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1977,-1364,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1976,-1447,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1975,-1588,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1974,-1669,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1973,-1778,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1972,-1922,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1971,-1856,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1970,-2013,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1969,-2456,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1968,-2404,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1967,-2519,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1966,-2751,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1965,-2743,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1964,-2734,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1963,-2800,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1962,-2606,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1961,-2254,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SM.POP.NETM,Net migration,count,1960,-2467,"World Bank World Development Indicators, SM.POP.NETM",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2021,34.3,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2020,35.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2019,35.7,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2018,36.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2017,36.9,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2016,38.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2015,39,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2014,38.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2013,39,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2012,41.2,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2011,30.8,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2010,28.9,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2009,31,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2008,30.5,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2007,31.4,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2006,30,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
+MNE,Montenegro,SI.POV.GINI,Gini index,index,2005,30.2,"World Bank World Development Indicators, SI.POV.GINI",2026-08-02
