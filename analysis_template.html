@@ -337,7 +337,7 @@ function estCard(label,val,unit,dp,ci,goodIsPositive,n,pl){
 
 /* ---------- panels ---------- */
 var TABS=[{id:"findings",label:"Findings"},{id:"paths",label:"Trajectories"},
-          {id:"crises",label:"Crises"},{id:"brexit",label:"Brexit"},
+          {id:"crises",label:"Crises"},{id:"brexit",label:"Brexit"},{id:"south",label:"The South"},
           {id:"adjust",label:"The convergence problem"},{id:"method",label:"Method & limits"},
           {id:"coverage",label:"Coverage"}];
 var tabsEl=document.getElementById("tabs"),panelsEl=document.getElementById("panels");
@@ -811,6 +811,123 @@ TABS.forEach(function(t,i){
     c4.appendChild(h("p","note","That is a finding about the anticipation phase only. It says nothing "
       +"about what departure itself did, which is the question the data above cannot answer."));
     sec.appendChild(c4);
+  }
+
+  else if(t.id==="south"){
+    var S=P.south;
+    var s0=h("div","card");
+    s0.appendChild(h("h3","","The Mediterranean flatline does not exist"));
+    s0.appendChild(h("p","","This project recorded, as its most striking descriptive fact, that five "
+      +"southern members moved <strong>0.1 percentage points</strong> on the EU average across thirty "
+      +"years while the post-communist regions gained 27 to 44. That number is real. It is also a fact "
+      +"about medians rather than a fact about the Mediterranean, and it should not have been left "
+      +"standing as long as it was."));
+    var pt=h("table","t"),ph2=document.createElement("tr");
+    ["Country","1996","Peak","Year","2025","Rose by","Fell by","Net"].forEach(function(x,j){
+      var th=document.createElement("th");if(j>0)th.className="num";th.textContent=x;ph2.appendChild(th)});
+    pt.appendChild(ph2);
+    S.paths.forEach(function(r){
+      var tr=document.createElement("tr");
+      // levels are levels, not changes — a signed "+81.5" would read as a movement
+      var lvl=function(v){return v===null||v===undefined?"\u2014":v.toFixed(1)};
+      [[r.name+(r.inRegion?"":" *"),"nm"],[lvl(r.start),"num"],[lvl(r.peak),"num"],
+       [String(r.peakYear),"num"],[lvl(r.end),"num"],
+       [fmt(r.rise,1),"num"],[fmt(r.fall,1),"num"],[fmt(r.net,1),"num"]]
+        .forEach(function(c){var td=document.createElement("td");td.className=c[1];
+          td.textContent=c[0];tr.appendChild(td)});
+      pt.appendChild(tr)});
+    s0.appendChild(pt);
+    s0.appendChild(h("p","note","* Italy is classified in the Continental core bloc, not the "
+      +"Mediterranean, which is why it has been invisible throughout this study. It is the largest "
+      +"single reversal in the entire dataset."));
+    s0.appendChild(h("p","","Underneath the flat median: <strong>Malta gained 18 points, Greece lost "
+      +"20, and Italy lost 29.</strong> Four of the five southern members rose and then fell — Portugal "
+      +"peaking in 1999, Greece 2004, Spain 2006, Cyprus 2009. Malta is the exception and never stopped "
+      +"climbing. Averaging that spread produces a straight line describing nobody."));
+    s0.appendChild(h("p","","So the question is not why the south stagnated. It is why it "
+      +"<em>converged and then gave the gains back</em>, which is a different question with a much "
+      +"clearer answer."));
+    sec.appendChild(s0);
+
+    var s1=h("div","card");
+    s1.appendChild(h("h3","","Answer one: the euro bought a decade of cheap credit"));
+    s1.appendChild(h("p","sub","Ten-year government bond yield, spread over Germany, percentage points. "
+      +"This is what each government paid to borrow, relative to the safest borrower in the union."));
+    var bt=h("table","t"),bh=document.createElement("tr");
+    ["Country","1996","2001","2007","2012","2019","2025"].forEach(function(x,j){
+      var th=document.createElement("th");if(j>0)th.className="num";th.textContent=x;bh.appendChild(th)});
+    bt.appendChild(bh);
+    S.spreads.forEach(function(r){
+      var tr=document.createElement("tr");
+      var cells=[[r.name,"nm"]];
+      ["1996","2001","2007","2012","2019","2025"].forEach(function(y){
+        cells.push([r.pts[y]===undefined?"—":fmt(r.pts[y],2),"num"])});
+      cells.forEach(function(c){var td=document.createElement("td");td.className=c[1];
+        td.textContent=c[0];tr.appendChild(td)});
+      bt.appendChild(tr)});
+    s1.appendChild(bt);
+    s1.appendChild(h("p","","<strong>Greece paid 8.2 points over Germany in 1996 and 0.28 points in "
+      +"2007.</strong> Portugal went from 2.34 to 0.20, Spain from 2.52 to 0.09. Monetary union did not "
+      +"just remove exchange-rate risk; markets priced southern sovereign debt as though it carried "
+      +"German credit risk. That is an enormous, sustained stimulus, and every southern income peak in "
+      +"the table above falls inside the window when it was running."));
+    s1.appendChild(h("p","","Then it reversed, violently. Greece's spread hit <strong>21 points</strong> "
+      +"in 2012, Portugal's 9.05, Cyprus's 5.50. The convergence that cheap credit had financed unwound "
+      +"with the credit. By 2025 spreads are back under a point everywhere — but the lost decade is not "
+      +"recovered, and Greece sits 20 points below where it started."));
+    s1.appendChild(h("p","note","This is an account of the timing that the data supports, not a "
+      +"demonstration that cheap credit caused the reversal. Establishing that needs the pre-crisis "
+      +"credit and current-account data flagged as missing in the crisis analysis. What the numbers do "
+      +"show is that the rise, the peak and the fall line up precisely with the spread compressing and "
+      +"then exploding."));
+    sec.appendChild(s1);
+
+    var s2=h("div","card");
+    s2.appendChild(h("h3","","Answer two: the south gained people while the east lost them"));
+    s2.appendChild(h("p","sub","Growth 1996–2025 decomposed. Income per head is total output divided by "
+      +"population, so it moves when either half moves. Sorted by population change."));
+    var dt=h("table","t"),dh=document.createElement("tr");
+    ["Country","Population","Total real output","Output per head","Share from demography"]
+      .forEach(function(x,j){var th=document.createElement("th");if(j>0)th.className="num";
+        th.textContent=x;dh.appendChild(th)});
+    dt.appendChild(dh);
+    S.decomp.forEach(function(r){
+      var tr=document.createElement("tr");
+      [[r.name,"nm"],[fmt(r.pop,1)+"%","num"],[fmt(r.total,1)+"%","num"],
+       [fmt(r.perCap,1)+"%","num"],[r.demogShare===null?"—":fmt(r.demogShare,1)+"%","num"]]
+        .forEach(function(c){var td=document.createElement("td");td.className=c[1];
+          td.textContent=c[0];tr.appendChild(td)});
+      dt.appendChild(tr)});
+    s2.appendChild(dt);
+    s2.appendChild(h("p","","Read the last column as: how much of the change in output <em>per head</em> "
+      +"came from the number of heads changing rather than from output. Positive means a shrinking "
+      +"population flattered the figure. Negative means a growing population held it down."));
+    s2.appendChild(h("p","","<strong>Cyprus and Latvia are the pair to look at.</strong> Over the same "
+      +"twenty-nine years Cyprus grew its total real economy by 169% and Latvia by 163% — within six "
+      +"points of each other. Per head, Cyprus shows +73% and Latvia +250%. Cyprus gained 56% more "
+      +"people; Latvia lost a quarter of its population. Two economies that grew at almost identical "
+      +"rates appear, on the measure this entire study has been built around, to have had utterly "
+      +"different fortunes."));
+    s2.appendChild(h("p","note","Neither number is wrong, and income per head is the right measure for "
+      +"most questions — it is what a resident experiences. But it means the headline convergence story "
+      +"is part economics and part demography, in both directions, and no chart in this project has ever "
+      +"said so."));
+    sec.appendChild(s2);
+
+    var s3=h("div","card");
+    s3.appendChild(h("h3","","What this does not explain"));
+    s3.appendChild(h("p","","<strong>Trade is not the differentiator.</strong> The obvious hypothesis is "
+      +"that the south never got the single-market trade dividend the east did. It did. Trade openness "
+      +"1996–2025 rose 46.6 points in Greece, 54.9 in Malta and 48.6 in Cyprus, against 51.7 in Poland "
+      +"and 47.4 in Czechia. The magnitudes are comparable; only the timing differs, with the east "
+      +"front-loading around accession and the south accumulating later."));
+    s3.appendChild(h("p","","<strong>Unemployment does not explain the persistence.</strong> Greek "
+      +"unemployment went from 8.4% in 2007 to 27.7% in 2013 and back to 8.5% in 2025; Spain 8.2 to 26.1 "
+      +"to 10.4. The labour market damage was severe and it has largely healed. The income gap has not."));
+    s3.appendChild(h("p","note","Which leaves the reversal itself as the thing to explain, and the "
+      +"credit story as the account most consistent with the timing — untested, for want of the data "
+      +"named above."));
+    sec.appendChild(s3);
   }
 
   else if(t.id==="adjust"){

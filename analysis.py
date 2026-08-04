@@ -601,6 +601,66 @@ payload = {
     "adjusted": add_ci(convergence_adjusted("NY.GDP.PCAP.KD", "DERIVED.KD.PCT.EU"), "excess"),
 }
 
+# -------------------------------------------------------------- south
+# "The Mediterranean flatline" — five southern members moving 0.1pp on the EU average across
+# thirty years — was recorded earlier in this project as its most striking descriptive fact.
+# It is not a fact about the Mediterranean. It is a fact about medians.
+SOUTH = ["GRC", "ESP", "PRT", "CYP", "MLT"]
+SOUTH_PLUS = SOUTH + ["ITA"]          # Italy is classified West but is the same story, worse
+EAST_CONTRAST = ["LVA", "LTU", "BGR", "POL"]
+_snames = {"GRC": "Greece", "ESP": "Spain", "PRT": "Portugal", "CYP": "Cyprus", "MLT": "Malta",
+           "ITA": "Italy", "LVA": "Latvia", "LTU": "Lithuania", "BGR": "Bulgaria", "POL": "Poland"}
+CONV = "DERIVED.GNI.PCT.EU"
+
+south = {"paths": [], "decomp": [], "spreads": [], "years": list(range(1996, 2026))}
+
+for iso in SOUTH_PLUS:
+    d = series.get((iso, CONV), {})
+    yrs = [y for y in d if 1996 <= y <= 2025]
+    if not yrs:
+        continue
+    pk = max(yrs, key=lambda y: d[y])
+    south["paths"].append({
+        "iso3": iso, "name": _snames[iso], "inRegion": iso in SOUTH,
+        "start": round(d.get(1996), 1) if 1996 in d else None,
+        "peak": round(d[pk], 1), "peakYear": pk,
+        "end": round(d.get(2025), 1) if 2025 in d else None,
+        "rise": round(d[pk] - d[1996], 1) if 1996 in d else None,
+        "fall": round(d[2025] - d[pk], 1) if 2025 in d else None,
+        "net": round(d[2025] - d[1996], 1) if (1996 in d and 2025 in d) else None,
+        "series": [round(d[y], 2) if y in d else None for y in south["years"]],
+    })
+south["paths"].sort(key=lambda r: (r["net"] if r["net"] is not None else 0), reverse=True)
+
+# growth accounting: total real output, population, and what is left per head
+for iso in SOUTH_PLUS + EAST_CONTRAST:
+    pc = series.get((iso, "NY.GDP.PCAP.KD"), {})
+    pop = series.get((iso, "SP.POP.TOTL"), {})
+    if not all(y in pc for y in (1996, 2025)) or not all(y in pop for y in (1996, 2025)):
+        continue
+    gpc = math.log(pc[2025] / pc[1996])
+    gpop = math.log(pop[2025] / pop[1996])
+    south["decomp"].append({
+        "iso3": iso, "name": _snames[iso], "south": iso in SOUTH_PLUS,
+        "pop": round((pop[2025] / pop[1996] - 1) * 100, 1),
+        "total": round((math.exp(gpc + gpop) - 1) * 100, 1),
+        "perCap": round((pc[2025] / pc[1996] - 1) * 100, 1),
+        # share of per-head growth that is the denominator moving, not the numerator
+        "demogShare": round((-gpop) / gpc * 100, 1) if gpc else None,
+    })
+south["decomp"].sort(key=lambda r: r["pop"])
+
+de = series.get(("DEU", "EUROSTAT.IRT_LT_MCBY"), {})
+for iso in SOUTH_PLUS:
+    d = series.get((iso, "EUROSTAT.IRT_LT_MCBY"), {})
+    row = {"iso3": iso, "name": _snames[iso], "pts": {}}
+    for y in (1996, 2001, 2007, 2012, 2019, 2025):
+        if y in d and y in de:
+            row["pts"][str(y)] = round(d[y] - de[y], 2)
+    if row["pts"]:
+        south["spreads"].append(row)
+payload["south"] = south
+
 # ------------------------------------------------------------- brexit
 # The one country that left. Two dates matter: the June 2016 referendum, when expectations
 # moved, and 1 January 2021, when the UK actually left the single market. COVID sits between
