@@ -386,7 +386,7 @@ def headroom_adjusted(code):
     return add_ci(out, "excess")
 
 
-def gate(code, log=False, scale=1.0):
+def gate(code, log=False, scale=1.0, w_post=POST):
     """Run the estimator, then run it again entirely on pre-accession years and
     use the second result to judge the first.
 
@@ -408,7 +408,7 @@ def gate(code, log=False, scale=1.0):
     looks like, and an earlier version of this gate wrongly suppressed the trade
     result for exactly that reason.
     """
-    real = add_ci(did(code, log=log, scale=scale), "did")
+    real = add_ci(did(code, log=log, scale=scale, w_post=w_post), "did")
     pre = add_ci(did(code, log=log, scale=scale, w_pre=PRE_EARLY, w_post=PRE), "did")
     for bloc, d in real.items():
         p = pre.get(bloc, {})
@@ -600,6 +600,25 @@ payload = {
     ],
     "adjusted": add_ci(convergence_adjusted("NY.GDP.PCAP.KD", "DERIVED.KD.PCT.EU"), "excess"),
 }
+
+# ---------------------------------------------------------- persistence
+# A five-year window at t+6..t+10 shows whether an effect appeared. It cannot show
+# whether it lasted. Re-running the identical estimator at t+11..t+15 answers a
+# different and equally important question: is this a permanent shift, or a step
+# at entry that erodes? The pre-window is unchanged, so the placebo verdict carries
+# over and the two estimates are directly comparable.
+LATE = (11, 15)
+_PERSIST = {"trade": ("DERIVED.TRADE.OPEN", False, 1.0),
+            "fdi": ("BX.KLT.DINV.WD.GD.ZS", False, 1.0),
+            "unemployment": ("SL.UEM.TOTL.ZS", False, 1.0),
+            "ruleoflaw": ("WGI.RL.EST", False, 1.0)}
+for _m in payload["measures"]:
+    spec = _PERSIST.get(_m["id"])
+    if not spec:
+        continue
+    _code, _log, _sc = spec
+    _m["late"] = gate(_code, log=_log, scale=_sc, w_post=LATE)
+    _m["lateWindow"] = LATE
 
 # ------------------------------------------------- bounded-index override
 # Where a headroom adjustment is attached, the raw difference-in-differences is known to be

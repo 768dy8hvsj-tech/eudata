@@ -466,6 +466,52 @@ TABS.forEach(function(t,i){
       sec.appendChild(ct);
     }
 
+    /* ---- does it last? ---- */
+    var persist=P.measures.filter(function(m){return m.late});
+    if(persist.length){
+      var cp=h("div","card");
+      cp.appendChild(h("h3","","Does it last? The same estimator five years later"));
+      cp.appendChild(h("p","sub","A window at t+6 to t+10 shows whether an effect appeared. It cannot "
+        +"show whether it stuck. Re-running the identical estimator at t+11 to t+15 answers that. The "
+        +"pre-accession window is unchanged, so the placebo verdict carries over and the two columns "
+        +"are directly comparable."));
+      var pt=h("table","t"),ph2=document.createElement("tr");
+      ["Outcome","Bloc","t+6 to t+10","t+11 to t+15","Reading"].forEach(function(x,j){
+        var th=document.createElement("th");if(j>1&&j<4)th.className="num";th.textContent=x;ph2.appendChild(th)});
+      pt.appendChild(ph2);
+      persist.forEach(function(m){
+        ["West","East"].forEach(function(bloc){
+          var e=m.did[bloc],l=m.late[bloc];
+          if(!e||!e.rows.length||!l||!l.rows.length)return;
+          var eSig=e.ci&&!e.ci.crossesZero, lSig=l.ci&&!l.ci.crossesZero;
+          var read;
+          if(eSig&&lSig) read=(Math.abs(l.mean)<Math.abs(e.mean)*0.85)?"persists, weaker":"persists";
+          else if(eSig&&!lSig) read="fades to nothing measurable";
+          else if(!eSig&&lSig) read="emerges later";
+          else read="never measurable";
+          var tr2=document.createElement("tr");
+          [[m.label,"nm"],[bloc,""],
+           [fmt(e.mean,2)+" "+m.unit,"num"],[fmt(l.mean,2)+" "+m.unit,"num"],[read,""]]
+            .forEach(function(c){var td=document.createElement("td");td.className=c[1];
+              td.textContent=c[0];tr2.appendChild(td)});
+          pt.appendChild(tr2);
+        })});
+      cp.appendChild(pt);
+      var tr=P.measures.filter(function(m){return m.id==="trade"})[0];
+      if(tr&&tr.late&&tr.late.East.rows.length){
+        cp.appendChild(h("p","note","The trade effect is the one worth reading closely. It is still "
+          +"clearly present a decade after accession — "+fmt(tr.late.East.mean,1)+"pp against "
+          +fmt(tr.did.East.mean,1)+"pp in the earlier window — but it is roughly a third smaller. That "
+          +"is the shape of a <strong>level shift that partly erodes</strong>, not a permanent change "
+          +"in growth rate: joining moved these economies onto a more open footing, and the gap against "
+          +"non-members then narrowed as the comparators liberalised too. Both readings are consistent "
+          +"with the data; neither is proven by it."));
+      }
+      cp.appendChild(h("p","note","A longer <em>pre</em>-period was tested and rejected — see "
+        +"<em>Method &amp; limits</em>. It breaks the design rather than strengthening it."));
+      sec.appendChild(cp);
+    }
+
     /* ---- governance: the headroom trap ---- */
     var rl=P.measures.filter(function(m){return m.id==="ruleoflaw"})[0];
     if(rl&&rl.headroom&&rl.did.East.rows.length){
@@ -575,6 +621,7 @@ TABS.forEach(function(t,i){
     m1.appendChild(h("p","","<strong>Blocs.</strong> West, South and East. Post-war starting points differ so much that pooling them would be meaningless — and the right control for Poland is Serbia, not Norway. South is kept separate from West because Greece, Portugal and Spain were poor and under authoritarian rule until the mid-1970s, and joined as democratic consolidation projects."));
     m1.appendChild(h("p","","<strong>Difference-in-differences.</strong> For each member, average outcome over the five years before accession is compared with years +"+P.post[0]+" to +"+P.post[1]+" after, and the same calendar windows are applied to the non-member controls, so shared shocks like 2008 and 2020 hit both sides and difference out."));
     m1.appendChild(h("p","","<strong>Intervals.</strong> The 95% ranges shown are the spread of country-level estimates around their mean, not model standard errors. With around ten countries per bloc they are wide by construction. That width is the honest situation, not a defect of presentation."));
+    m1.appendChild(h("p","","<strong>Why the pre-accession window is only five years.</strong> A longer baseline is the obvious way to strengthen a design like this, and it was tested — at eight and ten years — and rejected, because for the Eastern bloc it imports the post-communist transition depression into the counterfactual. Latvia's output per head fell to 59% of its 1990 level by 1993 and Lithuania's to 57% by 1994. A difference-in-differences baseline is supposed to stand for what a country was doing anyway; in those years what these countries were doing was collapsing and rebounding, which is a structural break rather than a trend. The evidence is in the estimator itself: extending the pre-window to eight years drives the income placebo from &minus;5.8 to &minus;25.3, and the trade placebo from +0.6 to +9.3 — at ten years the trade result fails its own placebo outright. The measured effects barely move; only the credibility of the baseline collapses. For governance the question does not arise, because the WGI series begins in 1996, which is already only eight years before the 2004 wave."));
     sec.appendChild(m1);
 
     var m2=h("div","card");
