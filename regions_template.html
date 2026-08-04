@@ -147,8 +147,10 @@ function emphasisChart(host,m,focus,extra){
     var d="",pen=false;
     path.forEach(function(v,i){if(v===null||v===undefined){pen=false;return}
       d+=(pen?" L":" M")+xs(Y[i]).toFixed(1)+","+ys(v).toFixed(1);pen=true});
-    if(d)svg.appendChild(el("path",{d:d,fill:"none"},"stroke:"+stroke+";stroke-width:"+width
-      +";stroke-linejoin:round;stroke-linecap:round"+(op?";opacity:"+op:"")+(dash?";stroke-dasharray:"+dash:"")));
+    if(!d)return null;
+    var e=el("path",{d:d,fill:"none"},"stroke:"+stroke+";stroke-width:"+width
+      +";stroke-linejoin:round;stroke-linecap:round"+(op?";opacity:"+op:"")+(dash?";stroke-dasharray:"+dash:""));
+    svg.appendChild(e);return e;
   }
   function endLabel(path,text,color,dy){
     var li=path.length-1;while(li>=0&&(path[li]===null||path[li]===undefined))li--;
@@ -157,8 +159,17 @@ function emphasisChart(host,m,focus,extra){
     var t=el("text",{x:xs(Y[li])+7,y:ys(path[li])+3.5+(dy||0)},"fill:"+color+";font-size:11px;font-weight:600");
     t.textContent=text;svg.appendChild(t);
   }
-  // context first, focus last so it sits on top
-  P.regionOrder.forEach(function(r){if(r!==focus)draw(m.regionPaths[r]||[],"var(--deemph)",1.5,0.9)});
+  /* The emphasis pattern needs something to emphasise. On a region tab there is one, and the
+     other six correctly recede. On the ALL-REGIONS tab there is no focus — and drawing every
+     line in the de-emphasis grey produced seven identical ghost lines that told the reader
+     nothing at all. So with no focus the lines are drawn legibly instead, and emphasis becomes
+     interactive: whichever line the cursor is nearest lights up and the rest recede. */
+  var lineEl={},labEl={};
+  P.regionOrder.forEach(function(r){
+    if(r===focus)return;
+    lineEl[r]=draw(m.regionPaths[r]||[],focus?"var(--deemph)":"var(--text-secondary)",
+                   focus?1.5:1.6,focus?0.9:0);
+  });
   if(!focus){
     // Seven series converge at the right edge, so end labels collide. Stacking
     // them without a connector detaches a label from its line, so each label is
@@ -177,9 +188,9 @@ function emphasisChart(host,m,focus,extra){
       if(Math.abs(l.ty-l.y)>1.5)
         svg.appendChild(el("path",{d:"M"+(l.x+2)+","+l.y+" L"+(l.x+5)+","+l.ty+" L"+(l.x+8)+","+l.ty,fill:"none"},
           "stroke:var(--baseline);stroke-width:1"));
-      svg.appendChild(el("circle",{cx:l.x,cy:l.y,r:2.5},"fill:var(--deemph)"));
-      var t=el("text",{x:l.x+11,y:l.ty+3.5},"fill:var(--text-secondary);font-size:10.5px");
-      t.textContent=l.r;svg.appendChild(t)});
+      svg.appendChild(el("circle",{cx:l.x,cy:l.y,r:2.5},"fill:var(--text-secondary)"));
+      var t=el("text",{x:l.x+11,y:l.ty+3.5},"fill:var(--text-primary);font-size:10.5px;font-weight:500");
+      t.textContent=l.r;svg.appendChild(t);labEl[l.r]=t});
   }
   if(extra)extra.forEach(function(s){draw(s.path,"var(--deemph)",1,0.55)});
   if(focus){draw(m.regionPaths[focus]||[],"var(--series-1)",2.5);
@@ -191,12 +202,32 @@ function emphasisChart(host,m,focus,extra){
     var mm=svg.getScreenCTM();if(!mm)return;
     var loc=pt.matrixTransform(mm.inverse());
     var i=Math.max(0,Math.min(Y.length-1,Math.round((loc.x-L)/pw*(Y1-Y0))));
+    /* With no fixed focus, the nearest line to the cursor becomes the emphasised one. Nearest
+       by vertical distance at the hovered year, which is far more forgiving than requiring a
+       hit on a 1.6px stroke. */
+    var near=null;
+    if(!focus){
+      var best=1e9;
+      P.regionOrder.forEach(function(r){
+        var v=(m.regionPaths[r]||[])[i];if(v===null||v===undefined)return;
+        var dy=Math.abs(loc.y-ys(v));if(dy<best){best=dy;near=r}});
+      if(best>26)near=null;
+      P.regionOrder.forEach(function(r){
+        var e=lineEl[r];if(!e)return;
+        var on=(r===near);
+        e.setAttribute("style","stroke:"+(on?"var(--series-1)":(near?"var(--deemph)":"var(--text-secondary)"))
+          +";stroke-width:"+(on?2.6:1.6)+";stroke-linejoin:round;stroke-linecap:round;fill:none");
+        if(labEl[r]){
+          labEl[r].setAttribute("style","fill:"+(on?"var(--series-1)":(near?"var(--text-muted)":"var(--text-primary)"))
+            +";font-size:10.5px;font-weight:"+(on?700:500));
+        }});
+    }
     while(tt.firstChild)tt.removeChild(tt.firstChild);
     var a=h("div","tt-title");a.textContent=Y[i];tt.appendChild(a);
     P.regionOrder.forEach(function(r){
       var v=(m.regionPaths[r]||[])[i];if(v===null||v===undefined)return;
       var row=h("div","tt-row");
-      var k=h("span","tt-key");k.style.background=(r===focus)?"var(--series-1)":"var(--deemph)";
+      var k=h("span","tt-key");k.style.background=(r===focus||(!focus&&r===near))?"var(--series-1)":"var(--deemph)";
       var val=h("span","tt-val");val.textContent=lab(m,v);
       var nm=h("span","tt-name");nm.textContent=r;
       row.appendChild(k);row.appendChild(val);row.appendChild(nm);tt.appendChild(row)});
@@ -205,7 +236,16 @@ function emphasisChart(host,m,focus,extra){
     if(left+tt.offsetWidth>rect.width-4)left=px-tt.offsetWidth-12;
     tt.style.left=Math.max(2,left)+"px";tt.style.top="10px";
   });
-  svg.addEventListener("pointerleave",function(){tt.style.display="none"});
+  svg.addEventListener("pointerleave",function(){
+    tt.style.display="none";
+    // restore the neutral, legible resting state
+    if(!focus)P.regionOrder.forEach(function(r){
+      var e=lineEl[r];
+      if(e)e.setAttribute("style","stroke:var(--text-secondary);stroke-width:1.6;"
+        +"stroke-linejoin:round;stroke-linecap:round;fill:none");
+      if(labEl[r])labEl[r].setAttribute("style","fill:var(--text-primary);font-size:10.5px;font-weight:500");
+    });
+  });
   host.appendChild(box);
 }
 
