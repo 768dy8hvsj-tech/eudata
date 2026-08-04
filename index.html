@@ -329,16 +329,27 @@ function countryChart(host,m,reg){
     svg.appendChild(el("line",{x1:xs(w),x2:xs(w),y1:T,y2:T+ph},"stroke:var(--baseline);stroke-width:1;opacity:0.7"));
     var t=el("text",{x:xs(w)+4,y:T+11},"fill:var(--text-muted);font-size:9.5px");
     t.textContent="joined "+w;svg.appendChild(t)});
-  var lbls=[];
+  /* Colour carries the member/neighbour distinction, which is what the comparison is about —
+     so every member is the same blue. In a seven-member region that leaves seven identical
+     lines separable only by their end labels, and tracing one back through the crossings is
+     genuinely hard. Same remedy as the all-regions chart: the line nearest the cursor lifts
+     out and the rest recede, so identification is available on demand without spending colour
+     on it. */
+  var lbls=[],lineEl={},labEl={};
+  function baseStyle(mem,on,dim){
+    return "stroke:"+(on?"var(--series-1)":(dim?"var(--deemph)":(mem?"var(--series-1)":"var(--series-2)")))
+      +";stroke-width:"+(on?3:2)+";stroke-linejoin:round;stroke-linecap:round;fill:none"
+      +(mem?"":";stroke-dasharray:5 3");
+  }
   cs.forEach(function(s){
     var col=s.c.member?"var(--series-1)":"var(--series-2)";
     var d="",pen=false;
     s.path.forEach(function(v,i){if(v===null||v===undefined){pen=false;return}
       d+=(pen?" L":" M")+xs(Y[i]).toFixed(1)+","+ys(v).toFixed(1);pen=true});
-    if(d)svg.appendChild(el("path",{d:d,fill:"none"},"stroke:"+col+";stroke-width:2;stroke-linejoin:round;stroke-linecap:round"
-      +(s.c.member?"":";stroke-dasharray:5 3")));
+    if(d){var e=el("path",{d:d,fill:"none"},baseStyle(s.c.member,false,false));
+      svg.appendChild(e);lineEl[s.c.iso3]=e;}
     var li=s.path.length-1;while(li>=0&&(s.path[li]===null||s.path[li]===undefined))li--;
-    if(li>=0)lbls.push({name:s.c.name,x:xs(Y[li]),y:ys(s.path[li]),ty:ys(s.path[li]),col:col,mem:s.c.member});
+    if(li>=0)lbls.push({iso3:s.c.iso3,name:s.c.name,x:xs(Y[li]),y:ys(s.path[li]),ty:ys(s.path[li]),col:col,mem:s.c.member});
   });
   lbls.sort(function(a,b){return a.ty-b.ty});
   var MIN=13;
@@ -351,7 +362,16 @@ function countryChart(host,m,reg){
         "stroke:var(--baseline);stroke-width:1"));
     svg.appendChild(el("circle",{cx:l.x,cy:l.y,r:3},"fill:"+l.col+";stroke:var(--surface-1);stroke-width:1.5"));
     var t=el("text",{x:l.x+11,y:l.ty+3.5},"fill:var(--text-primary);font-size:10.5px"+(l.mem?";font-weight:600":""));
-    t.textContent=l.name;svg.appendChild(t)});
+    t.textContent=l.name;svg.appendChild(t);labEl[l.iso3]=t});
+  function setEmph(near){
+    cs.forEach(function(s){
+      var on=(s.c.iso3===near),e=lineEl[s.c.iso3];
+      if(e)e.setAttribute("style",baseStyle(s.c.member,on,!!near&&!on));
+      var t=labEl[s.c.iso3];
+      if(t)t.setAttribute("style","fill:"+(on?"var(--series-1)":(near?"var(--text-muted)":"var(--text-primary)"))
+        +";font-size:10.5px;font-weight:"+(on?700:(s.c.member?600:400)));
+    });
+  }
   var cross=el("line",{x1:0,x2:0,y1:T,y2:T+ph},"stroke:var(--baseline);stroke-width:1;display:none");
   svg.appendChild(cross);
   box.appendChild(svg);
@@ -362,6 +382,12 @@ function countryChart(host,m,reg){
     var loc=pt.matrixTransform(mm.inverse());
     var i=Math.max(0,Math.min(Y.length-1,Math.round((loc.x-L)/pw*(Y1-Y0))));
     cross.setAttribute("x1",xs(Y[i]));cross.setAttribute("x2",xs(Y[i]));cross.style.display="";
+    var near=null,best=1e9;
+    cs.forEach(function(s){
+      var v=s.path[i];if(v===null||v===undefined)return;
+      var dy=Math.abs(loc.y-ys(v));if(dy<best){best=dy;near=s.c.iso3}});
+    if(best>26)near=null;
+    setEmph(near);
     while(tt.firstChild)tt.removeChild(tt.firstChild);
     var a=h("div","tt-title");a.textContent=Y[i];tt.appendChild(a);
     cs.slice().sort(function(p,q){
@@ -380,7 +406,7 @@ function countryChart(host,m,reg){
     if(left+tt.offsetWidth>rect.width-4)left=px-tt.offsetWidth-12;
     tt.style.left=Math.max(2,left)+"px";tt.style.top="10px";
   });
-  svg.addEventListener("pointerleave",function(){cross.style.display="none";tt.style.display="none"});
+  svg.addEventListener("pointerleave",function(){cross.style.display="none";tt.style.display="none";setEmph(null)});
   host.appendChild(box);
 }
 
