@@ -337,7 +337,7 @@ function estCard(label,val,unit,dp,ci,goodIsPositive,n,pl){
 
 /* ---------- panels ---------- */
 var TABS=[{id:"findings",label:"Findings"},{id:"paths",label:"Trajectories"},
-          {id:"crises",label:"Crises"},
+          {id:"crises",label:"Crises"},{id:"brexit",label:"Brexit"},
           {id:"adjust",label:"The convergence problem"},{id:"method",label:"Method & limits"},
           {id:"coverage",label:"Coverage"}];
 var tabsEl=document.getElementById("tabs"),panelsEl=document.getElementById("panels");
@@ -705,6 +705,112 @@ TABS.forEach(function(t,i){
       +"(r&sup2; of 0.03 and 0.00 against crisis depth). The mechanism is a reasonable story that this "
       +"data does not establish."));
     sec.appendChild(k2);
+  }
+
+  else if(t.id==="brexit"){
+    var B=P.brexit;
+    var b0=h("div","card");
+    b0.appendChild(h("h3","","The only country that left"));
+    b0.appendChild(h("p","","Every other result in this study runs the same direction — countries "
+      +"joining. The UK is the one observation pointing the other way, and if membership does what "
+      +"the trade finding says it does, leaving should show up in the same place."));
+    b0.appendChild(h("p","","<strong>Two dates, not one.</strong> The referendum was June 2016 — when "
+      +"expectations moved, sterling fell and investment decisions started being taken. Departure from "
+      +"the single market was 1 January 2021. Measuring only from 2021 discards four and a half years "
+      +"of anticipation; measuring only from 2016 counts years when the UK was still a full member. "
+      +"Both windows are below."));
+    b0.appendChild(h("p","","<strong>COVID sits between them</strong>, one quarter before the "
+      +"transition ended. Nothing that compares the UK to its own past can separate the two. Comparing "
+      +"it to countries living through the same calendar years can, because the pandemic hit them too "
+      +"— that is what a common shock does in this design."));
+    b0.appendChild(h("p","","<strong>Two control sets, deliberately.</strong> The tight set is Denmark "
+      +"and Sweden: rich, western, EU members that kept their own currency, which is what the UK was. "
+      +"The broad set adds the large western economies. Where the two disagree, the answer is about who "
+      +"was picked rather than about Brexit — and that turns out to be the finding."));
+    sec.appendChild(b0);
+
+    B.windows.forEach(function(w){
+      var c=h("div","card");
+      c.appendChild(h("h3","",w.label+": "+w.pre[0]+"–"+w.pre[1]+" against "+w.post[0]+"–"+w.post[1]));
+      c.appendChild(h("p","sub",w.note));
+      var tb=h("table","t"),hr=document.createElement("tr");
+      ["Measure","UK change","Tight controls","Difference","Broad controls","Difference"]
+        .forEach(function(x,j){var th=document.createElement("th");if(j>0)th.className="num";
+          th.textContent=x;hr.appendChild(th)});
+      tb.appendChild(hr);
+      w.rows.forEach(function(r){
+        var tr=document.createElement("tr");
+        var uk=r.tight?r.tight.uk:(r.broad?r.broad.uk:null);
+        [[r.label,"nm"],[uk===null?"—":fmt(uk,2),"num"],
+         [r.tight?fmt(r.tight.ctrl,2):"—","num"],[r.tight?fmt(r.tight.diff,2):"—","num"],
+         [r.broad?fmt(r.broad.ctrl,2):"—","num"],[r.broad?fmt(r.broad.diff,2):"—","num"]]
+          .forEach(function(cc){var td=document.createElement("td");td.className=cc[1];
+            td.textContent=cc[0];tr.appendChild(td)});
+        tb.appendChild(tr)});
+      c.appendChild(tb);
+      c.appendChild(h("p","note","Units differ by row — percentage points of GDP for trade and FDI, "
+        +"per 1,000 residents for migration, approximate percent for income."));
+      sec.appendChild(c);
+    });
+
+    var c2=h("div","card");
+    c2.appendChild(h("h3","","Why this does not produce a number"));
+    c2.appendChild(h("p","sub","Trade openness, the measure where an effect should be clearest, "
+      +"estimated against a range of post-windows. Pre-window fixed at 2011–2015."));
+    var st=h("table","t"),sh=document.createElement("tr");
+    ["Post-window","UK","Tight controls","Difference","Broad controls","Difference"]
+      .forEach(function(x,j){var th=document.createElement("th");if(j>0)th.className="num";
+        th.textContent=x;sh.appendChild(th)});
+    st.appendChild(sh);
+    B.sensitivity.forEach(function(r){
+      var tr=document.createElement("tr");
+      var lbl=(r.post[0]===r.post[1]?String(r.post[0]):r.post[0]+"–"+r.post[1])
+        +(r.placebo?" (placebo)":"");
+      [[lbl,"nm"],[r.tight?fmt(r.tight.uk,1):"—","num"],
+       [r.tight?fmt(r.tight.ctrl,1):"—","num"],[r.tight?fmt(r.tight.diff,1):"—","num"],
+       [r.broad?fmt(r.broad.ctrl,1):"—","num"],[r.broad?fmt(r.broad.diff,1):"—","num"]]
+        .forEach(function(cc){var td=document.createElement("td");td.className=cc[1];
+          td.textContent=cc[0];tr.appendChild(td)});
+      st.appendChild(tr)});
+    c2.appendChild(st);
+    c2.appendChild(h("p","","The estimate is stable against the choice of years — dropping the 2022 "
+      +"energy spike barely moves it — but it is <strong>not stable against the choice of "
+      +"comparators</strong>. Against Denmark and Sweden the UK looks roughly 21 points of GDP worse "
+      +"off. Against the eight-country set, about 7. A result that swings threefold on which handful of "
+      +"countries you nominate is not measuring Brexit."));
+    c2.appendChild(h("p","","Both routes then fail their own checks. The tight set has two countries, "
+      +"below the three-control minimum this study applies everywhere else. The broad set has a placebo "
+      +"of −4.2 against an effect of −7.3 — more than half the estimate is already present in years "
+      +"before the referendum."));
+    sec.appendChild(c2);
+
+    var c3=h("div","card");
+    c3.appendChild(h("h3","","The plainest way to look at it"));
+    c3.appendChild(h("p","sub","Trade openness in 2025 against the same country's 2019 level, "
+      +"percentage points of GDP. No model, no comparator weighting."));
+    divergingBars(c3,B.cross2025.map(function(r){return {name:r.name,v:r.change}}),"v","pp",1,true);
+    c3.appendChild(h("p","","The UK is not the outlier. It sits between Germany and the Netherlands, "
+      +"inside a spread running from Denmark at +17 to Belgium at −12. Denmark and Sweden — the tight "
+      +"control set — are the two countries behaving unusually here, and building a counterfactual out "
+      +"of them is what generated the large negative estimate."));
+    c3.appendChild(h("p","note","<strong>What would actually settle this.</strong> Total trade "
+      +"openness mixes EU and non-EU trade together, so it cannot see the thing Brexit changed: trade "
+      +"<em>with the EU specifically</em>, against trade with everyone else. That is bilateral trade "
+      +"data, and it is not in this dataset. Until it is, the honest answer is that this study cannot "
+      +"measure the trade effect of Brexit — which is a more useful statement than a number that "
+      +"triples depending on who you compare against."));
+    sec.appendChild(c3);
+
+    var c4=h("div","card");
+    c4.appendChild(h("h3","","What the referendum window does show"));
+    c4.appendChild(h("p","","The 2016–2019 window is the cleaner one: no COVID, no energy shock, and "
+      +"the UK still a full member throughout. Across all six measures the differences there are "
+      +"small — around a percentage point either way — and they do not point consistently in one "
+      +"direction. On this evidence the four years after the referendum are not distinguishable from "
+      +"an ordinary period for a large European economy."));
+    c4.appendChild(h("p","note","That is a finding about the anticipation phase only. It says nothing "
+      +"about what departure itself did, which is the question the data above cannot answer."));
+    sec.appendChild(c4);
   }
 
   else if(t.id==="adjust"){

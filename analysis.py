@@ -601,6 +601,91 @@ payload = {
     "adjusted": add_ci(convergence_adjusted("NY.GDP.PCAP.KD", "DERIVED.KD.PCT.EU"), "excess"),
 }
 
+# ------------------------------------------------------------- brexit
+# The one country that left. Two dates matter: the June 2016 referendum, when expectations
+# moved, and 1 January 2021, when the UK actually left the single market. COVID sits between
+# them, which is why every estimate is a difference against comparators living through the
+# same calendar years — a common shock cancels in that comparison.
+#
+# Two control sets on purpose. TIGHT is Denmark and Sweden: rich, western, EU members that
+# kept their own currency, which is what the UK was. BROAD adds the large western economies.
+# If the two disagree, the result is about who was picked, not about Brexit.
+BREXIT_TIGHT = ["DNK", "SWE"]
+BREXIT_BROAD = ["DNK", "SWE", "FRA", "DEU", "ITA", "ESP", "NLD", "BEL"]
+_bnames = {"DNK": "Denmark", "SWE": "Sweden", "FRA": "France", "DEU": "Germany",
+           "ITA": "Italy", "ESP": "Spain", "NLD": "Netherlands", "BEL": "Belgium"}
+BREXIT_MEASURES = [
+    ("Trade openness", "DERIVED.TRADE.OPEN", "pp of GDP", False),
+    ("GNI vs EU average", "DERIVED.GNI.PCT.EU", "pp", False),
+    ("Income per head", "NY.GDP.PCAP.KD", "%", True),
+    ("FDI inflows", "BX.KLT.DINV.WD.GD.ZS", "pp of GDP", False),
+    ("Net migration", "DERIVED.NETM.P1000", "per 1,000", False),
+    ("Unemployment", "SL.UEM.TOTL.ZS", "pp", False),
+]
+
+
+def _bwin(iso, code, lo, hi, log=False):
+    d = series.get((iso, code), {})
+    v = [d[y] for y in range(lo, hi + 1) if y in d]
+    if log:
+        v = [math.log(x) for x in v if x > 0]
+    return statistics.fmean(v) if len(v) >= 3 else None
+
+
+def _bdid(code, pre, post, pool, log=False):
+    sc = 100.0 if log else 1.0
+    a, b = _bwin("GBR", code, *pre, log=log), _bwin("GBR", code, *post, log=log)
+    if a is None or b is None:
+        return None
+    uk = (b - a) * sc
+    cs = []
+    for c in pool:
+        x, y = _bwin(c, code, *pre, log=log), _bwin(c, code, *post, log=log)
+        if x is not None and y is not None:
+            cs.append(((y - x) * sc, c))
+    if len(cs) < 2:
+        return None
+    cm = statistics.fmean(v for v, _ in cs)
+    return {"uk": round(uk, 2), "ctrl": round(cm, 2), "diff": round(uk - cm, 2), "n": len(cs)}
+
+
+brexit = {"windows": [], "sensitivity": [], "cross2025": []}
+for wl, pre, post, note in [
+    ("After the referendum", (2011, 2015), (2016, 2019),
+     "The anticipation period. Ends before COVID, so this estimate is clean of it entirely."),
+    ("After leaving the single market", (2011, 2015), (2021, 2025),
+     "After actual departure. Spans the COVID recovery and the 2022 energy shock, both of "
+     "which hit the comparators too."),
+]:
+    rows = []
+    for label, code, unit, log in BREXIT_MEASURES:
+        t = _bdid(code, pre, post, BREXIT_TIGHT, log)
+        b = _bdid(code, pre, post, BREXIT_BROAD, log)
+        if t or b:
+            rows.append({"label": label, "unit": unit, "tight": t, "broad": b})
+    brexit["windows"].append({"label": wl, "pre": pre, "post": post, "note": note, "rows": rows})
+
+# window sensitivity on the headline measure, plus the placebo
+# two-year windows are dropped: the three-observation coverage rule used everywhere else
+# in this file rejects them, and 2023-2025 already shows the result is not a 2022 artefact
+for post in [(2016, 2019), (2021, 2025), (2023, 2025)]:
+    t = _bdid("DERIVED.TRADE.OPEN", (2011, 2015), post, BREXIT_TIGHT)
+    b = _bdid("DERIVED.TRADE.OPEN", (2011, 2015), post, BREXIT_BROAD)
+    brexit["sensitivity"].append({"post": list(post), "tight": t, "broad": b, "placebo": False})
+for post in [(2011, 2015), (2013, 2015)]:
+    t = _bdid("DERIVED.TRADE.OPEN", (2006, 2010), post, BREXIT_TIGHT)
+    b = _bdid("DERIVED.TRADE.OPEN", (2006, 2010), post, BREXIT_BROAD)
+    brexit["sensitivity"].append({"post": list(post), "tight": t, "broad": b, "placebo": True})
+
+_to = series.get(("GBR", "DERIVED.TRADE.OPEN"), {})
+for iso in ["GBR"] + BREXIT_BROAD:
+    d = series.get((iso, "DERIVED.TRADE.OPEN"), {})
+    if 2019 in d and 2025 in d:
+        brexit["cross2025"].append({"name": "United Kingdom" if iso == "GBR" else _bnames[iso],
+                                    "iso3": iso, "change": round(d[2025] - d[2019], 1)})
+brexit["cross2025"].sort(key=lambda r: -r["change"])
+payload["brexit"] = brexit
+
 # ------------------------------------------------------------- crises
 # A crisis is a common shock landing in the same calendar year on everyone, so this
 # comparison does not rest on parallel trends the way the accession design does. What it
