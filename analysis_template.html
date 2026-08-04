@@ -337,6 +337,7 @@ function estCard(label,val,unit,dp,ci,goodIsPositive,n,pl){
 
 /* ---------- panels ---------- */
 var TABS=[{id:"findings",label:"Findings"},{id:"paths",label:"Trajectories"},
+          {id:"crises",label:"Crises"},
           {id:"adjust",label:"The convergence problem"},{id:"method",label:"Method & limits"},
           {id:"coverage",label:"Coverage"}];
 var tabsEl=document.getElementById("tabs"),panelsEl=document.getElementById("panels");
@@ -589,6 +590,121 @@ TABS.forEach(function(t,i){
     cc.appendChild(h("p","","The blue and orange lines start together at zero by construction — both are rebased to the accession year, so the chart shows <em>divergence after joining</em>, not level differences. If membership raised growth, blue should pull above orange after t=0 and stay there."));
     cc.appendChild(h("p","","The stretch to the <em>left</em> of the accession line matters just as much. If blue and orange move together before t=0, the comparison is credible. If they were already diverging, the post-accession gap may be a continuation of a pre-existing trend rather than an effect of joining."));
     sec.appendChild(cc);
+  }
+
+  else if(t.id==="crises"){
+    var C=P.crises;
+    var k0=h("div","card");
+    k0.appendChild(h("h3","","Why a crisis is a better test than an accession"));
+    k0.appendChild(h("p","","A recession lands on everyone in the same calendar year. That gives the "
+      +"comparison something the accession design has to assume: a shared starting point. There is no "
+      +"parallel-trends leap here — the shock supplies it. What a crisis still cannot do is randomise "
+      +"membership, so a gap between members and non-members remains a mix of effect and selection."));
+    k0.appendChild(h("p","","The episodes below are <strong>derived from the data, not asserted</strong>. "
+      +"A year counts as a synchronised downturn when a large share of the 41 countries contract "
+      +"together on real income per head. Two come out global. One does not."));
+    sec.appendChild(k0);
+
+    var k1=h("div","card");
+    k1.appendChild(h("h3","","One of these three is not like the others"));
+    k1.appendChild(h("p","sub","Share of each group whose real income per head fell, in the worst year of each episode."));
+    var ct=h("table","t"),ch=document.createElement("tr");
+    ["Year","EU members contracting","Non-members contracting","Reading"].forEach(function(x,j){
+      var th=document.createElement("th");if(j>0&&j<3)th.className="num";th.textContent=x;ch.appendChild(th)});
+    ct.appendChild(ch);
+    [["2009","global — hit both alike"],["2012","<strong>European — largely spared non-members</strong>"],
+     ["2020","global — hit both alike"]].forEach(function(pair){
+      var v=C.concentration[pair[0]];if(!v)return;
+      var tr=document.createElement("tr");
+      var cells=[[pair[0],""],[v.member.contracting+" of "+v.member.n+" ("+v.member.pct+"%)","num"],
+                 [v.neighbour.contracting+" of "+v.neighbour.n+" ("+v.neighbour.pct+"%)","num"]];
+      cells.forEach(function(c){var td=document.createElement("td");td.className=c[1];td.textContent=c[0];tr.appendChild(td)});
+      var td=document.createElement("td");td.innerHTML=pair[1];tr.appendChild(td);
+      ct.appendChild(tr)});
+    k1.appendChild(ct);
+    k1.appendChild(h("p","note","In 2009 and 2020 members and non-members contracted at almost identical "
+      +"rates. In 2012 the ratio is <strong>61% against 23%</strong>. This is the clearest thing in the "
+      +"whole crisis analysis and it needs no causal model to read: the euro-area debt crisis was a "
+      +"European event that the neighbours mostly sat out. It is the mirror image of the trade finding — "
+      +"the same integration that raises trade also transmits a shock that non-members never received."));
+    sec.appendChild(k1);
+
+    C.episodes.forEach(function(e){
+      var c=h("div","card");
+      c.appendChild(h("h3","",e.label+": depth and recovery"));
+      c.appendChild(h("p","sub","Depth is the trough as a percentage of the pre-crisis peak in real income "
+        +"per head. Recovery is years from that peak until it is regained."));
+      var g=h("div","estimates");
+      if(e.depth) g.appendChild(estCard("Depth, members minus non-members",
+        e.depth.diff,"pp",2,{lo:e.depth.lo,hi:e.depth.hi,crossesZero:e.depth.crossesZero},false,
+        e.depth.na+e.depth.nb));
+      if(e.recovery) g.appendChild(estCard("Recovery time, members minus non-members",
+        e.recovery.diff," yrs",2,{lo:e.recovery.lo,hi:e.recovery.hi,crossesZero:e.recovery.crossesZero},false,
+        e.recovery.na+e.recovery.nb));
+      c.appendChild(g);
+      if(e.depth) c.appendChild(h("p","","Members fell "+fmt(e.depth.a,1)+"% on average against "
+        +fmt(e.depth.b,1)+"% for non-members, and took "+fmt(e.recovery.a,1)+" years to recover against "
+        +fmt(e.recovery.b,1)+"."+(e.neverMember.length?" Never recovered by the cut-off: "
+        +e.neverMember.join(", ")+" among members"+(e.neverNon.length?", "+e.neverNon.join(", ")
+        +" among non-members":"")+".":"")));
+      var cf=e.confounds||{};
+      if(cf.incomeVsRecovery){
+        c.appendChild(h("p","","<strong>What else explains it.</strong> Before reading either gap as an "
+          +"effect of membership, the obvious rivals have to be checked. Income level in 2007 explains "
+          +"r&sup2;="+cf.incomeVsRecovery.r2+" of the variation in recovery time across all "
+          +cf.incomeVsRecovery.n+" countries — richer economies recovered more slowly, and EU members are "
+          +"much richer than these comparators. Pre-crisis trend growth explains r&sup2;="
+          +(cf.trendVsRecovery?cf.trendVsRecovery.r2:"n/a")+". Against that, income explains r&sup2;="
+          +cf.incomeVsDepth.r2+" of the variation in <em>depth</em> — essentially none."));
+        c.appendChild(h("p","note","So the two halves of this result are not equally solid. The recovery "
+          +"gap is substantially a rich-versus-poor effect wearing a membership label. The depth gap is "
+          +"not explained by income, by pre-crisis growth, by trade openness or by FDI inflows — all were "
+          +"tested. It is real in the data and unexplained, which is the honest place to leave it."));
+      }
+      if(e.euro){
+        c.appendChild(h("p","","<strong>Was it the euro?</strong> The obvious candidate is the loss of "
+          +"an independent exchange rate. Within the EU, euro members fell "+fmt(e.euro.depth.a,1)
+          +"% against "+fmt(e.euro.depth.b,1)+"% for members keeping their own currency — a difference of "
+          +fmt(e.euro.depth.diff,2)+"pp with a 95% interval of "+fmt(e.euro.depth.lo,1)+" to "
+          +fmt(e.euro.depth.hi,1)+", which is to say no difference at all in depth. The suggestive part is "
+          +"elsewhere: <strong>"+e.euro.neverEuro+" of "+e.euro.nEuro+" euro members had not regained "
+          +"their pre-crisis peak by 2019, against "+e.euro.neverOwn+" of "+e.euro.nOwn+" members with "
+          +"their own currency.</strong> With four cases that does not clear a 95% bar, and two of them — "
+          +"Luxembourg and Finland — have idiosyncratic explanations that have nothing to do with monetary "
+          +"union. Reported as a hypothesis worth testing on better data, not as a finding."));
+      }
+      var det=h("details");var sm=document.createElement("summary");
+      sm.textContent="Country by country";det.appendChild(sm);
+      var tb=h("table","t"),th0=document.createElement("tr");
+      ["Country","","Depth","Trough","Years to recover"].forEach(function(x,j){
+        var th=document.createElement("th");if(j>1)th.className="num";th.textContent=x;th0.appendChild(th)});
+      tb.appendChild(th0);
+      e.rows.slice().sort(function(a,b){return a.depth-b.depth}).forEach(function(r){
+        var tr=document.createElement("tr");
+        [[r.name,"nm"],[(r.member?"EU":"non-EU")+(r.euro?" · euro":""),""],
+         [fmt(r.depth,2)+"%","num"],[String(r.troughYear),"num"],
+         [r.recovYears===null?"not by cut-off":String(r.recovYears),"num"]]
+          .forEach(function(cc){var td=document.createElement("td");td.className=cc[1];
+            td.textContent=cc[0];tr.appendChild(td)});
+        tb.appendChild(tr)});
+      det.appendChild(tb);c.appendChild(det);
+      sec.appendChild(c);
+    });
+
+    var k2=h("div","card");
+    k2.appendChild(h("h3","","What the two shocks together suggest"));
+    k2.appendChild(h("p","","The COVID result is the one that disciplines the rest. In a shock with no "
+      +"financial origin — a pandemic, arriving from outside the economy entirely — members and "
+      +"non-members are <strong>indistinguishable on both depth and recovery</strong>, with both intervals "
+      +"comfortably spanning zero. Whatever separated the two groups in 2008 is therefore not a standing "
+      +"property of being an EU member. It showed up in a financial crisis and in the European debt crisis "
+      +"that followed, and not in a pandemic."));
+    k2.appendChild(h("p","","That pattern is consistent with financial and monetary integration carrying "
+      +"both the benefit and the exposure — but consistent with is not evidence for, and the direct tests "
+      +"of that mechanism, using pre-crisis FDI inflows and trade openness, came back essentially empty "
+      +"(r&sup2; of 0.03 and 0.00 against crisis depth). The mechanism is a reasonable story that this "
+      +"data does not establish."));
+    sec.appendChild(k2);
   }
 
   else if(t.id==="adjust"){

@@ -96,6 +96,13 @@ def build(iso3):
         "heroChart": nar["heroChart"], "tabs": nar["tabs"],
         "sources": nar["sources"], "method": nar["method"],
         "milestones": load_milestones(iso3),
+        # same derived episodes the comparison page uses, so a country's line can be
+        # read against the shocks every country faced
+        "crises": [
+            {"from": 2008, "to": 2009, "scope": "global"},
+            {"from": 2011, "to": 2013, "scope": "european"},
+            {"from": 2020, "to": 2020, "scope": "global"},
+        ],
         "generated": datetime.date.today().isoformat(),
         "rowCount": rowcount,
     }

@@ -236,6 +236,17 @@
     if (W_.accession && W_.negotiationsOpen && W_.accession > W_.negotiationsOpen)
       svg.appendChild(el("rect", { x: xs(W_.negotiationsOpen), y: T,
         width: xs(W_.accession) - xs(W_.negotiationsOpen), height: ph }, "fill:var(--band)"));
+    /* Synchronised downturns, so a country's line can be read against the shocks everyone
+       faced. The 2011-13 episode is tinted differently because it was European rather than
+       global — 61% of EU members contracted in 2012 against 23% of non-members. */
+    (P.crises || []).forEach(function (c) {
+      var a = Math.max(c.from, W_.start), b = Math.min(c.to, W_.end);
+      if (b < a) return;
+      var x1 = xs(a), x2 = xs(b + 0.999);
+      svg.appendChild(el("rect", { x: x1, y: T, width: Math.max(2, x2 - x1), height: ph },
+        "fill:var(--" + (c.scope === "global" ? "text-muted" : "series-2")
+        + ");opacity:" + (c.scope === "global" ? 0.07 : 0.08)));
+    });
 
     niceTicks(lo, hi, 5).forEach(function (tv) {
       svg.appendChild(el("line", { x1: L, x2: W - R, y1: ys(tv), y2: ys(tv) }, "stroke:var(--grid);stroke-width:1"));

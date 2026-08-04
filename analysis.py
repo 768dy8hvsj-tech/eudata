@@ -601,6 +601,140 @@ payload = {
     "adjusted": add_ci(convergence_adjusted("NY.GDP.PCAP.KD", "DERIVED.KD.PCT.EU"), "excess"),
 }
 
+# ------------------------------------------------------------- crises
+# A crisis is a common shock landing in the same calendar year on everyone, so this
+# comparison does not rest on parallel trends the way the accession design does. What it
+# still cannot do is randomise membership.
+#
+# Episodes are DERIVED, not asserted: a year qualifies when a large share of the 41 entities
+# contract together. That picks out 2009 and 2020 as global and 2012 as something else, and
+# the something-else is the finding.
+GDPC = "NY.GDP.PCAP.KD"
+_regs = {r["iso3"]: r for r in csv.DictReader(open(os.path.join(DATA, "regions.csv"), encoding="utf-8"))}
+_cmeta = {r["iso3"]: r for r in csv.DictReader(open(os.path.join(DATA, "countries.csv"), encoding="utf-8"))}
+
+
+def _pearson(pairs):
+    if len(pairs) < 6:
+        return None
+    xs = [a for a, _ in pairs]
+    ys = [b for _, b in pairs]
+    mx, my = statistics.fmean(xs), statistics.fmean(ys)
+    sx = math.sqrt(sum((x - mx) ** 2 for x in xs))
+    sy = math.sqrt(sum((y - my) ** 2 for y in ys))
+    if not sx or not sy:
+        return None
+    r = sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / (sx * sy)
+    return {"r": round(r, 2), "r2": round(r * r, 2), "n": len(pairs)}
+
+
+def _welch(a, b):
+    if len(a) < 3 or len(b) < 3:
+        return None
+    d = statistics.fmean(a) - statistics.fmean(b)
+    se = math.sqrt(statistics.variance(a) / len(a) + statistics.variance(b) / len(b))
+    lo, hi = d - 1.96 * se, d + 1.96 * se
+    return {"diff": round(d, 2), "lo": round(lo, 2), "hi": round(hi, 2),
+            "crossesZero": lo <= 0 <= hi,
+            "a": round(statistics.fmean(a), 2), "b": round(statistics.fmean(b), 2),
+            "na": len(a), "nb": len(b)}
+
+
+def _episode(iso, peak_range, trough_range, recover_by):
+    d = series.get((iso, GDPC), {})
+    pk = [(y, d[y]) for y in range(peak_range[0], peak_range[1] + 1) if y in d]
+    tr = [(y, d[y]) for y in range(trough_range[0], trough_range[1] + 1) if y in d]
+    if not pk or not tr:
+        return None
+    py, pv = max(pk, key=lambda t: t[1])
+    ty, tv = min(tr, key=lambda t: t[1])
+    if tv >= pv:
+        return {"peakYear": py, "troughYear": ty, "depth": 0.0, "recovYears": 0}
+    rec = next((y for y in range(ty, recover_by + 1) if y in d and d[y] >= pv), None)
+    return {"peakYear": py, "troughYear": ty, "depth": round((tv / pv - 1) * 100, 2),
+            "recovYears": (rec - py) if rec else None}
+
+
+def _share_contracting(year):
+    out = {}
+    for grp in ("member", "neighbour"):
+        n = c = 0
+        for iso, r in _regs.items():
+            g = "member" if r["group"] == "member" else "neighbour"
+            if g != grp:
+                continue
+            d = series.get((iso, GDPC), {})
+            if year not in d or (year - 1) not in d or not d[year - 1]:
+                continue
+            n += 1
+            if d[year] / d[year - 1] - 1 < 0:
+                c += 1
+        out[grp] = {"n": n, "contracting": c, "pct": round(c / n * 100) if n else None}
+    return out
+
+
+def _euro_by(iso, year):
+    e = ((_cmeta.get(iso) or {}).get("euro_adopted") or "").strip()
+    try:
+        return bool(e) and int(e[:4]) <= year
+    except ValueError:
+        return False
+
+
+CRISIS_EPISODES = [
+    {"id": "gfc", "label": "Global financial crisis", "band": [2008, 2009],
+     "peak": (2006, 2008), "trough": (2009, 2013), "recoverBy": 2019},
+    {"id": "covid", "label": "COVID-19", "band": [2020, 2020],
+     "peak": (2018, 2019), "trough": (2020, 2021), "recoverBy": 2025},
+]
+
+crises = {"concentration": {str(y): _share_contracting(y) for y in (2009, 2012, 2020)},
+          "episodes": []}
+for ep in CRISIS_EPISODES:
+    rows = []
+    for iso, r in _regs.items():
+        if any(x["iso3"] == iso for x in rows):
+            continue                     # regions.csv lists Belarus twice, deliberately
+        e = _episode(iso, ep["peak"], ep["trough"], ep["recoverBy"])
+        if not e:
+            continue
+        d = series.get((iso, GDPC), {})
+        trend = None
+        if 1998 in d and 2007 in d and d[1998]:
+            trend = round(((d[2007] / d[1998]) ** (1 / 9) - 1) * 100, 2)
+        e.update(iso3=iso, name=r["name"], member=r["group"] == "member",
+                 region=r["region"], euro=_euro_by(iso, ep["trough"][0]), trend=trend,
+                 gni07=series.get((iso, "NY.GNP.PCAP.PP.CD"), {}).get(2007))
+        rows.append(e)
+    mem = [x for x in rows if x["member"]]
+    non = [x for x in rows if not x["member"]]
+    blk = {
+        "id": ep["id"], "label": ep["label"], "band": ep["band"], "rows": rows,
+        "depth": _welch([x["depth"] for x in mem], [x["depth"] for x in non]),
+        "recovery": _welch([x["recovYears"] for x in mem if x["recovYears"] is not None],
+                           [x["recovYears"] for x in non if x["recovYears"] is not None]),
+        "neverMember": [x["name"] for x in mem if x["recovYears"] is None],
+        "neverNon": [x["name"] for x in non if x["recovYears"] is None],
+        # confound checks — what else predicts these outcomes?
+        "confounds": {
+            "incomeVsRecovery": _pearson([(x["gni07"], x["recovYears"]) for x in rows
+                                          if x.get("gni07") and x["recovYears"] is not None]),
+            "trendVsRecovery": _pearson([(x["trend"], x["recovYears"]) for x in rows
+                                         if x.get("trend") is not None and x["recovYears"] is not None]),
+            "incomeVsDepth": _pearson([(x["gni07"], x["depth"]) for x in rows if x.get("gni07")]),
+        },
+    }
+    if ep["id"] == "gfc":
+        eu = [x for x in mem if x["euro"]]
+        ne = [x for x in mem if not x["euro"]]
+        blk["euro"] = {
+            "depth": _welch([x["depth"] for x in eu], [x["depth"] for x in ne]),
+            "neverEuro": sum(1 for x in eu if x["recovYears"] is None), "nEuro": len(eu),
+            "neverOwn": sum(1 for x in ne if x["recovYears"] is None), "nOwn": len(ne),
+        }
+    crises["episodes"].append(blk)
+payload["crises"] = crises
+
 # ---------------------------------------------------------- persistence
 # A five-year window at t+6..t+10 shows whether an effect appeared. It cannot show
 # whether it lasted. Re-running the identical estimator at t+11..t+15 answers a

@@ -39,6 +39,20 @@ WGI_CAVEAT = (
     "bottom. Comparing levels between countries is safer than reading small movements."
 )
 
+# Synchronised downturns, derived from the data rather than asserted: a year counts when a
+# large share of the 41 entities contract together on real GDP per capita. The share is
+# recorded so the label can be checked against the evidence for it. Note the middle episode
+# is NOT global — that asymmetry is the finding, not a caveat.
+CRISES = [
+    {"from": 2008, "to": 2009, "label": "Global financial crisis", "scope": "global",
+     "note": "90% of all 41 countries contracted in 2009 — 96% of EU members and 77% of non-members."},
+    {"from": 2011, "to": 2013, "label": "Euro-area debt crisis", "scope": "european",
+     "note": "61% of EU members contracted in 2012 against 23% of non-members. Unlike 2009 and "
+             "2020 this was a European shock, not a global one."},
+    {"from": 2020, "to": 2020, "label": "COVID-19", "scope": "global",
+     "note": "93% of all 41 countries contracted — 93% of EU members and 92% of non-members."},
+]
+
 MEASURES = [
     {"id": "gniconv", "lens": "Financial", "code": "DERIVED.GNI.PCT.EU", "label": "Convergence (GNI vs EU average)",
      "unit": "%", "dp": 1, "suffix": "%", "ref": 100,
@@ -161,7 +175,8 @@ def main():
             order.append(r["region"])
 
     payload = {"generated": datetime.date.today().isoformat(), "years": YEARS,
-               "regionOrder": order, "regions": {}, "measures": [], "lenses": LENSES}
+               "regionOrder": order, "regions": {}, "measures": [], "lenses": LENSES,
+               "crises": CRISES}
 
     for reg in order:
         ms = members[reg]

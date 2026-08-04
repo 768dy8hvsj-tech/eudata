@@ -121,6 +121,23 @@ function ticks(lo,hi,n){var sp=hi-lo,st=Math.pow(10,Math.floor(Math.log10(sp/n))
   var t=[],v=Math.ceil(lo/st)*st;for(;v<=hi+1e-9;v+=st)t.push(Math.round(v*1000)/1000);return t}
 
 /* ---------- emphasis line chart: one region lit, the rest grey ---------- */
+/* Crisis bands. Drawn first so they sit behind every line, and kept very light: they are
+   context for reading the lines, not a series competing with them. The European-only episode
+   is marked differently from the two global ones, because that distinction is the point. */
+function crisisBands(svg,xs,T,ph,L,W,R){
+  (P.crises||[]).forEach(function(c){
+    var x1=xs(Math.max(c.from,Y0)),x2=xs(Math.min(c.to,Y1));
+    if(x2<L||x1>W-R)return;
+    if(c.to===c.from){x1-=3;x2+=3}
+    svg.appendChild(el("rect",{x:x1,y:T,width:Math.max(2,x2-x1),height:ph},
+      "fill:var(--"+(c.scope==="global"?"deemph":"series-2")+");opacity:"+(c.scope==="global"?0.10:0.09)));
+    var t=el("text",{x:(x1+x2)/2,y:T+ph+0,"text-anchor":"middle"},
+      "fill:var(--text-muted);font-size:9px;opacity:0.85");
+    t.textContent=c.from===c.to?String(c.from):(c.from+"–"+c.to);
+    svg.appendChild(t);
+  });
+}
+
 function emphasisChart(host,m,focus,extra){
   var W=790,H=310,L=54,R=118,T=14,B=30,pw=W-L-R,ph=H-T-B;
   var all=[];
@@ -132,6 +149,7 @@ function emphasisChart(host,m,focus,extra){
   var xs=function(y){return L+(y-Y0)/(Y1-Y0)*pw},ys=function(v){return T+(hi-v)/(hi-lo)*ph};
   var box=h("div","chart-box");
   var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":m.label+(focus?" — "+focus+" highlighted":"")});
+  crisisBands(svg,xs,T,ph,L,W,R);
   ticks(lo,hi,5).forEach(function(t){
     svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(t),y2:ys(t)},"stroke:var(--grid);stroke-width:1"));
     var q=el("text",{x:L-7,y:ys(t)+3.5,"text-anchor":"end"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
@@ -312,6 +330,7 @@ function countryChart(host,m,reg){
   var xs=function(y){return L+(y-Y0)/(Y1-Y0)*pw},ys=function(v){return T+(hi-v)/(hi-lo)*ph};
   var box=h("div","chart-box");
   var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":reg.name+" countries, "+m.label});
+  crisisBands(svg,xs,T,ph,L,W,R);
   ticks(lo,hi,5).forEach(function(t){
     svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(t),y2:ys(t)},"stroke:var(--grid);stroke-width:1"));
     var q=el("text",{x:L-7,y:ys(t)+3.5,"text-anchor":"end"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
