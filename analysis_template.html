@@ -222,9 +222,16 @@ function divergingBars(host,rows,key,unit,dp,goodIsPositive){
     svg.appendChild(el("path",{d:d},"fill:var("+(good?"--series-1":"--neg")+")"));
     var nm=el("text",{x:L-10,y:y+bh-3,"text-anchor":"end"},"fill:var(--text-primary);font-size:11.5px");
     nm.textContent=r.name;svg.appendChild(nm);
-    var vl=el("text",{x:v>=0?xs(v)+6:xs(v)-6,y:y+bh-3,"text-anchor":v>=0?"start":"end"},
-      "fill:var(--text-secondary);font-size:11.5px;font-variant-numeric:tabular-nums");
-    vl.textContent=fmt(v,dp)+unit;svg.appendChild(vl);
+    /* Value labels sit outside the bar end. On the longest negative bar that runs into the
+       country-name gutter, so anything that would cross into it flips inside the bar and
+       switches to a contrasting fill. */
+    var txt=fmt(v,dp)+unit, outX=v>=0?xs(v)+6:xs(v)-6, anchor=v>=0?"start":"end";
+    var estW=txt.length*6.2, inside=(v<0&&outX-estW<L+4);
+    var vl=el("text",{x:inside?xs(v)+6:outX,y:y+bh-3,
+                      "text-anchor":inside?"start":anchor},
+      "fill:var("+(inside?"--surface-1":"--text-secondary")+");font-size:11.5px;"
+      +(inside?"font-weight:600;":"")+"font-variant-numeric:tabular-nums");
+    vl.textContent=txt;svg.appendChild(vl);
   });
   box.appendChild(svg);host.appendChild(box);
 }
@@ -398,6 +405,7 @@ TABS.forEach(function(t,i){
       +"reports an effect, the groups were drifting apart before anyone joined and the headline number is "
       +"not an effect of membership. Only rows marked <strong>finding</strong> are carried into the "
       +"conclusions of this study."));
+    var nEst=0;
     var st=h("table","t");
     var sh=document.createElement("tr");
     ["Outcome","Bloc","n","Raw estimate","Placebo","Status"].forEach(function(x,j){
@@ -409,6 +417,7 @@ TABS.forEach(function(t,i){
         var d=m.did[bloc];
         if(!d||!d.rows||!d.rows.length)return;
         var pl=d.placebo||{}, ok=d.identified&&pl.verdict==="passes";
+        nEst++;
         if(ok){nFind++;findings.push({m:m,bloc:bloc,d:d})}
         var tr2=document.createElement("tr");
         var cells=[[m.label,"nm"],[bloc,""],[String(d.n),"num"],
@@ -432,7 +441,7 @@ TABS.forEach(function(t,i){
         }
       })});
     sb.appendChild(st);
-    sb.appendChild(h("p","note","Of "+st.rows.length+" estimates attempted, "+nFind+" clear every check. "
+    sb.appendChild(h("p","note","Of "+nEst+" estimates attempted, "+nFind+" clear every check. "
       +"That is a low strike rate and it is the correct one: most of these comparisons are defeated either by "
       +"a control group too small to be a counterfactual, or by series that do not reach far enough back "
       +"before accession to test the assumption the method rests on."));
@@ -455,6 +464,53 @@ TABS.forEach(function(t,i){
         +"What it does not tell you is whether more trade made people better off — that is the income "
         +"question, and the income question remains unresolved here."));
       sec.appendChild(ct);
+    }
+
+    /* ---- governance: the headroom trap ---- */
+    var rl=P.measures.filter(function(m){return m.id==="ruleoflaw"})[0];
+    if(rl&&rl.headroom&&rl.did.East.rows.length){
+      var hd=rl.headroom.East, rd=rl.did.East;
+      var cg=h("div","card");
+      cg.appendChild(h("h3","","Governance: why the raw number says the opposite of the truth"));
+      cg.appendChild(h("p","","The plain comparison says Eastern members' rule-of-law scores moved "
+        +fmt(rd.mean,2)+" relative to Western Balkan non-members — a negative number, which reads as "
+        +"membership making things worse. That reading is wrong, and it is worth walking through why, "
+        +"because the same trap is waiting in any bounded index."));
+      cg.appendChild(h("p","","<strong>Both groups improved.</strong> Members went from about +0.57 to "
+        +"+0.71 on the scale. The Balkan comparators went from about &minus;0.58 to &minus;0.24. The "
+        +"comparators improved more — but they started more than a full point lower on a scale that "
+        +"stops at +2.5. A country already near the top has less room above it, so subtracting one "
+        +"group's gain from the other's charges members for their own head start."));
+      cg.appendChild(h("p","","The pre-accession placebo does not catch this, and that is not a bug in "
+        +"the placebo: it tests whether the two groups shared a <em>trend</em>, not whether they shared "
+        +"a <em>starting level</em>. On an unbounded measure those come to nearly the same thing. On a "
+        +"bounded one they do not."));
+      cg.appendChild(h("p","","The correction is the one already built for income. Pool every "
+        +"non-member — EFTA near the top of the scale, the Western Balkans near the bottom — fit how "
+        +"much improvement a given starting level bought you <em>outside</em> the Union, and measure "
+        +"each member against that line. The same r&sup2; gate applies: a fit explaining less than half "
+        +"the variance is not identified and yields no estimate."));
+      var g2=h("div","estimates");
+      g2.appendChild(estCard("Eastern members, rule of law<br>raw comparison",
+        rd.mean,"",2,rd.ci,true,rd.n));
+      if(hd.mean===null||hd.mean===undefined){
+        var nz=h("div","est");
+        nz.appendChild(h("div","lbl","Eastern members, rule of law<br>adjusted for headroom"));
+        nz.appendChild(h("div","val","not identified"));
+        g2.appendChild(nz);
+      } else {
+        g2.appendChild(estCard("Eastern members, rule of law<br>adjusted for headroom",
+          hd.mean,"",2,hd.ci,true,hd.n));
+      }
+      cg.appendChild(g2);
+      cg.appendChild(h("p","note","Adjusted, the effect is "+fmt(hd.mean,2)+" — indistinguishable from "
+        +"zero, across the "+hd.n+" members whose accession window has an identified catch-up line "
+        +"(the 2007 and 2013 windows were rejected by the r&sup2; gate). <strong>The honest finding is "
+        +"that this data shows no rule-of-law effect of membership in either direction</strong>, not "
+        +"that membership hurt. Voice and accountability and control of corruption fail earlier still — "
+        +"one on the placebo, the other because no catch-up line could be identified — so neither "
+        +"carries a reportable estimate at all."));
+      sec.appendChild(cg);
     }
 
     var c2=h("div","card");

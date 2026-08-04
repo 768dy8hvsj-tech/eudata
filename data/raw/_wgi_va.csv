@@ -1,0 +1,728 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.1094023,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.2118042,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.2131671,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,0.9755154,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,0.9809925,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,0.8737767,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.0285355,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,0.9360213,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,0.9393901,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.0720367,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.064793,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.1169909,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.0662057,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.1085187,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,0.9472071,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.0672929,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,0.9924822,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,0.8683932,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,0.6803648,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,0.5419408,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,0.5057092,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,0.4872989,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,0.369436,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,0.375328,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,0.4100224,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+POL,Poland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,0.7521675,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.6676879,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.6552672,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.6462467,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.6713931,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.661152,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.5590506,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.7182903,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.7340026,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.7463082,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.744942,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.7524622,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.7627122,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.8109178,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.8802205,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.8850457,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.8437744,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.9139631,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.9140808,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.9306924,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.9573175,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.9498022,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.9557738,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.9844255,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.9385647,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.9331357,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+NOR,Norway,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.9294246,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.5685327,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.5724978,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.5602084,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.6158317,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.6308801,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.6028935,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.6121744,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.6475483,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.647309,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.6448935,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.6603946,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.6558672,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.6609244,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.6596375,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.6481092,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.6312583,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.6319543,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.639262,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.6652384,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.6741105,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.6494367,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.6390344,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.678298,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.6844928,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.625069,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CHE,Switzerland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.6422377,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.459135,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.4673008,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.4727407,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.5436288,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.5694384,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.5042564,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.578088,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.6228172,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.6463564,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.6444258,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.5897904,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.5492553,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.498124,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.5094717,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.54359,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.4889413,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.5172337,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.5312554,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.5010156,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.4963063,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.4945189,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.4534576,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.4547451,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.4313945,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.4096588,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ISL,Iceland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.4247807,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,-1.380423,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-1.19315599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,-0.920652799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,-0.299238499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,-0.3040542,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,-0.2299163,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,-0.1912697,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,0.2517474,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,0.328277,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,0.280667,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,0.3129287,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,0.2638233,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,0.258274,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,0.0987383999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,0.1433921,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,0.125625,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,0.1127889,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,0.1008581,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,-0.0274908,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,-0.179080699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,-0.1847773,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,-0.1971568,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,-0.2621982,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,-0.2834019,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,-0.3760322,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+SRB,Serbia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,-0.4658584,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,-0.826076599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-0.663618399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,-0.524937099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,-0.2153127,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,-0.1267372,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,-0.0105244,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,0.1006314,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,0.1202026,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,0.0980996,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,0.1726,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,0.1550401,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,0.1270914,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,-0.0048785,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,-0.0572675,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,-0.0615944,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,0.0984136999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,0.0763576,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,0.0737892,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,0.1067553,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,0.1354782,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,0.0967645999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,0.0554688,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,-0.000404299999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,0.024176,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,-0.0363936,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+ALB,Albania,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,-0.0124167999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,-0.6190645,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-0.460725899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,-0.619559699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,-0.435676,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,-0.2525667,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,-0.0969674,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,0.0501041,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,0.245191,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,0.2826517,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,0.2146704,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,0.1950685,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,-0.0793722999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,-0.2353209,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,-0.0177664999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,-0.109379499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,-0.1806253,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,-0.2537076,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,-0.3081163,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,-0.2727594,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,-0.1175171,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,-0.1170509,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,-0.0924122,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,-0.0157161,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,-0.00466449999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,-0.0011212,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MKD,North Macedonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,0.0737386999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,-0.1938932,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-0.1014378,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,-0.142943799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,-0.0885147999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,0.0582433,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,0.1911555,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,0.2921539,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,0.2329202,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,0.1929178,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,0.0995933,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,0.0543793,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,-0.061222,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,-0.183315099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,-0.142103999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,-0.1978231,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,-0.1598354,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,-0.212129799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,-0.256938599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,-0.383017999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,-0.4378719,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,-0.4515923,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,-0.4512199,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,-0.4759813,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,-0.4739062,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,-0.443716799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BIH,Bosnia and Herzegovina,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,-0.3952516,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-0.498363399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,-0.6439083,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,-0.0658969,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,-0.292591899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,-0.3044627,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,-0.2501891,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,0.3034887,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,0.2459826,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,0.2307097,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,0.2133588,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,-0.0387663,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,-0.0294923,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,0.2010496,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,0.169083,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,0.1944069,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,0.1963459,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,0.10191,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,0.1672645,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,0.1124884,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,0.0915887,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,0.0979351,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,0.0861181,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,0.1804086,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,0.215248,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MNE,Montenegro,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,0.3909571,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,-0.518041299999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-0.472897099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,-0.7593483,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,-0.683688499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,-0.7233855,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,-0.6836514,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,-0.2256755,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,0.0925574,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,0.1177616,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,0.1216803,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,0.133882,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,-0.0569311999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,-0.2705415,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,-0.2682283,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,-0.3473772,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,-0.1882038,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,-0.1573009,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,-0.1297301,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,-0.1305496,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,-0.0332900999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,0.0813478,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,0.1275231,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,0.0995611999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,-0.019284,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,-0.0900654999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+UKR,Ukraine,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,-0.1110085,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,-0.9090817,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-0.826632599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,-1.4120228,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,-1.30118169999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,-1.2762788,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,-1.2217341,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,-1.3441087,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,-1.4304426,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,-1.37189579999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,-1.24591799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,-1.2220676,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,-1.2410381,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,-1.2790985,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,-1.235427,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,-1.273777,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,-1.18783519999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,-1.19594929999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,-1.1130495,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,-1.17853079999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,-1.10105529999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,-1.2640856,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,-1.3757237,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,-1.55548589999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,-1.64264869999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,-1.72586319999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BLR,Belarus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,-1.6904177,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,-0.4057691,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-0.5349587,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,-0.548716299999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,-0.3968971,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,-0.41467,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,-0.4332329,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,-0.4140656,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,-0.5586627,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,-0.5325388,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,-0.4631299,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,-0.5727011,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,-0.575656,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,-0.6074539,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,-0.805564899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,-0.8380923,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,-0.795428399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,-0.809146599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,-0.7853492,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,-0.7636404,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,-0.7832809,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,-0.921051699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,-0.9044002,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,-0.9937267,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,-1.16496089999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,-1.3110562,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+RUS,Russian Federation,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,-1.4221754,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,-0.3062373,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-0.7565145,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,-0.5259877,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,-0.2871699,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,-0.0679306,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,0.0503854,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,0.1100507,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,0.0920966999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,-0.0470796999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,0.00352539999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,0.0543002,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,-0.0271714999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,-0.1932915,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,-0.1955663,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,-0.3049498,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,-0.4843587,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,-0.5858025,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,-0.719495,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,-0.784376499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,-0.9511579,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,-0.9058771,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,-0.9536477,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,-1.0031695,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,-1.0955858,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,-1.08267849999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+TUR,Turkiye,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,-1.09467,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.4350143,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.3776719,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.3898763,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.4136838,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.3862769,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.3652313,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.323997,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.5999476,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.6046687,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.5791589,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.6092717,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.6082815,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.5482262,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.5522565,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.5862519,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.5285745,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.5465377,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.5055302,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.4702463,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.4643983,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.4551242,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.5300268,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.4910037,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.4754309,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.4328609,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+AUT,Austria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.4054571,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.458958,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.4063934,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.4437586,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.5102156,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.5361146,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.4527162,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.532389,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.5303257,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.5789576,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.5252467,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.5416049,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.5232196,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.4154858,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.4318518,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.4682398,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.4666488,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.5225951,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.5164105,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.4607612,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.4858461,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.4474148,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.5200949,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.541916,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.5409176,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.5152567,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BEL,Belgium,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.4972136,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,0.2553917,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,0.3358715,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,0.3310167,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,0.4131843,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,0.4379845,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,0.4686663,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,0.5952839,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,0.6851175,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,0.7008671,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,0.6183183,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,0.5935034,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,0.5234556,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,0.325433,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,0.3526623,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,0.2012595,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,0.2195941,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,0.2421524,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,0.2331893,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,0.1264569,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,0.0730547,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,0.1389293,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,0.193102,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,0.1902884,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,0.1982152,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,0.2596074,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+BGR,Bulgaria,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,0.2133864,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,-0.4850348,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-0.531500699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,0.2517176,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,0.4551808,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,0.5097517,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,0.6667267,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,0.6485609,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,0.6467006,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,0.657198,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,0.576001,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,0.6129851,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,0.5866916,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,0.5073076,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,0.574486,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,0.513264,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,0.5360017,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,0.5836676,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,0.5260745,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,0.4559302,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,0.3876269,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,0.4375104,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,0.5711056,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,0.5908861,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,0.5940068,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,0.6291782,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HRV,Croatia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,0.6486643,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.0321297,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,0.8487325,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,0.9356312,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.040261,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.0187495,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,0.9189302,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.0520447,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.2038865,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.2178939,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.2417074,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.2066633,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.1474284,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.1525291,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.1030943,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.0462418,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.0347024,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.0108417,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.0198642,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.0417544,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.0535864,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.0941113,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.0583368,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,0.9075915,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,0.8916138,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,0.8987685,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CYP,Cyprus,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,0.8873328,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,0.9847754,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,0.8849334,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,0.7215866,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,0.8877291,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,0.9352353,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,0.8370087,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,0.9652086,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.0001102,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,0.9560787,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.0133712,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.0008507,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,0.960342,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,0.9199571,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,0.8854643,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,0.9119659,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,0.9617226,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,0.9870659,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,0.9821893,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,0.8284651,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,0.7634218,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,0.888522,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.0021327,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.0405404,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.0848262,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.139348,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+CZE,Czechia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.2546961,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.6513007,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.6441904,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.6699641,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.7276096,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.7547856,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.7364084,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.71092,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.8013603,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.7382375,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.7950252,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.8171371,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.7535682,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.7539873,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.8432156,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.8219441,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.6861879,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.8029116,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.8008604,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.6950847,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.7815998,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.7878967,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.8719672,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.9120246,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.9129484,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.9213047,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DNK,Denmark,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.8949405,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,0.9347185,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.0662258,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.0662033,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,0.9910474,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.0439984,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.0401667,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.0529428,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.0298223,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.0412227,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.0417351,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.0772386,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.1185454,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.193398,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.1530285,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.1434192,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.2176114,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.2588335,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.2674888,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.29647,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.2712932,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.4094654,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.4142436,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.4062889,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.4173259,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.3973248,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+EST,Estonia,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.4144994,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.6377763,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.6490669,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.6831713,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.7377812,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.7059935,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.7197262,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.6976044,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.713509,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.6854044,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.6908803,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.6738832,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.6635712,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.6936311,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.8195476,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.7599456,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.7486535,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.8318798,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.8122181,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.7957995,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.8561275,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.8337714,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.9151339,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.913997,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.9074802,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.8446784,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FIN,Finland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.8535581,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.3012914,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.1969768,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.2257163,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.2364995,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.2334153,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.2714834,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.5048671,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.357341,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.4100223,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.4025096,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.3921021,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.3338995,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.2227445,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.3133921,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.2297224,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.2106791,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.2297173,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.1836318,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.162837,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.152628,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.1253167,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.1823864,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.1650934,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.1796995,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.1742965,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+FRA,France,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.1486677,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.6014824,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.5884867,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.5940086,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.5401099,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.4840326,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.4773526,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.568364,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.5816214,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.57531,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.5465795,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.5905728,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.5107482,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.518923,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.5272685,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.528676,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.5532686,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.5917252,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.5145689,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.5233606,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.5425213,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.5336755,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.6004463,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.5769284,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.5586754,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.5915479,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+DEU,Germany,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.5981515,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.0256789,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.1803492,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.2279505,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.129581,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.1809016,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.146449,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.1541321,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.1910714,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.224304,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.0989539,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.1483869,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.0095167,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,0.9376314,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,0.7074172,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,0.6757818,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,0.6896289,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,0.6672394,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,0.678085,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,0.6628897,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,0.6995366,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,0.7342913,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,0.855378,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,0.7984164,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,0.7920598,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,0.830097,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+GRC,Greece,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,0.7818531,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.0241515,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.1102852,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.1446671,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.0590894,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.1057081,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.0103027,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.1467009,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.0837429,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.0577711,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,0.9708038,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,0.9738578,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,0.9488392,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,0.8857405,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,0.7239314,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,0.6721209,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,0.5132176,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,0.4598701,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,0.3729857,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,0.3339126,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,0.1357955,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,0.1344536,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,0.1668036,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,0.080264,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,0.0447248,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,-0.0468028,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+HUN,Hungary,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,-0.027728,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,1.3237086,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,1.3723223,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,1.3876954,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,1.3662036,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,1.4315862,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,1.3423163,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,1.6051153,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,1.5321064,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,1.5525635,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,1.5689025,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,1.4497435,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,1.3749061,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,1.3622234,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,1.3639946,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,1.3539292,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,1.3604983,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,1.3918301,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,1.3765917,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,1.3987146,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,1.4323389,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,1.4455034,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,1.5010975,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,1.5787476,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,1.6017718,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,1.6268782,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+IRL,Ireland,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,1.6376655,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1996,-0.142149499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,1998,-0.0925163,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2000,-0.2382137,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2002,-0.525512,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2003,-0.4943916,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2004,-0.376365199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2005,-0.4207992,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2006,-0.0987538999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2007,-0.0949819,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2008,-0.119398399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2009,-0.191359199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2010,0.083603,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2011,0.2324501,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2012,0.0215492,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2013,-0.0685532,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2014,-0.0337182,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2015,-0.0642348,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2016,-0.103968499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2017,-0.110529999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2018,-0.1677532,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2019,-0.1508752,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2020,-0.0883867,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2021,0.0252853,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2022,0.0872112999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2023,0.2629208,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02
+MDA,Moldova,WGI.VA.EST,Voice and Accountability (WGI governance estimate),index,2024,0.2837193,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_VA.EST",2026-08-02

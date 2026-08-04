@@ -55,11 +55,32 @@ def val(iso, code, year, log=False):
     return v
 
 
+# Years each indicator is actually published for, pooled across every entity. Used to set the
+# coverage requirement below, so a rule written for annual data is not applied to a series the
+# source never published annually.
+PUBLISHED = collections.defaultdict(set)
+for (_iso, _code), _d in series.items():
+    PUBLISHED[_code].update(_d)
+
+
+def required_obs(code, lo, hi):
+    """How many observations a window must contain to be usable.
+
+    Three of five years for an annual series — enough that one odd year cannot drive the
+    average. But the WGI series is biennial before 2002, so a 1994–1998 window contains only
+    two published years in total. Demanding three there rejects *complete* coverage on a
+    technicality. So the requirement is three, or all of them where the source publishes
+    fewer than three in that span.
+    """
+    k = len([y for y in PUBLISHED.get(code, ()) if lo <= y <= hi])
+    return min(3, k) if k else 3
+
+
 def window_mean(iso, code, lo, hi, log=False):
     vals = [val(iso, code, y, log) for y in range(lo, hi + 1)]
     vals = [v for v in vals if v is not None]
-    # require at least 3 of the 5 years, else the window is not comparable
-    return statistics.fmean(vals) if len(vals) >= 3 else None
+    need = required_obs(code, lo, hi)
+    return statistics.fmean(vals) if len(vals) >= need and len(vals) >= 2 else None
 
 
 # ---------------------------------------------------------------- DiD
@@ -292,6 +313,79 @@ def add_ci(block, key):
                    "se": round(se, 1), "crossesZero": lo <= 0 <= hi}
     return block
 
+def headroom_adjusted(code):
+    """Convergence adjustment for a bounded index, e.g. the WGI −2.5…+2.5 scales.
+
+    The placebo in gate() tests whether the groups shared a common *trend*. It does not test
+    whether they shared comparable *starting levels*, and on a bounded scale those are not the
+    same thing. A country at +0.57 cannot gain as much as one at −0.58 simply because there is
+    less room above it, so a plain treated-minus-control difference charges members for their
+    own head start. This is the beta-convergence problem the income estimates already had, in
+    a different outcome.
+
+    Same correction as convergence_adjusted() uses for income: pool ALL non-members — EFTA at
+    the top of the scale, the Western Balkans at the bottom — fit how much change a given
+    starting level bought you outside the Union, and measure each member against that line.
+    The r2 gate is identical: a fit explaining less than half the variance means the slope is
+    not identified and no adjusted figure is reported.
+    """
+    out = {}
+    for bloc in ("West", "South", "East"):
+        treated = [m for m in members if m["bloc"] == bloc and m["accession_year"]]
+        rows, fits = [], {}
+        for m in treated:
+            T = int(m["accession_year"])
+            pre = window_mean(m["iso3"], code, T + PRE[0], T + PRE[1])
+            post = window_mean(m["iso3"], code, T + POST[0], T + POST[1])
+            if pre is None or post is None:
+                continue
+            if T not in fits:
+                pts = []
+                for c in controls:
+                    cpre = window_mean(c["iso3"], code, T + PRE[0], T + PRE[1])
+                    cpost = window_mean(c["iso3"], code, T + POST[0], T + POST[1])
+                    if cpre is not None and cpost is not None:
+                        pts.append((cpre, cpost - cpre, c["name"]))
+                if len(pts) >= 4:
+                    xs = [p[0] for p in pts]
+                    ys = [p[1] for p in pts]
+                    mx, my = statistics.fmean(xs), statistics.fmean(ys)
+                    sxx = sum((x - mx) ** 2 for x in xs)
+                    b = sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / sxx if sxx else 0.0
+                    a = my - b * mx
+                    ss_res = sum((y - (a + b * x)) ** 2 for x, y in zip(xs, ys))
+                    ss_tot = sum((y - my) ** 2 for y in ys)
+                    r2 = round(1 - ss_res / ss_tot, 3) if ss_tot else None
+                    fits[T] = {"a": a, "b": b, "n": len(pts), "r2": r2,
+                               "identified": bool(r2 is not None and r2 >= 0.5),
+                               "points": [{"level": round(p[0], 2), "change": round(p[1], 2),
+                                           "name": p[2]} for p in pts]}
+                else:
+                    fits[T] = None
+            f = fits[T]
+            if not f:
+                continue
+            actual = post - pre
+            predicted = f["a"] + f["b"] * pre
+            rows.append({"iso3": m["iso3"], "name": m["name"], "accession": T,
+                         "level": round(pre, 2), "actual": round(actual, 2),
+                         "predicted": round(predicted, 2),
+                         "excess": round(actual - predicted, 2),
+                         "identified": f["identified"]})
+        rows.sort(key=lambda r: r["excess"], reverse=True)
+        ex = [r["excess"] for r in rows if r["identified"]]
+        out[bloc] = {
+            "rows": rows, "n": len(ex), "nShown": len(rows),
+            "mean": round(statistics.fmean(ex), 2) if ex else None,
+            "median": round(statistics.median(ex), 2) if ex else None,
+            "positive": sum(1 for e in ex if e > 0),
+            "fits": {str(k): v for k, v in fits.items() if v},
+            "identifiedWindows": sorted(str(k) for k, v in fits.items() if v and v["identified"]),
+            "unidentifiedWindows": sorted(str(k) for k, v in fits.items() if v and not v["identified"]),
+        }
+    return add_ci(out, "excess")
+
+
 def gate(code, log=False, scale=1.0):
     """Run the estimator, then run it again entirely on pre-accession years and
     use the second result to judge the first.
@@ -456,6 +550,43 @@ payload = {
          "did": gate("DERIVED.NETM.P1000"),
          "paths": event_paths("DERIVED.NETM.P1000"),
          "pathLabel": "Change in net migration since accession year (per 1,000)"},
+        # ---- legal lens ----
+        {"id": "ruleoflaw", "label": "Rule of law", "lens": "Legal",
+         "unit": "points", "dp": 2,
+         "desc": "World Bank Worldwide Governance Indicators, rule-of-law estimate, on a scale of "
+                 "roughly -2.5 to +2.5. This is a <strong>perception index</strong> aggregated from "
+                 "expert assessments and surveys, not a count of legal facts: a falling score is "
+                 "evidence that assessors judged conditions to have worsened. It is the only measure "
+                 "of legal quality available here that also covers non-members, which is what makes a "
+                 "comparison possible at all.",
+         "did": gate("WGI.RL.EST"),
+         "headroom": headroom_adjusted("WGI.RL.EST"),
+         "paths": event_paths("WGI.RL.EST"),
+         "pathLabel": "Change in rule-of-law estimate since accession year (points)"},
+
+        # ---- political lens ----
+        {"id": "voice", "label": "Voice and accountability", "lens": "Political",
+         "unit": "points", "dp": 2,
+         "desc": "WGI voice-and-accountability estimate — the extent to which citizens can "
+                 "participate in selecting their government, together with freedom of expression, "
+                 "association and press. Same scale and the same perception-index caveat as rule of "
+                 "law. This is the closest thing in the dataset to a measure of democratic quality.",
+         "did": gate("WGI.VA.EST"),
+         "headroom": headroom_adjusted("WGI.VA.EST"),
+         "paths": event_paths("WGI.VA.EST"),
+         "pathLabel": "Change in voice-and-accountability estimate since accession year (points)"},
+        {"id": "corruption", "label": "Control of corruption", "lens": "Political",
+         "unit": "points", "dp": 2,
+         "desc": "WGI control-of-corruption estimate. Higher is better — the scale runs from weak to "
+                 "strong control, so a rising line means less perceived corruption. Anti-corruption "
+                 "conditionality was an explicit part of accession negotiations for the 2004, 2007 "
+                 "and 2013 waves, which makes this one of the few places where a specific membership "
+                 "mechanism can be tested rather than assumed.",
+         "did": gate("WGI.CC.EST"),
+         "headroom": headroom_adjusted("WGI.CC.EST"),
+         "paths": event_paths("WGI.CC.EST"),
+         "pathLabel": "Change in control-of-corruption estimate since accession year (points)"},
+
         {"id": "gini", "label": "Income inequality (Gini)",
          "unit": "points", "dp": 1, "lowerIsBetter": True, "lens": "Social",
          "desc": "Gini index of disposable income. This is survey data collected at irregular "
@@ -469,6 +600,34 @@ payload = {
     ],
     "adjusted": add_ci(convergence_adjusted("NY.GDP.PCAP.KD", "DERIVED.KD.PCT.EU"), "excess"),
 }
+
+# ------------------------------------------------- bounded-index override
+# Where a headroom adjustment is attached, the raw difference-in-differences is known to be
+# confounded: the groups start more than a point apart on a bounded scale, so the members'
+# smaller gain is partly just less room to move. The placebo cannot catch this — it tests
+# shared trends, not shared starting levels — so the raw figure must never stand as a finding
+# on its own. Either the adjusted estimate is identified and it is the answer, or nothing is.
+for _m in payload["measures"]:
+    if "headroom" not in _m:
+        continue
+    for _bloc, _d in _m["did"].items():
+        if not _d.get("rows"):
+            continue
+        _h = _m["headroom"].get(_bloc, {})
+        _d["identified"] = False
+        if _h.get("mean") is not None:
+            _d["warnings"].append(
+                "this is a bounded index and the two groups start far apart on it, so the raw "
+                "figure charges members for having less room to improve. Adjusted for that "
+                "headroom the estimate is %+.2f, and the adjusted figure is the one to read."
+                % _h["mean"])
+        else:
+            _d["warnings"].append(
+                "this is a bounded index and the two groups start far apart on it, so the raw "
+                "figure partly measures how much room each had left rather than what membership "
+                "did. The correction could not be identified for these windows (the relationship "
+                "between starting level and subsequent change explains too little of the "
+                "variation among non-members), so no estimate is reported for this outcome.")
 
 out = os.path.join(BASE, "analysis_payload.json")
 json.dump(payload, open(out, "w", encoding="utf-8"), ensure_ascii=False)

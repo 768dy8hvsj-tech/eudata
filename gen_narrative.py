@@ -237,10 +237,35 @@ def build(c):
         f"Verified milestones for {name} are listed on the Overview tab. Written analysis of how "
         f"membership reshaped the domestic political landscape is pending for this country."]})
 
+    # Governance estimates give the legal and political tabs actual measurement rather than
+    # metadata alone. The caveat travels with every one of them: these are expert perceptions,
+    # on a bounded scale, and small movements are not news.
+    WGI_SUB = ("World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert "
+               "assessments and surveys — perceptions of governance, not a count of legal facts.")
+    legal = [{"type": "prose", "title": "Legal", "paras": legal_paras}]
+    if "WGI.RL.EST" in hv:
+        legal.append(chart("Rule of law", WGI_SUB + " Confidence in and abidance by the rules of "
+                           "society: contract enforcement, property rights, police and courts.",
+                           [{"code": "WGI.RL.EST", "name": "Rule of law"}],
+                           {"unit": "", "dp": 2, "zero": True}) | {"type": "chart"})
+    prow = []
+    if "WGI.VA.EST" in hv:
+        prow.append(chart("Voice and accountability", WGI_SUB + " Participation in selecting "
+                          "government, plus freedom of expression, association and the press.",
+                          [{"code": "WGI.VA.EST", "name": "Voice and accountability"}],
+                          {"unit": "", "dp": 2, "zero": True}))
+    if "WGI.CC.EST" in hv:
+        prow.append(chart("Control of corruption", WGI_SUB + " Higher is better — a rising line "
+                          "means stronger control of corruption, not more of it.",
+                          [{"code": "WGI.CC.EST", "name": "Control of corruption"}],
+                          {"unit": "", "dp": 2, "zero": True}))
+    if prow:
+        political.append({"type": "chartRow", "charts": prow})
+
     return {
         "iso3": iso, "name": name, "handwritten": False,
         "window": window, "subtitle": sub, "kpis": kpis, "heroChart": hero,
-        "tabs": {"legal": [{"type": "prose", "title": "Legal", "paras": legal_paras}],
+        "tabs": {"legal": legal,
                  "financial": financial, "commercial": commercial,
                  "political": political, "social": social},
         "sources": [

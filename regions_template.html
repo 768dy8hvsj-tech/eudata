@@ -139,7 +139,7 @@ function emphasisChart(host,m,focus,extra){
   if(m.ref!==null&&m.ref!==undefined&&m.ref>lo&&m.ref<hi){
     svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(m.ref),y2:ys(m.ref)},"stroke:var(--baseline);stroke-width:1"));
     var rl=el("text",{x:L+4,y:ys(m.ref)-4},"fill:var(--text-muted);font-size:10px");
-    rl.textContent="EU average";svg.appendChild(rl)}
+    rl.textContent=(m.refLabel||"EU average");svg.appendChild(rl)}
   Y.forEach(function(y){if(y%5!==0)return;
     var q=el("text",{x:xs(y),y:H-10,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
     q.textContent=y;svg.appendChild(q)});
@@ -257,7 +257,7 @@ function smallMultiples(host,m){
     svg.appendChild(el("path",{d:d,fill:"none"},"stroke:var(--series-1);stroke-width:2;stroke-linejoin:round;stroke-linecap:round"));
     cell.appendChild(svg);grid.appendChild(cell)});
   host.appendChild(grid);
-  host.appendChild(h("p","note","All panels share one scale ("+lab(m,lo)+" to "+lab(m,hi)+") and one time axis ("+Y0+"–"+Y1+"), so shapes are directly comparable. The grey line marks the EU average where relevant."));
+  host.appendChild(h("p","note","All panels share one scale ("+lab(m,lo)+" to "+lab(m,hi)+") and one time axis ("+Y0+"–"+Y1+"), so shapes are directly comparable. The grey line marks the reference level for the measure — the EU average on the convergence measures, the world average on the governance indices."));
 }
 
 /* ---------- within-region: every country, members vs non-EU neighbours ---------- */
@@ -279,7 +279,7 @@ function countryChart(host,m,reg){
   if(m.ref!==null&&m.ref!==undefined&&m.ref>lo&&m.ref<hi){
     svg.appendChild(el("line",{x1:L,x2:W-R,y1:ys(m.ref),y2:ys(m.ref)},"stroke:var(--baseline);stroke-width:1"));
     var rl=el("text",{x:L+4,y:ys(m.ref)-4},"fill:var(--text-muted);font-size:10px");
-    rl.textContent="EU average";svg.appendChild(rl)}
+    rl.textContent=(m.refLabel||"EU average");svg.appendChild(rl)}
   Y.forEach(function(y){if(y%5!==0)return;
     var q=el("text",{x:xs(y),y:H-10,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
     q.textContent=y;svg.appendChild(q)});

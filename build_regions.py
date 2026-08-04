@@ -25,7 +25,19 @@ LENSES = [
      "note": "Trade, investment and tourism — the single market's most direct channels."},
     {"id": "Social", "label": "Social",
      "note": "Employment, migration and the distribution of income."},
+    {"id": "Legal", "label": "Legal",
+     "note": "The quality of the legal order, as assessed by outside experts."},
+    {"id": "Political", "label": "Political",
+     "note": "Democratic voice and the control of corruption."},
 ]
+
+WGI_CAVEAT = (
+    " <strong>Read this as a perception index, not a count of legal facts</strong> — it is "
+    "aggregated from expert assessments and surveys, so a falling line means assessors judged "
+    "conditions to have worsened. The scale runs roughly −2.5 to +2.5, and because it is "
+    "bounded, a country already near the top has far less room to rise than one near the "
+    "bottom. Comparing levels between countries is safer than reading small movements."
+)
 
 MEASURES = [
     {"id": "gniconv", "lens": "Financial", "code": "DERIVED.GNI.PCT.EU", "label": "Convergence (GNI vs EU average)",
@@ -104,6 +116,24 @@ MEASURES = [
               "than elsewhere and a missing year means no survey rather than no change. Comparisons "
               "across countries are also weaker than within one country over time, because national "
               "surveys differ in method even after harmonisation."},
+
+    {"id": "ruleoflaw", "lens": "Legal", "code": "WGI.RL.EST",
+     "label": "Rule of law", "unit": "points", "dp": 2, "ref": 0, "refLabel": "world average",
+     "blurb": "World Bank governance estimate for rule of law — confidence in and abidance by the "
+              "rules of society, contract enforcement, property rights, the police and the courts. "
+              "This is the only measure of legal quality in the dataset that also covers non-members, "
+              "which is the only reason a comparison is possible at all." + WGI_CAVEAT},
+    {"id": "voice", "lens": "Political", "code": "WGI.VA.EST",
+     "label": "Voice and accountability", "unit": "points", "dp": 2, "ref": 0, "refLabel": "world average",
+     "blurb": "The extent to which citizens can participate in selecting their government, together "
+              "with freedom of expression, freedom of association and a free press. The closest "
+              "thing here to a measure of democratic quality." + WGI_CAVEAT},
+    {"id": "corruption", "lens": "Political", "code": "WGI.CC.EST",
+     "label": "Control of corruption", "unit": "points", "dp": 2, "ref": 0, "refLabel": "world average",
+     "blurb": "The extent to which public power is exercised for private gain. Higher is better: a "
+              "rising line means stronger control, not more corruption. Anti-corruption "
+              "conditionality was an explicit part of accession negotiations for the 2004, 2007 and "
+              "2013 waves." + WGI_CAVEAT},
 ]
 
 
@@ -178,8 +208,12 @@ def main():
                 ranked.append({"region": reg, "value": present[-1][1], "year": present[-1][0],
                                "n": len(isos)})
                 base = next((v for y, v in present if y >= 1996), present[0][1])
-                changes.append({"region": reg, "change": round(present[-1][1] - base, 1),
-                                "from": round(base, 1), "to": round(present[-1][1], 1),
+                # round endpoints and the change at the SAME precision as the measure is
+                # displayed at, so "0.70 to 0.60" and "-0.2" cannot appear side by side
+                dp = spec["dp"]
+                frm, to = round(base, dp), round(present[-1][1], dp)
+                changes.append({"region": reg, "change": round(to - frm, dp),
+                                "from": frm, "to": to,
                                 "fromYear": max(1996, present[0][0]), "toYear": present[-1][0]})
         ranked.sort(key=lambda r: r["value"], reverse=not spec.get("lowerIsBetter"))
         changes.sort(key=lambda r: r["change"], reverse=not spec.get("lowerIsBetter"))
@@ -190,7 +224,7 @@ def main():
             "unit": spec["unit"], "dp": spec["dp"],
             "prefix": spec.get("prefix", ""), "suffix": spec.get("suffix", ""),
             "lowerIsBetter": bool(spec.get("lowerIsBetter")),
-            "ref": spec.get("ref"),
+            "ref": spec.get("ref"), "refLabel": spec.get("refLabel"),
             "regionPaths": regionPaths, "countryPaths": countryPaths,
             "ranked": ranked, "changes": changes,
             "euLine": [None if eu.get(y) is None else round(eu[y] * sc, 4)

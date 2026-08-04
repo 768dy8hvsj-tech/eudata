@@ -1,0 +1,1066 @@
+iso3,country,indicator_code,indicator_name,unit,year,value,source,retrieved
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,0.8425298,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.7501549,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,0.4963041,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.3442164,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.3611585,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.1126454,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.2504764,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.3249713,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.3179195,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.4272964,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.5739409,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.6391266,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.7618911,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.8135218,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.8071492,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.773833,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.8356935,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.8706559,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.8294474,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.776821,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.7162582,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.7442004,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.6869719,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.6673922,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.7534838,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+POL,Poland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.794073,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,1.9301227,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,1.7673546,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,1.6904067,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.8696067,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.9819108,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.9296819,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.9511557,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.9434385,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.9654354,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,1.8526056,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,1.8047422,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.6674975,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,1.5778123,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,1.3720899,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,1.4466859,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,1.4211309,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,1.4914799,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,1.5179793,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,1.5672466,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,1.6348091,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,1.607711,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,1.6059221,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,1.3601171,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,1.3678343,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,1.3200882,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+AUT,Austria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.2944469,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,1.5008783,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,1.2384711,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,1.450425,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.5594273,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.4560896,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.4030257,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.471559,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.4069022,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.3866548,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,1.404707,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,1.5580741,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.4956315,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,1.5664836,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,1.4862037,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,1.5003188,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,1.5150458,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,1.5244457,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,1.5450402,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,1.4425342,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,1.4543603,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,1.4973857,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,1.5662608,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,1.5502151,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,1.5774306,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,1.467016,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BEL,Belgium,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.4687812,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.191752099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.0438167,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-0.149129899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-0.000799599999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-0.0561659,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.1341795,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.0235431,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.1068729,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-0.061456,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-0.1116766,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-0.248644199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-0.3206264,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.355813899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-0.3572623,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-0.3480638,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.3904198,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-0.4387083,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-0.3444028,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.308377299999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.1893944,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.1252922,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.258415699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,-0.2260611,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.1369351,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.1501295,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+BGR,Bulgaria,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.240017999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.7276259,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-0.6953575,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,0.0998038,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.4509738,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.3959679,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.2661675,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.1969274,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.1368044,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.1000877,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.0657437,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.050097,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.1141188,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.1086579,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.0944764999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.1136039,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.1153811,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.1722605,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.1085585,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.0456235,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.0249186,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.0249751,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.1356925,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.0954983,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.1067785,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.113708,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HRV,Croatia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.1486813,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,1.5416274,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,1.1833703,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,1.1796692,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.1770491,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.111154,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.9137833,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.9555973,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.1392607,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.0857157,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,1.1824327,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,1.0785963,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.1061312,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,1.0124344,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,1.0052242,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.9856079,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.7530793,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.6824205,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.7247771,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.8179827,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.6608595,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.6807343,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.4663521,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.4905518,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.5652889,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.4826822,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CYP,Cyprus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.5324784,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,0.8082924,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.7763005,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,0.2594752,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.4083161,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.5110948,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.4510277,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.5643395,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.538493,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.4278636,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.4165926,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.3950891,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.3937065,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.4745101,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.4104378,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.3827776,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.5091331,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.5929256,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.6247694,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.7473855,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.6140583,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.6034081,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.6341668,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.7300087,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.8031753,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.8499213,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+CZE,Czechia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.9310659,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,2.3558581,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,2.3843202,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,2.312161,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,2.2855283,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,2.3034256,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,2.2298816,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,2.2532203,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,2.3453032,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,2.3189895,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,2.3017254,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,2.3099939,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,2.2632106,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,2.3322647,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,2.258271,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,2.2419071,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,2.1516341,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,2.1589365,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,2.1677475,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,2.1877812,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,2.1580954,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,2.1562325,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,2.2645808,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,2.2948313,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,2.3022376,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,2.3171626,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DNK,Denmark,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,2.2874751,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,0.4859293,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.93994,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,0.8425922,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.7636453,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.8598443,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.922238,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.965003,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.0518977,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.9936845,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,1.0058476,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.9924429,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.9912376,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,1.1623156,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,1.1139136,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,1.173543,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,1.2696404,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,1.2999987,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,1.2763152,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,1.280741,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,1.4976464,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,1.52358,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,1.5899428,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,1.5368104,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,1.5957125,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,1.6727855,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+EST,Estonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.669321,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,2.3650037,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,2.3803699,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,2.3501897,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,2.3615522,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,2.3542543,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,2.2858675,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,2.3168752,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,2.3969617,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,2.3313967,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,2.2985114,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,2.1761067,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,2.0755526,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,2.1357305,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,2.0890617,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,2.0358514,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,2.0450303,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,2.1750212,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,2.1900901,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,2.1795948,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,2.1834702,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,2.1845876,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,2.2354321,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,2.2264683,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,2.1894699,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,2.193956,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FIN,Finland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,2.1920863,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,1.408111,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,1.3972284,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,1.2886271,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.2479233,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.34057,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.3036186,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.4277596,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.4758857,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.4835556,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,1.4496473,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,1.4333546,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.3817944,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,1.503435,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,1.4686276,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,1.3296179,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,1.311456,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,1.2963551,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,1.3423858,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,1.3564923,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,1.4123369,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,1.3620502,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,1.2939757,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,1.422803,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,1.3856444,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,1.2672713,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+FRA,France,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.2182239,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,2.0380023,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,2.0103729,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,1.7250859,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.8103024,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.8885223,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.7933498,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.9288145,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.7295898,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.6554474,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,1.688208,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,1.6821928,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.6517124,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,1.6649059,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,1.6570716,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,1.6261055,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,1.7082916,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,1.7233648,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,1.763112,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,1.8222612,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,1.9178103,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,1.8768449,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,1.8713077,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,1.8243293,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,1.8224098,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,1.699403,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+DEU,Germany,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.7734211,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,0.704405,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.9740501,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,0.9046189,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.45128,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.4370156,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.4786362,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.3973065,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.4749268,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.2848043,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.1748439,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.09665699999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-0.0313709,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.0756332,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-0.0229614,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.1098246,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.0019795,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.0220321,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.0885981,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.1466842,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.2408155,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.3040548,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.2809798,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.3910516,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.3224993,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.3292978,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+GRC,Greece,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.2996813,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,0.9110362,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.793109,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,0.7755229,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.5606715,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.5628628,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.6092769,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.6054084,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.6056166,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.5332085,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.4265714,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.3846322,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.2469328,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.2982138,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.3833893,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.3541563,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.172662,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.1723755,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.1568851,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.160723,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.1391573,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.084756,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.1418393,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.1312695,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.0402617,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.083173,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+HUN,Hungary,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.0394373,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,1.8849494,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,1.5835801,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,1.2833514,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.4335105,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.4666734,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.2335938,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.6445923,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.5061161,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.4613994,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,1.4694605,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,1.4425076,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.4080005,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,1.3802239,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,1.4035742,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,1.5469722,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,1.5913084,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,1.6308016,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,1.636332,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,1.5580627,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,1.5533781,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,1.5189367,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,1.5958903,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,1.6117468,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,1.6463639,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,1.5859129,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+IRL,Ireland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.572589,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,0.6955612,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.6206939,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,0.7814295,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.6844831,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.5080672,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.4670869,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.5477158,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.5465797,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.3863064,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.3135748,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.2877974,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.2007651,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.2491583,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.1585745,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.0420703,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.0131434,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.0677760999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.1252339,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.1948577,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.2476928,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.2828802,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.5299614,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.5394316,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.5738577,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.571449,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+ITA,Italy,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.5531621,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.294776,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-0.0108501999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-0.2494373,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.1100643,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.2740176,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.1727394,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.3168036,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.3988244,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.3061482,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.2777419,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.259018,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.3436554,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.3903534,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.3863394,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.4288743,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.5065843,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.6009075,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.590799,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.6379966,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.5446798,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.6990995,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.7605048,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.8423495,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.8238921,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.7759204,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+LVA,Latvia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.8251336,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-02
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,2.2358014,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,2.2219721,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,2.0714407,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,2.0686406,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,2.0211967,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.8590594,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,2.0172526,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,2.0946634,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.912833,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,1.8541704,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,1.8987615,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.9314806,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,2.0777923,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,2.1281645,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,2.1405464,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,2.1311201,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,2.1755199,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,2.1206565,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,2.1682749,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,2.0857026,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,2.0603725,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,2.0836375,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,2.070812,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,2.0332101,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,2.0745237,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NOR,Norway,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.9610085,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,2.1073252,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,2.1016385,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,2.0063342,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.9920292,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.9749083,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.8671879,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.9821243,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,2.1927741,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,2.1803588,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,2.176294,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,2.0499015,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,2.0649103,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,2.0892423,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,2.1649502,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,2.1291279,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,2.2607465,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,2.2702247,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,2.2830399,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,2.3027582,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,2.2937762,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,2.3009699,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,2.2868791,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,2.1059546,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,2.0949429,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,2.0972439,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+CHE,Switzerland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,2.0072184,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,1.8003534,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,2.1776888,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,2.1951401,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,2.1184323,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,2.101196,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.9548506,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,2.2910864,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.9648349,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.9939428,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,2.1085545,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,2.1468511,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.8327409,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,1.881645,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,1.8243195,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,1.8605171,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,1.842095,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,1.9854027,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,1.9714103,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,1.8691325,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,1.8868085,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,1.8260874,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,1.8422993,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,1.8584301,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,1.6495728,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,1.6623764,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ISL,Iceland,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.828818,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-1.0351882,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-1.2904086,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-1.17013069999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-1.165171,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-0.749599,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-0.609888,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.624759699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,-0.2366528,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-0.3109326,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-0.310971,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-0.334054099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-0.365913799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.3321697,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-0.392706,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-0.368659099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.2208569,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-0.3238735,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-0.3507415,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.408215599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.386952199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.3635548,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.3682278,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,-0.4707878,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.484904899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.501692,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SRB,Serbia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.5608287,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.8375515,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-0.563184,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-0.982770199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-1.0003421,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-1.0079715,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-0.7554331,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.883028399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,-0.6947376,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-0.6751999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-0.6438129,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-0.574472099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-0.503922299999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.6894267,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-0.8226266,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-0.815531999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.6758626,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-0.5865235,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-0.5061985,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.5663593,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.587108899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.5384935,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.6594306,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,-0.60203,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.500456,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.464044399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ALB,Albania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.420760099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.5970382,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-0.6001006,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-0.9284927,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-0.8826737,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-0.906940899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-0.491574299999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.516346,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,-0.2936871,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-0.2757399,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-0.2650308,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-0.2499787,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-0.3133081,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.3397578,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-0.127850599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-0.0923630999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.145443799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-0.3062159,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-0.295904899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.2620741,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.340857199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.460025199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.456976999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,-0.3856405,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.332673,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.3541776,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MKD,North Macedonia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.3292214,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.5231485,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-0.489794399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-0.6041293,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-0.3714306,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-0.367807599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-0.438606799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.4170295,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,-0.3444413,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-0.4313474,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-0.4488607,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-0.4251292,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-0.463675,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.501397099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-0.405939,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-0.3230858,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.3542824,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-0.4923931,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-0.468403399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.5769795,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.6404386,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.6387532,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.624659499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,-0.6690056,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.680061199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.5984163,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BIH,Bosnia and Herzegovina,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.5128682,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.0025656,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-0.168741199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-0.1806393,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-0.261542699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-0.264438699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.2683332,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,-0.0452344,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-0.0957006,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-0.2592603,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-0.2631765,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-0.560026599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.559879,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-0.337634999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-0.342360799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.156991599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-0.1544911,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-0.1624556,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.1096413,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.0848879999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.0626438,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.0359882,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.0383454,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.0127453999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.0680776999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MNE,Montenegro,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.0594344,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.2888679,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-0.5889955,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-0.352663599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-0.362128599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-0.1638257,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-0.1644536,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.0714981,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.0500441,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.074927,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.0490015,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.0307792,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.0487911,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.0464784,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.1585192,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.1399698,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.1089047,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-0.1063785,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-0.0845918,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.0665516,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.2317166,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.1801871,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.3242268,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,-0.3992138,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.4324578,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.4374572,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+TUR,Turkiye,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.5632153,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-1.0248734,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-1.219501,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-1.2104628,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-1.3131065,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-1.3389776,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-1.11234869999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.9260936,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,-0.911187899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-0.954175,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-0.976162099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-1.0904026,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-1.1211122,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-1.12750519999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-1.2152257,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-1.209471,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-1.0708377,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-1.0636259,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-1.0150766,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.953207199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.9896988,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.782195,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.830952599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,-0.8040912,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.683771799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.7242773,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+UKR,Ukraine,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.6723809,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.5706325,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.0214909,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-0.3594217,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-0.5177246,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-0.5190961,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-0.3473571,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.2910817,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,-0.4982309,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-0.500873999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-0.474179099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-0.472615699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-0.5605517,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.459480599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-0.3105829,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-0.2788276,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.1522547,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-0.2405698,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-0.1462308,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.1120128,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.1272022,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.0170374,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.1014181,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,-0.2062736,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.415013199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.534353699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+BLR,Belarus,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.5781294,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.9704328,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-0.9161899,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-1.0851239,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-1.1090206,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-1.0015646,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-0.8915877,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.9104202,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,-0.9771356,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-1.0809178,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-1.14019499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-1.16184779999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-1.07554859999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.9445528,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-1.06889979999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-1.002184,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.887628899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-0.913436199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-0.8264543,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.9134357,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.888736499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.7696119,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.7746533,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,-0.7788442,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.772806099999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.8877345,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+RUS,Russian Federation,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.8911386,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.162357399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-0.223242299999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-0.4864883,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-1.0149545,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-1.0158162,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-1.1664256,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.931449,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,-0.845778399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-0.831110399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-0.8023372,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-0.7723296,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-0.6878966,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.6534376,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-0.7197195,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-0.8114962,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.969687699999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-1.03857019999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-1.099628,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.937231199999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.871319899999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.7732817,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.7308378,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,-0.550342,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,-0.421512599999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,-0.266050299999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MDA,Moldova,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,-0.2915803,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,0.4479313,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.2075769,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,0.1949824,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.2232329,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.3131684,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.5136179,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.5123846,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.3034082,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.1802647,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.1757147,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.2168575,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.48572,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.4310611,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.5599732,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.5798078,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.5991275,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.6814439,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.7346677,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.6761875,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.4531588,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.7581204,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.8813828,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.9249581,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.855068,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.8884764,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LTU,Lithuania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.9927892,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,2.252685,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,1.9541985,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,1.9607248,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.9689887,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.697981,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.7217537,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.7188585,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,2.0357708,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,2.0689964,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,2.0727676,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,2.0505925,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,2.0803607,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,2.2289765,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,2.169911,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,2.1532216,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,2.1721389,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,2.2241466,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,2.1912929,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,2.1475168,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,2.2100505,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,2.2590117,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,2.2067723,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,1.9638476,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,1.9674109,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,2.0124074,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+LUX,Luxembourg,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,2.0157595,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,0.8913508,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.8892906,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,1.0990867,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.8354077,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.8904218,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.8467711,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.9299871,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.0538865,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.0046746,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.9990969,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.964889,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.9659229,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.9455787,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.9075464,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.9129264,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.8102062,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.8513513,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.7852018,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.7943079,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.7416132,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.4163584,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.611326,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.4667226,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.4469911,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.3219728,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+MLT,Malta,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.2667936,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,2.2506276,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,2.2334567,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,2.1695715,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,2.0243224,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,2.0071151,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.9056799,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.9826747,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,2.0600723,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,2.0981723,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,2.0721003,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,2.0386844,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.9892792,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,2.0151382,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,2.0604599,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,1.9281622,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,1.9485,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,1.8631148,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,1.9077694,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,1.8270031,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,1.9465556,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,1.9497836,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,2.0646075,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,2.0280226,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,1.9175777,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,1.8837073,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+NLD,Netherlands,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.9100133,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,1.5765051,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,1.3910335,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,1.3034246,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.2667352,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.225262,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.1930716,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.1939157,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.8841299,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.9121206,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.92888,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.8871941,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.741273,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.7934673,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.7983905,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.7363017,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.6840178,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.7238455,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.7134054,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.8191801,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.803067,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.7971215,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.795911,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.8188182,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.7860609,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.7848198,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+PRT,Portugal,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.8241683,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,-0.2570551,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,-0.434062799999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,-0.551397999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,-0.565959,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,-0.5530621,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,-0.328193399999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,-0.353771499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,-0.2549146,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,-0.3353236,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,-0.294165499999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,-0.3246557,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,-0.2925809,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,-0.1779463,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,-0.3587285,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,-0.282036,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,-0.2306942,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,-0.0980376999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,-0.0698652,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,-0.0489883999999999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,-0.168955,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,-0.1199219,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,-0.0497221,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.0096051,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.0662149,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.0314923,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ROU,Romania,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.0259732,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,0.3681126,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,0.4457632,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,0.3704864,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.0410618,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.2910522,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.3615812,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.4467467,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.4786729,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.3825594,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.3196223,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.1802111,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.2279608,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.2279303,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.1773254,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.1495037,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.1860971,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.192681,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.2841166,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.2266169,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.26406,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.2499712,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.4197316,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.3575001,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.3774853,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.3846188,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVK,Slovakia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.1108201,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,1.3623532,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,1.2885431,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,0.8333011,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,0.7811225,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,0.7897525,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,0.8698542,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,0.8361885,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,0.9608579,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,0.9858268,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,0.8826006,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,0.9078798,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,0.7280642,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,0.6998632,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,0.6842766,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.6001872,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.6036712,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.6575394,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.7620923,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.7942102,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.819582,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.848482,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.7760206,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.6986582,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.7480799,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.6814999,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SVN,Slovenia,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.6743495,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,1.5109982,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,1.6066403,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,1.4831976,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.5119264,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.5377704,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.2365966,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.2563014,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.1783348,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.0458322,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,1.1454928,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,1.0216805,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.0363797,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,1.1180861,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,1.1056885,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,0.7866619,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,0.5991782,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,0.5903482,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,0.6246332,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,0.5939905,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,0.7455087,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,0.8202611,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,0.8309019,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,0.8120886,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,0.7816745,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,0.7395223,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+ESP,Spain,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,0.7145938,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,2.4786918,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,2.4838595,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,2.3793714,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,2.3170467,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,2.1571809,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,2.0262663,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,2.0329723,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,2.1381523,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,2.1579783,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,2.1588003,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,2.1435016,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,2.1306982,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,2.1230571,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,2.1691497,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,2.07534,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,2.0070816,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,2.0948719,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,2.1058509,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,2.1093078,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,2.1157895,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,2.1292113,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,2.1337232,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,2.0899139,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,2.0255279,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,1.9804259,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+SWE,Sweden,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.9676051,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1996,2.0506202,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,1998,2.0973941,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2000,2.0302113,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2002,1.9357319,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2003,1.9558108,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2004,1.8359316,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2005,1.9020685,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2006,1.7309828,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2007,1.6278157,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2008,1.573173,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2009,1.3683606,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2010,1.3760491,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2011,1.4486391,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2012,1.4826832,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2013,1.504608,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2014,1.5201669,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2015,1.6542704,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2016,1.7599161,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2017,1.8161165,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2018,1.8043714,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2019,1.7674285,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2020,1.7210258,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2021,1.6641761,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2022,1.6352771,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2023,1.4745753,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
+GBR,United Kingdom,WGI.CC.EST,Control of Corruption (WGI governance estimate),index,2024,1.5097548,"World Bank Worldwide Governance Indicators (API source 3), GOV_WGI_CC.EST",2026-08-03
