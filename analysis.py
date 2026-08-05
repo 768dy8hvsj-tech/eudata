@@ -24,7 +24,7 @@ What this can and cannot show is documented in the generated page. The headline
 caveat: accession was not random, so part of any measured gap is selection —
 countries joined because they already qualified.
 """
-import csv, json, math, os, statistics, collections, datetime
+import csv, json, math, os, re, statistics, collections, datetime
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "data")
@@ -600,6 +600,89 @@ payload = {
     ],
     "adjusted": add_ci(convergence_adjusted("NY.GDP.PCAP.KD", "DERIVED.KD.PCT.EU"), "excess"),
 }
+
+# --------------------------------------------------------- in the world
+# Every other comparison in this study is internal — members against neighbours. This one asks
+# the question most readers actually arrive with: has the Union gained or lost ground against
+# the rest of the world?
+#
+# One fact has to be established before any of it can be read. The World Bank's "European Union"
+# aggregate is EU27 applied RETROACTIVELY: its population matches the sum of today's 27 members
+# exactly in 2000, 2010 and 2016, when the UK was still a member. So the aggregate never
+# contained the UK, and no decline in it can be a Brexit artefact. It also means the series is a
+# constant basket of countries rather than the Union as it existed at the time — good for a
+# like-for-like trend, wrong for "how has the Union's weight changed as it grew". Both are built.
+GDPT, PCPPP, POPT = "NY.GDP.MKTP.CD", "NY.GDP.PCAP.PP.CD", "SP.POP.TOTL"
+GNIPC = "NY.GNP.PCAP.PP.CD"
+_cty = {r["iso3"]: r for r in csv.DictReader(open(os.path.join(DATA, "countries.csv"), encoding="utf-8"))}
+EU27 = [i for i in _cty if i != "GBR"]
+EU14_OLD = ["AUT", "BEL", "DNK", "FIN", "FRA", "DEU", "GRC", "IRL", "ITA", "LUX", "NLD",
+            "PRT", "ESP", "SWE"]                       # EU15 minus the UK
+EU13_NEW = ["BGR", "HRV", "CYP", "CZE", "EST", "HUN", "LVA", "LTU", "MLT", "POL", "ROU",
+            "SVK", "SVN"]
+WORLD_YEARS = list(range(1990, 2025))
+
+
+def _accession_year(iso):
+    m = re.search(r"(\d{4})", (_cty.get(iso, {}) or {}).get("accession_date", "") or "")
+    return int(m.group(1)) if m else None
+
+
+def _pppgdp(iso, y):
+    a, b = series.get((iso, PCPPP), {}).get(y), series.get((iso, POPT), {}).get(y)
+    return a * b if (a and b) else None
+
+
+def _wavg_gni(group, y):
+    num = den = 0.0
+    for i in group:
+        a, b = series.get((i, GNIPC), {}).get(y), series.get((i, POPT), {}).get(y)
+        if a and b:
+            num += a * b
+            den += b
+    return num / den if den else None
+
+
+world = {"years": WORLD_YEARS, "market": [], "ppp": [], "pop": [], "gni": [], "asThen": []}
+for y in WORLD_YEARS:
+    w = series.get(("WLD", GDPT), {}).get(y)
+    wp = _pppgdp("WLD", y)
+    wpop = series.get(("WLD", POPT), {}).get(y)
+    eu = sum(series[(i, GDPT)][y] for i in EU27 if y in series.get((i, GDPT), {}))
+    eup = sum(v for i in EU27 if (v := _pppgdp(i, y)))
+    eupop = sum(series[(i, POPT)][y] for i in EU27 if y in series.get((i, POPT), {}))
+    # the Union as it actually was that year: only countries already acceded, UK out from 2020
+    actual = [i for i in _cty
+              if (_accession_year(i) or 9999) <= y and not (i == "GBR" and y >= 2020)]
+    then = sum(series[(i, GDPT)][y] for i in actual if y in series.get((i, GDPT), {}))
+    world["market"].append({"y": y,
+                            "eu": round(eu / w * 100, 2) if w else None,
+                            "us": round(series[("USA", GDPT)][y] / w * 100, 2) if w and y in series[("USA", GDPT)] else None,
+                            "cn": round(series[("CHN", GDPT)][y] / w * 100, 2) if w and y in series[("CHN", GDPT)] else None})
+    world["asThen"].append({"y": y, "share": round(then / w * 100, 2) if w else None,
+                            "members": len(actual)})
+    world["ppp"].append({"y": y,
+                         "eu": round(eup / wp * 100, 2) if wp else None,
+                         "us": round(_pppgdp("USA", y) / wp * 100, 2) if wp and _pppgdp("USA", y) else None,
+                         "cn": round(_pppgdp("CHN", y) / wp * 100, 2) if wp and _pppgdp("CHN", y) else None})
+    world["pop"].append({"y": y,
+                         "eu": round(eupop / wpop * 100, 2) if wpop else None,
+                         "us": round(series[("USA", POPT)][y] / wpop * 100, 2) if wpop and y in series[("USA", POPT)] else None,
+                         "cn": round(series[("CHN", POPT)][y] / wpop * 100, 2) if wpop and y in series[("CHN", POPT)] else None})
+    u = series.get(("USA", GNIPC), {}).get(y)
+    if u:
+        e27 = series.get(("EUU", GNIPC), {}).get(y)
+        world["gni"].append({"y": y,
+                             "eu27": round(e27 / u * 100, 1) if e27 else None,
+                             "old": round(_wavg_gni(EU14_OLD, y) / u * 100, 1) if _wavg_gni(EU14_OLD, y) else None,
+                             "new": round(_wavg_gni(EU13_NEW, y) / u * 100, 1) if _wavg_gni(EU13_NEW, y) else None})
+    else:
+        world["gni"].append({"y": y, "eu27": None, "old": None, "new": None})
+uk = series.get(("GBR", GDPT), {})
+wl = series.get(("WLD", GDPT), {})
+world["ukShare"] = {str(y): round(uk[y] / wl[y] * 100, 1)
+                    for y in (2016, 2019, 2024) if y in uk and y in wl}
+payload["world"] = world
 
 # -------------------------------------------------------------- south
 # "The Mediterranean flatline" — five southern members moving 0.1pp on the EU average across

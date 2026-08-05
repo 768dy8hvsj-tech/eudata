@@ -337,7 +337,7 @@ function estCard(label,val,unit,dp,ci,goodIsPositive,n,pl){
 
 /* ---------- panels ---------- */
 var TABS=[{id:"findings",label:"Findings"},{id:"paths",label:"Trajectories"},
-          {id:"crises",label:"Crises"},{id:"brexit",label:"Brexit"},{id:"south",label:"The South"},
+          {id:"crises",label:"Crises"},{id:"brexit",label:"Brexit"},{id:"south",label:"The South"},{id:"world",label:"In the world"},
           {id:"adjust",label:"The convergence problem"},{id:"method",label:"Method & limits"},
           {id:"coverage",label:"Coverage"}];
 var tabsEl=document.getElementById("tabs"),panelsEl=document.getElementById("panels");
@@ -928,6 +928,163 @@ TABS.forEach(function(t,i){
       +"credit story as the account most consistent with the timing — untested, for want of the data "
       +"named above."));
     sec.appendChild(s3);
+  }
+
+  else if(t.id==="world"){
+    var W=P.world;
+    function seriesChart(host,rows,keys,labels,unit,title,sub,refNote){
+      var card=h("div","card");
+      card.appendChild(h("h3","",title));
+      if(sub)card.appendChild(h("p","sub",sub));
+      var Wd=790,H=300,L=52,R=124,T=14,B=30,pw=Wd-L-R,ph=H-T-B;
+      var all=[];rows.forEach(function(r){keys.forEach(function(k){
+        if(r[k]!==null&&r[k]!==undefined)all.push(r[k])})});
+      if(!all.length){card.appendChild(h("p","note","No data."));host.appendChild(card);return}
+      var lo=Math.min.apply(null,all),hi=Math.max.apply(null,all),pad=(hi-lo)*0.1||1;
+      lo=Math.max(0,lo-pad);hi+=pad;
+      var y0=rows[0].y,y1=rows[rows.length-1].y;
+      var xs=function(y){return L+(y-y0)/(y1-y0)*pw},ys=function(v){return T+(hi-v)/(hi-lo)*ph};
+      var svg=el("svg",{viewBox:"0 0 "+Wd+" "+H,role:"img","aria-label":title});
+      ticks(lo,hi,5).forEach(function(tv){
+        svg.appendChild(el("line",{x1:L,x2:Wd-R,y1:ys(tv),y2:ys(tv)},"stroke:var(--grid);stroke-width:1"));
+        var q=el("text",{x:L-7,y:ys(tv)+3.5,"text-anchor":"end"},"fill:var(--text-muted);font-size:10.5px");
+        // shares are levels: a signed "+20%" would read as a change
+        q.textContent=tv.toFixed(0)+unit;svg.appendChild(q)});
+      for(var yy=Math.ceil(y0/5)*5;yy<=y1;yy+=5){
+        var q=el("text",{x:xs(yy),y:H-10,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px");
+        q.textContent=yy;svg.appendChild(q)}
+      var cols=["var(--series-1)","var(--series-2)","var(--text-secondary)"];
+      var ends=[];
+      keys.forEach(function(k,ki){
+        var d="",pen=false,last=null;
+        rows.forEach(function(r){
+          if(r[k]===null||r[k]===undefined){pen=false;return}
+          d+=(pen?" L":" M")+xs(r.y).toFixed(1)+","+ys(r[k]).toFixed(1);pen=true;last=r});
+        if(!d)return;
+        svg.appendChild(el("path",{d:d,fill:"none"},"stroke:"+cols[ki%3]+";stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round"));
+        if(last)ends.push({x:xs(last.y),y:ys(last[k]),ty:ys(last[k]),col:cols[ki%3],
+                           txt:labels[ki]+" "+last[k].toFixed(1)+unit});
+      });
+      /* EU and US finish within a third of a point of each other on the PPP chart, so their
+         labels land on top of one another. Push apart and join back with a leader line. */
+      ends.sort(function(a,b){return a.ty-b.ty});
+      for(var ei=1;ei<ends.length;ei++)
+        if(ends[ei].ty-ends[ei-1].ty<13)ends[ei].ty=ends[ei-1].ty+13;
+      var ov=ends.length?ends[ends.length-1].ty-(T+ph):0;
+      if(ov>0)ends.forEach(function(e2){e2.ty-=ov});
+      ends.forEach(function(e2){
+        svg.appendChild(el("circle",{cx:e2.x,cy:e2.y,r:3.5},"fill:"+e2.col+";stroke:var(--surface-1);stroke-width:2"));
+        if(Math.abs(e2.ty-e2.y)>1.5)
+          svg.appendChild(el("path",{d:"M"+(e2.x+3)+","+e2.y+" L"+(e2.x+6)+","+e2.ty+" L"+(e2.x+9)+","+e2.ty,fill:"none"},
+            "stroke:var(--baseline);stroke-width:1"));
+        var t2=el("text",{x:e2.x+12,y:e2.ty+3.5},"fill:"+e2.col+";font-size:11px;font-weight:600");
+        t2.textContent=e2.txt;svg.appendChild(t2)});
+      card.appendChild(svg);
+      if(refNote)card.appendChild(h("p","note",refNote));
+      host.appendChild(card);return card;
+    }
+
+    var w0=h("div","card");
+    w0.appendChild(h("h3","","Has the Union gained or lost ground?"));
+    w0.appendChild(h("p","","Every other comparison in this study is internal — members against "
+      +"the neighbours who stayed out. This one asks the question most people actually arrive with."));
+    w0.appendChild(h("p","","<strong>One thing has to be settled first.</strong> The World Bank's "
+      +"European Union aggregate is EU27 applied retroactively: its population matches the sum of "
+      +"today's twenty-seven members exactly in 2000, 2010 and 2016, when the UK was still a member. "
+      +"The aggregate never contained the UK, so <em>nothing below can be a Brexit artefact</em>. It "
+      +"also means it is a constant basket of countries rather than the Union as it stood at the "
+      +"time — right for a like-for-like trend, wrong for asking how the Union's weight changed as it "
+      +"grew. Both versions are shown."));
+    sec.appendChild(w0);
+
+    seriesChart(sec,W.market,["eu","us","cn"],["EU27","US","China"],"%",
+      "Share of world output, at market exchange rates",
+      "GDP in current US dollars as a share of world GDP. EU27 throughout, so enlargement and Brexit "
+      +"do not move this line.",
+      "EU27 fell from 28.0% to 17.5% — but the United States went from 25.9% to 26.2%, essentially "
+      +"unchanged, while China went from 1.6% to 16.8%. Read with care: market-rate shares move with "
+      +"the euro-dollar exchange rate, which is why the EU line dips in 2000 when the euro was weak "
+      +"and peaks in 2005 when it was strong. The PPP version below is the better measure of real "
+      +"economic weight.");
+
+    seriesChart(sec,W.ppp,["eu","us","cn"],["EU27","US","China"],"%",
+      "Share of world output, at purchasing power parity",
+      "The same shares computed on PPP output, which strips out exchange rates and price levels.",
+      "This is the chart that changes the story. In PPP terms the EU fell 20.4% to 14.4% — and the "
+      +"United States fell 20.1% to 14.7%. Declines of 6.0 and 5.4 points respectively. The two are "
+      +"barely distinguishable. <strong>This is the rise of Asia, not a specifically European "
+      +"decline.</strong>");
+
+    seriesChart(sec,W.pop,["eu","us","cn"],["EU27","US","China"],"%",
+      "Share of world population",
+      "Because output share is partly just headcount share.",
+      "The EU27 went from 7.9% of the world's people to 5.5% — a fall of 2.4 points, against a "
+      +"6.0-point fall in PPP output share. A substantial part of the Union losing economic weight is "
+      +"simply Europeans becoming a smaller share of humanity, which no policy in this study "
+      +"addresses.");
+
+    var wg=seriesChart(sec,W.gni,["eu27","old","new"],["EU27","Old 14","New 13"],"%",
+      "Income per head, as a percentage of the United States",
+      "GNI per capita at PPP. Old 14 = the pre-2004 members excluding the UK; New 13 = everyone who "
+      +"joined from 2004, population-weighted.",
+      null);
+    if(wg){
+      wg.appendChild(h("p","","<strong>This is the finding that surprised me most, and it runs "
+        +"against the received view.</strong> On living standards the EU has been <em>closing</em> the "
+        +"gap with the United States, not falling behind: 62.1% of US income per head in 1995, 74.6% "
+        +"in 2024."));
+      wg.appendChild(h("p","","The obvious suspicion is composition — that the aggregate only rises "
+        +"because poor new members joined and then converged. It is checked directly above, and that "
+        +"is not the whole story. The <strong>old fourteen members went from 74.1% to 79.7%</strong> "
+        +"of US income per head, so they gained ground too. The new thirteen went from 28.9% to 57.8%. "
+        +"Both halves closed the gap; the aggregate does the best of the three because it gets the "
+        +"convergence as well as the level."));
+      wg.appendChild(h("p","note","Caveat worth its weight: PPP conversion factors are rebenchmarked "
+        +"periodically by the International Comparison Program, and levels shift when they are. The "
+        +"direction here is consistent across three decades and three separate groupings, which is "
+        +"more robust than any single year's ratio."));
+    }
+
+    var w2=h("div","card");
+    w2.appendChild(h("h3","","The Union as it actually was"));
+    w2.appendChild(h("p","sub","Share of world GDP counting only the countries that were members in "
+      +"that year — enlargement in, departures out. Market exchange rates."));
+    var tt2=h("table","t"),th2=document.createElement("tr");
+    ["Year","Members","Share of world GDP"].forEach(function(x,j){
+      var th=document.createElement("th");if(j>0)th.className="num";th.textContent=x;th2.appendChild(th)});
+    tt2.appendChild(th2);
+    [1990,1995,2000,2005,2010,2015,2019,2020,2024].forEach(function(y){
+      var r=W.asThen.filter(function(x){return x.y===y})[0];if(!r||r.share===null)return;
+      var tr=document.createElement("tr");
+      [[String(y),"nm"],[String(r.members),"num"],[fmt(r.share,1)+"%","num"]]
+        .forEach(function(c){var td=document.createElement("td");td.className=c[1];
+          td.textContent=c[0];tr.appendChild(td)});
+      tt2.appendChild(tr)});
+    w2.appendChild(tt2);
+    w2.appendChild(h("p","","Two step-changes are visible and both are compositional rather than "
+      +"economic. Enlargement from fifteen to twenty-five members between 2000 and 2005 added roughly "
+      +"five points of world GDP share. And <strong>the Union's share falls from 21.0% in 2019 to "
+      +"17.9% in 2020</strong> — that is the United Kingdom leaving. The UK was 3.2% of world GDP in "
+      +"2019 and is 3.3% today."));
+    w2.appendChild(h("p","note","This is the one Brexit number this dataset can produce cleanly: not "
+      +"what leaving did to Britain, which the Brexit tab shows is not identifiable here, but what it "
+      +"did to the Union's economic weight. About three percentage points of world output, immediately "
+      +"and by construction."));
+    sec.appendChild(w2);
+
+    var w3=h("div","card");
+    w3.appendChild(h("h3","","What to take from this"));
+    w3.appendChild(h("p","","The headline that the EU's share of world output nearly halved is true "
+      +"at market exchange rates and misleading on its own. In purchasing-power terms the EU and the "
+      +"United States declined together, by 6.0 and 5.4 points, and both were displaced by the same "
+      +"thing. A quarter of the EU's decline is demographic before any economics is involved."));
+    w3.appendChild(h("p","","And on the measure closest to what a person experiences — income per "
+      +"head against the United States — the direction is the opposite of the story usually told. Both "
+      +"the old members and the new ones closed the gap over thirty years."));
+    w3.appendChild(h("p","note","None of this is a causal claim about membership. It is the "
+      +"descriptive backdrop the rest of this study sits inside, and it is here because a reader "
+      +"cannot judge the internal comparisons without it."));
+    sec.appendChild(w3);
   }
 
   else if(t.id==="adjust"){
