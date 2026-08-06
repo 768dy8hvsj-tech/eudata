@@ -1,4 +1,4 @@
-# Project status — 6 August 2026
+# Project status — 6 August 2026 (evening)
 
 ## Where it stands
 
@@ -10,7 +10,7 @@ Indicators), Eurostat, ECB, European Commission (budget workbook), plus verified
 and metadata tables.
 
 **Pages:** `start-here.html` · `index.html` (7 regions × 14 measures) · `analysis.html`
-(10 tabs) · 28 country pages.
+(10 tabs) · **`flows.html`** (budget flows, per country and per fund) · 28 country pages.
 
 ## Findings that survive every check
 
@@ -26,6 +26,12 @@ partly erodes.
 
 ## The other questions, and their answers
 
+- **Budget flows** (`budget-flows.md`) — the accounting layer, rebuilt from the Commission
+  workbook at full depth: 233 budget lines mapped onto 15 funds and 5 revenue sources, per
+  country per year. Agriculture and cohesion are **80% of all EU spending**; research is 6%.
+  The hierarchy had to be recovered arithmetically because the sheets are flat and the
+  programme codes are not a reliable depth signal. Reconciles to **0.0000%** against the
+  published totals, verified twice more by independent code.
 - **Crises** (`crisis-findings.md`) — the 2012 downturn was **European, not global**: 61% of
   members contracted against 23% of non-members, where 2009 and 2020 hit both alike. GFC:
   members fell deeper and recovered slower, but the recovery gap is largely a rich-vs-poor
