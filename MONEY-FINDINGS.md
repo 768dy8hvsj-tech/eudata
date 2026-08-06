@@ -91,7 +91,7 @@ resolution of this country-level dataset.
 
 `BUDGET.EXPEND`, `BUDGET.CONTRIB`, `BUDGET.ADMIN`, `BUDGET.CUSTOMS`, `BUDGET.GNI` for 28
 countries, 2000–2024 (3,480 rows), plus four derived net-position series on both conventions
-including shares of the Commission's own GNI. Store now **45,096 rows**.
+including shares of the Commission's own GNI. Store now **47,655 rows**.
 
 Parser note: the workbook's layout drifts across its 25 sheets — the header row moves, the
 label column moves, and total labels gain and lose asterisks. `parse_budget.py` addresses

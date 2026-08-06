@@ -547,6 +547,50 @@ TABS.forEach(function(t,i){
     c1.appendChild(h("p","note","The pattern is not random: the four countries below the line — Slovenia, Hungary, Czechia and Croatia — were the richest Eastern members at accession. The ones furthest above — Romania, Estonia, Lithuania — were among the poorest. Even after adjusting for catch-up, some of that residual gradient probably remains."));
     sec.appendChild(c1);
 
+    /* ---- what the rest of this page found ----
+       The Findings tab is the study's own summary, and it was summarising only the estimates
+       that come out of the difference-in-differences machinery. Four later results sit on
+       other tabs and none of them was reachable from here, which meant the front of the
+       argument described a smaller project than the back of it. */
+    var xs=h("div","card");
+    xs.appendChild(h("h3","","And four things this machinery does not produce"));
+    xs.appendChild(h("p","sub","Every estimate below comes from the same difference-in-differences "
+      +"design. These four do not, and three of them are stronger for it."));
+    var xt=h("table","t"),xh=document.createElement("tr");
+    ["Result","What kind of claim","Where"].forEach(function(x){
+      var th=document.createElement("th");th.textContent=x;xh.appendChild(th)});
+    xt.appendChild(xh);
+    var Vv=P.verdict&&P.verdict.groups&&P.verdict.groups.East||{};
+    var w4=(P.direction&&P.direction.waves||[]).filter(function(w){return w.year===2004})[0];
+    [["Eastern members closed "+fmt((Vv.memberMedian||0)-(Vv.nonMedian||0),1)
+      +"pp more than the Western Balkans on US income per head, placebo "
+      +fmt((Vv.placebo1997||{}).gap||0,1),
+      "Descriptive. A fixed-window group comparison, not an event study — and it disagrees with "
+      +"the income estimate below. Both are reported.","Who gains"],
+     ["The share of exports going to the EU moved "+fmt(w4?w4.median:0,1)
+      +"pp across the 2004 accession",
+      "Descriptive. Membership raised the volume of trade without changing its direction — the "
+      +"reorientation had already happened under the Europe Agreements.","Trade direction"],
+     ["Poland has received €168bn net and Germany has paid €345bn",
+      "Accounting. No estimation at all, reconciled to the Commission's own totals to 0.0000%.",
+      "The money · budget flows page"],
+     ["The 2012 downturn was European, not global: 61% of members contracted against 23% of "
+      +"non-members",
+      "Descriptive, and the clearest measurable cost of integration in the study. 2009 and 2020 "
+      +"hit both groups alike.","Crises"]]
+     .forEach(function(r){
+      var tr=document.createElement("tr");
+      r.forEach(function(c,j){var td=document.createElement("td");
+        if(j===0)td.className="nm";td.textContent=c;tr.appendChild(td)});
+      xt.appendChild(tr)});
+    xs.appendChild(xt);
+    xs.appendChild(h("p","note","Each country page also carries its own membership verdict, its "
+      +"own budget statement and its export destinations; the three non-member pages add what "
+      +"they pay the Union, their points of contention with it, and a map of how much of the "
+      +"rulebook already applies to them. <a href=\"start-here.html#non-members\">Norway, "
+      +"Iceland and Switzerland</a>."));
+    sec.appendChild(xs);
+
     /* ---- the scoreboard: every estimate, with what the checks did to it ---- */
     var sb=h("div","card");
     sb.appendChild(h("h3","","Every estimate, and whether it survived"));

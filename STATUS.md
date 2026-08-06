@@ -5,14 +5,14 @@
 All five lenses carry data. Beyond the original brief, six further questions have been
 answered or explicitly closed as unanswerable.
 
-**Data store: 45,096 rows · 46 entities.** Sources: World Bank (WDI + Worldwide Governance
+**Data store: 47,655 values · 47 entities.** Sources: World Bank (WDI + Worldwide Governance
 Indicators), Eurostat, ECB, European Commission (budget workbook), plus verified milestone
 and metadata tables.
 
 **Pages:** `start-here.html` · `index.html` (7 regions × 14 measures) · `analysis.html`
-(11 tabs) · `flows.html` (budget flows, per country and per fund) · **28 country pages, each
-now carrying a membership verdict, its own budget statement, its place in the cross-country
-findings, and milestone rails on every chart**.
+(12 tabs) · `flows.html` (budget flows, per country and per fund) · **31 country pages** — 28
+members and 3 non-members — each carrying a membership verdict, its own budget statement, its
+export destinations, its place in the cross-country findings, and milestone rails on every chart.
 
 ## Findings that survive every check
 

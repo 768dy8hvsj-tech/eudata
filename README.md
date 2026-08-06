@@ -14,7 +14,7 @@ Anything weaker is either omitted or explicitly flagged `(≈)`.
 | Country pages built | 17 (Austria, Belgium, Cyprus, Czechia, Estonia, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Poland, Portugal, Spain, Sweden) |
 | Written five-lens analysis | Poland only — the rest are data-first |
 | Data points | ~9,900 rows in `data/indicators.csv` |
-| Milestones verified | 177 rows across all 28 countries, including the UK's Brexit sequence |
+| Milestones verified | 206 rows across all 28 countries, including the UK's Brexit sequence |
 | Still to collect | Bulgaria, Croatia, Denmark, Hungary, Latvia, Lithuania, Malta, Romania, Slovakia, Slovenia, United Kingdom |
 | Also outstanding | Policy rate + long-term bond yield, OECD + Eurostat wages, OECD Better Life Index topic scores |
 

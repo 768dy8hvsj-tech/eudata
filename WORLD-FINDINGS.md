@@ -85,4 +85,4 @@ sits inside, and a reader cannot judge the internal comparisons without it.
 ## Data added
 
 `NY.GDP.MKTP.CD`, `NY.GDP.PCAP.PP.CD`, `NY.GNP.PCAP.PP.CD`, `SP.POP.TOTL` for **WLD, USA, CHN**
-— 612 rows, 1960–2025 (PPP series begin 1990). Store now 38,832 rows, 46 entities.
+— 612 rows, 1960–2025 (PPP series begin 1990). Store now 38,832 rows, 47 entities.

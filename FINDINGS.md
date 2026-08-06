@@ -1,0 +1,63 @@
+# Index of findings documents
+
+Written 6 August 2026 after an audit of whether the summaries match the pages. Every document
+in the project, what it covers, which page it describes, and where the file lives.
+
+`local` = a copy sits in this folder alongside the site. `project` = it lives in the claude.ai
+project only. The project is the canonical store; this folder is the built site plus its code.
+
+| Document | Covers | Page it describes | Where |
+|---|---|---|---|
+| `status.md` / `STATUS.md` | Everything, current state | — | local + project |
+| `who-gains.md` | Who benefits, who does not, who loses by staying out, who is better off outside | **Who gains** tab | local + project |
+| `budget-flows.md` | 233 budget lines → 15 funds, per country per year | `flows.html` | local + project |
+| `country-pages.md` | The membership verdict, budget statement and milestone rails on all 31 pages | country pages | **project only** |
+| `non-member-profiles.md` | Norway, Iceland, Switzerland — verdict, contributions, disputes | 3 non-member pages | **project only** |
+| `trade-direction-and-acquis.md` | Trade direction, export destinations, the acquis coverage map, the joining case | **Trade direction** tab, acquis grid | **project only** |
+| `crisis-findings.md` | The 2012 downturn was European, not global | **Crises** tab | **project only** |
+| `brexit-findings.md` | Why the Brexit effect is not identifiable | **Brexit** tab | local + project |
+| `south-findings.md` | The Mediterranean flatline was a median artefact | **The South** tab | local + project |
+| `world-findings.md` | The EU against the world, market rates vs PPP | **In the world** tab | local + project |
+| `money-findings.md` | The two budget conventions and Belgium's sign flip | **The money** tab | local + project |
+| `comparative-findings.md` | Regional structure, the 14 measures, what the placebo killed | `index.html` | local + project |
+| `legal-political-scope.md` | Governance indices, the headroom problem | Legal and Political tabs | local + project |
+| `poland-findings.md` | The one hand-written country narrative | `poland-dashboard.html` | project only |
+| `data-pipeline.md` | How the data store is built and verified | — | project only |
+| `research-framework.md` | The original design | — | project only |
+
+## What the audit found, and what was done about it
+
+**The front page was describing an older project.** `start-here.html` led with the income null
+and the trade result and stopped there — no mention of the Who gains synthesis, the budget
+flows, or the trade-direction result. Worse, it presented the income effect as simply *not
+demonstrable* when a second specification reporting **+11.3 points with an interval excluding
+zero** had been in the study for two days. A reader arriving at the front door would never have
+learned the disagreement existed. Fixed: the income block now carries both specifications and
+their reconciliation, the trade block carries the direction result beside it, and a third
+headline block covers the budget.
+
+**The Findings tab had the same problem one level down.** It summarised only what comes out of
+the difference-in-differences machinery, and its scoreboard loops the `measures` array — so the
+four results that are not `measures` were unreachable from the study's own summary. Fixed with
+an explicit block naming all four and where they live.
+
+**Stale counts** in six documents: 45,096 values (now 47,655), 46 entities (now 47), 8/11 tabs
+(now 12), 28 country pages (now 31), 177 milestones (now 206). All corrected. The counts on
+`start-here.html` were already right because that page is generated from the data store rather
+than written by hand — which is the argument for generating summaries wherever possible.
+
+**The interpretive prose is still pending on 27 of 31 country pages**, and the front page now
+says so with a number rather than in passing. Those pages carry the full chart set, timeline,
+budget statement, membership verdict and export destinations; what they lack is written
+five-lens analysis. Poland is the only completed one. This is a real gap, deliberately left
+open, and it is the largest remaining piece of work in the project.
+
+## Gaps that remain
+
+- **Written analysis on 27 country pages.** The largest one. Everything else is built.
+- **Four documents live in the project only** and have no copy in this folder, marked above.
+- **Population decomposition** is in the South tab and the docs but not on the convergence
+  charts, so a casual reader still sees per-head gains without seeing how much of Latvia's is
+  population decline.
+- WGI `RQ.EST`, `GE.EST`, `PV.EST` never collected; OECD wages blocked on transport; CJEU
+  references, transposition deficit and Eurobarometer never reached.

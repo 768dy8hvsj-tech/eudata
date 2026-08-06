@@ -1,7 +1,7 @@
 # Comparative analysis & regional structure
 
 Updated 4 August 2026. Pages: `start-here.html` (front door), `index.html` (regional
-comparison, 14 measures), `analysis.html` (the causal argument, 8 tabs), 28 country pages.
+comparison, 14 measures), `analysis.html` (the causal argument, 12 tabs), 31 country pages.
 
 ## Two groupings, two jobs — this is deliberate, not an inconsistency
 

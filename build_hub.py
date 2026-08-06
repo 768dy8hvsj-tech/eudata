@@ -25,6 +25,24 @@ milestones = sum(1 for _ in csv.DictReader(open(os.path.join(DATA, "milestones.c
 adjE = A["adjusted"]["East"]
 inc = [m for m in A["measures"] if m["id"] == "income"][0]
 
+# The front door used to describe a version of this project that stopped being true several
+# sessions ago: the income null and the trade result, and nothing else. These pull the later
+# results out of the payloads so the summary cannot drift from the pages again.
+_E = A.get("verdict", {}).get("groups", {}).get("East", {})
+_W = _E.get("welch", {}) or {}
+eu_mem = _E.get("memberMedian", 0.0)
+eu_non = _E.get("nonMedian", 0.0)
+eu_gap = eu_mem - eu_non
+eu_lo, eu_hi = _W.get("lo", 0.0), _W.get("hi", 0.0)
+eu_plc = (_E.get("placebo1997") or {}).get("gap", 0.0)
+_w04 = next((w for w in A.get("direction", {}).get("waves", []) if w["year"] == 2004), None)
+dir04 = _w04["median"] if _w04 else 0.0
+_F = json.load(open(os.path.join(BASE, "flows_payload.json"), encoding="utf-8"))
+_pol = next((c for c in _F["countries"] if c["iso3"] == "POL"), None)
+_deu = next((c for c in _F["countries"] if c["iso3"] == "DEU"), None)
+pol_net = _pol["net"] if _pol else 0.0
+deu_net = abs(_deu["net"]) if _deu else 0.0
+
 
 def slug(n):
     return re.sub(r"[^a-z0-9]+", "-", n.lower()).strip("-") + "-dashboard.html"
@@ -89,6 +107,11 @@ if trade.get("identified") and tpl.get("verdict") == "passes" and tci:
   directly, so an effect here is what the theory predicts. <strong>It does not follow that people
   became better off:</strong> that is the income question above, and the income question remains
   unresolved.</p>
+  <p><strong>Nor did it change who they trade with.</strong> Over the same accession the share of
+  exports going to the EU moved by a median of {dir04:+.1f}pp across the 2004 wave. The Europe
+  Agreements had already done the reorientation through the 1990s — two years before entry Czechia
+  was sending 80.5% of its exports to the EU and Slovakia 87.7%. Membership made them trade more,
+  not trade differently.</p>
 </div>"""
 
 HTML = f"""<!DOCTYPE html>
@@ -160,9 +183,29 @@ text-decoration:none;background:var(--surface-1)}}
   <div class="k">Central finding — income effect on Eastern members, adjusted for catch-up growth</div>
   <div class="v">{headline_val}</div>
   <p>{ci_txt} Eastern members grew enormously after joining — but so did the Western Balkan countries that did not join, and poorer economies grow faster mechanically regardless of membership.</p>
+  <p><strong>A second specification disagrees, and both are reported.</strong> Measured against a
+  fixed external benchmark — US income per head — over one common 2000–2025 window rather than in
+  event time, Eastern members gained a median {eu_mem:+.1f} points against the Western Balkans'
+  {eu_non:+.1f}: a gap of <strong>{eu_gap:+.1f} points</strong>, 95% interval {eu_lo:+.1f} to
+  {eu_hi:+.1f}, with a pre-accession placebo of {eu_plc:+.1f}. The event study measures the
+  accession <em>step</em> and stops a decade short of today; the calendar comparison measures the
+  whole trajectory including the run-up. Neither was chosen over the other — the reconciliation is
+  on the <a href="analysis.html">Who gains</a> tab.</p>
   <p><strong>This is an inconclusive result, not a null one.</strong> Two biases push the estimate toward zero: the control countries are all EU candidates already reforming in anticipation, and the heaviest accession reforms happen <em>before</em> entry, inside the pre-accession baseline. One bias pushes the other way: countries joined because they already qualified. They do not cancel in any quantifiable way.</p>
 </div>
 {trade_block}
+
+<div class="finding">
+  <div class="k">The one part that is not an estimate at all — EU budget flows, 2000–2024</div>
+  <div class="v">Poland +€{pol_net:,.0f}bn · Germany −€{deu_net:,.0f}bn</div>
+  <p>Net positions on a convention that counts all allocated expenditure and all payments
+  including customs duties. <strong>Agriculture and cohesion together are 80% of everything the
+  Union spends</strong>; research, which attracts most of the rhetoric, is 6%.</p>
+  <p>This is accounting rather than inference. The Commission publishes the figures, and every
+  line reconciles to its own published totals to <strong>0.0000%</strong> for all 28 member states
+  across all 25 years. The breakdown by fund is on the <a href="flows.html">budget flows</a> page,
+  and every country page carries its own statement.</p>
+</div>
 
 <h2>Four ways in</h2>
 <p class="lead">The project has four layers. Start with whichever question you have.</p>
@@ -174,7 +217,7 @@ text-decoration:none;background:var(--surface-1)}}
   <a class="route" href="flows.html"><span class="t">Budget flows →</span>
     <span class="d">What each country pays into the EU budget and what comes back, itemised by fund — farm payments, cohesion, research, the Recovery Facility. Accounting rather than inference: no estimation, and every figure reconciled to the Commission's published totals.</span></a>
   <a class="route" href="poland-dashboard.html"><span class="t">A worked country page →</span>
-    <span class="d">Poland is the completed reference: five lenses, verified milestone timeline, and written analysis. Every other country has the same charts and timeline with narrative pending.</span></a>
+    <span class="d">Poland is the only page with written five-lens analysis. The other 30 carry the same charts, timelines, budget statement, membership verdict and export destinations, but their interpretive prose is still marked pending — a real and deliberate gap, not an oversight.</span></a>
 </div>
 
 <h2>What the dataset holds</h2>

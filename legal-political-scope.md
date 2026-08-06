@@ -79,7 +79,7 @@ Why this tier matters more than the rest combined:
   remain permanently untestable as they are everywhere else in this project.
 
 **Actual yield:** 123 series, 3,221 rows, 41/41 entities on each of the three collected
-indicators — two new lens groups on the region page and charts on all 28 country pages.
+indicators — two new lens groups on the region page and charts on all 31 country pages.
 RQ, GE and PV were not attempted: the API was degraded badly enough that three indicators
 consumed most of a day, and the three chosen cover one legal and two political dimensions,
 which was the priority. The remaining three are a straightforward repeat of the same run.
@@ -131,7 +131,7 @@ they cannot be run through difference-in-differences, because no control group c
 ## What this buys, honestly
 
 **It buys:** two lenses moved from "no data" to "measured", six new causal estimates subject to
-the same gate everything else passed, and legal/political series on all 28 country pages and
+the same gate everything else passed, and legal/political series on all 31 country pages and
 all seven region tabs.
 
 **It does not buy:** resolution of the contested cases. If Hungary's rule-of-law score falls
