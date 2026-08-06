@@ -1,4 +1,4 @@
-# Project status — 6 August 2026 (evening)
+# Project status — 6 August 2026 (late)
 
 ## Where it stands
 
@@ -10,7 +10,9 @@ Indicators), Eurostat, ECB, European Commission (budget workbook), plus verified
 and metadata tables.
 
 **Pages:** `start-here.html` · `index.html` (7 regions × 14 measures) · `analysis.html`
-(10 tabs) · **`flows.html`** (budget flows, per country and per fund) · 28 country pages.
+(10 tabs) · `flows.html` (budget flows, per country and per fund) · **28 country pages, each
+now carrying a membership verdict, its own budget statement, its place in the cross-country
+findings, and milestone rails on every chart**.
 
 ## Findings that survive every check
 
@@ -63,6 +65,21 @@ Pre-accession **placebo** on every estimate; **headroom adjustment** for bounded
 **convergence adjustment** for income; r²≥0.5 identification gate; coverage rule that adapts
 to publication frequency; `audit.js` checking every chart on every page; harnesses verifying
 every plotted point against the CSV.
+
+## The country pages
+
+Each of the 28 now opens with **“Does the data suggest this country gains from membership?”** —
+three channels reported separately (money, trade, income), each with its own evidentiary
+status, and a headline chosen by a stated rule rather than a judgement. Distribution: 11
+*evidence points to a gain*, 5 *leans positive*, 5 *mixed*, 1 *leans negative* (the UK), 6
+*cannot be tested* (the founding members — no pre-accession baseline exists).
+
+Also added: a per-country budget statement drawn from `flows.html`; a *Where this country sits
+in the wider findings* card generated from the cross-country analysis; **Union-wide milestones**
+(`data/milestones_eu.csv`, 15 verified events) merged with each country's own and marked on a
+rail under every chart; and **per-chart x-axis clipping**, so a chart spans the years it has
+data for rather than the years the page covers. Germany's hero chart no longer opens with 36
+blank years, and no timeline now starts before the data does.
 
 ## Known gaps
 

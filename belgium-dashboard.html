@@ -111,6 +111,41 @@
   .timeline .tbody { font-size: 13.5px; color: var(--text-secondary); line-height: 1.5; }
   .timeline .tbody strong { color: var(--text-primary); font-weight: 600; }
   .timeline li.era .tbody strong { color: var(--series-1); }
+  .timeline li.scope-eu .tbody { color: var(--text-muted); }
+  .timeline li.scope-eu .tbody strong { color: var(--text-secondary); }
+  .timeline .tag { font-size: 10px; letter-spacing: 0.04em; text-transform: uppercase;
+    border: 1px solid var(--border); border-radius: 20px; padding: 1px 6px;
+    color: var(--text-muted); margin-left: 5px; white-space: nowrap; }
+  .tl-dot.eu { background: var(--text-muted); }
+  .tooltip .tt-ms { font-size: 12px; color: var(--text-secondary); line-height: 1.5;
+    max-width: 300px; margin-top: 2px; }
+  .tooltip .tt-ms strong { color: var(--text-primary); }
+  .card.verdict { border-left: 3px solid var(--baseline); }
+  .card.verdict.good { border-left-color: var(--series-1); }
+  .card.verdict.warn { border-left-color: var(--series-2); }
+  .card.verdict.bad  { border-left-color: var(--neg); }
+  .vhead { margin-top: 10px; }
+  .vlabel { display: block; font-size: 23px; font-weight: 650; letter-spacing: -0.01em;
+    color: var(--text-primary); }
+  .card.verdict.good .vlabel { color: var(--series-1); }
+  .card.verdict.warn .vlabel { color: var(--series-2); }
+  .card.verdict.bad .vlabel  { color: var(--neg); }
+  .vgist { display: block; font-size: 13px; color: var(--text-secondary); line-height: 1.6;
+    margin-top: 6px; max-width: 720px; }
+  .vrow { border-top: 1px solid var(--grid); padding: 11px 0 3px; }
+  .vtop { display: flex; align-items: baseline; gap: 9px; }
+  .vkey { font-size: 13px; font-weight: 600; color: var(--text-primary); }
+  .vstatus { font-size: 10px; letter-spacing: 0.05em; text-transform: uppercase;
+    border: 1px solid var(--border); border-radius: 20px; padding: 1px 7px; color: var(--text-muted); }
+  .vstatus.established { color: var(--series-1); border-color: var(--series-1); }
+  .vstatus.fact { color: var(--text-primary); border-color: var(--baseline); }
+  .vhd { font-size: 13.5px; color: var(--text-primary); margin-top: 4px;
+    font-variant-numeric: tabular-nums; }
+  .vrow.negative .vhd { color: var(--series-2); }
+  .vrow.unknown .vhd { color: var(--text-muted); }
+  .vnote { font-size: 12px; color: var(--text-muted); line-height: 1.55; margin-top: 4px;
+    max-width: 780px; }
+  .vnote strong { color: var(--text-secondary); }
   .tl-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--series-1); margin-top: 6px; }
   .tl-dot.warn { background: var(--neg); }
 
@@ -131,7 +166,7 @@
 <body>
 <div class="viz-root">
   <div class="wrap">
-    <nav class="sitenav"><a href="start-here.html">← Overview</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a></nav>
+    <nav class="sitenav"><a href="start-here.html">← Overview</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a><a href="flows.html">Budget flows</a></nav>
     <header class="top">
       <div>
         <h1 id="hTitle"></h1>
@@ -145,7 +180,7 @@
   </div>
 </div>
 
-<script id="payload" type="application/json">{"iso3": "BEL", "name": "Belgium", "subtitle": "Belgium is a founding member — the EEC treaties entered into force on 1 January 1958, before this data window opens. The whole series is therefore post-accession; there is no pre-membership baseline to compare against.", "window": {"start": 1960, "end": 2025, "negotiationsOpen": 1960, "negotiationsClose": 1958.0, "accession": null, "accessionLabel": "EU entry"}, "years": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "series": {"BEL|DERIVED.PPP.PCT.EU": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 123.9, 124.42, 122.03, 122.49, 125.7, 124.06, 125.0, 124.98, 123.73, 123.4, 120.68, 118.23, 116.28, 118.64, 120.74, 118.98, 121.0, 120.87, 120.83, 119.51, 118.39, 116.79, 116.45, 116.72, 117.98, 116.74, 117.59, 118.01, 116.32, 114.0], "BEL|WGI.RL.EST": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1.3991182, null, 1.1982433, null, 1.3343873, null, 1.3025956, 1.3120054, 1.2416659, 1.2874816, 1.2165206, 1.3582734, 1.3161972, 1.2276833, 1.2316759, 1.2689293, 1.313828, 1.3339446, 1.3600975, 1.4251797, 1.4372251, 1.377531, 1.4207604, 1.4493311, 1.4533249, 1.4052126, 1.3398087, 1.2719977, 1.282799, null], "BEL|NY.GDP.MKTP.KD.ZG": [null, 4.97842290203951, 5.21200316192976, 4.35158439272112, 6.95668500485647, 3.56066018685455, 3.15589488893686, 3.86814722361169, 4.19412943238677, 6.62980009162366, 6.35267229121293, 3.98582719666759, 5.29560467072521, 6.38170179993882, 4.56525850850306, -1.96594188277651, 5.65274606308233, 0.626154572057786, 2.84189681697329, 2.34107304540791, 4.44405389248001, -0.279283585394069, 0.594986767578831, 0.311843009473307, 2.46638245146747, 1.65179297063331, 1.82276203316596, 2.30665968936027, 4.72320872854138, 3.46916697570174, 3.13740221731629, 1.83307441343001, 1.53065475142162, -0.961873076923027, 3.22697145426247, 2.38475724870135, 1.32143214432601, 3.79367165541437, 1.96183240455609, 3.54271798823922, 3.71670510672588, 1.09960362419645, 1.70689430349601, 1.03795518162204, 3.57120671942319, 2.32173792911834, 2.55234087322462, 3.67692462515802, 0.446905130727231, -1.90644105515335, 2.71031150254662, 1.93115502411325, 0.215803612089744, 0.305494549070232, 1.76554038149924, 1.47416433731927, 1.19350273007754, 1.47446761556785, 1.87796847383565, 2.4428900448156, -4.7929839083518, 6.25445686466593, 4.02460852835887, 1.56125539542029, 1.09775383828703, 0.983117967125935], "BEL|FP.CPI.TOTL.ZG": [0.299467254769695, 0.992676260767275, 1.40460703543514, 2.14800341332196, 4.16876058564365, 4.06520137474655, 4.17434761853001, 2.73030268590902, 2.70144982931355, 3.75399229053284, 3.90847238471905, 4.34362854612101, 5.44843128438075, 6.95528008719914, 12.6778877513451, 12.7681985920516, 9.06860981054961, 7.09600059132598, 4.47059331592944, 4.46908394900487, 6.64868829655353, 7.62748656814271, 8.72654906555471, 7.66160983743883, 6.34177491009128, 4.8687339949694, 1.2943681910248, 1.55338261314945, 1.16093493415331, 3.10705065111094, 3.44831217961808, 3.2153106926081, 2.42795567164615, 2.75442643473462, 2.377540844764, 1.46796699090272, 2.07702107350675, 1.62816049512954, 0.94925028835061, 1.12084823417847, 2.544517761909, 2.46925823086083, 1.64521436175361, 1.58896399970372, 2.09728311239316, 2.78143263670029, 1.79120770070454, 1.8230563002681, 4.48944420508404, -0.0531456741254177, 2.18929920422458, 3.5320821072274, 2.83966343445899, 1.1130959402754, 0.340002833356922, 0.561429152790158, 1.97385264653163, 2.12597086002616, 2.05316499865178, 1.43681956996438, 0.740791812220344, 2.44024851144084, 9.597511728725, 4.04901077613941, 3.14349136500041, 2.46705543774613], "BEL|SL.UEM.TOTL.ZS": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 6.984, 6.702, 8.078, 9.645, 9.337, 9.483, 8.95, 9.322, 8.649, 6.586, 6.178, 6.91, 7.68, 7.363, 8.44, 8.246, 7.459, 6.976, 7.908, 8.293, 7.14, 7.542, 8.425, 8.523, 8.482, 7.83, 7.09, 5.941, 5.364, 5.545, 6.248, 5.57, 5.547, 5.7, 5.906], "EUU|NY.GDP.PCAP.PP.CD": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 18358.26, 19075.9, 19970.41, 20769.05, 22111.55, 23208.69, 24225.43, 24749.1, 25910.57, 26886.78, 29209.47, 31125.35, 32579.99, 31950.76, 32995.33, 34666.61, 35110.66, 36288.95, 37363.36, 38551.99, 40893.58, 43031.12, 45055.2, 48588.12, 47566.44, 51968.44, 58573.21, 61545.82, 63808.07, 65503.07], "BEL|NY.GDP.PCAP.PP.CD": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 18687.7257960975, 19600.8963598198, 20272.01785535, 20472.777919689, 21518.2541385756, 22446.2748072391, 22745.2145866007, 23733.4493485094, 24370.3723671522, 25440.8411888638, 27794.0511630862, 28793.5142643594, 30282.2886450283, 30930.6283334744, 32059.6878637798, 33177.8909458158, 35251.4450697593, 36798.1918857259, 37883.3319417819, 37905.658312629, 39839.9772772918, 41244.8495035213, 42483.5250666788, 43864.1204196838, 45147.6429534057, 46071.914889496, 48414.5518065681, 50256.0631772784, 52466.7330784599, 56712.469571978, 56120.0958420466, 60669.2137746534, 68878.9167847285, 72629.6179311762, 74224.5510568017, 74675.607672673], "BEL|EUROSTAT.IRT_LT_MCBY": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8.93, 9.69, 11.9, 13.44, 13.43, 11.94, 12.24, 10.97, 8.63, 8.18, 8.01, 8.66, 10.01, 9.29, 8.65, 7.23, 7.75, 7.48, 6.49, 5.75, 4.75, 4.75, 5.59, 5.13, 4.99, 4.18, 4.15, 3.43, 3.81, 4.33, 4.42, 3.9, 3.46, 4.23, 3.0, 2.41, 1.71, 0.84, 0.48, 0.72, 0.79, 0.19, -0.15, -0.01, 1.73, 3.09, 2.92, 3.17326], "BEL|EUROSTAT.EARN_NT_NET": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 18034.69, 18884.08, 19686.29, 20097.88, 20739.41, 21273.34, 21880.46, 22396.96, 23405.3, 24323.59, 24873.45, 25519.86, 26287.51, 26609.37, 26775.94, 26953.59, 27574.37, 28238.77, 29240.96, 30188.71, 30539.81, 31063.95, 32889.21, 35438.98, 33481.07, 34642.3], "BEL|NE.EXP.GNFS.ZS": [null, null, null, null, null, null, null, null, null, null, 44.9562764917152, 43.7674630949661, 44.1372779894459, 48.0319438554395, 52.8933580553858, 45.91603656753, 48.5543828576666, 47.5072502227347, 45.761644179143, 49.9224384979483, 50.117280484132, 54.0635220572788, 58.1033118064771, 60.3956265804625, 64.4123516780532, 62.4543274172181, 57.2830498325525, 55.8677630684447, 59.4080832438795, 63.5667489352734, 61.6136909555393, 60.2296548828746, 58.8089303317393, 56.1077411574797, 58.4249593454229, 60.1143717180605, 61.1923909558718, 64.7865810804479, 64.1743450154283, 64.5630595160862, 72.5473951580567, 71.6119589202939, 70.8312976956765, 69.0365085088844, 70.906277447218, 74.2828289213953, 76.8049970552189, 78.3018047028263, 80.8806199752035, 68.5960770690546, 75.8282898692443, 80.2713643518839, 80.0489721342421, 78.9114134413606, 79.3965205800202, 77.8777392199991, 79.6181317071952, 83.4444050525116, 83.4830567161373, 82.9674275396401, 79.1968705613294, 89.625374866218, 94.3593146395926, 82.8132982978783, 79.3187864838737, 75.4500710497086], "BEL|NE.IMP.GNFS.ZS": [null, null, null, null, null, null, null, null, null, null, 42.7710254837046, 41.8166176737447, 41.0771607398334, 46.1121501660273, 52.3777195459097, 45.6077121111552, 48.2613755680507, 48.1702725216395, 46.5509597585309, 51.6505320431123, 52.9381673001875, 56.157830087916, 59.8220377400948, 59.999935931094, 63.8183833473908, 61.4226586727942, 55.0439747012999, 54.0513368574141, 57.0148633493866, 61.3701837443597, 59.8541601189252, 58.3604828351158, 56.2603571698966, 52.9049958392791, 54.8073406881894, 56.2641961032662, 58.0203848015116, 60.902358975732, 60.5347776108893, 60.6069310248626, 69.6827399089776, 67.964880914325, 65.2538517924041, 63.679044325004, 66.0121279012141, 70.2462217485879, 72.7625122442923, 74.1666421724765, 80.2078278152436, 66.5423286532355, 74.3342737521831, 80.494152536242, 80.3343292908166, 78.6622093410738, 79.1750903735027, 77.1909428259269, 79.43956490475, 83.4596731852798, 84.7946361610806, 82.4980513923498, 77.7532507214541, 87.7565373348573, 96.6941034919995, 83.174142438564, 79.7046946650529, 77.4677176696568], "BEL|BX.KLT.DINV.WD.GD.ZS": [null, null, null, null, null, null, null, null, null, null, 1.17575711437835, 1.43519835301943, 1.03737177455435, 1.50595465286725, 2.02915856675675, 1.45345054898808, 1.22590690244984, 1.53902879649781, 1.41812272871722, 0.971564769653163, 1.21799917270847, 1.32383247921808, 1.59852890452747, 1.47928113384372, 0.467153203211123, 1.21886073677275, 0.608121458920649, 1.57631071531358, 3.2116443541361, 4.27489029065365, 3.91889227088431, 4.44753957098212, 4.80693439303708, 4.78369263919673, 3.47657482650626, 3.71102444734668, 5.03718760952012, 4.74788988025515, 8.77679407696031, 46.3484571485071, 37.4753122979087, 37.2564694834172, 7.01242443993657, 10.8648744877518, 12.0521106747569, 8.72717720186463, 14.4078713936675, 20.5026740062328, 36.8029204549975, 15.948905674901, 26.0596407490286, 31.0366884311298, 2.36956900950954, -5.65561784857252, -2.82643623555084, -4.23261410354123, 12.1319420227113, -7.4442379017663, -7.66649538713467, -1.97252997818915, -5.69020542304612, 5.6774240968721, 2.22097062697703, -0.652733821591808, -6.1637514992582, -3.96835875820548], "BEL|ST.INT.ARVL": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 5560000.0, 5829000.0, 6037000.0, 6179000.0, 6369000.0, 6457000.0, 6452000.0, 6720000.0, 6690000.0, 6710000.0, 6747000.0, 6995000.0, 7045000.0, 7165000.0, 6815000.0, 7186000.0, 7494000.0, 7560000.0, 7684000.0, 7887000.0, 8355000.0, 7481000.0, 8385000.0, 9119000.0, 9343000.0, 2584000.0, null, null, null, null, null], "BEL|WGI.VA.EST": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1.458958, null, 1.4063934, null, 1.4437586, null, 1.5102156, 1.5361146, 1.4527162, 1.532389, 1.5303257, 1.5789576, 1.5252467, 1.5416049, 1.5232196, 1.4154858, 1.4318518, 1.4682398, 1.4666488, 1.5225951, 1.5164105, 1.4607612, 1.4858461, 1.4474148, 1.5200949, 1.541916, 1.5409176, 1.5152567, 1.4972136, null], "BEL|WGI.CC.EST": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1.5008783, null, 1.2384711, null, 1.450425, null, 1.5594273, 1.4560896, 1.4030257, 1.471559, 1.4069022, 1.3866548, 1.404707, 1.5580741, 1.4956315, 1.5664836, 1.4862037, 1.5003188, 1.5150458, 1.5244457, 1.5450402, 1.4425342, 1.4543603, 1.4973857, 1.5662608, 1.5502151, 1.5774306, 1.467016, 1.4687812, null], "BEL|SM.POP.NETM": [9893.0, 10566.0, 14829.0, 16355.0, 17687.0, 18243.0, 18985.0, 19492.0, 19809.0, 20072.0, 19393.0, 7992.0, 8384.0, 8684.0, 8924.0, 9652.0, 10360.0, 10460.0, 10828.0, 11277.0, 11482.0, 2826.0, 1100.0, 1252.0, 1697.0, 2165.0, 2964.0, 3525.0, 3929.0, 7301.0, 8299.0, 27038.0, 25941.0, 18542.0, 17636.0, 1937.0, 15684.0, 10262.0, 12517.0, 16849.0, 13952.0, 34924.0, 39404.0, 34472.0, 35143.0, 50576.0, 53574.0, 59911.0, 66470.0, 97175.0, 105232.0, 52464.0, 45001.0, 28066.0, 37472.0, 63536.0, 28090.0, 37981.0, 50604.0, 58469.0, 43777.0, 24017.0, 118615.0, 41679.0, 36243.0, 31989.0], "BEL|SI.POV.GINI": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 25.2, null, null, 25.7, null, null, null, 24.9, null, null, 28.4, null, 26.8, null, null, 33.1, null, null, 28.1, 30.5, 29.3, 28.1, 29.2, 28.4, 28.6, 28.4, 28.1, 27.5, 27.7, 28.1, 27.7, 27.6, 27.4, 27.2, 27.2, 26.0, 26.6, 26.4, 26.8, null, null], "BEL|DERIVED.NETM.P1000": [1.081, 1.15, 1.608, 1.761, 1.886, 1.928, 1.993, 2.034, 2.059, 2.081, 2.008, 0.826, 0.863, 0.891, 0.913, 0.985, 1.055, 1.064, 1.1, 1.145, 1.165, 0.287, 0.112, 0.127, 0.172, 0.22, 0.301, 0.357, 0.397, 0.735, 0.833, 2.703, 2.582, 1.839, 1.743, 0.191, 1.544, 1.008, 1.227, 1.648, 1.361, 3.395, 3.813, 3.322, 3.372, 4.827, 5.079, 5.638, 6.206, 9.001, 9.658, 4.753, 4.052, 2.515, 3.343, 5.636, 2.479, 3.339, 4.428, 5.089, 3.794, 2.073, 10.155, 3.538, 3.056, 2.679]}, "kpis": [{"label": "GDP per capita (PPP), vs EU average", "delta": "World Bank, latest available year", "value": "114%"}, {"label": "GDP per capita, PPP", "delta": "current international $ · World Bank", "value": "74,676"}, {"label": "Unemployment (ILO)", "delta": "% of labour force · World Bank", "value": "5.9%"}, {"label": "Exports, % of GDP", "delta": "goods and services · World Bank", "value": "75%"}], "heroChart": {"title": "Convergence with the EU: GDP per capita (PPP) as % of EU average", "sub": "Income level relative to the EU-wide average, current international $ at purchasing power parity. The EU aggregate series begins in 1996, so this chart starts there regardless of the window above.", "series": [{"code": "DERIVED.PPP.PCT.EU", "name": "Belgium, % of EU average"}], "opts": {"unit": "%", "dp": 1, "area": true}}, "tabs": {"legal": [{"type": "prose", "title": "Legal", "paras": ["Belgium is a founding member. Its legal order has been shaped by Community law from the outset rather than adapted to it during an accession process — the Treaty of Rome took effect on 1 January 1958.", "Euro adopted in <strong>1999<\/strong>, transferring monetary policy to the ECB.", "Joined the Schengen area in <strong>1995<\/strong>.", "<em>Detailed legal analysis — acquis chapters, constitutional accommodation, infringement and Article 7 history — is pending for this country.<\/em>"]}, {"title": "Rule of law", "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Confidence in and abidance by the rules of society: contract enforcement, property rights, police and courts.", "series": [{"code": "WGI.RL.EST", "name": "Rule of law"}], "opts": {"unit": "", "dp": 2, "zero": true}, "type": "chart"}], "financial": [{"type": "prose", "title": "Financial", "paras": ["Charts below are the collected World Bank series for this country across the whole observation window. Written analysis of what membership did to these numbers is pending — this page is currently data-first."]}, {"type": "chartRow", "charts": [{"title": "Real GDP growth, %", "sub": "Annual change in real GDP.", "series": [{"code": "NY.GDP.MKTP.KD.ZG", "name": "Real GDP growth"}], "opts": {"unit": "%", "dp": 1, "zero": true}}, {"title": "Inflation (CPI), %", "sub": "Annual consumer-price inflation.", "series": [{"code": "FP.CPI.TOTL.ZG", "name": "CPI inflation"}], "opts": {"unit": "%", "dp": 1, "zero": true}}]}, {"type": "chartRow", "charts": [{"title": "Unemployment, % of labour force", "sub": "ILO-modelled estimate.", "series": [{"code": "SL.UEM.TOTL.ZS", "name": "Unemployment"}], "opts": {"unit": "%", "dp": 1}}, {"title": "GDP per capita, PPP vs EU average", "sub": "Current international $. EU aggregate available from 1996.", "series": [{"iso3": "EUU", "code": "NY.GDP.PCAP.PP.CD", "name": "EU average", "colorVar": "--series-2"}, {"code": "NY.GDP.PCAP.PP.CD", "name": "Belgium"}], "opts": {"unit": " $", "dp": 0, "endLabelBelow": 2}}]}, {"type": "chartRow", "charts": [{"title": "Long-term government bond yield, %", "sub": "Eurostat EMU convergence-criterion series: yield on ten-year government bonds. What this government pays to borrow.", "series": [{"code": "EUROSTAT.IRT_LT_MCBY", "name": "10-year yield"}], "opts": {"unit": "%", "dp": 2}}, {"title": "Net annual earnings, €", "sub": "Single person, no children, on 100% of the average wage. Eurostat flags 2024 as a break in series.", "series": [{"code": "EUROSTAT.EARN_NT_NET", "name": "Net annual earnings"}], "opts": {"unit": " €", "dp": 0}}]}], "commercial": [{"type": "prose", "title": "Commercial", "paras": ["Trade openness, investment and tourism. Written analysis pending."]}, {"title": "Trade in goods &amp; services, % of GDP", "sub": "Exports and imports of goods and services.", "series": [{"code": "NE.EXP.GNFS.ZS", "name": "Exports"}, {"code": "NE.IMP.GNFS.ZS", "name": "Imports", "colorVar": "--series-2"}], "opts": {"unit": "%", "dp": 1, "endLabelBelow": 2}, "type": "chart"}, {"type": "chartRow", "charts": [{"title": "FDI net inflows, % of GDP", "sub": "Foreign direct investment, net inflows.", "series": [{"code": "BX.KLT.DINV.WD.GD.ZS", "name": "FDI net inflows"}], "opts": {"unit": "%", "dp": 1, "zero": true}}, {"title": "International arrivals, millions", "sub": "World Bank / UNWTO border arrivals. Series generally ends 2019–2020.", "series": [{"code": "ST.INT.ARVL", "name": "Arrivals"}], "opts": {"unit": "m", "dp": 1, "scale": 1e-06}}]}], "political": [{"type": "prose", "title": "Political", "paras": ["Verified milestones for Belgium are listed on the Overview tab. Written analysis of how membership reshaped the domestic political landscape is pending for this country."]}, {"type": "chartRow", "charts": [{"title": "Voice and accountability", "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Participation in selecting government, plus freedom of expression, association and the press.", "series": [{"code": "WGI.VA.EST", "name": "Voice and accountability"}], "opts": {"unit": "", "dp": 2, "zero": true}}, {"title": "Control of corruption", "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Higher is better — a rising line means stronger control of corruption, not more of it.", "series": [{"code": "WGI.CC.EST", "name": "Control of corruption"}], "opts": {"unit": "", "dp": 2, "zero": true}}]}], "social": [{"type": "prose", "title": "Social", "paras": ["Migration and income distribution. Written analysis pending."]}, {"title": "Net migration, thousands of people", "sub": "UN World Population Prospects estimates via World Bank. Blue = net inflow, red = net outflow.", "series": [{"code": "SM.POP.NETM", "name": "Net migration"}], "opts": {"type": "bar", "unit": "k", "dp": 1, "zero": true, "scale": 0.001}, "type": "chart"}, {"type": "chartRow", "charts": [{"title": "Income inequality (Gini index)", "sub": "World Bank estimate (0 = perfect equality). Survey-based, so points are irregular and gaps mean no survey rather than no change.", "series": [{"code": "SI.POV.GINI", "name": "Gini index"}], "opts": {"unit": "", "dp": 1}}, {"title": "Net migration per 1,000 residents", "sub": "The same flow scaled by population, which is the comparable form — the chart above is a headcount and so partly tracks country size.", "series": [{"code": "DERIVED.NETM.P1000", "name": "Net migration per 1,000"}], "opts": {"unit": "", "dp": 1, "zero": true}}]}]}, "sources": [{"label": "Time series", "text": "World Bank Open Data (api.worldbank.org), retrieved 27 Jul 2026. Indicator codes travel with every value in <code class=\"ind\">data/indicators.csv<\/code>."}, {"label": "Milestones", "text": "European Commission, Council of the EU, EUR-Lex, ECB and national electoral commissions — the source for each row is recorded in <code class=\"ind\">data/milestones.csv<\/code>."}, {"label": "Country metadata", "text": "Accession, euro and Schengen dates in <code class=\"ind\">data/countries.csv<\/code>, each verified against a credited source."}], "method": [{"title": "Window", "text": "Belgium is a founding member, so the −2-years-before-negotiations rule does not apply; the window opens in 1960, the earliest year with broad World Bank coverage."}, {"title": "Status", "text": "This is a <strong>data-first<\/strong> page: the series, milestones and metadata are collected and verified, but the written five-lens analysis is still pending. Poland is the completed reference page."}, {"title": "Convergence series", "text": "The EU aggregate used as the comparison denominator is only available from 1996, so convergence charts start there even where the country window opens earlier."}, {"title": "Attribution caution", "text": "The charts show what happened around membership, not what membership alone caused. Read them as context, not proof."}], "milestones": [{"date": "25 Mar 1957", "sort": 1957.17, "label": "Treaty of Rome signed", "description": "The six founding states signed the Treaty establishing the European Economic Community in Rome", "kind": "legal"}, {"date": "1 Jan 1958", "sort": 1958.0, "label": "EEC treaties enter into force", "description": "Founding member of the European Economic Community when the Treaty of Rome took effect", "kind": "era"}, {"date": "14 Jun 1985", "sort": 1985.42, "label": "Schengen Agreement signed", "description": "Original signatory of the Schengen Agreement at Schengen in Luxembourg", "kind": "legal"}, {"date": "26 Mar 1995", "sort": 1995.17, "label": "Schengen area opens", "description": "Internal border checks abolished when the Schengen Convention began to apply", "kind": "legal"}, {"date": "1 Jan 1999", "sort": 1999.0, "label": "Euro adopted", "description": "Founding member of the euro area when the euro was introduced as scriptural currency", "kind": "economic"}, {"date": "1 Jan 2002", "sort": 2002.0, "label": "Euro cash introduced", "description": "Euro banknotes and coins entered circulation and replaced the national currency", "kind": "economic"}], "crises": [{"from": 2008, "to": 2009, "scope": "global"}, {"from": 2011, "to": 2013, "scope": "european"}, {"from": 2020, "to": 2020, "scope": "global"}], "generated": "2026-08-04", "rowCount": 38022}</script>
+<script id="payload" type="application/json">{"iso3": "BEL", "name": "Belgium", "subtitle": "Belgium is a founding member — the EEC treaties entered into force on 1 January 1958, before this data window opens. The whole series is therefore post-accession; there is no pre-membership baseline to compare against.", "window": {"start": 1960, "end": 2025, "negotiationsOpen": 1960, "negotiationsClose": 1958.0, "accession": null, "accessionLabel": "EU entry"}, "years": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "series": {"BEL|DERIVED.PPP.PCT.EU": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 123.9, 124.42, 122.03, 122.49, 125.7, 124.06, 125.0, 124.98, 123.73, 123.4, 120.68, 118.23, 116.28, 118.64, 120.74, 118.98, 121.0, 120.87, 120.83, 119.51, 118.39, 116.79, 116.45, 116.72, 117.98, 116.74, 117.59, 118.01, 116.32, 114.0], "BEL|WGI.RL.EST": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1.3991182, null, 1.1982433, null, 1.3343873, null, 1.3025956, 1.3120054, 1.2416659, 1.2874816, 1.2165206, 1.3582734, 1.3161972, 1.2276833, 1.2316759, 1.2689293, 1.313828, 1.3339446, 1.3600975, 1.4251797, 1.4372251, 1.377531, 1.4207604, 1.4493311, 1.4533249, 1.4052126, 1.3398087, 1.2719977, 1.282799, null], "BEL|NY.GDP.MKTP.KD.ZG": [null, 4.97842290203951, 5.21200316192976, 4.35158439272112, 6.95668500485647, 3.56066018685455, 3.15589488893686, 3.86814722361169, 4.19412943238677, 6.62980009162366, 6.35267229121293, 3.98582719666759, 5.29560467072521, 6.38170179993882, 4.56525850850306, -1.96594188277651, 5.65274606308233, 0.626154572057786, 2.84189681697329, 2.34107304540791, 4.44405389248001, -0.279283585394069, 0.594986767578831, 0.311843009473307, 2.46638245146747, 1.65179297063331, 1.82276203316596, 2.30665968936027, 4.72320872854138, 3.46916697570174, 3.13740221731629, 1.83307441343001, 1.53065475142162, -0.961873076923027, 3.22697145426247, 2.38475724870135, 1.32143214432601, 3.79367165541437, 1.96183240455609, 3.54271798823922, 3.71670510672588, 1.09960362419645, 1.70689430349601, 1.03795518162204, 3.57120671942319, 2.32173792911834, 2.55234087322462, 3.67692462515802, 0.446905130727231, -1.90644105515335, 2.71031150254662, 1.93115502411325, 0.215803612089744, 0.305494549070232, 1.76554038149924, 1.47416433731927, 1.19350273007754, 1.47446761556785, 1.87796847383565, 2.4428900448156, -4.7929839083518, 6.25445686466593, 4.02460852835887, 1.56125539542029, 1.09775383828703, 0.983117967125935], "BEL|FP.CPI.TOTL.ZG": [0.299467254769695, 0.992676260767275, 1.40460703543514, 2.14800341332196, 4.16876058564365, 4.06520137474655, 4.17434761853001, 2.73030268590902, 2.70144982931355, 3.75399229053284, 3.90847238471905, 4.34362854612101, 5.44843128438075, 6.95528008719914, 12.6778877513451, 12.7681985920516, 9.06860981054961, 7.09600059132598, 4.47059331592944, 4.46908394900487, 6.64868829655353, 7.62748656814271, 8.72654906555471, 7.66160983743883, 6.34177491009128, 4.8687339949694, 1.2943681910248, 1.55338261314945, 1.16093493415331, 3.10705065111094, 3.44831217961808, 3.2153106926081, 2.42795567164615, 2.75442643473462, 2.377540844764, 1.46796699090272, 2.07702107350675, 1.62816049512954, 0.94925028835061, 1.12084823417847, 2.544517761909, 2.46925823086083, 1.64521436175361, 1.58896399970372, 2.09728311239316, 2.78143263670029, 1.79120770070454, 1.8230563002681, 4.48944420508404, -0.0531456741254177, 2.18929920422458, 3.5320821072274, 2.83966343445899, 1.1130959402754, 0.340002833356922, 0.561429152790158, 1.97385264653163, 2.12597086002616, 2.05316499865178, 1.43681956996438, 0.740791812220344, 2.44024851144084, 9.597511728725, 4.04901077613941, 3.14349136500041, 2.46705543774613], "BEL|SL.UEM.TOTL.ZS": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 6.984, 6.702, 8.078, 9.645, 9.337, 9.483, 8.95, 9.322, 8.649, 6.586, 6.178, 6.91, 7.68, 7.363, 8.44, 8.246, 7.459, 6.976, 7.908, 8.293, 7.14, 7.542, 8.425, 8.523, 8.482, 7.83, 7.09, 5.941, 5.364, 5.545, 6.248, 5.57, 5.547, 5.7, 5.906], "EUU|NY.GDP.PCAP.PP.CD": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 18358.26, 19075.9, 19970.41, 20769.05, 22111.55, 23208.69, 24225.43, 24749.1, 25910.57, 26886.78, 29209.47, 31125.35, 32579.99, 31950.76, 32995.33, 34666.61, 35110.66, 36288.95, 37363.36, 38551.99, 40893.58, 43031.12, 45055.2, 48588.12, 47566.44, 51968.44, 58573.21, 61545.82, 63808.07, 65503.07], "BEL|NY.GDP.PCAP.PP.CD": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 18687.7257960975, 19600.8963598198, 20272.01785535, 20472.777919689, 21518.2541385756, 22446.2748072391, 22745.2145866007, 23733.4493485094, 24370.3723671522, 25440.8411888638, 27794.0511630862, 28793.5142643594, 30282.2886450283, 30930.6283334744, 32059.6878637798, 33177.8909458158, 35251.4450697593, 36798.1918857259, 37883.3319417819, 37905.658312629, 39839.9772772918, 41244.8495035213, 42483.5250666788, 43864.1204196838, 45147.6429534057, 46071.914889496, 48414.5518065681, 50256.0631772784, 52466.7330784599, 56712.469571978, 56120.0958420466, 60669.2137746534, 68878.9167847285, 72629.6179311762, 74224.5510568017, 74675.607672673], "BEL|EUROSTAT.IRT_LT_MCBY": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8.93, 9.69, 11.9, 13.44, 13.43, 11.94, 12.24, 10.97, 8.63, 8.18, 8.01, 8.66, 10.01, 9.29, 8.65, 7.23, 7.75, 7.48, 6.49, 5.75, 4.75, 4.75, 5.59, 5.13, 4.99, 4.18, 4.15, 3.43, 3.81, 4.33, 4.42, 3.9, 3.46, 4.23, 3.0, 2.41, 1.71, 0.84, 0.48, 0.72, 0.79, 0.19, -0.15, -0.01, 1.73, 3.09, 2.92, 3.17326], "BEL|EUROSTAT.EARN_NT_NET": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 18034.69, 18884.08, 19686.29, 20097.88, 20739.41, 21273.34, 21880.46, 22396.96, 23405.3, 24323.59, 24873.45, 25519.86, 26287.51, 26609.37, 26775.94, 26953.59, 27574.37, 28238.77, 29240.96, 30188.71, 30539.81, 31063.95, 32889.21, 35438.98, 33481.07, 34642.3], "BEL|NE.EXP.GNFS.ZS": [null, null, null, null, null, null, null, null, null, null, 44.9562764917152, 43.7674630949661, 44.1372779894459, 48.0319438554395, 52.8933580553858, 45.91603656753, 48.5543828576666, 47.5072502227347, 45.761644179143, 49.9224384979483, 50.117280484132, 54.0635220572788, 58.1033118064771, 60.3956265804625, 64.4123516780532, 62.4543274172181, 57.2830498325525, 55.8677630684447, 59.4080832438795, 63.5667489352734, 61.6136909555393, 60.2296548828746, 58.8089303317393, 56.1077411574797, 58.4249593454229, 60.1143717180605, 61.1923909558718, 64.7865810804479, 64.1743450154283, 64.5630595160862, 72.5473951580567, 71.6119589202939, 70.8312976956765, 69.0365085088844, 70.906277447218, 74.2828289213953, 76.8049970552189, 78.3018047028263, 80.8806199752035, 68.5960770690546, 75.8282898692443, 80.2713643518839, 80.0489721342421, 78.9114134413606, 79.3965205800202, 77.8777392199991, 79.6181317071952, 83.4444050525116, 83.4830567161373, 82.9674275396401, 79.1968705613294, 89.625374866218, 94.3593146395926, 82.8132982978783, 79.3187864838737, 75.4500710497086], "BEL|NE.IMP.GNFS.ZS": [null, null, null, null, null, null, null, null, null, null, 42.7710254837046, 41.8166176737447, 41.0771607398334, 46.1121501660273, 52.3777195459097, 45.6077121111552, 48.2613755680507, 48.1702725216395, 46.5509597585309, 51.6505320431123, 52.9381673001875, 56.157830087916, 59.8220377400948, 59.999935931094, 63.8183833473908, 61.4226586727942, 55.0439747012999, 54.0513368574141, 57.0148633493866, 61.3701837443597, 59.8541601189252, 58.3604828351158, 56.2603571698966, 52.9049958392791, 54.8073406881894, 56.2641961032662, 58.0203848015116, 60.902358975732, 60.5347776108893, 60.6069310248626, 69.6827399089776, 67.964880914325, 65.2538517924041, 63.679044325004, 66.0121279012141, 70.2462217485879, 72.7625122442923, 74.1666421724765, 80.2078278152436, 66.5423286532355, 74.3342737521831, 80.494152536242, 80.3343292908166, 78.6622093410738, 79.1750903735027, 77.1909428259269, 79.43956490475, 83.4596731852798, 84.7946361610806, 82.4980513923498, 77.7532507214541, 87.7565373348573, 96.6941034919995, 83.174142438564, 79.7046946650529, 77.4677176696568], "BEL|BX.KLT.DINV.WD.GD.ZS": [null, null, null, null, null, null, null, null, null, null, 1.17575711437835, 1.43519835301943, 1.03737177455435, 1.50595465286725, 2.02915856675675, 1.45345054898808, 1.22590690244984, 1.53902879649781, 1.41812272871722, 0.971564769653163, 1.21799917270847, 1.32383247921808, 1.59852890452747, 1.47928113384372, 0.467153203211123, 1.21886073677275, 0.608121458920649, 1.57631071531358, 3.2116443541361, 4.27489029065365, 3.91889227088431, 4.44753957098212, 4.80693439303708, 4.78369263919673, 3.47657482650626, 3.71102444734668, 5.03718760952012, 4.74788988025515, 8.77679407696031, 46.3484571485071, 37.4753122979087, 37.2564694834172, 7.01242443993657, 10.8648744877518, 12.0521106747569, 8.72717720186463, 14.4078713936675, 20.5026740062328, 36.8029204549975, 15.948905674901, 26.0596407490286, 31.0366884311298, 2.36956900950954, -5.65561784857252, -2.82643623555084, -4.23261410354123, 12.1319420227113, -7.4442379017663, -7.66649538713467, -1.97252997818915, -5.69020542304612, 5.6774240968721, 2.22097062697703, -0.652733821591808, -6.1637514992582, -3.96835875820548], "BEL|ST.INT.ARVL": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 5560000.0, 5829000.0, 6037000.0, 6179000.0, 6369000.0, 6457000.0, 6452000.0, 6720000.0, 6690000.0, 6710000.0, 6747000.0, 6995000.0, 7045000.0, 7165000.0, 6815000.0, 7186000.0, 7494000.0, 7560000.0, 7684000.0, 7887000.0, 8355000.0, 7481000.0, 8385000.0, 9119000.0, 9343000.0, 2584000.0, null, null, null, null, null], "BEL|WGI.VA.EST": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1.458958, null, 1.4063934, null, 1.4437586, null, 1.5102156, 1.5361146, 1.4527162, 1.532389, 1.5303257, 1.5789576, 1.5252467, 1.5416049, 1.5232196, 1.4154858, 1.4318518, 1.4682398, 1.4666488, 1.5225951, 1.5164105, 1.4607612, 1.4858461, 1.4474148, 1.5200949, 1.541916, 1.5409176, 1.5152567, 1.4972136, null], "BEL|WGI.CC.EST": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1.5008783, null, 1.2384711, null, 1.450425, null, 1.5594273, 1.4560896, 1.4030257, 1.471559, 1.4069022, 1.3866548, 1.404707, 1.5580741, 1.4956315, 1.5664836, 1.4862037, 1.5003188, 1.5150458, 1.5244457, 1.5450402, 1.4425342, 1.4543603, 1.4973857, 1.5662608, 1.5502151, 1.5774306, 1.467016, 1.4687812, null], "BEL|SM.POP.NETM": [9893.0, 10566.0, 14829.0, 16355.0, 17687.0, 18243.0, 18985.0, 19492.0, 19809.0, 20072.0, 19393.0, 7992.0, 8384.0, 8684.0, 8924.0, 9652.0, 10360.0, 10460.0, 10828.0, 11277.0, 11482.0, 2826.0, 1100.0, 1252.0, 1697.0, 2165.0, 2964.0, 3525.0, 3929.0, 7301.0, 8299.0, 27038.0, 25941.0, 18542.0, 17636.0, 1937.0, 15684.0, 10262.0, 12517.0, 16849.0, 13952.0, 34924.0, 39404.0, 34472.0, 35143.0, 50576.0, 53574.0, 59911.0, 66470.0, 97175.0, 105232.0, 52464.0, 45001.0, 28066.0, 37472.0, 63536.0, 28090.0, 37981.0, 50604.0, 58469.0, 43777.0, 24017.0, 118615.0, 41679.0, 36243.0, 31989.0], "BEL|SI.POV.GINI": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 25.2, null, null, 25.7, null, null, null, 24.9, null, null, 28.4, null, 26.8, null, null, 33.1, null, null, 28.1, 30.5, 29.3, 28.1, 29.2, 28.4, 28.6, 28.4, 28.1, 27.5, 27.7, 28.1, 27.7, 27.6, 27.4, 27.2, 27.2, 26.0, 26.6, 26.4, 26.8, null, null], "BEL|DERIVED.NETM.P1000": [1.081, 1.15, 1.608, 1.761, 1.886, 1.928, 1.993, 2.034, 2.059, 2.081, 2.008, 0.826, 0.863, 0.891, 0.913, 0.985, 1.055, 1.064, 1.1, 1.145, 1.165, 0.287, 0.112, 0.127, 0.172, 0.22, 0.301, 0.357, 0.397, 0.735, 0.833, 2.703, 2.582, 1.839, 1.743, 0.191, 1.544, 1.008, 1.227, 1.648, 1.361, 3.395, 3.813, 3.322, 3.372, 4.827, 5.079, 5.638, 6.206, 9.001, 9.658, 4.753, 4.052, 2.515, 3.343, 5.636, 2.479, 3.339, 4.428, 5.089, 3.794, 2.073, 10.155, 3.538, 3.056, 2.679]}, "kpis": [{"label": "GDP per capita (PPP), vs EU average", "delta": "World Bank, latest available year", "value": "114%"}, {"label": "GDP per capita, PPP", "delta": "current international $ · World Bank", "value": "74,676"}, {"label": "Unemployment (ILO)", "delta": "% of labour force · World Bank", "value": "5.9%"}, {"label": "Exports, % of GDP", "delta": "goods and services · World Bank", "value": "75%"}], "heroChart": {"title": "Convergence with the EU: GDP per capita (PPP) as % of EU average", "sub": "Income level relative to the EU-wide average, current international $ at purchasing power parity. The EU aggregate series begins in 1996, so this chart starts there regardless of the window above.", "series": [{"code": "DERIVED.PPP.PCT.EU", "name": "Belgium, % of EU average"}], "opts": {"unit": "%", "dp": 1, "area": true}}, "tabs": {"legal": [{"type": "prose", "title": "Legal", "paras": ["Belgium is a founding member. Its legal order has been shaped by Community law from the outset rather than adapted to it during an accession process — the Treaty of Rome took effect on 1 January 1958.", "Euro adopted in <strong>1999<\/strong>, transferring monetary policy to the ECB.", "Joined the Schengen area in <strong>1995<\/strong>.", "<em>Detailed legal analysis — acquis chapters, constitutional accommodation, infringement and Article 7 history — is pending for this country.<\/em>"]}, {"title": "Rule of law", "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Confidence in and abidance by the rules of society: contract enforcement, property rights, police and courts.", "series": [{"code": "WGI.RL.EST", "name": "Rule of law"}], "opts": {"unit": "", "dp": 2, "zero": true}, "type": "chart"}], "financial": [{"type": "prose", "title": "Financial", "paras": ["Charts below are the collected World Bank series for this country across the whole observation window. Written analysis of what membership did to these numbers is pending — this page is currently data-first."]}, {"type": "chartRow", "charts": [{"title": "Real GDP growth, %", "sub": "Annual change in real GDP.", "series": [{"code": "NY.GDP.MKTP.KD.ZG", "name": "Real GDP growth"}], "opts": {"unit": "%", "dp": 1, "zero": true}}, {"title": "Inflation (CPI), %", "sub": "Annual consumer-price inflation.", "series": [{"code": "FP.CPI.TOTL.ZG", "name": "CPI inflation"}], "opts": {"unit": "%", "dp": 1, "zero": true}}]}, {"type": "chartRow", "charts": [{"title": "Unemployment, % of labour force", "sub": "ILO-modelled estimate.", "series": [{"code": "SL.UEM.TOTL.ZS", "name": "Unemployment"}], "opts": {"unit": "%", "dp": 1}}, {"title": "GDP per capita, PPP vs EU average", "sub": "Current international $. EU aggregate available from 1996.", "series": [{"iso3": "EUU", "code": "NY.GDP.PCAP.PP.CD", "name": "EU average", "colorVar": "--series-2"}, {"code": "NY.GDP.PCAP.PP.CD", "name": "Belgium"}], "opts": {"unit": " $", "dp": 0, "endLabelBelow": 2}}]}, {"type": "chartRow", "charts": [{"title": "Long-term government bond yield, %", "sub": "Eurostat EMU convergence-criterion series: yield on ten-year government bonds. What this government pays to borrow.", "series": [{"code": "EUROSTAT.IRT_LT_MCBY", "name": "10-year yield"}], "opts": {"unit": "%", "dp": 2}}, {"title": "Net annual earnings, €", "sub": "Single person, no children, on 100% of the average wage. Eurostat flags 2024 as a break in series.", "series": [{"code": "EUROSTAT.EARN_NT_NET", "name": "Net annual earnings"}], "opts": {"unit": " €", "dp": 0}}]}], "commercial": [{"type": "prose", "title": "Commercial", "paras": ["Trade openness, investment and tourism. Written analysis pending."]}, {"title": "Trade in goods &amp; services, % of GDP", "sub": "Exports and imports of goods and services.", "series": [{"code": "NE.EXP.GNFS.ZS", "name": "Exports"}, {"code": "NE.IMP.GNFS.ZS", "name": "Imports", "colorVar": "--series-2"}], "opts": {"unit": "%", "dp": 1, "endLabelBelow": 2}, "type": "chart"}, {"type": "chartRow", "charts": [{"title": "FDI net inflows, % of GDP", "sub": "Foreign direct investment, net inflows.", "series": [{"code": "BX.KLT.DINV.WD.GD.ZS", "name": "FDI net inflows"}], "opts": {"unit": "%", "dp": 1, "zero": true}}, {"title": "International arrivals, millions", "sub": "World Bank / UNWTO border arrivals. Series generally ends 2019–2020.", "series": [{"code": "ST.INT.ARVL", "name": "Arrivals"}], "opts": {"unit": "m", "dp": 1, "scale": 1e-06}}]}], "political": [{"type": "prose", "title": "Political", "paras": ["Verified milestones for Belgium are listed on the Overview tab. Written analysis of how membership reshaped the domestic political landscape is pending for this country."]}, {"type": "chartRow", "charts": [{"title": "Voice and accountability", "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Participation in selecting government, plus freedom of expression, association and the press.", "series": [{"code": "WGI.VA.EST", "name": "Voice and accountability"}], "opts": {"unit": "", "dp": 2, "zero": true}}, {"title": "Control of corruption", "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Higher is better — a rising line means stronger control of corruption, not more of it.", "series": [{"code": "WGI.CC.EST", "name": "Control of corruption"}], "opts": {"unit": "", "dp": 2, "zero": true}}]}], "social": [{"type": "prose", "title": "Social", "paras": ["Migration and income distribution. Written analysis pending."]}, {"title": "Net migration, thousands of people", "sub": "UN World Population Prospects estimates via World Bank. Blue = net inflow, red = net outflow.", "series": [{"code": "SM.POP.NETM", "name": "Net migration"}], "opts": {"type": "bar", "unit": "k", "dp": 1, "zero": true, "scale": 0.001}, "type": "chart"}, {"type": "chartRow", "charts": [{"title": "Income inequality (Gini index)", "sub": "World Bank estimate (0 = perfect equality). Survey-based, so points are irregular and gaps mean no survey rather than no change.", "series": [{"code": "SI.POV.GINI", "name": "Gini index"}], "opts": {"unit": "", "dp": 1}}, {"title": "Net migration per 1,000 residents", "sub": "The same flow scaled by population, which is the comparable form — the chart above is a headcount and so partly tracks country size.", "series": [{"code": "DERIVED.NETM.P1000", "name": "Net migration per 1,000"}], "opts": {"unit": "", "dp": 1, "zero": true}}]}]}, "sources": [{"label": "Time series", "text": "World Bank Open Data (api.worldbank.org), retrieved 27 Jul 2026. Indicator codes travel with every value in <code class=\"ind\">data/indicators.csv<\/code>."}, {"label": "Milestones", "text": "European Commission, Council of the EU, EUR-Lex, ECB and national electoral commissions — the source for each row is recorded in <code class=\"ind\">data/milestones.csv<\/code>."}, {"label": "Country metadata", "text": "Accession, euro and Schengen dates in <code class=\"ind\">data/countries.csv<\/code>, each verified against a credited source."}], "method": [{"title": "Window", "text": "Belgium is a founding member, so the −2-years-before-negotiations rule does not apply; the window opens in 1960, the earliest year with broad World Bank coverage."}, {"title": "Status", "text": "This is a <strong>data-first<\/strong> page: the series, milestones and metadata are collected and verified, but the written five-lens analysis is still pending. Poland is the completed reference page."}, {"title": "Convergence series", "text": "The EU aggregate used as the comparison denominator is only available from 1996, so convergence charts start there even where the country window opens earlier."}, {"title": "Attribution caution", "text": "The charts show what happened around membership, not what membership alone caused. Read them as context, not proof."}], "milestones": [{"date": "14 Jun 1985", "sort": 1985.42, "label": "Schengen Agreement signed", "description": "Original signatory of the Schengen Agreement at Schengen in Luxembourg", "kind": "legal", "scope": "country"}, {"date": "1 Jan 1993", "sort": 1993.0, "label": "Single market begins", "description": "The four freedoms — goods, services, capital and people — take effect across the Community", "kind": "era", "scope": "eu"}, {"date": "1 Nov 1993", "sort": 1993.83, "label": "Maastricht Treaty in force", "description": "The European Union is created; the treaty sets the convergence criteria for a single currency", "kind": "legal", "scope": "eu"}, {"date": "1 Jan 1995", "sort": 1995.0, "label": "EFTA enlargement", "description": "Austria Finland and Sweden join; Norway's electorate votes no", "kind": "era", "scope": "eu"}, {"date": "26 Mar 1995", "sort": 1995.17, "label": "Schengen area opens", "description": "Internal border checks abolished when the Schengen Convention began to apply", "kind": "legal", "scope": "country"}, {"date": "26 Mar 1995", "sort": 1995.23, "label": "Schengen Convention applied", "description": "Border checks abolished between the first seven participating states", "kind": "legal", "scope": "eu"}, {"date": "1 Jan 1999", "sort": 1999.0, "label": "Euro adopted", "description": "Founding member of the euro area when the euro was introduced as scriptural currency", "kind": "economic", "scope": "country"}, {"date": "1 Jan 1999", "sort": 1999.0, "label": "Euro introduced", "description": "Exchange rates irrevocably fixed for eleven member states; the currency exists in accounting form only", "kind": "era", "scope": "eu"}, {"date": "1 Jan 2002", "sort": 2002.0, "label": "Euro cash introduced", "description": "Euro banknotes and coins entered circulation and replaced the national currency", "kind": "economic", "scope": "country"}, {"date": "1 Jan 2002", "sort": 2002.0, "label": "Euro notes and coins", "description": "Physical currency replaces twelve national currencies", "kind": "era", "scope": "eu"}, {"date": "1 May 2004", "sort": 2004.33, "label": "Enlargement to ten", "description": "Cyprus Czechia Estonia Hungary Latvia Lithuania Malta Poland Slovakia and Slovenia join in the largest single enlargement", "kind": "era", "scope": "eu"}, {"date": "1 Jan 2007", "sort": 2007.0, "label": "Bulgaria and Romania join", "description": "Fifth enlargement completed", "kind": "era", "scope": "eu"}, {"date": "1 Dec 2009", "sort": 2009.92, "label": "Lisbon Treaty in force", "description": "Extends qualified-majority voting, gives the Charter of Fundamental Rights binding force and creates the European Council presidency", "kind": "legal", "scope": "eu"}, {"date": "2 May 2010", "sort": 2010.33, "label": "First Greek adjustment programme", "description": "Euro-area states and the IMF agree EUR 110bn in loans; the euro-area sovereign debt crisis begins", "kind": "warn", "scope": "eu"}, {"date": "26 Jul 2012", "sort": 2012.57, "label": "\"Whatever it takes\"", "description": "The ECB president commits to preserving the euro; sovereign spreads begin to fall back", "kind": "political", "scope": "eu"}, {"date": "1 Jul 2013", "sort": 2013.5, "label": "Croatia joins", "description": "The Union's most recent enlargement", "kind": "era", "scope": "eu"}, {"date": "23 Jun 2016", "sort": 2016.48, "label": "United Kingdom referendum", "description": "51.9% vote to leave on a turnout of 72.2%", "kind": "warn", "scope": "eu"}, {"date": "31 Jan 2020", "sort": 2020.08, "label": "United Kingdom leaves", "description": "First withdrawal of a member state; a transition period runs to 31 December 2020", "kind": "warn", "scope": "eu"}, {"date": "21 Jul 2020", "sort": 2020.55, "label": "NextGenerationEU agreed", "description": "The European Council agrees a EUR 750bn recovery instrument funded by joint borrowing — the Union's first large-scale common debt", "kind": "era", "scope": "eu"}], "milestonesDropped": [{"date": "25 Mar 1957", "label": "Treaty of Rome signed"}, {"date": "1 Jan 1958", "label": "EEC treaties enter into force"}], "money": {"since": 2000, "to": 2024, "years": 25, "cumIn": 176.839, "cumOut": 127.969, "net": 48.87, "perHeadIn": 642, "perHeadOut": 464, "perHeadNet": 177, "pctGniNet": 0.49, "receipts": [{"label": "Administration", "v": 109.072}, {"label": "Research and innovation", "v": 18.966}, {"label": "Farm payments and market support", "v": 16.886}, {"label": "Regional and social funds", "v": 8.688}, {"label": "Other programmes and reserves", "v": 6.615}, {"label": "Infrastructure, digital and space", "v": 4.658}, {"label": "Education, youth and culture", "v": 3.39}, {"label": "Rural development", "v": 1.87}, {"label": "Migration, security, justice and defence", "v": 1.588}, {"label": "External action and enlargement", "v": 1.586}, {"label": "Social, employment and health", "v": 1.213}, {"label": "Recovery, resilience and solidarity", "v": 1.08}, {"label": "Environment and climate", "v": 0.774}, {"label": "Fisheries and maritime", "v": 0.338}, {"label": "Cohesion Fund", "v": 0.115}], "payments": [{"label": "GNI-based contribution", "v": 63.401}, {"label": "Customs duties and levies (net)", "v": 42.978}, {"label": "VAT-based contribution", "v": 13.91}, {"label": "Rebates, corrections and adjustments", "v": 7.058}, {"label": "Plastic packaging levy", "v": 0.622}]}, "verdict": {"label": "Cannot be tested", "tone": "muted", "gist": "This country has been a member since 1958. Every method in this study compares a country before and after accession, and there is no usable 'before'. Its budget position is a fact; nothing else here is a verdict.", "channels": [{"key": "The money", "status": "fact", "verdict": "positive", "head": "Net recipient, €48.9bn — 0.49% of national income a year", "note": "Accounting, not an estimate: published by the Commission and reconciled to its own totals. <strong>But the sign here depends on the convention.<\/strong> Strip out administrative spending — which is booked to whoever hosts the institutions rather than to the people who live there — and this country becomes a net contributor of €69.5bn instead. Both figures are correct; they answer different questions."}, {"key": "Trade opening", "status": "not established", "verdict": "unknown", "head": "not testable", "note": "This bloc's trade estimate does not survive the project's checks — the pre-accession placebo already reports a gap, so the groups were diverging before anyone joined."}, {"key": "Income trajectory", "status": "untestable", "verdict": "unknown", "head": "+7.0 points against the US level, 2000–2025", "note": "A founding member: joined in 1958, and the income series begins in 1960. There is no pre-accession period to compare against, so no causal claim about membership can be tested here at all."}], "counts": {"positive": 1, "negative": 0, "unknown": 2}, "rule": "Positive channels are counted, and a channel only counts as <em>established<\/em> if the estimate survives the pre-accession placebo test. Two or more positive channels including an established one reads as a gain; two or more positive but none established reads as leaning positive; disagreement reads as mixed. The rule is stated so it can be argued with."}, "context": [{"title": "Against a fixed external benchmark", "text": "Measured against US income per head at purchasing-power parity over a common 2000–2025 window, Belgium moved from 77.5% of the US level to 84.5% — a change of +7.0 points, <strong>21st of 28 member states<\/strong>. This benchmark is used instead of the share of the EU average, because the EU average itself rises as poorer members catch up, which drags a rich country's line down even while its economy grows."}, {"title": "Through the three downturns", "text": "In 2009, during the global financial crisis, output fell 1.9%; 96% of members contracted that year against 77% of non-members. In 2012, during the euro-area debt crisis, output grew 0.2%; 61% of members contracted that year against 23% of non-members. In 2020, during the pandemic, output fell 4.8%; 93% of members contracted that year against 92% of non-members. <strong>2012 is the one episode that separates members from non-members<\/strong>, and it is the clearest measurable cost of integration this study found: the 2008 and 2020 shocks hit both groups alike."}, {"title": "Trade opening", "text": "Exports plus imports as a share of GDP moved +10.7 points between 2000 and today, 23rd of 28 members. Trade is the only outcome in this study that survives every check applied to it, and it does so for the Eastern bloc: <strong>+20.5 points of GDP against Western Balkan non-members, 11 countries out of 11<\/strong>, with a pre-accession placebo of +0.6."}], "crises": [{"from": 2008, "to": 2009, "scope": "global"}, {"from": 2011, "to": 2013, "scope": "european"}, {"from": 2020, "to": 2020, "scope": "global"}], "generated": "2026-08-06", "rowCount": 45096}</script>
 <script>
 (function () {
   "use strict";
@@ -218,10 +253,23 @@
     var root = h("div", "chart-box");
     wrapBox.appendChild(root);
 
-    var W = 760, H = 268, L = 48, R = 14, T = 14, B = 30;
+    var showMs = spec.milestones !== false && (P.milestones || []).length > 0;
+    var W = 760, H = 268 + (showMs ? 16 : 0), L = 48, R = 14, T = 14, B = 30 + (showMs ? 16 : 0);
     var pw = W - L - R, ph = H - T - B;
-    var xspan = (Y1 + 0.6) - Y0;
-    var xs = function (yr) { return L + (yr - Y0) / xspan * pw; };
+
+    /* Each chart spans the years IT has data for, not the years the page covers. Series
+       start at different dates — the governance indices begin in 1996, income per head in
+       1960 — and a shared window left some charts with decades of blank plot before the
+       first point, which is also what made the timeline look like it ran off the end of
+       the data. */
+    var iA = 0, iB = years.length - 1;
+    var empty = function (i) { return series.every(function (s) { return s.values[i] === null || s.values[i] === undefined; }); };
+    while (iA <= iB && empty(iA)) iA++;
+    while (iB >= iA && empty(iB)) iB--;
+    if (iA > iB) { host.appendChild(wrapBox); return; }
+    var cY0 = Y0 + iA, cY1 = Y0 + iB;
+    var xspan = (cY1 + 0.6) - cY0;
+    var xs = function (yr) { return L + (yr - cY0) / xspan * pw; };
 
     var all = [];
     series.forEach(function (s) { s.values.forEach(function (v) { if (v !== null) all.push(v); }); });
@@ -233,14 +281,15 @@
     var ys = function (v) { return T + (hi - v) / (hi - lo) * ph; };
 
     var svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": spec.title.replace(/&amp;/g, "&") });
-    if (W_.accession && W_.negotiationsOpen && W_.accession > W_.negotiationsOpen)
-      svg.appendChild(el("rect", { x: xs(W_.negotiationsOpen), y: T,
-        width: xs(W_.accession) - xs(W_.negotiationsOpen), height: ph }, "fill:var(--band)"));
+    if (W_.accession && W_.negotiationsOpen && W_.accession > W_.negotiationsOpen) {
+      var ba = Math.max(W_.negotiationsOpen, cY0), bb = Math.min(W_.accession, cY1 + 0.999);
+      if (bb > ba) svg.appendChild(el("rect", { x: xs(ba), y: T, width: xs(bb) - xs(ba), height: ph }, "fill:var(--band)"));
+    }
     /* Synchronised downturns, so a country's line can be read against the shocks everyone
        faced. The 2011-13 episode is tinted differently because it was European rather than
        global — 61% of EU members contracted in 2012 against 23% of non-members. */
     (P.crises || []).forEach(function (c) {
-      var a = Math.max(c.from, W_.start), b = Math.min(c.to, W_.end);
+      var a = Math.max(c.from, cY0), b = Math.min(c.to, cY1);
       if (b < a) return;
       var x1 = xs(a), x2 = xs(b + 0.999);
       svg.appendChild(el("rect", { x: x1, y: T, width: Math.max(2, x2 - x1), height: ph },
@@ -257,20 +306,24 @@
     if (opts.zero && lo < 0 && hi > 0)
       svg.appendChild(el("line", { x1: L, x2: W - R, y1: ys(0), y2: ys(0) }, "stroke:var(--baseline);stroke-width:1"));
 
+    /* Tick every 2, 4, 5 or 10 years depending on how wide this chart turned out — a
+       fixed step that suits a 66-year page leaves a 12-year chart with two labels. */
+    var span = cY1 - cY0;
+    var step = span > 45 ? 10 : span > 22 ? 5 : span > 11 ? 4 : 2;
     years.forEach(function (yr) {
-      if (yr % 4 !== 0) return;
+      if (yr % step !== 0 || yr < cY0 || yr > cY1) return;
       var lab = el("text", { x: xs(yr), y: H - 10, "text-anchor": "middle" }, "fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
       lab.textContent = yr;
       svg.appendChild(lab);
     });
 
-    if (W_.accession && W_.accession >= Y0) {
+    if (W_.accession && W_.accession >= cY0 && W_.accession <= cY1) {
       svg.appendChild(el("line", { x1: xs(W_.accession), x2: xs(W_.accession), y1: T, y2: T + ph }, "stroke:var(--baseline);stroke-width:1"));
       var al = el("text", { x: xs(W_.accession) + 5, y: T + 11 }, "fill:var(--text-muted);font-size:10px");
       al.textContent = W_.accessionLabel || "EU entry";
       svg.appendChild(al);
     }
-    if (W_.exit && W_.exit >= Y0) {
+    if (W_.exit && W_.exit >= cY0 && W_.exit <= cY1) {
       svg.appendChild(el("line", { x1: xs(W_.exit), x2: xs(W_.exit), y1: T, y2: T + ph }, "stroke:var(--neg);stroke-width:1"));
       var xl = el("text", { x: xs(W_.exit) - 5, y: T + 11, "text-anchor": "end" }, "fill:var(--neg);font-size:10px;font-weight:600");
       xl.textContent = W_.exitLabel || "Exit";
@@ -297,6 +350,7 @@
       lbl.textContent = "+" + fmt(s0.values[mx], 0) + (opts.unit || "") + (opts.peakLabel ? " (" + opts.peakLabel + ")" : "");
       svg.appendChild(lbl);
     } else {
+      var endYs = [];
       series.forEach(function (s, si) {
         var d = "", pen = false;
         s.values.forEach(function (v, i) {
@@ -314,11 +368,68 @@
         var li = s.values.length - 1; while (s.values[li] === null) li--;
         svg.appendChild(el("circle", { cx: xs(Y0 + li), cy: ys(s.values[li]), r: 4 }, "fill:var(" + s.colorVar + ");stroke:var(--surface-1);stroke-width:2"));
         var below = opts.endLabelBelow && si === (opts.endLabelBelow - 1);
-        var elab = el("text", { x: xs(Y0 + li) - 8, y: ys(s.values[li]) + (below ? 16 : -9), "text-anchor": "end" },
-          "fill:var(--text-primary);font-size:11px;font-weight:600");
+        var ey = ys(s.values[li]) + (below ? 16 : -9);
+        /* Two series ending a few hundred euros apart print their end labels on top of one
+           another and neither is readable. Push any label that lands within 12px of one
+           already placed clear of it, in whichever direction its own line is heading. */
+        endYs.forEach(function (prev) {
+          while (Math.abs(ey - prev) < 12) ey += (ey >= prev ? 12 : -12);
+        });
+        endYs.push(ey);
+        var elab = el("text", { x: xs(Y0 + li) - 8, y: ey, "text-anchor": "end" },
+          "fill:var(" + s.colorVar + ");font-size:11px;font-weight:600");
         elab.textContent = fmt(s.values[li], opts.dp) + (opts.unit === "%" ? "%" : "");
         svg.appendChild(elab);
       });
+    }
+
+    /* ---- milestone rail ----
+       A line bending in 2004 means one thing if that is the year the country joined and
+       another if it is the year the euro arrived. The rail puts both on the chart: this
+       country's own events in the accent colour, the Union-wide ones every member lived
+       through in grey. Only the country's own events get a vertical guide, because
+       fourteen full-height lines would be noise rather than context. */
+    var msHere = showMs ? (P.milestones || []).filter(function (m) {
+      return m.sort >= cY0 && m.sort <= cY1 + 0.999;
+    }) : [];
+    var msLock = false;
+    if (msHere.length) {
+      var railY = T + ph + 13;
+      svg.appendChild(el("line", { x1: L, x2: W - R, y1: railY, y2: railY },
+        "stroke:var(--grid);stroke-width:1"));
+      msHere.forEach(function (m) {
+        var x = xs(m.sort);
+        if (m.scope === "country")
+          svg.appendChild(el("line", { x1: x, x2: x, y1: T, y2: T + ph },
+            "stroke:var(--series-1);stroke-width:1;stroke-dasharray:2 4;opacity:0.42"));
+        var dot = el("circle", { cx: x, cy: railY, r: 3.6 },
+          "fill:var(" + (m.scope === "country" ? "--series-1" : "--text-muted") + ");"
+          + "stroke:var(--surface-1);stroke-width:1.5;cursor:pointer");
+        dot.addEventListener("pointerenter", function () {
+          msLock = true;
+          cross.style.display = "none";
+          hitDots.forEach(function (c) { c.style.display = "none"; });
+          while (tt.firstChild) tt.removeChild(tt.firstChild);
+          var t1 = h("div", "tt-title");
+          t1.textContent = m.date + (m.scope === "eu" ? " · EU-wide" : "");
+          tt.appendChild(t1);
+          var t2 = h("div", "tt-ms");
+          t2.innerHTML = "<strong>" + m.label + "</strong> — " + m.description;
+          tt.appendChild(t2);
+          tt.style.display = "block";
+          var rect = root.getBoundingClientRect(), px = (x / W) * rect.width;
+          var left = px + 12;
+          if (left + tt.offsetWidth > rect.width - 4) left = px - tt.offsetWidth - 12;
+          tt.style.left = Math.max(2, left) + "px";
+          tt.style.top = "14px";
+        });
+        dot.addEventListener("pointerleave", function () { msLock = false; tt.style.display = "none"; });
+        svg.appendChild(dot);
+      });
+      var rl = el("text", { x: L - 7, y: railY + 3.5, "text-anchor": "end" },
+        "fill:var(--text-muted);font-size:9.5px");
+      rl.textContent = "events";
+      svg.appendChild(rl);
     }
 
     var cross = el("line", { x1: 0, x2: 0, y1: T, y2: T + ph }, "stroke:var(--baseline);stroke-width:1;display:none");
@@ -365,13 +476,14 @@
       hitDots.forEach(function (c) { c.style.display = "none"; });
     }
     svg.addEventListener("pointermove", function (ev) {
+      if (msLock) return;
       var pt = svg.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
       var m = svg.getScreenCTM(); if (!m) return;
       var loc = pt.matrixTransform(m.inverse());
-      var i = Math.round((loc.x - L) / pw * xspan);
-      showAt(Math.max(0, Math.min(years.length - 1, i)));
+      var i = iA + Math.round((loc.x - L) / pw * xspan);
+      showAt(Math.max(iA, Math.min(iB, i)));
     });
-    svg.addEventListener("pointerleave", hide);
+    svg.addEventListener("pointerleave", function () { msLock = false; hide(); });
 
     var det = h("details", "data-table");
     var sum = document.createElement("summary"); sum.textContent = "View data table"; det.appendChild(sum);
@@ -385,6 +497,7 @@
     });
     tbl.appendChild(thr);
     years.forEach(function (yr, i) {
+      if (i < iA || i > iB) return;
       var tr = document.createElement("tr");
       var td0 = document.createElement("td"); td0.textContent = yr; tr.appendChild(td0);
       series.forEach(function (s) {
@@ -425,6 +538,168 @@
     });
     return row;
   }
+  /* ---------------- does this country gain? ----------------
+     Three channels, reported separately because they are not established to the same
+     standard and netting them into one score would erase exactly the distinction this
+     project exists to make. The headline is a stated rule applied to the three, not a
+     judgement. */
+  function verdictCard() {
+    var V = P.verdict;
+    if (!V) return null;
+    var card = h("div", "card verdict " + V.tone);
+    card.appendChild(h("h3", null, "Does the data suggest this country gains from membership?"));
+    var band = h("div", "vhead");
+    band.appendChild(h("span", "vlabel", V.label));
+    band.appendChild(h("span", "vgist", V.gist));
+    card.appendChild(band);
+
+    V.channels.forEach(function (c) {
+      var row = h("div", "vrow " + c.verdict);
+      var top = h("div", "vtop");
+      top.appendChild(h("span", "vkey", c.key));
+      top.appendChild(h("span", "vstatus " + c.status.replace(/ /g, "-"), c.status));
+      row.appendChild(top);
+      row.appendChild(h("div", "vhd", c.head));
+      row.appendChild(h("div", "vnote", c.note));
+      card.appendChild(row);
+    });
+
+    var d = h("details");
+    var s = document.createElement("summary"); s.textContent = "How the headline is decided";
+    d.appendChild(s);
+    d.appendChild(h("p", "note", V.rule));
+    d.appendChild(h("p", "note", "What this cannot say: most of what membership buys is not "
+      + "in this dataset at all. Market access, freedom of movement, a common regulatory "
+      + "regime, security guarantees and the loss of national control over policy are all "
+      + "absent. A verdict drawn from three measured channels is a verdict about three "
+      + "measured channels."));
+    card.appendChild(d);
+    return card;
+  }
+
+  /* ---------------- the budget, in and out ---------------- */
+  function moneyCard(full) {
+    var M = P.money;
+    if (!M) return null;
+    var card = h("div", "card");
+    card.appendChild(h("h3", null, "What it pays in, and what comes back"));
+    card.appendChild(h("p", "sub", "Cumulative " + M.since + "–" + M.to
+      + ", from the European Commission's budget workbook. Accounting rather than "
+      + "estimation — reconciled to the Commission's own published totals. "
+      + "<a href=\"flows.html\">Full breakdown for every member state →</a>"));
+
+    var row = h("div", "kpis");
+    [["Paid in", "€" + fmt(M.cumOut, 1) + "bn",
+      M.perHeadOut === null ? "" : "€" + fmt(M.perHeadOut, 0) + " per person a year"],
+     ["Received", "€" + fmt(M.cumIn, 1) + "bn",
+      M.perHeadIn === null ? "" : "€" + fmt(M.perHeadIn, 0) + " per person a year"],
+     [M.net >= 0 ? "Net receipt" : "Net contribution",
+      "€" + fmt(Math.abs(M.net), 1) + "bn",
+      (M.pctGniNet === null ? "" : fmt(Math.abs(M.pctGniNet), 2)
+        + "% of national income a year")]
+    ].forEach(function (k, i) {
+      var t = h("div", "tile");
+      t.appendChild(h("div", "label", k[0]));
+      var v = h("div", "value"); v.textContent = k[1];
+      if (i === 2) v.style.color = M.net >= 0 ? "var(--series-1)" : "var(--series-2)";
+      t.appendChild(v);
+      if (k[2]) t.appendChild(h("div", "delta", k[2]));
+      row.appendChild(t);
+    });
+    card.appendChild(row);
+
+    /* Two bars on one scale: the comparison is the point, and stacking the funds inside
+       shows at a glance whether a country's receipts are farm money, cohesion money or
+       research money without needing a second chart. */
+    var COL = ["#2a78d6", "#5faf7e", "#5aa9a2", "#9cbb52", "#d0ae5c", "#d99a68",
+               "#cf8a86", "#b58aa8", "#948fbd", "#7b93c9", "#8a8f9c", "#4f9fc9",
+               "#7ab55f", "#bcbb54", "#c9a878"];
+    var OCOL = ["#eb6834", "#e08246", "#d59a5e", "#c9a878", "#b0a894"];
+    var inP = M.receipts.map(function (r, i) { return { name: r.label, v: r.v, c: COL[i % COL.length] }; });
+    var outP = M.payments.filter(function (r) { return r.v > 0; })
+      .map(function (r, i) { return { name: r.label, v: r.v, c: OCOL[i % OCOL.length] }; });
+    var inPos = inP.reduce(function (a, p) { return a + p.v; }, 0);
+    var outPos = outP.reduce(function (a, p) { return a + p.v; }, 0);
+    var mx = Math.max(inPos, outPos) || 1;
+    var Wb = 760, Lb = 74, Rb = 84, pwb = Wb - Lb - Rb, Hb = 118;
+    var rootb = h("div", "chart-box");
+    var svgb = el("svg", { viewBox: "0 0 " + Wb + " " + Hb, role: "img", "aria-label": "budget in and out" });
+    var ttb = h("div", "tooltip");
+    [["Received", inP, inPos, M.cumIn, 14], ["Paid in", outP, outPos, M.cumOut, 66]].forEach(function (r) {
+      var lab = el("text", { x: Lb - 10, y: r[4] + 21, "text-anchor": "end" }, "fill:var(--text-secondary);font-size:12.5px");
+      lab.textContent = r[0]; svgb.appendChild(lab);
+      var run = 0;
+      r[1].forEach(function (p) {
+        var seg = p.v / mx * pwb;
+        if (seg <= 0) return;
+        var rect = el("rect", { x: Lb + run, y: r[4], width: seg, height: 32 },
+          "fill:" + p.c + ";stroke:var(--surface-1);stroke-width:0.8");
+        rect.addEventListener("pointerenter", function () {
+          while (ttb.firstChild) ttb.removeChild(ttb.firstChild);
+          var a = h("div", "tt-title"); a.textContent = p.name; ttb.appendChild(a);
+          var b = h("div", "tt-val"); b.textContent = "€" + fmt(p.v, 1) + "bn"; ttb.appendChild(b);
+          ttb.style.display = "block"; ttb.style.left = "12px"; ttb.style.top = "4px";
+        });
+        rect.addEventListener("pointerleave", function () { ttb.style.display = "none"; });
+        svgb.appendChild(rect);
+        if (seg > 46) {
+          var t = el("text", { x: Lb + run + seg / 2, y: r[4] + 21, "text-anchor": "middle" },
+            "fill:#fff;font-size:11px;font-weight:600;pointer-events:none;font-variant-numeric:tabular-nums");
+          t.textContent = fmt(p.v, p.v >= 100 ? 0 : 1); svgb.appendChild(t);
+        }
+        run += seg;
+      });
+      var tot = el("text", { x: Lb + r[2] / mx * pwb + 7, y: r[4] + 21 },
+        "fill:var(--text-primary);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums");
+      tot.textContent = "€" + fmt(r[3], 1) + "bn"; svgb.appendChild(tot);
+    });
+    rootb.appendChild(svgb); rootb.appendChild(ttb);
+    card.appendChild(rootb);
+
+    var lg = h("div", "legend");
+    inP.concat(outP).forEach(function (p) {
+      var k = h("span", "key");
+      var sw = h("span", "swatch-line");
+      sw.style.background = p.c; sw.style.height = "10px"; sw.style.width = "10px"; sw.style.borderRadius = "2px";
+      k.appendChild(sw); k.appendChild(document.createTextNode(p.name));
+      lg.appendChild(k);
+    });
+    card.appendChild(lg);
+
+    if (full) {
+      var det = h("details", "data-table");
+      var su = document.createElement("summary"); su.textContent = "Every fund and revenue source";
+      det.appendChild(su);
+      var tb = document.createElement("table");
+      var hr = document.createElement("tr");
+      ["Line", "€bn", "Share"].forEach(function (x) {
+        var th = document.createElement("th"); th.textContent = x; hr.appendChild(th);
+      });
+      tb.appendChild(hr);
+      [["Received", M.receipts, M.cumIn], ["Paid in", M.payments, M.cumOut]].forEach(function (grp) {
+        var hd = document.createElement("tr");
+        var td = document.createElement("td"); td.colSpan = 3;
+        td.style.fontWeight = "600"; td.style.color = "var(--text-primary)";
+        td.textContent = grp[0]; hd.appendChild(td); tb.appendChild(hd);
+        grp[1].forEach(function (r) {
+          var tr = document.createElement("tr");
+          [r.label, fmt(r.v, 1), fmt(r.v / grp[2] * 100, 1) + "%"].forEach(function (c) {
+            var d2 = document.createElement("td"); d2.textContent = c; tr.appendChild(d2);
+          });
+          tb.appendChild(tr);
+        });
+      });
+      det.appendChild(tb);
+      card.appendChild(det);
+      card.appendChild(h("p", "note", "“Received” is EU spending allocated to this "
+        + "country, not a payment to its government: a research grant to a university, a farm "
+        + "payment to a landowner and a co-financed road all count. “Paid in” includes "
+        + "customs duties collected at the external border, which the Commission treats as the "
+        + "Union's own revenue and leaves out of its headline figure. Nominal euros."));
+    }
+    return card;
+  }
+
   function buildBlocks(host, blocks) {
     blocks.forEach(function (b) {
       if (b.type === "prose") host.appendChild(proseCard(b));
@@ -465,20 +740,59 @@
 
     if (t.id === "overview") {
       sec.appendChild(kpiRow(P.kpis));
+      var vc = verdictCard(); if (vc) sec.appendChild(vc);
       sec.appendChild(chartCard(P.heroChart));
+      var mnc = moneyCard(false); if (mnc) sec.appendChild(mnc);
+      if ((P.context || []).length) {
+        var cc = h("div", "card prose");
+        cc.appendChild(h("h3", null, "Where this country sits in the wider findings"));
+        cc.appendChild(h("p", "sub", "Drawn from the cross-country analysis rather than "
+          + "written for this page. <a href=\"analysis.html\">The full argument →</a>"));
+        P.context.forEach(function (c) {
+          cc.appendChild(h("p", null, "<strong>" + c.title + ".</strong> " + c.text));
+        });
+        sec.appendChild(cc);
+      }
       var mc = h("div", "card");
       mc.appendChild(h("h3", null, "Milestones at a glance"));
+      mc.appendChild(h("p", "sub", "This country's own events, and the Union-wide ones it "
+        + "lived through. The same events are marked on the rail under every chart, so a "
+        + "bend in a line can be read against what happened that year. It starts in "
+        + P.window.start + ", the first year any chart on this page has data for; anything "
+        + "earlier is listed at the foot of the list rather than plotted against nothing."));
+      var lgm = h("div", "legend");
+      [["--series-1", "This country"], ["--text-muted", "EU-wide"]].forEach(function (k) {
+        var key = h("span", "key");
+        var sw = h("span", "swatch-line");
+        sw.style.background = "var(" + k[0] + ")";
+        sw.style.height = "9px"; sw.style.width = "9px"; sw.style.borderRadius = "50%";
+        key.appendChild(sw); key.appendChild(document.createTextNode(k[1]));
+        lgm.appendChild(key);
+      });
+      mc.appendChild(lgm);
       var ul = h("ul", "timeline");
       P.milestones.forEach(function (m) {
         var li = document.createElement("li");
-        if (m.kind === "era") li.className = "era";
+        li.className = (m.kind === "era" ? "era " : "") + "scope-" + m.scope;
         li.appendChild(h("span", "tdate", m.date));
-        li.appendChild(h("span", "tl-dot" + (m.kind === "warn" ? " warn" : "")));
-        li.appendChild(h("span", "tbody", "<strong>" + m.label + "</strong> — " + m.description));
+        li.appendChild(h("span", "tl-dot" + (m.kind === "warn" ? " warn" : "")
+          + (m.scope === "eu" ? " eu" : "")));
+        li.appendChild(h("span", "tbody", "<strong>" + m.label + "</strong> — " + m.description
+          + (m.scope === "eu" ? " <span class=\"tag\">EU-wide</span>" : "")));
         ul.appendChild(li);
       });
       mc.appendChild(ul);
+      if ((P.milestonesDropped || []).length) {
+        mc.appendChild(h("p", "note", (P.milestonesDropped.length === 1 ? "One earlier event falls"
+          : P.milestonesDropped.length + " earlier events fall")
+          + " outside the range this page has data for and are not listed: "
+          + P.milestonesDropped.map(function (d) { return d.label + " (" + d.date + ")"; }).join("; ")
+          + "."));
+      }
       sec.appendChild(mc);
+    } else if (t.id === "financial") {
+      var fm = moneyCard(true); if (fm) sec.appendChild(fm);
+      buildBlocks(sec, P.tabs[t.id] || []);
     } else if (t.id === "sources") {
       var sc = h("div", "card prose");
       sc.appendChild(h("h3", null, "Sources"));

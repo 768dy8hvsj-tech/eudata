@@ -1,0 +1,16 @@
+iso3,date,sort_year,label,description,kind,source
+EUU,1 Jan 1993,1993.00,Single market begins,"The four freedoms — goods, services, capital and people — take effect across the Community",era,European Commission
+EUU,1 Nov 1993,1993.83,Maastricht Treaty in force,"The European Union is created; the treaty sets the convergence criteria for a single currency",legal,Official Journal of the EU
+EUU,26 Mar 1995,1995.23,Schengen Convention applied,Border checks abolished between the first seven participating states,legal,Council of the EU
+EUU,1 Jan 1995,1995.00,EFTA enlargement,Austria Finland and Sweden join; Norway's electorate votes no,era,European Commission
+EUU,1 Jan 1999,1999.00,Euro introduced,"Exchange rates irrevocably fixed for eleven member states; the currency exists in accounting form only",era,European Central Bank
+EUU,1 Jan 2002,2002.00,Euro notes and coins,Physical currency replaces twelve national currencies,era,European Central Bank
+EUU,1 May 2004,2004.33,Enlargement to ten,"Cyprus Czechia Estonia Hungary Latvia Lithuania Malta Poland Slovakia and Slovenia join in the largest single enlargement",era,European Commission
+EUU,1 Jan 2007,2007.00,Bulgaria and Romania join,Fifth enlargement completed,era,European Commission
+EUU,1 Dec 2009,2009.92,Lisbon Treaty in force,"Extends qualified-majority voting, gives the Charter of Fundamental Rights binding force and creates the European Council presidency",legal,Official Journal of the EU
+EUU,2 May 2010,2010.33,First Greek adjustment programme,"Euro-area states and the IMF agree EUR 110bn in loans; the euro-area sovereign debt crisis begins",warn,European Commission
+EUU,26 Jul 2012,2012.57,"""Whatever it takes""","The ECB president commits to preserving the euro; sovereign spreads begin to fall back",political,European Central Bank
+EUU,1 Jul 2013,2013.50,Croatia joins,The Union's most recent enlargement,era,European Commission
+EUU,23 Jun 2016,2016.48,United Kingdom referendum,"51.9% vote to leave on a turnout of 72.2%",warn,UK Electoral Commission
+EUU,31 Jan 2020,2020.08,United Kingdom leaves,First withdrawal of a member state; a transition period runs to 31 December 2020,warn,Official Journal of the EU
+EUU,21 Jul 2020,2020.55,NextGenerationEU agreed,"The European Council agrees a EUR 750bn recovery instrument funded by joint borrowing — the Union's first large-scale common debt",era,European Council

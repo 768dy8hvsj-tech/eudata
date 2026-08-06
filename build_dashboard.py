@@ -31,12 +31,26 @@ def load_indicators():
 
 
 def load_milestones(iso3):
+    """This country's own events, plus the Union-wide ones every member lived through.
+
+    A country page that shows only its own accession dates makes the 2004 enlargement, the
+    euro and the sovereign debt crisis invisible, and those are the years where most of the
+    lines on the charts actually bend. The two sets are kept distinguishable by `scope` so
+    the page can colour them differently rather than implying a country did something the
+    whole Union did.
+    """
     out = []
-    with open(DATA / "milestones.csv", newline="", encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            if r["iso3"] == iso3:
-                out.append({"date": r["date"], "sort": float(r["sort_year"]), "label": r["label"],
-                            "description": r["description"], "kind": r["kind"]})
+    for path, scope in ((DATA / "milestones.csv", "country"),
+                        (DATA / "milestones_eu.csv", "eu")):
+        if not path.exists():
+            continue
+        with open(path, newline="", encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                if scope == "country" and r["iso3"] != iso3:
+                    continue
+                out.append({"date": r["date"], "sort": float(r["sort_year"]),
+                            "label": r["label"], "description": r["description"],
+                            "kind": r["kind"], "scope": scope})
     out.sort(key=lambda m: m["sort"])
     return out
 
@@ -60,10 +74,309 @@ def collect_series_keys(nar):
     return keys
 
 
+def money(iso3):
+    """This country's slice of flows_payload.json, so the page can show what it pays and
+    what comes back without the reader having to leave for the budget page."""
+    p = BASE / "flows_payload.json"
+    if not p.exists():
+        return None
+    F = json.loads(p.read_text(encoding="utf-8"))
+    c = next((x for x in F["countries"] if x["iso3"] == iso3), None)
+    if not c:
+        return None
+    funds = {f["id"]: f["label"] for f in F["funds"]}
+    srcs = {s["id"]: s["label"] for s in F["sources"]}
+    yrs = c["years"]
+    return {
+        "since": c["since"], "to": F["years"][-1], "years": yrs,
+        "cumIn": c["cumIn"], "cumOut": c["cumOut"], "net": c["net"],
+        "perHeadIn": round(c["cumIn"] * 1e9 / (c["popMean"] * yrs)) if c["popMean"] else None,
+        "perHeadOut": round(c["cumOut"] * 1e9 / (c["popMean"] * yrs)) if c["popMean"] else None,
+        "perHeadNet": round(c["net"] * 1e9 / (c["popMean"] * yrs)) if c["popMean"] else None,
+        "pctGniNet": round(c["net"] * 1000 / (c["gniMean"] * yrs) * 100, 2) if c["gniMean"] else None,
+        "receipts": sorted(
+            [{"label": funds[k], "v": v} for k, v in c["cumReceipts"].items() if v > 0.05],
+            key=lambda r: -r["v"]),
+        "payments": sorted(
+            [{"label": srcs[k], "v": v} for k, v in c["cumPayments"].items() if abs(v) > 0.05],
+            key=lambda r: -abs(r["v"])),
+    }
+
+
+def verdict(iso3):
+    """Does the evidence in this study suggest this country gains from membership?
+
+    Deliberately NOT a single number. The project's whole discipline is that different
+    claims sit at different evidentiary levels, and collapsing them into one score would
+    throw that away. Three channels are reported separately, each with its own status, and
+    the headline is a rule applied to those three -- stated on the page so a reader can
+    disagree with the rule rather than having to trust it.
+
+      money      accounting fact. No inference, no caveat beyond the convention used.
+      trade      the only outcome that clears every check, and it clears it for the East
+                 bloc only. A country's own difference against its control group is shown,
+                 but the CLAIM is the bloc's, not the country's.
+      income     descriptive. For Eastern members the catch-up-adjusted residual is
+                 available; elsewhere only the raw trajectory against the US benchmark.
+
+    The founding six are marked untestable rather than negative: they joined in 1958, and
+    the income series begins in 1960, so there is no pre-accession period to compare against.
+    That is a permanent limit of the data, not a finding about those countries.
+    """
+    ap = BASE / "analysis_payload.json"
+    if not ap.exists():
+        return None
+    A = json.loads(ap.read_text(encoding="utf-8"))
+    V = A.get("verdict") or {}
+    row = next((r for r in V.get("rows", []) if r["iso3"] == iso3), None)
+    if not row:
+        return None
+    bloc = row["bloc"]
+    trade = next((m for m in A["measures"] if m["id"] == "trade"), None)
+    td = (trade or {}).get("did", {}).get(bloc, {})
+    own = next((r for r in (td.get("rows") or []) if r["iso3"] == iso3), None)
+    res = next((r for r in V.get("catchup", {}).get("rows", []) if r["name"] == row["name"]), None)
+
+    founding = row.get("accession") == 1958
+    ch = []
+
+    # 1. money. Read from the flows build, not from row["budgetCum"], so the verdict and the
+    #    budget card on the same page cannot disagree. They use different conventions: the
+    #    flows figure counts all allocated expenditure and all payments including customs;
+    #    budgetCum strips administration. For Belgium and Luxembourg that flips the SIGN,
+    #    which is a real finding rather than an error, so it is stated rather than hidden.
+    mo = money(iso3)
+    if mo:
+        pos = mo["net"] > 0
+        flip = (row.get("budgetCum") is not None
+                and (row["budgetCum"] > 0) != pos)
+        ch.append({
+            "key": "The money",
+            "status": "fact",
+            "verdict": "positive" if pos else "negative",
+            "head": ("Net recipient" if pos else "Net contributor")
+                    + f", €{abs(mo['net']):,.1f}bn"
+                    + (f" — {abs(mo['pctGniNet']):.2f}% of national income a year"
+                       if mo["pctGniNet"] is not None else ""),
+            "note": "Accounting, not an estimate: published by the Commission and reconciled "
+                    "to its own totals."
+                    + (" <strong>But the sign here depends on the convention.</strong> "
+                       "Strip out administrative spending — which is booked to whoever hosts "
+                       "the institutions rather than to the people who live there — and this "
+                       f"country becomes a net {'contributor' if pos else 'recipient'} of "
+                       f"€{abs(row['budgetCum']):,.1f}bn instead. Both figures are correct; "
+                       "they answer different questions." if flip else ""),
+        })
+
+    # 2. trade
+    identified = bool(td.get("identified"))
+    if identified and own:
+        ch.append({
+            "key": "Trade opening",
+            "status": "established",
+            "verdict": "positive" if own["did"] > 0 else "negative",
+            "head": f"{own['did']:+.1f} pp of GDP against non-member neighbours",
+            "note": f"The bloc-level effect is +{td['mean']:.1f}pp, "
+                    f"{td['positive']} of {td['n']} countries positive, and the pre-accession "
+                    "placebo reports essentially nothing. This is the strongest result in the "
+                    "study. The claim is the bloc's; this country's own figure is shown for "
+                    "position within it, not as a separate finding.",
+        })
+    else:
+        ch.append({
+            "key": "Trade opening",
+            "status": "not established",
+            "verdict": "unknown",
+            "head": (f"{own['did']:+.1f} pp of GDP against non-member neighbours"
+                     if own else "not testable"),
+            "note": "This bloc's trade estimate does not survive the project's checks — "
+                    + ("the pre-accession placebo already reports a gap, so the groups were "
+                       "diverging before anyone joined."
+                       if bloc != "East" else "no usable comparison for these windows.")
+                    + (" The figure shown is descriptive only." if own else ""),
+        })
+
+    # 3. income
+    if founding:
+        ch.append({
+            "key": "Income trajectory",
+            "status": "untestable",
+            "verdict": "unknown",
+            "head": f"{row['relGain']:+.1f} points against the US level, 2000–{row['endYear']}",
+            "note": "A founding member: joined in 1958, and the income series begins in 1960. "
+                    "There is no pre-accession period to compare against, so no causal claim "
+                    "about membership can be tested here at all.",
+        })
+    elif res:
+        ch.append({
+            "key": "Income trajectory",
+            "status": "descriptive",
+            "verdict": "positive" if res["residual"] > 0 else "negative",
+            "head": f"{row['relGain']:+.1f} points against the US level, "
+                    f"{res['residual']:+.1f} more than starting income predicted",
+            "note": "Measured against a fixed external benchmark over a common 2000–"
+                    f"{row['endYear']} window. Eastern members as a group gained "
+                    f"{V['groups']['East']['memberMedian']:+.1f} points against the Western "
+                    f"Balkans' {V['groups']['East']['nonMedian']:+.1f}, and the pre-accession "
+                    f"placebo reports {V['groups']['East']['placebo1997']['gap']:+.1f}. "
+                    "Descriptive, not causal: a fixed-window group comparison is not an "
+                    "event study.",
+        })
+    else:
+        ch.append({
+            "key": "Income trajectory",
+            "status": "descriptive",
+            "verdict": "positive" if row["relGain"] > 0 else "negative",
+            "head": f"{row['relGain']:+.1f} points against the US level, 2000–{row['endYear']}",
+            "note": "Raw trajectory against a fixed external benchmark. No catch-up "
+                    "adjustment is available outside the Eastern bloc, and the comparison "
+                    "against this bloc's non-members does not survive its placebo, so this "
+                    "number describes what happened rather than what membership did.",
+        })
+
+    pos = sum(1 for c in ch if c["verdict"] == "positive")
+    neg = sum(1 for c in ch if c["verdict"] == "negative")
+    unk = sum(1 for c in ch if c["verdict"] == "unknown")
+    causal = any(c["status"] == "established" and c["verdict"] == "positive" for c in ch)
+
+    if founding:
+        label, tone = "Cannot be tested", "muted"
+        gist = ("This country has been a member since 1958. Every method in this study "
+                "compares a country before and after accession, and there is no usable "
+                "'before'. Its budget position is a fact; nothing else here is a verdict.")
+    elif causal and pos >= 2:
+        label, tone = "Evidence points to a gain", "good"
+        gist = ("The one effect this study can establish causally runs in this country's "
+                "favour, and the other channels agree. That is as strong as the evidence "
+                "here gets — it is still not proof that people are better off.")
+    elif pos >= 2 and neg == 0:
+        label, tone = "Evidence leans positive", "good"
+        gist = ("More than one channel runs in this country's favour, but none of them is "
+                "an effect this study can establish causally.")
+    elif pos and neg:
+        label, tone = "Mixed", "warn"
+        gist = ("The channels disagree. Read them separately rather than netting them off — "
+                "they are not measured in the same units and not established to the same "
+                "standard.")
+    elif neg and not pos:
+        label, tone = "Evidence leans negative", "bad"
+        gist = ("No channel in this study runs in this country's favour. That is not the "
+                "same as membership having cost it: most of what membership buys — market "
+                "access, freedom of movement, a common regulatory regime — is not measured "
+                "anywhere in this dataset.")
+    else:
+        label, tone = "Not established either way", "muted"
+        gist = ("Nothing here clears the bar this project sets. The honest answer is that "
+                "the data does not settle it.")
+
+    # The one member state that actually left needs the finding about leaving attached to
+    # the verdict, or a reader takes "leans negative" as an endorsement of a departure the
+    # study could not evaluate.
+    if iso3 == "GBR":
+        gist += (" It also left, in 2020 — and this project could not identify what that "
+                 "cost or saved: the estimate swings from −7 to −21 percentage points of "
+                 "trade openness depending on which comparators are chosen, and both routes "
+                 "fail the checks applied everywhere else here. Neither direction of travel "
+                 "is settled by this data.")
+
+    return {"label": label, "tone": tone, "gist": gist, "channels": ch,
+            "counts": {"positive": pos, "negative": neg, "unknown": unk},
+            "rule": "Positive channels are counted, and a channel only counts as "
+                    "<em>established</em> if the estimate survives the pre-accession placebo "
+                    "test. Two or more positive channels including an established one reads "
+                    "as a gain; two or more positive but none established reads as leaning "
+                    "positive; disagreement reads as mixed. The rule is stated so it can be "
+                    "argued with."}
+
+
+def context(iso3, table):
+    """Where this country sits inside the study's cross-country findings.
+
+    Generated from the data rather than written per country, so all 28 pages carry it and
+    none of them can drift out of date when the underlying series are refreshed.
+    """
+    ap = BASE / "analysis_payload.json"
+    if not ap.exists():
+        return []
+    A = json.loads(ap.read_text(encoding="utf-8"))
+    V = A.get("verdict") or {}
+    rows = V.get("rows", [])
+    me = next((r for r in rows if r["iso3"] == iso3), None)
+    if not me:
+        return []
+    out = []
+
+    members = sorted([r for r in rows if r["member"]], key=lambda r: -r["relGain"])
+    rank = [r["iso3"] for r in members].index(iso3) + 1
+    out.append({
+        "title": "Against a fixed external benchmark",
+        "text": f"Measured against US income per head at purchasing-power parity over a "
+                f"common 2000–{me['endYear']} window, {me['name']} moved from "
+                f"{me['relStart']:.1f}% of the US level to {me['relEnd']:.1f}% — a change of "
+                f"{me['relGain']:+.1f} points, <strong>{rank}{ordinal(rank)} of "
+                f"{len(members)} member states</strong>. This benchmark is used instead of "
+                f"the share of the EU average, because the EU average itself rises as poorer "
+                f"members catch up, which drags a rich country's line down even while its "
+                f"economy grows."})
+
+    # crisis behaviour, against the study's own finding that 2012 was European not global
+    g = table.get((iso3, "NY.GDP.MKTP.KD.ZG"), {})
+    ep = [(2009, "the global financial crisis", 96, 77),
+          (2012, "the euro-area debt crisis", 61, 23),
+          (2020, "the pandemic", 93, 92)]
+    bits = []
+    for yr, name, mshare, nshare in ep:
+        v = g.get(yr)
+        if v is None:
+            continue
+        bits.append(f"In {yr}, during {name}, output {'fell' if v < 0 else 'grew'} "
+                    f"{abs(v):.1f}%; {mshare}% of members contracted that year against "
+                    f"{nshare}% of non-members.")
+    if bits:
+        out.append({
+            "title": "Through the three downturns",
+            "text": " ".join(bits)
+                    + " <strong>2012 is the one episode that separates members from "
+                      "non-members</strong>, and it is the clearest measurable cost of "
+                      "integration this study found: the 2008 and 2020 shocks hit both "
+                      "groups alike."})
+
+    if me.get("tradeGain") is not None:
+        tr = sorted([r for r in rows if r["member"] and r.get("tradeGain") is not None],
+                    key=lambda r: -r["tradeGain"])
+        trank = [r["iso3"] for r in tr].index(iso3) + 1
+        out.append({
+            "title": "Trade opening",
+            "text": f"Exports plus imports as a share of GDP moved {me['tradeGain']:+.1f} "
+                    f"points between 2000 and today, {trank}{ordinal(trank)} of {len(tr)} "
+                    f"members. Trade is the only outcome in this study that survives every "
+                    f"check applied to it, and it does so for the Eastern bloc: <strong>+20.5 "
+                    f"points of GDP against Western Balkan non-members, 11 countries out of "
+                    f"11</strong>, with a pre-accession placebo of +0.6."})
+    return out
+
+
+def ordinal(n):
+    return "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+
+
 def build(iso3):
     table, rowcount = load_indicators()
     nar = json.loads((DATA / "narrative" / f"{iso3}.json").read_text(encoding="utf-8"))
-    w = nar["window"]
+    w = dict(nar["window"])
+    ms = load_milestones(iso3)
+
+    # The window used to be whatever the narrative asked for, which left charts with decades
+    # of blank space and a timeline running years earlier than any line on the page. Clamp
+    # the start to the first year the page actually has data for, and extend it back to the
+    # first milestone only where data exists to meet it.
+    first_data = min((min(d) for (iso, code), d in table.items()
+                      if (iso, code) in {(ri or iso3, c) for ri, c in collect_series_keys(nar)}
+                      and any(v is not None for v in d.values())), default=int(w["start"]))
+    first_ms = int(ms[0]["sort"]) if ms else int(w["start"])
+    w["start"] = max(first_data, min(int(w["start"]), first_ms))
+    dropped = [m for m in ms if m["sort"] < w["start"]]
+    ms = [m for m in ms if m["sort"] >= w["start"]]
     years = list(range(int(w["start"]), int(w["end"]) + 1))
 
     # series payload: only what the layout actually references
@@ -95,7 +408,11 @@ def build(iso3):
         "window": w, "years": years, "series": series, "kpis": kpis,
         "heroChart": nar["heroChart"], "tabs": nar["tabs"],
         "sources": nar["sources"], "method": nar["method"],
-        "milestones": load_milestones(iso3),
+        "milestones": ms,
+        "milestonesDropped": [{"date": m["date"], "label": m["label"]} for m in dropped],
+        "money": money(iso3),
+        "verdict": verdict(iso3),
+        "context": context(iso3, table),
         # same derived episodes the comparison page uses, so a country's line can be
         # read against the shocks every country faced
         "crises": [
