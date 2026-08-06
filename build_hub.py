@@ -45,6 +45,23 @@ for bloc, ms in by_bloc.items():
               f'<p class="mini">Compared against: {ctrl}</p>'
               f'<div class="clist">{items}</div>')
 
+# Non-member profiles. A control group nobody can look at is a control group nobody can
+# check, so the countries every estimate is measured against get pages of their own.
+nm_path = os.path.join(DATA, "nonmembers.csv")
+if os.path.exists(nm_path):
+    nm = list(csv.DictReader(open(nm_path, encoding="utf-8")))
+    built = [c for c in nm if os.path.exists(os.path.join(BASE, slug(c["name"])))]
+    if built:
+        items = "".join(
+            f'<a href="{slug(c["name"])}"><span class="n">{c["name"]}</span>'
+            f'<span class="d">not a member · EEA since 1994</span></a>'
+            for c in sorted(built, key=lambda x: x["name"]))
+        cards += ('<h4>Non-members — profiled</h4>'
+                  '<p class="mini">Comparison countries, shown rather than assumed. Both are '
+                  'inside the single market through the EEA without being in the Union, which '
+                  'makes them a demanding control rather than an easy one.</p>'
+                  f'<div class="clist">{items}</div>')
+
 ci = adjE.get("ci")
 headline_val = "not distinguishable from zero" if (ci and ci["crossesZero"]) else f"{adjE['mean']:+.1f}%"
 ci_txt = (f"Central estimate {adjE['mean']:+.1f}%, 95% interval {ci['lo']:+.1f}% to {ci['hi']:+.1f}%, "
@@ -130,7 +147,7 @@ text-decoration:none;background:var(--surface-1)}}
 .stamp{{font-size:11.5px;color:var(--text-muted);margin-top:26px}}
 </style></head>
 <body><div class="viz-root"><div class="wrap">
-<nav class="sitenav"><a class="here">Overview</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a></nav>
+<nav class="sitenav"><a class="here">Overview</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a><a href="flows.html">Budget flows</a></nav>
 <header class="top">
 <div><h1>EU membership impact</h1>
 <p class="sub">What has EU membership done to its member states — legally, financially, commercially, politically and socially — measured against comparable countries that never joined.</p></div>
@@ -145,13 +162,15 @@ text-decoration:none;background:var(--surface-1)}}
 </div>
 {trade_block}
 
-<h2>Three ways in</h2>
-<p class="lead">The project has three layers. Start with whichever question you have.</p>
+<h2>Four ways in</h2>
+<p class="lead">The project has four layers. Start with whichever question you have.</p>
 <div class="routes">
   <a class="route" href="analysis.html"><span class="t">The argument →</span>
     <span class="d">Does membership change a country's trajectory? Event-time alignment, bloc splits, difference-in-differences against non-members, and an explicit account of what the method cannot show.</span></a>
   <a class="route" href="index.html"><span class="t">Country comparison →</span>
     <span class="d">Where every member stands today on income, GNI, unemployment and convergence with the EU average — ranked, plus each country's full trajectory.</span></a>
+  <a class="route" href="flows.html"><span class="t">Budget flows →</span>
+    <span class="d">What each country pays into the EU budget and what comes back, itemised by fund — farm payments, cohesion, research, the Recovery Facility. Accounting rather than inference: no estimation, and every figure reconciled to the Commission's published totals.</span></a>
   <a class="route" href="poland-dashboard.html"><span class="t">A worked country page →</span>
     <span class="d">Poland is the completed reference: five lenses, verified milestone timeline, and written analysis. Every other country has the same charts and timeline with narrative pending.</span></a>
 </div>

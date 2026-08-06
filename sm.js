@@ -21,15 +21,19 @@ for(const f of files){
   const label=await p.$eval('#panel-overview .vlabel',e=>e.textContent.trim()).catch(()=>'');
   if(v!==3) bad.push(`${nm}: ${v} verdict channels, expected 3`);
   if(!label) bad.push(`${nm}: no verdict headline`);
-  // 2. budget card totals match the payload
-  const tiles=await p.$$eval('#panel-overview .card:nth-of-type(1) .tile .value',e=>e.map(x=>x.textContent)).catch(()=>[]);
+  // 2. budget card totals match the payload. Non-members have no budget relationship at
+  //    all, so the absence of the card is the correct behaviour rather than a failure.
   const mtiles=await p.$$eval('#panel-overview .card .tile .value',e=>e.map(x=>x.textContent));
+  if(P.money===null||P.money===undefined){
+    if(P.member!==false) bad.push(`${nm}: member page with no budget card`);
+  } else {
   /* Compare numerically, not as strings: toFixed and toLocaleString disagree on a value
      like 59.55 (one says 59.5, the other 59.6) and that is a rounding convention, not a
      data error. */
   const want=[P.money.cumOut,P.money.cumIn,Math.abs(P.money.net)];
   const got=mtiles.map(t=>parseFloat(t.replace(/[^0-9.]/g,''))).filter(x=>!isNaN(x));
   want.forEach(w=>{ if(!got.some(g=>Math.abs(g-w)<0.06)) bad.push(`${nm}: budget tile ${w.toFixed(2)} not rendered`); });
+  }
   // 3. every chart's x-range must lie inside its own data range, and carry a rail
   for(const tab of ['overview','financial','commercial','social','political','legal']){
     await p.click(`[data-tab="${tab}"]`).catch(()=>{});
@@ -50,6 +54,10 @@ for(const f of files){
   const early=P.milestones.filter(m=>m.sort<P.window.start);
   if(early.length) bad.push(`${nm}: ${early.length} timeline events before window start`);
   if(!P.milestones.some(m=>m.scope==='eu')) bad.push(`${nm}: no EU-wide milestones`);
+  // a non-member page must ask the mirror question, not the membership one
+  const q=await p.$eval('#panel-overview .card.verdict h3',e=>e.textContent).catch(()=>'');
+  if(P.member===false && !/staying out/.test(q)) bad.push(`${nm}: non-member page asks the membership question`);
+  if(P.member!==false && /staying out/.test(q)) bad.push(`${nm}: member page asks the non-member question`);
 }
 console.log(`${files.length} pages · ${totalCharts} charts · ${totalDots} milestone markers`);
 console.log(bad.length?('FAILURES:\n  '+bad.slice(0,25).join('\n  ')):'0 failures');

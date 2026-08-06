@@ -302,6 +302,233 @@ def build(c):
     }
 
 
+def build_nonmember(c):
+    """A profile page for a country that never joined.
+
+    These are the control group. They carry the same charts as a member page, minus the ones
+    that only exist for members (budget flows, Eurostat's euro-convergence bond series), and
+    the page is framed round a different question: not what membership did, but what staying
+    out looks like next to the countries that went in.
+
+    The accession marker becomes an EEA marker. Both of these countries entered the single
+    market on 1 January 1994 without joining the Union, which is the single most important
+    fact about reading their lines — most of what the charts here measure is single-market
+    integration, and they have that.
+    """
+    iso, name = c["iso3"], c["name"]
+    hv = have.get(iso, set())
+    start = int(c["window_start"])
+    eea = float(c["eea_year"])
+
+    window = {"start": start, "end": 2025,
+              "negotiationsOpen": start, "negotiationsClose": start,
+              "accession": None, "accessionLabel": "",
+              "eea": eea, "eeaLabel": "EEA"}
+
+    sub = (f"{name} is <strong>not an EU member</strong>. It sits in this project as a control "
+           f"— one of the comparison countries every estimate is measured against. {c['status']} "
+           f"The vertical line marks entry into the European Economic Area on 1 January 1994: "
+           f"the single market without the Union.")
+
+    kpis = []
+    if "DERIVED.GNI.PCT.EU" in hv:
+        kpis.append({"label": "GNI per capita (PPP), vs EU average",
+                     "valueFrom": {"code": "DERIVED.GNI.PCT.EU", "year": "last", "dp": 0, "suffix": "%"},
+                     "delta": "World Bank · not a member, shown against the EU average"})
+    if "NY.GNP.PCAP.PP.CD" in hv:
+        kpis.append({"label": "GNI per capita, PPP",
+                     "valueFrom": {"code": "NY.GNP.PCAP.PP.CD", "year": "last", "dp": 0},
+                     "delta": "current international $ · World Bank"})
+    if "SL.UEM.TOTL.ZS" in hv:
+        kpis.append({"label": "Unemployment (ILO)",
+                     "valueFrom": {"code": "SL.UEM.TOTL.ZS", "year": "last", "dp": 1, "suffix": "%"},
+                     "delta": "% of labour force · World Bank"})
+    if "DERIVED.TRADE.OPEN" in hv:
+        kpis.append({"label": "Trade openness",
+                     "valueFrom": {"code": "DERIVED.TRADE.OPEN", "year": "last", "dp": 0, "suffix": "%"},
+                     "delta": "exports + imports, % of GDP · World Bank"})
+
+    hero = chart(
+        "Income relative to the EU average",
+        "GNI per capita at purchasing-power parity as a share of the EU-wide average. GNI "
+        "rather than GDP, because GDP overstates income in economies where a lot of output "
+        "accrues to non-residents. " + (c.get("hero_note") or ""),
+        [{"code": "DERIVED.GNI.PCT.EU", "name": f"{name}, % of EU average"}],
+        {"unit": "%", "dp": 1, "area": True})
+
+    financial = [{"type": "prose", "title": "Financial", "paras": [
+        "The same World Bank series collected for every member state. Two charts that appear "
+        "on member pages are absent here and cannot be filled in: EU budget flows, because a "
+        "non-member neither pays into the budget nor receives from it, and the Eurostat "
+        "long-term bond series, which is a euro-convergence indicator collected for member "
+        "states only."]}]
+    r1 = []
+    if "NY.GDP.MKTP.KD.ZG" in hv:
+        r1.append(chart("Real GDP growth, %", "Annual change in real GDP.",
+                        [{"code": "NY.GDP.MKTP.KD.ZG", "name": "Real GDP growth"}],
+                        {"unit": "%", "dp": 1, "zero": True}))
+    if "SL.UEM.TOTL.ZS" in hv:
+        r1.append(chart("Unemployment, % of labour force", "ILO-modelled estimate.",
+                        [{"code": "SL.UEM.TOTL.ZS", "name": "Unemployment"}], {"unit": "%", "dp": 1}))
+    if r1:
+        financial.append({"type": "chartRow", "charts": r1})
+    r2 = []
+    if "NY.GNP.PCAP.PP.CD" in hv:
+        r2.append(chart("GNI per capita, PPP vs the EU average",
+                        "Current international $. The EU aggregate is available from 1996.",
+                        [{"iso3": "EUU", "code": "NY.GNP.PCAP.PP.CD", "name": "EU average",
+                          "colorVar": "--series-2"},
+                         {"code": "NY.GNP.PCAP.PP.CD", "name": name}],
+                        {"unit": " $", "dp": 0, "endLabelBelow": 2}))
+    if "DERIVED.KD.PCT.EU" in hv:
+        r2.append(chart("Real income per head, % of the EU average",
+                        "Constant 2015 US$, so this one is not moved by exchange rates or "
+                        "inflation — useful as a cross-check on the headline chart.",
+                        [{"code": "DERIVED.KD.PCT.EU", "name": "% of EU average"}],
+                        {"unit": "%", "dp": 1}))
+    if r2:
+        financial.append({"type": "chartRow", "charts": r2})
+
+    commercial = [{"type": "prose", "title": "Commercial", "paras": [
+        "Trade openness is the outcome this project can establish causally for EU members, "
+        "and it is also the one where the EEA does most of its work: these countries are "
+        "inside the single market for goods and services without being inside the Union. "
+        "Read these lines as the counterfactual the trade estimate is measured against."]}]
+    if "NE.EXP.GNFS.ZS" in hv and "NE.IMP.GNFS.ZS" in hv:
+        commercial.append(chart("Trade in goods &amp; services, % of GDP",
+                                "Exports and imports of goods and services.",
+                                [{"code": "NE.EXP.GNFS.ZS", "name": "Exports"},
+                                 {"code": "NE.IMP.GNFS.ZS", "name": "Imports",
+                                  "colorVar": "--series-2"}],
+                                {"unit": "%", "dp": 1, "endLabelBelow": 2}) | {"type": "chart"})
+    crow = []
+    if "BX.KLT.DINV.WD.GD.ZS" in hv:
+        crow.append(chart("FDI net inflows, % of GDP", "Foreign direct investment, net inflows.",
+                          [{"code": "BX.KLT.DINV.WD.GD.ZS", "name": "FDI net inflows"}],
+                          {"unit": "%", "dp": 1, "zero": True}))
+    if "ST.INT.ARVL" in hv:
+        crow.append(chart("International arrivals, millions",
+                          "World Bank / UNWTO border arrivals. Series generally ends 2019–2020.",
+                          [{"code": "ST.INT.ARVL", "name": "Arrivals"}],
+                          {"unit": "m", "dp": 1, "scale": 1e-6}))
+    if crow:
+        commercial.append({"type": "chartRow", "charts": crow})
+
+    social = [{"type": "prose", "title": "Social", "paras": [
+        "Free movement of people applies here through the EEA and Schengen exactly as it does "
+        "inside the Union, so the migration series is not measuring a difference in regime."]}]
+    if "SM.POP.NETM" in hv:
+        social.append(chart("Net migration, thousands of people",
+                            "UN World Population Prospects estimates via World Bank. Blue = net "
+                            "inflow, red = net outflow.",
+                            [{"code": "SM.POP.NETM", "name": "Net migration"}],
+                            {"type": "bar", "unit": "k", "dp": 1, "zero": True,
+                             "scale": 1e-3}) | {"type": "chart"})
+    srow = []
+    if "SI.POV.GINI" in hv:
+        srow.append(chart("Income inequality (Gini index)",
+                          "World Bank estimate (0 = perfect equality). Survey-based, so gaps "
+                          "mean no survey rather than no change.",
+                          [{"code": "SI.POV.GINI", "name": "Gini index"}], {"unit": "", "dp": 1}))
+    if "DERIVED.NETM.P1000" in hv:
+        srow.append(chart("Net migration per 1,000 residents",
+                          "The same flow scaled by population, which is the comparable form.",
+                          [{"code": "DERIVED.NETM.P1000", "name": "Net migration per 1,000"}],
+                          {"unit": "", "dp": 1, "zero": True}))
+    if srow:
+        social.append({"type": "chartRow", "charts": srow})
+
+    legal_paras = [
+        f"{name} is <strong>not bound by the EU treaties</strong>, and is bound by a great deal "
+        f"of EU law anyway. The EEA Agreement, in force since 1 January 1994, extends the "
+        f"single market's rules on goods, services, capital and labour — together with "
+        f"competition, state aid, consumer protection, employment and environmental law — to "
+        f"{name} without giving it a vote on any of them. This is the arrangement usually "
+        f"described from inside the Union as rule-taking.",
+        f"Outside the EEA's reach: the common agricultural and fisheries policies, the customs "
+        f"union and common external tariff, the common commercial policy, monetary union, and "
+        f"justice and home affairs beyond what Schengen covers.",
+        f"Schengen has applied since <strong>{c['schengen_joined']}</strong>, so border checks "
+        f"with the Union are gone even though the border itself is a customs border. "
+        f"{name} is a member of EFTA and disputes under the EEA go to the EFTA Court rather "
+        f"than the Court of Justice of the EU.",
+        "<em>Detailed legal analysis — how much of the acquis actually applies, and how EEA "
+        "law is incorporated domestically — is pending.</em>",
+    ]
+    WGI_SUB = ("World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert "
+               "assessments and surveys — perceptions of governance, not a count of legal facts.")
+    legal = [{"type": "prose", "title": "Legal", "paras": legal_paras}]
+    if "WGI.RL.EST" in hv:
+        legal.append(chart("Rule of law", WGI_SUB + " Both of these countries sit near the top "
+                           "of this scale throughout, which is the headroom problem the "
+                           "governance estimates run into everywhere in this project.",
+                           [{"code": "WGI.RL.EST", "name": "Rule of law"}],
+                           {"unit": "", "dp": 2, "zero": True}) | {"type": "chart"})
+
+    ref = [m for m in milestones.get(iso, []) if "referendum" in m["label"].lower()]
+    political = []
+    if ref:
+        political.append({"type": "kpis", "items": [
+            {"label": m["label"], "value": m["date"], "delta": m["description"][:120]}
+            for m in ref[:3]]})
+    political.append({"type": "prose", "title": "Political", "paras": [
+        f"The verified timeline is on the Overview tab. {c['status']}",
+        "The political question here is the mirror of the one every member page asks. A member "
+        "page asks what joining did. This one asks what staying out did — and that is a "
+        "counterfactual about a country that never entered, which no comparison of observed "
+        "outcomes can supply. See the panel at the top of the Overview tab."]})
+    prow = []
+    if "WGI.VA.EST" in hv:
+        prow.append(chart("Voice and accountability", WGI_SUB,
+                          [{"code": "WGI.VA.EST", "name": "Voice and accountability"}],
+                          {"unit": "", "dp": 2, "zero": True}))
+    if "WGI.CC.EST" in hv:
+        prow.append(chart("Control of corruption", WGI_SUB + " Higher is better.",
+                          [{"code": "WGI.CC.EST", "name": "Control of corruption"}],
+                          {"unit": "", "dp": 2, "zero": True}))
+    if prow:
+        political.append({"type": "chartRow", "charts": prow})
+
+    return {
+        "iso3": iso, "name": name, "handwritten": False, "member": False,
+        "window": window, "subtitle": sub, "kpis": kpis, "heroChart": hero,
+        "tabs": {"legal": legal, "financial": financial, "commercial": commercial,
+                 "political": political, "social": social},
+        "sources": [
+            {"label": "Time series", "text": "World Bank Open Data (api.worldbank.org). "
+             "Indicator codes travel with every value in "
+             "<code class=\"ind\">data/indicators.csv</code>."},
+            {"label": "Milestones", "text": "Statistics Norway, the Norwegian Government, the "
+             "Council of the EU, the European Commission (DG NEAR), EFTA, Iceland's National "
+             "Electoral Commission and RÚV. The source for each row is recorded in "
+             "<code class=\"ind\">data/milestones.csv</code>, and where two credited sources "
+             "disagree the row says so rather than picking one."},
+            {"label": "Relationship metadata", "text": "EEA, Schengen and EFTA status in "
+             "<code class=\"ind\">data/nonmembers.csv</code>."},
+        ],
+        "method": [
+            {"title": "Why this page exists", "text":
+                f"{name} is one of the non-member countries every estimate in this project is "
+                f"measured against. A control group that is never shown is a control group "
+                f"nobody can check."},
+            {"title": "What is missing, and why", "text":
+                "EU budget flows and the Eurostat bond series are absent because they do not "
+                "exist for a non-member — not because collection failed. Everything else on a "
+                "member page is here."},
+            {"title": "The EEA changes what the comparison means", "text":
+                "Both non-member profiles in this set are inside the single market through the "
+                "EEA. So the contrast with a member state is <em>not</em> integration against "
+                "isolation; it is integration without membership against integration with it. "
+                "That makes them a demanding control, and it is one reason the trade estimate "
+                "for the Western bloc does not survive its checks."},
+            {"title": "Attribution caution", "text":
+                "Nothing on this page shows what not joining caused. That would need a "
+                "counterfactual for a country that never entered, which this design cannot "
+                "produce."},
+        ],
+    }
+
+
 rows = list(csv.DictReader(open(os.path.join(DATA, "countries.csv"), encoding="utf-8")))
 written, skipped, nodata = [], [], []
 for c in rows:
@@ -320,6 +547,16 @@ for c in rows:
     with open(path, "w", encoding="utf-8") as f:
         json.dump(build(c), f, ensure_ascii=False, indent=1)
     written.append(iso)
+
+nm_path = os.path.join(DATA, "nonmembers.csv")
+if os.path.exists(nm_path):
+    for c in csv.DictReader(open(nm_path, encoding="utf-8")):
+        if c["iso3"] not in have:
+            nodata.append(c["iso3"])
+            continue
+        with open(os.path.join(NARR, f"{c['iso3']}.json"), "w", encoding="utf-8") as f:
+            json.dump(build_nonmember(c), f, ensure_ascii=False, indent=1)
+        written.append(c["iso3"] + " (non-member)")
 
 print("generated:", " ".join(written))
 print("kept hand-written:", " ".join(skipped) or "none")

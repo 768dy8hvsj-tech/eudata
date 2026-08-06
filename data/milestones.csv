@@ -19,13 +19,6 @@ BGR,1 Jan 2007,2007.00,EU accession,Became a member state of the European Union 
 BGR,31 Mar 2024,2024.17,Schengen partial entry,Air and sea border checks lifted while land borders remained controlled,legal,Council of the EU
 BGR,1 Jan 2025,2025.00,Schengen land borders,Land border checks with Romania and Hungary lifted completing Schengen accession,legal,Council of the EU
 BGR,1 Jan 2026,2026.00,Euro adopted,Became the 21st euro area member at a fixed rate of 1.95583 lev per euro,economic,Council of the EU
-HRV,21 Feb 2003,2003.08,Membership application,Croatia applied for membership of the European Union,political,European Commission
-HRV,3 Oct 2005,2005.75,Accession negotiations opened,Accession negotiations formally opened,era,European Commission
-HRV,9 Dec 2011,2011.92,Accession treaty signed,Signed the Treaty of Accession in Brussels,legal,EUR-Lex
-HRV,22 Jan 2012,2012.00,Accession referendum,66.7% voted yes on a turnout of 43.5%,political,national electoral commission
-HRV,1 Jul 2013,2013.50,EU accession,Became the 28th member state of the European Union,era,European Commission
-HRV,1 Jan 2023,2023.00,Euro adopted,Replaced the kuna with the euro on the same day it entered Schengen,economic,ECB
-HRV,1 Jan 2023,2023.00,Schengen entry,Land and sea border checks lifted; air borders followed on 26 March 2023,legal,European Commission
 CYP,3 Jul 1990,1990.50,Membership application,Cyprus applied for accession to the European Communities,political,CVCE historical archive
 CYP,31 Mar 1998,1998.17,Accession negotiations opened,Accession negotiations formally opened as part of the Luxembourg group,era,European Commission
 CYP,16 Apr 2003,2003.25,Accession treaty signed,Signed the 2003 Treaty of Accession in Athens,legal,EUR-Lex
@@ -38,12 +31,24 @@ CZE,16 Apr 2003,2003.25,Accession treaty signed,Signed the 2003 Treaty of Access
 CZE,14 Jun 2003,2003.42,Accession referendum,77.3% voted yes on a turnout of 55.2% in a two day vote,political,national electoral commission
 CZE,1 May 2004,2004.33,EU accession,Became a member state of the European Union in the largest single enlargement,era,European Commission
 CZE,21 Dec 2007,2007.92,Schengen entry,Land and sea border checks lifted; air borders followed on 30 March 2008,legal,European Commission
+DEU,25 Mar 1957,1957.17,Treaty of Rome signed,The six founding states signed the Treaty establishing the European Economic Community in Rome,legal,EUR-Lex
+DEU,1 Jan 1958,1958.00,EEC treaties enter into force,Founding member of the European Economic Community when the Treaty of Rome took effect,era,EUR-Lex
+DEU,14 Jun 1985,1985.42,Schengen Agreement signed,Original signatory of the Schengen Agreement at Schengen in Luxembourg,legal,EUR-Lex
+DEU,26 Mar 1995,1995.17,Schengen area opens,Internal border checks abolished when the Schengen Convention began to apply,legal,European Commission
+DEU,1 Jan 1999,1999.00,Euro adopted,Founding member of the euro area when the euro was introduced as scriptural currency,economic,ECB
+DEU,1 Jan 2002,2002.00,Euro cash introduced,Euro banknotes and coins entered circulation and replaced the national currency,economic,ECB
 DNK,10 Aug 1961,1961.58,Membership application,Denmark applied for membership of the European Communities,political,European Parliament
 DNK,30 Jun 1970,1970.42,Accession negotiations opened,Accession negotiations with the European Communities formally opened in Luxembourg,era,European Parliament
 DNK,22 Jan 1972,1972.00,Accession treaty signed,Signed the Treaty of Accession at the Egmont Palace in Brussels,legal,European Parliament
 DNK,2 Oct 1972,1972.75,Accession referendum,63.3% voted yes on a turnout of 90.1%,political,national electoral commission
 DNK,1 Jan 1973,1973.00,EC accession,Became a member of the European Communities in the first enlargement,era,European Commission
 DNK,25 Mar 2001,2001.17,Schengen entry,Schengen acquis fully applied to Denmark Finland Sweden Iceland and Norway,legal,Council of the EU
+ESP,28 Jul 1977,1977.50,Membership application,Spain applied for accession to the European Communities after democratisation,political,European Commission
+ESP,5 Feb 1979,1979.08,Accession negotiations opened,Accession negotiations with the European Communities formally opened,era,European Commission
+ESP,12 Jun 1985,1985.42,Accession treaty signed,Signed the Treaty of Accession in Madrid on the same day as Portugal,legal,CVCE historical archive
+ESP,1 Jan 1986,1986.00,EC accession,Joined the European Communities together with Portugal,era,European Commission
+ESP,26 Mar 1995,1995.17,Schengen area opens,Internal border checks abolished when the Schengen Convention began to apply,legal,European Commission
+ESP,1 Jan 1999,1999.00,Euro adopted,Founding member of the euro area when the euro was introduced as scriptural currency,economic,ECB
 EST,31 Mar 1998,1998.17,Accession negotiations opened,Accession negotiations formally opened as part of the Luxembourg group,era,European Commission
 EST,16 Apr 2003,2003.25,Accession treaty signed,Signed the 2003 Treaty of Accession in Athens,legal,EUR-Lex
 EST,14 Sep 2003,2003.67,Accession referendum,66.8% voted yes on a turnout of 64.1%,political,national electoral commission
@@ -63,18 +68,27 @@ FRA,14 Jun 1985,1985.42,Schengen Agreement signed,Original signatory of the Sche
 FRA,26 Mar 1995,1995.17,Schengen area opens,Internal border checks abolished when the Schengen Convention began to apply,legal,European Commission
 FRA,1 Jan 1999,1999.00,Euro adopted,Founding member of the euro area when the euro was introduced as scriptural currency,economic,ECB
 FRA,1 Jan 2002,2002.00,Euro cash introduced,Euro banknotes and coins entered circulation and replaced the national currency,economic,ECB
-DEU,25 Mar 1957,1957.17,Treaty of Rome signed,The six founding states signed the Treaty establishing the European Economic Community in Rome,legal,EUR-Lex
-DEU,1 Jan 1958,1958.00,EEC treaties enter into force,Founding member of the European Economic Community when the Treaty of Rome took effect,era,EUR-Lex
-DEU,14 Jun 1985,1985.42,Schengen Agreement signed,Original signatory of the Schengen Agreement at Schengen in Luxembourg,legal,EUR-Lex
-DEU,26 Mar 1995,1995.17,Schengen area opens,Internal border checks abolished when the Schengen Convention began to apply,legal,European Commission
-DEU,1 Jan 1999,1999.00,Euro adopted,Founding member of the euro area when the euro was introduced as scriptural currency,economic,ECB
-DEU,1 Jan 2002,2002.00,Euro cash introduced,Euro banknotes and coins entered circulation and replaced the national currency,economic,ECB
+GBR,30 Jun 1970,1970.42,Accession negotiations opened,Accession negotiations with the European Communities formally opened in Luxembourg,era,European Parliament
+GBR,22 Jan 1972,1972.00,Accession treaty signed,Signed the Treaty of Accession at the Egmont Palace in Brussels,legal,European Parliament
+GBR,1 Jan 1973,1973.00,EC accession,Became a member of the European Communities in the first enlargement,era,European Commission
+GBR,5 Jun 1975,1975.42,Membership referendum,67.2% voted to stay in the European Communities on a turnout of 64.0%,political,national electoral commission
+GBR,23 Jun 2016,2016.42,Brexit referendum,Leave won 51.89% against Remain on 48.11% on a turnout of 72.21%,warn,national electoral commission
+GBR,29 Mar 2017,2017.17,Article 50 notified,The UK formally notified the European Council of its intention to withdraw under Article 50,warn,Council of the EU
+GBR,31 Jan 2020,2020.00,EU withdrawal,The UK ceased to be a member state of the European Union at 23:00 GMT,warn,Council of the EU
+GBR,31 Dec 2020,2020.92,Transition period ends,The post-Brexit transition period ended and the UK left the single market and customs union,warn,Council of the EU
 GRC,12 Jun 1975,1975.42,Membership application,Greece applied for accession to the European Communities,political,CVCE historical archive
 GRC,27 Jul 1976,1976.50,Accession negotiations opened,Accession negotiations with the European Communities formally opened,era,European Commission
 GRC,28 May 1979,1979.33,Accession treaty signed,Signed the Treaty of Accession in Athens,legal,EUR-Lex
 GRC,1 Jan 1981,1981.00,EC accession,Became the tenth member of the European Communities,era,European Commission
 GRC,26 Mar 2000,2000.17,Schengen entry,Internal border checks lifted under the Schengen acquis,legal,European Commission
 GRC,1 Jan 2001,2001.00,Euro adopted,Replaced the drachma with the euro two years after the euro area was created,economic,ECB
+HRV,21 Feb 2003,2003.08,Membership application,Croatia applied for membership of the European Union,political,European Commission
+HRV,3 Oct 2005,2005.75,Accession negotiations opened,Accession negotiations formally opened,era,European Commission
+HRV,9 Dec 2011,2011.92,Accession treaty signed,Signed the Treaty of Accession in Brussels,legal,EUR-Lex
+HRV,22 Jan 2012,2012.00,Accession referendum,66.7% voted yes on a turnout of 43.5%,political,national electoral commission
+HRV,1 Jul 2013,2013.50,EU accession,Became the 28th member state of the European Union,era,European Commission
+HRV,1 Jan 2023,2023.00,Euro adopted,Replaced the kuna with the euro on the same day it entered Schengen,economic,ECB
+HRV,1 Jan 2023,2023.00,Schengen entry,Land and sea border checks lifted; air borders followed on 26 March 2023,legal,European Commission
 HUN,31 Mar 1994,1994.17,Membership application,Hungary applied for membership of the European Union,political,European Commission
 HUN,31 Mar 1998,1998.17,Accession negotiations opened,Accession negotiations formally opened as part of the Luxembourg group,era,European Commission
 HUN,16 Apr 2003,2003.25,Accession treaty signed,Signed the 2003 Treaty of Accession in Athens,legal,EUR-Lex
@@ -88,17 +102,22 @@ IRL,10 May 1972,1972.33,Accession referendum,83.1% voted yes on a turnout of 70.
 IRL,1 Jan 1973,1973.00,EC accession,Became a member of the European Communities in the first enlargement,era,European Commission
 IRL,1 Jan 1999,1999.00,Euro adopted,Founding member of the euro area when the euro was introduced as scriptural currency,economic,ECB
 IRL,1 Jan 2021,2021.00,Schengen partial participation,Ireland stays outside the passport free area to keep the Common Travel Area; it joined the Schengen Information System for law enforcement,legal,European Commission
+ISL,1 Jan 1973,1973.0,Free trade agreement with the EEC,Bilateral agreement removing tariffs on industrial goods,legal,"European Commission, DG NEAR"
+ISL,1 Jan 1994,1994.0,EEA Agreement in force,"Iceland enters the single market as a non-member. Fisheries stay outside, which is the central reason membership has never been settled here",era,EFTA
+ISL,25 Mar 2001,2001.23,Schengen applied,"Border checks lifted with the Schengen area, together with Norway and the Nordic EU members",legal,European Economic and Social Committee; contemporaneous reporting
+ISL,Oct 2008,2008.77,Banking collapse,"All three major banks — Landsbanki, Glitnir and Kaupthing — failed or were taken into resolution within a few days, after the state took a partial stake in Glitnir on 29 September. Two credited government sources disagree by about a day on each bank, so no single dates are given",warn,Icelandic Government report on the 2008 bank collapse; UK House of Commons Treasury Committee
+ISL,17 Jul 2009,2009.54,Membership application submitted,"The Althingi voted to apply on 16 July, 33 to 28 with 2 abstentions; the application was delivered the following day to Sweden, then holding the Council presidency",political,"Council of the EU; European Commission, DG NEAR"
+ISL,17 Jun 2010,2010.46,Council decides to open negotiations,The negotiating framework was adopted on 26 July and the first intergovernmental conference held on 27 July 2010,era,"Council of the EU; European Commission, DG NEAR"
+ISL,18 Dec 2012,2012.96,Last accession conference,The final ministerial-level accession conference. 27 of 35 chapters had been opened and 11 provisionally closed,political,Council of the EU
+ISL,17 Dec 2013,2013.96,Negotiations put on hold,"The Council takes note of the Icelandic government's decision to suspend accession talks, taken after the May 2013 election returned two parties opposed to membership",warn,Council of the EU
+ISL,12 Mar 2015,2015.2,Iceland asks not to be treated as a candidate,The foreign minister writes to the Council stating the government has no intention of resuming accession talks and that Iceland should not be regarded as a candidate country,warn,Council of the EU (ST-7864-2015-INIT)
+ISL,28 May 2026,2026.41,Althingi calls a referendum,Parliament approves the foreign minister's resolution putting the question of resuming accession negotiations to a national vote,political,RÚV (Icelandic national broadcaster)
+ISL,29 Aug 2026,2026.66,Advisory referendum scheduled,"""Should Iceland begin membership negotiations with the European Union anew?"" The vote is advisory under Icelandic electoral law, not binding. It had not been held when this page was generated",era,"Landskjörstjórn (Icelandic National Electoral Commission), thjodaratkvaedi.is"
 ITA,25 Mar 1957,1957.17,Treaty of Rome signed,The six founding states signed the Treaty establishing the European Economic Community in Rome,legal,EUR-Lex
 ITA,1 Jan 1958,1958.00,EEC treaties enter into force,Founding member of the European Economic Community when the Treaty of Rome took effect,era,EUR-Lex
 ITA,26 Oct 1997,1997.75,Schengen entry,Internal border checks with the Schengen states were lifted,legal,European Commission
 ITA,1 Jan 1999,1999.00,Euro adopted,Founding member of the euro area when the euro was introduced as scriptural currency,economic,ECB
 ITA,1 Jan 2002,2002.00,Euro cash introduced,Euro banknotes and coins entered circulation and replaced the national currency,economic,ECB
-LVA,15 Feb 2000,2000.08,Accession negotiations opened,Accession negotiations formally opened as part of the Helsinki group,era,European Commission
-LVA,16 Apr 2003,2003.25,Accession treaty signed,Signed the 2003 Treaty of Accession in Athens,legal,EUR-Lex
-LVA,20 Sep 2003,2003.67,Accession referendum,67.5% voted yes on a turnout of 71.5%,political,national electoral commission
-LVA,1 May 2004,2004.33,EU accession,Became a member state of the European Union in the largest single enlargement,era,European Commission
-LVA,21 Dec 2007,2007.92,Schengen entry,Land and sea border checks lifted; air borders followed on 30 March 2008,legal,European Commission
-LVA,1 Jan 2014,2014.00,Euro adopted,Replaced the lats with the euro,economic,ECB
 LTU,8 Dec 1995,1995.92,Membership application,Lithuania applied for membership of the European Union,political,European Commission
 LTU,15 Feb 2000,2000.08,Accession negotiations opened,Accession negotiations formally opened as part of the Helsinki group,era,European Commission
 LTU,16 Apr 2003,2003.25,Accession treaty signed,Signed the 2003 Treaty of Accession in Athens,legal,EUR-Lex
@@ -112,6 +131,12 @@ LUX,14 Jun 1985,1985.42,Schengen Agreement signed,Original signatory of the Sche
 LUX,26 Mar 1995,1995.17,Schengen area opens,Internal border checks abolished when the Schengen Convention began to apply,legal,European Commission
 LUX,1 Jan 1999,1999.00,Euro adopted,Founding member of the euro area when the euro was introduced as scriptural currency,economic,ECB
 LUX,1 Jan 2002,2002.00,Euro cash introduced,Euro banknotes and coins entered circulation and replaced the national currency,economic,ECB
+LVA,15 Feb 2000,2000.08,Accession negotiations opened,Accession negotiations formally opened as part of the Helsinki group,era,European Commission
+LVA,16 Apr 2003,2003.25,Accession treaty signed,Signed the 2003 Treaty of Accession in Athens,legal,EUR-Lex
+LVA,20 Sep 2003,2003.67,Accession referendum,67.5% voted yes on a turnout of 71.5%,political,national electoral commission
+LVA,1 May 2004,2004.33,EU accession,Became a member state of the European Union in the largest single enlargement,era,European Commission
+LVA,21 Dec 2007,2007.92,Schengen entry,Land and sea border checks lifted; air borders followed on 30 March 2008,legal,European Commission
+LVA,1 Jan 2014,2014.00,Euro adopted,Replaced the lats with the euro,economic,ECB
 MLT,15 Feb 2000,2000.08,Accession negotiations opened,Accession negotiations formally opened as part of the Helsinki group,era,European Commission
 MLT,8 Mar 2003,2003.17,Accession referendum,53.6% voted yes on a turnout of 90.9%,political,national electoral commission
 MLT,16 Apr 2003,2003.25,Accession treaty signed,Signed the 2003 Treaty of Accession in Athens,legal,EUR-Lex
@@ -124,6 +149,14 @@ NLD,14 Jun 1985,1985.42,Schengen Agreement signed,Original signatory of the Sche
 NLD,26 Mar 1995,1995.17,Schengen area opens,Internal border checks abolished when the Schengen Convention began to apply,legal,European Commission
 NLD,1 Jan 1999,1999.00,Euro adopted,Founding member of the euro area when the euro was introduced as scriptural currency,economic,ECB
 NLD,1 Jan 2002,2002.00,Euro cash introduced,Euro banknotes and coins entered circulation and replaced the national currency,economic,ECB
+NOR,1962,1962.0,First application to the EEC,"Applied for membership of the European Economic Community; negotiations were suspended after France vetoed the United Kingdom's application. The exact day of the application could not be verified against a working institutional source, so only the year is given",political,Norwegian Ministry of Foreign Affairs (norway.no)
+NOR,1967,1967.0,Second application to the EEC,Applied again; suspended a second time on the same French veto. Day-level date not verified,political,Norwegian Ministry of Foreign Affairs (norway.no)
+NOR,24-25 Sep 1972,1972.73,First referendum: no,53.5% voted against membership of the European Communities and 46.5% in favour. Statistics Norway records turnout at 79.2%; one secondary account gives 78.2%. The Labour government resigned,warn,Statistics Norway (SSB); Stortinget
+NOR,2 May 1992,1992.34,EEA Agreement signed,"Signed in Porto. Gives Norway the single market for goods, services, capital and labour, and obliges it to adopt the relevant EU acquis without a vote on it",legal,Norwegian Government (regjeringen.no); EFTA
+NOR,1 Jan 1994,1994.0,EEA Agreement in force,"Norway enters the single market as a non-member: most internal-market law applies, agriculture and fisheries do not, and there is no seat at the table where the rules are made",era,Norwegian Government (regjeringen.no); EFTA
+NOR,24 Jun 1994,1994.48,Accession treaty signed,"Signed at the Corfu European Council alongside Austria, Finland and Sweden, subject to ratification",legal,Council of the EU (7979/94)
+NOR,27-28 Nov 1994,1994.91,Second referendum: no,"52.2% voted against and 47.8% in favour on a turnout of 89.0%. The accession treaty was never ratified; Austria, Finland and Sweden joined on 1 January 1995 and Norway did not",warn,Statistics Norway (SSB)
+NOR,25 Mar 2001,2001.23,Schengen applied,"Border checks lifted with the Schengen area, together with Iceland and the Nordic EU members, preserving the Nordic Passport Union",legal,European Economic and Social Committee; contemporaneous reporting
 POL,5 Apr 1994,1994.25,Membership application,Poland applied for membership of the European Union,political,European Commission
 POL,31 Mar 1998,1998.17,Accession negotiations opened,Accession negotiations formally opened as part of the Luxembourg group,era,European Commission
 POL,16 Apr 2003,2003.25,Accession treaty signed,Signed the 2003 Treaty of Accession in Athens,legal,EUR-Lex
@@ -156,23 +189,9 @@ SVN,16 Apr 2003,2003.25,Accession treaty signed,Signed the 2003 Treaty of Access
 SVN,1 May 2004,2004.33,EU accession,Became a member state of the European Union in the largest single enlargement,era,European Commission
 SVN,1 Jan 2007,2007.00,Euro adopted,First of the 2004 entrants to replace its currency with the euro,economic,ECB
 SVN,21 Dec 2007,2007.92,Schengen entry,Land and sea border checks lifted; air borders followed on 30 March 2008,legal,European Commission
-ESP,28 Jul 1977,1977.50,Membership application,Spain applied for accession to the European Communities after democratisation,political,European Commission
-ESP,5 Feb 1979,1979.08,Accession negotiations opened,Accession negotiations with the European Communities formally opened,era,European Commission
-ESP,12 Jun 1985,1985.42,Accession treaty signed,Signed the Treaty of Accession in Madrid on the same day as Portugal,legal,CVCE historical archive
-ESP,1 Jan 1986,1986.00,EC accession,Joined the European Communities together with Portugal,era,European Commission
-ESP,26 Mar 1995,1995.17,Schengen area opens,Internal border checks abolished when the Schengen Convention began to apply,legal,European Commission
-ESP,1 Jan 1999,1999.00,Euro adopted,Founding member of the euro area when the euro was introduced as scriptural currency,economic,ECB
 SWE,1 Jul 1991,1991.50,Membership application,Sweden applied for membership of the European Communities,political,European Commission
 SWE,1 Feb 1993,1993.08,Accession negotiations opened,Accession negotiations opened together with Austria and Finland,era,European Commission
 SWE,24 Jun 1994,1994.42,Accession treaty signed,Signed the Treaty of Accession in Corfu alongside Finland Sweden and Norway,legal,Council of the EU
 SWE,13 Nov 1994,1994.83,Accession referendum,52.3% voted yes on a turnout of 83.3%,political,national electoral commission
 SWE,1 Jan 1995,1995.00,EU accession,Became a member state of the European Union,era,European Commission
 SWE,25 Mar 2001,2001.17,Schengen entry,Schengen acquis fully applied to Denmark Finland Sweden Iceland and Norway,legal,Council of the EU
-GBR,30 Jun 1970,1970.42,Accession negotiations opened,Accession negotiations with the European Communities formally opened in Luxembourg,era,European Parliament
-GBR,22 Jan 1972,1972.00,Accession treaty signed,Signed the Treaty of Accession at the Egmont Palace in Brussels,legal,European Parliament
-GBR,1 Jan 1973,1973.00,EC accession,Became a member of the European Communities in the first enlargement,era,European Commission
-GBR,5 Jun 1975,1975.42,Membership referendum,67.2% voted to stay in the European Communities on a turnout of 64.0%,political,national electoral commission
-GBR,23 Jun 2016,2016.42,Brexit referendum,Leave won 51.89% against Remain on 48.11% on a turnout of 72.21%,warn,national electoral commission
-GBR,29 Mar 2017,2017.17,Article 50 notified,The UK formally notified the European Council of its intention to withdraw under Article 50,warn,Council of the EU
-GBR,31 Jan 2020,2020.00,EU withdrawal,The UK ceased to be a member state of the European Union at 23:00 GMT,warn,Council of the EU
-GBR,31 Dec 2020,2020.92,Transition period ends,The post-Brexit transition period ended and the UK left the single market and customs union,warn,Council of the EU

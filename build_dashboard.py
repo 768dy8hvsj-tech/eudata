@@ -103,6 +103,97 @@ def money(iso3):
     }
 
 
+def verdict_nonmember(row, V):
+    """The mirror question, and it does not have a mirror answer.
+
+    A member page can ask what joining did, because there is a before and an after. A
+    non-member page cannot ask what staying out did, because there is no after — it would
+    need a counterfactual for a country that never entered, and no comparison of observed
+    outcomes produces one. This project already closed that question as structurally
+    unanswerable; the panel says so rather than manufacturing a verdict.
+
+    What CAN be said is narrower and worth having: where the country actually sits, and
+    whether the members it is compared against pulled ahead of it. Both are reported, and
+    both are levels and trajectories rather than effects.
+    """
+    W = V.get("groups", {}).get("West", {})
+    allrows = V.get("rows", [])
+    ch = []
+    members = sorted([r for r in allrows if r["member"]], key=lambda r: -r["relEnd"])
+    above = [r["name"] for r in members if r["relEnd"] > row["relEnd"]]
+    artefacts = {"Ireland", "Luxembourg"}
+    real_above = [n for n in above if n not in artefacts]
+    ch.append({
+        "key": "Where it actually sits",
+        "status": "fact",
+        "verdict": "positive" if not real_above else "unknown",
+        "head": f"{row['relEnd']:.1f}% of US income per head, {row['relEnd'] / 100:.2f}× the "
+                f"US level — "
+                + ("higher than every EU member" if not above
+                   else "higher than all but " + join_names(above) + " among the 28"),
+        "note": "A level, not an effect — it says where this country is, not what put it there."
+                + (" Both of the members above it are statistical artefacts: Ireland's and "
+                   "Luxembourg's measured output is inflated by profit-shifting, so it includes "
+                   "income accruing to companies rather than to residents."
+                   if above and not real_above else
+                   " Two of the members above it, Ireland and Luxembourg, are statistical "
+                   "artefacts — their measured output is inflated by profit-shifting. The "
+                   "others are not."
+                   if (set(above) & artefacts) and real_above else ""),
+    })
+
+    ch.append({
+        "key": "Did the members pull ahead?",
+        "status": "not established",
+        "verdict": "unknown",
+        "head": f"{row['relGain']:+.1f} points against the US level 2000–{row['endYear']}, "
+                f"against a Western-member median of {W.get('memberMedian', 0):+.1f}",
+        "note": "The gap between Western members and their non-member comparators is "
+                f"{(W.get('memberMedian') or 0) - (W.get('nonMedian') or 0):+.1f} points with a "
+                f"95% interval of {W.get('welch', {}).get('lo', 0):+.1f} to "
+                f"{W.get('welch', {}).get('hi', 0):+.1f} — it spans zero in both directions. "
+                "Three comparators cannot settle a question like this, and the pre-accession "
+                "placebo already reports "
+                f"{W.get('placebo1997', {}).get('gap', 0):+.1f} in the members' favour, so even "
+                "the sign is not stable.",
+    })
+
+    ch.append({
+        "key": "What staying out cost or saved",
+        "status": "untestable",
+        "verdict": "unknown",
+        "head": "not answerable, and not for want of data",
+        "note": "It would require knowing what this country would look like <em>inside</em> "
+                "the Union. That is a counterfactual about a country that never entered, and "
+                "no comparison of observed outcomes can supply it. The non-members are also "
+                "not a random sample — Norway holds sovereign wealth no member has, and "
+                "Iceland's trajectory runs through a banking collapse in 2008 that has nothing "
+                "to do with either joining or not joining.",
+    })
+
+    return {
+        "label": "No measurable penalty",
+        "tone": "muted",
+        "gist": "Nothing in this data shows a cost to staying out — and that is a much weaker "
+                "statement than it sounds. It means no penalty was <em>detected</em> by a "
+                "comparison with three usable comparators and intervals wide enough to hold "
+                "almost any answer. It is not evidence that staying out was the better choice, "
+                "and this project cannot produce such evidence. Note also that both non-member "
+                "profiles here are inside the single market through the EEA: they have most of "
+                "what the charts on a member page are measuring.",
+        "channels": ch,
+        "counts": {"positive": sum(1 for c in ch if c["verdict"] == "positive"),
+                   "negative": 0,
+                   "unknown": sum(1 for c in ch if c["verdict"] == "unknown")},
+        "question": "Does the data suggest this country loses by staying out?",
+        "rule": "There is no rule here, because there is no verdict to reach. The three rows "
+                "are a level, a trajectory comparison whose interval spans zero, and an "
+                "explicit statement that the central question cannot be answered by this "
+                "design. A member page reaches a headline by counting positive channels; this "
+                "page deliberately does not.",
+    }
+
+
 def verdict(iso3):
     """Does the evidence in this study suggest this country gains from membership?
 
@@ -136,6 +227,9 @@ def verdict(iso3):
     td = (trade or {}).get("did", {}).get(bloc, {})
     own = next((r for r in (td.get("rows") or []) if r["iso3"] == iso3), None)
     res = next((r for r in V.get("catchup", {}).get("rows", []) if r["name"] == row["name"]), None)
+
+    if not row.get("member"):
+        return verdict_nonmember(row, V)
 
     founding = row.get("accession") == 1958
     ch = []
@@ -306,6 +400,46 @@ def context(iso3, table):
         return []
     out = []
 
+    if not me["member"]:
+        pool = sorted(rows, key=lambda r: -r["relGain"])
+        rank = [r["iso3"] for r in pool].index(iso3) + 1
+        out.append({
+            "title": "Against a fixed external benchmark",
+            "text": f"Measured against US income per head at purchasing-power parity over a "
+                    f"common 2000–{me['endYear']} window, {me['name']} moved from "
+                    f"{me['relStart']:.1f}% of the US level to {me['relEnd']:.1f}% — a change "
+                    f"of {me['relGain']:+.1f} points, <strong>{rank}{ordinal(rank)} of "
+                    f"{len(pool)}</strong> among the members and non-members this project "
+                    f"tracks. The share of the EU average is not used here, because that "
+                    f"denominator rises as poorer members catch up and would drag a rich "
+                    f"country's line down while its economy grew."})
+        g = table.get((iso3, "NY.GDP.MKTP.KD.ZG"), {})
+        bits = []
+        for yr, name, mshare, nshare in [(2009, "the global financial crisis", 96, 77),
+                                         (2012, "the euro-area debt crisis", 61, 23),
+                                         (2020, "the pandemic", 93, 92)]:
+            v = g.get(yr)
+            if v is not None:
+                bits.append(f"In {yr}, during {name}, output "
+                            f"{'fell' if v < 0 else 'grew'} {abs(v):.1f}%; {mshare}% of members "
+                            f"contracted that year against {nshare}% of non-members.")
+        if bits:
+            out.append({"title": "Through the three downturns", "text": " ".join(bits)
+                        + " <strong>2012 is the one episode that separates the two groups</strong> "
+                          "— 61% of members contracted against 23% of non-members — and it is "
+                          "the clearest measurable cost of integration this study found. This "
+                          "country is on the other side of that comparison."})
+        if me.get("tradeGain") is not None:
+            out.append({"title": "Trade opening", "text":
+                f"Exports plus imports as a share of GDP moved {me['tradeGain']:+.1f} points "
+                f"between 2000 and today. This matters more here than anywhere else in the "
+                f"project: trade is the one outcome that survives every check, and it does so "
+                f"by comparing Eastern members against Western Balkan non-members. This "
+                f"country is a <em>Western</em> comparator, and it is inside the single market "
+                f"through the EEA — which is part of why the Western trade estimate does not "
+                f"survive its own placebo."})
+        return out
+
     members = sorted([r for r in rows if r["member"]], key=lambda r: -r["relGain"])
     rank = [r["iso3"] for r in members].index(iso3) + 1
     out.append({
@@ -354,6 +488,15 @@ def context(iso3, table):
                     f"points of GDP against Western Balkan non-members, 11 countries out of "
                     f"11</strong>, with a pre-accession placebo of +0.6."})
     return out
+
+
+def join_names(names):
+    """Oxford-comma join. Four names strung together with 'and' reads as one mistake."""
+    if len(names) == 1:
+        return names[0]
+    if len(names) == 2:
+        return " and ".join(names)
+    return ", ".join(names[:-1]) + " and " + names[-1]
 
 
 def ordinal(n):
@@ -405,6 +548,9 @@ def build(iso3):
 
     payload = {
         "iso3": iso3, "name": nar["name"], "subtitle": nar["subtitle"],
+        "member": nar.get("member", True),
+        "pageTitle": (f"{nar['name']} — EU membership impact" if nar.get("member", True)
+                      else f"{nar['name']} — outside the Union"),
         "window": w, "years": years, "series": series, "kpis": kpis,
         "heroChart": nar["heroChart"], "tabs": nar["tabs"],
         "sources": nar["sources"], "method": nar["method"],
@@ -426,7 +572,10 @@ def build(iso3):
 
     html = (BASE / "template.html").read_text(encoding="utf-8")
     blob = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
-    html = html.replace("__TITLE__", f"{nar['name']} — EU membership impact")
+    member = nar.get("member", True)
+    title = (f"{nar['name']} — EU membership impact" if member
+             else f"{nar['name']} — outside the Union")
+    html = html.replace("__TITLE__", title)
     html = html.replace("__PAYLOAD__", blob)
 
     slug = re.sub(r"[^a-z0-9]+", "-", nar["name"].lower()).strip("-")
