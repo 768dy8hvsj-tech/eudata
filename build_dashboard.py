@@ -136,6 +136,37 @@ def disputes(iso3):
     return out
 
 
+DEST = [("EU", "European Union"), ("EUR", "Rest of Europe"),
+        ("ASIA", "Asia"), ("NAMER", "North America"), ("MEAST", "Middle East"),
+        ("LATAM", "Latin America"), ("AFR", "Africa"), ("OCE", "Oceania"),
+        ("OTHER", "Unallocated")]
+
+
+def destinations(iso3, table):
+    """Where this country's goods exports actually go, as a partition of total exports.
+
+    Built by summing every individual trading partner in the Commission's COMEXT bilateral
+    data into regions, so the shares add to exactly 100 rather than to whatever is left after
+    the published aggregates overlap. "Unallocated" is kept as a visible category -- it is
+    ships' and aircraft stores, and it is material for the bunkering economies -- rather than
+    quietly redistributed to make the arithmetic look tidier.
+    """
+    out, year = [], None
+    for code, label in DEST:
+        s = table.get((iso3, "TRADE.DEST." + code), {})
+        ys = [y for y, v in s.items() if v is not None]
+        if not ys:
+            continue
+        y = max(ys)
+        year = max(year, y) if year else y
+        out.append({"code": code, "label": label, "value": round(s[y], 1)})
+    if not out:
+        return None
+    tot = table.get((iso3, "TRADE.DEST.EU"), {})
+    return {"year": year, "rows": out,
+            "total": round(sum(r["value"] for r in out), 1)}
+
+
 def acquis(col):
     """How much of the Union's rulebook already applies, area by area.
 
@@ -719,6 +750,16 @@ def build(iso3):
             if _r:
                     _join = joining_case(iso3, _col, _r, _V, nar["name"])
 
+    # the other non-member pages, so the three are navigable between themselves
+    _siblings = []
+    _nmp = DATA / "nonmembers.csv"
+    if not nar.get("member", True) and _nmp.exists():
+        for _c in csv.DictReader(open(_nmp, encoding="utf-8")):
+            if _c["iso3"] != iso3:
+                _siblings.append({"name": _c["name"],
+                                  "href": re.sub(r"[^a-z0-9]+", "-", _c["name"].lower()).strip("-")
+                                          + "-dashboard.html"})
+
     payload = {
         "iso3": iso3, "name": nar["name"], "subtitle": nar["subtitle"],
         "member": nar.get("member", True),
@@ -737,6 +778,8 @@ def build(iso3):
         "milestonesDropped": [{"date": m["date"], "label": m["label"]} for m in dropped],
         "money": money(iso3),
         "flows": nonmember_flows(iso3),
+        "destinations": destinations(iso3, table),
+        "siblings": _siblings,
         "acquis": _acq, "joining": _join,
         "disputes": disputes(iso3),
         "verdict": verdict(iso3),

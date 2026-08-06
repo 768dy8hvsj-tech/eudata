@@ -1120,6 +1120,28 @@ direction["regions"] = sorted(
      if any(v is not None for v in
             [series.get(("EU27", c), {}).get(y) for y in direction["years"]])],
     key=lambda r: -(next((v for v in reversed(r["path"]) if v is not None), 0)))
+# Where every country's exports go, as a partition of total exports. Built from COMEXT
+# bilateral data by summing all ~255 partners into regions, so the shares add to 100 instead
+# of overlapping the way the published aggregates do.
+_DEST = [("EU", "European Union"), ("EUR", "Rest of Europe"), ("ASIA", "Asia"),
+         ("NAMER", "North America"), ("MEAST", "Middle East"), ("LATAM", "Latin America"),
+         ("AFR", "Africa"), ("OCE", "Oceania"), ("OTHER", "Unallocated")]
+direction["destLabels"] = [{"code": c, "label": l} for c, l in _DEST]
+dest = []
+for iso, b in sorted(_bloc.items()):
+    vals, yr = {}, None
+    for c, _l in _DEST:
+        s_ = series.get((iso, "TRADE.DEST." + c), {})
+        if not s_:
+            continue
+        y = max(s_)
+        yr = max(yr, y) if yr else y
+        vals[c] = round(s_[y], 1)
+    if not vals:
+        continue
+    dest.append({"iso3": iso, "name": b["name"], "bloc": b["bloc"],
+                 "member": b["group"] == "member", "year": yr, "v": vals})
+direction["dest"] = sorted(dest, key=lambda r: -r["v"].get("EU", 0))
 payload["direction"] = direction
 
 # ------------------------------------------------------------- verdict

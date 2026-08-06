@@ -56,11 +56,13 @@ if os.path.exists(nm_path):
             f'<a href="{slug(c["name"])}"><span class="n">{c["name"]}</span>'
             f'<span class="d">{"not a member · EEA since 1994" if c["eea_year"].strip() else "not a member · bilateral route"}</span></a>'
             for c in sorted(built, key=lambda x: x["name"]))
-        cards += ('<h4>Non-members — profiled</h4>'
-                  '<p class="mini">Comparison countries, shown rather than assumed. Both are '
-                  'inside the single market through the EEA without being in the Union, which '
-                  'makes them a demanding control rather than an easy one.</p>'
-                  f'<div class="clist">{items}</div>')
+        nm_block = ('<h4 id="non-members">Non-members — profiled</h4>'
+                    '<p class="mini">The comparison countries every estimate in this '
+                    'project is measured against — shown rather than assumed. Each carries a '
+                    'membership verdict, what it pays the Union, its points of contention, and '
+                    'a map of how much of the EU rulebook already applies.</p>'
+                    f'<div class="clist">{items}</div>')
+        cards = nm_block + cards
 
 ci = adjE.get("ci")
 headline_val = "not distinguishable from zero" if (ci and ci["crossesZero"]) else f"{adjE['mean']:+.1f}%"
@@ -147,7 +149,7 @@ text-decoration:none;background:var(--surface-1)}}
 .stamp{{font-size:11.5px;color:var(--text-muted);margin-top:26px}}
 </style></head>
 <body><div class="viz-root"><div class="wrap">
-<nav class="sitenav"><a class="here">Overview</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a><a href="flows.html">Budget flows</a></nav>
+<nav class="sitenav"><a class="here">Overview</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a><a href="flows.html">Budget flows</a><a href="start-here.html#non-members">Non-members</a></nav>
 <header class="top">
 <div><h1>EU membership impact</h1>
 <p class="sub">What has EU membership done to its member states — legally, financially, commercially, politically and socially — measured against comparable countries that never joined.</p></div>

@@ -200,7 +200,7 @@
 <body>
 <div class="viz-root">
   <div class="wrap">
-    <nav class="sitenav"><a href="start-here.html">← Overview</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a><a href="flows.html">Budget flows</a></nav>
+    <nav class="sitenav"><a href="start-here.html">← Overview</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a><a href="flows.html">Budget flows</a><a href="start-here.html#non-members">Non-members</a></nav>
     <header class="top">
       <div>
         <h1 id="hTitle"></h1>
@@ -223,6 +223,22 @@
   var W_ = P.window;
   var NS = "http://www.w3.org/2000/svg";
 
+  /* A reader who lands on Norway should be one click from Iceland and Switzerland. The
+     static nav cannot know which pages exist, so the siblings are injected from the payload. */
+  if (P.member === false && (P.siblings || []).length) {
+    var nav = document.querySelector("nav.sitenav");
+    if (nav) {
+      var sep = document.createElement("span");
+      sep.style.cssText = "color:var(--text-muted);font-size:12.5px";
+      sep.textContent = "· also outside:";
+      nav.appendChild(sep);
+      P.siblings.forEach(function (s) {
+        var a = document.createElement("a");
+        a.href = s.href; a.textContent = s.name;
+        nav.appendChild(a);
+      });
+    }
+  }
   document.title = P.pageTitle || (P.name + " — EU membership impact");
   document.getElementById("hTitle").textContent = P.pageTitle || (P.name + " — EU membership impact");
   document.getElementById("hSub").innerHTML = P.subtitle;
@@ -915,6 +931,87 @@
     return card;
   }
 
+  /* ---------------- where this country's exports actually go ----------------
+     One bar, nine segments, summing to 100. The point of a partition rather than a ranked
+     list is that it answers "and the rest?" in the same glance. */
+  function destinationsCard() {
+    var D = P.destinations;
+    if (!D) return null;
+    var COL = { EU: "#2a78d6", EUR: "#5aa9a2", ASIA: "#5faf7e", NAMER: "#d0ae5c",
+                MEAST: "#d99a68", LATAM: "#cf8a86", AFR: "#b58aa8", OCE: "#948fbd",
+                OTHER: "#c3c2b7" };
+    var card = h("div", "card");
+    card.appendChild(h("h3", null, "Where its exports actually go"));
+    card.appendChild(h("p", "sub", "Goods exports by destination region, " + D.year
+      + ", as a share of the total. Built by summing every individual trading partner in the "
+      + "Commission's COMEXT bilateral data, so the nine shares add to 100 rather than "
+      + "overlapping. Hover any segment."));
+
+    var rows = D.rows.slice().sort(function (a, b) { return b.value - a.value; });
+    var root = h("div", "chart-box");
+    var W = 760, L = 0, R = 0, Hb = 62;
+    var svg = el("svg", { viewBox: "0 0 " + W + " " + Hb, role: "img",
+      "aria-label": "exports by destination" });
+    var tt = h("div", "tooltip");
+    var run = 0, total = rows.reduce(function (a, r) { return a + r.value; }, 0) || 100;
+    rows.forEach(function (r) {
+      var seg = r.value / total * W;
+      if (seg <= 0) return;
+      var rect = el("rect", { x: run, y: 0, width: seg, height: 38 },
+        "fill:" + COL[r.code] + ";stroke:var(--surface-1);stroke-width:1");
+      rect.addEventListener("pointerenter", function () {
+        while (tt.firstChild) tt.removeChild(tt.firstChild);
+        var a = h("div", "tt-title"); a.textContent = r.label; tt.appendChild(a);
+        var b = h("div", "tt-val"); b.textContent = fmt(r.value, 1).replace("+", "") + "% of exports";
+        tt.appendChild(b);
+        tt.style.display = "block"; tt.style.left = "10px"; tt.style.top = "44px";
+      });
+      rect.addEventListener("pointerleave", function () { tt.style.display = "none"; });
+      svg.appendChild(rect);
+      if (seg > 52) {
+        var t1 = el("text", { x: run + seg / 2, y: 23, "text-anchor": "middle" },
+          "fill:#fff;font-size:12px;font-weight:600;pointer-events:none;font-variant-numeric:tabular-nums");
+        t1.textContent = r.value.toFixed(r.value >= 10 ? 0 : 1) + "%";
+        svg.appendChild(t1);
+      }
+      if (seg > 76) {
+        var t2 = el("text", { x: run + seg / 2, y: 52, "text-anchor": "middle" },
+          "fill:var(--text-secondary);font-size:11px;pointer-events:none");
+        t2.textContent = r.label;
+        svg.appendChild(t2);
+      }
+      run += seg;
+    });
+    root.appendChild(svg); root.appendChild(tt);
+    card.appendChild(root);
+
+    var tb = h("table", "t");
+    var hr = document.createElement("tr");
+    ["Destination", "% of exports"].forEach(function (x, j) {
+      var th = document.createElement("th"); if (j) th.className = "num";
+      th.textContent = x; hr.appendChild(th);
+    });
+    tb.appendChild(hr);
+    rows.forEach(function (r) {
+      var tr = document.createElement("tr");
+      var td = document.createElement("td"); td.className = "nm";
+      td.innerHTML = '<span style="display:inline-block;width:9px;height:9px;border-radius:2px;'
+        + 'margin-right:7px;background:' + COL[r.code] + '"></span>' + r.label;
+      tr.appendChild(td);
+      var td2 = document.createElement("td"); td2.className = "num";
+      td2.textContent = r.value.toFixed(1) + "%"; tr.appendChild(td2);
+      tb.appendChild(tr);
+    });
+    card.appendChild(tb);
+    card.appendChild(h("p", "note", "Goods only — services are not in this dataset, which "
+      + "matters for economies that sell more services than goods. “Unallocated” is ships' and "
+      + "aircraft stores and partners not specified; it is kept visible rather than "
+      + "redistributed, and it is material for the bunkering economies. Regions are UN M49 "
+      + "style: Mexico sits in Latin America, not North America. Source: European Commission "
+      + "COMEXT, dataset ds-059331."));
+    return card;
+  }
+
   function buildBlocks(host, blocks) {
     blocks.forEach(function (b) {
       if (b.type === "prose") host.appendChild(proseCard(b));
@@ -1011,6 +1108,9 @@
           + "."));
       }
       sec.appendChild(mc);
+    } else if (t.id === "commercial") {
+      var dcx = destinationsCard(); if (dcx) sec.appendChild(dcx);
+      buildBlocks(sec, P.tabs[t.id] || []);
     } else if (t.id === "financial") {
       var fm = moneyCard(true); if (fm) sec.appendChild(fm);
       buildBlocks(sec, P.tabs[t.id] || []);

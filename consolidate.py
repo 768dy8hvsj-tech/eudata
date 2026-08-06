@@ -205,6 +205,27 @@ if os.path.exists(tp):
              "value": r["value"], "source": r["source"], "retrieved": r["retrieved"]})
         derived += 1
 
+# 8. trade by world region, per country. Built from COMEXT bilateral data by summing all
+#    ~255 individual partners into UN M49-style regions, so the nine shares partition total
+#    exports exactly. Kept on the "% of total exports" basis only -- the extra-EU basis is in
+#    the raw file, and mixing the two in one chart would be a category error.
+tr = os.path.join(DATA, "raw", "_trade_regions.csv")
+if os.path.exists(tr):
+    RID = {"European Union (EU27)": "EU", "Rest of Europe (non-EU27)": "EUR",
+           "Asia (excl. Middle East)": "ASIA", "Middle East": "MEAST", "Africa": "AFR",
+           "North America": "NAMER", "Latin America & Caribbean": "LATAM",
+           "Oceania & polar regions": "OCE", "Other / unallocated": "OTHER"}
+    for r in csv.DictReader(open(tr, encoding="utf-8")):
+        if r["unit"] != "% of total exports" or r["partner"] not in RID:
+            continue
+        name = next((x["country"] for x in rows if x["iso3"] == r["iso3"]), r["iso3"])
+        add({"iso3": r["iso3"], "country": name,
+             "indicator_code": "TRADE.DEST." + RID[r["partner"]],
+             "indicator_name": f"Exports to {r['partner']}, % of total exports",
+             "unit": "%", "year": r["year"], "value": r["value"],
+             "source": r["source"], "retrieved": r["retrieved"]})
+        derived += 1
+
 rows.sort(key=lambda r: (r["iso3"], r["indicator_code"], int(r["year"])))
 with open(os.path.join(DATA, "indicators.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=FIELDS)

@@ -94,13 +94,18 @@
   .sitenav a{color:var(--text-secondary);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px}
   .sitenav a:hover{color:var(--text-primary);border-bottom-color:var(--border)}
   .sitenav a.here{color:var(--text-primary);font-weight:600;border-bottom-color:var(--series-1)}
+  .picker{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 12px}
+  .picker button{background:var(--surface-1);border:1px solid var(--border);color:var(--text-secondary);
+    border-radius:20px;padding:5px 12px;font-size:12.5px;cursor:pointer;font-family:inherit}
+  .picker button:hover{color:var(--text-primary)}
+  .picker button[aria-pressed="true"]{background:var(--series-1);border-color:var(--series-1);color:#fff;font-weight:600}
   .pill{display:inline-block;font-size:11px;color:var(--text-muted);border:1px solid var(--border);
     border-radius:20px;padding:2px 9px;margin:3px 4px 0 0}
 </style>
 </head>
 <body>
 <div class="viz-root"><div class="wrap">
-  <nav class="sitenav"><a href="start-here.html">← Overview</a><a href="index.html">Country comparison</a><a class="here">The argument</a><a href="flows.html">Budget flows</a></nav>
+  <nav class="sitenav"><a href="start-here.html">← Overview</a><a href="index.html">Country comparison</a><a class="here">The argument</a><a href="flows.html">Budget flows</a><a href="start-here.html#non-members">Non-members</a></nav>
   <header class="top">
     <div>
       <h1>Did EU membership change member states' trajectories?</h1>
@@ -346,6 +351,35 @@ function estCard(label,val,unit,dp,ci,goodIsPositive,n,pl){
 /* Levels, not changes. fmt() puts a plus sign in front of every positive number, which is
    right for a difference-in-differences estimate and wrong for "40% of exports". */
 function lvl(v,dp){return v===null||v===undefined?"–":v.toLocaleString("en-US",{minimumFractionDigits:dp,maximumFractionDigits:dp})}
+
+/* Shares are all positive and never signed, so they need their own bar function.
+   divergingBars centres on zero -- right for a difference-in-differences estimate, wrong for
+   "44% of exports", where it throws away half the plot and prints a plus sign in front of
+   every value. */
+function shareBars(host,rows,unit,dp,color){
+  var vals=rows.map(function(r){return r.v});
+  if(!vals.length){host.appendChild(h("p","note","No data for this region."));return}
+  var W=760,rowH=22,L=124,R=58,T=6,B=22,n=rows.length,H=T+B+n*rowH,pw=W-L-R;
+  var mx=Math.max.apply(null,vals)*1.06||1;
+  var X=function(v){return L+v/mx*pw};
+  var root=h("div","chart-box");
+  var svg=el("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":"share by country"});
+  ticks(0,mx,4).forEach(function(tv){
+    svg.appendChild(el("line",{x1:X(tv),x2:X(tv),y1:T,y2:T+n*rowH},"stroke:var(--grid);stroke-width:1"));
+    var t2=el("text",{x:X(tv),y:H-6,"text-anchor":"middle"},"fill:var(--text-muted);font-size:10.5px;font-variant-numeric:tabular-nums");
+    t2.textContent=lvl(tv,0)+unit;svg.appendChild(t2)});
+  svg.appendChild(el("line",{x1:L,x2:L,y1:T,y2:T+n*rowH},"stroke:var(--baseline);stroke-width:1"));
+  rows.forEach(function(r,i){
+    var y=T+i*rowH,bh=14,bw=Math.max(1.5,X(r.v)-L);
+    svg.appendChild(el("rect",{x:L,y:y,width:bw,height:bh,rx:2.5},"fill:"+color));
+    var fs=11.5,avail=L-14;
+    if(r.name.length*6.2>avail)fs=Math.max(8.5,11.5*avail/(r.name.length*6.2));
+    var nm=el("text",{x:L-10,y:y+bh-3,"text-anchor":"end"},"fill:var(--text-primary);font-size:"+fs.toFixed(1)+"px");
+    nm.textContent=r.name;svg.appendChild(nm);
+    var vl=el("text",{x:L+bw+6,y:y+bh-3},"fill:var(--text-secondary);font-size:11.5px;font-variant-numeric:tabular-nums");
+    vl.textContent=lvl(r.v,dp)+unit;svg.appendChild(vl)});
+  root.appendChild(svg);host.appendChild(root);
+}
 
 /* ---------- one line per country, EU share of exports ---------- */
 function directionChart(host,D){
@@ -1461,6 +1495,41 @@ TABS.forEach(function(t,i){
       +"Asia. Swiss national figures excluding gold run substantially higher. Coverage for "
       +"non-EU reporters begins around 2013, so these are levels rather than trends."));
     sec.appendChild(d2);
+
+    if(D.dest&&D.dest.length){
+      var dd=h("div","card");
+      dd.appendChild(h("h3","","Every country, by destination"));
+      dd.appendChild(h("p","sub","Goods exports by destination region as a share of the total, "
+        +"latest year. Nine mutually exclusive regions summing to 100 — built by adding up "
+        +"every individual trading partner in the Commission's COMEXT bilateral data rather "
+        +"than using the published aggregates, which overlap. Pick a region to rank on it."));
+      var DL=D.destLabels, destState="ASIA";
+      var pick=h("div","picker"), barBox=h("div");
+      function drawDest(){
+        while(barBox.firstChild)barBox.removeChild(barBox.firstChild);
+        var rowsD=D.dest.filter(function(r){return r.v[destState]!==undefined})
+          .map(function(r){return {name:r.name+(r.member?"":" *"),v:r.v[destState]}})
+          .sort(function(a,b){return b.v-a.v});
+        shareBars(barBox,rowsD,"%",1,"var(--series-1)");
+      }
+      DL.forEach(function(k){
+        var bt=document.createElement("button");bt.textContent=k.label;
+        bt.setAttribute("aria-pressed",k.code===destState?"true":"false");
+        bt.addEventListener("click",function(){
+          destState=k.code;
+          Array.prototype.forEach.call(pick.children,function(x){
+            x.setAttribute("aria-pressed",x===bt?"true":"false")});
+          drawDest();
+        });
+        pick.appendChild(bt)});
+      dd.appendChild(pick);dd.appendChild(barBox);drawDest();
+      dd.appendChild(h("p","note","* not an EU member. Goods only — services are not in this "
+        +"dataset. The United Kingdom is shown at 2019, its last year of COMEXT reporting, and "
+        +"is therefore pre-transition and not comparable on timing. “Unallocated” is ships' and "
+        +"aircraft stores; it is material for the bunkering economies and is kept visible "
+        +"rather than redistributed. Mexico sits in Latin America, not North America."));
+      sec.appendChild(dd);
+    }
 
     var d3=h("div","card");
     d3.appendChild(h("h3","","And where the Union's own exports go"));

@@ -90,6 +90,11 @@ the 2004 wave. The reorientation had already happened under the Europe Agreement
 before entry Czechia sent 80.5% of its exports to the EU, Hungary 80.7%, Slovakia 87.7%,
 Poland 76.3%. Source: Eurostat `ext_lt_intratrd`, 2002–2025, EU27 definition throughout.
 
+**Where each country's exports go**, nine mutually exclusive regions summing to 100, built by
+summing all ~255 individual partners in the Commission's COMEXT bilateral data (`ds-059331`):
+on every country page, and rankable by region on the Trade direction tab. Switzerland, Malta
+and the UK send the most to Asia (17%); Ireland sends 44% to North America.
+
 The three non-members are not trading elsewhere either. **Norway sends 67.5% of its exports to
 the EU — a higher share than Germany, France or Italy**, none of which reaches 56%.
 
