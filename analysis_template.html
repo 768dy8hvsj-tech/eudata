@@ -201,7 +201,7 @@ function pathChart(host,pd,label,dp){
 }
 
 /* ---------- diverging ranked bars ---------- */
-function divergingBars(host,rows,key,unit,dp,goodIsPositive){
+function divergingBars(host,rows,key,unit,dp,goodIsPositive,neutral){
   var W=760,rowH=23,L=124,R=56,T=6,B=24,n=rows.length,H=T+B+n*rowH,pw=W-L-R;
   var vals=rows.map(function(r){return r[key]});
   var mx=Math.max(Math.abs(Math.min.apply(null,vals)),Math.abs(Math.max.apply(null,vals)))*1.12;
@@ -219,8 +219,16 @@ function divergingBars(host,rows,key,unit,dp,goodIsPositive){
     var d=v>=0
       ? "M"+xa+","+y+" L"+(xa+bw-rr)+","+y+" Q"+(xa+bw)+","+y+" "+(xa+bw)+","+(y+rr)+" L"+(xa+bw)+","+(y+bh-rr)+" Q"+(xa+bw)+","+(y+bh)+" "+(xa+bw-rr)+","+(y+bh)+" L"+xa+","+(y+bh)+" Z"
       : "M"+(xa+bw)+","+y+" L"+(xa+rr)+","+y+" Q"+xa+","+y+" "+xa+","+(y+rr)+" L"+xa+","+(y+bh-rr)+" Q"+xa+","+(y+bh)+" "+(xa+rr)+","+(y+bh)+" L"+(xa+bw)+","+(y+bh)+" Z";
-    svg.appendChild(el("path",{d:d},"fill:var("+(good?"--series-1":"--neg")+")"));
-    var nm=el("text",{x:L-10,y:y+bh-3,"text-anchor":"end"},"fill:var(--text-primary);font-size:11.5px");
+    /* `neutral` swaps the negative-red for the second series colour. Used where the sign is
+       a direction rather than a verdict — paying into the EU budget is not a failing. */
+    svg.appendChild(el("path",{d:d},"fill:var("+(good?"--series-1":(neutral?"--series-2":"--neg"))+")"));
+    /* A name longer than the gutter would run off the left edge of the viewBox and be clipped
+       mid-word ("...a and Herzegovina"). Shrink the type for that row instead of truncating —
+       losing the start of a country name is worse than a slightly smaller label. */
+    var fs=11.5, avail=L-14;
+    if(r.name.length*6.2>avail) fs=Math.max(8.5, 11.5*avail/(r.name.length*6.2));
+    var nm=el("text",{x:L-10,y:y+bh-3,"text-anchor":"end"},
+      "fill:var(--text-primary);font-size:"+fs.toFixed(1)+"px");
     nm.textContent=r.name;svg.appendChild(nm);
     /* Value labels sit outside the bar end. On the longest negative bar that runs into the
        country-name gutter, so anything that would cross into it flips inside the bar and
@@ -336,8 +344,8 @@ function estCard(label,val,unit,dp,ci,goodIsPositive,n,pl){
 }
 
 /* ---------- panels ---------- */
-var TABS=[{id:"findings",label:"Findings"},{id:"paths",label:"Trajectories"},
-          {id:"crises",label:"Crises"},{id:"brexit",label:"Brexit"},{id:"south",label:"The South"},{id:"world",label:"In the world"},
+var TABS=[{id:"findings",label:"Findings"},{id:"verdict",label:"Who gains"},{id:"paths",label:"Trajectories"},
+          {id:"crises",label:"Crises"},{id:"brexit",label:"Brexit"},{id:"south",label:"The South"},{id:"money",label:"The money"},{id:"world",label:"In the world"},
           {id:"adjust",label:"The convergence problem"},{id:"method",label:"Method & limits"},
           {id:"coverage",label:"Coverage"}];
 var tabsEl=document.getElementById("tabs"),panelsEl=document.getElementById("panels");
@@ -1085,6 +1093,353 @@ TABS.forEach(function(t,i){
       +"descriptive backdrop the rest of this study sits inside, and it is here because a reader "
       +"cannot judge the internal comparisons without it."));
     sec.appendChild(w3);
+  }
+
+  else if(t.id==="verdict"){
+    var V=P.verdict, E=V.groups.East, W=V.groups.West, S=V.groups.South;
+
+    var v0=h("div","card");
+    v0.appendChild(h("h3","","Four questions, and the four different kinds of answer they get"));
+    v0.appendChild(h("p","","Who benefits, who does not, who loses by staying out, and who would be "
+      +"better off outside. These sit at four different evidentiary levels, and the honest answer to "
+      +"each is limited by a different thing. One is pure accounting. One survives every check this "
+      +"project applies. One requires a counterfactual that no observational design can supply. And "
+      +"one is not an empirical question at all."));
+    var ql=h("table","t"),qh=document.createElement("tr");
+    ["Question","What the data can do","Status"].forEach(function(x){
+      var th=document.createElement("th");th.textContent=x;qh.appendChild(th)});
+    ql.appendChild(qh);
+    [["1. Who benefits?","Budget receipts are accounting. Trade openness and the income gap survive their placebos in the East.","Answerable"],
+     ["2. Who does not?","Same evidence read the other way, plus one measurable cost — the 2012 downturn hit members and spared non-members.","Answerable"],
+     ["3. Who loses by staying out?","Requires estimating what Norway or Serbia would look like inside. Nothing in this design can produce that number.","Not answerable"],
+     ["4. Who is better off outside?","Depends on how you weigh income against sovereignty, stability against autonomy. Data can price the trade-off, not settle it.","Not empirical"]]
+     .forEach(function(r){
+      var tr=document.createElement("tr");
+      r.forEach(function(c,j){var td=document.createElement("td");
+        if(j===0)td.className="nm";td.textContent=c;tr.appendChild(td)});
+      ql.appendChild(tr)});
+    v0.appendChild(ql);
+    sec.appendChild(v0);
+
+    var v1=h("div","card");
+    v1.appendChild(h("h3","","A change of yardstick, and why it was necessary"));
+    v1.appendChild(h("p","","Everywhere else in this study, convergence is measured as a share of the "
+      +"EU average. That denominator moves: as the East catches up the EU average rises, so a rich "
+      +"member's line falls even while its economy grows. It answers <em>is the Union converging</em>. "
+      +"It cannot answer <em>is this country gaining</em> — which is what all four questions ask."));
+    v1.appendChild(h("p","","Every figure on this tab therefore measures each country against a "
+      +"<strong>fixed external benchmark: US income per head at purchasing-power parity</strong>, over "
+      +"one common window, 2000 to "+V.rows[0].endYear+". No event-time alignment, no moving "
+      +"denominator, members and non-members held to the same twenty-five years."));
+    v1.appendChild(h("p","note","This buys a like-for-like comparison and a testable placebo. It does "
+      +"not buy causality. It is a fixed-window difference between groups of countries, not the event "
+      +"study the rest of this project runs, and the window contains the accession run-up as well as "
+      +"membership itself."));
+    sec.appendChild(v1);
+
+    var v2=h("div","card");
+    v2.appendChild(h("h3","","Every country, 2000 to "+V.rows[0].endYear));
+    v2.appendChild(h("p","sub","Change in income per head as a percentage of the US level. Positive "
+      +"means the country closed ground on the United States over the period."));
+    divergingBars(v2,V.rows.map(function(r){
+      return {name:r.name+(r.member?"":" *"),v:r.relGain}}),"v","pp",1,true);
+    v2.appendChild(h("p","note","* not an EU member. Ireland and Luxembourg are both distorted by "
+      +"profit-shifting even on GNI; read them with the caution set out in Method &amp; limits."));
+    sec.appendChild(v2);
+
+    var v3=h("div","card");
+    v3.appendChild(h("h3","","The comparison that carries the weight"));
+    v3.appendChild(h("p","sub","Median change, members against the non-member neighbours matched to "
+      +"each bloc, on the same benchmark and the same window."));
+    var gg=h("div","estimates");
+    [["East","Eastern members vs<br>Western Balkan non-members",E],
+     ["West","Western members vs<br>Norway, Switzerland, Iceland",W]].forEach(function(k){
+      var d=k[2];
+      if(d.welch) gg.appendChild(estCard(k[1],d.welch.diff,"pp",1,
+        {lo:d.welch.lo,hi:d.welch.hi,crossesZero:d.welch.crossesZero},true,d.nm));
+    });
+    v3.appendChild(gg);
+    var gt2=h("table","t"),gh2=document.createElement("tr");
+    ["Bloc","Members","Non-members","Median gap","Placebo 1997–2000","Verdict"].forEach(function(x,j){
+      var th=document.createElement("th");if(j>0&&j<5)th.className="num";th.textContent=x;gh2.appendChild(th)});
+    gt2.appendChild(gh2);
+    [["East",E,"gap survives"],["South",S,"one control only — unusable"],
+     ["West",W,"no detectable difference"]].forEach(function(k){
+      var d=k[1],tr=document.createElement("tr");
+      [[k[0],"nm"],[fmt(d.memberMedian,1)+" (n="+d.nm+")","num"],
+       [fmt(d.nonMedian,1)+" (n="+d.nn+")","num"],
+       [fmt(d.memberMedian-d.nonMedian,1),"num"],
+       [d.placebo1997.gap===null?"—":fmt(d.placebo1997.gap,1),"num"],[k[2],""]]
+       .forEach(function(c){var td=document.createElement("td");td.className=c[1];
+         td.textContent=c[0];tr.appendChild(td)});
+      gt2.appendChild(tr)});
+    v3.appendChild(gt2);
+    v3.appendChild(h("p","","<strong>East: +"+fmt(E.memberMedian-E.nonMedian,1)+" percentage points "
+      +"in favour of members</strong>, with a 95% interval of "+fmt(E.welch.lo,1)+" to "
+      +fmt(E.welch.hi,1)+" that excludes zero. Run entirely over pre-accession years the same "
+      +"comparison reports "+fmt(E.placebo1997.gap,1)+" — the groups were not already diverging."));
+    v3.appendChild(h("p","","<strong>West: nothing.</strong> Norway, Switzerland and Iceland gained a "
+      +"median "+fmt(W.nonMedian,1)+" points against the Western members' "+fmt(W.memberMedian,1)+", "
+      +"but the interval spans zero in both directions and the pre-accession placebo already reports "
+      +fmt(W.placebo1997.gap,1)+" in the members' favour. Three comparators cannot settle this."));
+    v3.appendChild(h("p","note","The South is reported for completeness and should not be read. Turkey "
+      +"is the only available control, and the placebo returns "+fmt(S.placebo1997.gap,1)+" — larger "
+      +"than the headline it is supposed to validate."));
+    sec.appendChild(v3);
+
+    var v4=h("div","card");
+    v4.appendChild(h("h3","","Testing the obvious objection: poorer countries grow faster anyway"));
+    v4.appendChild(h("p","sub","Within the Eastern region, each country's gain plotted against how "
+      +"poor it was in 2000, as a residual from the fitted catch-up line. Positive means the country "
+      +"gained more than its starting position predicted."));
+    v4.appendChild(h("p","","This objection sank the income estimate elsewhere in this study, so it "
+      +"has to be met head-on rather than waved away. Within the East it does not hold: the "
+      +"relationship between starting income and subsequent gain explains <strong>"
+      +Math.round((V.catchup.fit?V.catchup.fit.r2:0)*100)+"%</strong> of the variation, and it runs "
+      +"the wrong way for the objection. The members started <em>richer</em> — a mean of "
+      +fmt(V.catchup.memberStartMean,1)+"% of the US level against "+fmt(V.catchup.nonStartMean,1)
+      +"% for the non-members — and gained more regardless."));
+    divergingBars(v4,V.catchup.rows.map(function(r){
+      return {name:r.name+(r.member?"":" *"),v:r.residual}}),"v","pp",1,true);
+    v4.appendChild(h("p","note","Ranked by residual, the top seven are all members and three of the "
+      +"bottom four are not. The overlap is real and worth stating: Slovenia and Czechia sit below "
+      +"Montenegro and Albania. This is a difference in group medians, not a rule that holds country "
+      +"by country."));
+    sec.appendChild(v4);
+
+    var v5=h("div","card");
+    v5.appendChild(h("h3","","Two specifications, two answers, and how they reconcile"));
+    v5.appendChild(h("p","","The Findings tab reports that the income effect is not demonstrable. This "
+      +"tab reports a gap of +"+fmt(E.memberMedian-E.nonMedian,1)+" points. Both are in the data and "
+      +"neither is a mistake — they measure different things."));
+    v5.appendChild(h("p","","The event study compares a five-year window six to ten years after "
+      +"accession against the five years before it. For the 2004 wave that is 2010–2014 against "
+      +"1999–2003: it isolates the accession <em>step</em>, and it stops a decade short of today. "
+      +"Its pre-window sits inside the accession negotiations, so part of the treatment is already in "
+      +"the baseline. Netting its own placebo off leaves +2.5 points — same sign, not significant."));
+    v5.appendChild(h("p","","The comparison on this tab spans the whole period, run-up included, and "
+      +"runs to "+V.rows[0].endYear+". It measures the twenty-five-year trajectory rather than the "
+      +"step at entry. The reconciliation is that most of the Eastern gain is spread across the "
+      +"accession process and the years after the event study stops looking — which is what you would "
+      +"expect if the mechanism is trade and investment integration built up over decades rather than "
+      +"a discontinuity on the day of entry."));
+    v5.appendChild(h("p","note","Where two defensible specifications disagree, this project reports "
+      +"both rather than choosing the more flattering one. The event study remains the stricter test "
+      +"and the trade result remains the only outcome that clears it unambiguously."));
+    sec.appendChild(v5);
+
+    var v6=h("div","card");
+    v6.appendChild(h("h3","","The scorecard"));
+    v6.appendChild(h("p","sub","Everything the study can say about each country in one row. Budget "
+      +"figures are the broad convention, averaged per year since accession or 2000."));
+    var st2=h("table","t"),sh2=document.createElement("tr");
+    ["Country","EU","Joined","vs US 2000","vs US now","Change","Trade opening","Budget %GNI/yr","Budget cum €bn"]
+      .forEach(function(x,j){var th=document.createElement("th");
+        if(j>2)th.className="num";th.textContent=x;sh2.appendChild(th)});
+    st2.appendChild(sh2);
+    V.rows.forEach(function(r){
+      var tr=document.createElement("tr");
+      [[r.name,"nm"],[r.member?"yes":"—",""],[r.accession||"—","num"],
+       [fmt(r.relStart,1)+"%","num"],[fmt(r.relEnd,1)+"%","num"],[fmt(r.relGain,1),"num"],
+       [r.tradeGain===null?"—":fmt(r.tradeGain,1)+"pp","num"],
+       [r.budgetPct===null?"—":fmt(r.budgetPct,2),"num"],
+       [r.budgetCum===null?"—":fmt(r.budgetCum,1),"num"]]
+       .forEach(function(c){var td=document.createElement("td");td.className=c[1];
+         td.textContent=c[0];tr.appendChild(td)});
+      st2.appendChild(tr)});
+    v6.appendChild(st2);
+    sec.appendChild(v6);
+
+    var v7=h("div","card");
+    v7.appendChild(h("h3","","Question 3, and why it has no answer here"));
+    v7.appendChild(h("p","","<em>Who loses out by not being a member?</em> requires knowing what "
+      +"Norway, Switzerland or Serbia would look like inside the Union. That is a counterfactual about "
+      +"countries that never entered, and no comparison of observed outcomes can produce it. The "
+      +"non-members are not a random sample: Norway holds sovereign wealth no member has, Switzerland "
+      +"has bilateral market access without membership, and the Western Balkans carry a war the "
+      +"members did not fight."));
+    v7.appendChild(h("p","","What can be said is narrower and worth having. The Western Balkan "
+      +"countries gained a median "+fmt(E.nonMedian,1)+" points on the US level while their Eastern "
+      +"member neighbours gained "+fmt(E.memberMedian,1)+", and starting income does not account for "
+      +"the difference. Whether membership <em>caused</em> that, or whether the same institutional "
+      +"qualities that made a country eligible also made it grow, this design cannot separate. "
+      +"Accession was never random."));
+    v7.appendChild(h("p","note","For the wealthy non-members the answer is cleaner and it is negative: "
+      +"there is no measurable penalty. Norway and Switzerland sit above every EU member on income per "
+      +"head bar Ireland and Luxembourg, and both of those are inflated by profit-shifting."));
+    sec.appendChild(v7);
+
+    var v8=h("div","card");
+    v8.appendChild(h("h3","","Question 4 is not a question this study can answer"));
+    v8.appendChild(h("p","","<em>Who would be better off outside?</em> asks for a judgment about what "
+      +"to value, and no amount of data settles that. What the data can do is set out the terms of the "
+      +"trade honestly, so the judgment is at least an informed one."));
+    var pc=h("table","t"),ph=document.createElement("tr");
+    ["On the ledger for membership","On the ledger against"].forEach(function(x){
+      var th=document.createElement("th");th.textContent=x;ph.appendChild(th)});
+    pc.appendChild(ph);
+    [["Trade openness rose +20.5pp of GDP in the East, 11 countries out of 11, placebo +0.6. The strongest result in the study.",
+      "The 2012 downturn was European, not global: 61% of members contracted against 23% of non-members. Integration transmits shocks."],
+     ["Eastern members closed "+fmt(E.memberMedian-E.nonMedian,1)+"pp more on US income than their non-member neighbours, and the pre-trend does not explain it.",
+      "Greece lost ground on the US over twenty-five years while receiving 2.2% of national income a year from the budget. Italy lost 3.2 points."],
+     ["Receipts of 2–3% of national income a year for the poorer members, sustained across two decades.",
+      "Norway and Switzerland are richer per head than every member except two, and both of those are statistical artefacts."],
+     ["FDI into Western members rose +1.0pp of GDP, small but surviving every check.",
+      "The largest contributors pay real money: Germany €367 billion net, France €170 billion, on the broad convention."]]
+     .forEach(function(r){
+      var tr=document.createElement("tr");
+      r.forEach(function(c){var td=document.createElement("td");td.textContent=c;tr.appendChild(td)});
+      pc.appendChild(tr)});
+    v8.appendChild(pc);
+    v8.appendChild(h("p","","The one country that has actually run the experiment is the United "
+      +"Kingdom, and this project could not identify the effect: the estimate swings from −7 to −21 "
+      +"percentage points depending on which comparators are chosen, and both routes fail the "
+      +"project's own checks. See the Brexit tab. That is the most useful thing to know about "
+      +"question 4 — the single real test of it produced a number nobody should quote."));
+    v8.appendChild(h("p","note","Nor is the ledger above complete. It prices what this dataset "
+      +"measures: income, trade, investment, budget flows, shock transmission. It does not price "
+      +"sovereignty, freedom of movement, regulatory autonomy, security guarantees or the value people "
+      +"place on any of them. Those are most of what the argument is actually about."));
+    sec.appendChild(v8);
+  }
+
+  else if(t.id==="money"){
+    var M=P.money;
+    var m0=h("div","card");
+    m0.appendChild(h("h3","","The one part of this study that is not an estimate"));
+    m0.appendChild(h("p","","Everything else here is inference with intervals and gates. Budget "
+      +"flows are accounting: the European Commission publishes what each member state paid in and "
+      +"what was spent in it, every year since 2000. There is no identification problem."));
+    m0.appendChild(h("p","","<strong>What is contested is not the numbers but the arithmetic done "
+      +"on them</strong>, and that turns out to matter more than the numbers do. Two conventions run "
+      +"through everything below. The <em>Commission</em> figure is allocated expenditure minus "
+      +"national contributions. The <em>broad</em> figure strips out administrative spending — which "
+      +"is booked to whoever hosts the institutions — and counts customs duties as money the member "
+      +"state raised rather than as the Union's own."));
+    sec.appendChild(m0);
+
+    var m1=h("div","card");
+    m1.appendChild(h("h3","","Who pays and who receives"));
+    m1.appendChild(h("p","sub","Average annual net position as a percentage of national income, since "
+      +"accession or 2000, whichever is later. Broad convention. Positive means receiving."));
+    divergingBars(m1,M.rows.filter(function(r){return r.avgPctGni!==null})
+      .map(function(r){return {name:r.name,v:r.avgPctGni}}),"v","%",2,true,true);
+    var lg=h("div","legend");
+    [["--series-1","Net recipient"],["--series-2","Net contributor"]].forEach(function(k){
+      var key=h("span","key");var i=document.createElement("i");
+      i.style.background="var("+k[0]+")";i.style.width="16px";i.style.height="10px";
+      i.style.borderRadius="2px";key.appendChild(i);
+      var t2=document.createElement("span");t2.textContent=k[1];key.appendChild(t2);
+      lg.appendChild(key)});
+    m1.appendChild(lg);
+    m1.appendChild(h("p","","The ordering is almost perfectly by income. Lithuania, Hungary, Latvia "
+      +"and Bulgaria run above 2.5% of national income a year; Germany, the Netherlands and Belgium "
+      +"pay between 0.3% and 0.7%. In cumulative terms Poland has received <strong>€166 billion</strong> "
+      +"net on the broad convention and Germany has paid <strong>€367 billion</strong>."));
+    m1.appendChild(h("p","note","Note the asymmetry of scale: the largest recipients receive several "
+      +"percent of their national income, while the largest contributors pay well under one percent of "
+      +"theirs. The Union's budget is small relative to its members — roughly 1% of EU income — but "
+      +"concentrated enough to matter a great deal at the receiving end."));
+    sec.appendChild(m1);
+
+    var m2=h("div","card");
+    m2.appendChild(h("h3","","How much the convention changes the answer"));
+    m2.appendChild(h("p","sub","Cumulative net position, € billion, on each convention. The eight "
+      +"countries the choice moves most."));
+    var gt=h("table","t"),gh=document.createElement("tr");
+    ["Country","Commission convention","Broad convention","Difference"].forEach(function(x,j){
+      var th=document.createElement("th");if(j>0)th.className="num";th.textContent=x;gh.appendChild(th)});
+    gt.appendChild(gh);
+    M.conventionGap.forEach(function(r){
+      var tr=document.createElement("tr");
+      [[r.name,"nm"],[fmt(r.commission,1),"num"],[fmt(r.broad,1),"num"],[fmt(r.gap,1),"num"]]
+        .forEach(function(c){var td=document.createElement("td");td.className=c[1];
+          td.textContent=c[0];tr.appendChild(td)});
+      gt.appendChild(tr)});
+    m2.appendChild(gt);
+    m2.appendChild(h("p","","<strong>Belgium moves from +€92 billion to −€70 billion.</strong> On one "
+      +"convention it is the third-largest net recipient in the Union; on the other it is a net "
+      +"contributor. The entire €161 billion swing is administrative spending booked to Brussels — "
+      +"administration is 54% of Belgium's allocated expenditure in 2023, and 76% of Luxembourg's. "
+      +"Luxembourg moves from +€34 billion to roughly zero."));
+    m2.appendChild(h("p","note","Neither convention is wrong. Salaries paid to officials in Brussels "
+      +"are genuinely spent in Belgium, and they are just as genuinely not a transfer to Belgians. "
+      +"Anyone quoting a net-contributor league table without saying which convention they used is "
+      +"quoting a number that could be off by nine figures."));
+    sec.appendChild(m2);
+
+    var m3=h("div","card");
+    m3.appendChild(h("h3","","Cross-check against an independent source"));
+    m3.appendChild(h("p","","Poland's country page carries a figure from SGH Warsaw School of "
+      +"Economics: €245.5 billion received, €83.7 billion contributed, <strong>€161.8 billion net for "
+      +"2004–2023</strong>. That was collected independently of this workbook, so it is a genuine test "
+      +"of the extraction."));
+    m3.appendChild(h("p","","Parsing the Commission workbook over the same years gives €178.2 billion "
+      +"on the Commission convention and <strong>€164.7 billion on the broad one</strong> — within 1.8% "
+      +"of the published figure, the residual being data vintage, since this workbook is the September "
+      +"2025 release and includes revisions. The gap between the two conventions for Poland is €13.5 "
+      +"billion, almost exactly its customs duties over the period."));
+    m3.appendChild(h("p","note","So the parse reproduces an independently published figure once the "
+      +"convention is matched. That is the check this section rests on."));
+    sec.appendChild(m3);
+
+    var m4=h("div","card");
+    m4.appendChild(h("h3","","Did the money buy the convergence?"));
+    m4.appendChild(h("p","sub","The obvious question, and the one this data cannot answer."));
+    var cf=M.confound;
+    var g4=h("div","estimates");
+    [["Net receipts vs convergence gain",cf.receiptsVsConvergence],
+     ["Starting income vs net receipts",cf.incomeVsReceipts],
+     ["Starting income vs convergence gain",cf.incomeVsConvergence]].forEach(function(pr){
+      if(!pr[1])return;
+      var e=h("div","est");
+      e.appendChild(h("div","lbl",pr[0]));
+      e.appendChild(h("div","val","r² "+pr[1].r2));
+      e.appendChild(h("div","ci","r = "+fmt(pr[1].r,2)+" · n="+pr[1].n));
+      g4.appendChild(e)});
+    m4.appendChild(g4);
+    m4.appendChild(h("p","","Net receipts and convergence gains do move together — r²=0.48. But "
+      +"cohesion money is <em>allocated by</em> how poor a country is, and convergence is "
+      +"<em>driven by</em> how poor a country starts. Starting income explains 71% of the variation in "
+      +"receipts and, separately, 71% of the variation in convergence. The two are downstream of the "
+      +"same variable, and nothing in this dataset separates them."));
+    m4.appendChild(h("p","","Two countries make the point without any statistics. <strong>Greece "
+      +"received 2.2% of its national income a year — the sixth-highest rate in the Union — and lost "
+      +"20 points of convergence.</strong> Ireland received 0.25% and gained 47. Whatever determines "
+      +"whether a country catches up, the size of its cheque is not sufficient to explain it."));
+    m4.appendChild(h("p","note","This is not evidence that cohesion spending fails. It is the "
+      +"statement that a design where treatment is assigned by the same variable that drives the "
+      +"outcome cannot recover an effect, which is a fact about the design rather than about the "
+      +"policy. Answering it properly needs variation in funding that is unrelated to income — "
+      +"regional eligibility thresholds are the standard route, and they are below the resolution "
+      +"of this country-level dataset."));
+    sec.appendChild(m4);
+
+    var m5=h("div","card");
+    m5.appendChild(h("h3","","Every member state"));
+    m5.appendChild(h("p","sub","Cumulative net position since accession or 2000, € billion, and the "
+      +"average annual rate as a share of national income."));
+    var at=h("table","t"),ah=document.createElement("tr");
+    ["Country","Since","Commission €bn","Broad €bn","Avg % of GNI/yr","Started at % of EU","Convergence 2000–2024"]
+      .forEach(function(x,j){var th=document.createElement("th");if(j>1)th.className="num";
+        th.textContent=x;ah.appendChild(th)});
+    at.appendChild(ah);
+    M.rows.forEach(function(r){
+      var tr=document.createElement("tr");
+      [[r.name,"nm"],[String(r.since),"num"],[fmt(r.cumCommission,1),"num"],
+       [fmt(r.cumBroad,1),"num"],
+       [r.avgPctGni===null?"—":fmt(r.avgPctGni,2)+"%","num"],
+       [r.startConv===null?"—":r.startConv.toFixed(1)+"%","num"],
+       [r.convGain===null?"—":fmt(r.convGain,1),"num"]]
+        .forEach(function(c){var td=document.createElement("td");td.className=c[1];
+          td.textContent=c[0];tr.appendChild(td)});
+      at.appendChild(tr)});
+    m5.appendChild(at);
+    m5.appendChild(h("p","note","Source: European Commission, EU spending and revenue 2000–2024 "
+      +"workbook, published 25 September 2025. GNI shares use the Commission's own GNI figures from "
+      +"the same workbook, so contributions are measured against the denominator they were actually "
+      +"assessed on."));
+    sec.appendChild(m5);
   }
 
   else if(t.id==="adjust"){

@@ -126,6 +126,58 @@ for iso in countries + ["EUU"]:
         })
         derived += 1
 
+# 6. derived: EU budget net position, on TWO conventions, because there is no single
+#    correct one and the gap between them is large enough to change who counts as a net
+#    contributor.
+#
+#    Commission convention  = allocated expenditure - national contributions.
+#      National contributions exclude customs duties, which the Commission treats as the
+#      Union's own revenue rather than a national payment.
+#
+#    Broad convention       = (expenditure - administration) - (contributions + customs).
+#      Strips administrative spending, which is allocated to whoever hosts the institutions
+#      and makes Belgium and Luxembourg look like large net recipients (administration is
+#      54% of Belgium's allocated expenditure and 76% of Luxembourg's in 2023), and counts
+#      customs duties as money the member state raised.
+#
+#    Validation: Poland 2004-2023 gives 178.2bn on the Commission convention and 164.7bn on
+#    the broad one. SGH Warsaw School of Economics publishes 161.8bn, within 1.8% of the
+#    broad figure — the residual is data vintage, this workbook being the Sept 2025 release.
+for iso in countries:
+    ex = by.get((iso, "BUDGET.EXPEND"), {})
+    co = by.get((iso, "BUDGET.CONTRIB"), {})
+    ad = by.get((iso, "BUDGET.ADMIN"), {})
+    cu = by.get((iso, "BUDGET.CUSTOMS"), {})
+    gni = by.get((iso, "BUDGET.GNI"), {})
+    if not ex or not co:
+        continue
+    name = next(r["country"] for r in rows if r["iso3"] == iso)
+    for y in sorted(set(ex) & set(co)):
+        variants = [
+            ("DERIVED.BUDGET.NET", "EU budget net position (Commission convention)",
+             ex[y] - co[y]),
+            ("DERIVED.BUDGET.NET.BROAD",
+             "EU budget net position (excluding administration, including customs)",
+             (ex[y] - ad.get(y, 0.0)) - (co[y] + cu.get(y, 0.0))),
+        ]
+        for code, nm, v in variants:
+            rows.append({
+                "iso3": iso, "country": name, "indicator_code": code, "indicator_name": nm,
+                "unit": "EUR million", "year": y, "value": round(v, 3),
+                "source": "Derived from European Commission EU spending and revenue workbook",
+                "retrieved": "2026-08-04"})
+            derived += 1
+            if gni.get(y):
+                rows.append({
+                    "iso3": iso, "country": name,
+                    "indicator_code": code + ".PCT.GNI",
+                    "indicator_name": nm + ", % of GNI",
+                    "unit": "%", "year": y, "value": round(v / gni[y] * 100, 4),
+                    "source": "Derived from European Commission EU spending and revenue "
+                              "workbook (Commission's own GNI denominator)",
+                    "retrieved": "2026-08-04"})
+                derived += 1
+
 rows.sort(key=lambda r: (r["iso3"], r["indicator_code"], int(r["year"])))
 with open(os.path.join(DATA, "indicators.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=FIELDS)

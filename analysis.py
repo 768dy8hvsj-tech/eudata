@@ -83,6 +83,35 @@ def window_mean(iso, code, lo, hi, log=False):
     return statistics.fmean(vals) if len(vals) >= need and len(vals) >= 2 else None
 
 
+# ------------------------------------------------- shared statistics helpers
+# Used by the crisis, money and world sections below; defined here because those
+# sections run in an order that has changed more than once.
+def _pearson(pairs):
+    if len(pairs) < 6:
+        return None
+    xs = [a for a, _ in pairs]
+    ys = [b for _, b in pairs]
+    mx, my = statistics.fmean(xs), statistics.fmean(ys)
+    sx = math.sqrt(sum((x - mx) ** 2 for x in xs))
+    sy = math.sqrt(sum((y - my) ** 2 for y in ys))
+    if not sx or not sy:
+        return None
+    r = sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / (sx * sy)
+    return {"r": round(r, 2), "r2": round(r * r, 2), "n": len(pairs)}
+
+
+def _welch(a, b):
+    if len(a) < 3 or len(b) < 3:
+        return None
+    d = statistics.fmean(a) - statistics.fmean(b)
+    se = math.sqrt(statistics.variance(a) / len(a) + statistics.variance(b) / len(b))
+    lo, hi = d - 1.96 * se, d + 1.96 * se
+    return {"diff": round(d, 2), "lo": round(lo, 2), "hi": round(hi, 2),
+            "crossesZero": lo <= 0 <= hi,
+            "a": round(statistics.fmean(a), 2), "b": round(statistics.fmean(b), 2),
+            "na": len(a), "nb": len(b)}
+
+
 # ---------------------------------------------------------------- DiD
 def did(code, log=False, scale=1.0, w_pre=PRE, w_post=POST):
     """Return per-country DiD estimates grouped by bloc, plus control detail.
@@ -601,6 +630,65 @@ payload = {
     "adjusted": add_ci(convergence_adjusted("NY.GDP.PCAP.KD", "DERIVED.KD.PCT.EU"), "excess"),
 }
 
+# --------------------------------------------------------------- money
+# EU budget flows. Unlike everything else in this study these are not estimates — they are
+# accounting facts published by the Commission. What is contested is not the numbers but the
+# arithmetic performed on them, and that turns out to matter enormously.
+#
+# Two conventions are carried throughout:
+#   Commission = allocated expenditure - national contributions
+#   Broad      = (expenditure - administration) - (contributions + customs duties)
+# Administration is allocated to whoever hosts the institutions; customs duties are counted
+# as EU revenue by the Commission and as a national payment by most critics. Belgium moves
+# from +92bn to -70bn between the two. Luxembourg moves from +34bn to roughly zero.
+BUD_N, BUD_NB = "DERIVED.BUDGET.NET", "DERIVED.BUDGET.NET.BROAD"
+BUD_P = "DERIVED.BUDGET.NET.BROAD.PCT.GNI"
+_acc_yr = {}
+for _r in csv.DictReader(open(os.path.join(DATA, "countries.csv"), encoding="utf-8")):
+    _m = re.search(r"(\d{4})", _r.get("accession_date", "") or "")
+    if _m:
+        _acc_yr[_r["iso3"]] = int(_m.group(1))
+
+money = {"rows": [], "years": list(range(2000, 2025))}
+for iso, nm in {r["iso3"]: r["name"] for r in
+                csv.DictReader(open(os.path.join(DATA, "countries.csv"), encoding="utf-8"))}.items():
+    d, db, pc = (series.get((iso, BUD_N), {}), series.get((iso, BUD_NB), {}),
+                 series.get((iso, BUD_P), {}))
+    if not d:
+        continue
+    start = max(2000, _acc_yr.get(iso, 2000))
+    yrs = [y for y in d if y >= start]
+    if not yrs:
+        continue
+    conv = series.get((iso, "DERIVED.GNI.PCT.EU"), {})
+    money["rows"].append({
+        "iso3": iso, "name": nm, "since": start,
+        "cumCommission": round(sum(d[y] for y in yrs) / 1000, 1),
+        "cumBroad": round(sum(db[y] for y in yrs) / 1000, 1),
+        "avgPctGni": round(statistics.fmean([pc[y] for y in yrs if y in pc]), 2)
+                     if any(y in pc for y in yrs) else None,
+        "startConv": round(conv.get(2000), 1) if 2000 in conv else None,
+        "convGain": round(conv[2024] - conv[2000], 1) if (2000 in conv and 2024 in conv) else None,
+        "path": [round(pc[y], 3) if y in pc else None for y in money["years"]],
+    })
+money["rows"].sort(key=lambda r: -(r["avgPctGni"] if r["avgPctGni"] is not None else -99))
+
+# how much does the choice of convention move each country?
+money["conventionGap"] = sorted(
+    [{"name": r["name"], "commission": r["cumCommission"], "broad": r["cumBroad"],
+      "gap": round(r["cumCommission"] - r["cumBroad"], 1)} for r in money["rows"]],
+    key=lambda r: -abs(r["gap"]))[:8]
+
+# does the money track convergence? the honest answer is that it cannot be told apart
+_pt = [(r["avgPctGni"], r["convGain"], r["startConv"]) for r in money["rows"]
+       if None not in (r["avgPctGni"], r["convGain"], r["startConv"])]
+money["confound"] = {
+    "receiptsVsConvergence": _pearson([(a, b) for a, b, _ in _pt]),
+    "incomeVsReceipts": _pearson([(c, a) for a, _, c in _pt]),
+    "incomeVsConvergence": _pearson([(c, b) for _, b, c in _pt]),
+}
+payload["money"] = money
+
 # --------------------------------------------------------- in the world
 # Every other comparison in this study is internal — members against neighbours. This one asks
 # the question most readers actually arrive with: has the Union gained or lost ground against
@@ -842,32 +930,6 @@ _regs = {r["iso3"]: r for r in csv.DictReader(open(os.path.join(DATA, "regions.c
 _cmeta = {r["iso3"]: r for r in csv.DictReader(open(os.path.join(DATA, "countries.csv"), encoding="utf-8"))}
 
 
-def _pearson(pairs):
-    if len(pairs) < 6:
-        return None
-    xs = [a for a, _ in pairs]
-    ys = [b for _, b in pairs]
-    mx, my = statistics.fmean(xs), statistics.fmean(ys)
-    sx = math.sqrt(sum((x - mx) ** 2 for x in xs))
-    sy = math.sqrt(sum((y - my) ** 2 for y in ys))
-    if not sx or not sy:
-        return None
-    r = sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / (sx * sy)
-    return {"r": round(r, 2), "r2": round(r * r, 2), "n": len(pairs)}
-
-
-def _welch(a, b):
-    if len(a) < 3 or len(b) < 3:
-        return None
-    d = statistics.fmean(a) - statistics.fmean(b)
-    se = math.sqrt(statistics.variance(a) / len(a) + statistics.variance(b) / len(b))
-    lo, hi = d - 1.96 * se, d + 1.96 * se
-    return {"diff": round(d, 2), "lo": round(lo, 2), "hi": round(hi, 2),
-            "crossesZero": lo <= 0 <= hi,
-            "a": round(statistics.fmean(a), 2), "b": round(statistics.fmean(b), 2),
-            "na": len(a), "nb": len(b)}
-
-
 def _episode(iso, peak_range, trough_range, recover_by):
     d = series.get((iso, GDPC), {})
     pk = [(y, d[y]) for y in range(peak_range[0], peak_range[1] + 1) if y in d]
@@ -1009,6 +1071,108 @@ for _m in payload["measures"]:
                 "did. The correction could not be identified for these windows (the relationship "
                 "between starting level and subsequent change explains too little of the "
                 "variation among non-members), so no estimate is reported for this outcome.")
+
+# ------------------------------------------------------------- verdict
+# Who gains, who does not, and who loses by staying out. Four questions that the rest of this
+# study answers only in pieces. Assembling them needs one methodological change and it is the
+# reason this section exists separately.
+#
+# Everywhere else, convergence is measured as a share of the EU average. That denominator is
+# itself moving: as the East catches up, the EU average rises, so a rich member's line falls
+# even while its economy grows. Useful for "is the Union converging", useless for "is this
+# country gaining". Here every country is instead measured against a FIXED EXTERNAL BENCHMARK —
+# US GNI per capita at PPP — over one common calendar window, 2000 to the latest year. No
+# event-time alignment, no moving denominator, and members and non-members are held to exactly
+# the same twenty-five years.
+#
+# What this buys and what it does not: it removes the mechanical artefact, and it permits a
+# like-for-like group comparison with a placebo. It does NOT make the result causal. It is a
+# fixed-window difference of medians between 11 countries and 5, not an event study, and the
+# window contains the accession run-up as well as membership itself. It is reported as the
+# strongest descriptive evidence in the study, not promoted to the finding tier.
+VG = "NY.GNP.PCAP.PP.CD"
+_us = series.get(("USA", VG), {})
+
+
+def _rel_us(iso):
+    s = series.get((iso, VG), {})
+    return {y: s[y] / _us[y] * 100 for y in s if _us.get(y)}
+
+
+verdict = {"benchmark": "US GNI per capita, PPP", "base": 2000, "rows": []}
+_latest = max(y for y in _us)
+for b in blocs:
+    iso = b["iso3"]
+    s = _rel_us(iso)
+    if 2000 not in s or max(s) < 2024:
+        continue
+    end = max(s)
+    conv = series.get((iso, "DERIVED.GNI.PCT.EU"), {})
+    tr = series.get((iso, "DERIVED.TRADE.OPEN"), {})
+    pb = series.get((iso, BUD_P), {})
+    _cum = series.get((iso, BUD_NB), {})
+    _byrs = [y for y in _cum if y >= max(2000, int(b["accession_year"] or 2000))]
+    verdict["rows"].append({
+        "iso3": iso, "name": b["name"], "bloc": b["bloc"],
+        "member": b["group"] == "member",
+        "accession": int(b["accession_year"]) if b["accession_year"] else None,
+        "relStart": round(s[2000], 1), "relEnd": round(s[end], 1),
+        "relGain": round(s[end] - s[2000], 1), "endYear": end,
+        "convGain": round(conv[max(conv)] - conv[2000], 1)
+                    if (2000 in conv and conv and max(conv) >= 2024) else None,
+        "tradeGain": round(tr[max(tr)] - tr[2000], 1)
+                     if (2000 in tr and tr and max(tr) >= 2022) else None,
+        "budgetPct": round(statistics.fmean([pb[y] for y in _byrs if y in pb]), 2)
+                     if any(y in pb for y in _byrs) else None,
+        "budgetCum": round(sum(_cum[y] for y in _byrs) / 1000, 1) if _byrs else None,
+    })
+verdict["rows"].sort(key=lambda r: -r["relGain"])
+
+# group comparison, and the placebo that decides whether to believe it. The placebo runs the
+# same measure over pre-accession years only. 1997-2000 is the best-covered pre-window: it is
+# the only one that includes Serbia and Montenegro, whose series begin in 1997.
+verdict["groups"] = {}
+for bl in ("East", "South", "West"):
+    m = [r["relGain"] for r in verdict["rows"] if r["bloc"] == bl and r["member"]]
+    n = [r["relGain"] for r in verdict["rows"] if r["bloc"] == bl and not r["member"]]
+    g = {"memberMedian": round(statistics.median(m), 1) if m else None,
+         "nonMedian": round(statistics.median(n), 1) if n else None,
+         "nm": len(m), "nn": len(n),
+         "welch": _welch(m, n) if (len(m) >= 3 and len(n) >= 3) else None,
+         "overlap": (min(m) <= max(n)) if (m and n) else None}
+    for a, b2 in ((1995, 2000), (1997, 2000)):
+        pm = [_rel_us(r["iso3"])[b2] - _rel_us(r["iso3"])[a] for r in verdict["rows"]
+              if r["bloc"] == bl and r["member"] and {a, b2} <= set(_rel_us(r["iso3"]))]
+        pn = [_rel_us(r["iso3"])[b2] - _rel_us(r["iso3"])[a] for r in verdict["rows"]
+              if r["bloc"] == bl and not r["member"] and {a, b2} <= set(_rel_us(r["iso3"]))]
+        g[f"placebo{a}"] = {
+            "gap": round(statistics.median(pm) - statistics.median(pn), 1) if (pm and pn) else None,
+            "nm": len(pm), "nn": len(pn)}
+    verdict["groups"][bl] = g
+
+# the catch-up confound, tested rather than assumed. If poorer countries mechanically gain more,
+# the members' lead could be an artefact of where they started. Within the East region the
+# relationship is flat (see r2 below) and runs the wrong way for that story: members started
+# RICHER on average and still gained more. Residuals are reported per country so the reader can
+# see that the ordering is not driven by one or two outliers.
+_e = [r for r in verdict["rows"] if r["bloc"] == "East"]
+_xs = [r["relStart"] for r in _e]
+_ys = [r["relGain"] for r in _e]
+_mx, _my = statistics.fmean(_xs), statistics.fmean(_ys)
+_sxx = sum((x - _mx) ** 2 for x in _xs)
+_b1 = sum((x - _mx) * (y - _my) for x, y in zip(_xs, _ys)) / _sxx if _sxx else 0.0
+_b0 = _my - _b1 * _mx
+verdict["catchup"] = {
+    "slope": round(_b1, 3),
+    "fit": _pearson(list(zip(_xs, _ys))),
+    "memberStartMean": round(statistics.fmean([r["relStart"] for r in _e if r["member"]]), 1),
+    "nonStartMean": round(statistics.fmean([r["relStart"] for r in _e if not r["member"]]), 1),
+    "rows": sorted([{"name": r["name"], "member": r["member"], "start": r["relStart"],
+                     "gain": r["relGain"],
+                     "residual": round(r["relGain"] - (_b0 + _b1 * r["relStart"]), 1)}
+                    for r in _e], key=lambda r: -r["residual"]),
+}
+payload["verdict"] = verdict
 
 out = os.path.join(BASE, "analysis_payload.json")
 json.dump(payload, open(out, "w", encoding="utf-8"), ensure_ascii=False)
