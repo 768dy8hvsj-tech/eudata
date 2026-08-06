@@ -136,6 +136,123 @@ def disputes(iso3):
     return out
 
 
+def acquis(col):
+    """How much of the Union's rulebook already applies, area by area.
+
+    Not a percentage. The often-quoted "Norway has adopted X% of EU law" figures depend
+    entirely on what you count -- EFTA's own tracker says more than 9,500 acts have at some
+    point been part of the EEA Agreement and around 5,000 are in force -- and the honest
+    answer to "how much overlap" is a map rather than a number. So this reads the EEA
+    Agreement's own structure: which policy areas are inside it, which are inside
+    Switzerland's bilateral treaties, and which are inside neither.
+
+    `col` selects the column: "eea" for Norway and Iceland, "swiss" for Switzerland.
+    """
+    p = DATA / "acquis_coverage.csv"
+    if not p.exists():
+        return None
+    rows = sorted(csv.DictReader(open(p, encoding="utf-8")), key=lambda r: int(r["order"]))
+    out, groups = [], []
+    for r in rows:
+        item = {"area": r["area"], "group": r["group"], "eu": r["eu"],
+                "here": r[col], "note": r["note_" + col]}
+        out.append(item)
+        if r["group"] not in groups:
+            groups.append(r["group"])
+    n = len(out)
+    full = sum(1 for r in out if r["here"] == "full")
+    part = sum(1 for r in out if r["here"] == "partial")
+    none = sum(1 for r in out if r["here"] == "none")
+    return {"rows": out, "groups": groups, "n": n,
+            "full": full, "partial": part, "none": none,
+            "counts": "%d of %d areas apply in full, %d in part, %d not at all"
+                      % (full, n, part, none)}
+
+
+def joining_case(iso3, col, row, V, name="this country"):
+    """What would actually change if this country joined.
+
+    Built from the coverage map rather than from opinion: an area already applying in full
+    would not change, an area applying partly or not at all would, and the direction of that
+    change is stated as what it IS -- gaining a vote, losing control of fisheries -- not as
+    whether it would be good. The one quantified line is the budget, and it is quantified
+    because the budget key is GNI-based and all three of these countries sit above the
+    members on income per head.
+    """
+    A = acquis(col)
+    if not A:
+        return None
+    gain_vote = [r for r in A["rows"]
+                 if r["here"] in ("full", "partial") and r["area"] != "A vote on the rules"]
+    would_enter = [r for r in A["rows"] if r["here"] == "none"
+                   and r["area"] not in ("A vote on the rules",)]
+    return {
+        "counts": A["counts"],
+        "gainsN": len(gain_vote),
+        "entersN": len(would_enter),
+        "gains": [
+            {"head": "A vote on the rules it already follows",
+             "body": "This is the largest single change and it is not a matter of degree. "
+                     f"{A['full']} of the {A['n']} policy areas below already apply here in "
+                     f"full and {A['partial']} in part — adopted, enforced and litigated — "
+                     "with no seat in the Council and no members of the European Parliament. "
+                     "Joining would not extend the rulebook much. It would extend the "
+                     "franchise over it."},
+            {"head": "The areas currently negotiated one at a time",
+             "body": f"{len(would_enter)} areas apply here not at all. What a country holds by "
+                     "agreement it can also lose by agreement, and these have been used as "
+                     "leverage: "
+                     + ("Switzerland lost stock-exchange equivalence in 2019 and medical-device "
+                        "recognition in 2021, and spent four years outside Horizon Europe."
+                        if col == "swiss" else
+                        "research-programme access is renewed period by period, and the EU has "
+                        "suspended it for a neighbour before — Switzerland spent four years "
+                        "outside Horizon Europe after a separate dispute.")
+                     + " Inside the Union these are treaty rights rather than renewable "
+                       "concessions."},
+            {"head": "The customs union",
+             "body": "No non-member is in it, so every consignment still carries rules-of-"
+                     "origin paperwork even where the tariff is zero. This is the friction "
+                     "that free trade agreements do not remove and membership does."},
+        ],
+        "costs": [
+            {"head": "It would become a net contributor, and a large one",
+             "body": "The budget key is based on gross national income, and this country sits "
+                     f"at {row['relEnd']:.1f}% of US income per head — above almost every "
+                     "member. Germany, at a lower income per head, pays 0.47% of national "
+                     "income a year net. There is no published estimate of what this country "
+                     "would pay, and this project will not manufacture one, but the direction "
+                     "is not in doubt and the cohesion and farm funds it would be paying into "
+                     "are closed to it now."},
+            {"head": ("Agriculture, and the farm protection that goes with it"
+                      if col == "swiss" else "Fisheries above all, and agriculture"),
+             "body": ("Swiss farm support is among the highest in the OECD and the common "
+                      "agricultural policy would not permit it. There is no fisheries question "
+                      "here, which removes the objection that has blocked membership in both "
+                      "of the other non-members."
+                      if col == "swiss" else
+                      f"The common fisheries policy is the single reason membership has never "
+                      f"been settled in {name}: fish are a large share of exports and "
+                      f"quota-setting would move to Brussels. Agricultural protection would "
+                      f"also have to come down to what the CAP allows.")},
+            {"head": "Autonomy it currently uses",
+             "body": "Non-members negotiate their own trade agreements and set their own "
+                     "external tariff, and that autonomy is real rather than nominal. "
+                     + ("Swiss neutrality also sits outside the common foreign and security "
+                        "policy, and that is a constitutional position rather than an "
+                        "oversight."
+                        if col == "swiss" else
+                        f"{name} also aligns with EU foreign policy by choice rather than "
+                        "obligation, which is a smaller difference in practice than on paper "
+                        "but a real one.")},
+        ],
+        "verdictNote": "None of this is a recommendation, and none of it is measured. It is a "
+                       "list of what would change, drawn from which policy areas apply where. "
+                       "Whether the trade is worth taking depends on how a country weighs a "
+                       "vote against a fishing quota, and no dataset settles that.",
+    }
+
+
 def verdict_nonmember(row, V, in_eea=True):
     """The mirror question, and it does not have a mirror answer.
 
@@ -589,6 +706,19 @@ def build(iso3):
             k["value"] = f"{v:,.{vf.get('dp', 1)}f}{vf.get('suffix', '')}"
         kpis.append(k)
 
+    # Which column of the coverage map this page reads, and the case for and against joining
+    # that follows from it.
+    _col = "eea" if w.get("eeaLabel") == "EEA" else "swiss"
+    _acq = _join = None
+    if not nar.get("member", True):
+        _acq = acquis(_col)
+        _ap = BASE / "analysis_payload.json"
+        if _ap.exists():
+            _V = json.loads(_ap.read_text(encoding="utf-8")).get("verdict") or {}
+            _r = next((r for r in _V.get("rows", []) if r["iso3"] == iso3), None)
+            if _r:
+                    _join = joining_case(iso3, _col, _r, _V, nar["name"])
+
     payload = {
         "iso3": iso3, "name": nar["name"], "subtitle": nar["subtitle"],
         "member": nar.get("member", True),
@@ -607,6 +737,7 @@ def build(iso3):
         "milestonesDropped": [{"date": m["date"], "label": m["label"]} for m in dropped],
         "money": money(iso3),
         "flows": nonmember_flows(iso3),
+        "acquis": _acq, "joining": _join,
         "disputes": disputes(iso3),
         "verdict": verdict(iso3),
         "context": context(iso3, table),

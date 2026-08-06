@@ -178,6 +178,33 @@ for iso in countries:
                     "retrieved": "2026-08-04"})
                 derived += 1
 
+# 7. trade direction. Every other trade series in this project measures HOW MUCH a country
+#    trades; this one measures WHO WITH. It is the difference between an economy opening and
+#    an economy reorienting, and for the 2004 wave the answer turns out to be the first only.
+tp = os.path.join(DATA, "raw", "_trade_partners.csv")
+if os.path.exists(tp):
+    CODE = {("export share", "European Union"): ("TRADE.EU.EXP.SHR",
+             "Exports to the EU, % of total exports"),
+            ("import share", "European Union"): ("TRADE.EU.IMP.SHR",
+             "Imports from the EU, % of total imports")}
+    REG = {"Asia": "ASIA", "America": "AMER", "Africa": "AFR",
+           "Rest of Europe (non-EU27)": "EUR", "Oceania & polar regions": "OCE",
+           "North America (USMCA)": "USMCA", "Latin America": "LATAM"}
+    for r in csv.DictReader(open(tp, encoding="utf-8")):
+        key = (r["measure"], r["partner"])
+        if key in CODE:
+            code, nm = CODE[key]
+        elif r["partner"] in REG and r["measure"] == "export share":
+            code = "TRADE.REG.EXP." + REG[r["partner"]]
+            nm = f"Exports to {r['partner']}, % of extra-EU exports"
+        else:
+            continue
+        name = next((x["country"] for x in rows if x["iso3"] == r["iso3"]), r["iso3"])
+        add({"iso3": r["iso3"], "country": name, "indicator_code": code,
+             "indicator_name": nm, "unit": r["unit"], "year": r["year"],
+             "value": r["value"], "source": r["source"], "retrieved": r["retrieved"]})
+        derived += 1
+
 rows.sort(key=lambda r: (r["iso3"], r["indicator_code"], int(r["year"])))
 with open(os.path.join(DATA, "indicators.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=FIELDS)

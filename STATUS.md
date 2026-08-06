@@ -1,4 +1,4 @@
-# Project status — 6 August 2026 (late)
+# Project status — 6 August 2026 (final pass)
 
 ## Where it stands
 
@@ -10,7 +10,7 @@ Indicators), Eurostat, ECB, European Commission (budget workbook), plus verified
 and metadata tables.
 
 **Pages:** `start-here.html` · `index.html` (7 regions × 14 measures) · `analysis.html`
-(10 tabs) · `flows.html` (budget flows, per country and per fund) · **28 country pages, each
+(11 tabs) · `flows.html` (budget flows, per country and per fund) · **28 country pages, each
 now carrying a membership verdict, its own budget statement, its place in the cross-country
 findings, and milestone rails on every chart**.
 
@@ -80,6 +80,18 @@ in the wider findings* card generated from the cross-country analysis; **Union-w
 rail under every chart; and **per-chart x-axis clipping**, so a chart spans the years it has
 data for rather than the years the page covers. Germany's hero chart no longer opens with 36
 blank years, and no timeline now starts before the data does.
+
+## Trade direction — a new finding
+
+Membership made the Eastern members trade **more**; it did not make them trade
+**differently**. Accession raised trade openness by +20.5pp of GDP — the strongest result in
+the study — while moving the share of exports going to the EU by a median of **−0.3pp** across
+the 2004 wave. The reorientation had already happened under the Europe Agreements: two years
+before entry Czechia sent 80.5% of its exports to the EU, Hungary 80.7%, Slovakia 87.7%,
+Poland 76.3%. Source: Eurostat `ext_lt_intratrd`, 2002–2025, EU27 definition throughout.
+
+The three non-members are not trading elsewhere either. **Norway sends 67.5% of its exports to
+the EU — a higher share than Germany, France or Italy**, none of which reaches 56%.
 
 ## Known gaps
 

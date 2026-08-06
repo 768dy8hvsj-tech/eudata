@@ -118,6 +118,27 @@
   table.t th { color: var(--text-muted); font-weight: 500; }
   table.t td.num, table.t th.num { text-align: right; font-variant-numeric: tabular-nums; }
   table.t td.nm { color: var(--text-primary); font-weight: 500; }
+  .acquis { margin-top: 8px; }
+  .arow { display: grid; grid-template-columns: 1fr 92px 92px; align-items: center;
+    padding: 6px 0 2px; }
+  .arow.ahead .acell { font-size: 11px; color: var(--text-muted); text-align: center; }
+  .agroup { font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-muted); margin-top: 14px; padding-bottom: 3px;
+    border-bottom: 1px solid var(--grid); }
+  .aarea { font-size: 13px; color: var(--text-primary); }
+  .acell { text-align: center; }
+  .abox { display: inline-block; width: 46px; height: 13px; border-radius: 3px;
+    background: var(--grid); }
+  .abox.full { background: var(--series-1); }
+  .abox.partial { background: var(--series-2); opacity: 0.55; }
+  .anote { font-size: 11.5px; color: var(--text-muted); line-height: 1.5;
+    padding: 0 92px 7px 0; margin-top: -1px; max-width: 640px; }
+  .jcol { border-top: 2px solid var(--grid); padding-top: 10px; }
+  .jcol.good { border-top-color: var(--series-1); }
+  .jcol.warn { border-top-color: var(--series-2); }
+  .jcol h4 { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+  .jhead { font-size: 13px; font-weight: 600; color: var(--text-primary); margin-top: 11px; }
+  .jbody { font-size: 12.5px; color: var(--text-secondary); line-height: 1.55; margin-top: 3px; }
   .timeline.disputes li { padding: 13px 0; align-items: flex-start; }
   .timeline.disputes .tbody { color: var(--text-secondary); }
   .timeline .outcome { display: inline-block; margin-top: 5px; color: var(--text-primary); }
@@ -806,6 +827,94 @@
     return card;
   }
 
+  /* ---------------- the overlap, drawn ----------------
+     "How much EU law applies?" has no honest single number — the counts depend entirely on
+     what you count, and EFTA's own tracker puts more than 9,500 acts as having been part of
+     the EEA Agreement at some point with around 5,000 in force. So this draws the map
+     instead: which policy areas are inside the arrangement, which are half in, which are out. */
+  function acquisCard() {
+    var A = P.acquis;
+    if (!A) return null;
+    var card = h("div", "card");
+    card.appendChild(h("h3", null, "How much of the Union's rulebook already applies"));
+    card.appendChild(h("p", "sub", "Each row is a policy area. The left column is an EU member "
+      + "state, the right is this country. <strong>" + A.counts + ".</strong>"));
+
+    var lg = h("div", "legend");
+    [["applies in full", "var(--series-1)"], ["applies in part", "var(--series-2)"],
+     ["does not apply", "var(--grid)"]].forEach(function (k) {
+      var e = h("span", "key");
+      var i = h("span", "swatch-line");
+      i.style.background = k[1]; i.style.width = "11px"; i.style.height = "11px";
+      i.style.borderRadius = "2px";
+      e.appendChild(i); e.appendChild(document.createTextNode(k[0]));
+      lg.appendChild(e);
+    });
+    card.appendChild(lg);
+
+    var grid = h("div", "acquis");
+    var hd = h("div", "arow ahead");
+    hd.appendChild(h("span", "aarea", ""));
+    hd.appendChild(h("span", "acell", "EU member"));
+    hd.appendChild(h("span", "acell", P.name));
+    grid.appendChild(hd);
+    var seen = {};
+    A.rows.forEach(function (r) {
+      if (!seen[r.group]) {
+        seen[r.group] = 1;
+        grid.appendChild(h("div", "agroup", r.group));
+      }
+      var row = h("div", "arow");
+      var nm = h("span", "aarea", r.area);
+      row.appendChild(nm);
+      [r.eu, r.here].forEach(function (v) {
+        var c = h("span", "acell");
+        var box = h("span", "abox " + v);
+        box.title = v === "full" ? "applies in full"
+          : v === "partial" ? "applies in part" : "does not apply";
+        c.appendChild(box);
+        row.appendChild(c);
+      });
+      grid.appendChild(row);
+      if (r.note) grid.appendChild(h("div", "anote", r.note));
+    });
+    card.appendChild(grid);
+    card.appendChild(h("p", "note", "Built from the structure of the agreements themselves — "
+      + "the EEA Agreement's annexes and the Swiss bilateral packages — rather than from a "
+      + "percentage. The often-quoted figures for “how much EU law Norway has adopted” vary "
+      + "wildly because they depend on what is being counted; EFTA's own tracker records more "
+      + "than 9,500 acts as having been part of the EEA Agreement at some point, with around "
+      + "5,000 in force. A map is more honest than a number. Sources: European Parliament "
+      + "research service briefing on EU–Norway relations (2025), the EEA Agreement, EFTA and "
+      + "the Swiss Federal Department of Foreign Affairs."));
+    return card;
+  }
+
+  /* ---------------- what joining would actually change ---------------- */
+  function joiningCard() {
+    var J = P.joining;
+    if (!J) return null;
+    var card = h("div", "card");
+    card.appendChild(h("h3", null, "Where membership would change something, and where it would cost"));
+    card.appendChild(h("p", "sub", "Derived from the coverage map above: an area that already "
+      + "applies in full would not change on joining, and one that applies partly or not at all "
+      + "would. What follows is what would change — not whether it would be worth it."));
+    var g = h("div", "grid2");
+    [["What it would gain", J.gains, "good"], ["What it would give up", J.costs, "warn"]]
+      .forEach(function (side) {
+        var col = h("div", "jcol " + side[2]);
+        col.appendChild(h("h4", null, side[0]));
+        side[1].forEach(function (x) {
+          col.appendChild(h("div", "jhead", x.head));
+          col.appendChild(h("div", "jbody", x.body));
+        });
+        g.appendChild(col);
+      });
+    card.appendChild(g);
+    card.appendChild(h("p", "note", J.verdictNote));
+    return card;
+  }
+
   function buildBlocks(host, blocks) {
     blocks.forEach(function (b) {
       if (b.type === "prose") host.appendChild(proseCard(b));
@@ -851,6 +960,8 @@
       var mnc = moneyCard(false); if (mnc) sec.appendChild(mnc);
       var fc = flowsCard(); if (fc) sec.appendChild(fc);
       var dc = disputesCard(); if (dc) sec.appendChild(dc);
+      var ac = acquisCard(); if (ac) sec.appendChild(ac);
+      var jc = joiningCard(); if (jc) sec.appendChild(jc);
       if ((P.context || []).length) {
         var cc = h("div", "card prose");
         cc.appendChild(h("h3", null, "Where this country sits in the wider findings"));

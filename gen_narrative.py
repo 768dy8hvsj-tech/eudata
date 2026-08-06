@@ -167,6 +167,17 @@ def build(c):
                                 [{"code": "NE.EXP.GNFS.ZS", "name": "Exports"},
                                  {"code": "NE.IMP.GNFS.ZS", "name": "Imports", "colorVar": "--series-2"}],
                                 {"unit": "%", "dp": 1, "endLabelBelow": 2}) | {"type": "chart"})
+    if "TRADE.EU.EXP.SHR" in hv:
+        commercial.append(chart("Who it trades with: the EU's share",
+                                "Share of this country's total exports and imports going to or "
+                                "coming from the other EU member states. This measures direction, "
+                                "not volume — the charts above show how much a country trades, "
+                                "this one shows who with. Eurostat, EU27 definition applied to "
+                                "every year, so the UK counts as outside throughout.",
+                                [{"code": "TRADE.EU.EXP.SHR", "name": "Exports to the EU"},
+                                 {"code": "TRADE.EU.IMP.SHR", "name": "Imports from the EU",
+                                  "colorVar": "--series-2"}],
+                                {"unit": "%", "dp": 1, "endLabelBelow": 2}) | {"type": "chart"})
     crow = []
     if "BX.KLT.DINV.WD.GD.ZS" in hv:
         crow.append(chart("FDI net inflows, % of GDP", "Foreign direct investment, net inflows.",
@@ -408,6 +419,15 @@ def build_nonmember(c):
                                  {"code": "NE.IMP.GNFS.ZS", "name": "Imports",
                                   "colorVar": "--series-2"}],
                                 {"unit": "%", "dp": 1, "endLabelBelow": 2}) | {"type": "chart"})
+    if "TRADE.EU.EXP.SHR" in hv:
+        commercial.append(chart("Who it trades with: the EU's share",
+                                "Share of total exports going to the EU. Coverage for non-EU "
+                                "reporters in the Eurostat dataset begins around 2013, so this "
+                                "is two observations rather than a series — but the level is the "
+                                "point. Non-members are not trading elsewhere; they are trading "
+                                "with the Union, from outside it.",
+                                [{"code": "TRADE.EU.EXP.SHR", "name": "Exports to the EU"}],
+                                {"unit": "%", "dp": 1}) | {"type": "chart"})
     crow = []
     if "BX.KLT.DINV.WD.GD.ZS" in hv:
         crow.append(chart("FDI net inflows, % of GDP", "Foreign direct investment, net inflows.",

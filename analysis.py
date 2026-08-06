@@ -1072,6 +1072,56 @@ for _m in payload["measures"]:
                 "between starting level and subsequent change explains too little of the "
                 "variation among non-members), so no estimate is reported for this outcome.")
 
+# ----------------------------------------------------- trade direction
+# Every other trade measure here asks HOW MUCH a country trades. This one asks WHO WITH, and
+# the two answers turn out to be different. Accession raised Eastern trade openness by 20.5
+# points of GDP -- the strongest result in the study -- while leaving the DIRECTION of that
+# trade almost exactly where it already was. The Europe Agreements had opened free trade with
+# the Community from the early 1990s, so by the time the 2004 wave joined, the reorientation
+# had already happened. Membership made them trade more, not trade differently.
+direction = {"years": list(range(2002, 2026)), "rows": [], "waves": []}
+_EXP, _IMP = "TRADE.EU.EXP.SHR", "TRADE.EU.IMP.SHR"
+_bloc = {b["iso3"]: b for b in blocs}
+for iso, b in sorted(_bloc.items()):
+    s_ = series.get((iso, _EXP), {})
+    if not s_:
+        continue
+    a = int(b["accession_year"]) if b["accession_year"].strip().isdigit() else None
+    pre = [s_[y] for y in ((a - 2, a - 1) if a else ()) if y in s_]
+    post = [s_[y] for y in ((a + 2, a + 3) if a else ()) if y in s_]
+    direction["rows"].append({
+        "iso3": iso, "name": b["name"], "bloc": b["bloc"],
+        "member": b["group"] == "member", "accession": a,
+        "first": round(s_[min(s_)], 1), "firstYear": min(s_),
+        "last": round(s_[max(s_)], 1), "lastYear": max(s_),
+        "change": round(s_[max(s_)] - s_[min(s_)], 1),
+        "aroundAccession": round(statistics.fmean(post) - statistics.fmean(pre), 1)
+                           if (pre and post) else None,
+        "path": [round(s_[y], 1) if y in s_ else None for y in direction["years"]],
+        "imports": [round(series.get((iso, _IMP), {}).get(y), 1)
+                    if y in series.get((iso, _IMP), {}) else None for y in direction["years"]],
+    })
+for wave in (2004, 2007, 2013):
+    v = [r["aroundAccession"] for r in direction["rows"]
+         if r["accession"] == wave and r["aroundAccession"] is not None]
+    if v:
+        direction["waves"].append({
+            "year": wave, "n": len(v), "median": round(statistics.median(v), 1),
+            "min": round(min(v), 1), "max": round(max(v), 1)})
+direction["regions"] = sorted(
+    [{"code": c, "label": nm, "path": [round(series.get(("EU27", c), {}).get(y), 1)
+      if y in series.get(("EU27", c), {}) else None for y in direction["years"]]}
+     for c, nm in [("TRADE.REG.EXP.EUR", "Rest of Europe"), ("TRADE.REG.EXP.ASIA", "Asia"),
+                   ("TRADE.REG.EXP.AMER", "The Americas"),
+                   ("TRADE.REG.EXP.USMCA", "North America"),
+                   ("TRADE.REG.EXP.LATAM", "Latin America"),
+                   ("TRADE.REG.EXP.AFR", "Africa"),
+                   ("TRADE.REG.EXP.OCE", "Oceania and polar")]
+     if any(v is not None for v in
+            [series.get(("EU27", c), {}).get(y) for y in direction["years"]])],
+    key=lambda r: -(next((v for v in reversed(r["path"]) if v is not None), 0)))
+payload["direction"] = direction
+
 # ------------------------------------------------------------- verdict
 # Who gains, who does not, and who loses by staying out. Four questions that the rest of this
 # study answers only in pieces. Assembling them needs one methodological change and it is the
