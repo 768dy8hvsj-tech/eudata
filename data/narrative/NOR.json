@@ -390,8 +390,8 @@
    "text": "World Bank Open Data (api.worldbank.org). Indicator codes travel with every value in <code class=\"ind\">data/indicators.csv</code>."
   },
   {
-   "label": "Milestones",
-   "text": "Statistics Norway, the Norwegian Government, the Council of the EU, the European Commission (DG NEAR), EFTA, Iceland's National Electoral Commission and RÚV. The source for each row is recorded in <code class=\"ind\">data/milestones.csv</code>, and where two credited sources disagree the row says so rather than picking one."
+   "label": "Milestones and disputes",
+   "text": "Norwegian Ministry of Foreign Affairs (norway.no), Statistics Norway (SSB), Stortinget, Norwegian Government (regjeringen.no), EFTA, Council of the EU (7979, 94), European Economic and Social Committee, contemporaneous reporting, Supreme Court of Norway HR-2023-2030-P, Supreme Court of Norway (via High North News), Norwegian government, EFTA Court advisory opinion (Case E-18 and 24). The source for each row is recorded in <code class=\"ind\">data/milestones.csv</code> and <code class=\"ind\">data/disputes.csv</code>, and where two credited sources disagree the row says so rather than picking one."
   },
   {
    "label": "Relationship metadata",
@@ -409,7 +409,7 @@
   },
   {
    "title": "The EEA changes what the comparison means",
-   "text": "Both non-member profiles in this set are inside the single market through the EEA. So the contrast with a member state is <em>not</em> integration against isolation; it is integration without membership against integration with it. That makes them a demanding control, and it is one reason the trade estimate for the Western bloc does not survive its checks."
+   "text": "Norway is inside the single market through the EEA. So the contrast with a member state is <em>not</em> integration against isolation; it is integration without membership against integration with it. That makes this a demanding control, and it is one reason the trade estimate for the Western bloc does not survive its checks."
   },
   {
    "title": "Attribution caution",

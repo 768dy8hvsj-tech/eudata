@@ -246,6 +246,40 @@ def commercial(iso, name, b, founding):
     return p
 
 
+def _peak_case(iso):
+    """The Eastern bloc's sharpest population decline, named and dated.
+
+    This used to be the hardcoded clause "Latvia lost a quarter of its population over the
+    period". Two things were wrong with it. The figure was loose -- Latvia is 30.7% below
+    its 1989 peak, not a quarter, and "over the period" did not say which period. And on
+    Latvia's OWN page the clause sat directly after the sentence's own 1960-2025 figure of
+    -12.9%, so the paragraph appeared to contradict itself in consecutive clauses.
+
+    So the extreme case is now computed from the store rather than remembered, the peak
+    year is stated so the two figures are visibly measuring different spans, and the page
+    belonging to that country says "this country" instead of talking about itself in the
+    third person.
+    """
+    worst, drop, peak = None, 0.0, None
+    for i, bb in blocs.items():
+        if bb["group"] != "member" or bb["bloc"] != "East":
+            continue
+        pop = s(i, "SP.POP.TOTL")
+        if not pop:
+            continue
+        py = max(pop, key=lambda y: pop[y])
+        d = (pop[max(pop)] / pop[py] - 1) * 100
+        if d < drop:
+            worst, drop, peak = i, d, py
+    if not worst:
+        return ""
+    if worst == iso:
+        return (f", and this country is the sharpest case in the bloc — {pct(-drop, 1)}% "
+                f"below its {peak} peak")
+    return (f" — {blocs[worst]['name']} is the sharpest case, {pct(-drop, 1)}% below its "
+            f"{peak} peak")
+
+
 def social(iso, name, b, founding):
     p = []
     pop = s(iso, "SP.POP.TOTL")
@@ -257,9 +291,9 @@ def social(iso, name, b, founding):
             f"Population moved {pct(ch, 1, True)}% between {f_y} and {l_y}. This matters more "
             f"than it looks: income per head is output divided by population, so a shrinking "
             f"denominator raises the measured figure without anyone becoming better off. "
-            + ("Across the Eastern members between 17% and 29% of the measured gain in output "
-               "per head is the denominator falling — Latvia lost a quarter of its population "
-               "over the period." if b["bloc"] == "East" and ch < 0 else
+            + (("Across the Eastern members between 17% and 29% of the measured gain in output "
+                "per head is the denominator falling" + _peak_case(iso) + ".")
+               if b["bloc"] == "East" and ch < 0 else
                "Where population grew, the same arithmetic works in reverse and holds the "
                "per-head figure down." if ch > 0 else ""))
     if nm:

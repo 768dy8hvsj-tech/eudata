@@ -24,6 +24,7 @@ project only. The project is the canonical store; this folder is the built site 
 | `poland-findings.md` | The one hand-written country narrative | `poland-dashboard.html` | project only |
 | `data-pipeline.md` | How the data store is built and verified | — | project only |
 | `research-framework.md` | The original design | — | project only |
+| `accession-questions.md` | Sovereignty, the grid, the ECB rate, purchasing power, carve-outs — the five Iceland questions | — | local + project |
 
 ## What the audit found, and what was done about it
 
@@ -53,6 +54,30 @@ analyses would drift the moment a series was refreshed, and each would be an opp
 something the data does not support. The generator never claims causation the study has not
 established, and `sm.js` now enforces that: it checks all 135 lens analyses for length, for the
 word “pending”, and for overclaiming phrases.
+
+## Cross-reference audit, 6 August 2026
+
+A reader found the acquis map's **Energy** row on Iceland's page describing Norway: the third
+energy package, ACER, and the Norwegian Supreme Court. The cause was structural rather than
+careless — `note_eea` is one column shared by Norway and Iceland, so any Norway-specific fact
+written into it appears on both pages. `xref.py` now audits for exactly this, reading the payload
+out of the built HTML and flagging text on one country's page that names a different country
+without naming its own. It covers all 31 pages and passes at zero.
+
+Five rows fixed on Iceland's page — Energy, Research, Foreign policy, Cohesion and Farm payments —
+via a new `note_isl` override column that falls back to the shared note wherever it is blank. Two
+further leaks the audit found on its own: the **sources block was identical on all three non-member
+pages** and named Statistics Norway and Icelandic broadcasters on Switzerland's page, now generated
+per country from the rows each page actually shows; and the Eastern **population illustration** was
+a hardcoded "Latvia lost a quarter of its population over the period", which was loose (30.7% below
+its 1989 peak, not a quarter), undated, and on Latvia's own page contradicted the −12.9% figure in
+the preceding sentence. It is now computed from the store, states the peak year, and switches to
+the first person on the page it belongs to.
+
+Nine legitimate cross-references are allowlisted in `xref.py` with a written reason each — the
+Germany net-contribution benchmark, the Switzerland-lost-Horizon comparison on the EEA pages,
+Poland's 2004 labour-market opening, and so on. The rule for adding to that list is that the text
+must be about the other country *on purpose*.
 
 ## Gaps that remain
 

@@ -13,7 +13,7 @@ BEFORE narrate.py, never after:
 Run it after narrate.py and every page loses its five-lens analysis and goes back to saying
 "written analysis pending". narrate.py is idempotent, so the fix is simply to re-run it.
 """
-import csv, json, os, collections
+import csv, json, os, re, collections
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "data")
@@ -321,6 +321,36 @@ def build(c):
     }
 
 
+def milestone_sources(iso):
+    """The credited sources actually used for THIS country's milestones and disputes.
+
+    This used to be one hand-written sentence shared by all three non-member pages, and it
+    named Statistics Norway and Icelandic broadcasters on Switzerland's page. A shared
+    constant describing one country is a bug waiting for a reader to find it, so the
+    sentence is now assembled from the source column of the rows the page actually shows.
+    """
+    got = []
+    for path, key in ((os.path.join(DATA, "milestones.csv"), "source"),
+                      (os.path.join(DATA, "disputes.csv"), "source")):
+        if not os.path.exists(path):
+            continue
+        for r in csv.DictReader(open(path, encoding="utf-8")):
+            if r["iso3"] != iso:
+                continue
+            # rows carry several credited sources separated by ; or /
+            for part in re.split(r"\s*[;/]\s*", (r.get(key) or "").strip()):
+                part = part.strip()
+                if part and part not in got:
+                    got.append(part)
+    if not got:
+        return "Recorded per row in <code class=\"ind\">data/milestones.csv</code>."
+    listed = ", ".join(got[:-1]) + " and " + got[-1] if len(got) > 1 else got[0]
+    return (listed + ". The source for each row is recorded in "
+            "<code class=\"ind\">data/milestones.csv</code> and "
+            "<code class=\"ind\">data/disputes.csv</code>, and where two credited sources "
+            "disagree the row says so rather than picking one.")
+
+
 def build_nonmember(c):
     """A profile page for a country that never joined.
 
@@ -553,11 +583,7 @@ def build_nonmember(c):
             {"label": "Time series", "text": "World Bank Open Data (api.worldbank.org). "
              "Indicator codes travel with every value in "
              "<code class=\"ind\">data/indicators.csv</code>."},
-            {"label": "Milestones", "text": "Statistics Norway, the Norwegian Government, the "
-             "Council of the EU, the European Commission (DG NEAR), EFTA, Iceland's National "
-             "Electoral Commission and RÚV. The source for each row is recorded in "
-             "<code class=\"ind\">data/milestones.csv</code>, and where two credited sources "
-             "disagree the row says so rather than picking one."},
+            {"label": "Milestones and disputes", "text": milestone_sources(iso)},
             {"label": "Relationship metadata", "text": "EEA, Schengen and EFTA status in "
              "<code class=\"ind\">data/nonmembers.csv</code>."},
         ],
@@ -570,12 +596,16 @@ def build_nonmember(c):
                 "EU budget flows and the Eurostat bond series are absent because they do not "
                 "exist for a non-member — not because collection failed. Everything else on a "
                 "member page is here."},
-            {"title": "The EEA changes what the comparison means", "text":
-                "Both non-member profiles in this set are inside the single market through the "
-                "EEA. So the contrast with a member state is <em>not</em> integration against "
-                "isolation; it is integration without membership against integration with it. "
-                "That makes them a demanding control, and it is one reason the trade estimate "
-                "for the Western bloc does not survive its checks."},
+            {"title": ("The EEA changes what the comparison means" if iso != "CHE"
+                       else "The bilateral treaties change what the comparison means"), "text":
+                ((f"{name} is inside the single market through the EEA."
+                  if iso != "CHE" else
+                  f"{name} is outside the EEA, but reaches much of the same market through "
+                  "a stack of bilateral treaties.")
+                 + " So the contrast with a member state is <em>not</em> integration against "
+                 "isolation; it is integration without membership against integration with it. "
+                 "That makes this a demanding control, and it is one reason the trade estimate "
+                 "for the Western bloc does not survive its checks.")},
             {"title": "Attribution caution", "text":
                 "Nothing on this page shows what not joining caused. That would need a "
                 "counterfactual for a country that never entered, which this design cannot "

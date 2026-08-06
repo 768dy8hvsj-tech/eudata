@@ -385,8 +385,8 @@
    "text": "World Bank Open Data (api.worldbank.org). Indicator codes travel with every value in <code class=\"ind\">data/indicators.csv</code>."
   },
   {
-   "label": "Milestones",
-   "text": "Statistics Norway, the Norwegian Government, the Council of the EU, the European Commission (DG NEAR), EFTA, Iceland's National Electoral Commission and RÚV. The source for each row is recorded in <code class=\"ind\">data/milestones.csv</code>, and where two credited sources disagree the row says so rather than picking one."
+   "label": "Milestones and disputes",
+   "text": "EFTA, European Parliament (EPRS), SWI swissinfo.ch, Swiss Federal Department of Foreign Affairs, European Commission, Swiss FDFA, SECO, BBC News, Swiss Federal Department of Finance (sif.admin.ch), European Commission statement and Swiss State Secretariat for Education Research and Innovation (SBFI). The source for each row is recorded in <code class=\"ind\">data/milestones.csv</code> and <code class=\"ind\">data/disputes.csv</code>, and where two credited sources disagree the row says so rather than picking one."
   },
   {
    "label": "Relationship metadata",
@@ -403,8 +403,8 @@
    "text": "EU budget flows and the Eurostat bond series are absent because they do not exist for a non-member — not because collection failed. Everything else on a member page is here."
   },
   {
-   "title": "The EEA changes what the comparison means",
-   "text": "Both non-member profiles in this set are inside the single market through the EEA. So the contrast with a member state is <em>not</em> integration against isolation; it is integration without membership against integration with it. That makes them a demanding control, and it is one reason the trade estimate for the Western bloc does not survive its checks."
+   "title": "The bilateral treaties change what the comparison means",
+   "text": "Switzerland is outside the EEA, but reaches much of the same market through a stack of bilateral treaties. So the contrast with a member state is <em>not</em> integration against isolation; it is integration without membership against integration with it. That makes this a demanding control, and it is one reason the trade estimate for the Western bloc does not survive its checks."
   },
   {
    "title": "Attribution caution",

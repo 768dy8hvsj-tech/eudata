@@ -390,8 +390,8 @@
    "text": "World Bank Open Data (api.worldbank.org). Indicator codes travel with every value in <code class=\"ind\">data/indicators.csv</code>."
   },
   {
-   "label": "Milestones",
-   "text": "Statistics Norway, the Norwegian Government, the Council of the EU, the European Commission (DG NEAR), EFTA, Iceland's National Electoral Commission and RÚV. The source for each row is recorded in <code class=\"ind\">data/milestones.csv</code>, and where two credited sources disagree the row says so rather than picking one."
+   "label": "Milestones and disputes",
+   "text": "European Commission, DG NEAR, EFTA, European Economic and Social Committee, contemporaneous reporting, Icelandic Government report on the 2008 bank collapse, UK House of Commons Treasury Committee, Council of the EU, Council of the EU (ST-7864-2015-INIT), RÚV (Icelandic national broadcaster), Landskjörstjórn (Icelandic National Electoral Commission), thjodaratkvaedi.is, UK Statutory Instrument 2008, 2668 (legislation.gov.uk), France 24, BBC News, Al Jazeera, EFTA Court press release PR-02, 13, European Commission (coastal states consultations) and SeafoodSource. The source for each row is recorded in <code class=\"ind\">data/milestones.csv</code> and <code class=\"ind\">data/disputes.csv</code>, and where two credited sources disagree the row says so rather than picking one."
   },
   {
    "label": "Relationship metadata",
@@ -409,7 +409,7 @@
   },
   {
    "title": "The EEA changes what the comparison means",
-   "text": "Both non-member profiles in this set are inside the single market through the EEA. So the contrast with a member state is <em>not</em> integration against isolation; it is integration without membership against integration with it. That makes them a demanding control, and it is one reason the trade estimate for the Western bloc does not survive its checks."
+   "text": "Iceland is inside the single market through the EEA. So the contrast with a member state is <em>not</em> integration against isolation; it is integration without membership against integration with it. That makes this a demanding control, and it is one reason the trade estimate for the Western bloc does not survive its checks."
   },
   {
    "title": "Attribution caution",

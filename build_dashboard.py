@@ -167,7 +167,7 @@ def destinations(iso3, table):
             "total": round(sum(r["value"] for r in out), 1)}
 
 
-def acquis(col):
+def acquis(col, iso3=None):
     """How much of the Union's rulebook already applies, area by area.
 
     Not a percentage. The often-quoted "Norway has adopted X% of EU law" figures depend
@@ -177,16 +177,25 @@ def acquis(col):
     Agreement's own structure: which policy areas are inside it, which are inside
     Switzerland's bilateral treaties, and which are inside neither.
 
-    `col` selects the column: "eea" for Norway and Iceland, "swiss" for Switzerland.
+    `col` selects the coverage column: "eea" for Norway and Iceland, "swiss" for
+    Switzerland. The *notes* need a finer grain than the coverage does. Norway and Iceland
+    have identical EEA coverage but not identical facts: the energy row is the Norwegian
+    ACER case for one and the Icelandic isolated-system understanding for the other, and a
+    reader on Iceland's page being told about the Storting is a straightforward error.
+    So `iso3` selects an optional per-country override column -- `note_isl` -- which falls
+    back to the shared note wherever it is blank. Add `note_nor` the same way if a Norway
+    fact ever needs splitting out of the shared text.
     """
     p = DATA / "acquis_coverage.csv"
     if not p.exists():
         return None
+    over = "note_" + (iso3 or "").lower()
     rows = sorted(csv.DictReader(open(p, encoding="utf-8")), key=lambda r: int(r["order"]))
     out, groups = [], []
     for r in rows:
+        note = (r.get(over) or "").strip() or r["note_" + col]
         item = {"area": r["area"], "group": r["group"], "eu": r["eu"],
-                "here": r[col], "note": r["note_" + col]}
+                "here": r[col], "note": note}
         out.append(item)
         if r["group"] not in groups:
             groups.append(r["group"])
@@ -210,7 +219,7 @@ def joining_case(iso3, col, row, V, name="this country"):
     because the budget key is GNI-based and all three of these countries sit above the
     members on income per head.
     """
-    A = acquis(col)
+    A = acquis(col, iso3)
     if not A:
         return None
     gain_vote = [r for r in A["rows"]
@@ -742,7 +751,7 @@ def build(iso3):
     _col = "eea" if w.get("eeaLabel") == "EEA" else "swiss"
     _acq = _join = None
     if not nar.get("member", True):
-        _acq = acquis(_col)
+        _acq = acquis(_col, iso3)
         _ap = BASE / "analysis_payload.json"
         if _ap.exists():
             _V = json.loads(_ap.read_text(encoding="utf-8")).get("verdict") or {}
