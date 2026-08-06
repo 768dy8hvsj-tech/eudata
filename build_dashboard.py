@@ -103,7 +103,40 @@ def money(iso3):
     }
 
 
-def verdict_nonmember(row, V):
+def nonmember_flows(iso3):
+    """What a non-member pays the Union, and what it gets back.
+
+    There is no equivalent of the budget workbook here, and that absence is itself the
+    finding: no institution publishes a single audited net position for a non-member the way
+    the Commission does for a member state. What exists is a set of separately published
+    line items on different bases -- some annual averages, some period totals, two currencies
+    -- and they cannot honestly be added into one number. So they are not added. The card
+    lists them as published, with the basis and the source on every row, and says plainly
+    that the total a reader wants does not exist.
+    """
+    p = DATA / "nonmember_flows.csv"
+    if not p.exists():
+        return None
+    rows = [r for r in csv.DictReader(open(p, encoding="utf-8")) if r["iso3"] == iso3]
+    if not rows:
+        return None
+    return {
+        "out": [r for r in rows if r["direction"] == "out"],
+        "in": [r for r in rows if r["direction"] == "in"],
+    }
+
+
+def disputes(iso3):
+    """Dated episodes where this country and the Union were on opposite sides."""
+    p = DATA / "disputes.csv"
+    if not p.exists():
+        return []
+    out = [r for r in csv.DictReader(open(p, encoding="utf-8")) if r["iso3"] == iso3]
+    out.sort(key=lambda r: float(r["sort_year"]))
+    return out
+
+
+def verdict_nonmember(row, V, in_eea=True):
     """The mirror question, and it does not have a mirror answer.
 
     A member page can ask what joining did, because there is a before and an after. A
@@ -166,9 +199,9 @@ def verdict_nonmember(row, V):
         "note": "It would require knowing what this country would look like <em>inside</em> "
                 "the Union. That is a counterfactual about a country that never entered, and "
                 "no comparison of observed outcomes can supply it. The non-members are also "
-                "not a random sample — Norway holds sovereign wealth no member has, and "
-                "Iceland's trajectory runs through a banking collapse in 2008 that has nothing "
-                "to do with either joining or not joining.",
+                "not a random sample: Norway holds sovereign wealth no member has, Iceland's "
+                "line runs through a banking collapse, and Switzerland was rich before any of "
+                "this began. None of that has anything to do with joining or not joining.",
     })
 
     return {
@@ -178,9 +211,14 @@ def verdict_nonmember(row, V):
                 "statement than it sounds. It means no penalty was <em>detected</em> by a "
                 "comparison with three usable comparators and intervals wide enough to hold "
                 "almost any answer. It is not evidence that staying out was the better choice, "
-                "and this project cannot produce such evidence. Note also that both non-member "
-                "profiles here are inside the single market through the EEA: they have most of "
-                "what the charts on a member page are measuring.",
+                "and this project cannot produce such evidence. Note also what this country "
+                "already has: "
+                + ("the single market through the EEA, which is most of what the charts on a "
+                   "member page are measuring."
+                   if in_eea else
+                   "free movement of persons, Schengen and single-market access for goods "
+                   "through more than a hundred bilateral agreements — most of what the charts "
+                   "on a member page are measuring, reached without joining."),
         "channels": ch,
         "counts": {"positive": sum(1 for c in ch if c["verdict"] == "positive"),
                    "negative": 0,
@@ -229,7 +267,12 @@ def verdict(iso3):
     res = next((r for r in V.get("catchup", {}).get("rows", []) if r["name"] == row["name"]), None)
 
     if not row.get("member"):
-        return verdict_nonmember(row, V)
+        nm = {}
+        p = DATA / "nonmembers.csv"
+        if p.exists():
+            nm = {r["iso3"]: r for r in csv.DictReader(open(p, encoding="utf-8"))}
+        return verdict_nonmember(row, V,
+                                 in_eea=bool(nm.get(iso3, {}).get("eea_year", "").strip()))
 
     founding = row.get("accession") == 1958
     ch = []
@@ -554,9 +597,17 @@ def build(iso3):
         "window": w, "years": years, "series": series, "kpis": kpis,
         "heroChart": nar["heroChart"], "tabs": nar["tabs"],
         "sources": nar["sources"], "method": nar["method"],
-        "milestones": ms,
+        # Disputes ride the same rail as milestones, in a third colour. A line that dips in
+        # 2008 or 2021 reads differently once you can see that a confrontation with the Union
+        # landed in that year.
+        "milestones": ms + [
+            {"date": d["date"], "sort": float(d["sort_year"]), "label": d["label"],
+             "description": d["description"], "kind": "warn", "scope": "dispute"}
+            for d in disputes(iso3) if float(d["sort_year"]) >= w["start"]],
         "milestonesDropped": [{"date": m["date"], "label": m["label"]} for m in dropped],
         "money": money(iso3),
+        "flows": nonmember_flows(iso3),
+        "disputes": disputes(iso3),
         "verdict": verdict(iso3),
         "context": context(iso3, table),
         # same derived episodes the comparison page uses, so a country's line can be

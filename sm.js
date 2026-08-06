@@ -54,6 +54,17 @@ for(const f of files){
   const early=P.milestones.filter(m=>m.sort<P.window.start);
   if(early.length) bad.push(`${nm}: ${early.length} timeline events before window start`);
   if(!P.milestones.some(m=>m.scope==='eu')) bad.push(`${nm}: no EU-wide milestones`);
+  // non-member pages carry the two cards a member page cannot: published contribution
+  // figures and the dated confrontations with the Union
+  if(P.member===false){
+    if(!P.flows) bad.push(`${nm}: non-member page with no contributions card`);
+    if(!(P.disputes||[]).length) bad.push(`${nm}: non-member page with no disputes`);
+    const heads=await p.$$eval('#panel-overview .card h3',e=>e.map(x=>x.textContent));
+    if(!heads.some(t=>/pays the Union/.test(t))) bad.push(`${nm}: contributions card not rendered`);
+    if(!heads.some(t=>/Points of contention/.test(t))) bad.push(`${nm}: disputes card not rendered`);
+    // every dispute must carry a source
+    P.disputes.forEach(d=>{ if(!d.source||!d.source.trim()) bad.push(`${nm}: dispute "${d.label}" has no source`); });
+  }
   // a non-member page must ask the mirror question, not the membership one
   const q=await p.$eval('#panel-overview .card.verdict h3',e=>e.textContent).catch(()=>'');
   if(P.member===false && !/staying out/.test(q)) bad.push(`${nm}: non-member page asks the membership question`);

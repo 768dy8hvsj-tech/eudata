@@ -318,17 +318,24 @@ def build_nonmember(c):
     iso, name = c["iso3"], c["name"]
     hv = have.get(iso, set())
     start = int(c["window_start"])
-    eea = float(c["eea_year"])
-
+    # Switzerland is the odd one out and the marker has to say so. Norway and Iceland entered
+    # the single market through the EEA on 1 January 1994; Switzerland rejected the EEA by
+    # referendum six weeks after signing it and reached free movement a decade later through
+    # a bilateral treaty instead. Same destination, different vehicle, different date.
+    in_eea = bool(c["eea_year"].strip())
+    marker = float(c["eea_year"]) if in_eea else 2002.42
     window = {"start": start, "end": 2025,
               "negotiationsOpen": start, "negotiationsClose": start,
               "accession": None, "accessionLabel": "",
-              "eea": eea, "eeaLabel": "EEA"}
+              "eea": marker, "eeaLabel": "EEA" if in_eea else "Free movement"}
 
     sub = (f"{name} is <strong>not an EU member</strong>. It sits in this project as a control "
            f"— one of the comparison countries every estimate is measured against. {c['status']} "
-           f"The vertical line marks entry into the European Economic Area on 1 January 1994: "
-           f"the single market without the Union.")
+           + ("The vertical line marks entry into the European Economic Area on 1 January 1994: "
+              "the single market without the Union."
+              if in_eea else
+              "The vertical line marks 1 June 2002, when free movement of persons and the "
+              "first package of bilateral agreements took effect."))
 
     kpis = []
     if "DERIVED.GNI.PCT.EU" in hv:
@@ -438,23 +445,43 @@ def build_nonmember(c):
     if srow:
         social.append({"type": "chartRow", "charts": srow})
 
-    legal_paras = [
-        f"{name} is <strong>not bound by the EU treaties</strong>, and is bound by a great deal "
-        f"of EU law anyway. The EEA Agreement, in force since 1 January 1994, extends the "
-        f"single market's rules on goods, services, capital and labour — together with "
-        f"competition, state aid, consumer protection, employment and environmental law — to "
-        f"{name} without giving it a vote on any of them. This is the arrangement usually "
-        f"described from inside the Union as rule-taking.",
-        f"Outside the EEA's reach: the common agricultural and fisheries policies, the customs "
-        f"union and common external tariff, the common commercial policy, monetary union, and "
-        f"justice and home affairs beyond what Schengen covers.",
-        f"Schengen has applied since <strong>{c['schengen_joined']}</strong>, so border checks "
-        f"with the Union are gone even though the border itself is a customs border. "
-        f"{name} is a member of EFTA and disputes under the EEA go to the EFTA Court rather "
-        f"than the Court of Justice of the EU.",
-        "<em>Detailed legal analysis — how much of the acquis actually applies, and how EEA "
-        "law is incorporated domestically — is pending.</em>",
-    ]
+    if in_eea:
+        legal_paras = [
+            f"{name} is <strong>not bound by the EU treaties</strong>, and is bound by a great "
+            f"deal of EU law anyway. The EEA Agreement, in force since 1 January 1994, extends "
+            f"the single market's rules on goods, services, capital and labour — together with "
+            f"competition, state aid, consumer protection, employment and environmental law — "
+            f"to {name} without giving it a vote on any of them. This is the arrangement "
+            f"usually described from inside the Union as rule-taking.",
+            "Outside the EEA's reach: the common agricultural and fisheries policies, the "
+            "customs union and common external tariff, the common commercial policy, monetary "
+            "union, and justice and home affairs beyond what Schengen covers.",
+            f"Schengen has applied since <strong>{c['schengen_joined']}</strong>, so border "
+            f"checks with the Union are gone even though the border itself is a customs "
+            f"border. {name} is a member of EFTA and disputes under the EEA go to the EFTA "
+            f"Court rather than the Court of Justice of the EU.",
+            "<em>Detailed legal analysis — how much of the acquis actually applies, and how "
+            "EEA law is incorporated domestically — is pending.</em>",
+        ]
+    else:
+        legal_paras = [
+            f"{name} took the third road. It rejected the EEA by referendum on 6 December 1992 "
+            f"— by 50.3%, six weeks after signing the agreement — and then spent thirty years "
+            f"building an equivalent relationship one treaty at a time. There are now well over "
+            f"a hundred bilateral agreements, and no single framework binding them together.",
+            "That is the whole argument. The EU has spent a decade trying to attach an "
+            "institutional framework — dynamic adoption of new law, and a role for the Court of "
+            "Justice in disputes — to a structure that deliberately has none. Talks on such a "
+            "framework collapsed on 26 May 2021. A new package was signed on <strong>2 March "
+            "2026</strong> and is not ratified: parliament is still deciding which referendum "
+            "threshold applies, and a public vote is not expected before 2028.",
+            f"Free movement of persons has applied since <strong>1 June 2002</strong> and "
+            f"Schengen since <strong>{c['schengen_joined']}</strong>. There is no customs "
+            f"union, no EEA membership and no EFTA Court jurisdiction over the bilateral "
+            f"agreements — which is precisely the gap the framework negotiations were about.",
+            "<em>Detailed legal analysis of which agreements carry which obligations is "
+            "pending.</em>",
+        ]
     WGI_SUB = ("World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert "
                "assessments and surveys — perceptions of governance, not a count of legal facts.")
     legal = [{"type": "prose", "title": "Legal", "paras": legal_paras}]

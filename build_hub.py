@@ -54,7 +54,7 @@ if os.path.exists(nm_path):
     if built:
         items = "".join(
             f'<a href="{slug(c["name"])}"><span class="n">{c["name"]}</span>'
-            f'<span class="d">not a member · EEA since 1994</span></a>'
+            f'<span class="d">{"not a member · EEA since 1994" if c["eea_year"].strip() else "not a member · bilateral route"}</span></a>'
             for c in sorted(built, key=lambda x: x["name"]))
         cards += ('<h4>Non-members — profiled</h4>'
                   '<p class="mini">Comparison countries, shown rather than assumed. Both are '
