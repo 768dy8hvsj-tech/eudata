@@ -1,0 +1,419 @@
+{
+ "iso3": "NOR",
+ "name": "Norway",
+ "handwritten": false,
+ "member": false,
+ "window": {
+  "start": 1962,
+  "end": 2025,
+  "negotiationsOpen": 1962,
+  "negotiationsClose": 1962,
+  "accession": null,
+  "accessionLabel": "",
+  "eea": 1994.0,
+  "eeaLabel": "EEA"
+ },
+ "subtitle": "Norway is <strong>not an EU member</strong>. It sits in this project as a control — one of the comparison countries every estimate is measured against. Twice negotiated entry, twice refused it by referendum — 1972 and 1994. In the single market through the EEA since 1994. The vertical line marks entry into the European Economic Area on 1 January 1994: the single market without the Union.",
+ "kpis": [
+  {
+   "label": "GNI per capita (PPP), vs EU average",
+   "valueFrom": {
+    "code": "DERIVED.GNI.PCT.EU",
+    "year": "last",
+    "dp": 0,
+    "suffix": "%"
+   },
+   "delta": "World Bank · not a member, shown against the EU average"
+  },
+  {
+   "label": "GNI per capita, PPP",
+   "valueFrom": {
+    "code": "NY.GNP.PCAP.PP.CD",
+    "year": "last",
+    "dp": 0
+   },
+   "delta": "current international $ · World Bank"
+  },
+  {
+   "label": "Unemployment (ILO)",
+   "valueFrom": {
+    "code": "SL.UEM.TOTL.ZS",
+    "year": "last",
+    "dp": 1,
+    "suffix": "%"
+   },
+   "delta": "% of labour force · World Bank"
+  },
+  {
+   "label": "Trade openness",
+   "valueFrom": {
+    "code": "DERIVED.TRADE.OPEN",
+    "year": "last",
+    "dp": 0,
+    "suffix": "%"
+   },
+   "delta": "exports + imports, % of GDP · World Bank"
+  }
+ ],
+ "heroChart": {
+  "title": "Income relative to the EU average",
+  "sub": "GNI per capita at purchasing-power parity as a share of the EU-wide average. GNI rather than GDP, because GDP overstates income in economies where a lot of output accrues to non-residents. Read the 2021–22 spike carefully. Norwegian income per head at PPP went from $69,890 in 2020 to $128,470 in 2022 and then fell back to $107,770 — a swing of roughly 70 points against the EU average and back again in four years. It sits exactly on the European energy price spike, and Norway is a large net exporter of oil and gas. Nothing about the country's productive capacity changed by 84% in two years.",
+  "series": [
+   {
+    "code": "DERIVED.GNI.PCT.EU",
+    "name": "Norway, % of EU average"
+   }
+  ],
+  "opts": {
+   "unit": "%",
+   "dp": 1,
+   "area": true
+  }
+ },
+ "tabs": {
+  "legal": [
+   {
+    "type": "prose",
+    "title": "Legal",
+    "paras": [
+     "Norway is <strong>not bound by the EU treaties</strong>, and is bound by a great deal of EU law anyway. The EEA Agreement, in force since 1 January 1994, extends the single market's rules on goods, services, capital and labour — together with competition, state aid, consumer protection, employment and environmental law — to Norway without giving it a vote on any of them. This is the arrangement usually described from inside the Union as rule-taking.",
+     "Outside the EEA's reach: the common agricultural and fisheries policies, the customs union and common external tariff, the common commercial policy, monetary union, and justice and home affairs beyond what Schengen covers.",
+     "Schengen has applied since <strong>2001</strong>, so border checks with the Union are gone even though the border itself is a customs border. Norway is a member of EFTA and disputes under the EEA go to the EFTA Court rather than the Court of Justice of the EU.",
+     "<em>Detailed legal analysis — how much of the acquis actually applies, and how EEA law is incorporated domestically — is pending.</em>"
+    ]
+   },
+   {
+    "title": "Rule of law",
+    "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Both of these countries sit near the top of this scale throughout, which is the headroom problem the governance estimates run into everywhere in this project.",
+    "series": [
+     {
+      "code": "WGI.RL.EST",
+      "name": "Rule of law"
+     }
+    ],
+    "opts": {
+     "unit": "",
+     "dp": 2,
+     "zero": true
+    },
+    "type": "chart"
+   }
+  ],
+  "financial": [
+   {
+    "type": "prose",
+    "title": "Financial",
+    "paras": [
+     "The same World Bank series collected for every member state. Two charts that appear on member pages are absent here and cannot be filled in: EU budget flows, because a non-member neither pays into the budget nor receives from it, and the Eurostat long-term bond series, which is a euro-convergence indicator collected for member states only."
+    ]
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "Real GDP growth, %",
+      "sub": "Annual change in real GDP.",
+      "series": [
+       {
+        "code": "NY.GDP.MKTP.KD.ZG",
+        "name": "Real GDP growth"
+       }
+      ],
+      "opts": {
+       "unit": "%",
+       "dp": 1,
+       "zero": true
+      }
+     },
+     {
+      "title": "Unemployment, % of labour force",
+      "sub": "ILO-modelled estimate.",
+      "series": [
+       {
+        "code": "SL.UEM.TOTL.ZS",
+        "name": "Unemployment"
+       }
+      ],
+      "opts": {
+       "unit": "%",
+       "dp": 1
+      }
+     }
+    ]
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "GNI per capita, PPP vs the EU average",
+      "sub": "Current international $. The EU aggregate is available from 1996.",
+      "series": [
+       {
+        "iso3": "EUU",
+        "code": "NY.GNP.PCAP.PP.CD",
+        "name": "EU average",
+        "colorVar": "--series-2"
+       },
+       {
+        "code": "NY.GNP.PCAP.PP.CD",
+        "name": "Norway"
+       }
+      ],
+      "opts": {
+       "unit": " $",
+       "dp": 0,
+       "endLabelBelow": 2
+      }
+     },
+     {
+      "title": "Real income per head, % of the EU average",
+      "sub": "Constant 2015 US$, so this one is not moved by exchange rates or inflation — useful as a cross-check on the headline chart.",
+      "series": [
+       {
+        "code": "DERIVED.KD.PCT.EU",
+        "name": "% of EU average"
+       }
+      ],
+      "opts": {
+       "unit": "%",
+       "dp": 1
+      }
+     }
+    ]
+   }
+  ],
+  "commercial": [
+   {
+    "type": "prose",
+    "title": "Commercial",
+    "paras": [
+     "Trade openness is the outcome this project can establish causally for EU members, and it is also the one where the EEA does most of its work: these countries are inside the single market for goods and services without being inside the Union. Read these lines as the counterfactual the trade estimate is measured against."
+    ]
+   },
+   {
+    "title": "Trade in goods &amp; services, % of GDP",
+    "sub": "Exports and imports of goods and services.",
+    "series": [
+     {
+      "code": "NE.EXP.GNFS.ZS",
+      "name": "Exports"
+     },
+     {
+      "code": "NE.IMP.GNFS.ZS",
+      "name": "Imports",
+      "colorVar": "--series-2"
+     }
+    ],
+    "opts": {
+     "unit": "%",
+     "dp": 1,
+     "endLabelBelow": 2
+    },
+    "type": "chart"
+   },
+   {
+    "title": "Who it trades with: the EU's share",
+    "sub": "Share of total exports going to the EU. Coverage for non-EU reporters in the Eurostat dataset begins around 2013, so this is two observations rather than a series — but the level is the point. Non-members are not trading elsewhere; they are trading with the Union, from outside it.",
+    "series": [
+     {
+      "code": "TRADE.EU.EXP.SHR",
+      "name": "Exports to the EU"
+     }
+    ],
+    "opts": {
+     "unit": "%",
+     "dp": 1
+    },
+    "type": "chart"
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "FDI net inflows, % of GDP",
+      "sub": "Foreign direct investment, net inflows.",
+      "series": [
+       {
+        "code": "BX.KLT.DINV.WD.GD.ZS",
+        "name": "FDI net inflows"
+       }
+      ],
+      "opts": {
+       "unit": "%",
+       "dp": 1,
+       "zero": true
+      }
+     },
+     {
+      "title": "International arrivals, millions",
+      "sub": "World Bank / UNWTO border arrivals. Series generally ends 2019–2020.",
+      "series": [
+       {
+        "code": "ST.INT.ARVL",
+        "name": "Arrivals"
+       }
+      ],
+      "opts": {
+       "unit": "m",
+       "dp": 1,
+       "scale": 1e-06
+      }
+     }
+    ]
+   }
+  ],
+  "political": [
+   {
+    "type": "kpis",
+    "items": [
+     {
+      "label": "First referendum: no",
+      "value": "24-25 Sep 1972",
+      "delta": "53.5% voted against membership of the European Communities and 46.5% in favour. Statistics Norway records turnout at 79."
+     },
+     {
+      "label": "Second referendum: no",
+      "value": "27-28 Nov 1994",
+      "delta": "52.2% voted against and 47.8% in favour on a turnout of 89.0%. The accession treaty was never ratified; Austria, Finland"
+     }
+    ]
+   },
+   {
+    "type": "prose",
+    "title": "Political",
+    "paras": [
+     "The verified timeline is on the Overview tab. Twice negotiated entry, twice refused it by referendum — 1972 and 1994. In the single market through the EEA since 1994.",
+     "The political question here is the mirror of the one every member page asks. A member page asks what joining did. This one asks what staying out did — and that is a counterfactual about a country that never entered, which no comparison of observed outcomes can supply. See the panel at the top of the Overview tab."
+    ]
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "Voice and accountability",
+      "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts.",
+      "series": [
+       {
+        "code": "WGI.VA.EST",
+        "name": "Voice and accountability"
+       }
+      ],
+      "opts": {
+       "unit": "",
+       "dp": 2,
+       "zero": true
+      }
+     },
+     {
+      "title": "Control of corruption",
+      "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Higher is better.",
+      "series": [
+       {
+        "code": "WGI.CC.EST",
+        "name": "Control of corruption"
+       }
+      ],
+      "opts": {
+       "unit": "",
+       "dp": 2,
+       "zero": true
+      }
+     }
+    ]
+   }
+  ],
+  "social": [
+   {
+    "type": "prose",
+    "title": "Social",
+    "paras": [
+     "Free movement of people applies here through the EEA and Schengen exactly as it does inside the Union, so the migration series is not measuring a difference in regime."
+    ]
+   },
+   {
+    "title": "Net migration, thousands of people",
+    "sub": "UN World Population Prospects estimates via World Bank. Blue = net inflow, red = net outflow.",
+    "series": [
+     {
+      "code": "SM.POP.NETM",
+      "name": "Net migration"
+     }
+    ],
+    "opts": {
+     "type": "bar",
+     "unit": "k",
+     "dp": 1,
+     "zero": true,
+     "scale": 0.001
+    },
+    "type": "chart"
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "Income inequality (Gini index)",
+      "sub": "World Bank estimate (0 = perfect equality). Survey-based, so gaps mean no survey rather than no change.",
+      "series": [
+       {
+        "code": "SI.POV.GINI",
+        "name": "Gini index"
+       }
+      ],
+      "opts": {
+       "unit": "",
+       "dp": 1
+      }
+     },
+     {
+      "title": "Net migration per 1,000 residents",
+      "sub": "The same flow scaled by population, which is the comparable form.",
+      "series": [
+       {
+        "code": "DERIVED.NETM.P1000",
+        "name": "Net migration per 1,000"
+       }
+      ],
+      "opts": {
+       "unit": "",
+       "dp": 1,
+       "zero": true
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Time series",
+   "text": "World Bank Open Data (api.worldbank.org). Indicator codes travel with every value in <code class=\"ind\">data/indicators.csv</code>."
+  },
+  {
+   "label": "Milestones",
+   "text": "Statistics Norway, the Norwegian Government, the Council of the EU, the European Commission (DG NEAR), EFTA, Iceland's National Electoral Commission and RÚV. The source for each row is recorded in <code class=\"ind\">data/milestones.csv</code>, and where two credited sources disagree the row says so rather than picking one."
+  },
+  {
+   "label": "Relationship metadata",
+   "text": "EEA, Schengen and EFTA status in <code class=\"ind\">data/nonmembers.csv</code>."
+  }
+ ],
+ "method": [
+  {
+   "title": "Why this page exists",
+   "text": "Norway is one of the non-member countries every estimate in this project is measured against. A control group that is never shown is a control group nobody can check."
+  },
+  {
+   "title": "What is missing, and why",
+   "text": "EU budget flows and the Eurostat bond series are absent because they do not exist for a non-member — not because collection failed. Everything else on a member page is here."
+  },
+  {
+   "title": "The EEA changes what the comparison means",
+   "text": "Both non-member profiles in this set are inside the single market through the EEA. So the contrast with a member state is <em>not</em> integration against isolation; it is integration without membership against integration with it. That makes them a demanding control, and it is one reason the trade estimate for the Western bloc does not survive its checks."
+  },
+  {
+   "title": "Attribution caution",
+   "text": "Nothing on this page shows what not joining caused. That would need a counterfactual for a country that never entered, which this design cannot produce."
+  }
+ ]
+}

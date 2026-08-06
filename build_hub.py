@@ -217,7 +217,7 @@ text-decoration:none;background:var(--surface-1)}}
   <a class="route" href="flows.html"><span class="t">Budget flows →</span>
     <span class="d">What each country pays into the EU budget and what comes back, itemised by fund — farm payments, cohesion, research, the Recovery Facility. Accounting rather than inference: no estimation, and every figure reconciled to the Commission's published totals.</span></a>
   <a class="route" href="poland-dashboard.html"><span class="t">A worked country page →</span>
-    <span class="d">Poland is the only page with written five-lens analysis. The other 30 carry the same charts, timelines, budget statement, membership verdict and export destinations, but their interpretive prose is still marked pending — a real and deliberate gap, not an oversight.</span></a>
+    <span class="d">All 31 now carry written five-lens analysis alongside the charts, timeline, budget statement, membership verdict and export destinations. Poland's is hand-written; the other 30 are generated from the verified series, so no sentence can outrun the number behind it.</span></a>
 </div>
 
 <h2>What the dataset holds</h2>

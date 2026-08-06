@@ -7,7 +7,7 @@ const fs=require('fs');
 (async()=>{
 const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 const files=fs.readdirSync('/home/claude/eu-project').filter(f=>f.endsWith('-dashboard.html'));
-let bad=[], errs=[], totalCharts=0, totalDots=0;
+let bad=[], errs=[], totalCharts=0, totalDots=0, lensChecked=0;
 const p=await b.newPage();
 p.on('pageerror',e=>errs.push(String(e)));
 p.on('console',m=>{if(m.type()==='error')errs.push(m.text())});
@@ -50,7 +50,26 @@ for(const f of files){
       if(!c.rail && P.milestones.length) bad.push(`${nm}/${tab}#${i}: no milestone rail`);
     });
   }
-  // 4. no milestone in the timeline earlier than the window
+  // 4. the five-lens analysis must be present on every member page, and must not claim
+  //    causation the study has not established. One outcome in one bloc clears that gate;
+  //    a page asserting more than that is a page that has outrun its evidence.
+  if(P.member!==false && nm!=='Poland'){
+    for(const lens of ['legal','financial','commercial','political','social']){
+      const blocks=(P.tabs||{})[lens]||[];
+      const prose=blocks.filter(x=>x.type==='prose');
+      if(!prose.length){bad.push(`${nm}/${lens}: no written analysis`);continue}
+      if(prose.some(x=>(x.paras||[]).some(t=>/analysis (is )?pending|narrative pending/i.test(t))))
+        bad.push(`${nm}/${lens}: still says pending`);
+      const words=prose.reduce((a,x)=>a+(x.paras||[]).join(" ").split(/\s+/).length,0);
+      if(words<60) bad.push(`${nm}/${lens}: only ${words} words of analysis`);
+      lensChecked++;
+    }
+    const all=JSON.stringify(P.tabs);
+    [/membership caused/i,/because of membership/i,/proves that/i,/membership led to/i]
+      .forEach(re=>{ if(re.test(all)) bad.push(`${nm}: overclaims — matches ${re}`); });
+  }
+
+  // 5. no milestone in the timeline earlier than the window
   const early=P.milestones.filter(m=>m.sort<P.window.start);
   if(early.length) bad.push(`${nm}: ${early.length} timeline events before window start`);
   if(!P.milestones.some(m=>m.scope==='eu')) bad.push(`${nm}: no EU-wide milestones`);
@@ -70,7 +89,7 @@ for(const f of files){
   if(P.member===false && !/staying out/.test(q)) bad.push(`${nm}: non-member page asks the membership question`);
   if(P.member!==false && /staying out/.test(q)) bad.push(`${nm}: member page asks the non-member question`);
 }
-console.log(`${files.length} pages · ${totalCharts} charts · ${totalDots} milestone markers`);
+console.log(`${files.length} pages · ${totalCharts} charts · ${totalDots} milestone markers · ${lensChecked} lens analyses`);
 console.log(bad.length?('FAILURES:\n  '+bad.slice(0,25).join('\n  ')):'0 failures');
 console.log('JS errors:',errs.length?errs.slice(0,3):'none');
 await b.close();

@@ -1,0 +1,474 @@
+{
+ "iso3": "SVK",
+ "name": "Slovakia",
+ "handwritten": false,
+ "window": {
+  "start": 1998,
+  "end": 2025,
+  "negotiationsOpen": 2000.12,
+  "negotiationsClose": 2004.33,
+  "accession": 2004.33,
+  "accessionLabel": "EU entry"
+ },
+ "subtitle": "Annual view from 1998 — two years before accession negotiations opened (15 February 2000) — through negotiations, entry on 1 May 2004, and up to today. Shaded band = negotiation period; vertical line = EU entry.",
+ "kpis": [
+  {
+   "label": "GDP per capita (PPP), vs EU average",
+   "valueFrom": {
+    "code": "DERIVED.PPP.PCT.EU",
+    "year": "last",
+    "dp": 0,
+    "suffix": "%"
+   },
+   "delta": "World Bank, latest available year"
+  },
+  {
+   "label": "GDP per capita, PPP",
+   "valueFrom": {
+    "code": "NY.GDP.PCAP.PP.CD",
+    "year": "last",
+    "dp": 0,
+    "prefix": "$"
+   },
+   "delta": "current international $ · World Bank"
+  },
+  {
+   "label": "Unemployment (ILO)",
+   "valueFrom": {
+    "code": "SL.UEM.TOTL.ZS",
+    "year": "last",
+    "dp": 1,
+    "suffix": "%"
+   },
+   "delta": "% of labour force · World Bank"
+  },
+  {
+   "label": "Exports, % of GDP",
+   "valueFrom": {
+    "code": "NE.EXP.GNFS.ZS",
+    "year": "last",
+    "dp": 0,
+    "suffix": "%"
+   },
+   "delta": "goods and services · World Bank"
+  }
+ ],
+ "heroChart": {
+  "title": "Convergence with the EU: GDP per capita (PPP) as % of EU average",
+  "sub": "Income level relative to the EU-wide average, current international $ at purchasing power parity. The EU aggregate series begins in 1996, so this chart starts there regardless of the window above.",
+  "series": [
+   {
+    "code": "DERIVED.PPP.PCT.EU",
+    "name": "Slovakia, % of EU average"
+   }
+  ],
+  "opts": {
+   "unit": "%",
+   "dp": 1,
+   "area": true
+  }
+ },
+ "tabs": {
+  "legal": [
+   {
+    "type": "prose",
+    "title": "Legal",
+    "paras": [
+     "Slovakia adopted the acquis communautaire as a condition of entry. Negotiations opened 15 February 2000 and EU law has applied directly since <strong>1 May 2004</strong>. The sequencing matters for everything else on this page: the heaviest institutional reform happens <em>before</em> entry, inside what any before-and-after comparison treats as the baseline. That is one of three biases in this study that push the measured effect of membership toward zero.",
+     "Slovakia adopted the euro in <strong>2009</strong>, transferring monetary policy to the ECB, and joined the Schengen area in <strong>2007</strong>.",
+     "On the World Bank's rule-of-law estimate Slovakia reads <strong>+0.56</strong> at 2024 against +0.25 at 1996, ranking 23rd of 28 members. Two cautions travel with that number and both are serious. It is an aggregate of expert perceptions on a bounded −2.5 to +2.5 scale, not a count of legal facts. And because the scale is bounded, a country already near the top has less room to rise — which is why the raw comparison of members against non-members looks negative and, once corrected for that headroom, comes out at +0.04: indistinguishable from zero. <strong>This study finds no measurable effect of membership on the rule of law in either direction.</strong>",
+     "<em>What is missing here and would change the picture: infringement proceedings, transposition deficits, preliminary references to the Court of Justice, and Article 7 history. None of it was collected, so this lens rests on one perception index and the treaty dates.</em>"
+    ]
+   },
+   {
+    "title": "Rule of law",
+    "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Confidence in and abidance by the rules of society: contract enforcement, property rights, police and courts.",
+    "series": [
+     {
+      "code": "WGI.RL.EST",
+      "name": "Rule of law"
+     }
+    ],
+    "opts": {
+     "unit": "",
+     "dp": 2,
+     "zero": true
+    },
+    "type": "chart"
+   }
+  ],
+  "financial": [
+   {
+    "type": "prose",
+    "title": "Financial",
+    "paras": [
+     "Measured against a fixed external benchmark — US income per head at purchasing-power parity — Slovakia moved from <strong>30.8%</strong> of the US level in 2000 to <strong>53.5%</strong> in 2025, a change of +22.8 points. That ranks <strong>11th of 28</strong> member states. The share of the EU average is deliberately not used for this comparison: that denominator rises as poorer members catch up, so a rich country's line falls while its economy grows. Adjusting for the fact that poorer economies converge faster anyway, Slovakia came in −2.0 points below what its starting income predicted.",
+     "The deepest single contraction in the record is <strong>1991 (−14.6%)</strong> and the strongest year 2007 (+10.8%). Through the three synchronised downturns: 2009 −5.5%, 2012 +1.6%, 2020 −2.6%. The 2012 episode is the one that separates members from non-members in this study — 61% of members contracted that year against 23% of non-members, where 2009 and 2020 hit both groups alike. It is the clearest measurable cost of integration found anywhere here.",
+     "Unemployment peaked at <strong>19.1%</strong> in 2001 and stands at 5.4% in 2025. The Eastern bloc's unemployment estimate is a null result — +1.4 points against the non-member controls, an interval of −0.6 to +3.4 that spans zero — so nothing on this line is attributable to accession.",
+     "On the EU budget, Slovakia has paid in <strong>€15.5 billion</strong> and received <strong>€42.0 billion</strong> since 2004, a net receipt of <strong>€26.5 billion</strong>. The largest single line coming back is regional and social funds at €18.7 billion. This is the one part of the study that is accounting rather than inference — the figures are the Commission's own and reconcile to its published totals exactly. Note that “received” means expenditure allocated here, not a payment to the government: a research grant to a university and a farm payment to a landowner both count.",
+     "Long-term borrowing costs peaked at <strong>8.04%</strong> in 2001 and are 3.43% at 2025. Bond spreads across the euro area collapsed to near zero in the decade after 1999 and reopened violently after 2010, which is the single most visible thing monetary union did to the cost of government borrowing — in both directions."
+    ]
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "Real GDP growth, %",
+      "sub": "Annual change in real GDP.",
+      "series": [
+       {
+        "code": "NY.GDP.MKTP.KD.ZG",
+        "name": "Real GDP growth"
+       }
+      ],
+      "opts": {
+       "unit": "%",
+       "dp": 1,
+       "zero": true
+      }
+     },
+     {
+      "title": "Inflation (CPI), %",
+      "sub": "Annual consumer-price inflation.",
+      "series": [
+       {
+        "code": "FP.CPI.TOTL.ZG",
+        "name": "CPI inflation"
+       }
+      ],
+      "opts": {
+       "unit": "%",
+       "dp": 1,
+       "zero": true
+      }
+     }
+    ]
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "Unemployment, % of labour force",
+      "sub": "ILO-modelled estimate.",
+      "series": [
+       {
+        "code": "SL.UEM.TOTL.ZS",
+        "name": "Unemployment"
+       }
+      ],
+      "opts": {
+       "unit": "%",
+       "dp": 1
+      }
+     },
+     {
+      "title": "GDP per capita, PPP vs EU average",
+      "sub": "Current international $. EU aggregate available from 1996.",
+      "series": [
+       {
+        "iso3": "EUU",
+        "code": "NY.GDP.PCAP.PP.CD",
+        "name": "EU average",
+        "colorVar": "--series-2"
+       },
+       {
+        "code": "NY.GDP.PCAP.PP.CD",
+        "name": "Slovakia"
+       }
+      ],
+      "opts": {
+       "unit": " $",
+       "dp": 0,
+       "endLabelBelow": 2
+      }
+     }
+    ]
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "Long-term government bond yield, %",
+      "sub": "Eurostat EMU convergence-criterion series: yield on ten-year government bonds. What this government pays to borrow.",
+      "series": [
+       {
+        "code": "EUROSTAT.IRT_LT_MCBY",
+        "name": "10-year yield"
+       }
+      ],
+      "opts": {
+       "unit": "%",
+       "dp": 2
+      }
+     },
+     {
+      "title": "Net annual earnings, €",
+      "sub": "Single person, no children, on 100% of the average wage. Eurostat flags 2024 as a break in series.",
+      "series": [
+       {
+        "code": "EUROSTAT.EARN_NT_NET",
+        "name": "Net annual earnings"
+       }
+      ],
+      "opts": {
+       "unit": " €",
+       "dp": 0
+      }
+     }
+    ]
+   }
+  ],
+  "commercial": [
+   {
+    "type": "prose",
+    "title": "Commercial",
+    "paras": [
+     "Trade openness — exports plus imports as a share of GDP — moved from <strong>56.5%</strong> in 1990 to <strong>170.3%</strong> in 2025. Figures above 100% are not an error: a component crossing a border three times is counted three times, which is why small economies inside dense supply chains sit so far above the rest.",
+     "This is the one place the study can make a causal claim. Against non-member neighbours over matched windows, Slovakia shows <strong>+37.0 points of GDP</strong>. The claim itself is the bloc's rather than this country's: the Eastern estimate is <strong>+20.5 points</strong> with 11 of 11 countries positive and a pre-accession placebo of essentially nothing. It is the only outcome here that survives every check applied to it. It does <em>not</em> follow that people became better off — that is the income question, and the income question has two answers.",
+     "Direction is a separate question from volume, and the two answers come apart. The share of exports going to the other EU member states was <strong>87.7%</strong> in 2002 and <strong>78.3%</strong> in 2025. Across the 2004 accession wave that share moved by a median of −0.3 points: the Europe Agreements had already opened free trade with the Community through the 1990s, so membership raised how much these countries traded without changing who with.",
+     "Beyond the Union, the largest destinations in 2025 are <strong>the rest of Europe 11.1%</strong>, <strong>North America 3.7%</strong>, <strong>Asia 3.4%</strong> of total goods exports. Services are not in this dataset, which matters for economies that sell more services than goods.",
+     "Foreign direct investment peaked at 17.0% of GDP in 2002. Against non-member controls the bloc estimate is −3.1 points of GDP, which survives its checks; this country's own figure is −6.6."
+    ]
+   },
+   {
+    "title": "Trade in goods &amp; services, % of GDP",
+    "sub": "Exports and imports of goods and services.",
+    "series": [
+     {
+      "code": "NE.EXP.GNFS.ZS",
+      "name": "Exports"
+     },
+     {
+      "code": "NE.IMP.GNFS.ZS",
+      "name": "Imports",
+      "colorVar": "--series-2"
+     }
+    ],
+    "opts": {
+     "unit": "%",
+     "dp": 1,
+     "endLabelBelow": 2
+    },
+    "type": "chart"
+   },
+   {
+    "title": "Who it trades with: the EU's share",
+    "sub": "Share of this country's total exports and imports going to or coming from the other EU member states. This measures direction, not volume — the charts above show how much a country trades, this one shows who with. Eurostat, EU27 definition applied to every year, so the UK counts as outside throughout.",
+    "series": [
+     {
+      "code": "TRADE.EU.EXP.SHR",
+      "name": "Exports to the EU"
+     },
+     {
+      "code": "TRADE.EU.IMP.SHR",
+      "name": "Imports from the EU",
+      "colorVar": "--series-2"
+     }
+    ],
+    "opts": {
+     "unit": "%",
+     "dp": 1,
+     "endLabelBelow": 2
+    },
+    "type": "chart"
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "FDI net inflows, % of GDP",
+      "sub": "Foreign direct investment, net inflows.",
+      "series": [
+       {
+        "code": "BX.KLT.DINV.WD.GD.ZS",
+        "name": "FDI net inflows"
+       }
+      ],
+      "opts": {
+       "unit": "%",
+       "dp": 1,
+       "zero": true
+      }
+     },
+     {
+      "title": "International arrivals, millions",
+      "sub": "World Bank / UNWTO border arrivals. Series generally ends 2019–2020.",
+      "series": [
+       {
+        "code": "ST.INT.ARVL",
+        "name": "Arrivals"
+       }
+      ],
+      "opts": {
+       "unit": "m",
+       "dp": 1,
+       "scale": 1e-06
+      }
+     }
+    ]
+   }
+  ],
+  "political": [
+   {
+    "type": "prose",
+    "title": "Political",
+    "paras": [
+     "Accession was put to the public here. <strong>Accession referendum (17 May 2003)</strong> — 93.7% voted yes on a turnout of 52.1% in a two day vote.",
+     "On voice and accountability — participation in choosing a government, plus freedom of expression, association and the press — the estimate moved from +0.63 in 1996 to <strong>+0.93</strong> in 2024, a change of +0.30. Same bounded-scale caveat as the rule-of-law figure: compare levels rather than small movements, and treat this as perception rather than fact.",
+     "On control of corruption — higher is better — a rising line means stronger control, not more corruption — the estimate moved from +0.37 in 1996 to <strong>+0.11</strong> in 2024, a change of -0.26. Anti-corruption conditionality was an explicit part of accession negotiations for the 2004, 2007 and 2013 waves, which makes this one of the few places a specific mechanism could be tested rather than assumed. It was tested, and the result does not survive: the raw comparison is confounded by headroom on a bounded scale and the corrected estimate cannot be identified.",
+     "The politics of the budget are worth stating plainly, because they are the part most argued about and the least uncertain. Slovakia is a net recipient of <strong>€26.5 billion</strong> since 2004. Recipients take between two and three percent of national income a year; contributors pay well under one percent of theirs. The Union's budget is about 1% of EU income but concentrated enough to matter enormously at the receiving end.",
+     "<em>Not collected, and it limits this lens: European Parliament turnout, Eurobarometer series on trust and identity, and national parliamentary scrutiny of EU legislation. What is here is two perception indices, the verified milestone record and the budget.</em>"
+    ]
+   },
+   {
+    "type": "kpis",
+    "items": [
+     {
+      "label": "Accession referendum",
+      "value": "17 May 2003",
+      "delta": "93.7% voted yes on a turnout of 52.1% in a two day vote"
+     }
+    ]
+   },
+   {
+    "type": "prose",
+    "title": "Political",
+    "paras": [
+     "Verified milestones for Slovakia are listed on the Overview tab. Written analysis of how membership reshaped the domestic political landscape is pending for this country."
+    ]
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "Voice and accountability",
+      "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Participation in selecting government, plus freedom of expression, association and the press.",
+      "series": [
+       {
+        "code": "WGI.VA.EST",
+        "name": "Voice and accountability"
+       }
+      ],
+      "opts": {
+       "unit": "",
+       "dp": 2,
+       "zero": true
+      }
+     },
+     {
+      "title": "Control of corruption",
+      "sub": "World Bank governance estimate, roughly −2.5 to +2.5. Aggregated from expert assessments and surveys — perceptions of governance, not a count of legal facts. Higher is better — a rising line means stronger control of corruption, not more of it.",
+      "series": [
+       {
+        "code": "WGI.CC.EST",
+        "name": "Control of corruption"
+       }
+      ],
+      "opts": {
+       "unit": "",
+       "dp": 2,
+       "zero": true
+      }
+     }
+    ]
+   }
+  ],
+  "social": [
+   {
+    "type": "prose",
+    "title": "Social",
+    "paras": [
+     "Population moved +33.1% between 1960 and 2025. This matters more than it looks: income per head is output divided by population, so a shrinking denominator raises the measured figure without anyone becoming better off. Where population grew, the same arithmetic works in reverse and holds the per-head figure down.",
+     "Net migration runs at −5.8 per 1,000 residents at 2025, and the country recorded net outflow in 23 of the 36 years on record. These are modelled estimates from the UN population projections rather than counts of people, and the study's migration estimates fail their placebo in both East and West — the groups were already diverging before anyone joined — so nothing here is attributable to membership.",
+     "On income inequality the Gini index reads 20.2 in 1992 and 23.8 in 2023, a widening of 3.6 points. This is survey data collected at irregular intervals — 22 observations across the window — so a gap in the chart means no survey rather than no change, and the small samples are why no inequality estimate in this study clears its confidence threshold.",
+     "Unemployment is 5.4% at 2025 against a median of 12.1% across the whole window — below this country's own long-run level."
+    ]
+   },
+   {
+    "title": "Net migration, thousands of people",
+    "sub": "UN World Population Prospects estimates via World Bank. Blue = net inflow, red = net outflow.",
+    "series": [
+     {
+      "code": "SM.POP.NETM",
+      "name": "Net migration"
+     }
+    ],
+    "opts": {
+     "type": "bar",
+     "unit": "k",
+     "dp": 1,
+     "zero": true,
+     "scale": 0.001
+    },
+    "type": "chart"
+   },
+   {
+    "type": "chartRow",
+    "charts": [
+     {
+      "title": "Income inequality (Gini index)",
+      "sub": "World Bank estimate (0 = perfect equality). Survey-based, so points are irregular and gaps mean no survey rather than no change.",
+      "series": [
+       {
+        "code": "SI.POV.GINI",
+        "name": "Gini index"
+       }
+      ],
+      "opts": {
+       "unit": "",
+       "dp": 1
+      }
+     },
+     {
+      "title": "Net migration per 1,000 residents",
+      "sub": "The same flow scaled by population, which is the comparable form — the chart above is a headcount and so partly tracks country size.",
+      "series": [
+       {
+        "code": "DERIVED.NETM.P1000",
+        "name": "Net migration per 1,000"
+       }
+      ],
+      "opts": {
+       "unit": "",
+       "dp": 1,
+       "zero": true
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Time series",
+   "text": "World Bank Open Data (api.worldbank.org), retrieved 27 Jul 2026. Indicator codes travel with every value in <code class=\"ind\">data/indicators.csv</code>."
+  },
+  {
+   "label": "Milestones",
+   "text": "European Commission, Council of the EU, EUR-Lex, ECB and national electoral commissions — the source for each row is recorded in <code class=\"ind\">data/milestones.csv</code>."
+  },
+  {
+   "label": "Country metadata",
+   "text": "Accession, euro and Schengen dates in <code class=\"ind\">data/countries.csv</code>, each verified against a credited source."
+  }
+ ],
+ "method": [
+  {
+   "title": "Window",
+   "text": "Negotiations opened 15 February 2000, so the window starts 1998 (−2 years) and runs to the latest available year."
+  },
+  {
+   "title": "Status",
+   "text": "The five-lens analysis on this page is <strong>generated from the verified data</strong> rather than written by hand. Every figure quoted is a value the pipeline already checked against its source, so a sentence here cannot outrun the number behind it and re-running the build re-writes the prose. The trade-off is that it reasons only from what was collected: it will not tell you about a court case, an election or a scandal unless that shows up in a series or the verified milestone table. Poland is the one hand-written page, kept as a reference for what a fuller treatment looks like."
+  },
+  {
+   "title": "Convergence series",
+   "text": "The EU aggregate used as the comparison denominator is only available from 1996, so convergence charts start there even where the country window opens earlier."
+  },
+  {
+   "title": "Attribution caution",
+   "text": "The charts show what happened around membership, not what membership alone caused. Read them as context, not proof."
+  }
+ ],
+ "analysisWritten": true
+}

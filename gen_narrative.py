@@ -1,9 +1,17 @@
 #!/usr/bin/env python3
-"""Generate a standard data-first narrative/layout JSON for every country in
-data/countries.csv that does not already have a hand-written one.
+"""Generate the narrative/layout JSON for every country in data/countries.csv that does not
+already have a hand-written one.
 
-Hand-written files (currently POL.json) are never overwritten — the generator
-skips any ISO3 whose narrative file contains "handwritten": true.
+Hand-written files (currently POL.json) are never overwritten — the generator skips any ISO3
+whose narrative file contains "handwritten": true.
+
+ORDER MATTERS. This script REPLACES the prose blocks with placeholder text, so it must run
+BEFORE narrate.py, never after:
+
+    consolidate.py -> gen_narrative.py -> narrate.py -> build_dashboard.py
+
+Run it after narrate.py and every page loses its five-lens analysis and goes back to saying
+"written analysis pending". narrate.py is idempotent, so the fix is simply to re-run it.
 """
 import csv, json, os, collections
 
