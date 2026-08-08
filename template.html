@@ -133,6 +133,40 @@
   .abox.partial { background: var(--series-2); opacity: 0.55; }
   .anote { font-size: 11.5px; color: var(--text-muted); line-height: 1.5;
     padding: 0 92px 7px 0; margin-top: -1px; max-width: 640px; }
+  /* ---- offsets card ---------------------------------------------------- */
+  .ofsec { margin-top: 18px; }
+  .ofsec:first-of-type { margin-top: 6px; }
+  .ofh { font-size: 13px; font-weight: 600; color: var(--text-primary); }
+  .ofs { font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin: 3px 0 11px; max-width: 660px; }
+  .ofrow { display: grid; grid-template-columns: 190px 1fr; gap: 12px; align-items: center;
+    margin-bottom: 3px; }
+  .ofname { font-size: 12.5px; color: var(--text-primary); line-height: 1.35; }
+  .ofnote { font-size: 11.5px; color: var(--text-muted); line-height: 1.5;
+    margin: 0 0 11px 202px; max-width: 600px; }
+  .ofval { font-size: 12px; font-weight: 600; color: var(--text-primary); white-space: nowrap; }
+  .oflg { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px;
+    font-size: 11.5px; color: var(--text-secondary); }
+  .oflg span { display: inline-flex; align-items: center; gap: 6px; }
+  .oflg i { width: 14px; height: 9px; border-radius: 2px; display: inline-block; }
+  /* the ledger is a verdict list, not a chart -- four of its rows have no number */
+  .ofl { border-top: 1px solid var(--grid); padding: 11px 0 10px; }
+  .ofl:last-child { border-bottom: 1px solid var(--grid); }
+  .oflhead { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .oflname { font-size: 13px; font-weight: 600; color: var(--text-primary); }
+  .chip { font-size: 10.5px; letter-spacing: 0.04em; text-transform: uppercase;
+    padding: 2px 7px; border-radius: 999px; border: 1px solid var(--border);
+    color: var(--text-secondary); white-space: nowrap; }
+  .chip.good { color: var(--series-1); border-color: var(--series-1); }
+  .chip.warn { color: var(--series-2); border-color: var(--series-2); }
+  .oflbody { font-size: 12.5px; color: var(--text-secondary); line-height: 1.55; margin-top: 4px;
+    max-width: 700px; }
+  .ofcap { font-size: 12px; color: var(--text-secondary); line-height: 1.55; margin-top: 10px;
+    max-width: 660px; }
+  .ofcap strong { color: var(--text-primary); }
+  @media (max-width: 620px) {
+    .ofrow { grid-template-columns: 1fr; gap: 3px; }
+    .ofnote { margin-left: 0; }
+  }
   .jcol { border-top: 2px solid var(--grid); padding-top: 10px; }
   .jcol.good { border-top-color: var(--series-1); }
   .jcol.warn { border-top-color: var(--series-2); }
@@ -907,6 +941,227 @@
   }
 
   /* ---------------- what joining would actually change ---------------- */
+  /* Money already leaving the Treasury, against what EU membership would and would not
+     replace. Four panels because the question has four separable parts:
+       1  what is paid today, with outflows and inflows on one signed axis
+       2  the one comparison that reframes it -- the budget contribution vs the farm bill
+       3  why "what would we receive" and "what would we receive in year one" differ
+       4  the per-line verdict, which is deliberately NOT a chart: four of its seven rows
+          have no number, and drawing them would invent one.
+     No panel estimates what the country would receive. No such figure exists -- both the
+     CAP and cohesion envelopes for a new member are negotiated annex entries. */
+  function offsetsCard() {
+    var O = P.offsets;
+    if (!O) return null;
+    var card = h("div", "card");
+    card.appendChild(h("h3", null, "What it already pays that EU money would replace"));
+    card.appendChild(h("p", "sub", "Support this country funds itself today, and what would "
+      + "actually happen to each line on accession. Every figure is what its own source "
+      + "publishes; nothing here estimates what would come back, because for a new member "
+      + "that is a negotiated figure rather than a calculated one."));
+
+    var COL = { out: "var(--series-2)", consumer: "var(--series-2)",
+                "in": "var(--series-1)", eu: "var(--series-2)" };
+
+    function sfmt(v) {                          // signed, for the diverging axis
+      return (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(1);
+    }
+
+    // ---- panel 1: signed bars around a zero rule ----
+    function signed(rows, heading, subtitle) {
+      if (!rows.length) return;
+      var sec = h("div", "ofsec");
+      sec.appendChild(h("div", "ofh", heading));
+      sec.appendChild(h("p", "ofs", subtitle));
+      var max = Math.max.apply(null, rows.map(function (r) { return Math.abs(r.value); }));
+      var zero = 50;                                   // % of track width where 0 sits
+      var CAP = 0.82;                                  // leaves a gutter for the value label
+      rows.forEach(function (r) {
+        var row = h("div", "ofrow");
+        row.appendChild(h("div", "ofname", r.label));
+        var track = h("div");
+        track.style.cssText = "position:relative;height:22px";
+        var rule = h("div");
+        rule.style.cssText = "position:absolute;left:" + zero + "%;top:0;bottom:0;width:1px;"
+          + "background:var(--baseline)";
+        track.appendChild(rule);
+        var w = Math.abs(r.value) / max * (r.value < 0 ? zero : (100 - zero)) * CAP;
+        var bar = h("div");
+        bar.style.cssText = "position:absolute;top:4px;height:14px;width:" + w + "%;"
+          + "background:" + COL[r.kind] + ";"
+          + (r.value < 0 ? "right:" + (100 - zero) + "%;border-radius:4px 0 0 4px;"
+                         : "left:" + zero + "%;border-radius:0 4px 4px 0;")
+          // texture, not a new hue: same direction of flow, different payer
+          + (r.kind === "consumer"
+             ? "background-image:repeating-linear-gradient(135deg,"
+               + "rgba(255,255,255,0.55) 0 3px,transparent 3px 6px);" : "");
+        bar.setAttribute("title", r.label + " — " + sfmt(r.value) + " " + r.unit);
+        track.appendChild(bar);
+        var lab = h("div", "ofval", sfmt(r.value));
+        lab.style.cssText = "position:absolute;top:3px;"
+          + (r.value < 0 ? "right:calc(" + (100 - zero) + "% + " + w + "% + 7px)"
+                         : "left:calc(" + zero + "% + " + w + "% + 7px)");
+        track.appendChild(lab);
+        row.appendChild(track);
+        sec.appendChild(row);
+        if (r.detail) sec.appendChild(h("p", "ofnote", r.detail));
+      });
+      var lg = h("div", "oflg");
+      [["Leaves the Treasury", "var(--series-2)", false],
+       ["Paid by consumers at the border, never through the budget", "var(--series-2)", true],
+       ["Comes in", "var(--series-1)", false]].forEach(function (k) {
+        var s = document.createElement("span");
+        var i = document.createElement("i");
+        i.style.background = k[1];
+        if (k[2]) i.style.backgroundImage = "repeating-linear-gradient(135deg,"
+          + "rgba(255,255,255,0.55) 0 3px,transparent 3px 6px)";
+        s.appendChild(i); s.appendChild(document.createTextNode(k[0]));
+        lg.appendChild(s);
+      });
+      sec.appendChild(lg);
+      sec.appendChild(h("p", "ofcap",
+        "Net, the Treasury pays out <strong>" + O.outTotal.toFixed(1) + " bn ISK</strong> a year "
+        + "and takes in <strong>" + O.inTotal.toFixed(1) + " bn</strong> — and the two are almost "
+        + "the same size. This country taxes its competitive resource sector at roughly the rate "
+        + "it subsidises its uncompetitive one."));
+      card.appendChild(sec);
+    }
+
+    // ---- panel 2: two outflows on one scale, one of them a range ----
+    function scaleBars(rows) {
+      if (rows.length < 2) return;
+      var sec = h("div", "ofsec");
+      sec.appendChild(h("div", "ofh", "The line the question usually leaves out"));
+      sec.appendChild(h("p", "ofs", "Both of these are money leaving the country, on the same "
+        + "scale, in billions of Icelandic króna a year. One of them arrives in full from "
+        + "year one."));
+      var max = Math.max.apply(null, rows.map(function (r) { return r.hi || r.value; }));
+      rows.forEach(function (r) {
+        var row = h("div", "ofrow");
+        row.appendChild(h("div", "ofname", r.label));
+        var track = h("div");
+        track.style.cssText = "position:relative;height:22px";
+        var w = r.value / max * 74, wh = (r.hi || r.value) / max * 74;
+        if (r.hi) {                                  // the range, drawn behind, same hue
+          var ext = h("div");
+          ext.style.cssText = "position:absolute;left:0;top:4px;height:14px;width:" + wh + "%;"
+            + "background:var(--series-2);opacity:0.30;border-radius:0 4px 4px 0";
+          track.appendChild(ext);
+        }
+        var bar = h("div");
+        bar.style.cssText = "position:absolute;left:0;top:4px;height:14px;width:" + w + "%;"
+          + "background:var(--series-2);border-radius:0 4px 4px 0";
+        bar.setAttribute("title", r.label);
+        track.appendChild(bar);
+        var lab = h("div", "ofval",
+          r.hi ? r.value.toFixed(1) + "–" + r.hi.toFixed(1) : r.value.toFixed(1));
+        lab.style.cssText = "position:absolute;top:3px;left:calc(" + wh + "% + 8px)";
+        track.appendChild(lab);
+        row.appendChild(track);
+        sec.appendChild(row);
+        if (r.detail) sec.appendChild(h("p", "ofnote", r.detail));
+      });
+      var lo = rows[1].value / rows[0].value, hi = (rows[1].hi || rows[1].value) / rows[0].value;
+      sec.appendChild(h("p", "ofcap", "That is <strong>" + lo.toFixed(1) + " to " + hi.toFixed(1)
+        + " times the entire farm support bill</strong>, arriving in full from the first year of "
+        + "membership while receipts phase in over a decade."));
+      card.appendChild(sec);
+    }
+
+    // ---- panel 3: the accession phase-in, as a step ----
+    function phase(rows) {
+      if (rows.length < 2) return;
+      var sec = h("div", "ofsec");
+      sec.appendChild(h("div", "ofh", "A new member enters at a quarter"));
+      sec.appendChild(h("p", "ofs", "Croatia's direct-payments schedule, from Article 121 of "
+        + "Regulation (EC) No 73/2009. The 2004 and 2007 waves each took nine years. Whatever "
+        + "envelope were negotiated, only a fraction of it arrives for a decade."));
+      var W = 640, H = 158, L = 34, R = 14, T = 20, B = 24;
+      var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+      svg.setAttribute("width", "100%");
+      svg.style.cssText = "display:block;max-width:" + W + "px";
+      var xs = function (i) { return L + i / (rows.length - 1) * (W - L - R); };
+      var ys = function (v) { return T + (1 - v / 100) * (H - T - B); };
+      [0, 25, 50, 75, 100].forEach(function (g) {     // solid hairline grid, one shade off
+        svg.appendChild(el("line", { x1: L, x2: W - R, y1: ys(g), y2: ys(g) },
+          "stroke:var(--grid);stroke-width:1"));
+        var t = el("text", { x: L - 7, y: ys(g) + 3.5 },
+          "fill:var(--text-muted);font-size:10px;text-anchor:end");
+        t.textContent = g + "%"; svg.appendChild(t);
+      });
+      var d = "", area = "";
+      rows.forEach(function (r, i) {                  // step: hold, then rise
+        var x = xs(i), y = ys(r.value);
+        if (i === 0) { d += "M" + x + "," + y; area += "M" + x + "," + ys(0) + "L" + x + "," + y; }
+        else { d += "H" + x + "V" + y; area += "H" + x + "V" + y; }
+      });
+      area += "L" + xs(rows.length - 1) + "," + ys(0) + "Z";
+      svg.appendChild(el("path", { d: area }, "fill:var(--band);stroke:none"));
+      svg.appendChild(el("path", { d: d },
+        "fill:none;stroke:var(--series-1);stroke-width:2;stroke-linejoin:round"));
+      rows.forEach(function (r, i) {
+        var c = el("circle", { cx: xs(i), cy: ys(r.value), r: 4 },
+          "fill:var(--series-1);stroke:var(--surface-1);stroke-width:2");
+        var ti = document.createElementNS("http://www.w3.org/2000/svg", "title");
+        ti.textContent = r.label + ": " + r.value + "% of the full rate"
+          + (r.detail ? " — " + r.detail : "");
+        c.appendChild(ti);
+        svg.appendChild(c);
+        if (i === 0 || i === rows.length - 1) {       // direct-label the ends only
+          var t = el("text", { x: xs(i) + (i === 0 ? 8 : 0), y: ys(r.value) + (i === 0 ? 15 : -10) },
+            "fill:var(--text-primary);font-size:11px;font-weight:600;text-anchor:"
+            + (i === 0 ? "start" : "middle"));
+          t.textContent = r.value + "%"; svg.appendChild(t);
+        }
+        if (i === 0 || i === rows.length - 1) {
+          var yr = el("text", { x: xs(i), y: H - 7 },
+            "fill:var(--text-muted);font-size:10px;text-anchor:" + (i === 0 ? "start" : "end"));
+          yr.textContent = "year " + (i + 1); svg.appendChild(yr);
+        }
+      });
+      sec.appendChild(svg);
+      card.appendChild(sec);
+    }
+
+    // ---- panel 4: the per-line verdict. Not a chart, on purpose. ----
+    var CHIP = {
+      partly: ["Partly replaced", "good"],
+      dissolved: ["Not replaced — dissolved into prices", ""],
+      national: ["Continues, nationally funded", ""],
+      none: ["Almost nothing comes back", "warn"],
+      ends: ["Ends outright", "good"],
+      starts: ["Starts in full, year one", "warn"]
+    };
+    function ledger(rows) {
+      if (!rows.length) return;
+      var sec = h("div", "ofsec");
+      sec.appendChild(h("div", "ofh", "What actually happens to each line"));
+      sec.appendChild(h("p", "ofs", "Deliberately not a chart. Four of these seven rows have no "
+        + "number attached, and drawing them would invent one."));
+      rows.forEach(function (r) {
+        var li = h("div", "ofl");
+        var hd = h("div", "oflhead");
+        hd.appendChild(h("span", "oflname", r.label));
+        var c = CHIP[r.kind] || [r.kind, ""];
+        hd.appendChild(h("span", "chip" + (c[1] ? " " + c[1] : ""), c[0]));
+        li.appendChild(hd);
+        li.appendChild(h("p", "oflbody", r.detail));
+        sec.appendChild(li);
+      });
+      card.appendChild(sec);
+    }
+
+    signed(O.now, "Where the money goes today",
+      "Everything on this axis is per year, in billions of Icelandic króna. Bars to the left "
+      + "leave the country; bars to the right come in.");
+    scaleBars(O.scale);
+    phase(O.phase);
+    ledger(O.ledger);
+
+    return card;
+  }
+
   function joiningCard() {
     var J = P.joining;
     if (!J) return null;
@@ -1059,6 +1314,7 @@
       var dc = disputesCard(); if (dc) sec.appendChild(dc);
       var ac = acquisCard(); if (ac) sec.appendChild(ac);
       var jc = joiningCard(); if (jc) sec.appendChild(jc);
+      var oc = offsetsCard(); if (oc) sec.appendChild(oc);
       if ((P.context || []).length) {
         var cc = h("div", "card prose");
         cc.appendChild(h("h3", null, "Where this country sits in the wider findings"));

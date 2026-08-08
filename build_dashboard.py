@@ -209,6 +209,52 @@ def acquis(col, iso3=None):
                       % (full, n, part, none)}
 
 
+def offsets(iso3):
+    """What this country already pays that EU money would, or would not, replace.
+
+    Four panels because the question has four separable parts and mixing them is what makes
+    the debate confusing. `now` is what leaves the Treasury today and what comes into it.
+    `scale` is the one comparison that reframes the question -- the budget contribution
+    against the farm bill. `phase` is the Croatian accession schedule, which is why "what
+    would we receive" and "what would we receive in year one" are different questions.
+    `ledger` is not a chart: it is the per-line verdict, and it is prose because four of the
+    seven lines have no number attached and pretending otherwise would be the whole error
+    this file exists to avoid.
+
+    Nothing here is an estimate of what the country would receive. There is no such figure:
+    both the CAP and cohesion envelopes for a new member are negotiated annex entries.
+    """
+    p = DATA / "offsets.csv"
+    if not p.exists():
+        return None
+    rows = [r for r in csv.DictReader(open(p, encoding="utf-8")) if r["iso3"] == iso3]
+    if not rows:
+        return None
+
+    def panel(name):
+        out = []
+        for r in sorted((x for x in rows if x["panel"] == name),
+                        key=lambda x: int(x["order"])):
+            out.append({
+                "label": r["label"],
+                "value": float(r["value"]) if r["value"].strip() else None,
+                "hi": float(r["hi"]) if r["hi"].strip() else None,
+                "unit": r["unit"], "kind": r["kind"],
+                "detail": r["detail"], "source": r["source"],
+            })
+        return out
+
+    now = panel("now")
+    return {
+        "now": now, "scale": panel("scale"),
+        "phase": panel("phase"), "ledger": panel("ledger"),
+        # the treasury total is the only arithmetic on this card, and it deliberately
+        # excludes the consumer-paid leg -- that money never touches the budget
+        "outTotal": round(sum(-r["value"] for r in now if r["kind"] == "out"), 1),
+        "inTotal": round(sum(r["value"] for r in now if r["kind"] == "in"), 1),
+    }
+
+
 def joining_case(iso3, col, row, V, name="this country"):
     """What would actually change if this country joined.
 
@@ -789,7 +835,7 @@ def build(iso3):
         "flows": nonmember_flows(iso3),
         "destinations": destinations(iso3, table),
         "siblings": _siblings,
-        "acquis": _acq, "joining": _join,
+        "acquis": _acq, "joining": _join, "offsets": offsets(iso3),
         "disputes": disputes(iso3),
         "verdict": verdict(iso3),
         "context": context(iso3, table),

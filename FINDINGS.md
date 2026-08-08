@@ -25,6 +25,7 @@ project only. The project is the canonical store; this folder is the built site 
 | `data-pipeline.md` | How the data store is built and verified | — | project only |
 | `research-framework.md` | The original design | — | project only |
 | `accession-questions.md` | Sovereignty, the grid, the ECB rate, purchasing power, carve-outs — the five Iceland questions | — | local + project |
+| `offsets.md` | What Iceland pays now that EU money would replace, and why most of it would not be | offsets card, Iceland page | local + project |
 
 ## What the audit found, and what was done about it
 
@@ -78,6 +79,24 @@ Nine legitimate cross-references are allowlisted in `xref.py` with a written rea
 Germany net-contribution benchmark, the Switzerland-lost-Horizon comparison on the EEA pages,
 Poland's 2004 labour-market opening, and so on. The rule for adding to that list is that the text
 must be about the other country *on purpose*.
+
+## The offsets card, 6 August 2026
+
+Four panels on Iceland's page, generated from `data/offsets.csv`: what leaves the Treasury today
+against what comes in, the budget contribution against the farm bill, Croatia's ten-year
+phase-in, and a per-line verdict. The fourth is deliberately **not** a chart — four of its seven
+rows have no number attached, and drawing them would invent one.
+
+Building it caught an arithmetic error in the prose. The table had presented 16.3 and 12.8 bn ISK
+as components "of which" of 18.3 — impossible, since they sum to more than the total. The 18.3 bn
+is budgetary spending in 2024; the 12.8 bn is market price support in 2020 and sits *on top* of
+the budget line rather than inside it. Corrected, with the correction stated in the document
+rather than silently applied. **The chart is a check on the prose, not just a picture of it.**
+
+Palette unchanged — the site's existing blue and orange pass all six checks in both light and dark
+(`validate_palette.js`, worst adjacent ΔE 24.7 protan / 33.6 normal). The one place a third
+category was needed — market price support, which flows out but never touches the budget — uses a
+45° texture on the same orange rather than a new hue.
 
 ## Gaps that remain
 

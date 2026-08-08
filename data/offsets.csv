@@ -1,0 +1,24 @@
+iso3,panel,order,label,value,hi,unit,kind,detail,source
+ISL,now,1,"Farm support, from the state budget",-18.3,,bn ISK/yr,out,"The búvörusamningar plus other support, nominal 2024. Extended by a year to end-2027 on 4 June 2026.","Agricultural University of Iceland, Rit LbhÍ nr. 169"
+ISL,now,2,"Farm support, paid by consumers at the border",-12.8,,bn ISK/yr,consumer,"Market price support: delivered through tariffs and quotas, not through the Treasury. 2020 figure, and it sits on top of the budget line rather than inside it.","OECD PSE data via Vísindavefurinn"
+ISL,now,3,Regional development,-0.7,,bn ISK/yr,out,"Byggðastofnun's operating appropriation is 212 m ISK for 2026; the visible byggðaáætlun grant lines run to a few hundred million more.","Byggðastofnun annual report 2025"
+ISL,now,4,Fishing fee collected from the industry,17.3,,bn ISK/yr,in,"The veiðigjald is a charge on the industry, not a subsidy to it: 19.5 bn assessed, 17.3 bn collected for the 2026 fee year.","Althingi 434/156; Icelandic Revenue and Customs"
+ISL,scale,1,Farm support from the state budget,18.3,,bn ISK/yr,out,What the Treasury actually pays farmers today.,"Rit LbhÍ nr. 169"
+ISL,scale,2,Gross contribution to the EU budget,43.1,49.6,bn ISK/yr,eu,"Not a forecast. The observed 2026 range for high-income members — Denmark 0.87%, Germany 0.88%, Luxembourg 0.94%, Finland and the Netherlands 0.96%, Ireland 1.00% of GNI — applied to an economy of Iceland's size. Iceland's GNI is not its GDP, so read this as an order of magnitude.","EU General Budget 2026, statement of revenue; Statistics Iceland"
+ISL,phase,1,2013,25,,%,step,Year of accession,
+ISL,phase,2,2014,30,,%,step,,
+ISL,phase,3,2015,35,,%,step,,
+ISL,phase,4,2016,40,,%,step,,
+ISL,phase,5,2017,50,,%,step,,
+ISL,phase,6,2018,60,,%,step,,
+ISL,phase,7,2019,70,,%,step,,
+ISL,phase,8,2020,80,,%,step,,
+ISL,phase,9,2021,90,,%,step,,
+ISL,phase,10,2022,100,,%,step,Full rate reached in the tenth year,
+ISL,ledger,1,Farm support from the budget,,,,partly,"Partly replaced. CAP direct payments are the one large channel — but a new member enters at 25% and reaches the full rate in year ten, and the envelope is a negotiated annex figure, not a formula.",
+ISL,ledger,2,Farm support at the border,,,,dissolved,"Not replaced by any grant. The customs union dissolves it, and it reappears as lower shop prices rather than as a transfer. Iceland's food price level is 55.8% above the EU average.",
+ISL,ledger,3,Northern agriculture aid,,,,national,"Continues, out of Iceland's own budget. All of Iceland is north of 62°N, and Article 142 of the 1994 Act of Accession lets Finland pay €293m a year and Sweden SEK 413m of national money. The EU permits the spending; it does not fund it.",
+ISL,ledger,4,Regional development,,,,none,"Almost nothing comes back. At 128% of the EU average Iceland is a more-developed region: roughly €18 per head a year against €207 in less developed regions, and excluded outright from the Cohesion Fund. Luxembourg's entire seven-year allocation is €29.8m.",
+ISL,ledger,5,Fisheries,,,,none,"No EU key exists. EMFAF allocations are frozen 2014–2020 shares and a new member has none, so one would have to be invented in the negotiation. The fund is small and cannot finance vessels or capacity.",
+ISL,ledger,6,EEA Grants donor obligation,,,,ends,"Ends outright — a true offset. Iceland is currently a donor to the €1.805bn EEA Financial Mechanism, not a recipient. Its own share is not published anywhere reachable; the widely repeated 3% is unconfirmed.",
+ISL,ledger,7,Contribution to the EU budget,,,,starts,"Starts, in full, from year one — while receipts phase in over a decade. This is the largest single line in the whole picture and it is the one the offset question usually leaves out.",
