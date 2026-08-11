@@ -133,6 +133,26 @@
   .abox.partial { background: var(--series-2); opacity: 0.55; }
   .anote { font-size: 11.5px; color: var(--text-muted); line-height: 1.5;
     padding: 0 92px 7px 0; margin-top: -1px; max-width: 640px; }
+  /* ---- exclusive competence card ---------------------------------------- */
+  .cpsum { font-size: 13px; color: var(--text-primary); line-height: 1.5;
+    padding: 10px 12px; border-radius: 8px; background: var(--band); margin-bottom: 14px; }
+  .cpstrip { display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+    gap: 10px; margin-bottom: 16px; }
+  .cptile { border: 1px solid var(--border); border-radius: 8px; padding: 9px 11px; }
+  .cptile .v { font-size: 17px; font-weight: 600; color: var(--text-primary); }
+  .cptile .k { font-size: 11px; color: var(--text-secondary); line-height: 1.4; margin-top: 2px; }
+  .cptile .s { font-size: 10.5px; color: var(--text-muted); line-height: 1.45; margin-top: 5px; }
+  .cprow { border-top: 1px solid var(--grid); padding: 13px 0 11px; }
+  .cprow:last-of-type { border-bottom: 1px solid var(--grid); }
+  .cphead { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .cpname { font-size: 13.5px; font-weight: 600; color: var(--text-primary); }
+  .cpfield { font-size: 12.5px; color: var(--text-secondary); line-height: 1.55; margin-top: 6px;
+    max-width: 720px; }
+  .cpfield b { font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-muted); font-weight: 600; display: block; margin-bottom: 1px; }
+  .cpsrc { font-size: 11px; color: var(--text-muted); margin-top: 6px; }
+  /* four-valued on purpose: "does not apply" is not the same as "outside" */
+  .chip.na { color: var(--text-muted); border-style: dashed; }
   /* ---- offsets card ---------------------------------------------------- */
   .ofsec { margin-top: 18px; }
   .ofsec:first-of-type { margin-top: 6px; }
@@ -941,6 +961,66 @@
   }
 
   /* ---------------- what joining would actually change ---------------- */
+  /* The five exclusive competences of Article 3(1) TFEU, measured against a non-member.
+     These are the areas with no treaty substitute -- everything else in the acquis can be
+     approximated by agreement, which is exactly what the EEA and the Swiss bilaterals do.
+     So this card is the honest floor of the distance between association and membership. */
+  function competenceCard() {
+    var C = P.competence;
+    if (!C) return null;
+    var CH = { "in": ["Applies in full", "good"], partial: ["Applies in part", "warn"],
+               out: ["Outside it", "warn"], na: ["Cannot apply here", "na"] };
+    var card = h("div", "card");
+    card.appendChild(h("h3", null, "The five exclusive competences"));
+    card.appendChild(h("p", "sub", "Article 3(1) TFEU lists five areas where only the Union "
+      + "may act. Everything else in the rulebook is shared or supporting, and can be "
+      + "approximated by agreement — which is what the EEA and the Swiss bilaterals do. These "
+      + "five have no treaty substitute, so they are where the distance between close "
+      + "association and membership actually sits."));
+    card.appendChild(h("div", "cpsum", C.summary + "."));
+
+    if (C.depth.length) {
+      var strip = h("div", "cpstrip");
+      C.depth.forEach(function (d) {
+        var t = h("div", "cptile");
+        t.appendChild(h("div", "v", d.depth));
+        t.appendChild(h("div", "k", d.label));
+        if (d.source) t.appendChild(h("div", "s", d.source));
+        strip.appendChild(t);
+      });
+      card.appendChild(h("h4", null, "How deep in, in numbers"));
+      card.appendChild(strip);
+    }
+
+    C.comp.forEach(function (r) {
+      var row = h("div", "cprow");
+      var hd = h("div", "cphead");
+      hd.appendChild(h("span", "cpname", r.label));
+      var c = CH[r.status] || [r.status, ""];
+      hd.appendChild(h("span", "chip" + (c[1] ? " " + c[1] : ""), c[0]));
+      row.appendChild(hd);
+      [["Where it stands", r.depth], ["Outstanding", r.outstanding],
+       ["Point of contention", r.contention]].forEach(function (f) {
+        if (!f[1] || f[1] === "\u2014") return;
+        var p = h("div", "cpfield");
+        p.appendChild(h("b", null, f[0]));
+        p.appendChild(document.createTextNode(f[1]));
+        row.appendChild(p);
+      });
+      if (r.source && r.source !== "\u2014") row.appendChild(h("div", "cpsrc", r.source));
+      card.appendChild(row);
+    });
+
+    C.contention.forEach(function (r) {
+      var sec = h("div", "ofsec");
+      sec.appendChild(h("div", "ofh", "The live argument, 2026: " + r.label));
+      sec.appendChild(h("p", "cpfield", r.contention));
+      if (r.source) sec.appendChild(h("div", "cpsrc", r.source));
+      card.appendChild(sec);
+    });
+    return card;
+  }
+
   /* Money already leaving the Treasury, against what EU membership would and would not
      replace. Four panels because the question has four separable parts:
        1  what is paid today, with outflows and inflows on one signed axis
@@ -1314,6 +1394,7 @@
       var dc = disputesCard(); if (dc) sec.appendChild(dc);
       var ac = acquisCard(); if (ac) sec.appendChild(ac);
       var jc = joiningCard(); if (jc) sec.appendChild(jc);
+      var cpc = competenceCard(); if (cpc) sec.appendChild(cpc);
       var oc = offsetsCard(); if (oc) sec.appendChild(oc);
       if ((P.context || []).length) {
         var cc = h("div", "card prose");

@@ -12,7 +12,7 @@ Reads:
 Writes:
     <country-slug>-dashboard.html   self-contained, no external requests
 """
-import csv, json, sys, datetime, pathlib, re
+import csv, json, sys, datetime, pathlib, re, collections
 
 BASE = pathlib.Path(__file__).resolve().parent
 DATA = BASE / "data"
@@ -171,9 +171,9 @@ def acquis(col, iso3=None):
     """How much of the Union's rulebook already applies, area by area.
 
     Not a percentage. The often-quoted "Norway has adopted X% of EU law" figures depend
-    entirely on what you count -- EFTA's own tracker says more than 9,500 acts have at some
-    point been part of the EEA Agreement and around 5,000 are in force -- and the honest
-    answer to "how much overlap" is a map rather than a number. So this reads the EEA
+    entirely on what you count -- EFTA's own EEA-Lex tracker reads 9,164 acts incorporated
+    and in force against 5,421 incorporated and since lapsed, retrieved 6 August 2026 -- and
+    the honest answer to "how much overlap" is a map rather than a number. So this reads the EEA
     Agreement's own structure: which policy areas are inside it, which are inside
     Switzerland's bilateral treaties, and which are inside neither.
 
@@ -252,6 +252,56 @@ def offsets(iso3):
         # excludes the consumer-paid leg -- that money never touches the budget
         "outTotal": round(sum(-r["value"] for r in now if r["kind"] == "out"), 1),
         "inTotal": round(sum(r["value"] for r in now if r["kind"] == "in"), 1),
+    }
+
+
+def competence(iso3):
+    """The five exclusive EU competences, measured against a country that is not a member.
+
+    Why these five and not the whole rulebook: Article 3(1) TFEU lists exactly five areas
+    where only the Union may act -- the customs union, competition rules for the internal
+    market, monetary policy for euro-area states, conservation of marine biological
+    resources, and the common commercial policy. Everything else is shared or supporting,
+    which means a non-member can approximate it by agreement. These five cannot be
+    approximated: they are the parts of membership that have no treaty substitute, so they
+    are where the real distance between "closely associated" and "member" sits.
+
+    Three panels. `comp` is the matrix: status, how deep the country already is, what is
+    outstanding, and where the friction is. `depth` is the quantitative measures -- the
+    EEA backlog, the infringement count -- because "how deep are they in" deserves numbers
+    rather than adjectives wherever numbers exist. `contention` is the single live argument
+    in 2026, one per country.
+
+    Status is deliberately four-valued. `na` is not the same as `out`: Switzerland has no
+    marine fisheries competence to be outside OF, and no country outside the euro can be
+    inside a competence that exists only for euro-area states. Collapsing those into "out"
+    would overstate the distance.
+    """
+    p = DATA / "competence.csv"
+    if not p.exists():
+        return None
+    rows = [r for r in csv.DictReader(open(p, encoding="utf-8")) if r["iso3"] == iso3]
+    if not rows:
+        return None
+
+    def panel(name):
+        return [{"label": r["label"], "status": r["status"], "depth": r["depth"],
+                 "outstanding": r["outstanding"], "contention": r["contention"],
+                 "source": r["source"]}
+                for r in sorted((x for x in rows if x["panel"] == name),
+                                key=lambda x: int(x["order"]))]
+
+    comp = panel("comp")
+    tally = collections.Counter(r["status"] for r in comp)
+    return {
+        "comp": comp, "depth": panel("depth"), "contention": panel("contention"),
+        "n": len(comp),
+        "counts": tally,
+        # the headline, stated rather than left for the reader to count off the grid
+        "summary": ("%d of the %d exclusive competences already apply here in full, "
+                    "%d partly, %d not at all, and %d cannot apply to this country at all"
+                    % (tally.get("in", 0), len(comp), tally.get("partial", 0),
+                       tally.get("out", 0), tally.get("na", 0))),
     }
 
 
@@ -836,6 +886,7 @@ def build(iso3):
         "destinations": destinations(iso3, table),
         "siblings": _siblings,
         "acquis": _acq, "joining": _join, "offsets": offsets(iso3),
+        "competence": competence(iso3),
         "disputes": disputes(iso3),
         "verdict": verdict(iso3),
         "context": context(iso3, table),

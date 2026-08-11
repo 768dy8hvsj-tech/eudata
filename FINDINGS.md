@@ -26,6 +26,7 @@ project only. The project is the canonical store; this folder is the built site 
 | `research-framework.md` | The original design | — | project only |
 | `accession-questions.md` | Sovereignty, the grid, the ECB rate, purchasing power, carve-outs — the five Iceland questions | — | local + project |
 | `offsets.md` | What Iceland pays now that EU money would replace, and why most of it would not be | offsets card, Iceland page | local + project |
+| `competence.md` | The five exclusive competences against Norway, Iceland and Switzerland | competence card, 3 non-member pages | local + project |
 
 ## What the audit found, and what was done about it
 
@@ -97,6 +98,30 @@ Palette unchanged — the site's existing blue and orange pass all six checks in
 (`validate_palette.js`, worst adjacent ΔE 24.7 protan / 33.6 normal). The one place a third
 category was needed — market price support, which flows out but never touches the budget — uses a
 45° texture on the same orange rather than a new hue.
+
+## Non-member sanity check, 6 August 2026
+
+`audit_nm.py` now checks the three non-member pages on four axes: which cards each page
+carries against a **written manifest of deliberate omissions**, the currency/basis mix on the
+contribution rows, the acquis counts recomputed from the rows, and the competence matrix.
+
+**It found a wrong number on its first run.** Switzerland's second cohesion contribution was
+recorded as CHF 1,302m — the value of the row above it (1,000 + 257 + 45), copied down. The
+correct figure is CHF 1,300m (1.1bn cohesion + 200m migration). The harness now catches this
+class of error two ways: it flags any amount appearing on more than one contribution row, and
+where a detail string itemises components it checks they sum to the stated total. Both were
+confirmed to fail by reintroducing the error deliberately — a check that cannot fail is worse
+than no check, and this project has been caught by that once already.
+
+Also corrected: EFTA's EEA-Lex tracker reads **9,164 acts incorporated and in force** against
+5,421 since lapsed. The study had this the other way round ("9,500 ever, 5,000 in force").
+
+**The manifest is the point.** A card missing from a page is either a bug or a decision, and
+previously there was no way to tell. `money` is absent from all three because the Commission's
+budget workbook has no line for a non-member. `offsets` is Iceland-only because no verified
+Norwegian or Swiss farm-support budget figure exists, so the panel would restate the flows card
+rather than add anything. Both reasons are now written down, and anything missing *without* a
+recorded reason fails the harness.
 
 ## Gaps that remain
 
