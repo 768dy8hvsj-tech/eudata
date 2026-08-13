@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Union itself — key financial and trade metrics</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    /* validated 6 Aug 2026 with the dataviz validator, light surface #fcfcfb:
+       lightness band, chroma floor, adjacent CVD separation, normal-vision floor and
+       contrast all PASS. Slots 1 and 2 are the site's existing two hues, unchanged. */
+    --series-1: #2a78d6;
+    --series-2: #eb6834;
+    --series-3: #159c86;
+    --series-4: #9161d9;
+    --series-5: #a8912b;
+    --series-6: #c2477f;
+    --band: rgba(42,120,214,0.06);
+    --tooltip-bg: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root { color-scheme: dark;
+      --surface-1: #1a1a19; --page: #0d0d0d;
+      --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #898781;
+      --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+      /* separately validated against the dark surface #1a1a19, not an automatic flip */
+      --series-1: #3987e5; --series-2: #d95926; --series-3: #1a9c86;
+      --series-4: #9b74e0; --series-5: #ab9430; --series-6: #d15c8d;
+      --band: rgba(57,135,229,0.10); --tooltip-bg: #242423; }
+  }
+  :root[data-theme="dark"] .viz-root { color-scheme: dark;
+    --surface-1: #1a1a19; --page: #0d0d0d;
+    --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #898781;
+    --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+    --series-1: #3987e5; --series-2: #d95926; --series-3: #1a9c86;
+    --series-4: #9b74e0; --series-5: #ab9430; --series-6: #d15c8d;
+    --band: rgba(57,135,229,0.10); --tooltip-bg: #242423; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .viz-root { background: var(--page); color: var(--text-primary); min-height: 100vh;
+    padding: 24px 20px 48px; }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  .sitenav { display: flex; gap: 14px; margin-bottom: 16px; font-size: 12.5px; flex-wrap: wrap; }
+  .sitenav a { color: var(--text-secondary); text-decoration: none;
+    border-bottom: 1px solid transparent; padding-bottom: 2px; }
+  .sitenav a:hover { color: var(--text-primary); border-bottom-color: var(--border); }
+  .sitenav a.here { color: var(--text-primary); font-weight: 600;
+    border-bottom-color: var(--series-1); }
+  .top { display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 16px; margin-bottom: 18px; }
+  h1 { font-size: 23px; font-weight: 600; letter-spacing: -0.01em; }
+  .subtitle { font-size: 13px; color: var(--text-secondary); margin-top: 5px;
+    line-height: 1.55; max-width: 760px; }
+  .theme-btn { border: 1px solid var(--border); background: var(--surface-1);
+    color: var(--text-secondary); border-radius: 8px; padding: 6px 11px; font-size: 12px;
+    cursor: pointer; white-space: nowrap; }
+  .card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 18px 18px 14px; margin-bottom: 14px; }
+  .card h2 { font-size: 16px; font-weight: 600; }
+  .card h3 { font-size: 13.5px; font-weight: 600; margin-top: 18px; }
+  .sub { font-size: 12.5px; color: var(--text-secondary); margin-top: 4px; margin-bottom: 12px;
+    line-height: 1.55; max-width: 740px; }
+  .sub strong { color: var(--text-primary); }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+    gap: 10px; margin-bottom: 14px; }
+  .kpi { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 13px 15px; }
+  .kpi .v { font-size: 21px; font-weight: 600; letter-spacing: -0.01em; }
+  .kpi .k { font-size: 11.5px; color: var(--text-secondary); margin-top: 2px; line-height: 1.4; }
+  .kpi .n { font-size: 10.5px; color: var(--text-muted); margin-top: 6px; line-height: 1.5; }
+  .row { display: grid; grid-template-columns: 150px 1fr; gap: 12px; align-items: center;
+    margin-bottom: 3px; }
+  .rname { font-size: 12.5px; color: var(--text-primary); line-height: 1.35; }
+  .rnote { font-size: 11.5px; color: var(--text-muted); line-height: 1.5;
+    margin: 0 0 10px 162px; max-width: 620px; }
+  .val { font-size: 12px; font-weight: 600; color: var(--text-primary); white-space: nowrap; }
+  .lg { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 11px;
+    font-size: 11.5px; color: var(--text-secondary); }
+  .lg span { display: inline-flex; align-items: center; gap: 6px; }
+  .lg i { width: 14px; height: 9px; border-radius: 2px; display: inline-block; }
+  .cap { font-size: 12px; color: var(--text-secondary); line-height: 1.6; margin-top: 11px;
+    max-width: 740px; }
+  .cap strong { color: var(--text-primary); }
+  table.t { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 12.5px; }
+  table.t th { text-align: left; font-weight: 600; color: var(--text-muted); font-size: 11px;
+    letter-spacing: 0.04em; text-transform: uppercase; padding: 5px 8px 5px 0;
+    border-bottom: 1px solid var(--grid); }
+  table.t th.num, table.t td.num { text-align: right; }
+  table.t td { padding: 6px 8px 6px 0; border-bottom: 1px solid var(--grid);
+    color: var(--text-secondary); }
+  table.t td.nm { color: var(--text-primary); }
+  .src { font-size: 11px; color: var(--text-muted); line-height: 1.55; margin-top: 10px; }
+  .stamp { font-size: 11.5px; color: var(--text-muted); margin-top: 14px; }
+  .tooltip { position: absolute; pointer-events: none; display: none; z-index: 5;
+    background: var(--tooltip-bg); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.10); max-width: 300px; }
+  .tooltip .tt-title { color: var(--text-muted); font-size: 11px; margin-bottom: 4px; }
+  .tooltip .tt-row { display: flex; align-items: center; gap: 6px; margin-top: 2px; }
+  .tooltip .tt-key { width: 10px; height: 2px; border-radius: 1px; flex: none; }
+  .tooltip .tt-val { font-weight: 600; color: var(--text-primary); }
+  .tooltip .tt-name { color: var(--text-secondary); }
+  @media (max-width: 640px) {
+    .row { grid-template-columns: 1fr; gap: 3px; }
+    .rnote { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <div class="wrap">
+    <nav class="sitenav"><a href="start-here.html">← Overview</a><a href="eu.html" class="here">The Union itself</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a><a href="flows.html">Budget flows</a><a href="start-here.html#non-members">Non-members</a></nav>
+    <header class="top">
+      <div>
+        <h1>The Union itself</h1>
+        <p class="subtitle">Every other page in this study looks at one country. This one looks
+          at the thing they are members of — what it is worth, what it spends, and where its
+          trade actually goes. Each figure carries the dataset it came from.</p>
+      </div>
+      <button class="theme-btn" id="themeBtn" type="button">Theme: auto</button>
+    </header>
+    <div id="root"></div>
+    <p class="stamp" id="stamp"></p>
+  </div>
+</div>
+<div class="tooltip" id="tip"></div>
+
+<script id="payload" type="application/json">{"kpis": [{"label": "Gross domestic product", "value": 18800.0, "value2": null, "unit": "EUR bn", "note": "Current prices, 2025. Eurostat flags the year as an estimate. 1 PPS equals 1 euro for the EU, so the same figure serves in purchasing power standards.", "source": "Eurostat wdn-20260806-1, dataset nama_10_gdp"}, {"label": "Population", "value": 452.0, "value2": null, "unit": "million", "note": "1 January 2026, estimated. Up 706,000 on a year earlier.", "source": "Eurostat ddn-20260710-3 (10 July 2026), dataset demo_gind"}, {"label": "In the euro area", "value": 21.0, "value2": 27.0, "unit": "member states", "note": "Bulgaria joined on 1 January 2026 and is the twenty-first.", "source": "European Commission IP/25/1386; European Central Bank"}, {"label": "HICP inflation", "value": 2.9, "value2": null, "unit": "%", "note": "June 2026, down from 3.3% in May. The euro area read 2.8%.", "source": "Eurostat 2-17072026-ap (17 July 2026), dataset prc_hicp_manr"}, {"label": "Unemployment", "value": 6.0, "value2": null, "unit": "%", "note": "June 2026, seasonally adjusted — 13.317 million people. The euro area read 6.3%. Stable both month on month and year on year.", "source": "Eurostat 3-30072026-bp (30 July 2026), dataset une_rt_m"}, {"label": "ECB deposit facility rate", "value": 2.25, "value2": null, "unit": "%", "note": "Raised 25 basis points on 11 June 2026, effective 17 June — the first rise after the 2025 cutting cycle — and held on 23 July. Main refinancing 2.40%, marginal lending 2.65%.", "source": "European Central Bank monetary policy decisions"}], "trade": [{"label": "Intra-EU trade in goods", "value": 4142.9, "value2": null, "unit": "EUR bn", "note": "What member states sell to each other. Reported on the dispatches basis and counted once here.", "source": "Eurostat 6-13022026-bp (13 February 2026), EU27, full-year 2025, provisional"}, {"label": "Extra-EU exports of goods", "value": 2645.0, "value2": null, "unit": "EUR bn", "note": "What the Union as a whole sells to the rest of the world.", "source": "Eurostat 6-13022026-bp, EU27, full-year 2025, provisional"}, {"label": "Extra-EU imports of goods", "value": 2511.5, "value2": null, "unit": "EUR bn", "note": "What it buys from the rest of the world. The extra-EU goods balance is a surplus of EUR 133.5bn.", "source": "Eurostat 6-13022026-bp, EU27, full-year 2025, provisional"}], "partners": [{"label": "United States", "value": 554612.0, "value2": 356231.0, "unit": "EUR m", "note": "The largest partner on both flows combined, and the EU's largest surplus: EUR 198.4bn.", "source": "DG TRADE factsheet, Eurostat COMEXT statistical regime 4, extracted 20 May 2026", "total": 910.8, "balance": 198.4, "exp": 554.6, "imp": 356.2}, {"label": "China", "value": 199432.0, "value2": 559990.0, "unit": "EUR m", "note": "The largest single source of imports, and the EU's largest deficit by a wide margin: EUR 360.6bn.", "source": "DG TRADE factsheet, COMEXT extracted 20 May 2026", "total": 759.4, "balance": -360.6, "exp": 199.4, "imp": 560.0}, {"label": "United Kingdom", "value": 345349.0, "value2": 158730.0, "unit": "EUR m", "note": "Still the third largest partner six years after leaving, and the second largest destination for EU exports.", "source": "DG TRADE factsheet, COMEXT extracted 20 May 2026", "total": 504.1, "balance": 186.6, "exp": 345.3, "imp": 158.7}, {"label": "Switzerland", "value": 219424.0, "value2": 143167.0, "unit": "EUR m", "note": "A country of 9 million is the EU's fourth largest goods partner — larger than Japan and South Korea combined.", "source": "DG TRADE factsheet, COMEXT extracted 20 May 2026", "total": 362.6, "balance": 76.3, "exp": 219.4, "imp": 143.2}, {"label": "Türkiye", "value": 114174.0, "value2": 103328.0, "unit": "EUR m", "note": "In a customs union with the EU for industrial goods since 1995.", "source": "DG TRADE factsheet, COMEXT extracted 20 May 2026", "total": 217.5, "balance": 10.8, "exp": 114.2, "imp": 103.3}, {"label": "Norway", "value": 64004.0, "value2": 95685.0, "unit": "EUR m", "note": "The EU imports considerably more from Norway than it sells there — energy is most of the difference.", "source": "DG TRADE factsheet, COMEXT extracted 20 May 2026", "total": 159.7, "balance": -31.7, "exp": 64.0, "imp": 95.7}, {"label": "Japan", "value": 65750.0, "value2": 63328.0, "unit": "EUR m", "note": "Close to balanced.", "source": "DG TRADE factsheet, COMEXT extracted 20 May 2026", "total": 129.1, "balance": 2.4, "exp": 65.8, "imp": 63.3}, {"label": "South Korea", "value": 54533.0, "value2": 69733.0, "unit": "EUR m", "note": "", "source": "DG TRADE factsheet, COMEXT extracted 20 May 2026", "total": 124.3, "balance": -15.2, "exp": 54.5, "imp": 69.7}, {"label": "India", "value": null, "value2": 69477.0, "unit": "EUR m", "note": "Import value only. The factsheet table does not carry India's export figure, so the bar shows imports and the total is stated separately as EUR 118.4bn.", "source": "DG TRADE factsheet, COMEXT extracted 20 May 2026", "total": 69.5, "balance": null, "exp": null, "imp": 69.5}, {"label": "Brazil", "value": null, "value2": null, "unit": "EUR m", "note": "Neither flow is in the extracted table. Total trade EUR 87.1bn.", "source": "DG TRADE factsheet, COMEXT extracted 20 May 2026", "total": null, "balance": null, "exp": null, "imp": null}], "world": [{"label": "EU share of world exports", "value": 17.0, "value2": null, "unit": "%", "note": "2024, goods and services at current prices. China 14.4%, up from 12.5% in 2014.", "source": "Eurostat, World trade in goods and services — an overview (Eurostat and IMF balance of payments)"}, {"label": "EU share of world imports", "value": 15.1, "value2": null, "unit": "%", "note": "2024. The United States reads 16.1%, up from 15.0% in 2014; China 12.7%.", "source": "Eurostat, World trade in goods and services — an overview"}, {"label": "EU international trade as a share of EU GDP", "value": 21.4, "value2": null, "unit": "%", "note": "2024.", "source": "Eurostat, World trade in goods and services — an overview"}, {"label": "EU share of world GDP", "value": 15.2, "value2": null, "unit": "%", "note": "2021, in purchasing power standards, from the World Bank's 2021 International Comparison Program round. China 18.9%, the United States 15.5%. This is the only credited share-of-world-GDP figure that could be obtained; no recent current-price equivalent and no comparable figure for 2000 was found.", "source": "World Bank ICP 2021 round, reported by Eurostat ddn-20240530-2 (30 May 2024)"}], "budget": {"years": [2000, 2024], "grand": 2862.4, "funds": [{"label": "Farm payments and market support", "v": 1037.6, "pct": 36.2}, {"label": "Regional and social funds", "v": 795.4, "pct": 27.8}, {"label": "Rural development", "v": 277.5, "pct": 9.7}, {"label": "Administration", "v": 179.7, "pct": 6.3}, {"label": "Cohesion Fund", "v": 175.9, "pct": 6.1}, {"label": "Research and innovation", "v": 169.2, "pct": 5.9}, {"label": "Infrastructure, digital and space", "v": 58.0, "pct": 2.0}, {"label": "Education, youth and culture", "v": 43.9, "pct": 1.5}, {"label": "Other programmes and reserves", "v": 40.7, "pct": 1.4}, {"label": "Migration, security, justice and defence", "v": 24.6, "pct": 0.9}, {"label": "Recovery, resilience and solidarity", "v": 17.2, "pct": 0.6}, {"label": "Fisheries and maritime", "v": 14.6, "pct": 0.5}, {"label": "External action and enlargement", "v": 13.0, "pct": 0.5}, {"label": "Social, employment and health", "v": 9.5, "pct": 0.3}, {"label": "Environment and climate", "v": 5.7, "pct": 0.2}], "payers": [{"iso3": "DEU", "name": "Germany", "net": -345.3}, {"iso3": "FRA", "name": "France", "net": -154.9}, {"iso3": "GBR", "name": "United Kingdom", "net": -145.9}, {"iso3": "NLD", "name": "Netherlands", "net": -108.3}, {"iso3": "ITA", "name": "Italy", "net": -107.3}], "receivers": [{"iso3": "POL", "name": "Poland", "net": 168.3}, {"iso3": "GRC", "name": "Greece", "net": 105.8}, {"iso3": "HUN", "name": "Hungary", "net": 67.9}, {"iso3": "ESP", "name": "Spain", "net": 67.5}, {"iso3": "PRT", "name": "Portugal", "net": 65.4}], "topTwoPct": 64.0, "topTwo": ["Farm payments and market support", "Regional and social funds"]}, "regions": {"years": [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "rows": [{"code": "TRADE.REG.EXP.EUR", "label": "Rest of Europe", "path": [40.0, 40.7, 41.1, 40.7, 41.6, 42.6, 42.2, 39.8, 39.0, 39.7, 39.2, 38.9, 37.9, 36.3, 36.7, 36.5, 35.4, 35.2, 35.7, 34.5, 32.9, 33.3, 33.4, 34.0]}, {"code": "TRADE.REG.EXP.AMER", "label": "The Americas", "path": [27.6, 26.0, 24.9, 25.0, 24.6, 22.9, 21.9, 21.2, 21.7, 21.2, 21.8, 21.6, 22.2, 24.2, 23.9, 23.6, 24.6, 25.5, 25.1, 25.7, 27.6, 28.0, 28.7, 28.8]}, {"code": "TRADE.REG.EXP.ASIA", "label": "Asia", "path": [22.6, 23.2, 23.7, 23.8, 24.0, 24.2, 24.5, 27.0, 28.0, 28.2, 27.8, 27.9, 28.6, 28.8, 29.2, 29.7, 29.4, 29.1, 29.8, 29.8, 28.6, 28.2, 27.6, 27.0]}, {"code": "TRADE.REG.EXP.AFR", "label": "Africa", "path": [6.3, 6.5, 6.5, 6.9, 6.6, 7.0, 7.7, 8.5, 8.1, 7.7, 7.8, 8.0, 8.0, 7.7, 7.2, 7.0, 7.0, 6.8, 6.5, 6.7, 7.0, 6.7, 6.4, 6.3]}, {"code": "TRADE.REG.EXP.OCE", "label": "Oceania and polar", "path": [1.8, 1.9, 1.9, 1.9, 1.7, 1.8, 1.9, 1.9, 1.9, 2.0, 1.9, 1.9, 1.8, 1.8, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9, 1.8, 1.7, 1.8, 1.9]}, {"code": "TRADE.REG.EXP.OTHER", "label": "Unallocated", "path": [1.7, 1.7, 1.9, 1.7, 1.5, 1.5, 1.8, 1.6, 1.3, 1.2, 1.5, 1.7, 1.5, 1.2, 1.1, 1.3, 1.7, 1.5, 1.0, 1.4, 2.1, 2.1, 2.1, 2.0]}], "subsets": {"North America": 24.8, "Latin America": 5.7}}, "series": [{"code": "NY.GDP.PCAP.KD", "label": "GDP per capita, constant 2015 US$", "years": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "values": [8596.76417836349, 9016.21567333255, 9450.30010599074, 9817.53039439137, 10315.4578457784, 10767.2834329907, 11139.8312972426, 11448.2445605728, 12003.2678169365, 12758.6636604719, 13388.253590784, 13800.3780794023, 14361.1222894738, 15125.1870993008, 15507.3557537275, 15329.4038574384, 15992.7870010098, 16383.9555991999, 16807.414435372, 17383.757503715, 17661.5682843787, 17684.8307577116, 17774.9192596164, 17984.5195335148, 18397.5601240367, 18779.8861820329, 19212.1108873748, 19643.5933363366, 20388.4387660803, 21108.9691057518, 21731.257153555, 21985.0210009315, 22118.8609418225, 21915.7436320895, 22451.7130424692, 23019.8549890066, 23422.7357601839, 24015.3715317336, 24698.29961088, 25398.2989452523, 26365.8085370636, 26899.8894391635, 27131.1240490784, 27284.7373654402, 27885.7767479776, 28334.7697308438, 29246.6564527789, 30060.2071364862, 30144.6595203745, 28771.7442854218, 29352.9533503664, 29974.1599339174, 29700.9101574933, 29667.2132839257, 30117.891265209, 30771.6635221374, 31300.1655435498, 32135.668371076, 32739.0873976707, 33289.4438136062, 31435.0432357987, 33488.0493001082, 34606.1111714906, 34626.5282460477, 34899.3225839678, 35365.4242663492]}, {"code": "NY.GNP.PCAP.PP.CD", "label": "GNI per capita, PPP", "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "values": [14822.4919401587, 15415.7190564664, 15827.3534213054, 16095.5009151025, 16821.6428592743, 17678.8431445871, 18286.8608177192, 19006.2580780435, 19861.8524920436, 20699.6130767716, 22029.7002543625, 23081.4642184601, 24024.1880011815, 24577.0454753529, 25790.6880576447, 26822.7298779088, 29166.4967562822, 30963.9482452666, 32318.6144750227, 31863.0494833847, 32960.2913345602, 34649.2122673918, 35133.8978994955, 36350.3869675232, 37403.0416822274, 38359.4130938807, 40833.5726000989, 42938.0056369, 45156.2152017954, 48689.3097852409, 47505.5025446502, 52135.0086899562, 58433.7881267579, 61383.6346947539, 63644.5173851946, 65147.3636005644]}, {"code": "SP.POP.TOTL", "label": "Population", "years": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "values": [357710476.0, 360681613.0, 363707978.0, 366840786.0, 370055037.0, 373129199.0, 376058575.0, 378902917.0, 381579577.0, 384226226.0, 386406167.0, 388553371.0, 391197266.0, 393739994.0, 396124649.0, 398397694.0, 400490355.0, 402445831.0, 404312949.0, 406112162.0, 407986180.0, 409724709.0, 410988238.0, 412072128.0, 412998350.0, 413962998.0, 415087013.0, 416296769.0, 417653885.0, 419102379.0, 420525030.0, 421741276.0, 422968989.0, 424344744.0, 425404352.0, 426210050.0, 426905134.0, 427547651.0, 428120105.0, 428825949.0, 429339162.0, 429909307.0, 430924112.0, 432512916.0, 434193248.0, 435789139.0, 437263803.0, 438796003.0, 440270719.0, 441388573.0, 442088310.0, 441414078.0, 442069839.0, 442425741.0, 442920819.0, 443793218.0, 444676652.0, 445321060.0, 446329890.0, 446910453.0, 446870959.0, 446227358.0, 447202673.0, 448897545.0, 450228188.0]}], "generated": "2026-08-13", "split": {"intra": 4142.9, "extra": 5156.5, "total": 9299.4, "intraPctOnce": 44.6, "intraPctTwice": 61.6, "balance": 133.5}}</script>
+<script>
+(function () {
+  "use strict";
+  var P = JSON.parse(document.getElementById("payload").textContent);
+  var NS = "http://www.w3.org/2000/svg";
+  var root = document.getElementById("root");
+  var tip = document.getElementById("tip");
+
+  function h(tag, cls, html) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (html !== undefined) e.innerHTML = html;
+    return e;
+  }
+  function el(tag, attrs, style) {
+    var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (style) e.setAttribute("style", style);
+    return e;
+  }
+  function num(v, dp) {
+    if (v === null || v === undefined) return "–";
+    return v.toLocaleString("en-US", { minimumFractionDigits: dp === undefined ? 0 : dp,
+                                       maximumFractionDigits: dp === undefined ? 0 : dp });
+  }
+  function signed(v, dp) {
+    return (v > 0 ? "+" : v < 0 ? "−" : "") + num(Math.abs(v), dp);
+  }
+  // six validated slots; a seventh region would fold into "Other" rather than cycle
+  var HUES = ["--series-1", "--series-2", "--series-3", "--series-4",
+              "--series-5", "--series-6"];
+
+  function showTip(e, title, rows) {
+    tip.innerHTML = "";
+    if (title) tip.appendChild(h("div", "tt-title", title));
+    rows.forEach(function (r) {
+      var d = h("div", "tt-row");
+      if (r[2]) {
+        var k = h("span", "tt-key");
+        k.style.background = r[2]; k.style.height = "8px"; k.style.borderRadius = "2px";
+        d.appendChild(k);
+      }
+      d.appendChild(h("span", "tt-val", r[0]));
+      d.appendChild(h("span", "tt-name", r[1]));
+      tip.appendChild(d);
+    });
+    tip.style.display = "block";
+    var x = e.clientX + 14, y = e.clientY + 14;
+    if (x + tip.offsetWidth > window.innerWidth - 8) x = e.clientX - tip.offsetWidth - 14;
+    tip.style.left = (x + window.scrollX) + "px";
+    tip.style.top = (y + window.scrollY) + "px";
+  }
+  function hideTip() { tip.style.display = "none"; }
+
+  function card(title, sub) {
+    var c = h("div", "card");
+    c.appendChild(h("h2", null, title));
+    if (sub) c.appendChild(h("p", "sub", sub));
+    root.appendChild(c);
+    return c;
+  }
+  function legend(parent, items) {
+    var lg = h("div", "lg");
+    items.forEach(function (it) {
+      var s = document.createElement("span");
+      var i = document.createElement("i");
+      i.style.background = it[1];
+      s.appendChild(i); s.appendChild(document.createTextNode(it[0]));
+      lg.appendChild(s);
+    });
+    parent.appendChild(lg);
+  }
+
+  /* ---------- headline tiles ------------------------------------------------ */
+  var kr = h("div", "kpis");
+  P.kpis.forEach(function (k) {
+    var t = h("div", "kpi");
+    var v = k.unit === "member states" ? num(k.value) + " of " + num(k.value2)
+          : k.unit === "EUR bn" ? "€" + num(k.value / 1000, 1) + " tn"
+          : k.unit === "%" ? num(k.value, 1) + "%"
+          : num(k.value, 1) + (k.unit === "million" ? "m" : "");
+    t.appendChild(h("div", "v", v));
+    t.appendChild(h("div", "k", k.label));
+    t.appendChild(h("div", "n", k.note + " " + k.source + "."));
+    kr.appendChild(t);
+  });
+  root.appendChild(kr);
+
+  /* ---------- 1. where the trade actually is -------------------------------- */
+  (function () {
+    var S = P.split;
+    var c = card("Where the trade actually is",
+      "The headline fact about EU trade is not who the biggest outside partner is. It is that "
+      + "the members trade far more with each other than with anyone outside — so every "
+      + "partner ranking further down this page is a ranking of the smaller half.");
+    var bar = h("div");
+    bar.style.cssText = "display:flex;height:34px;border-radius:6px;overflow:hidden;gap:2px";
+    [["Between member states", S.intra, "var(--series-1)"],
+     ["With the rest of the world", S.extra, "var(--series-2)"]].forEach(function (seg) {
+      var d = h("div");
+      d.style.cssText = "flex:" + seg[1] + " 0 0;background:" + seg[2]
+        + ";display:flex;align-items:center;justify-content:center;color:#fff;"
+        + "font-size:12px;font-weight:600";
+      d.textContent = (seg[1] / S.total * 100).toFixed(1) + "%";
+      d.addEventListener("mousemove", function (e) {
+        showTip(e, seg[0], [["€" + num(seg[1], 1) + " bn", "goods, 2025", seg[2]]]);
+      });
+      d.addEventListener("mouseleave", hideTip);
+      bar.appendChild(d);
+    });
+    c.appendChild(bar);
+    legend(c, [["Between member states — €" + num(S.intra, 1) + " bn", "var(--series-1)"],
+               ["With the rest of the world — €" + num(S.extra, 1) + " bn", "var(--series-2)"]]);
+    c.appendChild(h("p", "cap",
+      "<strong>" + S.intraPctOnce + "% of the Union's goods trade is internal</strong>, counting "
+      + "each intra-EU consignment once. Eurostat's per-country tables count it twice — once as a "
+      + "dispatch, once as an arrival — which puts the same fact at <strong>"
+      + S.intraPctTwice + "%</strong>. Both conventions are defensible and they are not the same "
+      + "number, so this page shows the underlying values rather than picking one silently. "
+      + "The extra-EU goods balance is a surplus of €" + num(S.balance, 1) + " bn."));
+    P.trade.forEach(function (t) {
+      c.appendChild(h("p", "src", t.label + ": €" + num(t.value, 1) + " bn — " + t.note
+        + " " + t.source + "."));
+    });
+  })();
+
+  /* ---------- 2. the largest trade pools ------------------------------------ */
+  (function () {
+    // both flows required: the chart ranks on their sum, and drawing a one-flow partner
+    // beside two-flow ones makes it look smaller than it is
+    var rows = P.partners.filter(function (p) { return p.exp !== null && p.imp !== null; });
+    var c = card("The largest trade pools",
+      "The EU's biggest goods partners outside the Union, 2025, ranked by the two flows "
+      + "together. Bars are stacked so the size of the relationship and its composition read "
+      + "at once.");
+    var max = Math.max.apply(null, rows.map(function (p) { return (p.exp || 0) + (p.imp || 0); }));
+    rows.forEach(function (p) {
+      var r = h("div", "row");
+      r.appendChild(h("div", "rname", p.label));
+      var track = h("div");
+      track.style.cssText = "position:relative;height:24px";
+      var x = 0;
+      [["exp", "Exports to", "var(--series-1)"], ["imp", "Imports from", "var(--series-2)"]]
+        .forEach(function (f) {
+          var v = p[f[0]];
+          if (!v) return;
+          var w = v / max * 76;
+          var d = h("div");
+          d.style.cssText = "position:absolute;top:5px;height:14px;left:" + x + "%;width:"
+            + w + "%;background:" + f[2] + ";"
+            + (x === 0 ? "border-radius:4px 0 0 4px;" : "border-radius:0 4px 4px 0;");
+          d.addEventListener("mousemove", function (e) {
+            showTip(e, p.label, [["€" + num(v, 1) + " bn", f[1] + " the EU, 2025", f[2]]]);
+          });
+          d.addEventListener("mouseleave", hideTip);
+          track.appendChild(d);
+          x += w + 0.3;               // 2px-equivalent surface gap between the segments
+        });
+      var lab = h("div", "val", "€" + num(p.total, 1) + " bn");
+      lab.style.cssText = "position:absolute;top:4px;left:calc(" + x + "% + 8px)";
+      track.appendChild(lab);
+      r.appendChild(track);
+      c.appendChild(r);
+      if (p.note) c.appendChild(h("p", "rnote", p.note));
+    });
+    legend(c, [["Exports to the rest of the world", "var(--series-1)"],
+               ["Imports from it", "var(--series-2)"]]);
+
+    var missing = P.partners.filter(function (p) { return p.exp === null || p.imp === null; });
+    if (missing.length) {
+      c.appendChild(h("p", "cap", "Not drawn: " + missing.map(function (p) {
+        return p.label + " (" + p.note + ")"; }).join(" ")));
+    }
+  })();
+
+  /* ---------- 3. the balance ------------------------------------------------ */
+  (function () {
+    var rows = P.partners.filter(function (p) { return p.balance !== null; })
+                         .sort(function (a, b) { return b.balance - a.balance; });
+    if (!rows.length) return;
+    var c = card("Surplus and deficit, by partner",
+      "The same relationships, read as a balance. Two partners dominate the picture and they "
+      + "point in opposite directions.");
+    var max = Math.max.apply(null, rows.map(function (p) { return Math.abs(p.balance); }));
+    var ZERO = 52, CAP = 0.80;
+    rows.forEach(function (p) {
+      var r = h("div", "row");
+      r.appendChild(h("div", "rname", p.label));
+      var track = h("div");
+      track.style.cssText = "position:relative;height:22px";
+      var rule = h("div");
+      rule.style.cssText = "position:absolute;left:" + ZERO + "%;top:0;bottom:0;width:1px;"
+        + "background:var(--baseline)";
+      track.appendChild(rule);
+      var neg = p.balance < 0;
+      var w = Math.abs(p.balance) / max * (neg ? ZERO : (100 - ZERO)) * CAP;
+      var col = neg ? "var(--series-2)" : "var(--series-1)";
+      var d = h("div");
+      d.style.cssText = "position:absolute;top:4px;height:14px;width:" + w + "%;background:" + col
+        + ";" + (neg ? "right:" + (100 - ZERO) + "%;border-radius:4px 0 0 4px;"
+                     : "left:" + ZERO + "%;border-radius:0 4px 4px 0;");
+      d.addEventListener("mousemove", function (e) {
+        showTip(e, p.label, [["€" + signed(p.balance, 1) + " bn",
+                              neg ? "EU deficit" : "EU surplus", col]]);
+      });
+      d.addEventListener("mouseleave", hideTip);
+      track.appendChild(d);
+      var lab = h("div", "val", "€" + signed(p.balance, 1) + " bn");
+      lab.style.cssText = "position:absolute;top:3px;"
+        + (neg ? "right:calc(" + (100 - ZERO) + "% + " + w + "% + 7px)"
+               : "left:calc(" + ZERO + "% + " + w + "% + 7px)");
+      track.appendChild(lab);
+      r.appendChild(track);
+      c.appendChild(r);
+    });
+    legend(c, [["EU surplus", "var(--series-1)"], ["EU deficit", "var(--series-2)"]]);
+    var us = rows[0], cn = rows[rows.length - 1];
+    c.appendChild(h("p", "cap", "<strong>" + us.label + " (€" + signed(us.balance, 1)
+      + " bn) and " + cn.label + " (€" + signed(cn.balance, 1) + " bn) are the two poles.</strong> "
+      + "The Union runs its largest goods surplus with the country it trades with most, and its "
+      + "largest deficit with the country it buys most from. Everything else on this chart is "
+      + "small beside those two."));
+  })();
+
+  /* ---------- 4. where extra-EU exports go, over time ----------------------- */
+  (function () {
+    var R = P.regions;
+    if (!R) return;
+    var c = card("Where the Union's outside exports go",
+      "Share of extra-EU goods exports by destination region, 2002–2025. Shares are of exports "
+      + "leaving the Union, so they exclude everything in the first chart's blue segment.");
+    var W = 900, H = 320, L = 38, RM = 168, T = 14, B = 26;
+    var yrs = R.years, n = yrs.length;
+    var svg = el("svg", { viewBox: "0 0 " + W + " " + H, width: "100%" },
+                 "display:block;max-width:" + W + "px");
+    var vals = [];
+    R.rows.forEach(function (r) { r.path.forEach(function (v) { if (v !== null) vals.push(v); }); });
+    var hi = Math.ceil(Math.max.apply(null, vals) / 10) * 10;
+    var xs = function (i) { return L + i / (n - 1) * (W - L - RM); };
+    var ys = function (v) { return T + (1 - v / hi) * (H - T - B); };
+    for (var g = 0; g <= hi; g += 10) {
+      svg.appendChild(el("line", { x1: L, x2: W - RM, y1: ys(g), y2: ys(g) },
+        "stroke:var(--grid);stroke-width:1"));
+      var gt = el("text", { x: L - 7, y: ys(g) + 3.5 },
+        "fill:var(--text-muted);font-size:10px;text-anchor:end");
+      gt.textContent = g + "%"; svg.appendChild(gt);
+    }
+    [0, Math.floor((n - 1) / 2), n - 1].forEach(function (i) {
+      var t = el("text", { x: xs(i), y: H - 8 },
+        "fill:var(--text-muted);font-size:10px;text-anchor:"
+        + (i === 0 ? "start" : i === n - 1 ? "end" : "middle"));
+      t.textContent = yrs[i]; svg.appendChild(t);
+    });
+    var hueOf = function (r, k) {
+      return r.code === "TRADE.REG.EXP.OTHER" ? "var(--text-muted)"
+                                              : "var(" + HUES[k % HUES.length] + ")";
+    };
+    R.rows.forEach(function (r, k) {
+      var col = hueOf(r, k);
+      var d = "";
+      r.path.forEach(function (v, i) { d += (i ? "L" : "M") + xs(i) + "," + ys(v); });
+      svg.appendChild(el("path", { d: d },
+        "fill:none;stroke:" + col + ";stroke-width:2;stroke-linejoin:round"));
+    });
+    // end labels, de-collided: sort by value, then walk upward pushing any label that would
+    // sit within 13px of the one below it. Without this the Americas and Asia overlap, and
+    // so do Africa and Latin America.
+    var ends = R.rows.map(function (r, k) {
+      var last = r.path[r.path.length - 1];
+      return { label: r.label, v: last, y: ys(last), col: hueOf(r, k) };
+    }).sort(function (a, b) { return b.y - a.y; });
+    for (var q = 1; q < ends.length; q++) {
+      if (ends[q - 1].y - ends[q].y < 13) ends[q].y = ends[q - 1].y - 13;
+    }
+    ends.forEach(function (e2) {
+      var lt = el("text", { x: W - RM + 10, y: e2.y + 3.5 },
+        "fill:var(--text-secondary);font-size:11px");
+      lt.textContent = e2.label + " " + e2.v.toFixed(1) + "%";
+      svg.appendChild(lt);
+      // a leader line where the label had to move off its own point
+      if (Math.abs(e2.y - ys(e2.v)) > 1) {
+        svg.appendChild(el("line", { x1: W - RM, x2: W - RM + 7, y1: ys(e2.v), y2: e2.y },
+          "stroke:" + e2.col + ";stroke-width:1;opacity:0.5"));
+      }
+      svg.appendChild(el("circle", { cx: W - RM, cy: ys(e2.v), r: 3.5 },
+        "fill:" + e2.col + ";stroke:var(--surface-1);stroke-width:2"));
+    });
+    c.appendChild(svg);
+    legend(c, R.rows.map(function (r, k) { return [r.label, hueOf(r, k)]; }));
+    var mv = R.rows.map(function (r) {
+      return { l: r.label, d: r.path[r.path.length - 1] - r.path[0] }; })
+      .sort(function (a, b) { return b.d - a.d; });
+    c.appendChild(h("p", "cap", "Over twenty-three years the largest shift is <strong>"
+      + mv[0].l + " " + signed(mv[0].d, 1) + " points</strong> and <strong>"
+      + mv[mv.length - 1].l + " " + signed(mv[mv.length - 1].d, 1)
+      + " points</strong>. These five regions plus the unallocated remainder partition extra-EU "
+      + "exports exactly. North America and Latin America are <em>not</em> drawn: both sit "
+      + "inside the Americas, and they overlap each other as well — in the latest year they "
+      + "read " + (P.regions.subsets["North America"] || 0).toFixed(1) + "% and "
+      + (P.regions.subsets["Latin America"] || 0).toFixed(1) + "% against the Americas' own "
+      + P.regions.rows[1].path[P.regions.rows[1].path.length - 1].toFixed(1)
+      + "%. Drawing them beside their parent inflated this chart to 104% until the page audit "
+      + "caught it."));
+    c.appendChild(h("p", "src", "Eurostat COMEXT, regional aggregates built by summing individual "
+      + "partner countries so the shares partition exactly. EU27 (2020) definition applied to "
+      + "every year, so the United Kingdom counts as outside throughout."));
+  })();
+
+  /* ---------- 5. the budget ------------------------------------------------- */
+  (function () {
+    var B = P.budget;
+    if (!B) return;
+    var c = card("What the Union spends, and who pays for it",
+      "Every euro of EU spending allocated to a member state, " + B.years[0] + "–" + B.years[1]
+      + ", parsed from the Commission's own budget workbook into 15 funds. The parse reconciles "
+      + "to the Commission's totals to 0.0000%.");
+    var top = B.funds.slice(0, 8);
+    var max = top[0].v;
+    top.forEach(function (f) {
+      var r = h("div", "row");
+      r.appendChild(h("div", "rname", f.label));
+      var track = h("div");
+      track.style.cssText = "position:relative;height:22px";
+      var w = f.v / max * 72;
+      var d = h("div");
+      d.style.cssText = "position:absolute;left:0;top:4px;height:14px;width:" + w
+        + "%;background:var(--series-1);border-radius:0 4px 4px 0";
+      d.addEventListener("mousemove", function (e) {
+        showTip(e, f.label, [["€" + num(f.v, 1) + " bn", f.pct + "% of all spending",
+                              "var(--series-1)"]]);
+      });
+      d.addEventListener("mouseleave", hideTip);
+      track.appendChild(d);
+      var lab = h("div", "val", "€" + num(f.v, 0) + " bn · " + f.pct + "%");
+      lab.style.cssText = "position:absolute;top:3px;left:calc(" + w + "% + 8px)";
+      track.appendChild(lab);
+      r.appendChild(track);
+      c.appendChild(r);
+    });
+    c.appendChild(h("p", "cap", "<strong>" + B.topTwo[0] + " and " + B.topTwo[1]
+      + " together are " + B.topTwoPct + "% of all EU spending</strong> over the period. "
+      + "Total allocated: €" + num(B.grand, 0) + " bn."));
+
+    c.appendChild(h("h3", null, "The two ends of the distribution"));
+    var t = document.createElement("table"); t.className = "t";
+    var hr = document.createElement("tr");
+    ["Largest net contributors", "€ bn", "Largest net recipients", "€ bn"]
+      .forEach(function (x, j) {
+        var th = document.createElement("th");
+        if (j === 1 || j === 3) th.className = "num";
+        th.textContent = x; hr.appendChild(th);
+      });
+    t.appendChild(hr);
+    for (var i = 0; i < 5; i++) {
+      var tr = document.createElement("tr");
+      [[B.payers[i].name, "nm"], [signed(B.payers[i].net, 1), "num"],
+       [B.receivers[i].name, "nm"], [signed(B.receivers[i].net, 1), "num"]]
+        .forEach(function (cell) {
+          var td = document.createElement("td"); td.className = cell[1];
+          td.textContent = cell[0]; tr.appendChild(td);
+        });
+      t.appendChild(tr);
+    }
+    c.appendChild(t);
+    c.appendChild(h("p", "src", "Net position on the receipts-minus-contributions convention "
+      + "used throughout this study. <a href=\"flows.html\">The full budget page →</a>"));
+  })();
+
+  /* ---------- 6. the EU in the world ---------------------------------------- */
+  (function () {
+    if (!P.world || !P.world.length) return;
+    var c = card("The Union in the world",
+      "How large the bloc is relative to everyone else. These are the figures credited sources "
+      + "actually publish — several widely circulated share-of-world-GDP claims could not be "
+      + "traced to one and are therefore absent.");
+    var g = h("div", "kpis");
+    P.world.forEach(function (w) {
+      var t = h("div", "kpi");
+      t.appendChild(h("div", "v", num(w.value, 1) + "%"));
+      t.appendChild(h("div", "k", w.label));
+      t.appendChild(h("div", "n", w.note + " " + w.source + "."));
+      g.appendChild(t);
+    });
+    c.appendChild(g);
+  })();
+
+  /* ---------- 7. what is not here ------------------------------------------- */
+  (function () {
+    var c = card("What is not on this page, and why",
+      "Stated so nothing above reads as more complete than it is.");
+    [["Services trade", "Extra-EU trade in services is large enough that a goods-only page "
+      + "understates the Union's trade substantially. A figure was located for 2024 but could "
+      + "not be confirmed to this study's confidence bar as extra-EU rather than total, so no "
+      + "number is shown. Everything above is goods only."],
+     ["A recent share of world GDP at current prices", "The only credited figure obtainable is "
+      + "15.2% in purchasing power standards for 2021, from the World Bank's ICP round. No "
+      + "current-price equivalent and no comparable figure for 2000 could be sourced, so the "
+      + "trajectory is shown through trade shares instead."],
+     ["Ranks 11 and 12 among partners", "The DG TRADE factsheet table stops at ten. Canada does "
+      + "not appear in any top-ten column; Mexico and Vietnam appear in single-flow columns only."],
+     ["One consistent trade vintage", "Three credited figures exist for the 2025 extra-EU "
+      + "balance — €133.5bn from the February release, €128bn from a March news item, €126.1bn "
+      + "from the May COMEXT extract. The trade totals here use the February release and the "
+      + "partner detail uses the May extract, and the difference is revision, not error."]]
+      .forEach(function (x) {
+        var p = h("p", "cap");
+        p.innerHTML = "<strong>" + x[0] + ".</strong> " + x[1];
+        c.appendChild(p);
+      });
+  })();
+
+  document.getElementById("stamp").textContent =
+    "Generated " + P.generated + " from data/eu_stats.csv, flows_payload.json and "
+    + "analysis_payload.json. Every figure carries its dataset and vintage.";
+
+  /* ---------- theme --------------------------------------------------------- */
+  var btn = document.getElementById("themeBtn");
+  var modes = ["auto", "light", "dark"], mi = 0;
+  btn.addEventListener("click", function () {
+    mi = (mi + 1) % 3;
+    if (modes[mi] === "auto") document.documentElement.removeAttribute("data-theme");
+    else document.documentElement.setAttribute("data-theme", modes[mi]);
+    btn.textContent = "Theme: " + modes[mi];
+  });
+})();
+</script>
+</body>
+</html>
