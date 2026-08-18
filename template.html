@@ -133,6 +133,12 @@
   .abox.partial { background: var(--series-2); opacity: 0.55; }
   .anote { font-size: 11.5px; color: var(--text-muted); line-height: 1.5;
     padding: 0 92px 7px 0; margin-top: -1px; max-width: 640px; }
+  /* ---- rank chip on the financial charts ---------------------------------- */
+  .h3row { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
+  .rankchip { font-size: 11px; letter-spacing: 0.02em; padding: 2px 8px; border-radius: 999px;
+    border: 1px solid var(--border); color: var(--text-secondary); white-space: nowrap;
+    cursor: default; }
+  .rankchip b { color: var(--text-primary); font-weight: 600; }
   /* ---- exclusive competence card ---------------------------------------- */
   .cpsum { font-size: 13px; color: var(--text-primary); line-height: 1.5;
     padding: 10px 12px; border-radius: 8px; background: var(--band); margin-bottom: 14px; }
@@ -625,9 +631,65 @@
   }
 
   // ---------------- card builders ----------------
+  function ord(n) {
+    var s = ["th", "st", "nd", "rd"], v = n % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
+  }
+  /* Where this country currently stands on this measure, against the other countries the
+     study gives a page to. Ranked high-to-low and labelled "highest" without interpreting
+     direction: whether a high number is good is the reader's call, not the chart's. The
+     year is on the chip because it is not always the last year of the line -- it is the most
+     recent year in which enough countries have a value to rank fairly. */
+  function rankChip(spec) {
+    if (!P.ranks) return null;
+    var own = (spec.series || []).filter(function (s) { return !s.iso3; })[0];
+    if (!own) return null;
+    var R = P.ranks[own.code];
+    if (!R) return null;
+    var chip = h("span", "rankchip");
+    chip.innerHTML = "<b>" + ord(R.rank) + " highest</b> of " + R.n + " · " + R.year;
+    chip.addEventListener("mousemove", function (e) {
+      var rows = [
+        [fmtVal(R.top.value), "highest — " + (R.top.name || R.top.iso3), ""],
+        [fmtVal(R.value), P.name, ""],
+        [fmtVal(R.median), "median of the " + R.n, ""],
+        [fmtVal(R.bottom.value), "lowest — " + (R.bottom.name || R.bottom.iso3), ""]
+      ];
+      showRankTip(e, "Ranked among the " + R.n + " countries with a " + R.year
+        + " value" + (R.missing ? " (" + R.missing + " excluded for having none)" : ""), rows);
+    });
+    chip.addEventListener("mouseleave", hideRankTip);
+    return chip;
+  }
+  function fmtVal(v) {
+    return Math.abs(v) >= 1000 ? Math.round(v).toLocaleString("en-US") : String(v);
+  }
+  var rtip = null;
+  function showRankTip(e, title, rows) {
+    if (!rtip) { rtip = h("div", "tooltip"); document.body.appendChild(rtip); }
+    rtip.innerHTML = "";
+    rtip.appendChild(h("div", "tt-title", title));
+    rows.forEach(function (r) {
+      var d = h("div", "tt-row");
+      d.appendChild(h("span", "tt-val", r[0]));
+      d.appendChild(h("span", "tt-name", r[1]));
+      rtip.appendChild(d);
+    });
+    rtip.style.display = "block";
+    var x = e.clientX + 14, y = e.clientY + 14;
+    if (x + rtip.offsetWidth > window.innerWidth - 8) x = e.clientX - rtip.offsetWidth - 14;
+    rtip.style.left = (x + window.scrollX) + "px";
+    rtip.style.top = (y + window.scrollY) + "px";
+  }
+  function hideRankTip() { if (rtip) rtip.style.display = "none"; }
+
   function chartCard(spec) {
     var card = h("div", "card");
-    card.appendChild(h("h3", null, spec.title));
+    var hd = h("div", "h3row");
+    hd.appendChild(h("h3", null, spec.title));
+    var chip = rankChip(spec);
+    if (chip) hd.appendChild(chip);
+    card.appendChild(hd);
     if (spec.sub) card.appendChild(h("p", "sub", spec.sub));
     renderChart(card, spec);
     return card;

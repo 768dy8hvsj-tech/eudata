@@ -305,6 +305,91 @@ def competence(iso3):
     }
 
 
+# the countries this study gives a page to -- the honest comparison set for a rank. The
+# indicator store also holds the EU aggregate, the US, China, the world and the Western
+# Balkan controls, and ranking a member state against "World" would be meaningless.
+def _ranked_set():
+    d = DATA / "narrative"
+    return sorted(p.stem for p in d.glob("*.json")) if d.exists() else []
+
+
+def _names():
+    p = DATA / "countries.csv"
+    out = {}
+    if p.exists():
+        for r in csv.DictReader(open(p, encoding="utf-8")):
+            out[r["iso3"]] = r["name"]
+    p = DATA / "nonmembers.csv"
+    if p.exists():
+        for r in csv.DictReader(open(p, encoding="utf-8")):
+            out.setdefault(r["iso3"], r.get("name") or r["iso3"])
+    return out
+
+
+def ranks(table, iso3, codes):
+    """Where this country currently stands against the others, indicator by indicator.
+
+    THE HARD PART IS THE YEAR, not the sort. Countries' series end in different years --
+    some indicators are complete to 2025, others trail by two or three years for half the
+    set. Ranking a country's 2025 value against another's 2022 value would produce a number
+    that looks authoritative and is wrong. So for each indicator this finds the most recent
+    year in which at least 80% of the countries that carry the indicator at all have a
+    value, ranks only within that year, and puts the year on the page. A country missing
+    from that year gets no rank rather than a guess.
+
+    Direction is deliberately not interpreted. Everything is ranked high-to-low and labelled
+    "Nth highest", because whether high unemployment or high inflation is good or bad is not
+    something this function should be deciding for the reader.
+    """
+    pool = _ranked_set()
+    nm = _names()
+    out = {}
+    for code in codes:
+        have = {i: {y: v for y, v in table.get((i, code), {}).items() if v is not None}
+                for i in pool}
+        have = {i: d for i, d in have.items() if d}
+        if len(have) < 5:
+            continue
+        years = sorted({y for d in have.values() for y in d}, reverse=True)
+        year = next((y for y in years
+                     if sum(1 for d in have.values() if y in d) >= 0.8 * len(have)), None)
+        if year is None:
+            continue
+        vals = sorted(((i, d[year]) for i, d in have.items() if year in d),
+                      key=lambda t: -t[1])
+        if iso3 not in dict(vals):
+            continue
+        pos = [i for i, _ in vals].index(iso3) + 1
+        n = len(vals)
+        out[code] = {
+            "rank": pos, "n": n, "year": year,
+            "value": round(dict(vals)[iso3], 2),
+            "top": {"iso3": vals[0][0], "name": nm.get(vals[0][0], vals[0][0]),
+                    "value": round(vals[0][1], 2)},
+            "bottom": {"iso3": vals[-1][0], "name": nm.get(vals[-1][0], vals[-1][0]),
+                       "value": round(vals[-1][1], 2)},
+            "median": round(vals[n // 2][1], 2),
+            # how many of the pool were dropped for lacking a value in the common year
+            "missing": len(have) - n,
+        }
+    return out
+
+
+def financial_codes(nar):
+    """Every series on the Financial tab that belongs to THIS country.
+
+    A series carrying an explicit iso3 is a comparison line -- the EU average on the income
+    chart -- and ranking the country by the EU's own value would be nonsense.
+    """
+    codes = []
+    for block in (nar.get("tabs", {}).get("financial") or []):
+        for ch in (block.get("charts") or []):
+            for sr in (ch.get("series") or []):
+                if not sr.get("iso3") and sr["code"] not in codes:
+                    codes.append(sr["code"])
+    return codes
+
+
 def joining_case(iso3, col, row, V, name="this country"):
     """What would actually change if this country joined.
 
@@ -887,6 +972,7 @@ def build(iso3):
         "siblings": _siblings,
         "acquis": _acq, "joining": _join, "offsets": offsets(iso3),
         "competence": competence(iso3),
+        "ranks": ranks(table, iso3, financial_codes(nar)),
         "disputes": disputes(iso3),
         "verdict": verdict(iso3),
         "context": context(iso3, table),

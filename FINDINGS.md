@@ -155,6 +155,35 @@ pass in both modes).
 
 The page is wired into the navigation on all 36 pages.
 
+## Current rank on the Financial charts, 6 August 2026
+
+Every chart on the Financial tab of every country page now carries a chip beside its title —
+"9th highest of 31 · 2025" — with a hover giving the highest, the median, the lowest and the
+country's own value. 178 chips across 8 indicators.
+
+**The hard part was the year, not the sort.** Country series end in different years: some
+indicators are complete to 2025, others trail by a year or more for part of the set. Ranking a
+2025 value against a 2022 one produces a number that looks authoritative and is wrong. So for
+each indicator the builder finds the most recent year in which at least 80% of the countries
+carrying that indicator have a value, ranks only within that year, and puts the year on the
+chip. A country with no value in that year gets **no chip at all** rather than a guess — the
+United Kingdom has no 2025 bond yield, so its bond chart has none, which is the behaviour to
+want.
+
+**Direction is deliberately not interpreted.** Everything is ranked high-to-low and labelled
+"Nth highest", including unemployment and inflation. Whether a high number is good is the
+reader's call, and the tooltip gives the distribution so the chip never has to imply it.
+
+**The comparison pool is the 31 countries with pages** — never the EU aggregate, the US, the
+world or the Western Balkan controls, all of which sit in the same indicator table. Ranking a
+member state against "World" would be meaningless, and `audit_ranks.py` fails if any aggregate
+appears as the top or bottom of a rank.
+
+`audit_ranks.py` recomputes every chip from `data/indicators.csv` with its own reading of the
+rule rather than importing the builder, and checks the rank, the common year, the endpoints and
+the value; that all 31 pages agree about each indicator; that ranks are unique across pages;
+and that no aggregate leaked into the pool. Confirmed to fail by corrupting a rank deliberately.
+
 ## Gaps that remain
 
 - **Four documents live in the project only** and have no copy in this folder, marked above.
