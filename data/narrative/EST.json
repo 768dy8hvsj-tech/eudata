@@ -201,16 +201,16 @@
       }
      },
      {
-      "title": "Net annual earnings, €",
-      "sub": "Single person, no children, on 100% of the average wage. Eurostat flags 2024 as a break in series.",
+      "title": "Net annual earnings",
+      "sub": "Single person, no children, on 100% of the average wage. Eurostat flags 2024 as a break in series, when compilation passed from the OECD to the Joint Research Centre. <strong>Nominal euros, not adjusted for price levels</strong> — so a cross-country comparison here mixes what people earn with what things cost.",
       "series": [
        {
         "code": "EUROSTAT.EARN_NT_NET",
-        "name": "Net annual earnings"
+        "name": "Net earnings, €"
        }
       ],
       "opts": {
-       "unit": " €",
+       "unit": "",
        "dp": 0
       }
      }

@@ -184,11 +184,58 @@ rule rather than importing the builder, and checks the rank, the common year, th
 the value; that all 31 pages agree about each indicator; that ranks are unique across pages;
 and that no aggregate leaked into the pool. Confirmed to fail by corrupting a rank deliberately.
 
+## Purchasing power: half measured, half blocked — 6 August 2026
+
+The study measures purchasing power **of income** thoroughly: GNI and GDP per capita at PPP
+across 45 entities from 1990, plus the two derived series expressing them against the EU
+average. It measures **price levels not at all**. That is half the question missing, because
+"is purchasing power greater there" needs both what people earn and what things cost.
+
+**The four series that close it were identified exactly and could not be collected.**
+`ec.europa.eu:443` now answers 403 at the egress proxy for this session — a host-level policy
+denial — and WebFetch refuses URLs that have not appeared in a user message. Both are policy,
+not fault, so nothing was routed around and no value was invented.
+
+What was established, so the collection is one step rather than a re-investigation:
+
+| Series | Dataset and key |
+|---|---|
+| Consumption per head, PPS, EU=100 | `prc_ppp_ind_1` · `A.VI_PPS_EU27_2020_HAB.A01` |
+| GDP per head, PPS, EU=100 | `prc_ppp_ind_1` · `A.VI_PPS_EU27_2020_HAB.GDP` |
+| Price level, all consumption | `prc_ppp_ind_1` · `A.PLI_EU27_2020.A01` |
+| Price level, food | `prc_ppp_ind_1` · `A.PLI_EU27_2020.A0101` |
+| Net earnings in PPS | `earn_nt_net` · `A.PPS.NET.P1_NCH_AW100` |
+
+Two corrections came out of that work. The earnings case code is **`P1_NCH_AW100`, not
+`A1_0`** — the latter does not exist in the Eurostat vocabulary. And `earn_nt_net` has a fifth
+dimension, `estruct`, which must be `NET`; omitting it returns gross, tax and social-security
+rows mixed together. Dimension order is `freq.currency.estruct.ecase.geo` for earnings and
+`freq.na_item.ppp_cat.geo` for the PPP dataset.
+
+Vintage, recorded now rather than discovered later: **2025 is provisional and 2024 is not final
+either** — 2024 reaches "revised preliminary" in December 2026 and final only in December 2027,
+so the earliest fully final year is 2023. `prc_ppp_ind_1` also carries a COICOP 2018
+classification break: the new classification was applied only from 2022, so a 2010–2025 series
+straddles a break at 2021/22, worst on the food price level.
+
+**What was built anyway.** `load_pps.py` is the loader, tested against both the wide TSV
+Eurostat returns and a pipe-delimited long format, appending to the store with source and
+retrieval date on every row. The two charts — consumption per head against GDP per head, and
+the price level — are already written into `gen_narrative.py`, gated on the data being present,
+so they appear on all 31 pages the moment the series land, with rank chips automatically.
+
+**One fix that did not need the network.** The net earnings chart was inviting a false
+comparison: it is in **nominal euros**, so ranking Luxembourg's €54,260 against Hungary's
+€12,967 tangles income and price levels together. The caption now says so in bold, and when the
+PPS series arrives the chart draws both lines and the caption changes to explain that where
+they diverge, the gap is prices.
+
 ## Gaps that remain
 
 - **Four documents live in the project only** and have no copy in this folder, marked above.
 - **Population decomposition** is in the South tab and the docs but not on the convergence
   charts, so a casual reader still sees per-head gains without seeing how much of Latvia's is
   population decline.
+- **Eurostat price levels and AIC blocked on egress** — see above; loader and charts are ready.
 - WGI `RQ.EST`, `GE.EST`, `PV.EST` never collected; OECD wages blocked on transport; CJEU
   references, transposition deficit and Eurobarometer never reached.

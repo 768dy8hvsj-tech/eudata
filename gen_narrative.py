@@ -150,11 +150,54 @@ def build(c):
                               [{"code": "EUROSTAT.IRT_LT_MCBY", "name": "10-year yield"}],
                               {"unit": "%", "dp": 2}))
     if "EUROSTAT.EARN_NT_NET" in hv:
-        fin_row3.append(chart("Net annual earnings, €",
-                              "Single person, no children, on 100% of the average wage. "
-                              "Eurostat flags 2024 as a break in series.",
-                              [{"code": "EUROSTAT.EARN_NT_NET", "name": "Net annual earnings"}],
-                              {"unit": " €", "dp": 0}))
+        # NOT price-adjusted, and the rank chip beside it ranks nominal euros. Said plainly
+        # here because the comparison a reader will make -- Luxembourg against Hungary --
+        # tangles income and price levels together, and the chart cannot separate them.
+        earn_series = [{"code": "EUROSTAT.EARN_NT_NET", "name": "Net earnings, €"}]
+        earn_sub = ("Single person, no children, on 100% of the average wage. Eurostat flags "
+                    "2024 as a break in series, when compilation passed from the OECD to the "
+                    "Joint Research Centre. <strong>Nominal euros, not adjusted for price "
+                    "levels</strong> — so a cross-country comparison here mixes what people "
+                    "earn with what things cost.")
+        if "EUROSTAT.EARN_NT_PPS" in hv:
+            earn_series.append({"code": "EUROSTAT.EARN_NT_PPS", "name": "Same, in PPS",
+                                "colorVar": "--series-2"})
+            earn_sub = ("Single person, no children, on 100% of the average wage, on two "
+                        "measures. The euro line is what lands in the bank; the PPS line is "
+                        "what it buys once national price levels are taken out. Where the two "
+                        "diverge, the gap is prices. Eurostat flags 2024 as a break in both.")
+        fin_row3.append(chart("Net annual earnings", earn_sub, earn_series,
+                              {"unit": "", "dp": 0}))
+
+    # ---- purchasing power proper: what households consume, and what it costs ----
+    # Income at PPP answers only half of "is purchasing power greater there". These two
+    # answer the other half. Both appear only once the Eurostat series are in the store --
+    # see load_pps.py for why they may not be yet.
+    pp_row = []
+    if "EUROSTAT.AIC_PPS_IDX" in hv:
+        pp = [{"code": "EUROSTAT.AIC_PPS_IDX", "name": "Consumption per head (AIC)"}]
+        if "EUROSTAT.GDP_PPS_IDX" in hv:
+            pp.append({"code": "EUROSTAT.GDP_PPS_IDX", "name": "GDP per head",
+                       "colorVar": "--series-2"})
+        pp_row.append(chart("What households actually consume, EU average = 100",
+                            "Actual individual consumption per head in purchasing power "
+                            "standards — the measure closest to what a household can buy, and "
+                            "the one Eurostat itself prefers for this question. Shown against "
+                            "GDP per head on the same index: where the two diverge, output is "
+                            "being produced here that residents do not consume.",
+                            pp, {"unit": "", "dp": 0, "endLabelBelow": 2}))
+    if "EUROSTAT.PLI_AIC" in hv:
+        pl = [{"code": "EUROSTAT.PLI_AIC", "name": "All consumption"}]
+        if "EUROSTAT.PLI_FOOD" in hv:
+            pl.append({"code": "EUROSTAT.PLI_FOOD", "name": "Food and soft drinks",
+                       "colorVar": "--series-2"})
+        pp_row.append(chart("Price level, EU average = 100",
+                            "What the same basket costs here against the EU average. This is "
+                            "the half of purchasing power that income figures cannot show: two "
+                            "countries with identical earnings differ in what those earnings "
+                            "buy by exactly this much. Note the 2021/22 classification break — "
+                            "COICOP 2018 was applied only from 2022.",
+                            pl, {"unit": "", "dp": 0, "endLabelBelow": 2}))
 
     financial = [{"type": "prose", "title": "Financial", "paras": [
         "Charts below are the collected World Bank series for this country across the whole "
@@ -166,6 +209,8 @@ def build(c):
         financial.append({"type": "chartRow", "charts": fin_row2})
     if fin_row3:
         financial.append({"type": "chartRow", "charts": fin_row3})
+    if pp_row:
+        financial.append({"type": "chartRow", "charts": pp_row})
 
     commercial = [{"type": "prose", "title": "Commercial", "paras": [
         "Trade openness, investment and tourism. Written analysis pending."]}]
