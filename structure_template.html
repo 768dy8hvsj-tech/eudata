@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What each economy is made of</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:#fcfcfb; --page:#f9f9f7;
+    --text-primary:#0b0b0b; --text-secondary:#52514e; --text-muted:#898781;
+    --grid:#e1e0d9; --baseline:#c3c2b7; --border:rgba(11,11,11,0.10);
+    --series-1:#2a78d6; --deemph:#c3c2b7; --tooltip-bg:#ffffff; --wash:rgba(42,120,214,0.06);
+    --c1:#2a78d6; --c2:#eb6834; --c3:#1baf7a; --c4:#eda100; --c5:#e87ba4; --c6:#008300; --c7:#4a3aa7; --c8:#e34948;
+    --up:#006300; --down:#d03b3b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:#1a1a19; --page:#0d0d0d;
+      --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#898781;
+      --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+      --series-1:#3987e5; --deemph:#52514e; --tooltip-bg:#242423; --wash:rgba(57,135,229,0.10);
+      --c1:#3987e5; --c2:#d95926; --c3:#199e70; --c4:#c98500; --c5:#d55181; --c6:#008300; --c7:#9085e9; --c8:#e66767;
+      --up:#0ca30c; --down:#e66767;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:#1a1a19; --page:#0d0d0d;
+    --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+    --series-1:#3987e5; --deemph:#52514e; --tooltip-bg:#242423; --wash:rgba(57,135,229,0.10);
+    --c1:#3987e5; --c2:#d95926; --c3:#199e70; --c4:#c98500; --c5:#d55181; --c6:#008300; --c7:#9085e9; --c8:#e66767;
+    --up:#0ca30c; --down:#e66767;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+  .viz-root{background:var(--page);color:var(--text-primary);min-height:100vh;padding:24px 16px 48px}
+  .wrap{max-width:1060px;margin:0 auto}
+  header.top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+  h1{font-size:26px;font-weight:650;letter-spacing:-0.02em}
+  .subtitle{color:var(--text-secondary);font-size:14px;margin-top:5px;max-width:720px;line-height:1.55}
+  .theme-btn{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);
+    border-radius:8px;padding:6px 12px;font-size:12.5px;cursor:pointer;white-space:nowrap;font-family:inherit}
+  .sitenav{display:flex;gap:14px;margin-bottom:16px;font-size:12.5px;flex-wrap:wrap}
+  .sitenav a{color:var(--text-secondary);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px}
+  .sitenav a:hover{color:var(--text-primary);border-bottom-color:var(--border)}
+  .sitenav a.here{color:var(--text-primary);font-weight:600;border-bottom-color:var(--series-1)}
+  .controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:18px 0 4px}
+  .controls label{font-size:12.5px;color:var(--text-secondary)}
+  select{font-family:inherit;font-size:13.5px;padding:6px 10px;border-radius:8px;border:1px solid var(--border);
+    background:var(--surface-1);color:var(--text-primary);max-width:100%}
+  .controls a{font-size:12.5px;color:var(--text-secondary)}
+  nav.tabs{display:flex;gap:4px;margin:14px 0 16px;flex-wrap:wrap;border-bottom:1px solid var(--border)}
+  nav.tabs button{background:none;border:none;border-bottom:2px solid transparent;color:var(--text-secondary);
+    font-size:14px;font-weight:500;padding:8px 14px 10px;cursor:pointer;font-family:inherit}
+  nav.tabs button:hover{color:var(--text-primary)}
+  nav.tabs button[aria-selected="true"]{color:var(--text-primary);border-bottom-color:var(--series-1);font-weight:600}
+  section.panel{display:none}section.panel.active{display:block}
+  .card{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;padding:18px 18px 14px;margin-bottom:14px}
+  .card h3{font-size:15px;font-weight:600}
+  .card .sub{font-size:12.5px;color:var(--text-secondary);margin-top:4px;margin-bottom:12px;line-height:1.5}
+  .card p{font-size:13.5px;color:var(--text-secondary);line-height:1.62;margin-top:9px}
+  .card p strong{color:var(--text-primary);font-weight:600}
+  .card ul{margin:8px 0 0 18px}.card li{font-size:13.5px;color:var(--text-secondary);line-height:1.6;margin-top:4px}
+  .chart-box{position:relative}.chart-box svg{display:block;width:100%;height:auto;overflow:visible}
+  .tooltip{position:absolute;pointer-events:none;display:none;z-index:5;background:var(--tooltip-bg);
+    border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.12);min-width:180px}
+  .tooltip .tt-title{color:var(--text-muted);font-size:11px;margin-bottom:3px}
+  .tooltip .tt-row{display:flex;align-items:center;gap:6px;margin-top:2px}
+  .tooltip .tt-key{width:10px;height:10px;border-radius:2px;flex:none}
+  .tooltip .tt-name{color:var(--text-secondary);flex:1}
+  .tooltip .tt-val{font-weight:600;color:var(--text-primary);font-variant-numeric:tabular-nums}
+  .legend{display:flex;gap:6px 14px;margin:2px 0 10px;flex-wrap:wrap}
+  .legend .key{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text-secondary)}
+  .legend .key i{width:11px;height:11px;border-radius:2px;display:block;flex:none}
+  .legend .key i.ln{height:2px;border-radius:1px;width:14px}
+  .legend .key i.dash{height:0;border-top:2px dashed var(--text-muted);width:14px;border-radius:0}
+  .legend .key i.hollow{width:10px;height:10px;border-radius:50%;border:2px solid var(--text-muted);background:transparent}
+  .legend .key i.dot{width:10px;height:10px;border-radius:50%}
+  table.t{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:4px}
+  table.t th,table.t td{padding:5px 8px;border-bottom:1px solid var(--grid);color:var(--text-secondary)}
+  table.t th{color:var(--text-muted);font-weight:500;text-align:left}
+  table.t td.num,table.t th.num{text-align:right;font-variant-numeric:tabular-nums}
+  table.t td.nm{color:var(--text-primary);font-weight:500}
+  table.t td .sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:7px;vertical-align:-1px}
+  table.t tr.tot td{border-top:1px solid var(--baseline);border-bottom:none;color:var(--text-primary);font-weight:600}
+  .tscroll{overflow-x:auto}
+  .up{color:var(--up)!important}.down{color:var(--down)!important}
+  .note{font-size:12px;color:var(--text-muted);line-height:1.55;margin-top:12px}
+  .stamp{font-size:11.5px;color:var(--text-muted);margin-top:14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+  .mini{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:10px 10px 6px}
+  .mini h4{font-size:12.5px;font-weight:600;line-height:1.3;min-height:32px}
+  .mini .v{font-size:12px;color:var(--text-secondary);margin:2px 0 6px;font-variant-numeric:tabular-nums}
+  .mini .na{font-size:12px;color:var(--text-muted);padding:34px 0;text-align:center}
+  svg text{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+  .ax{fill:var(--text-muted);font-size:11px}
+  .dl{font-size:11.5px;font-weight:500;fill:var(--text-secondary)}
+  @media (max-width:560px){h1{font-size:22px}.grid{grid-template-columns:1fr 1fr}.mini h4{font-size:11.5px}}
+</style>
+</head>
+<body>
+<div class="viz-root"><div class="wrap">
+  <nav class="sitenav"><a href="start-here.html">← Overview</a><a href="eu.html">The Union itself</a><a href="index.html">Country comparison</a><a href="analysis.html">The argument</a><a href="flows.html">Budget flows</a><a class="here">Economic structure</a><a href="start-here.html#non-members">Non-members</a></nav>
+  <header class="top">
+    <div>
+      <h1>What each economy is made of</h1>
+      <p class="subtitle">Each industry's share of the economy, year by year, from the earliest year Eurostat publishes (1992 at most) to the latest. Measured as a share of <em>gross value added</em> — the official way to split GDP by industry. Nothing here is estimated: where a figure is not published, the chart shows a gap.</p>
+    </div>
+    <button class="theme-btn" id="themeBtn" type="button">Theme: auto</button>
+  </header>
+  <div class="controls">
+    <label for="pick">Country</label>
+    <select id="pick"></select>
+    <a id="cpage" href="#">Country page →</a>
+  </div>
+  <nav class="tabs" role="tablist" id="tabs"></nav>
+  <div id="panels"></div>
+  <p class="stamp" id="stamp"></p>
+</div></div>
+<script id="payload" type="application/json">__PAYLOAD__</script>
+<script>
+(function(){
+"use strict";
+var P = JSON.parse(document.getElementById("payload").textContent);
+var NS = "http://www.w3.org/2000/svg";
+var C = {}; P.countries.forEach(function(c){ C[c.iso3] = c; });
+var EU = C.EUU;
+var FAMC = ["--c1","--c2","--c3","--c4","--c5","--c6","--c7","--c8"];
+var FOODC = {agri:"--c1", fish:"--c2", forest:"--c3", foodmfg:"--c4"};
+var DET = {}; P.detailKeys.forEach(function(d){ DET[d[0]] = d[1]; });
+var MEMBERS = ["AUT","BEL","BGR","HRV","CYP","CZE","DNK","EST","FIN","FRA","DEU","GRC","HUN","IRL","ITA","LVA","LTU","LUX","MLT","NLD","POL","PRT","ROU","SVK","SVN","ESP","SWE"];
+var cur = "ISL";
+
+function el(tag, attrs, parent){ var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function h(tag, cls, html, parent){ var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; if (parent) parent.appendChild(e); return e; }
+function col(v){ return "var(" + v + ")"; }
+function fmt(v, d){ return v == null ? "—" : v.toFixed(d == null ? 1 : d); }
+function pct(v){ return v == null ? "—" : (v < 0.05 && v > 0 ? "<0.1" : v.toFixed(1)) + "%"; }
+function ticks(max, n){ var raw = max / n, p = Math.pow(10, Math.floor(Math.log10(raw))), m = raw / p;
+  var st = (m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : 10) * p; var out = [0]; while (out[out.length-1] < max - 1e-9) out.push(+(out[out.length-1] + st).toFixed(6)); return out; }
+function idx(c, y){ return c.years.indexOf(y); }
+function flagNote(c){
+  var f = c.flags || {}, prov = [], other = [];
+  Object.keys(f).forEach(function(y){ if (f[y] === "p") prov.push(y); else other.push(y + " (" + ({b:"break in series",e:"estimated",d:"definition differs"}[f[y]] || f[y]) + ")"); });
+  var s = [];
+  if (prov.length) s.push("Provisional: " + prov.join(", ") + ".");
+  if (other.length) s.push("Flagged by Eurostat: " + other.join(", ") + ".");
+  return s.join(" ");
+}
+
+/* ---------- tooltip ---------- */
+function tip(box){ var t = h("div", "tooltip", null, box); return {
+  show: function(html, x, y){ t.innerHTML = html; t.style.display = "block";
+    var bw = box.clientWidth, tw = t.offsetWidth; var left = x + 14; if (left + tw > bw) left = x - tw - 14; if (left < 0) left = 0;
+    t.style.left = left + "px"; t.style.top = Math.max(0, y - 10) + "px"; },
+  hide: function(){ t.style.display = "none"; } }; }
+
+/* ---------- composition: 100% stacked area ---------- */
+function drawStack(box, c){
+  box.innerHTML = "";
+  var yrs = c.complete; if (!yrs.length) { h("p","note","No year with every sector published.",box); return; }
+  var W = Math.max(320, box.clientWidth), H = W < 560 ? 300 : 380, m = {l:36, r:12, t:8, b:26};
+  var svg = el("svg", {viewBox:"0 0 "+W+" "+H, role:"img", "aria-label":"Stacked area of sector shares for "+c.name}, box);
+  var x0 = yrs[0], x1 = yrs[yrs.length-1], span = Math.max(1, x1 - x0);
+  var X = function(y){ return m.l + (y - x0) / span * (W - m.l - m.r); };
+  var Y = function(v){ return m.t + (1 - v/100) * (H - m.t - m.b); };
+  [0,25,50,75,100].forEach(function(t){ el("line",{x1:m.l,x2:W-m.r,y1:Y(t),y2:Y(t),stroke:col("--grid"),"stroke-width":1},svg);
+    var tx = el("text",{x:m.l-6,y:Y(t)+4,"text-anchor":"end",class:"ax"},svg); tx.textContent = t + "%"; });
+  var step = span > 20 ? 5 : span > 10 ? 2 : 1;
+  yrs.forEach(function(y){ if ((y % step) === 0 || y === x0) { var tx = el("text",{x:X(y),y:H-8,"text-anchor":"middle",class:"ax"},svg); tx.textContent = y; } });
+  var base = yrs.map(function(){ return 0; });
+  P.familyKeys.forEach(function(f, k){
+    var vals = yrs.map(function(y){ return c.family[f[0]][idx(c,y)] || 0; });
+    var top = vals.map(function(v,i){ return base[i] + v; });
+    var d = "M" + yrs.map(function(y,i){ return X(y)+","+Y(top[i]); }).join("L") + "L" +
+      yrs.slice().reverse().map(function(y,i){ return X(y)+","+Y(base[yrs.length-1-i]); }).join("L") + "Z";
+    el("path",{d:d, fill:col(FAMC[k]), stroke:col("--surface-1"), "stroke-width":1.5, "stroke-linejoin":"round"}, svg);
+    base = top;
+  });
+  el("line",{x1:m.l,x2:W-m.r,y1:Y(0),y2:Y(0),stroke:col("--baseline"),"stroke-width":1},svg);
+  var cross = el("line",{y1:m.t,y2:H-m.b,stroke:col("--text-primary"),"stroke-width":1,opacity:0},svg);
+  var T = tip(box);
+  var hit = el("rect",{x:m.l,y:m.t,width:W-m.l-m.r,height:H-m.t-m.b,fill:"transparent"},svg);
+  function move(ev){
+    var r = svg.getBoundingClientRect(), px = (ev.clientX - r.left) * W / r.width;
+    var y = Math.round(x0 + (px - m.l) / (W - m.l - m.r) * span); y = Math.max(x0, Math.min(x1, y));
+    var i = idx(c, y); if (yrs.indexOf(y) < 0) return;
+    cross.setAttribute("x1", X(y)); cross.setAttribute("x2", X(y)); cross.setAttribute("opacity", .35);
+    var rows = P.familyKeys.slice().reverse().map(function(f){ var k = P.familyKeys.indexOf(f);
+      var cb = c.notes.indexOf("primary_combined")>=0; if (cb && f[0]==="fishing") return "";
+      return '<div class="tt-row"><span class="tt-key" style="background:'+col(FAMC[k])+'"></span><span class="tt-name">'+(cb&&f[0]==="agri_forest"?"Agriculture, forestry & fishing":f[1])+'</span><span class="tt-val">'+pct(c.family[f[0]][i])+'</span></div>'; }).join("");
+    T.show('<div class="tt-title">'+c.name+' · '+y+(c.flags[y]==="p"?" (provisional)":"")+'</div>'+rows, X(y) * r.width / W, (ev.clientY - r.top));
+  }
+  hit.addEventListener("mousemove", move); hit.addEventListener("touchstart", function(e){ move(e.touches[0]); }, {passive:true});
+  hit.addEventListener("mouseleave", function(){ T.hide(); cross.setAttribute("opacity",0); });
+}
+
+/* ---------- line chart (food) ---------- */
+function drawLines(box, c, series, opts){
+  box.innerHTML = "";
+  var yrs = c.years, W = Math.max(320, box.clientWidth), H = opts.h || (W < 560 ? 260 : 320), m = {l:40, r:opts.r || 200, t:10, b:26};
+  if (W < 560) m.r = 12;
+  var mx = 0; series.forEach(function(s){ s.vals.forEach(function(v){ if (v != null && v > mx) mx = v; }); });
+  if (mx === 0) mx = 1; var tk = ticks(mx * 1.08, 4), top = tk[tk.length-1];
+  var svg = el("svg", {viewBox:"0 0 "+W+" "+H, role:"img", "aria-label":opts.label}, box);
+  var x0 = yrs[0], x1 = yrs[yrs.length-1], span = Math.max(1, x1-x0);
+  var X = function(y){ return m.l + (y-x0)/span*(W-m.l-m.r); }, Y = function(v){ return m.t + (1 - v/top)*(H-m.t-m.b); };
+  tk.forEach(function(t){ el("line",{x1:m.l,x2:W-m.r,y1:Y(t),y2:Y(t),stroke:col(t===0?"--baseline":"--grid"),"stroke-width":1},svg);
+    var tx = el("text",{x:m.l-6,y:Y(t)+4,"text-anchor":"end",class:"ax"},svg); tx.textContent = (+t.toFixed(2)) + "%"; });
+  var step = span > 20 ? 5 : span > 10 ? 2 : 1;
+  yrs.forEach(function(y){ if (y % step === 0 || y === x0) { var tx = el("text",{x:X(y),y:H-8,"text-anchor":"middle",class:"ax"},svg); tx.textContent = y; } });
+  var labels = [];
+  series.forEach(function(s){
+    var d = "", pen = false, last = null;
+    s.vals.forEach(function(v,i){ if (v == null) { pen = false; return; } d += (pen ? "L" : "M") + X(yrs[i]) + "," + Y(v); pen = true; last = i; });
+    if (d) el("path",{d:d,fill:"none",stroke:col(s.color),"stroke-width":2,"stroke-linejoin":"round","stroke-linecap":"round","stroke-dasharray":s.dash||""},svg);
+    if (last != null && W >= 560) labels.push({y:Y(s.vals[last]), x:X(yrs[last]), text:s.name + " " + pct(s.vals[last])});
+  });
+  labels.sort(function(a,b){ return a.y-b.y; }); for (var i = 1; i < labels.length; i++) if (labels[i].y - labels[i-1].y < 14) labels[i].y = labels[i-1].y + 14;
+  labels.forEach(function(l){ var t = el("text",{x:l.x+8,y:l.y+4,class:"dl"},svg); t.textContent = l.text; });
+  var cross = el("line",{y1:m.t,y2:H-m.b,stroke:col("--text-primary"),"stroke-width":1,opacity:0},svg);
+  var dots = series.map(function(s){ return el("circle",{r:4,fill:col(s.color),stroke:col("--surface-1"),"stroke-width":2,opacity:0},svg); });
+  var T = tip(box), hit = el("rect",{x:m.l,y:m.t,width:W-m.l-m.r,height:H-m.t-m.b,fill:"transparent"},svg);
+  function move(ev){
+    var r = svg.getBoundingClientRect(), px = (ev.clientX-r.left)*W/r.width;
+    var y = Math.max(x0, Math.min(x1, Math.round(x0 + (px-m.l)/(W-m.l-m.r)*span))), i = yrs.indexOf(y);
+    cross.setAttribute("x1",X(y)); cross.setAttribute("x2",X(y)); cross.setAttribute("opacity",.35);
+    series.forEach(function(s,k){ var v = s.vals[i]; if (v == null) dots[k].setAttribute("opacity",0); else { dots[k].setAttribute("cx",X(y)); dots[k].setAttribute("cy",Y(v)); dots[k].setAttribute("opacity",1); } });
+    var rows = series.map(function(s){ return '<div class="tt-row"><span class="tt-key" style="background:'+col(s.color)+'"></span><span class="tt-name">'+s.name+'</span><span class="tt-val">'+(s.vals[i]==null?"not published":pct(s.vals[i]))+'</span></div>'; }).join("");
+    T.show('<div class="tt-title">'+c.name+' · '+y+(c.flags[y]==="p"?" (provisional)":"")+'</div>'+rows, X(y)*r.width/W, ev.clientY-r.top);
+  }
+  hit.addEventListener("mousemove", move); hit.addEventListener("touchstart", function(e){ move(e.touches[0]); }, {passive:true});
+  hit.addEventListener("mouseleave", function(){ T.hide(); cross.setAttribute("opacity",0); dots.forEach(function(d){ d.setAttribute("opacity",0); }); });
+}
+
+/* ---------- small multiple ---------- */
+function drawMini(box, c, key){
+  box.innerHTML = "";
+  var vals = c.detail[key], eu = c.iso3 === "EUU" ? null : EU.years.map(function(){return null;});
+  var W = 220, H = 96, m = {l:30, r:6, t:8, b:16}, yrs = c.years;
+  var ev = c.iso3 === "EUU" ? null : c.years.map(function(y){ var j = EU.years.indexOf(y); return j < 0 ? null : EU.detail[key][j]; });
+  var mx = 0; vals.concat(ev || []).forEach(function(v){ if (v != null && v > mx) mx = v; });
+  if (vals.every(function(v){ return v == null; })) { h("div","na","Not published separately",box); return; }
+  if (mx === 0) mx = 0.1; var tk = ticks(mx*1.05, 2), top = tk[tk.length-1];
+  var svg = el("svg",{viewBox:"0 0 "+W+" "+H, role:"img","aria-label":DET[key]+" share, "+c.name},box);
+  var x0 = yrs[0], x1 = yrs[yrs.length-1], span = Math.max(1,x1-x0);
+  var X = function(y){ return m.l + (y-x0)/span*(W-m.l-m.r); }, Y = function(v){ return m.t + (1-v/top)*(H-m.t-m.b); };
+  tk.forEach(function(t){ el("line",{x1:m.l,x2:W-m.r,y1:Y(t),y2:Y(t),stroke:col(t===0?"--baseline":"--grid"),"stroke-width":1},svg);
+    var tx = el("text",{x:m.l-4,y:Y(t)+3.5,"text-anchor":"end",class:"ax","font-size":9.5},svg); tx.textContent = +t.toFixed(2); });
+  [x0, x1].forEach(function(y,i){ var tx = el("text",{x:X(y),y:H-3,"text-anchor":i?"end":"start",class:"ax","font-size":9.5},svg); tx.textContent = y; });
+  function path(arr, color, dash, w){ var d = "", pen = false; arr.forEach(function(v,i){ if (v == null){pen=false;return;} d += (pen?"L":"M")+X(yrs[i])+","+Y(v); pen = true; });
+    if (d) el("path",{d:d,fill:"none",stroke:col(color),"stroke-width":w,"stroke-dasharray":dash||"","stroke-linejoin":"round","stroke-linecap":"round"},svg); }
+  if (ev) path(ev, "--text-muted", "3 3", 1.5);
+  path(vals, "--series-1", "", 2);
+  var T = tip(box.parentNode), dot = el("circle",{r:3.5,fill:col("--series-1"),stroke:col("--surface-1"),"stroke-width":1.5,opacity:0},svg);
+  var hit = el("rect",{x:m.l,y:0,width:W-m.l-m.r,height:H,fill:"transparent"},svg);
+  function move(e){ var r = svg.getBoundingClientRect(), px = (e.clientX-r.left)*W/r.width;
+    var y = Math.max(x0, Math.min(x1, Math.round(x0+(px-m.l)/(W-m.l-m.r)*span))), i = yrs.indexOf(y), v = vals[i];
+    if (v != null){ dot.setAttribute("cx",X(y)); dot.setAttribute("cy",Y(v)); dot.setAttribute("opacity",1); } else dot.setAttribute("opacity",0);
+    var pr = box.parentNode.getBoundingClientRect();
+    T.show('<div class="tt-title">'+y+'</div><div class="tt-row"><span class="tt-name">'+c.name+'</span><span class="tt-val">'+(v==null?"—":pct(v))+'</span></div>'+
+      (ev?'<div class="tt-row"><span class="tt-name">EU-27</span><span class="tt-val">'+(ev[i]==null?"—":pct(ev[i]))+'</span></div>':""), e.clientX-pr.left, e.clientY-pr.top); }
+  hit.addEventListener("mousemove", move); hit.addEventListener("mouseleave", function(){ T.hide(); dot.setAttribute("opacity",0); });
+}
+
+/* ---------- compare: dumbbell across countries ---------- */
+function drawCompare(box, key, isFam){
+  box.innerHTML = "";
+  var list = MEMBERS.concat(["NOR","ISL","CHE","GBR","EUU"]).map(function(iso){ var c = C[iso];
+    var arr = isFam ? c.family[key] : c.detail[key], yrsOk = isFam ? c.complete : c.years.filter(function(y){ return arr[idx(c,y)] != null; });
+    if (!yrsOk.length) return {c:c, na:true};
+    var a = yrsOk[0], b = yrsOk[yrsOk.length-1]; return {c:c, y0:a, y1:b, v0:arr[idx(c,a)], v1:arr[idx(c,b)]}; });
+  var ok = list.filter(function(r){ return !r.na; }).sort(function(p,q){ return q.v1 - p.v1; }), na = list.filter(function(r){ return r.na; });
+  var W = Math.max(320, box.clientWidth), rowH = 19, m = {l:120, r:56, t:22, b:8}, H = m.t + ok.length*rowH + m.b;
+  var mx = 0; ok.forEach(function(r){ mx = Math.max(mx, r.v0, r.v1); }); var tk = ticks(mx*1.05, W<560?3:5), top = tk[tk.length-1];
+  var svg = el("svg",{viewBox:"0 0 "+W+" "+H, role:"img","aria-label":"Earliest versus latest share by country"},box);
+  var X = function(v){ return m.l + v/top*(W-m.l-m.r); };
+  tk.forEach(function(t){ el("line",{x1:X(t),x2:X(t),y1:m.t-4,y2:H-m.b,stroke:col(t===0?"--baseline":"--grid"),"stroke-width":1},svg);
+    var tx = el("text",{x:X(t),y:m.t-8,"text-anchor":"middle",class:"ax"},svg); tx.textContent = (+t.toFixed(2))+"%"; });
+  var T = tip(box);
+  ok.forEach(function(r,i){ var y = m.t + i*rowH + rowH/2, me = r.c.iso3 === cur, eu = r.c.iso3 === "EUU";
+    if (me) el("rect",{x:0,y:y-rowH/2,width:W,height:rowH,fill:col("--wash")},svg);
+    var nm = el("text",{x:m.l-8,y:y+4,"text-anchor":"end",class:"ax",fill:col(me?"--text-primary":"--text-secondary"),"font-weight":me||eu?600:400,"font-size":11.5},svg);
+    nm.textContent = r.c.iso3 === "EUU" ? "EU-27" : r.c.name;
+    el("line",{x1:X(r.v0),x2:X(r.v1),y1:y,y2:y,stroke:col("--baseline"),"stroke-width":2},svg);
+    el("circle",{cx:X(r.v0),cy:y,r:4,fill:col("--surface-1"),stroke:col("--text-muted"),"stroke-width":2},svg);
+    el("circle",{cx:X(r.v1),cy:y,r:4.5,fill:col("--series-1"),stroke:col("--surface-1"),"stroke-width":1.5},svg);
+    var vl = el("text",{x:W-m.r+6,y:y+4,class:"ax","font-size":11},svg); vl.textContent = pct(r.v1);
+    var hr = el("rect",{x:0,y:y-rowH/2,width:W,height:rowH,fill:"transparent",style:"cursor:pointer"},svg);
+    hr.addEventListener("mousemove", function(e){ var b = svg.getBoundingClientRect(); var d = r.v1 - r.v0;
+      T.show('<div class="tt-title">'+(eu?"EU-27":r.c.name)+'</div><div class="tt-row"><span class="tt-name">'+r.y0+'</span><span class="tt-val">'+pct(r.v0)+'</span></div><div class="tt-row"><span class="tt-name">'+r.y1+'</span><span class="tt-val">'+pct(r.v1)+'</span></div><div class="tt-row"><span class="tt-name">Change</span><span class="tt-val">'+(d>=0?"+":"")+d.toFixed(1)+' pts</span></div>', e.clientX-b.left, e.clientY-b.top); });
+    hr.addEventListener("mouseleave", function(){ T.hide(); });
+    hr.addEventListener("click", function(){ if (!eu) select(r.c.iso3); });
+  });
+  if (na.length) h("p","note","Not published separately for: " + na.map(function(r){ return r.c.name; }).join(", ") + ".", box);
+}
+
+/* ---------- panels ---------- */
+var TABS = [["comp","Composition"],["sectors","All 18 sectors"],["food","Food production"],["compare","Compare countries"],["method","Method & sources"]];
+var tabs = document.getElementById("tabs"), panels = document.getElementById("panels"), PN = {};
+TABS.forEach(function(t, i){ var b = h("button", null, t[1], tabs); b.setAttribute("role","tab"); b.setAttribute("aria-selected", i===0);
+  b.onclick = function(){ [].forEach.call(tabs.children, function(x){ x.setAttribute("aria-selected", x===b); }); Object.keys(PN).forEach(function(k){ PN[k].classList.toggle("active", k===t[0]); }); render(); };
+  PN[t[0]] = h("section", "panel" + (i===0?" active":""), null, panels); });
+var cmpKey = "fish";
+
+function render(){
+  var c = C[cur]; renderComp(c); renderSectors(c); renderFood(c); renderCompare(); }
+
+function renderComp(c){
+  var p = PN.comp; p.innerHTML = "";
+  var yrs = c.complete, a = yrs[0], b = yrs[yrs.length-1];
+  var card = h("div","card",null,p);
+  h("h3",null,c.name + ": share of the economy by sector, " + (a||"") + "–" + (b||""),card);
+  h("div","sub","Share of gross value added, current prices. Eight sector families stacked to 100%. Hover for the exact split in any year.",card);
+  var lg = h("div","legend",null,card);
+  P.familyKeys.forEach(function(f,k){ var cb = c.notes.indexOf("primary_combined")>=0; if (cb && f[0]==="fishing") return; h("span","key",'<i style="background:'+col(FAMC[k])+'"></i>'+(f[0]==="agri_forest"&&cb?"Agriculture, forestry & fishing":f[1]),lg); });
+  var box = h("div","chart-box",null,card); drawStack(box, c);
+  var notes = [];
+  if (c.notes.indexOf("primary_combined")>=0) notes.push(c.name + " does not publish agriculture, forestry and fishing separately, so they are shown as one family.");
+  if (c.notes.indexOf("mining_energy_combined")>=0) notes.push(c.name + " publishes mining and energy supply only together (confidentiality); the family is computed as B–E minus manufacturing.");
+  if (b && b < c.years[c.years.length-1]) notes.push("The chart ends in " + b + " because the agricultural / fishing split for " + c.years.slice(c.years.indexOf(b)+1).join(", ") + " is not yet published. The other sectors for those years are on the ‘All 18 sectors’ tab.");
+  if (c.years[0] < (a||9999)) notes.push("Totals exist from " + c.years[0] + " but the full split starts in " + a + ".");
+  var fn = flagNote(c); if (fn) notes.push(fn);
+  if (notes.length) h("p","note",notes.join(" "),card);
+  // table
+  var tc = h("div","card",null,p); h("h3",null,"First and latest year compared",tc);
+  var sub = c.iso3==="EUU" ? "EU-27 aggregate in its 2020 composition, back-cast by Eurostat." : "EU-27 column shows the Union average in the latest year for which its full split is published, for scale.";
+  h("div","sub",sub,tc);
+  var ib = idx(c,b), ia = idx(c,a), eY = EU.complete.filter(function(y){ return y <= b; }).pop(), je = EU.years.indexOf(eY);
+  var comb = c.notes.indexOf("primary_combined")>=0;
+  var rows = P.familyKeys.map(function(f,k){ var v0 = c.family[f[0]][ia], v1 = c.family[f[0]][ib], d = v1 - v0, nm = f[1];
+    if (comb && f[0]==="agri_forest") nm = "Agriculture, forestry & fishing";
+    if (comb && f[0]==="fishing") return '<tr><td class="nm"><span class="sw" style="background:'+col(FAMC[k])+'"></span>'+nm+'</td><td class="num" colspan="3">included in the row above</td>'+(c.iso3==="EUU"?"":'<td class="num">'+(je<0?"—":pct(EU.family[f[0]][je]))+'</td>')+'</tr>';
+    return '<tr><td class="nm"><span class="sw" style="background:'+col(FAMC[k])+'"></span>'+nm+'</td><td class="num">'+pct(v0)+'</td><td class="num">'+pct(v1)+'</td><td class="num">'+(d>=0?"+":"")+d.toFixed(1)+'</td>'+
+      (c.iso3==="EUU"?"":'<td class="num">'+(je<0?"—":pct(EU.family[f[0]][je]))+'</td>')+'</tr>'; }).join("");
+  h("div","tscroll",'<table class="t"><thead><tr><th>Sector family</th><th class="num">'+a+'</th><th class="num">'+b+'</th><th class="num">Change, pts</th>'+(c.iso3==="EUU"?"":'<th class="num">EU-27 '+eY+'</th>')+'</tr></thead><tbody>'+rows+'</tbody></table>',tc);
+  h("p","note","A falling share is not necessarily a shrinking industry: a sector can grow in money terms and still lose share if the rest of the economy grows faster.",tc);
+}
+
+function renderSectors(c){
+  var p = PN.sectors; p.innerHTML = "";
+  var card = h("div","card",null,p); h("h3",null,c.name + ": each sector on its own scale",card);
+  h("div","sub","Share of gross value added, %. Each panel has its own vertical scale, so small sectors like fishing are readable — compare shapes across panels, not heights."+(c.iso3==="EUU"?"":" Dashed line: EU-27."),card);
+  if (c.iso3 !== "EUU") { var lg = h("div","legend",null,card); h("span","key",'<i class="ln" style="background:'+col("--series-1")+'"></i>'+c.name,lg); h("span","key",'<i class="dash"></i>EU-27',lg); }
+  var g = h("div","grid",null,card); g.style.position = "relative";
+  P.detailKeys.forEach(function(d){ var mcard = h("div","mini",null,g); h("h4",null,d[1],mcard);
+    var arr = c.detail[d[0]], li = -1; for (var i = arr.length-1; i >= 0; i--) if (arr[i] != null){ li = i; break; }
+    var fi = arr.findIndex(function(v){ return v != null; });
+    h("div","v", li<0 ? "&nbsp;" : c.years[fi]+": "+pct(arr[fi])+" → "+c.years[li]+": "+pct(arr[li]), mcard);
+    var bx = h("div","chart-box",null,mcard); drawMini(bx, c, d[0]); });
+  var fn = flagNote(c); if (fn) h("p","note",fn,card);
+  h("p","note","Fish processing is part of food manufacturing, not of fishing. Hotels & restaurants is the only consistently measured tourism proxy and understates tourism: it leaves out tourists’ spending on flights, transport, shops and recreation.",card);
+}
+
+function renderFood(c){
+  var p = PN.food; p.innerHTML = "";
+  var card = h("div","card",null,p); h("h3",null,c.name + ": food production, kept apart",card);
+  h("div","sub","Share of gross value added, %. Agriculture, fishing and forestry are separate industries in the accounts and are shown separately. Food, drink &amp; tobacco manufacturing — which includes fish processing, slaughterhouses and dairies — is shown alongside.",card);
+  var ser = [["agri","Agriculture"],["fish","Fishing & aquaculture"],["forest","Forestry"],["foodmfg","Food, drink & tobacco mfg"]]
+    .map(function(s){ return {name:s[1], vals:c.detail[s[0]], color:FOODC[s[0]]}; });
+  var lg = h("div","legend",null,card); ser.forEach(function(s){ h("span","key",'<i class="ln" style="background:'+col(s.color)+'"></i>'+s.name,lg); });
+  var box = h("div","chart-box",null,card); drawLines(box, c, ser, {label:"Food production shares, "+c.name});
+  var miss = ser.filter(function(s){ return s.vals.every(function(v){ return v == null; }); }).map(function(s){ return s.name; });
+  var notes = []; if (miss.length) notes.push("Not published separately for " + c.name + ": " + miss.join(", ") + ".");
+  if (c.notes.indexOf("primary_combined")>=0) { var a = c.agriCombined, li = a.length-1; while (li>0 && a[li]==null) li--; notes.push("Agriculture, forestry and fishing together: " + pct(a[0]) + " in " + c.years[0] + ", " + pct(a[li]) + " in " + c.years[li] + "."); }
+  notes.push("This is the value these industries add, not the tonnes or calories produced. Physical food production (harvests, catches, livestock) is a separate dataset and is the natural next step.");
+  h("p","note",notes.join(" "),card);
+}
+
+function renderCompare(){
+  var p = PN.compare; p.innerHTML = "";
+  var card = h("div","card",null,p); h("h3",null,"One sector across every country",card);
+  h("div","sub","Hollow dot: earliest published year. Filled dot: latest. Sorted by latest share. Click a country to open it on the other tabs.",card);
+  var ctl = h("div","controls",null,card); ctl.style.margin = "0 0 10px";
+  var lab = h("label",null,"Sector",ctl); lab.setAttribute("for","cmpSel");
+  var sel = h("select",null,null,ctl); sel.id = "cmpSel";
+  var og1 = h("optgroup",null,null,sel); og1.label = "18 sectors"; P.detailKeys.forEach(function(d){ var o = h("option",null,d[1],og1); o.value = "d:"+d[0]; });
+  var og2 = h("optgroup",null,null,sel); og2.label = "8 families"; P.familyKeys.forEach(function(d){ var o = h("option",null,d[1],og2); o.value = "f:"+d[0]; });
+  sel.value = cmpKey.indexOf(":")<0 ? "d:"+cmpKey : cmpKey;
+  var lg = h("div","legend",null,card); h("span","key",'<i class="hollow"></i>Earliest year',lg); h("span","key",'<i class="dot" style="background:'+col("--series-1")+'"></i>Latest year',lg);
+  var box = h("div","chart-box",null,card);
+  function go(){ cmpKey = sel.value; var k = sel.value.split(":"); drawCompare(box, k[1], k[0]==="f"); }
+  sel.onchange = go; go();
+  h("p","note","Earliest and latest years differ by country (1992–1995 start; 2018–2025 end), so read the change as ‘over the published period’. The United Kingdom ends in 2018–2019, when it stopped reporting to Eurostat.",card);
+}
+
+(function(){ var p = PN.method;
+  p.innerHTML = '<div class="card"><h3>What is measured</h3>'+
+  '<p><strong>Gross value added (GVA) by industry, current prices.</strong> GDP cannot be split by industry directly: GDP is GVA plus taxes on products minus subsidies, and that tax wedge belongs to no industry. So “fishing is x% of GDP”, in official statistics, always means x% of GVA. The two differ by roughly a tenth, which is why these shares may be slightly higher than figures quoted as “% of GDP”.</p>'+
+  '<p><strong>Why current prices.</strong> A share divides two values from the same year and currency, so exchange rates and inflation cancel. Chain-linked volume series do not add up and are never used for shares.</p>'+
+  '<p><strong>Classification.</strong> NACE Rev. 2, the EU industry classification, at Eurostat’s 64-industry level. Eighteen sectors are shown; they are grouped into eight families for the stacked chart. The groupings are fixed and the same for every country.</p></div>'+
+  '<div class="card"><h3>What is not estimated</h3><ul>'+
+  '<li>Every value is a published Eurostat figure divided by the same country’s published total. Nothing is interpolated, back-cast or pro-rated by this study.</li>'+
+  '<li>Where a split is confidential or unpublished — Switzerland’s agriculture / forestry / fishing, Malta’s mining and energy, Luxembourg’s food manufacturing, the latest year’s agricultural detail for several countries — the chart shows a gap or a combined family and says so.</li>'+
+  '<li>Coverage starts in 1992 for Denmark, Finland, Norway and France (1993 for the full split), 1993 for Sweden, and 1995 everywhere else; ESA 2010 accounts were not back-cast further for most countries. No figure before 1992 is shown.</li></ul></div>'+
+  '<div class="card"><h3>Tourism and food</h3>'+
+  '<p><strong>Tourism is not an industry in national accounts.</strong> Accommodation &amp; food services is the consistently measured proxy. It understates tourism — sharply for Iceland, where air transport and tourist retail are large — and also includes restaurant spending by residents. Tourism satellite accounts exist for some countries but are not comparable and are not used.</p>'+
+  '<p><strong>Food production is kept separate by industry.</strong> Agriculture (crops and livestock), fishing &amp; aquaculture and forestry are separate NACE divisions and are never added together here, except in Switzerland, which does not publish them apart. Fish processing belongs to food manufacturing.</p></div>'+
+  '<div class="card"><h3>Checks this page passed when it was built</h3><ul>'+
+  '<li>The raw file’s checksum, written at retrieval, matched on read.</li>'+
+  '<li>The fifteen NACE sections add up to the published total within 0.5% in every country-year.</li>'+
+  '<li>Agriculture + forestry + fishing equal the published primary-sector total within 0.5%.</li>'+
+  '<li>The eight families sum to 100% within 0.05 points in every plotted year (largest gap: '+Math.max.apply(null,P.countries.map(function(c){return c.maxResidual;})).toFixed(3)+' points).</li></ul>'+
+  '<p>Source: Eurostat, <em>nama_10_a64</em> — National accounts aggregates by industry (up to NACE A*64), item B1G, unit CP_MNAC. '+P.source.replace(/^source: /,"")+'</p></div>';
+})();
+
+/* ---------- picker ---------- */
+var pick = document.getElementById("pick");
+function opt(parent, iso){ var o = h("option", null, C[iso].iso3==="EUU" ? "EU-27 (average)" : C[iso].name, parent); o.value = iso; }
+var g1 = h("optgroup",null,null,pick); g1.label = "EU members";
+MEMBERS.slice().sort(function(a,b){ return C[a].name.localeCompare(C[b].name); }).forEach(function(i){ opt(g1,i); });
+var g2 = h("optgroup",null,null,pick); g2.label = "Outside the EU"; ["ISL","NOR","CHE","GBR"].forEach(function(i){ opt(g2,i); });
+var g3 = h("optgroup",null,null,pick); g3.label = "Aggregate"; opt(g3,"EUU");
+function select(iso){ if (!C[iso]) return; cur = iso; pick.value = iso; var a = document.getElementById("cpage"); a.href = C[iso].page; a.textContent = (iso==="EUU"?"The Union page":"Country page") + " →";
+  try { history.replaceState(null, "", "#" + iso); } catch(e) {} render(); }
+pick.onchange = function(){ select(pick.value); };
+var hsh = (location.hash || "").slice(1).toUpperCase();
+document.getElementById("stamp").textContent = "Built " + P.built + " from Eurostat nama_10_a64. " + P.countries.length + " series, " + P.countries.reduce(function(s,c){ return s + c.years.length; },0) + " country-years.";
+var rt; window.addEventListener("resize", function(){ clearTimeout(rt); rt = setTimeout(render, 150); });
+
+/* ---------- theme ---------- */
+var tb = document.getElementById("themeBtn"), modes = ["auto","light","dark"], mi = 0;
+try { var sv = localStorage.getItem("eu-theme"); if (sv && modes.indexOf(sv) >= 0) mi = modes.indexOf(sv); } catch(e) {}
+function applyTheme(){ var m = modes[mi]; if (m === "auto") document.documentElement.removeAttribute("data-theme"); else document.documentElement.setAttribute("data-theme", m); tb.textContent = "Theme: " + m; }
+tb.onclick = function(){ mi = (mi + 1) % 3; try { localStorage.setItem("eu-theme", modes[mi]); } catch(e) {} applyTheme(); };
+applyTheme();
+select(C[hsh] ? hsh : "ISL");
+})();
+</script>
+</body>
+</html>
